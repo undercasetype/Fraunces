@@ -1,0 +1,13 @@
+<glyph name="slash" format="2">
+  <advance width="420"/>
+  <unicode hex="002F"/>
+  <outline>
+    <component base="backslash" xScale="-1" xOffset="420"/>
+  </outline>
+  <lib>
+    <dict>
+	<key>public.markColor</key>
+	<string>1,1,0,1</string>
+</dict>
+  </lib>
+</glyph>

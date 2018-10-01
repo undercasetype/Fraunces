@@ -1,0 +1,42 @@
+<glyph name="guilsinglleft" format="2">
+  <advance width="384"/>
+  <unicode hex="2039"/>
+  <outline>
+    <contour>
+      <point x="164" y="248" type="line"/>
+      <point x="266" y="352" type="line" smooth="yes"/>
+      <point x="286" y="372"/>
+      <point x="294" y="384"/>
+      <point x="294" y="398" type="curve" smooth="yes"/>
+      <point x="294" y="409"/>
+      <point x="289" y="415"/>
+      <point x="279" y="415" type="curve" smooth="yes"/>
+      <point x="270" y="415"/>
+      <point x="260" y="411"/>
+      <point x="245" y="399" type="curve" smooth="yes"/>
+      <point x="107" y="293" type="line" smooth="yes"/>
+      <point x="82" y="274"/>
+      <point x="75" y="261"/>
+      <point x="75" y="248" type="curve" smooth="yes"/>
+      <point x="75.0" y="235.0"/>
+      <point x="82" y="222"/>
+      <point x="107" y="203" type="curve" smooth="yes"/>
+      <point x="245" y="97" type="line" smooth="yes"/>
+      <point x="260" y="85"/>
+      <point x="270" y="81"/>
+      <point x="279" y="81" type="curve" smooth="yes"/>
+      <point x="289" y="81"/>
+      <point x="294" y="87"/>
+      <point x="294" y="98" type="curve" smooth="yes"/>
+      <point x="294" y="112"/>
+      <point x="286" y="124"/>
+      <point x="266" y="144" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+	<key>public.markColor</key>
+	<string>1,1,0,1</string>
+</dict>
+  </lib>
+</glyph>
