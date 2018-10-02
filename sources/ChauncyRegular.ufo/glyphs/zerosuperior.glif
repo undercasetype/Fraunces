@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zerosuperior" format="2">
   <advance width="398"/>
   <outline>
@@ -30,4 +31,10 @@
       <point x="268" y="546"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
