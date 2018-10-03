@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ebreve" format="2">
+  <advance width="483"/>
+  <unicode hex="0115"/>
+  <outline>
+    <component base="e"/>
+    <component base="breve" xOffset="39" yOffset="-196"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9904,0.5003,0.0329,1</string>
+    </dict>
+  </lib>
+</glyph>
