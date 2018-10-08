@@ -4,45 +4,6 @@
   <unicode hex="00B8"/>
   <anchor x="143" y="113" name="center"/>
   <outline>
-    <contour>
-      <point x="128" y="48" type="line"/>
-      <point x="128" y="-55" type="line" smooth="yes"/>
-      <point x="128" y="-65"/>
-      <point x="137" y="-73"/>
-      <point x="146" y="-73" type="curve" smooth="yes"/>
-      <point x="154.10526315789474" y="-73.0"/>
-      <point x="161.4736842105263" y="-73.0"/>
-      <point x="174" y="-73" type="curve" smooth="yes"/>
-      <point x="208.14634146341464" y="-73.0"/>
-      <point x="230.0" y="-95.0"/>
-      <point x="230" y="-135" type="curve" smooth="yes"/>
-      <point x="230.0" y="-179.0"/>
-      <point x="211.1" y="-204.0"/>
-      <point x="185" y="-204" type="curve" smooth="yes"/>
-      <point x="166" y="-204.0"/>
-      <point x="155" y="-197"/>
-      <point x="155" y="-188" type="curve" smooth="yes"/>
-      <point x="155" y="-175" type="line" smooth="yes"/>
-      <point x="155" y="-151"/>
-      <point x="139" y="-135"/>
-      <point x="117" y="-135" type="curve" smooth="yes"/>
-      <point x="97" y="-135"/>
-      <point x="80" y="-152"/>
-      <point x="80" y="-174" type="curve" smooth="yes"/>
-      <point x="80.0" y="-213"/>
-      <point x="120" y="-245.0"/>
-      <point x="170" y="-245" type="curve" smooth="yes"/>
-      <point x="248.32432432432432" y="-245.0"/>
-      <point x="308.0" y="-198.352"/>
-      <point x="308" y="-126" type="curve" smooth="yes"/>
-      <point x="308.0" y="-63.0"/>
-      <point x="268.0672268907563" y="-21.0"/>
-      <point x="209" y="-21" type="curve" smooth="yes"/>
-      <point x="183" y="-21.0"/>
-      <point x="162" y="-31"/>
-      <point x="146" y="-55" type="curve"/>
-      <point x="176" y="-61" type="line"/>
-      <point x="176" y="50" type="line"/>
-    </contour>
+    <component base="cedillacomb"/>
   </outline>
 </glyph>
