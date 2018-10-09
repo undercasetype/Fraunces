@@ -102,7 +102,7 @@ Ohookabove = O + hookabovecomb.case@center,`top+50` | 1ECE
 Ohorn = O + horncomb.case@`innerRight+20`,`top-150`
 
 Ohornacute = Ohorn + acutecomb.case@O:center,O:`top+50` | 1EDA
-Ohorndotbelow = OOhorn + dotbelowcomb.case@center,descender | 1EE2
+Ohorndotbelow = Ohorn + dotbelowcomb.case@center,descender | 1EE2
 Ohorngrave = Ohorn + gravecomb.case@O:center,O:`top+50` | 1EDC
 Ohornhookabove = Ohorn + hookabovecomb.case@O:center,O:`top+50` | 1EDE
 Ohorntilde = Ohorn + tildecomb.case@O:center,O:`top+50` | 1EE0
