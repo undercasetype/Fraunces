@@ -48,6 +48,8 @@
     <string>A_invertedbreve.glif</string>
     <key>Amacron</key>
     <string>A_macron.glif</string>
+    <key>Aogonek</key>
+    <string>A_ogonek.glif</string>
     <key>Aring</key>
     <string>A_ring.glif</string>
     <key>Aringacute</key>
@@ -172,6 +174,8 @@
     <string>I_invertedbreve.glif</string>
     <key>Imacron</key>
     <string>I_macron.glif</string>
+    <key>Iogonek</key>
+    <string>I_ogonek.glif</string>
     <key>Itilde</key>
     <string>I_tilde.glif</string>
     <key>J</key>
@@ -184,8 +188,6 @@
     <string>K_commaaccent.glif</string>
     <key>L</key>
     <string>L_.glif</string>
-    <key>LJ</key>
-    <string>L_J_.glif</string>
     <key>Lacute</key>
     <string>L_acute.glif</string>
     <key>Lcaron</key>
@@ -194,24 +196,18 @@
     <string>L_commaaccent.glif</string>
     <key>Ldot</key>
     <string>L_dot.glif</string>
-    <key>Lj</key>
-    <string>L_j.glif</string>
     <key>Lslash</key>
     <string>L_slash.glif</string>
     <key>M</key>
     <string>M_.glif</string>
     <key>N</key>
     <string>N_.glif</string>
-    <key>NJ</key>
-    <string>N_J_.glif</string>
     <key>Nacute</key>
     <string>N_acute.glif</string>
     <key>Ncaron</key>
     <string>N_caron.glif</string>
     <key>Ncommaaccent</key>
     <string>N_commaaccent.glif</string>
-    <key>Nj</key>
-    <string>N_j.glif</string>
     <key>Ntilde</key>
     <string>N_tilde.glif</string>
     <key>O</key>
@@ -248,6 +244,8 @@
     <string>O_grave.glif</string>
     <key>Ohookabove</key>
     <string>O_hookabove.glif</string>
+    <key>Ohorn</key>
+    <string>O_horn.glif</string>
     <key>Ohornacute</key>
     <string>O_hornacute.glif</string>
     <key>Ohorndotbelow</key>
@@ -332,6 +330,8 @@
     <string>U_dotbelow.glif</string>
     <key>Ugrave</key>
     <string>U_grave.glif</string>
+    <key>Uhorn</key>
+    <string>U_horn.glif</string>
     <key>Uhornacute</key>
     <string>U_hornacute.glif</string>
     <key>Uhorndotbelow</key>
@@ -448,6 +448,8 @@
     <string>amacron.glif</string>
     <key>ampersand</key>
     <string>ampersand.glif</string>
+    <key>aogonek</key>
+    <string>aogonek.glif</string>
     <key>aring</key>
     <string>aring.glif</string>
     <key>aringacute</key>
@@ -736,6 +738,8 @@
     <string>ijacute.glif</string>
     <key>imacron</key>
     <string>imacron.glif</string>
+    <key>iogonek</key>
+    <string>iogonek.glif</string>
     <key>itilde</key>
     <string>itilde.glif</string>
     <key>j</key>
@@ -782,8 +786,6 @@
     <string>multiply.glif</string>
     <key>n</key>
     <string>n.glif</string>
-    <key>n.alt</key>
-    <string>n.alt.glif</string>
     <key>nacute</key>
     <string>nacute.glif</string>
     <key>napostrophe</key>
@@ -804,8 +806,6 @@
     <string>numero.glif</string>
     <key>o</key>
     <string>o.glif</string>
-    <key>o.alt</key>
-    <string>o.alt.glif</string>
     <key>oacute</key>
     <string>oacute.glif</string>
     <key>obreve</key>
@@ -844,6 +844,8 @@
     <string>ograve.glif</string>
     <key>ohookabove</key>
     <string>ohookabove.glif</string>
+    <key>ohorn</key>
+    <string>ohorn.glif</string>
     <key>ohornacute</key>
     <string>ohornacute.glif</string>
     <key>ohorndotbelow</key>
@@ -1014,6 +1016,8 @@
     <string>udotbelow.glif</string>
     <key>ugrave</key>
     <string>ugrave.glif</string>
+    <key>uhorn</key>
+    <string>uhorn.glif</string>
     <key>uhornacute</key>
     <string>uhornacute.glif</string>
     <key>uhorndotbelow</key>
