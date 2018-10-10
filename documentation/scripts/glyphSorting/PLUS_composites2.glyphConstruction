@@ -143,7 +143,7 @@ Uhorndotbelow = Uhorn + dotbelowcomb.case@center,descender | 1EF0
 Uhorngrave = Uhorn + gravecomb.case@U:center,U:`top+50` | 1EEA
 Uhornhookabove = Uhorn + hookabovecomb.case@U:center,U:`top+50` | 1EEC
 Uhorntilde = Uhorn + tildecomb.case@U:center,U:`top+50` | 1EEE
-
+Uhoi = U + hookabovecomb.case@center,`top+50` | 1EE6
 Uhungarumlaut = U + hungarumlautcomb.case@center,`top+50` | 0170
 Uinvertedbreve = U + brevecomb.case@center,`top+50` | 0216
 Umacron = U + macroncomb.case@center,`top+100` | 016A
@@ -310,6 +310,7 @@ uhorndotbelow = uhorn + dotbelowcomb@center,descender | 1EF1
 uhorngrave = uhorn + gravecomb@u:center,u:`top+50` | 1EEB
 uhornhookabove = uhorn + hookabovecomb@u:center,u:`top+50` | 1EED
 uhorntilde = uhorn + tildecomb@u:center,u:`top+50` | 1EEF
+uhoi = u + hookabovecomb@center,`top+50` | 1EE7
 uhungarumlaut = u + hungarumlautcomb@center,`top+50` | 0171
 uinvertedbreve = u + brevecomb@center,`top+50` | 0217
 umacron = u + macroncomb@center,`top+75` | 016B
@@ -340,3 +341,11 @@ Lj = L &\ j | 01C8
 Nj = N &\ j | 01CB
 lj = l &\ j | 01C9
 nj = l &\ j | 01CC
+
+## LIGATURES ##
+
+f_f = f & f | FB00
+fi = f & i | FB01
+fl = f & l | FB02
+f_f_i = f & i | FB03
+f_f_l = f & f & l | FB04
