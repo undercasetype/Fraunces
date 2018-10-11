@@ -1,2 +1,13 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+
+#@figures = [zero, one, two, three, four, five, six, seven, eight, nine]
+#@figures.case = [zero.case, one.case, two.case, three.case, four.case, five.case, six.case, seven.case, eight.case, nine.case]
+
+#feature case {
+#    sub @figures by @figures.case;
+#} case;
+
+feature liga {
+    sub f i by f_i;
+    } liga;
