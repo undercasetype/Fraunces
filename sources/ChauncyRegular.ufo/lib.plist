@@ -1014,6 +1014,7 @@
       <string>ijacute</string>
       <string>iogonek</string>
       <string>jdotless</string>
+      <string>kgreenlandic</string>
       <string>leftArrow</string>
       <string>leftBlackTriangle</string>
       <string>leftWhiteTriangle</string>
@@ -1183,46 +1184,6 @@
       <string>a.alt2</string>
       <string>germandbls.alt.sc</string>
       <string>a.sc</string>
-      <string>b.sc</string>
-      <string>c.sc</string>
-      <string>d.sc</string>
-      <string>e.sc</string>
-      <string>f.sc</string>
-      <string>g.sc</string>
-      <string>h.sc</string>
-      <string>i.sc</string>
-      <string>j.sc</string>
-      <string>k.sc</string>
-      <string>l.sc</string>
-      <string>m.sc</string>
-      <string>n.sc</string>
-      <string>o.sc</string>
-      <string>p.sc</string>
-      <string>q.sc</string>
-      <string>r.sc</string>
-      <string>s.sc</string>
-      <string>t.sc</string>
-      <string>u.sc</string>
-      <string>v.sc</string>
-      <string>w.sc</string>
-      <string>x.sc</string>
-      <string>y.sc</string>
-      <string>z.sc</string>
-      <string>germandbls.sc</string>
-      <string>ae.sc</string>
-      <string>eth.sc</string>
-      <string>oslash.sc</string>
-      <string>thorn.sc</string>
-      <string>dcroat.sc</string>
-      <string>hbar.sc</string>
-      <string>ldot.sc</string>
-      <string>lslash.sc</string>
-      <string>eng.sc</string>
-      <string>oe.sc</string>
-      <string>tbar.sc</string>
-      <string>dzcaron.sc</string>
-      <string>lj.sc</string>
-      <string>nj.sc</string>
       <string>agrave.sc</string>
       <string>aacute.sc</string>
       <string>acircumflex.sc</string>
@@ -1246,16 +1207,19 @@
       <string>abrevehookabove.sc</string>
       <string>abrevetilde.sc</string>
       <string>abrevedotbelow.sc</string>
-      <string>aeacute.sc</string>
+      <string>b.sc</string>
+      <string>c.sc</string>
       <string>ccedilla.sc</string>
       <string>cacute.sc</string>
       <string>ccircumflex.sc</string>
       <string>cdotaccent.sc</string>
       <string>ccaron.sc</string>
       <string>ccedillaacute.sc</string>
+      <string>d.sc</string>
       <string>dcaron.sc</string>
       <string>ddotbelow.sc</string>
       <string>dlinebelow.sc</string>
+      <string>e.sc</string>
       <string>egrave.sc</string>
       <string>eacute.sc</string>
       <string>ecircumflex.sc</string>
@@ -1278,15 +1242,19 @@
       <string>ecircumflexhookabove.sc</string>
       <string>ecircumflextilde.sc</string>
       <string>ecircumflexdotbelow.sc</string>
+      <string>f.sc</string>
+      <string>g.sc</string>
       <string>gcircumflex.sc</string>
       <string>gbreve.sc</string>
       <string>gdotaccent.sc</string>
       <string>gcommaaccent.sc</string>
       <string>gcaron.sc</string>
       <string>gmacron.sc</string>
+      <string>h.sc</string>
       <string>hcircumflex.sc</string>
       <string>hdotbelow.sc</string>
       <string>hbrevebelow.sc</string>
+      <string>i.sc</string>
       <string>igrave.sc</string>
       <string>iacute.sc</string>
       <string>icircumflex.sc</string>
@@ -1299,20 +1267,26 @@
       <string>idieresisacute.sc</string>
       <string>ihookabove.sc</string>
       <string>idotbelow.sc</string>
+      <string>j.sc</string>
       <string>jcircumflex.sc</string>
+      <string>k.sc</string>
       <string>kcommaaccent.sc</string>
+      <string>l.sc</string>
       <string>lacute.sc</string>
       <string>lcommaaccent.sc</string>
       <string>lcaron.sc</string>
       <string>ldotbelow.sc</string>
       <string>llinebelow.sc</string>
+      <string>m.sc</string>
       <string>mdotbelow.sc</string>
+      <string>n.sc</string>
       <string>ntilde.sc</string>
       <string>nacute.sc</string>
       <string>ncommaaccent.sc</string>
       <string>ncaron.sc</string>
       <string>ndotbelow.sc</string>
       <string>nlinebelow.sc</string>
+      <string>o.sc</string>
       <string>ograve.sc</string>
       <string>oacute.sc</string>
       <string>ocircumflex.sc</string>
@@ -1343,7 +1317,9 @@
       <string>ohornhookabove.sc</string>
       <string>ohorntilde.sc</string>
       <string>ohorndotbelow.sc</string>
-      <string>oslashacute.sc</string>
+      <string>p.sc</string>
+      <string>q.sc</string>
+      <string>r.sc</string>
       <string>racute.sc</string>
       <string>rcommaaccent.sc</string>
       <string>rcaron.sc</string>
@@ -1351,6 +1327,7 @@
       <string>rinvertedbreve.sc</string>
       <string>rdotbelow.sc</string>
       <string>rlinebelow.sc</string>
+      <string>s.sc</string>
       <string>sacute.sc</string>
       <string>scircumflex.sc</string>
       <string>scedilla.sc</string>
@@ -1358,12 +1335,14 @@
       <string>scommaaccent.sc</string>
       <string>sdotbelow.sc</string>
       <string>sacutedotaccent.sc</string>
+      <string>t.sc</string>
       <string>tcedilla.sc</string>
       <string>tcaron.sc</string>
       <string>tcommaaccent.sc</string>
       <string>tdotbelow.sc</string>
       <string>tlinebelow.sc</string>
       <string>tdieresis.sc</string>
+      <string>u.sc</string>
       <string>ugrave.sc</string>
       <string>uacute.sc</string>
       <string>ucircumflex.sc</string>
@@ -1385,10 +1364,14 @@
       <string>uhornhookabove.sc</string>
       <string>uhorntilde.sc</string>
       <string>uhorndotbelow.sc</string>
+      <string>v.sc</string>
+      <string>w.sc</string>
       <string>wcircumflex.sc</string>
       <string>wgrave.sc</string>
       <string>wacute.sc</string>
       <string>wdieresis.sc</string>
+      <string>x.sc</string>
+      <string>y.sc</string>
       <string>yacute.sc</string>
       <string>ydieresis.sc</string>
       <string>ycircumflex.sc</string>
@@ -1397,10 +1380,28 @@
       <string>ydotbelow.sc</string>
       <string>yhookabove.sc</string>
       <string>ytilde.sc</string>
+      <string>z.sc</string>
       <string>zacute.sc</string>
       <string>zdotaccent.sc</string>
       <string>zcaron.sc</string>
       <string>zdotbelow.sc</string>
+      <string>germandbls.sc</string>
+      <string>ae.sc</string>
+      <string>aeacute.sc</string>
+      <string>eth.sc</string>
+      <string>oslash.sc</string>
+      <string>oslashacute.sc</string>
+      <string>thorn.sc</string>
+      <string>dcroat.sc</string>
+      <string>hbar.sc</string>
+      <string>ldot.sc</string>
+      <string>lslash.sc</string>
+      <string>eng.sc</string>
+      <string>oe.sc</string>
+      <string>tbar.sc</string>
+      <string>dzcaron.sc</string>
+      <string>lj.sc</string>
+      <string>nj.sc</string>
       <string>exclam.sc</string>
       <string>exclamdown.sc</string>
       <string>question.sc</string>
