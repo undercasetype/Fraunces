@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uhoi" format="2">
-  <advance width="579"/>
-  <unicode hex="1EE7"/>
+<glyph name="ipa:schwa" format="2">
+  <advance width="483"/>
+  <unicode hex="0259"/>
   <outline>
-    <component base="u"/>
-    <component base="hookabovecomb" xOffset="129.5" yOffset="52"/>
+    <component base="e" xScale="-1" yScale="-1" xOffset="483" yOffset="464"/>
   </outline>
   <lib>
     <dict>
