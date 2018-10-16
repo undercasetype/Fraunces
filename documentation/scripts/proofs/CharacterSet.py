@@ -39,7 +39,7 @@ def drawglyph():
     
 # draw captions
 def drawcaptions():
-    t = 15 # em size
+    t = 12 # em size
     captionX = t
     captionW = width() - t*2
     captionH = t*2
@@ -133,13 +133,29 @@ for i, glyphName in enumerate(f.glyphOrder):
 ## SECTION 2: SPACING STRINGS ##
 
 sectiontitle = "Spacing Strings"
-newPage(pageWidth, pageHeight)
+newPage(pageWidth,pageHeight)
 drawcaptions()
-        
-for i, string in enumerate(drawcaptions()):
 
-    g = f[glyphName]
-    boxWidth = g.width*s
+f.testInstall()
+fontName = '%s-%s' % (f.info.familyName, f.info.styleName)
+
+fontsize = 18
+lineheight = 1.1* fontsize
+spacingstrings = list(stringgenerator())
+
+if fontName in installedFonts():
+        font(fontName)
+else:
+    print('font %s not installed' % fontName)
+        
+x = y = margin
+w = width() - margin*2
+h = height() - margin*2
+
+# set text sample
+fontSize(fontSize)
+lineHeight(lineHeight)
+textBox(spacingstrings, (x, y, w, h))
 
 ## SECTION 3: OPENTYPE & CASE FEATURES ##
 
