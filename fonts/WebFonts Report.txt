@@ -7,7 +7,7 @@ source: /Users/Cadmon/Documents/GitHub/Chauncy/sources/ChauncyRegular.ufo
 
 Build OTF
 '''''''''
-    path: /Users/Cadmon/Documents/GitHub/Chauncy/fonts/Chauncy-Regular_web.otf
+    path: /Users/Cadmon/Documents/GitHub/Chauncy/fonts/Chauncy-Regular.otf
     Source is a UFO file. Generate OTF.
         --------------------
         
@@ -609,16 +609,17 @@ Build OTF
          makeotfexe [WARNING] unhinted <ogonekcomb.case>
          makeotfexe [WARNING] unhinted <ringcomb.case>
          makeotfexe [WARNING] unhinted <tildecomb.case>
+         makeotfexe [WARNING] unhinted <a.alt>
          makeotfexe [WARNING] unhinted <ampersand.alt>
          makeotfexe [WARNING] unhinted <caroncomb.alt>
          makeotfexe [WARNING] subr stack depth exceeded (reduced)
          makeotfexe [WARNING] <Chauncy-Regular> Major version number not in range 1 .. 255 [features 38]
-         makeotfexe [NOTE] Wrote new font file 'tmp8zjxxe3r.otf'.
+         makeotfexe [NOTE] Wrote new font file 'tmpr35cd4dp.otf'.
          
-         Built release mode font 'tmp8zjxxe3r.otf' Revision 0.001
+         Built release mode font 'tmpr35cd4dp.otf' Revision 0.001
         
         --------------------
-        Hinting font /var/folders/p5/xc08fnjd2tz7bn_lh5mczltr0000gn/T/tmp8zjxxe3r.otf. Start time: Fri Nov  9 11:51:30 2018.
+        Hinting font /var/folders/p5/xc08fnjd2tz7bn_lh5mczltr0000gn/T/tmpr35cd4dp.otf. Start time: Thu Nov 15 14:36:18 2018.
         .........................................
         .........................................
         .........................................
@@ -633,14 +634,59 @@ Build OTF
         .........................................
         .........................................
         .........................................
-        ....................
-        Saving font file with new hints...Fri Nov  9 11:52:14 2018
-        Done with font /var/folders/p5/xc08fnjd2tz7bn_lh5mczltr0000gn/T/tmp8zjxxe3r.otf. End time: Fri Nov  9 11:52:14 2018.
+        .....................
+        Saving font file with new hints...Thu Nov 15 14:37:46 2018
+        Done with font /var/folders/p5/xc08fnjd2tz7bn_lh5mczltr0000gn/T/tmpr35cd4dp.otf. End time: Thu Nov 15 14:37:46 2018.
         
+
+Build TTF
+'''''''''
+    path: /Users/Cadmon/Documents/GitHub/Chauncy/fonts/Chauncy-Regular.ttf
+    Source is a UFO file. Generate TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotfexe [WARNING] <Chauncy-Regular> Major version number not in range 1 .. 255 [features 38]
+         makeotfexe [NOTE] Wrote new font file 'tmptz39zs1s.ttf'.
+         
+         Built release mode font 'tmptz39zs1s.ttf' Revision 0.001
+        
+        
+        Could not write loca, OS/2, cmap, name, GSUB, GPOS, GDEF tables in font. 
+         'ipaschwa'
+        
+        --------------------
+        Failed:
+        Traceback (most recent call last):
+          File "/Users/Cadmon/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/__init__.py", line 561, in run
+          File "/Users/Cadmon/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/__init__.py", line 424, in _convertPath
+          File "/Users/Cadmon/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/__init__.py", line 334, in _getTempTTF
+          File "/Users/Cadmon/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/__init__.py", line 139, in generateTTF
+          File "/Users/Cadmon/Library/Application Support/RoboFont/plugins/Batch.roboFontExt/lib/webFormats/autohint.py", line 94, in TTFAutohint
+          File "/Applications/RoboFont.app/Contents/Resources/lib/python3.6/fontTools/ttLib/ttFont.py", line 140, in __init__
+          File "/Applications/RoboFont.app/Contents/Resources/lib/python3.6/fontTools/ttLib/sfnt.py", line 76, in __init__
+        fontTools.ttLib.TTLibError: Not a TrueType or OpenType font (not enough data)
+        
+
+ChauncyItalic.ufo
+-----------------
+source: /Users/Cadmon/Documents/GitHub/Chauncy/sources/ChauncyItalic.ufo
+
+Build OTF
+'''''''''
+    path: /Users/Cadmon/Documents/GitHub/Chauncy/fonts/Chauncy-Italic.otf
+
+Build TTF
+'''''''''
+    path: /Users/Cadmon/Documents/GitHub/Chauncy/fonts/Chauncy-Italic.ttf
 
 Build WOFF (OTF)
 ''''''''''''''''
-    path: /Users/Cadmon/Documents/GitHub/Chauncy/fonts/Chauncy-Regular_web.woff
+    path: /Users/Cadmon/Documents/GitHub/Chauncy/fonts/Chauncy-Italic.woff
 
 
 

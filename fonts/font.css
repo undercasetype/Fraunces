@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'Chauncy_Regular';
-    src:    url('Chauncy-Regular_web.woff') format('woff');
+    font-family: 'Chauncy_Italic';
+    src:    url('Chauncy-Italic.woff') format('woff'),
+            url('Chauncy-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
