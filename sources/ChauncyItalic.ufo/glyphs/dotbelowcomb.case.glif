@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotbelowcomb.case" format="2">
+  <anchor x="52" y="-36" name="center"/>
   <outline>
-    <component base="dotbelowcomb"/>
+    <component base="dotbelowcomb" xOffset="-89" yOffset="4"/>
   </outline>
 </glyph>
