@@ -6,7 +6,7 @@ Abreve = A + brevecomb.case@center,`top+50` | 0102
 Abreveacute = A + brevecomb.case@center,`top+50` + acutecomb.case@center,`top+10` | 1EAE
 Abrevedotbelow = Abreve + dotbelowcomb.case@center,descender | 1EB6
 Abrevegrave = A + brevecomb.case@center,`top+50` + gravecomb.case@center,`top+10` | 1EB0
-Abrevehookabove = A + brevecomb.case@center,`top+50` + hookabovecomb.case@center,top | 1EB2
+Abrevehookabove = A + brevecomb.case@center,`top+50` + hookabovecomb.case@center,`top+20` | 1EB2
 Abrevetilde = A + brevecomb.case@center,`top+50` + tildecomb.case@center,`top+30` | 1EB4
 Acircumflex = A + circumflexcomb.case@center,`top+50` | 00C2
 Acircumflexacute = A + circumflexcomb.case@center,`top+50` + acutecomb.case@`right-30`,`top-20` | 1EA4
@@ -47,7 +47,7 @@ Edieresis = E + dieresiscomb.case@center,`top+50` | 00CB
 Edotaccent = E + dotaccentcomb.case@center,`top+50` | 0116
 Edotbelow = E + dotbelowcomb.case@center,descender | 1EB8
 Egrave = E + gravecomb.case@center,`top+50` | 00C8
-Ehookabove = E + hookabovecomb.case@center,`top+50` | 1EBA
+Ehookabove = E + hookabovecomb.case@center,`top+30` | 1EBA
 Einvertedbreve = E + brevecomb.case@center,`top+50` | 0206
 Emacron = E + macroncomb.case@center,`top+100` | 0112
 Eogonek = E + ogonekcomb.case@`innerRight-40`,descender | 0118
@@ -340,7 +340,7 @@ NJ = N &\ J | 01CA
 Lj = L &\ j | 01C8
 Nj = N &\ j | 01CB
 lj = l &\ j | 01C9
-nj = l &\ j | 01CC
+nj = n &\ j | 01CC
 
 ## LIGATURES ##
 
