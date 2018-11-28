@@ -707,6 +707,7 @@
       <string>dzcaron</string>
       <string>lj</string>
       <string>nj</string>
+      <string>mu</string>
       <string>Dzcaron</string>
       <string>Lj</string>
       <string>Nj</string>
@@ -740,6 +741,8 @@
       <string>bracketright</string>
       <string>braceleft</string>
       <string>braceright</string>
+      <string>bracketangleleft</string>
+      <string>bracketangleright</string>
       <string>numbersign</string>
       <string>percent</string>
       <string>perthousand</string>
@@ -794,6 +797,7 @@
       <string>approxequal</string>
       <string>notequal</string>
       <string>logicalnot</string>
+      <string>commercialminussign</string>
       <string>divisionslash</string>
       <string>bulletoperator</string>
       <string>dollar</string>
@@ -801,6 +805,7 @@
       <string>sterling</string>
       <string>currency</string>
       <string>yen</string>
+      <string>colonmonetary</string>
       <string>franc</string>
       <string>lira</string>
       <string>naira</string>
@@ -832,6 +837,7 @@
       <string>registered</string>
       <string>trademark</string>
       <string>degree</string>
+      <string>hyphensoft</string>
       <string>uniE0FF</string>
       <string>uniEFFD</string>
       <string>uniF000</string>
@@ -854,7 +860,6 @@
       <string>colonsign</string>
       <string>commaaccentcomb</string>
       <string>commaturnedabovecomb</string>
-      <string>commercialMinusSign</string>
       <string>dblgravecomb</string>
       <string>dieresisbelowcomb</string>
       <string>dieresiscomb</string>
@@ -876,13 +881,10 @@
       <string>iogonek</string>
       <string>ipa:schwa</string>
       <string>jdotless</string>
-      <string>leftanglebracket-math</string>
       <string>macronbelowcomb</string>
       <string>macroncomb</string>
-      <string>micro</string>
       <string>ogonekcomb</string>
       <string>ohorn</string>
-      <string>rightanglebracket-math</string>
       <string>ringcomb</string>
       <string>softhyphen</string>
       <string>strokeshortcomb</string>
@@ -894,15 +896,6 @@
       <string>fl</string>
       <string>f_f_i</string>
       <string>f_f_l</string>
-      <string>brevecomb_acutecomb</string>
-      <string>brevecomb_gravecomb</string>
-      <string>brevecomb_hookabovecomb</string>
-      <string>brevecomb_tildecomb</string>
-      <string>circumflexcomb_acutecomb</string>
-      <string>circumflexcomb_gravecomb</string>
-      <string>circumflexcomb_hookabovecomb</string>
-      <string>circumflexcomb_tildecomb</string>
-      <string>periodcentered.loclCAT</string>
       <string>zero.case</string>
       <string>one.case</string>
       <string>two.case</string>
