@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dcroat" format="2">
-  <advance width="555"/>
+  <advance width="576"/>
   <unicode hex="0111"/>
   <outline>
-    <component base="eth"/>
+    <contour>
+      <point x="299.0" y="544" type="curve" smooth="yes"/>
+      <point x="299.0" y="531"/>
+      <point x="306" y="523"/>
+      <point x="319" y="523.0" type="curve" smooth="yes"/>
+      <point x="539" y="523.0" type="line" smooth="yes"/>
+      <point x="552.0" y="523.0"/>
+      <point x="561" y="531"/>
+      <point x="561" y="544" type="curve" smooth="yes"/>
+      <point x="561" y="556"/>
+      <point x="552.0" y="565.0"/>
+      <point x="539" y="565" type="curve" smooth="yes"/>
+      <point x="320" y="565" type="line" smooth="yes"/>
+      <point x="308" y="565"/>
+      <point x="299.0" y="556"/>
+    </contour>
+    <component base="d"/>
   </outline>
   <lib>
     <dict>
