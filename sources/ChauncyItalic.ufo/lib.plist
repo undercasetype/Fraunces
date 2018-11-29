@@ -68,6 +68,8 @@
     <integer>5</integer>
     <key>com.typemytype.robofont.guideline.magnetic.cJGWne72uT</key>
     <integer>5</integer>
+    <key>com.typemytype.robofont.guideline.magnetic.cUcQDh6VgP</key>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.j6VTdcgzN7</key>
     <integer>5</integer>
     <key>com.typemytype.robofont.guideline.magnetic.p23oSKUL9m</key>
@@ -83,6 +85,8 @@
     <key>com.typemytype.robofont.guideline.showMeasurements.FQ112KpiGq</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.YqhlAZkVMg</key>
+    <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.cUcQDh6VgP</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.t8ESiOmsvi</key>
     <false/>
@@ -816,6 +820,7 @@
       <string>peso</string>
       <string>guarani</string>
       <string>cedi</string>
+      <string>indianrupee</string>
       <string>manat</string>
       <string>ruble</string>
       <string>asciicircum</string>
@@ -877,7 +882,6 @@
       <string>idotaccent</string>
       <string>idotless</string>
       <string>ijacute</string>
-      <string>indianrupee</string>
       <string>iogonek</string>
       <string>ipa:schwa</string>
       <string>jdotless</string>
@@ -896,6 +900,7 @@
       <string>fl</string>
       <string>f_f_i</string>
       <string>f_f_l</string>
+      <string>caroncomb.alt</string>
       <string>zero.case</string>
       <string>one.case</string>
       <string>two.case</string>
@@ -928,12 +933,6 @@
       <string>ogonekcomb.case</string>
       <string>ringcomb.case</string>
       <string>tildecomb.case</string>
-      <string>N.alt</string>
-      <string>e.alt</string>
-      <string>n.alt</string>
-      <string>o.alt</string>
-      <string>p.alt</string>
-      <string>caroncomb.alt</string>
     </array>
   </dict>
 </plist>
