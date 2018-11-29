@@ -267,7 +267,7 @@ ograve = o + gravecomb@center,`top+50` | 00F2
 ohookabove = o + hookabovecomb@center,`top+50` | 1ECF
 
 #create ohorn first
-ohorn = o + horncomb@`innerRight+50`,`top-120`
+ohorn = o + horncomb@`innerRight+150`,`top-120`
 
 ohornacute = ohorn + acutecomb@o:center,o:`top+50` | 1EDB
 ohorndotbelow = ohorn + dotbelowcomb@center,descender | 1EE3

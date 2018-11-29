@@ -3,6 +3,12 @@
   <advance width="750"/>
   <outline>
     <component base="O"/>
-    <component base="horncomb.case" xOffset="326.02784468642255" yOffset="34"/>
+    <component base="horncomb.case" xOffset="381.5693901697256" yOffset="34"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

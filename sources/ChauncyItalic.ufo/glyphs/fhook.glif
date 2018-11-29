@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fhook" format="2">
   <advance width="372"/>
+  <unicode hex="0192"/>
   <outline>
     <contour>
       <point x="125" y="-24" type="line" smooth="yes"/>
@@ -67,4 +68,10 @@
       <point x="254" y="370" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="foursuperior" format="2">
+<glyph name="four.superior" format="2">
   <advance width="389"/>
+  <unicode hex="2074"/>
   <outline>
     <contour>
       <point x="345" y="480"/>
@@ -204,4 +205,10 @@
       <point x="317" y="551"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
 </glyph>
