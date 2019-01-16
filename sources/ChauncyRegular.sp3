@@ -8,28 +8,90 @@
     <data name="horizontalPreviewAxis" value="Weight"/>
     <data name="lineInverted" value="False"/>
     <data name="lineViewFilled" value="True"/>
-    <data name="lineStacked" value="sequence"/>
-    <data name="generateFontsAtFolder" value="/Users/spencercharles/Documents/Git Repositories/Chauncy/sources/instances"/>
-    <data name="previewtext" value="nano"/>
-    <data name="verticalPreviewAxis" value="None"/>
+    <data name="lineStacked" value="lined"/>
+    <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Chauncy/sources/instances"/>
+    <data name="previewtext" value="nnonnoonono"/>
+    <data name="verticalPreviewAxis" value="optical"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
     <!-- axis definitions -->
+    <axis maximum="72.000000" minimum="6.000000" name="optical" shortname="opsz">
+        <color a="1.000" b="0.056" g="0.775" r="0.752"/>
+    </axis>
     <axis maximum="1000.000000" minimum="0.000000" name="Weight" shortname="x002">
         <color a="1.000" b="0.686" g="1.196" r="0.794"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Chauncy" filename="ChauncyRegular.ufo" sortorder="0" stylename="Regular">
+    <master familyname="Chauncy" filename="ChauncyRegular.ufo" sortorder="2" stylename="Regular">
         <location>
+            <dimension name="optical" xvalue="16.000000"/>
             <dimension name="Weight" xvalue="400.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Chauncy" filename="ChauncyRegular_WeightMax.ufo" sortorder="1" stylename="Bold">
+    <master familyname="Chauncy" filename="ChauncyRegular_WeightMax.ufo" sortorder="5" stylename="Bold">
         <location>
+            <dimension name="optical" xvalue="16.000000"/>
             <dimension name="Weight" xvalue="800.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
+    <master familyname="Chauncy" filename="Chauncy_OpticalMax.ufo" sortorder="3" stylename="OpMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="Weight" xvalue="432.148018"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
     <!-- instance definitions -->
+    <instance familyname="Chauncy" filename="instances/Chauncy-SemiBold.ufo" sortorder="4" stylename="Semi Bold">
+        <location>
+            <dimension name="optical" xvalue="16.000000"/>
+            <dimension name="Weight" xvalue="600.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Chauncy" filename="instances/Chauncy-Light.ufo" sortorder="0" stylename="Light">
+        <location>
+            <dimension name="optical" xvalue="16.000000"/>
+            <dimension name="Weight" xvalue="180.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Chauncy" filename="instances/Chauncy-Black.ufo" sortorder="7" stylename="Black">
+        <location>
+            <dimension name="optical" xvalue="16.000000"/>
+            <dimension name="Weight" xvalue="1000.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Chauncy" filename="instances/Chauncy-BoldOpMax.ufo" sortorder="6" stylename="Bold Op Max">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="Weight" xvalue="800.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Chauncy" filename="instances/Chauncy-LightOpMax.ufo" sortorder="1" stylename="Light Op Max">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="Weight" xvalue="145.045605"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
 </designspace>
