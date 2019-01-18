@@ -10,7 +10,7 @@
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Chauncy/sources/instances"/>
-    <data name="previewtext" value="on no noon"/>
+    <data name="previewtext" value="adhesions.s"/>
     <data name="verticalPreviewAxis" value="None"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -19,7 +19,7 @@
         <color a="1.000" b="0.694" g="1.226" r="0.905"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Chauncy" filename="ChauncyItalic_WeightMax.ufo" sortorder="2" stylename="Bold Italic">
+    <master familyname="Chauncy" filename="ChauncyItalic_WeightMax.ufo" sortorder="3" stylename="Bold Italic">
         <location>
             <dimension name="NewAxis001" xvalue="800.000000"/>
         </location>
@@ -35,6 +35,15 @@
     <instance familyname="Chauncy" filename="instances/Chauncy-Light.ufo" sortorder="0" stylename="Light">
         <location>
             <dimension name="NewAxis001" xvalue="180.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Chauncy" filename="instances/Chauncy-Semibold.ufo" sortorder="2" stylename="Semibold">
+        <location>
+            <dimension name="NewAxis001" xvalue="600.000000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>
