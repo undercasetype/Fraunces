@@ -24,7 +24,7 @@
     <!-- master definitions -->
     <master familyname="Chauncy" filename="ChauncyRegular.ufo" sortorder="1" stylename="Regular">
         <location>
-            <dimension name="optical" xvalue="25.783669"/>
+            <dimension name="optical" xvalue="25.000000"/>
             <dimension name="Weight" xvalue="400.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
@@ -57,7 +57,7 @@
     <instance familyname="Chauncy" filename="instances/Chauncy-Light.ufo" sortorder="4" stylename="Light">
         <location>
             <dimension name="optical" xvalue="16.000000"/>
-            <dimension name="Weight" xvalue="180.000000"/>
+            <dimension name="Weight" xvalue="150.000000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>
@@ -96,7 +96,7 @@
     </instance>
     <instance familyname="Chauncy" filename="instances/Chauncy-Regular.ufo" sortorder="5" stylename="Regular">
         <location>
-            <dimension name="optical" xvalue="25.000000"/>
+            <dimension name="optical" xvalue="16.000000"/>
             <dimension name="Weight" xvalue="400.000000"/>
         </location>
         <provideFeatures state="1"/>
