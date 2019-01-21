@@ -10,7 +10,7 @@
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Chauncy/sources/instances"/>
-    <data name="previewtext" value="Danishes On A Hind"/>
+    <data name="previewtext" value="ADHESION adhesion"/>
     <data name="verticalPreviewAxis" value="None"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -32,7 +32,7 @@
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Chauncy" filename="instances/Chauncy-Light.ufo" sortorder="0" stylename="Light">
+    <instance familyname="Chauncy" filename="../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Chauncy-Light.ufo" sortorder="0" stylename="Light">
         <location>
             <dimension name="NewAxis001" xvalue="180.000000"/>
         </location>
@@ -41,7 +41,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-Semibold.ufo" sortorder="2" stylename="Semibold">
+    <instance familyname="Chauncy" filename="../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Chauncy-Semibold.ufo" sortorder="2" stylename="Semibold">
         <location>
             <dimension name="NewAxis001" xvalue="600.000000"/>
         </location>
