@@ -5,89 +5,49 @@
     <version superpolator="2"/>
     <!-- measurements -->
     <!-- application data -->
-    <data name="horizontalPreviewAxis" value="NewAxis001"/>
+    <data name="horizontalPreviewAxis" value="optical"/>
     <data name="lineInverted" value="False"/>
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Chauncy/sources/instances"/>
-    <data name="previewtext" value="adhesions."/>
-    <data name="verticalPreviewAxis" value="optical"/>
+    <data name="previewtext" value="adhesions.s"/>
+    <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
     <!-- axis definitions -->
-    <axis maximum="1000.000000" minimum="0.000000" name="NewAxis001" shortname="x001">
-        <color a="1.000" b="0.694" g="1.226" r="0.905"/>
-    </axis>
     <axis maximum="72.000000" minimum="6.000000" name="optical" shortname="opsz">
         <color a="1.000" b="0.095" g="0.000" r="0.749"/>
     </axis>
+    <axis maximum="1000.000000" minimum="0.000000" name="weight" shortname="x002">
+        <color a="1.000" b="0.694" g="1.226" r="0.905"/>
+    </axis>
     <!-- master definitions -->
-    <master familyname="Chauncy" filename="ChauncyItalic_WeightMax.ufo" sortorder="7" stylename="Bold Italic">
+    <master familyname="Chauncy" filename="ChauncyItalic_WeightMax.ufo" sortorder="3" stylename="Bold Italic">
         <location>
-            <dimension name="NewAxis001" xvalue="800.000000"/>
-            <dimension name="optical" xvalue="16.000000"/>
+            <dimension name="optical" xvalue="6.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Chauncy" filename="ChauncyItalic.ufo" sortorder="2" stylename="Italic">
+    <master familyname="Chauncy" filename="ChauncyItalic.ufo" sortorder="0" stylename="Italic">
         <location>
-            <dimension name="NewAxis001" xvalue="400.000000"/>
-            <dimension name="optical" xvalue="16.000000"/>
+            <dimension name="optical" xvalue="6.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Chauncy" filename="ChauncyItalic_OpticalMax.ufo" sortorder="5" stylename="Italic Op Max">
+    <master familyname="Chauncy" filename="ChauncyItalic_OpticalMax.ufo" sortorder="1" stylename="Italic Op Max">
         <location>
-            <dimension name="NewAxis001" xvalue="400.000000"/>
             <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Chauncy" filename="instances/Chauncy-Light.ufo" sortorder="0" stylename="Light">
+    <instance familyname="Chauncy" filename="instances/Chauncy-Semibold.ufo" sortorder="2" stylename="Semibold">
         <location>
-            <dimension name="NewAxis001" xvalue="200.000000"/>
-            <dimension name="optical" xvalue="16.000000"/>
-        </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
-    </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-Semibold.ufo" sortorder="6" stylename="Semibold">
-        <location>
-            <dimension name="NewAxis001" xvalue="600.000000"/>
-            <dimension name="optical" xvalue="16.000000"/>
-        </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
-    </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-ItalicOpMin.ufo" sortorder="1" stylename="Italic Op Min">
-        <location>
-            <dimension name="NewAxis001" xvalue="400.000000"/>
             <dimension name="optical" xvalue="6.000000"/>
-        </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
-    </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-ItalicOpMed.ufo" sortorder="3" stylename="Italic Op Med">
-        <location>
-            <dimension name="NewAxis001" xvalue="400.000000"/>
-            <dimension name="optical" xvalue="40.786339"/>
-        </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
-    </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-OpBanner.ufo" sortorder="4" stylename="Op Banner">
-        <location>
-            <dimension name="NewAxis001" xvalue="400.000000"/>
-            <dimension name="optical" xvalue="60.719560"/>
+            <dimension name="weight" xvalue="700.000000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>

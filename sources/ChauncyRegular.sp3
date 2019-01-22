@@ -22,82 +22,32 @@
         <color a="1.000" b="0.686" g="1.196" r="0.794"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Chauncy" filename="ChauncyRegular.ufo" sortorder="1" stylename="Regular">
+    <master familyname="Chauncy" filename="ChauncyRegular.ufo" sortorder="0" stylename="Regular">
         <location>
-            <dimension name="optical" xvalue="25.000000"/>
-            <dimension name="Weight" xvalue="400.000000"/>
+            <dimension name="optical" xvalue="6.000000"/>
+            <dimension name="Weight" xvalue="0.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Chauncy" filename="ChauncyRegular_WeightMax.ufo" sortorder="7" stylename="Bold">
+    <master familyname="Chauncy" filename="ChauncyRegular_WeightMax.ufo" sortorder="3" stylename="Bold">
         <location>
-            <dimension name="optical" xvalue="16.000000"/>
-            <dimension name="Weight" xvalue="800.000000"/>
+            <dimension name="optical" xvalue="6.000000"/>
+            <dimension name="Weight" xvalue="1000.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Chauncy" filename="Chauncy_OpticalMax.ufo" sortorder="3" stylename="OpMax">
+    <master familyname="Chauncy" filename="Chauncy_OpticalMax.ufo" sortorder="1" stylename="OpMax">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
-            <dimension name="Weight" xvalue="400.000000"/>
+            <dimension name="Weight" xvalue="0.000000"/>
         </location>
         <color a="1.000" b="0.000" g="0.093" r="1.000"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Chauncy" filename="instances/Chauncy-SemiBold.ufo" sortorder="6" stylename="Semi Bold">
-        <location>
-            <dimension name="optical" xvalue="16.000000"/>
-            <dimension name="Weight" xvalue="600.000000"/>
-        </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
-    </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-Light.ufo" sortorder="4" stylename="Light">
-        <location>
-            <dimension name="optical" xvalue="16.000000"/>
-            <dimension name="Weight" xvalue="150.000000"/>
-        </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
-    </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-Black.ufo" sortorder="8" stylename="Black">
-        <location>
-            <dimension name="optical" xvalue="16.000000"/>
-            <dimension name="Weight" xvalue="1000.000000"/>
-        </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
-    </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-OpMin.ufo" sortorder="0" stylename="OpMin">
+    <instance familyname="Chauncy" filename="instances/Chauncy-Semibold.ufo" sortorder="2" stylename="Semibold">
         <location>
             <dimension name="optical" xvalue="6.000000"/>
-            <dimension name="Weight" xvalue="400.000000"/>
-        </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
-    </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-RegDisplay.ufo" sortorder="2" stylename="Reg Display">
-        <location>
-            <dimension name="optical" xvalue="49.117993"/>
-            <dimension name="Weight" xvalue="400.000000"/>
-        </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
-    </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-Regular.ufo" sortorder="5" stylename="Regular">
-        <location>
-            <dimension name="optical" xvalue="16.000000"/>
-            <dimension name="Weight" xvalue="400.000000"/>
+            <dimension name="Weight" xvalue="700.000000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>
