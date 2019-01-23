@@ -4,9 +4,9 @@
 # from drawBot import *
 import math
 
-shortSample = "ADHESION adhesion"
+shortSample = "adhesion"
 
-pangrams = "ADHESION adhesion"
+pangrams = "adhesion"
 
 for page in range(6):
     newPage('Letter')
@@ -30,7 +30,7 @@ for page in range(6):
     
 
 
-    def placeText(fontName,margin, topMargin, line, weight=0):
+    def placeText(fontName,margin, topMargin, line, optical=6):
         # if fontName > "./LibreCaslonText-VF.ttf":
         #     fontVariations(wght=weight)
         
@@ -38,13 +38,13 @@ for page in range(6):
         textBoxSize = (pageMargin*2, H-topMargin, W-pageMargin*3, boxHeight)
         textBox(pangrams, textBoxSize)
     
-        if weight > 1:
+        if optical > 7:
             
-            fontVariations(wght=weight)
+            fontVariations(opsz=optical)
         
-            font("Vulf-Mono", 8)
+            font("VulfMono-Light", 8)
             captionBoxSize = (pageMargin, H-topMargin, W-margin*2, boxHeight)
-            textBox(str(floor(weight)), captionBoxSize)
+            textBox(str(floor(optical)), captionBoxSize)
             
             if line == 0:
                 
@@ -52,7 +52,7 @@ for page in range(6):
                 
                 left, top, width, height = pageMargin, H-pageMargin-fontSize/2, W-margin*2, boxHeight
             
-                textBox("wght", (left, top, width, height))
+                textBox("opsz", (left, top, width, height))
                 textBox("Libre Caslon Text Roman & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
                 
                 dateWidth = 240
@@ -65,7 +65,7 @@ for page in range(6):
 
     for line in range(lines):
         
-        caslonWeight = round_to_even(400 + (120/lines)*line)
+        opticalSize = round_to_even(6 + (72/lines)*line)
         
         lineHeight(fontSize*1)
         fill(0)
@@ -76,8 +76,8 @@ for page in range(6):
         
         topMargin = pageMargin*2 + margin * line*2 + fontSize
         
-        placeText("./fonts/ChauncyRegular-VF.ttf",margin,topMargin, line, weight=caslonWeight)
-        placeText("./ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line)
+        placeText("./fonts/ChauncyRegular-VF.ttf",margin,topMargin, line, optical=opticalSize)
+        placeText("./fonts/ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line)
 
 
     # margin= fontSize
