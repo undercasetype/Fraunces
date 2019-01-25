@@ -22,36 +22,28 @@
         <color a="1.000" b="0.694" g="1.226" r="0.905"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Chauncy" filename="ChauncyItalic_WeightMax.ufo" sortorder="3" stylename="Bold Italic">
-        <location>
-            <dimension name="optical" xvalue="24.000000"/>
-            <dimension name="weight" xvalue="800.000000"/>
-        </location>
-        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
-    </master>
-    <master familyname="Chauncy" filename="ChauncyItalic.ufo" sortorder="0" stylename="Italic">
-        <location>
-            <dimension name="optical" xvalue="24.000000"/>
-            <dimension name="weight" xvalue="400.000000"/>
-        </location>
-        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
-    </master>
-    <master familyname="Chauncy" filename="ChauncyItalic_OpticalMax.ufo" sortorder="1" stylename="Italic Op Max">
+    <master familyname="Chauncy" filename="ChauncyItalic_OpticalMax.ufo" sortorder="0" stylename="Italic Optical Max">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <!-- instance definitions -->
-    <instance familyname="Chauncy" filename="instances/Chauncy-Semibold.ufo" sortorder="2" stylename="Semibold">
+    <master familyname="Chauncy" filename="ChauncyItalic_WeightMax.ufo" sortorder="1" stylename="Italic Bold">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
-            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
         </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Chauncy" filename="ChauncyItalic.ufo" sortorder="2" stylename="Italic">
+        <location>
+            <dimension name="optical" xvalue="24.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
         <provideLib state="1"/>
         <provideInfo state="1"/>
-    </instance>
+    </master>
+    <!-- instance definitions -->
 </designspace>

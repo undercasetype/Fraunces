@@ -5,33 +5,24 @@
         <axis default="400" maximum="800" minimum="400" name="weight" tag="wght" />
     </axes>
     <sources>
-        <source familyname="Chauncy" filename="ChauncyItalic.ufo" stylename="Italic">
-            <location>
-                <dimension name="optical" xvalue="24" />
-                <dimension name="weight" xvalue="400" />
-            </location>
-        </source>
-        <source familyname="Chauncy" filename="ChauncyItalic_OpticalMax.ufo" stylename="Italic Op Max">
+        <source familyname="Chauncy" filename="ChauncyItalic_OpticalMax.ufo" stylename="Italic Optical Max">
             <location>
                 <dimension name="optical" xvalue="96" />
                 <dimension name="weight" xvalue="400" />
             </location>
         </source>
-        <source familyname="Chauncy" filename="ChauncyItalic_WeightMax.ufo" stylename="Bold Italic">
+        <source familyname="Chauncy" filename="ChauncyItalic_WeightMax.ufo" stylename="Italic Bold">
             <location>
                 <dimension name="optical" xvalue="24" />
                 <dimension name="weight" xvalue="800" />
             </location>
         </source>
-    </sources>
-    <instances>
-        <instance familyname="Chauncy" filename="instances/Chauncy-Semibold.ufo" postscriptfontname="Chauncy-Semibold" stylename="Semibold">
+        <source familyname="Chauncy" filename="ChauncyItalic.ufo" stylename="Italic">
+            <info copy="1" />
             <location>
                 <dimension name="optical" xvalue="24" />
-                <dimension name="weight" xvalue="600" />
+                <dimension name="weight" xvalue="400" />
             </location>
-            <kerning />
-            <info />
-        </instance>
-    </instances>
+        </source>
+    </sources>
 </designspace>

@@ -5,63 +5,45 @@
     <version superpolator="2"/>
     <!-- measurements -->
     <!-- application data -->
-    <data name="horizontalPreviewAxis" value="Weight"/>
+    <data name="horizontalPreviewAxis" value="optical"/>
     <data name="lineInverted" value="False"/>
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Chauncy/sources/instances"/>
-    <data name="previewtext" value="ADHESION."/>
-    <data name="verticalPreviewAxis" value="optical"/>
+    <data name="previewtext" value="ADHESION adhesion"/>
+    <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
     <!-- axis definitions -->
     <axis maximum="96.000000" minimum="24.000000" name="optical" shortname="opsz">
         <color a="1.000" b="0.056" g="0.775" r="0.752"/>
     </axis>
-    <axis maximum="800.000000" minimum="400.000000" name="Weight" shortname="wght">
-        <color a="1.000" b="0.686" g="1.196" r="0.794"/>
+    <axis maximum="800.000000" minimum="400.000000" name="weight" shortname="wght">
+        <color a="1.000" b="0.694" g="1.226" r="0.905"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Chauncy" filename="ChauncyRegular.ufo" sortorder="0" stylename="Regular">
-        <location>
-            <dimension name="optical" xvalue="24.000000"/>
-            <dimension name="Weight" xvalue="400.000000"/>
-        </location>
-        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
-    </master>
-    <master familyname="Chauncy" filename="ChauncyRegular_WeightMax.ufo" sortorder="3" stylename="Bold">
-        <location>
-            <dimension name="optical" xvalue="24.000000"/>
-            <dimension name="Weight" xvalue="800.000000"/>
-        </location>
-        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
-    </master>
-    <master familyname="Chauncy" filename="Chauncy_OpticalMax.ufo" sortorder="1" stylename="OpMax">
+    <master familyname="Chauncy" filename="Chauncy_OpticalMax.ufo" sortorder="0" stylename="Regular Optical Max">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
-            <dimension name="Weight" xvalue="400.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
         </location>
-        <color a="1.000" b="0.000" g="0.093" r="1.000"/>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Chauncy" filename="ChauncyRegular.ufo" sortorder="1" stylename="Regular">
+        <location>
+            <dimension name="optical" xvalue="24.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </master>
+    <master familyname="Chauncy" filename="ChauncyRegular_WeightMax.ufo" sortorder="2" stylename="Regular Bold">
+        <location>
+            <dimension name="optical" xvalue="24.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Chauncy" filename="instances/Chauncy-Semibold.ufo" sortorder="2" stylename="Semibold">
-        <location>
-            <dimension name="optical" xvalue="24.000000"/>
-            <dimension name="Weight" xvalue="600.000000"/>
-        </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
-    </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-BoldOpMax.ufo" sortorder="4" styleMapFamilyName="Chauncy" styleMapStyleName="bold" stylename="Bold OpMax">
-        <location>
-            <dimension name="optical" xvalue="96.000000"/>
-            <dimension name="Weight" xvalue="800.000000"/>
-        </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
-    </instance>
 </designspace>

@@ -8,10 +8,10 @@ shortSample = "ADHESION adhesion"
 
 pangrams = ["adhesion","ADHESION"]
 
-maxopsz = 96
-minopsz = 24
-maxwght = 800
-minwght = 400
+maxopsz = 96.0
+minopsz = 24.0
+maxwght = 800.0
+minwght = 400.0
 
 for page in range(2):
     newPage('Letter')
@@ -43,9 +43,9 @@ for page in range(2):
         textBoxSize = (pageMargin*2, H-topMargin, W-pageMargin*3, boxHeight)
         textBox(pangrams[page-1], textBoxSize)
     
-        if varnum > 24:
+        if varnum >= 24:
             
-            fontVariations(opsz=varnum)
+            # fontVariations(opsz=varnum)
         
             font("VulfMono-Light", 8)
             captionBoxSize = (pageMargin, H-topMargin, W-margin*2, boxHeight)
@@ -96,6 +96,8 @@ for page in range(2):
     fill(0)
     font("VulfMono-Light", 8)
     # lineHeight(fontSize*1)
+
+## Weight Change 72pt ##
     
 for page in range(2):
     newPage('Letter')
@@ -124,29 +126,31 @@ for page in range(2):
         #     fontVariations(wght=weight)
         
         font(fontName,fontSize)
+            
+        # fontVariations(opsz=24)
+        fontVariations(wght=varnum)
+        
         textBoxSize = (pageMargin*2, H-topMargin, W-pageMargin*3, boxHeight)
         textBox(pangrams[page-1], textBoxSize)
-    
-        if varnum > 0:
-            
-            fontVariations(wght=varnum)
-            fontVariations(opsz=0.5)
+
         
-            font("VulfMono-Light", 8)
-            captionBoxSize = (pageMargin, H-topMargin, W-margin*2, boxHeight)
-            textBox(str(floor(varnum)), captionBoxSize)
+        # fontVariations(opsz=24)
+    
+        font("VulfMono-Light", 8)
+        captionBoxSize = (pageMargin, H-topMargin, W-margin*2, boxHeight)
+        textBox(str(floor(varnum)), captionBoxSize)
+        
+        if line == 0:
             
-            if line == 0:
-                
-                # titleBox = (16, H-24, W-margin*2, boxHeight)
-                
-                left, top, width, height = pageMargin, H-pageMargin-fontSize/2, W-margin*2, boxHeight
+            # titleBox = (16, H-24, W-margin*2, boxHeight)
             
-                textBox("opsz", (left, top, width, height))
-                textBox("Chauncy Regular & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
-                
-                dateWidth = 240
-                textBox("January 24, 2019", (W-dateWidth-left, top, dateWidth, height ), align="right")
+            left, top, width, height = pageMargin, H-pageMargin-fontSize/2, W-margin*2, boxHeight
+        
+            textBox("wght", (left, top, width, height))
+            textBox("Chauncy Regular & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
+            
+            dateWidth = 240
+            textBox("January 24, 2019", (W-dateWidth-left, top, dateWidth, height ), align="right")
 
 
     # fill(.95,.95,.95)
@@ -155,21 +159,21 @@ for page in range(2):
 
     for line in range(lines):
         
-        opticalSize = 400+(((maxwght-minwght+100)/lines)*line)
-        print(opticalSize)
+        weightsize = 400+(((maxwght-minwght)/lines)*(line+1))
+        print(weightsize)
         fontSize = 72
         
         lineHeight(fontSize*1)
         fill(0)
         
-        margin = round_to_even(maxopsz - ((maxopsz-minopsz)/(lines+6))*line)
+        margin = fontSize
         boxHeight = fontSize
         # topMargin = margin * line*2 + margin*3 - fontSize
         
         topMargin = pageMargin*2 + margin * line*2 + fontSize
         
-        placeText("./fonts/ChauncyRegular-VF.ttf",margin,topMargin, line, opticalSize)
-        placeText("./fonts/ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line, opticalSize)
+        placeText("./fonts/ChauncyRegular-VF.ttf",margin,topMargin, line, weightsize)
+        placeText("./fonts/ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line, weightsize)
 
 
     # margin= fontSize
@@ -182,11 +186,93 @@ for page in range(2):
     font("VulfMono-Light", 8)
     # lineHeight(fontSize*1)
     
-for fontName in installedFonts():
-    variations = listFontVariations(fontName)
-    if variations: 
-        print(fontName)
-        for axis_name, dimensions in variations.items():
-            print (axis_name, dimensions)
-        print ()
+## Weight Change 24pt ##
 
+for page in range(2):
+    newPage('Letter')
+    # size('Letter')
+    W, H = width(), height()
+    
+    # print(W, H)
+
+   
+
+    # fontSize = 16
+    fontSize = 72 
+    
+    pageMargin = 32
+
+    def round_to_even(f):
+        return math.floor(f / 2.) * 2
+
+    lines = 4
+    
+    
+
+
+    def placeText(fontName,margin, topMargin, line, varnum):
+        # if fontName > "./LibreCaslonText-VF.ttf":
+        #     fontVariations(wght=weight)
+        
+        font(fontName,fontSize)
+            
+        # fontVariations(opsz=24)
+        fontVariations(wght=varnum)
+        
+        textBoxSize = (pageMargin*2, H-topMargin, W-pageMargin*3, boxHeight)
+        textBox(pangrams[page-1], textBoxSize)
+
+        
+        # fontVariations(opsz=24)
+    
+        font("VulfMono-Light", 8)
+        captionBoxSize = (pageMargin, H-topMargin, W-margin*2, boxHeight)
+        textBox(str(floor(varnum)), captionBoxSize)
+        
+        if line == 0:
+            
+            # titleBox = (16, H-24, W-margin*2, boxHeight)
+            
+            left, top, width, height = pageMargin, H-pageMargin-fontSize/2, W-margin*2, boxHeight
+        
+            textBox("wght", (left, top, width, height))
+            textBox("Chauncy Regular & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
+            
+            dateWidth = 240
+            textBox("January 24, 2019", (W-dateWidth-left, top, dateWidth, height ), align="right")
+
+
+    # fill(.95,.95,.95)
+    # rect(0,0,W, H)
+
+
+    for line in range(lines):
+        
+        weightsize = 400+(((maxwght-minwght)/lines)*(line+1))
+        print(weightsize)
+        fontSize = 24
+        
+        lineHeight(fontSize*1)
+        fill(0)
+        
+        margin = fontSize
+        boxHeight = fontSize
+        # topMargin = margin * line*2 + margin*3 - fontSize
+        
+        topMargin = pageMargin*2 + margin * line*2 + fontSize
+        
+        placeText("./fonts/ChauncyRegular-VF.ttf",margin,topMargin, line, weightsize)
+        placeText("./fonts/ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line, weightsize)
+
+
+    # margin= fontSize
+    margin= maxopsz
+    boxHeight= fontSize
+    lineHeight(fontSize*1)
+
+
+    fill(0)
+    font("VulfMono-Light", 8)
+    # lineHeight(fontSize*1)
+    
+saveImage("./PDF/ChaunceyVariableProof001.pdf")
