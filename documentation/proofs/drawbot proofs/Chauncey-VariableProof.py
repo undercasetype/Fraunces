@@ -4,11 +4,16 @@
 # from drawBot import *
 import math
 
-shortSample = "adhesion"
+shortSample = "ADHESION adhesion"
 
-pangrams = "adhesion"
+pangrams = ["adhesion","ADHESION"]
 
-for page in range(6):
+maxopsz = 96
+minopsz = 24
+maxwght = 800
+minwght = 400
+
+for page in range(2):
     newPage('Letter')
     # size('Letter')
     W, H = width(), height()
@@ -18,33 +23,33 @@ for page in range(6):
    
 
     # fontSize = 16
-    fontSize = 12 + page*4
+    fontSize = maxopsz 
     
     pageMargin = 32
 
     def round_to_even(f):
         return math.floor(f / 2.) * 2
 
-    lines = int(floor(H / fontSize / 2.8))
+    lines = 5
     
     
 
 
-    def placeText(fontName,margin, topMargin, line, optical=6):
+    def placeText(fontName,margin, topMargin, line, varnum):
         # if fontName > "./LibreCaslonText-VF.ttf":
         #     fontVariations(wght=weight)
         
         font(fontName,fontSize)
         textBoxSize = (pageMargin*2, H-topMargin, W-pageMargin*3, boxHeight)
-        textBox(pangrams, textBoxSize)
+        textBox(pangrams[page-1], textBoxSize)
     
-        if optical > 7:
+        if varnum > 24:
             
-            fontVariations(opsz=optical)
+            fontVariations(opsz=varnum)
         
             font("VulfMono-Light", 8)
             captionBoxSize = (pageMargin, H-topMargin, W-margin*2, boxHeight)
-            textBox(str(floor(optical)), captionBoxSize)
+            textBox(str(floor(varnum)), captionBoxSize)
             
             if line == 0:
                 
@@ -53,10 +58,10 @@ for page in range(6):
                 left, top, width, height = pageMargin, H-pageMargin-fontSize/2, W-margin*2, boxHeight
             
                 textBox("opsz", (left, top, width, height))
-                textBox("Libre Caslon Text Roman & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
+                textBox("Chauncy Regular & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
                 
                 dateWidth = 240
-                textBox("Nov 20, 2018", (W-dateWidth-left, top, dateWidth, height ), align="right")
+                textBox("January 24, 2019", (W-dateWidth-left, top, dateWidth, height ), align="right")
 
 
     # fill(.95,.95,.95)
@@ -65,39 +70,123 @@ for page in range(6):
 
     for line in range(lines):
         
-        opticalSize = round_to_even(6 + (72/lines)*line)
+        opticalSize = round_to_even(maxopsz - ((maxopsz-minopsz)/(lines-1))*line)
+        print(opticalSize)
+        fontSize = opticalSize
         
         lineHeight(fontSize*1)
         fill(0)
         
-        margin = fontSize*1.2
+        margin = round_to_even(maxopsz - ((maxopsz-minopsz)/(lines+6))*line)
         boxHeight = fontSize
         # topMargin = margin * line*2 + margin*3 - fontSize
         
         topMargin = pageMargin*2 + margin * line*2 + fontSize
         
-        placeText("./fonts/ChauncyRegular-VF.ttf",margin,topMargin, line, optical=opticalSize)
-        placeText("./fonts/ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line)
+        placeText("./fonts/ChauncyRegular-VF.ttf",margin,topMargin, line, opticalSize)
+        placeText("./fonts/ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line, opticalSize)
 
 
     # margin= fontSize
-    margin= fontSize*1.2
+    margin= maxopsz
     boxHeight= fontSize
     lineHeight(fontSize*1)
 
 
     fill(0)
-    font("Vulf Mono", 8)
+    font("VulfMono-Light", 8)
     # lineHeight(fontSize*1)
     
-    # textBox("wght", (fontSize, H-fontSize*2, 100, 16))
-    # textBox("Libre Caslon Text Roman & Italic, " + str(fontSize) +"pt", (margin*3,H-fontSize*2,400,16))
+for page in range(2):
+    newPage('Letter')
+    # size('Letter')
+    W, H = width(), height()
+    
+    # print(W, H)
 
-    # textBox("wght", (fontSize, H-32, 100, 16))
-    # textBox("Libre Caslon Text Roman & Italic, " + str(fontSize) +"pt", (margin*3,H-32,400,16))
+   
+
+    # fontSize = 16
+    fontSize = 72 
+    
+    pageMargin = 32
+
+    def round_to_even(f):
+        return math.floor(f / 2.) * 2
+
+    lines = 4
+    
+    
 
 
-# imgPath = "../assets/weight-test-roman_italic-noblur-big-111918.mp4" # do 50 frames with a wght increase rate of 2 
-imgPath = "../assets/weight-test-one_page-pangram-roman_italic-112018.pdf" # do 20 frames with a wght increase rate of 5
-saveImage(imgPath)
-# saveImage(imgPath, imageResolution=300)
+    def placeText(fontName,margin, topMargin, line, varnum):
+        # if fontName > "./LibreCaslonText-VF.ttf":
+        #     fontVariations(wght=weight)
+        
+        font(fontName,fontSize)
+        textBoxSize = (pageMargin*2, H-topMargin, W-pageMargin*3, boxHeight)
+        textBox(pangrams[page-1], textBoxSize)
+    
+        if varnum > 0:
+            
+            fontVariations(wght=varnum)
+            fontVariations(opsz=0.5)
+        
+            font("VulfMono-Light", 8)
+            captionBoxSize = (pageMargin, H-topMargin, W-margin*2, boxHeight)
+            textBox(str(floor(varnum)), captionBoxSize)
+            
+            if line == 0:
+                
+                # titleBox = (16, H-24, W-margin*2, boxHeight)
+                
+                left, top, width, height = pageMargin, H-pageMargin-fontSize/2, W-margin*2, boxHeight
+            
+                textBox("opsz", (left, top, width, height))
+                textBox("Chauncy Regular & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
+                
+                dateWidth = 240
+                textBox("January 24, 2019", (W-dateWidth-left, top, dateWidth, height ), align="right")
+
+
+    # fill(.95,.95,.95)
+    # rect(0,0,W, H)
+
+
+    for line in range(lines):
+        
+        opticalSize = 400+(((maxwght-minwght+100)/lines)*line)
+        print(opticalSize)
+        fontSize = 72
+        
+        lineHeight(fontSize*1)
+        fill(0)
+        
+        margin = round_to_even(maxopsz - ((maxopsz-minopsz)/(lines+6))*line)
+        boxHeight = fontSize
+        # topMargin = margin * line*2 + margin*3 - fontSize
+        
+        topMargin = pageMargin*2 + margin * line*2 + fontSize
+        
+        placeText("./fonts/ChauncyRegular-VF.ttf",margin,topMargin, line, opticalSize)
+        placeText("./fonts/ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line, opticalSize)
+
+
+    # margin= fontSize
+    margin= maxopsz
+    boxHeight= fontSize
+    lineHeight(fontSize*1)
+
+
+    fill(0)
+    font("VulfMono-Light", 8)
+    # lineHeight(fontSize*1)
+    
+for fontName in installedFonts():
+    variations = listFontVariations(fontName)
+    if variations: 
+        print(fontName)
+        for axis_name, dimensions in variations.items():
+            print (axis_name, dimensions)
+        print ()
+
