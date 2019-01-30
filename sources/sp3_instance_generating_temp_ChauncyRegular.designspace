@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="24" maximum="96" minimum="24" name="optical" tag="opsz" />
+        <axis default="400" maximum="800" minimum="400" name="weight" tag="wght" />
+    </axes>
+    <sources>
+        <source familyname="Chauncy" filename="Chauncy_OpticalMax.ufo" stylename="Regular Optical Max">
+            <location>
+                <dimension name="optical" xvalue="96" />
+                <dimension name="weight" xvalue="400" />
+            </location>
+        </source>
+        <source familyname="Chauncy" filename="ChauncyRegular.ufo" stylename="Regular">
+            <info copy="1" />
+            <location>
+                <dimension name="optical" xvalue="24" />
+                <dimension name="weight" xvalue="400" />
+            </location>
+        </source>
+        <source familyname="Chauncy" filename="ChauncyRegular_WeightMax.ufo" stylename="Regular Bold">
+            <location>
+                <dimension name="optical" xvalue="24" />
+                <dimension name="weight" xvalue="800" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="Chauncy" filename="instances/Chauncy-Thin.ufo" postscriptfontname="Chauncy-Thin" stylename="Thin">
+            <location>
+                <dimension name="optical" xvalue="24" />
+                <dimension name="weight" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>
