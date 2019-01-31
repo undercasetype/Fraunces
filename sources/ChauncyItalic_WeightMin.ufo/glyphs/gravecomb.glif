@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gravecomb" format="1">
+<glyph name="gravecomb" format="2">
+  <anchor x="281" y="480" name="center"/>
   <outline>
     <contour>
       <point x="294" y="555" type="curve" smooth="yes"/>
@@ -23,9 +24,6 @@
       <point x="307" y="529" type="curve" smooth="yes"/>
       <point x="307" y="538"/>
       <point x="299" y="548"/>
-    </contour>
-    <contour>
-      <point x="281" y="480" type="move" name="center"/>
     </contour>
   </outline>
 </glyph>

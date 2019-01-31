@@ -45,7 +45,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </master>
-    <master familyname="Chauncy" filename="grist/ChauncyItalic_WeightMin.ufo" sortorder="3" stylename="Italic Thin">
+    <master familyname="Chauncy" filename="ChauncyItalic_WeightMin.ufo" sortorder="3" stylename="Italic Thin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
@@ -53,14 +53,4 @@
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Chauncy" filename="instances/Chauncy-ItalicThin.ufo" sortorder="4" stylename="Italic Thin">
-        <location>
-            <dimension name="optical" xvalue="0.000000"/>
-            <dimension name="weight" xvalue="100.000000"/>
-        </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
-    </instance>
 </designspace>

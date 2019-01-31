@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cedillacomb.case" format="1">
+<glyph name="cedillacomb.case" format="2">
+  <anchor x="192" y="31" name="center"/>
   <outline>
     <component base="cedillacomb"/>
-    <contour>
-      <point x="192" y="31" type="move" name="center"/>
-    </contour>
   </outline>
 </glyph>

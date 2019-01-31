@@ -45,7 +45,7 @@
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Chauncy" filename="grist/ChauncyRegular_WeightMin.ufo" sortorder="3" stylename="Regular Thin">
+    <master familyname="Chauncy" filename="ChauncyRegular_WeightMin.ufo" sortorder="3" stylename="Regular Thin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
@@ -53,14 +53,4 @@
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Chauncy" filename="instances/Chauncy-RegularThin.ufo" sortorder="4" stylename="Regular Thin">
-        <location>
-            <dimension name="optical" xvalue="0.000000"/>
-            <dimension name="weight" xvalue="100.000000"/>
-        </location>
-        <provideFeatures state="1"/>
-        <provideGroups state="1"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
-    </instance>
 </designspace>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acutecomb" format="1">
+<glyph name="acutecomb" format="2">
+  <anchor x="234" y="489" name="center"/>
   <outline>
     <contour>
       <point x="242" y="557" type="curve" smooth="yes"/>
@@ -23,9 +24,6 @@
       <point x="229" y="531" type="curve" smooth="yes"/>
       <point x="229" y="540"/>
       <point x="236" y="551"/>
-    </contour>
-    <contour>
-      <point x="234" y="489" type="move" name="center"/>
     </contour>
   </outline>
 </glyph>
