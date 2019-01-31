@@ -10,7 +10,7 @@
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Chauncy/sources/instances"/>
-    <data name="previewtext" value="INDIAN IN A NONA."/>
+    <data name="previewtext" value="ADHESION adhesion"/>
     <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -29,7 +29,7 @@
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Chauncy" filename="ChauncyRegular.ufo" sortorder="3" stylename="Regular">
+    <master familyname="Chauncy" filename="ChauncyRegular.ufo" sortorder="1" stylename="Regular">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
@@ -38,14 +38,14 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </master>
-    <master familyname="Chauncy" filename="ChauncyRegular_WeightMax.ufo" sortorder="4" stylename="Regular Bold">
+    <master familyname="Chauncy" filename="ChauncyRegular_WeightMax.ufo" sortorder="2" stylename="Regular Bold">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="800.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Chauncy" filename="ChauncyRegular_WeightMin.ufo" sortorder="1" stylename="Regular Thin">
+    <master familyname="Chauncy" filename="grist/ChauncyRegular_WeightMin.ufo" sortorder="3" stylename="Regular Thin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
@@ -53,10 +53,10 @@
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Chauncy" filename="instances/Chauncy-Light.ufo" sortorder="2" stylename="Light">
+    <instance familyname="Chauncy" filename="instances/Chauncy-RegularThin.ufo" sortorder="4" stylename="Regular Thin">
         <location>
-            <dimension name="optical" xvalue="24.000000"/>
-            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="optical" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>

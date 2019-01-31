@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="U" format="2">
+<glyph name="U" format="1">
   <advance width="700"/>
   <unicode hex="0055"/>
-  <anchor x="365" y="730" name="center"/>
   <outline>
     <contour>
       <point x="551" y="292" type="line" smooth="yes"/>
@@ -75,6 +74,9 @@
       <point x="525" y="637"/>
       <point x="532" y="621"/>
       <point x="533" y="600" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="365" y="730" type="move" name="center"/>
     </contour>
   </outline>
   <lib>

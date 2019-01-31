@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="AE" format="2">
+<glyph name="AE" format="1">
   <advance width="983"/>
   <unicode hex="00C6"/>
-  <anchor x="644" y="796" name="center"/>
   <outline>
     <contour>
       <point x="238" y="319" type="line"/>
@@ -134,6 +133,9 @@
       <point x="824" y="700"/>
       <point x="814" y="700" type="curve" smooth="yes"/>
       <point x="491" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="644" y="796" type="move" name="center"/>
     </contour>
   </outline>
   <lib>

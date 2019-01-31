@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hookabovecomb.case" format="2">
-  <anchor x="159" y="465" name="center"/>
+<glyph name="hookabovecomb.case" format="1">
   <outline>
     <component base="hookabovecomb" xScale="1.1" xOffset="-6" yOffset="236"/>
+    <contour>
+      <point x="159" y="465" type="move" name="center"/>
+    </contour>
   </outline>
 </glyph>

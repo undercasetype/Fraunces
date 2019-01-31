@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="cedillacomb" format="2">
-  <anchor x="176" y="23" name="center"/>
+<glyph name="cedillacomb" format="1">
   <outline>
     <contour>
       <point x="184" y="8" type="line"/>
@@ -41,6 +40,9 @@
       <point x="151" y="-95" type="curve"/>
       <point x="172" y="-90" type="line"/>
       <point x="221" y="9" type="line"/>
+    </contour>
+    <contour>
+      <point x="176" y="23" type="move" name="center"/>
     </contour>
   </outline>
 </glyph>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="slash" format="2">
+<glyph name="slash" format="1">
   <advance width="420"/>
   <unicode hex="002F"/>
   <outline>
-    <component base="backslash" xScale="-1" xOffset="420"/>
+    <component base="backslash" xScale="-1.0" xOffset="420"/>
   </outline>
   <lib>
     <dict>

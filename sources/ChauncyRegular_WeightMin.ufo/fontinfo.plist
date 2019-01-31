@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>ascender</key>
-    <integer>755</integer>
-    <key>capHeight</key>
-    <integer>700</integer>
-    <key>descender</key>
-    <integer>-245</integer>
-    <key>familyName</key>
-    <string>Chauncy</string>
-    <key>guidelines</key>
-    <array/>
-    <key>openTypeNameDesigner</key>
-    <string>Spencer Charles</string>
-    <key>openTypeNameDesignerURL</key>
-    <string>http://www.spencercharles.com</string>
-    <key>openTypeNameLicense</key>
-    <string>Copyright 2018 The Notable Project Authors (https://github.com/googlefonts/notable)
+<dict>
+	<key>ascender</key>
+	<integer>755</integer>
+	<key>capHeight</key>
+	<integer>700</integer>
+	<key>descender</key>
+	<integer>-245</integer>
+	<key>familyName</key>
+	<string>Chauncy</string>
+	<key>openTypeNameDesigner</key>
+	<string>Spencer Charles</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>http://www.spencercharles.com</string>
+	<key>openTypeNameLicense</key>
+	<string>Copyright 2018 The Notable Project Authors (https://github.com/googlefonts/notable)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
@@ -110,33 +108,39 @@ INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.</string>
-    <key>openTypeNameManufacturer</key>
-    <string>Charles&amp;Thorn</string>
-    <key>openTypeNameManufacturerURL</key>
-    <string>http://www.charlesandthorn.com</string>
-    <key>postscriptBlueValues</key>
-    <array/>
-    <key>postscriptFamilyBlues</key>
-    <array/>
-    <key>postscriptFamilyOtherBlues</key>
-    <array/>
-    <key>postscriptFontName</key>
-    <string>Chauncy-Thin</string>
-    <key>postscriptOtherBlues</key>
-    <array/>
-    <key>postscriptStemSnapH</key>
-    <array/>
-    <key>postscriptStemSnapV</key>
-    <array/>
-    <key>styleName</key>
-    <string>Regular Thin</string>
-    <key>unitsPerEm</key>
-    <integer>1000</integer>
-    <key>versionMajor</key>
-    <integer>0</integer>
-    <key>versionMinor</key>
-    <integer>1</integer>
-    <key>xHeight</key>
-    <integer>458</integer>
-  </dict>
+	<key>openTypeNameManufacturer</key>
+	<string>Charles&amp;Thorn</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>http://www.charlesandthorn.com</string>
+	<key>postscriptBlueValues</key>
+	<array>
+	</array>
+	<key>postscriptFamilyBlues</key>
+	<array>
+	</array>
+	<key>postscriptFamilyOtherBlues</key>
+	<array>
+	</array>
+	<key>postscriptFontName</key>
+	<string>Chauncy-RegularThin</string>
+	<key>postscriptOtherBlues</key>
+	<array>
+	</array>
+	<key>postscriptStemSnapH</key>
+	<array>
+	</array>
+	<key>postscriptStemSnapV</key>
+	<array>
+	</array>
+	<key>styleName</key>
+	<string>Regular Thin</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>versionMajor</key>
+	<integer>0</integer>
+	<key>versionMinor</key>
+	<integer>1</integer>
+	<key>xHeight</key>
+	<integer>470</integer>
+</dict>
 </plist>

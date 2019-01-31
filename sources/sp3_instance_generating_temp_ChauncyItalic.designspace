@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="100" maximum="800" minimum="100" name="weight" tag="wght" />
+        <axis default="24" maximum="96" minimum="24" name="optical" tag="opsz" />
+    </axes>
+    <sources>
+        <source familyname="Chauncy" filename="ChauncyItalic_OpticalMax.ufo" stylename="Italic Optical Max">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="96" />
+            </location>
+        </source>
+        <source familyname="Chauncy" filename="ChauncyItalic_WeightMax.ufo" stylename="Italic Bold">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="24" />
+            </location>
+        </source>
+        <source familyname="Chauncy" filename="ChauncyItalic.ufo" stylename="Italic">
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="24" />
+            </location>
+        </source>
+        <source familyname="Chauncy" filename="grist/ChauncyItalic_WeightMin.ufo" stylename="Italic Thin">
+            <location>
+                <dimension name="weight" xvalue="100" />
+                <dimension name="optical" xvalue="24" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="Chauncy" filename="instances/Chauncy-ItalicThin.ufo" postscriptfontname="Chauncy-ItalicThin" stylename="Italic Thin">
+            <location>
+                <dimension name="weight" xvalue="100" />
+                <dimension name="optical" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>
