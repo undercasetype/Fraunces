@@ -8,9 +8,9 @@
     <data name="horizontalPreviewAxis" value="optical"/>
     <data name="lineInverted" value="False"/>
     <data name="lineViewFilled" value="True"/>
-    <data name="lineStacked" value="lined"/>
+    <data name="lineStacked" value="sequence"/>
     <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Chauncy/sources/instances"/>
-    <data name="previewtext" value="ADHESION adhesion"/>
+    <data name="previewtext" value="/Thorn"/>
     <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -19,7 +19,7 @@
         <color a="1.000" b="0.056" g="0.775" r="0.752"/>
     </axis>
     <axis maximum="800.000000" minimum="100.000000" name="weight" shortname="wght">
-        <color a="1.000" b="0.694" g="1.226" r="0.905"/>
+        <color a="1.000" b="0.764" g="0.000" r="0.989"/>
     </axis>
     <!-- master definitions -->
     <master familyname="Chauncy" filename="Chauncy_OpticalMax.ufo" sortorder="0" stylename="Regular Optical Max">
@@ -29,23 +29,21 @@
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Chauncy" filename="ChauncyRegular.ufo" sortorder="1" stylename="Regular">
+    <master familyname="Chauncy" filename="Chauncy.ufo" sortorder="1" stylename="Regular">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
-        <provideLib state="1"/>
-        <provideInfo state="1"/>
     </master>
-    <master familyname="Chauncy" filename="ChauncyRegular_WeightMax.ufo" sortorder="2" stylename="Regular Bold">
+    <master familyname="Chauncy" filename="Chauncy_WeightMax.ufo" sortorder="2" stylename="Regular Bold">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="800.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Chauncy" filename="ChauncyRegular_WeightMin.ufo" sortorder="3" stylename="Regular Thin">
+    <master familyname="Chauncy" filename="Chauncy_WeightMin.ufo" sortorder="3" stylename="Regular Thin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="100.000000"/>

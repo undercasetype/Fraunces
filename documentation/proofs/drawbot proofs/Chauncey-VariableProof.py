@@ -11,7 +11,7 @@ pangrams = ["adhesion","ADHESION"]
 maxopsz = 96.0
 minopsz = 24.0
 maxwght = 800.0
-minwght = 400.0
+minwght = 100.0
 
 for page in range(2):
     newPage('Letter')
@@ -70,7 +70,8 @@ for page in range(2):
 
     for line in range(lines):
         
-        opticalSize = round_to_even(maxopsz - ((maxopsz-minopsz)/(lines-1))*line)
+        interval = (maxopsz-minopsz)/(lines-1)
+        opticalSize = round_to_even(maxopsz-(interval*line))
         print(opticalSize)
         fontSize = opticalSize
         
@@ -83,7 +84,7 @@ for page in range(2):
         
         topMargin = pageMargin*2 + margin * line*2 + fontSize
         
-        placeText("./fonts/ChauncyRegular-VF.ttf",margin,topMargin, line, opticalSize)
+        placeText("./fonts/Chauncy-VF.ttf",margin,topMargin, line, opticalSize)
         placeText("./fonts/ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line, opticalSize)
 
 
@@ -159,7 +160,8 @@ for page in range(2):
 
     for line in range(lines):
         
-        weightsize = 400+(((maxwght-minwght)/lines)*(line+1))
+        interval = (maxwght-minwght)/(lines-1)
+        weightsize = minwght+(interval*line)
         print(weightsize)
         fontSize = 72
         
@@ -172,7 +174,7 @@ for page in range(2):
         
         topMargin = pageMargin*2 + margin * line*2 + fontSize
         
-        placeText("./fonts/ChauncyRegular-VF.ttf",margin,topMargin, line, weightsize)
+        placeText("./fonts/Chauncy-VF.ttf",margin,topMargin, line, weightsize)
         placeText("./fonts/ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line, weightsize)
 
 
@@ -205,7 +207,7 @@ for page in range(2):
     def round_to_even(f):
         return math.floor(f / 2.) * 2
 
-    lines = 4
+    lines = 10
     
     
 
@@ -248,7 +250,8 @@ for page in range(2):
 
     for line in range(lines):
         
-        weightsize = 400+(((maxwght-minwght)/lines)*(line+1))
+        interval = (maxwght-minwght)/(lines-1)
+        weightsize = minwght+(interval*line)
         print(weightsize)
         fontSize = 24
         
@@ -261,7 +264,7 @@ for page in range(2):
         
         topMargin = pageMargin*2 + margin * line*2 + fontSize
         
-        placeText("./fonts/ChauncyRegular-VF.ttf",margin,topMargin, line, weightsize)
+        placeText("./fonts/Chauncy-VF.ttf",margin,topMargin, line, weightsize)
         placeText("./fonts/ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line, weightsize)
 
 
