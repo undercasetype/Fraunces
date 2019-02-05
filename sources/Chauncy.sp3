@@ -8,9 +8,9 @@
     <data name="horizontalPreviewAxis" value="optical"/>
     <data name="lineInverted" value="False"/>
     <data name="lineViewFilled" value="True"/>
-    <data name="lineStacked" value="sequence"/>
+    <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Chauncy/sources/instances"/>
-    <data name="previewtext" value="senators are here to stares."/>
+    <data name="previewtext" value="neats on the nice little gongs."/>
     <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -36,14 +36,14 @@
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Chauncy" filename="Chauncy_WeightMax.ufo" sortorder="2" stylename="Regular Bold">
+    <master familyname="Chauncy" filename="Chauncy_WeightMax.ufo" sortorder="3" stylename="Regular Bold">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="800.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Chauncy" filename="Chauncy_WeightMin.ufo" sortorder="3" stylename="Regular Thin">
+    <master familyname="Chauncy" filename="Chauncy_WeightMin.ufo" sortorder="4" stylename="Regular Thin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
@@ -51,4 +51,14 @@
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
+    <instance familyname="Chauncy" filename="instances/Chauncy-wght800.00_opsz24.00.ufo" sortorder="2" stylename="wght800.00_opsz24.00">
+        <location>
+            <dimension name="optical" xvalue="24.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
 </designspace>
