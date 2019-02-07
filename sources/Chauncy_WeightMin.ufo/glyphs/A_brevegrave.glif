@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Abrevegrave" format="2">
   <advance width="705"/>
   <unicode hex="1EB0"/>
@@ -7,10 +7,4 @@
     <component base="brevecomb.case" xOffset="167" yOffset="35"/>
     <component base="gravecomb.case" xOffset="120" yOffset="194"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,1</string>
-    </dict>
-  </lib>
 </glyph>

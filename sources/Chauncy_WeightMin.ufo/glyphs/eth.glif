@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eth" format="2">
   <advance width="543"/>
   <unicode hex="00F0"/>
@@ -68,10 +68,4 @@
       <point x="416" y="239" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

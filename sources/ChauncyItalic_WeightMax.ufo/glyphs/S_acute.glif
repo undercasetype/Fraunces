@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Sacute" format="2">
   <advance width="528"/>
   <unicode hex="015A"/>
@@ -6,10 +6,4 @@
     <component base="S"/>
     <component base="acutecomb.case" xOffset="4.7891203172197265" yOffset="68"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevetilde" format="2">
   <advance width="510"/>
   <unicode hex="1EB5"/>
@@ -7,10 +7,4 @@
     <component base="brevecomb" xOffset="74" yOffset="8"/>
     <component base="tildecomb" xOffset="78" yOffset="199"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="peso" format="2">
   <advance width="619"/>
   <unicode hex="20B1"/>
@@ -57,10 +57,4 @@
     </contour>
     <component base="P" xScale="0.909" yScale="0.909" xOffset="4"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,1,1</string>
-    </dict>
-  </lib>
 </glyph>

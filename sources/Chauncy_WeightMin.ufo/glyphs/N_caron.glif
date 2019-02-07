@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ncaron" format="2">
   <advance width="794"/>
   <unicode hex="0147"/>
@@ -6,10 +6,4 @@
     <component base="N"/>
     <component base="caroncomb.case" xOffset="218" yOffset="35"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,1</string>
-    </dict>
-  </lib>
 </glyph>

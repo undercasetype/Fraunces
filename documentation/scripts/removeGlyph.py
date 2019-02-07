@@ -2,7 +2,7 @@
 
 fonts = AllFonts()
 f = CurrentFont()
-namelist = ["foursuperior", "kgreenlandic"]
+namelist = ["foursuperior", "kgreenlandic", "ipa:schwa"]
 
 for font in fonts:
     for glyph in font:

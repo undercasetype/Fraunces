@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ocircumflexhookabove" format="2">
   <advance width="575"/>
   <unicode hex="1ED5"/>
@@ -7,10 +7,4 @@
     <component base="circumflexcomb.case" xOffset="97" yOffset="-203"/>
     <component base="hookabovecomb" xOffset="267" yOffset="93"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

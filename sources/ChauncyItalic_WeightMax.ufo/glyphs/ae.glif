@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ae" format="2">
   <advance width="718"/>
   <unicode hex="00E6"/>
@@ -34,10 +34,4 @@
     </contour>
     <component base="e" xOffset="288"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

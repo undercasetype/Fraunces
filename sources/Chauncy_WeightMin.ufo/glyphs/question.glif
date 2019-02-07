@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="question" format="2">
   <advance width="471"/>
   <unicode hex="003F"/>
@@ -51,10 +51,4 @@
     </contour>
     <component base="period" xScale="0.9329999999999999" yScale="0.9329999999999999" xOffset="82" yOffset="2"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>
