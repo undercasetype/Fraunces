@@ -4,31 +4,37 @@
   <unicode hex="0021"/>
   <outline>
     <contour>
-      <point x="98" y="696" type="curve" smooth="yes"/>
-      <point x="147" y="716" type="line" smooth="yes"/>
-      <point x="158" y="719"/>
-      <point x="166" y="723"/>
-      <point x="174" y="723" type="curve" smooth="yes"/>
-      <point x="185" y="723"/>
-      <point x="194" y="714"/>
-      <point x="194" y="702" type="curve" smooth="yes"/>
-      <point x="194" y="697"/>
-      <point x="193" y="689"/>
-      <point x="193" y="684" type="curve" smooth="yes"/>
-      <point x="159" y="229" type="line" smooth="yes"/>
-      <point x="158" y="210"/>
-      <point x="150.0" y="200.0"/>
-      <point x="136" y="200" type="curve" smooth="yes"/>
-      <point x="122.0" y="200.0"/>
-      <point x="115" y="210"/>
-      <point x="113" y="231" type="curve" smooth="yes"/>
-      <point x="77" y="641" type="line" smooth="yes"/>
-      <point x="77" y="650"/>
-      <point x="76" y="659"/>
-      <point x="76" y="666" type="curve" smooth="yes"/>
-      <point x="76" y="680"/>
-      <point x="85" y="691"/>
+      <point x="76" y="715" type="curve" smooth="yes"/>
+      <point x="157" y="733" type="line" smooth="yes"/>
+      <point x="183" y="739"/>
+      <point x="190" y="738.0"/>
+      <point x="196" y="738" type="curve" smooth="yes"/>
+      <point x="215" y="738.0"/>
+      <point x="230.0" y="726"/>
+      <point x="230" y="709" type="curve" smooth="yes"/>
+      <point x="230.0" y="699"/>
+      <point x="226" y="683"/>
+      <point x="225" y="671" type="curve" smooth="yes"/>
+      <point x="178" y="263" type="line" smooth="yes"/>
+      <point x="175" y="235"/>
+      <point x="163" y="220.0"/>
+      <point x="139" y="220" type="curve" smooth="yes"/>
+      <point x="115" y="220.0"/>
+      <point x="104" y="234"/>
+      <point x="100" y="265" type="curve" smooth="yes"/>
+      <point x="49" y="637" type="line" smooth="yes"/>
+      <point x="47" y="653"/>
+      <point x="44.0" y="664"/>
+      <point x="44" y="675" type="curve" smooth="yes"/>
+      <point x="44.0" y="694"/>
+      <point x="57" y="711"/>
     </contour>
-    <component base="period" xScale="0.9329999999999999" yScale="0.9329999999999999" xOffset="7" yOffset="-1"/>
+    <component base="period" xOffset="-5"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
