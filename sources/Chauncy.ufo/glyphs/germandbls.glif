@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="germandbls" format="2">
   <advance width="675"/>
   <unicode hex="00DF"/>
@@ -63,8 +63,8 @@
       <point x="285.6923076923077" y="662.0"/>
       <point x="206" y="596.2954545454545"/>
       <point x="206" y="466" type="curve" smooth="yes"/>
-      <point x="206" y="83" type="line"/>
-      <point x="206" y="65"/>
+      <point x="206" y="83" type="line" smooth="yes"/>
+      <point x="206.0" y="65.0"/>
       <point x="218" y="50"/>
       <point x="235" y="44" type="curve" smooth="yes"/>
       <point x="249" y="39"/>
@@ -93,11 +93,10 @@
       <point x="30" y="432"/>
       <point x="30" y="443" type="curve" smooth="yes"/>
       <point x="30" y="457"/>
-      <point x="42" y="465"/>
-      <point x="60" y="465" type="curve"/>
+      <point x="42.0" y="465.0"/>
+      <point x="60" y="465" type="curve" smooth="yes"/>
       <point x="135" y="465" type="line"/>
       <point x="122" y="438" type="line"/>
-      <point x="122" y="455" type="line" smooth="yes"/>
       <point x="122" y="462" type="line" smooth="yes"/>
       <point x="122" y="599.0"/>
       <point x="237.31578947368422" y="715.0"/>
