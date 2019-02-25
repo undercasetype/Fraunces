@@ -4,6 +4,12 @@
   <unicode hex="0149"/>
   <outline>
     <component base="n"/>
-    <component base="quotesinglecomb" xOffset="19" yOffset="540"/>
+    <component base="apostrophemod" xOffset="-231" yOffset="107"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
