@@ -1,45 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yen" format="2">
   <advance width="611"/>
   <unicode hex="00A5"/>
   <outline>
     <contour>
-      <point x="63.0" y="206" type="curve" smooth="yes"/>
-      <point x="63.0" y="193"/>
-      <point x="70" y="185"/>
-      <point x="83" y="185.0" type="curve" smooth="yes"/>
-      <point x="518" y="185.0" type="line" smooth="yes"/>
-      <point x="531.0" y="185.0"/>
-      <point x="540" y="193"/>
-      <point x="540" y="206" type="curve" smooth="yes"/>
-      <point x="540" y="218"/>
-      <point x="531.0" y="227.0"/>
-      <point x="518" y="227" type="curve" smooth="yes"/>
-      <point x="84" y="227" type="line" smooth="yes"/>
-      <point x="72" y="227"/>
-      <point x="63.0" y="218"/>
+      <point x="558.0" y="185.0" type="curve" smooth="yes"/>
+      <point x="583.0" y="185.0"/>
+      <point x="594.0" y="198.0"/>
+      <point x="594.0" y="212.0" type="curve" smooth="yes"/>
+      <point x="594.0" y="231.0"/>
+      <point x="582.0" y="244.0"/>
+      <point x="558.0" y="245.0" type="curve" smooth="yes"/>
+      <point x="527.1884081191603" y="245.96286224627625"/>
+      <point x="489.639405204461" y="230.0"/>
+      <point x="299.0" y="230.0" type="curve" smooth="yes"/>
+      <point x="119.3913043478261" y="230.0"/>
+      <point x="86.73517786561264" y="242.0"/>
+      <point x="56.0" y="242.0" type="curve" smooth="yes"/>
+      <point x="32.0" y="242.0"/>
+      <point x="20.0" y="225.0"/>
+      <point x="20.0" y="208.0" type="curve" smooth="yes"/>
+      <point x="20.0" y="194.0"/>
+      <point x="31.0" y="181.0"/>
+      <point x="54.0" y="181.0" type="curve" smooth="yes"/>
+      <point x="80.90196078431373" y="181.0"/>
+      <point x="116.45098039215685" y="193.0"/>
+      <point x="299.0" y="193.0" type="curve" smooth="yes"/>
+      <point x="488.67657992565057" y="193.0"/>
+      <point x="527.1895910780669" y="185.0"/>
     </contour>
     <contour>
-      <point x="63" y="325" type="curve" smooth="yes"/>
-      <point x="63" y="312"/>
-      <point x="70" y="304"/>
-      <point x="83" y="304" type="curve" smooth="yes"/>
-      <point x="267" y="304" type="line"/>
-      <point x="239" y="346" type="line"/>
-      <point x="84" y="346" type="line" smooth="yes"/>
-      <point x="72" y="346"/>
-      <point x="63" y="337"/>
+      <point x="236" y="342" type="line"/>
+      <point x="110.94572960900526" y="343.89476167259085"/>
+      <point x="82.52631578947368" y="353.0"/>
+      <point x="56" y="353" type="curve" smooth="yes"/>
+      <point x="32" y="353"/>
+      <point x="20" y="336"/>
+      <point x="20" y="319" type="curve" smooth="yes"/>
+      <point x="20" y="305"/>
+      <point x="31" y="292"/>
+      <point x="54" y="292" type="curve" smooth="yes"/>
+      <point x="78.7793427230047" y="292.0"/>
+      <point x="110.22879769112328" y="302.0938804894951"/>
+      <point x="257" y="304" type="curve"/>
     </contour>
     <contour>
-      <point x="384" y="304" type="line"/>
-      <point x="518" y="304" type="line" smooth="yes"/>
-      <point x="531" y="304"/>
-      <point x="540" y="312"/>
-      <point x="540" y="325" type="curve" smooth="yes"/>
-      <point x="540" y="337"/>
-      <point x="531" y="346"/>
-      <point x="518" y="346" type="curve" smooth="yes"/>
-      <point x="419" y="346" type="line"/>
+      <point x="558" y="296" type="curve" smooth="yes"/>
+      <point x="583" y="296"/>
+      <point x="594" y="309"/>
+      <point x="594" y="323" type="curve" smooth="yes"/>
+      <point x="594" y="342"/>
+      <point x="582" y="355"/>
+      <point x="558" y="356" type="curve" smooth="yes"/>
+      <point x="532.465323500791" y="356.94572875922995"/>
+      <point x="503.15926617888573" y="345.78283384694873"/>
+      <point x="384" y="342" type="curve"/>
+      <point x="366" y="304" type="line"/>
+      <point x="499.07075788786483" y="302.0989891730305"/>
+      <point x="531.3861386138614" y="296.0"/>
     </contour>
     <component base="Y" xScale="0.9135172474836407" yScale="0.9135172474836407" xOffset="10"/>
   </outline>
