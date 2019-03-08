@@ -10,7 +10,7 @@
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Chauncy/sources/instances"/>
-    <data name="previewtext" value="ADHESION adhesion"/>
+    <data name="previewtext" value="eckhart."/>
     <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -22,21 +22,14 @@
         <color a="1.000" b="0.694" g="1.226" r="0.905"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Chauncy" filename="ChauncyItalic_OpticalMax.ufo" sortorder="0" stylename="Italic Optical Max">
-        <location>
-            <dimension name="optical" xvalue="96.000000"/>
-            <dimension name="weight" xvalue="400.000000"/>
-        </location>
-        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
-    </master>
-    <master familyname="Chauncy" filename="ChauncyItalic_WeightMax.ufo" sortorder="1" stylename="Italic Bold">
+    <master familyname="Dewey" filename="ChauncyItalic_WeightMax.ufo" sortorder="0" stylename="Bold Italic">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="800.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Chauncy" filename="ChauncyItalic.ufo" sortorder="3" stylename="Italic">
+    <master familyname="Dewey" filename="ChauncyItalic.ufo" sortorder="2" stylename="Italic">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
@@ -45,15 +38,8 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </master>
-    <master familyname="Chauncy" filename="ChauncyItalic_WeightMin.ufo" sortorder="4" stylename="Italic Thin">
-        <location>
-            <dimension name="optical" xvalue="24.000000"/>
-            <dimension name="weight" xvalue="100.000000"/>
-        </location>
-        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
-    </master>
     <!-- instance definitions -->
-    <instance familyname="Chauncy" filename="instances/Chauncy-opsz24.00_wght800.00.ufo" sortorder="2" stylename="opsz24.00_wght800.00">
+    <instance familyname="Chauncy" filename="instances/Chauncy-opsz24.00_wght800.00.ufo" sortorder="1" stylename="opsz24.00_wght800.00">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="550.000000"/>
