@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicalnot" format="1">
+  <advance width="521"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="417" y="168" type="curve" smooth="yes"/>
+      <point x="437" y="168"/>
+      <point x="451" y="181"/>
+      <point x="451" y="204" type="curve" smooth="yes"/>
+      <point x="451" y="383" type="line" smooth="yes"/>
+      <point x="451" y="404"/>
+      <point x="438" y="416"/>
+      <point x="419" y="416" type="curve" smooth="yes"/>
+      <point x="397" y="416"/>
+      <point x="381" y="402"/>
+      <point x="381" y="383" type="curve" smooth="yes"/>
+      <point x="381" y="205" type="line" smooth="yes"/>
+      <point x="381" y="184"/>
+      <point x="396" y="168"/>
+    </contour>
+    <component base="minus" xOffset="-4" yOffset="80"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
+</glyph>
