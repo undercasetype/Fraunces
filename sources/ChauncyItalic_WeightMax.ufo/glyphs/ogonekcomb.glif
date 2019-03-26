@@ -1,32 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ogonekcomb" format="2">
   <outline>
     <contour>
-      <point x="191" y="31" type="line"/>
-      <point x="33" y="-40"/>
-      <point x="-22" y="-96"/>
-      <point x="-38" y="-158" type="curve" smooth="yes"/>
-      <point x="-51" y="-207"/>
-      <point x="-22" y="-245"/>
+      <point x="184" y="41" type="line"/>
+      <point x="22" y="-31"/>
+      <point x="-44" y="-82"/>
+      <point x="-62" y="-150" type="curve" smooth="yes"/>
+      <point x="-77" y="-205"/>
+      <point x="-38" y="-245"/>
       <point x="44" y="-245" type="curve" smooth="yes"/>
-      <point x="112" y="-245"/>
-      <point x="162" y="-213"/>
-      <point x="173" y="-173" type="curve" smooth="yes"/>
-      <point x="178" y="-152"/>
-      <point x="170" y="-139"/>
-      <point x="152" y="-139" type="curve" smooth="yes"/>
-      <point x="131" y="-139"/>
-      <point x="110" y="-155"/>
-      <point x="104" y="-181" type="curve" smooth="yes"/>
-      <point x="98" y="-200"/>
-      <point x="84" y="-210"/>
-      <point x="69" y="-210" type="curve" smooth="yes"/>
-      <point x="48" y="-210"/>
-      <point x="35" y="-190"/>
-      <point x="47" y="-146" type="curve" smooth="yes"/>
-      <point x="62" y="-89"/>
-      <point x="103" y="-40"/>
+      <point x="131" y="-245"/>
+      <point x="194" y="-208"/>
+      <point x="207" y="-160" type="curve" smooth="yes"/>
+      <point x="215" y="-130"/>
+      <point x="202" y="-111"/>
+      <point x="175" y="-111" type="curve" smooth="yes"/>
+      <point x="146" y="-111"/>
+      <point x="119" y="-134"/>
+      <point x="109" y="-171" type="curve" smooth="yes"/>
+      <point x="104" y="-190"/>
+      <point x="88" y="-200"/>
+      <point x="71" y="-200" type="curve" smooth="yes"/>
+      <point x="52" y="-200"/>
+      <point x="42" y="-180"/>
+      <point x="53" y="-138" type="curve" smooth="yes"/>
+      <point x="68" y="-81"/>
+      <point x="116" y="-34"/>
       <point x="197" y="8" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,1,1,1</string>
+    </dict>
+  </lib>
 </glyph>
