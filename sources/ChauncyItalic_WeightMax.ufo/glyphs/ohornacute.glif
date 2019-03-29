@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohornacute" format="2">
   <advance width="512"/>
   <unicode hex="1EDB"/>
@@ -6,4 +6,10 @@
     <component base="ohorn"/>
     <component base="acutecomb" xOffset="179.92769766937968" yOffset="26"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

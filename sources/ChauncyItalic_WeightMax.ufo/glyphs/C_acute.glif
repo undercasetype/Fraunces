@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Cacute" format="2">
   <advance width="649"/>
   <unicode hex="0106"/>
@@ -6,4 +6,10 @@
     <component base="C"/>
     <component base="acutecomb.case" xOffset="319.37920338466927" yOffset="74"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

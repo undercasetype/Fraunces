@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ehookabove" format="2">
   <advance width="492"/>
   <unicode hex="1EBB"/>
@@ -6,4 +6,10 @@
     <component base="e"/>
     <component base="hookabovecomb" xOffset="54.903810567687344" yOffset="5"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

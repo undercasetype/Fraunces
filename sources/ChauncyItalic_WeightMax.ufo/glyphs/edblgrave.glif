@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="edblgrave" format="2">
   <advance width="492"/>
   <unicode hex="0205"/>
@@ -7,4 +7,10 @@
     <component base="gravecomb" xOffset="139.3205080756969" yOffset="28"/>
     <component base="dblgravecomb" xOffset="416.45139972292816" yOffset="776"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

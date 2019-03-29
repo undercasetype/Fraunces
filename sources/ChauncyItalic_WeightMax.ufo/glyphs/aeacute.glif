@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aeacute" format="2">
   <advance width="814"/>
   <unicode hex="01FD"/>
@@ -6,4 +6,10 @@
     <component base="ae"/>
     <component base="acutecomb" xOffset="337.6956468617958" yOffset="27.999999999999886"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

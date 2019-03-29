@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ubreve" format="2">
   <advance width="719"/>
   <unicode hex="016C"/>
@@ -6,4 +6,10 @@
     <component base="U"/>
     <component base="brevecomb.case" xOffset="155.5301984035397" yOffset="35"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

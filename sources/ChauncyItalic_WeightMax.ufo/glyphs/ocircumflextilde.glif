@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ocircumflextilde" format="2">
   <advance width="512"/>
   <unicode hex="1ED7"/>
@@ -7,4 +7,10 @@
     <component base="circumflexcomb.case" xOffset="-105.22563828480583" yOffset="-191.0999999999999"/>
     <component base="tildecomb" xOffset="98.63950065299383" yOffset="178.19999999999936"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
