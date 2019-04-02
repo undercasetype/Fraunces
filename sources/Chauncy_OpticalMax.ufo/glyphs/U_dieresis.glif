@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Udieresis" format="2">
   <advance width="700"/>
   <unicode hex="00DC"/>
@@ -6,10 +6,4 @@
     <component base="U"/>
     <component base="dieresiscomb.case" xOffset="177.92299999998068" yOffset="23.075824999999895"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,1</string>
-    </dict>
-  </lib>
 </glyph>

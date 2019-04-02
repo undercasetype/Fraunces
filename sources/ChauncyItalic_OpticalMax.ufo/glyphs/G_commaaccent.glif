@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gcommaaccent" format="2">
   <advance width="704"/>
   <unicode hex="0122"/>
@@ -6,10 +6,4 @@
     <component base="G"/>
     <component base="commaaccentcomb.case" xOffset="279.26931854129515"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,1</string>
-    </dict>
-  </lib>
 </glyph>

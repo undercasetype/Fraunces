@@ -10,7 +10,7 @@
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Chauncy/sources/instances"/>
-    <data name="previewtext" value="HHXHOXOOXO"/>
+    <data name="previewtext" value="acdefghijklnorstu"/>
     <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -22,13 +22,6 @@
         <color a="1.000" b="0.764" g="0.000" r="0.989"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Dewey" filename="Chauncy_OpticalMax.ufo" sortorder="0" stylename="Optical Max">
-        <location>
-            <dimension name="optical" xvalue="96.000000"/>
-            <dimension name="weight" xvalue="400.000000"/>
-        </location>
-        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
-    </master>
     <master familyname="Dewey" filename="Chauncy.ufo" sortorder="1" stylename="Regular">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
@@ -50,6 +43,13 @@
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
+    <master familyname="Dewey" filename="Chauncy_OpticalMax2.ufo" sortorder="0" stylename="Optical Max">
+        <location>
+            <dimension name="optical" xvalue="96.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
     <!-- instance definitions -->
     <instance familyname="Dewey" filename="instances/Dewey-SemiBold.ufo" sortorder="2" stylename="Semi Bold">
         <location>
@@ -61,7 +61,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Chauncy" filename="../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Chauncy-700.ufo" sortorder="3" stylename="700">
+    <instance familyname="Chauncy" filename="instances/Chauncy-700.ufo" sortorder="3" stylename="700">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="700.000000"/>

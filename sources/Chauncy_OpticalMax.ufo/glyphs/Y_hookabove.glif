@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Yhookabove" format="2">
   <advance width="647"/>
   <unicode hex="1EF6"/>
@@ -6,10 +6,4 @@
     <component base="Y"/>
     <component base="hookabovecomb.case" xOffset="185" yOffset="-21"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,1</string>
-    </dict>
-  </lib>
 </glyph>
