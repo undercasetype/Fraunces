@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="400" maximum="800" minimum="400" name="weight" tag="wght" />
+        <axis default="24" maximum="96" minimum="24" name="optical" tag="opsz" />
+    </axes>
+    <sources>
+        <source familyname="Fraunces" filename="FrauncesItalic_OpticalMax.ufo" stylename="Optical Max Italic">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="96" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="FrauncesItalic.ufo" stylename="Italic">
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="24" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="FrauncesItalic_WeightMax.ufo" stylename="Bold Italic">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="24" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="Fraunces" filename="instances/Fraunces-OpticalMedItalic.ufo" postscriptfontname="Fraunces-OpticalMedItalic" stylename="Optical Med Italic">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="60" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-Semibold.ufo" postscriptfontname="Fraunces-Semibold" stylename="Semibold">
+            <location>
+                <dimension name="weight" xvalue="650" />
+                <dimension name="optical" xvalue="24" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>

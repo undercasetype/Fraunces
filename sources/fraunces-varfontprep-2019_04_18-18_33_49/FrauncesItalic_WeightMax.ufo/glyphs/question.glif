@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="question" format="2">
+  <advance width="451"/>
+  <unicode hex="003F"/>
+  <outline>
+    <contour>
+      <point x="334" y="398" type="curve" smooth="yes"/>
+      <point x="415" y="435"/>
+      <point x="448.0" y="492"/>
+      <point x="448.0" y="572.0" type="curve" smooth="yes"/>
+      <point x="448" y="634"/>
+      <point x="427.08571428571435" y="658.0"/>
+      <point x="387" y="658.0" type="curve" smooth="yes"/>
+      <point x="351.1304347826087" y="658.0"/>
+      <point x="327.046417236405" y="637.9348551436732"/>
+      <point x="321" y="603" type="curve" smooth="yes"/>
+      <point x="312" y="551" type="line" smooth="yes"/>
+      <point x="304.02423028311506" y="504.91777496910925"/>
+      <point x="268.73809523809524" y="480.0"/>
+      <point x="233" y="480" type="curve" smooth="yes"/>
+      <point x="193.8421052631579" y="480.0"/>
+      <point x="171.0" y="509.9718309859155"/>
+      <point x="171" y="556" type="curve" smooth="yes"/>
+      <point x="171.0" y="637.1006711409397"/>
+      <point x="262.0" y="715.0"/>
+      <point x="410" y="715" type="curve" smooth="yes"/>
+      <point x="535.4659090909091" y="715.0"/>
+      <point x="591" y="665"/>
+      <point x="591.0" y="573.0" type="curve" smooth="yes"/>
+      <point x="591.0" y="495.1463414634146"/>
+      <point x="540.77243921766" y="439.40767625376503"/>
+      <point x="396" y="363" type="curve" smooth="yes"/>
+      <point x="353.84817460062743" y="340.4536747863821"/>
+      <point x="325.4160326294832" y="310.8855073572436"/>
+      <point x="314" y="250" type="curve" smooth="yes"/>
+      <point x="309" y="223"/>
+      <point x="293" y="206.0"/>
+      <point x="266" y="206" type="curve" smooth="yes"/>
+      <point x="225.0" y="206.0"/>
+      <point x="193.0" y="233"/>
+      <point x="193.0" y="276" type="curve" smooth="yes"/>
+      <point x="193.0" y="317.9375"/>
+      <point x="225.84207692662017" y="349.37854834315954"/>
+    </contour>
+    <component base="period" xScale="0.9329999999999999" yScale="0.9329999999999999" xOffset="55" yOffset="2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

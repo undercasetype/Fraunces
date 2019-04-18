@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<designspace format="2">
+    <!-- Superpolator Designspace Object -->
+    <!-- info -->
+    <version superpolator="2"/>
+    <!-- measurements -->
+    <!-- application data -->
+    <data name="horizontalPreviewAxis" value="optical"/>
+    <data name="lineInverted" value="False"/>
+    <data name="lineViewFilled" value="True"/>
+    <data name="lineStacked" value="lined"/>
+    <data name="generateFontsAtFolder" value="/Users/spencercharles/Documents/Git Repositories/Fraunces/sources/fraunces-varfontprep-2019_04_18-18_33_49/instances"/>
+    <data name="previewtext" value="Keplars"/>
+    <data name="verticalPreviewAxis" value="weight"/>
+    <!-- don't generate these glyphs -->
+    <ignore glyphs=""/>
+    <!-- axis definitions -->
+    <axis maximum="96.000000" minimum="24.000000" name="optical" shortname="opsz">
+        <color a="1.000" b="0.095" g="0.000" r="0.749"/>
+    </axis>
+    <axis maximum="800.000000" minimum="400.000000" name="weight" shortname="wght">
+        <color a="1.000" b="0.694" g="1.226" r="0.905"/>
+    </axis>
+    <!-- master definitions -->
+    <master familyname="Fraunces" filename="fraunces-varfontprep-2019_04_18-18_33_49/FrauncesItalic_WeightMax.ufo" sortorder="4" stylename="Bold Italic">
+        <location>
+            <dimension name="optical" xvalue="24.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces" filename="fraunces-varfontprep-2019_04_18-18_33_49/FrauncesItalic.ufo" sortorder="2" stylename="Italic">
+        <location>
+            <dimension name="optical" xvalue="24.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </master>
+    <master familyname="Fraunces" filename="fraunces-varfontprep-2019_04_18-18_33_49/FrauncesItalic_OpticalMax.ufo" sortorder="0" stylename="Optical Max Italic">
+        <location>
+            <dimension name="optical" xvalue="96.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <!-- instance definitions -->
+    <instance familyname="Fraunces" filename="instances/Fraunces-Semibold.ufo" sortorder="3" stylename="Semibold">
+        <location>
+            <dimension name="optical" xvalue="24.000000"/>
+            <dimension name="weight" xvalue="650.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-OpticalMedItalic.ufo" sortorder="1" stylename="Optical Med Italic">
+        <location>
+            <dimension name="optical" xvalue="60.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+</designspace>
