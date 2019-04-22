@@ -22,21 +22,21 @@
         <color a="1.000" b="0.764" g="0.000" r="0.989"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Fraunces" filename="Fraunces_WeightMax.ufo" sortorder="8" stylename="Bold">
+    <master familyname="Fraunces" filename="Fraunces_WeightMax.ufo" sortorder="2" stylename="Bold">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="800.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces" filename="Fraunces_OpticalMax.ufo" sortorder="0" stylename="Optical Max">
+    <master familyname="Fraunces" filename="Fraunces_OpticalMax.ufo" sortorder="1" stylename="Optical Max">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces" filename="Fraunces.ufo" sortorder="4" stylename="Regular">
+    <master familyname="Fraunces" filename="Fraunces.ufo" sortorder="0" stylename="Regular">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
@@ -44,7 +44,7 @@
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Fraunces" filename="instances/Dewey-SemiBold.ufo" sortorder="7" stylename="Semi Bold">
+    <instance familyname="Fraunces" filename="instances/Dewey-SemiBold.ufo" sortorder="10" stylename="Semibold OpMin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="650.000000"/>
@@ -54,7 +54,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Dewey-SemiBoldOpMed.ufo" sortorder="1" stylename="Semi Bold Op Max">
+    <instance familyname="Fraunces" filename="instances/Dewey-SemiBoldOpMed.ufo" sortorder="4" stylename="Semibold OpMax">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
             <dimension name="weight" xvalue="600.000000"/>
@@ -64,7 +64,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-OpticalMed.ufo" sortorder="3" stylename="Optical Med">
+    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMid.ufo" sortorder="6" stylename="Regular OpMid">
         <location>
             <dimension name="optical" xvalue="62.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
@@ -74,7 +74,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMax.ufo" sortorder="2" stylename="Bold Op Max">
+    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMax.ufo" sortorder="5" stylename="Bold OpMax">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
             <dimension name="weight" xvalue="750.000000"/>
@@ -84,7 +84,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpticalMed.ufo" sortorder="5" stylename="Semibold Optical Med ">
+    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMid.ufo" sortorder="7" stylename="Semibold OpMid">
         <location>
             <dimension name="optical" xvalue="62.000000"/>
             <dimension name="weight" xvalue="625.000000"/>
@@ -94,10 +94,40 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpticalMed.ufo" sortorder="6" stylename="Bold Optical Med">
+    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMid.ufo" sortorder="8" stylename="Bold OpMid">
         <location>
             <dimension name="optical" xvalue="62.000000"/>
             <dimension name="weight" xvalue="775.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMax.ufo" sortorder="3" stylename="Regular OpMax">
+        <location>
+            <dimension name="optical" xvalue="96.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMin.ufo" sortorder="9" stylename="Regular OpMin">
+        <location>
+            <dimension name="optical" xvalue="24.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMin.ufo" sortorder="11" stylename="Bold OpMin">
+        <location>
+            <dimension name="optical" xvalue="24.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>
