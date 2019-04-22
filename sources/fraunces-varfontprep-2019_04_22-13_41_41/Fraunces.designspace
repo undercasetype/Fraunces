@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="400" maximum="800" minimum="400" name="weight" tag="wght" />
+        <axis default="24" maximum="96" minimum="24" name="optical" tag="opsz" />
+    </axes>
+    <sources>
+        <source familyname="Fraunces" filename="Fraunces_OpticalMax.ufo" stylename="Optical Max">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="96" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="Fraunces.ufo" stylename="Regular">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="24" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="Fraunces_WeightMax.ufo" stylename="Bold">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="24" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiBoldOpMax.ufo" postscriptfontname="Fraunces-SemiBoldOpMax" stylename="Semi Bold Op Max">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="96" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMax.ufo" postscriptfontname="Fraunces-BoldOpMax" stylename="Bold Op Max">
+            <location>
+                <dimension name="weight" xvalue="750" />
+                <dimension name="optical" xvalue="96" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-OpticalMed.ufo" postscriptfontname="Fraunces-OpticalMed" stylename="Optical Med">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="62" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpticalMed.ufo" postscriptfontname="Fraunces-SemiboldOpticalMed" stylename="Semibold Optical Med ">
+            <location>
+                <dimension name="weight" xvalue="625" />
+                <dimension name="optical" xvalue="62" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpticalMed.ufo" postscriptfontname="Fraunces-BoldOpticalMed" stylename="Bold Optical Med">
+            <location>
+                <dimension name="weight" xvalue="775" />
+                <dimension name="optical" xvalue="62" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiBold.ufo" postscriptfontname="Fraunces-SemiBold" stylename="Semi Bold">
+            <location>
+                <dimension name="weight" xvalue="650" />
+                <dimension name="optical" xvalue="24" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>

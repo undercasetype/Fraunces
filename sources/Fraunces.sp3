@@ -9,7 +9,7 @@
     <data name="lineInverted" value="False"/>
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
-    <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Chauncy/sources/instances"/>
+    <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Fraunces/sources/instances"/>
     <data name="previewtext" value="Evil vanguards."/>
     <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
@@ -22,29 +22,29 @@
         <color a="1.000" b="0.764" g="0.000" r="0.989"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Dewey" filename="Chauncy.ufo" sortorder="6" stylename="Regular">
-        <location>
-            <dimension name="optical" xvalue="24.000000"/>
-            <dimension name="weight" xvalue="400.000000"/>
-        </location>
-        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
-    </master>
-    <master familyname="Dewey" filename="Chauncy_WeightMax.ufo" sortorder="8" stylename="Bold">
+    <master familyname="Fraunces" filename="Fraunces_WeightMax.ufo" sortorder="8" stylename="Bold">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="800.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Dewey" filename="Chauncy_OpticalMax.ufo" sortorder="0" stylename="Optical Max">
+    <master familyname="Fraunces" filename="Fraunces_OpticalMax.ufo" sortorder="0" stylename="Optical Max">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
+    <master familyname="Fraunces" filename="Fraunces.ufo" sortorder="4" stylename="Regular">
+        <location>
+            <dimension name="optical" xvalue="24.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
     <!-- instance definitions -->
-    <instance familyname="Dewey" filename="instances/Dewey-SemiBold.ufo" sortorder="7" stylename="Semi Bold">
+    <instance familyname="Fraunces" filename="instances/Dewey-SemiBold.ufo" sortorder="7" stylename="Semi Bold">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="650.000000"/>
@@ -54,7 +54,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Dewey" filename="instances/Dewey-SemiBoldOpMed.ufo" sortorder="1" stylename="Semi Bold Op Max">
+    <instance familyname="Fraunces" filename="instances/Dewey-SemiBoldOpMed.ufo" sortorder="1" stylename="Semi Bold Op Max">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
             <dimension name="weight" xvalue="600.000000"/>
@@ -64,7 +64,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-OpticalMed.ufo" sortorder="3" stylename="Optical Med">
+    <instance familyname="Fraunces" filename="instances/Fraunces-OpticalMed.ufo" sortorder="3" stylename="Optical Med">
         <location>
             <dimension name="optical" xvalue="62.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
@@ -74,7 +74,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-BoldOpMax.ufo" sortorder="2" stylename="Bold Op Max">
+    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMax.ufo" sortorder="2" stylename="Bold Op Max">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
             <dimension name="weight" xvalue="750.000000"/>
@@ -84,7 +84,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-SemiboldOpticalMed.ufo" sortorder="4" stylename="Semibold Optical Med ">
+    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpticalMed.ufo" sortorder="5" stylename="Semibold Optical Med ">
         <location>
             <dimension name="optical" xvalue="62.000000"/>
             <dimension name="weight" xvalue="625.000000"/>
@@ -94,7 +94,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Chauncy" filename="instances/Chauncy-BoldOpticalMed.ufo" sortorder="5" stylename="Bold Optical Med">
+    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpticalMed.ufo" sortorder="6" stylename="Bold Optical Med">
         <location>
             <dimension name="optical" xvalue="62.000000"/>
             <dimension name="weight" xvalue="775.000000"/>
