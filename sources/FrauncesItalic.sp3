@@ -46,7 +46,7 @@
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMax.ufo" sortorder="3" stylename="Regular OpMax">
+    <instance familyname="Fraunces" filename="instances/Fraunces-ItalicRegularOpMax.ufo" sortorder="3" stylename="Italic Regular OpMax">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
@@ -56,7 +56,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMax.ufo" sortorder="4" stylename="Semibold OpMax">
+    <instance familyname="Fraunces" filename="instances/Fraunces-ItalicSemiboldOpMax.ufo" sortorder="4" stylename="Italic Semibold OpMax">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
             <dimension name="weight" xvalue="600.000000"/>
@@ -66,7 +66,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMax.ufo" sortorder="5" stylename="Bold OpMax">
+    <instance familyname="Fraunces" filename="instances/Fraunces-ItalicBoldOpMax.ufo" sortorder="5" stylename="Italic Bold OpMax">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
             <dimension name="weight" xvalue="750.000000"/>
@@ -76,7 +76,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMid.ufo" sortorder="6" stylename="Regular OpMid">
+    <instance familyname="Fraunces" filename="instances/Fraunces-ItalicRegularOpMid.ufo" sortorder="6" stylename="Italic Regular OpMid">
         <location>
             <dimension name="optical" xvalue="62.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
@@ -86,7 +86,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMid.ufo" sortorder="7" stylename="Semibold OpMid">
+    <instance familyname="Fraunces" filename="instances/Fraunces-ItalicSemiboldOpMid.ufo" sortorder="7" stylename="Italic Semibold OpMid">
         <location>
             <dimension name="optical" xvalue="62.000000"/>
             <dimension name="weight" xvalue="625.000000"/>
@@ -96,7 +96,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMid.ufo" sortorder="8" stylename="Bold OpMid">
+    <instance familyname="Fraunces" filename="instances/Fraunces-ItalicBoldOpMid.ufo" sortorder="8" stylename="Italic Bold OpMid">
         <location>
             <dimension name="optical" xvalue="62.000000"/>
             <dimension name="weight" xvalue="775.000000"/>
@@ -106,7 +106,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMin.ufo" sortorder="9" stylename="Regular OpMin">
+    <instance familyname="Fraunces" filename="instances/Fraunces-ItalicRegularOpMin.ufo" sortorder="9" stylename="Italic Regular OpMin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
@@ -116,7 +116,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMin.ufo" sortorder="10" stylename="Semibold OpMin">
+    <instance familyname="Fraunces" filename="instances/Fraunces-ItalicSemiboldOpMin.ufo" sortorder="10" stylename="Italic Semibold OpMin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="650.000000"/>
@@ -126,7 +126,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMin.ufo" sortorder="11" stylename="Bold OpMin">
+    <instance familyname="Fraunces" filename="instances/Fraunces-ItalicBoldOpMin.ufo" sortorder="11" stylename="Italic Bold OpMin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="800.000000"/>

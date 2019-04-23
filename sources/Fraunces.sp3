@@ -22,21 +22,21 @@
         <color a="1.000" b="0.764" g="0.000" r="0.989"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Fraunces" filename="Fraunces_WeightMax.ufo" sortorder="2" stylename="Bold">
+    <master familyname="Fraunces" filename="Fraunces_WeightMax.ufo" sortorder="2" stylename="Bold OpMin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="800.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces" filename="Fraunces_OpticalMax.ufo" sortorder="1" stylename="Optical Max">
+    <master familyname="Fraunces" filename="Fraunces_OpticalMax.ufo" sortorder="1" stylename="Regular OpMax">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces" filename="Fraunces.ufo" sortorder="0" stylename="Regular">
+    <master familyname="Fraunces" filename="Fraunces.ufo" sortorder="0" stylename="Regular OpMin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
@@ -44,7 +44,7 @@
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Fraunces" filename="instances/Dewey-SemiBold.ufo" sortorder="10" stylename="Semibold OpMin">
+    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMin.ufo" sortorder="10" stylename="Semibold OpMin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="650.000000"/>
@@ -54,7 +54,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Dewey-SemiBoldOpMed.ufo" sortorder="4" stylename="Semibold OpMax">
+    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMax.ufo" sortorder="4" stylename="Semibold OpMax">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
             <dimension name="weight" xvalue="600.000000"/>
