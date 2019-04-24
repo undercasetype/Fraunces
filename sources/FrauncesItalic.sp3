@@ -10,7 +10,7 @@
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Fraunces/sources/instances"/>
-    <data name="previewtext" value="Keplars"/>
+    <data name="previewtext" value="reedy little "/>
     <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -22,14 +22,14 @@
         <color a="1.000" b="0.694" g="1.226" r="0.905"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Fraunces" filename="FrauncesItalic_WeightMax.ufo" sortorder="2" stylename="Bold Italic">
+    <master familyname="Fraunces" filename="FrauncesItalic_WeightMax.ufo" sortorder="2" stylename="Italic Bold OpMin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="800.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces" filename="FrauncesItalic.ufo" sortorder="0" stylename="Italic">
+    <master familyname="Fraunces" filename="FrauncesItalic.ufo" sortorder="0" stylename="Italic Regular OpMin">
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
@@ -38,7 +38,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </master>
-    <master familyname="Fraunces" filename="FrauncesItalic_OpticalMax.ufo" sortorder="1" stylename="Optical Max Italic">
+    <master familyname="Fraunces" filename="FrauncesItalic_OpticalMax.ufo" sortorder="1" stylename="Italic Regular OpMax">
         <location>
             <dimension name="optical" xvalue="96.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
