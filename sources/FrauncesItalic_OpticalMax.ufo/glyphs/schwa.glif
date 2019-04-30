@@ -1,8 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="schwa" format="2">
-  <advance width="430"/>
+  <advance width="335"/>
   <unicode hex="0259"/>
   <outline>
-    <component base="e" xScale="-1" yScale="-1" xOffset="572" yOffset="464"/>
+    <component base="e" xScale="-1" yScale="-1" xOffset="450" yOffset="430"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
