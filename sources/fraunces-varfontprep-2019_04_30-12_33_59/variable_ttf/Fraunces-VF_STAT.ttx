@@ -1,24 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="3.36">
-
-  <STAT>
-    <Version value="0x00010002"/>
-    <DesignAxisRecordSize value="8"/>
-    <!-- DesignAxisCount=2 -->
-    <DesignAxisRecord>
-      <Axis index="0">
-        <AxisTag value="opsz"/>
-        <AxisNameID value="256"/>  <!-- Optical Size -->
-        <AxisOrdering value="0"/>
-      </Axis>
-      <Axis index="1">
-        <AxisTag value="wght"/>
-        <AxisNameID value="257"/>  <!-- Weight -->
-        <AxisOrdering value="1"/>
-      </Axis>
-    </DesignAxisRecord>
-    <!-- AxisValueCount=0 -->
-    <ElidedFallbackNameID value="2"/>  <!-- Regular -->
-  </STAT>
-
+    <STAT>
+        <Version value="0x00010002"/>
+        <DesignAxisRecordSize value="8"/>
+        <!-- DesignAxisCount=2 -->
+        <DesignAxisRecord>
+            <Axis index="0">
+                <AxisTag value="opsz"/>
+                <AxisNameID value="256"/>
+                <!-- Optical Size -->
+                <AxisOrdering value="0"/>
+            </Axis>
+            <Axis index="1">
+                <AxisTag value="wght"/>
+                <AxisNameID value="257"/>
+                <!-- Weight -->
+                <AxisOrdering value="1"/>
+            </Axis>
+        </DesignAxisRecord>
+        <!-- Regular -->
+        <ElidedFallbackNameID value="2"/>
+        <!-- AxisValueCount=0 -->
+        <AxisValueArray>
+            <!-- ===== OPTICAL SIZE ===== -->
+            <AxisValue index="0" Format="1">
+                <AxisIndex value="0"/>
+                <Flags value="0"/>
+                <!-- Thin -->
+                <ValueNameID value="276"/>
+                <Value value="250.0"/>
+            </AxisValue>
+            <!-- ===== WEIGHT ===== -->
+            <AxisValue index="0" Format="1">
+                <AxisIndex value="1"/>
+                <Flags value="0"/>
+                <!-- Thin -->
+                <ValueNameID value="276"/>
+                <Value value="250.0"/>
+            </AxisValue>
+        </AxisValueArray>
+    </STAT>
 </ttFont>
