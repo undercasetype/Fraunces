@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lessequal" format="2">
   <advance width="482"/>
   <unicode hex="2264"/>
@@ -6,4 +6,10 @@
     <component base="less" yOffset="58"/>
     <component base="minus" xOffset="4" yOffset="-248"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2645,0.8606,0.3738,1</string>
+    </dict>
+  </lib>
 </glyph>

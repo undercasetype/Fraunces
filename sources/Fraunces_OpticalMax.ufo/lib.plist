@@ -76,6 +76,7 @@
           <string>quotedblright</string>
           <string>quoteleft</string>
           <string>quoteright</string>
+          <string>apostrophemod</string>
           <string>quotesinglbase</string>
           <string>quotedblbase</string>
           <string>guillemetleft</string>
@@ -121,10 +122,9 @@
           <string>nine</string>
           <string>quotesingle</string>
           <string>quotedbl</string>
+          <string>primemod</string>
           <string>minute</string>
           <string>second</string>
-          <string>primemod</string>
-          <string>apostrophemod</string>
           <string>asciicircum</string>
           <string>asciitilde</string>
           <string>plus</string>
@@ -145,26 +145,26 @@
           <string>numbersign</string>
           <string>currency</string>
           <string>dollar</string>
-          <string>sterling</string>
-          <string>lira</string>
           <string>yen</string>
           <string>Euro</string>
-          <string>naira</string>
-          <string>peso</string>
-          <string>turkishlira</string>
-          <string>ruble</string>
-          <string>indianrupee</string>
-          <string>won</string>
+          <string>sterling</string>
+          <string>lira</string>
           <string>colonmonetary</string>
+          <string>cedi</string>
+          <string>guarani</string>
           <string>franc</string>
           <string>kip</string>
-          <string>bla</string>
-          <string>guarani</string>
-          <string>cedi</string>
+          <string>naira</string>
+          <string>ruble</string>
+          <string>peso</string>
+          <string>indianrupee</string>
+          <string>turkishlira</string>
+          <string>won</string>
           <string>manat</string>
           <string>peseta</string>
           <string>cent</string>
           <string>dong</string>
+          <string>fhook</string>
           <string>commercialminussign</string>
           <string>percent</string>
           <string>perthousand</string>
@@ -610,7 +610,6 @@
           <string>at.case</string>
           <string>exclamdown.case</string>
           <string>questiondown.case</string>
-          <string>fhook</string>
           <string>commaturnedabovecomb</string>
           <string>dblgravecomb</string>
           <string>hyphentwo</string>
@@ -1039,6 +1038,7 @@
       <string>quotedblright</string>
       <string>quoteleft</string>
       <string>quoteright</string>
+      <string>apostrophemod</string>
       <string>quotesinglbase</string>
       <string>quotedblbase</string>
       <string>guillemetleft</string>
@@ -1084,10 +1084,9 @@
       <string>nine</string>
       <string>quotesingle</string>
       <string>quotedbl</string>
+      <string>primemod</string>
       <string>minute</string>
       <string>second</string>
-      <string>primemod</string>
-      <string>apostrophemod</string>
       <string>asciicircum</string>
       <string>asciitilde</string>
       <string>plus</string>
@@ -1108,25 +1107,26 @@
       <string>numbersign</string>
       <string>currency</string>
       <string>dollar</string>
-      <string>sterling</string>
-      <string>lira</string>
       <string>yen</string>
       <string>Euro</string>
-      <string>naira</string>
-      <string>peso</string>
-      <string>turkishlira</string>
-      <string>ruble</string>
-      <string>indianrupee</string>
-      <string>won</string>
+      <string>sterling</string>
+      <string>lira</string>
       <string>colonmonetary</string>
+      <string>cedi</string>
+      <string>guarani</string>
       <string>franc</string>
       <string>kip</string>
-      <string>guarani</string>
-      <string>cedi</string>
+      <string>naira</string>
+      <string>ruble</string>
+      <string>peso</string>
+      <string>indianrupee</string>
+      <string>turkishlira</string>
+      <string>won</string>
       <string>manat</string>
       <string>peseta</string>
       <string>cent</string>
       <string>dong</string>
+      <string>fhook</string>
       <string>commercialminussign</string>
       <string>percent</string>
       <string>perthousand</string>
@@ -1572,7 +1572,6 @@
       <string>at.case</string>
       <string>exclamdown.case</string>
       <string>questiondown.case</string>
-      <string>fhook</string>
       <string>commaturnedabovecomb</string>
       <string>dblgravecomb</string>
       <string>hyphentwo</string>
