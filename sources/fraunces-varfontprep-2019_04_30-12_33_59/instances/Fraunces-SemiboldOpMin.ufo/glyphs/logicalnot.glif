@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="logicalnot" format="2">
+  <advance width="533.0"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="423.125" y="152.75" type="curve" smooth="yes"/>
+      <point x="446.925" y="152.75"/>
+      <point x="463.0" y="168.05"/>
+      <point x="463.0" y="195.25" type="curve" smooth="yes"/>
+      <point x="463.0" y="374.25" type="line" smooth="yes"/>
+      <point x="463.0" y="398.375"/>
+      <point x="447.375" y="413.375"/>
+      <point x="424.25" y="413.375" type="curve" smooth="yes"/>
+      <point x="399.0138888888889" y="413.375"/>
+      <point x="381.625" y="396.75"/>
+      <point x="381.625" y="374.25" type="curve" smooth="yes"/>
+      <point x="381.625" y="196.25" type="line" smooth="yes"/>
+      <point x="381.625" y="170.79326923076923"/>
+      <point x="398.54296875" y="152.75"/>
+    </contour>
+    <component base="minus" xOffset="2.5" yOffset="71.25"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
+</glyph>

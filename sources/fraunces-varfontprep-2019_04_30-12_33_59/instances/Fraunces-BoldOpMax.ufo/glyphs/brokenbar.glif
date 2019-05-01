@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brokenbar" format="2">
+  <advance width="357.0"/>
+  <unicode hex="00A6"/>
+  <outline>
+    <contour>
+      <point x="224.5" y="716.5" type="line" smooth="yes"/>
+      <point x="224.5" y="741.25"/>
+      <point x="211.35346611218324" y="764.349817573043"/>
+      <point x="180.0" y="766.0" type="curve" smooth="yes"/>
+      <point x="149.87850885013157" y="767.5853416394667"/>
+      <point x="132.5" y="743.125"/>
+      <point x="132.5" y="716.5" type="curve" smooth="yes"/>
+      <point x="132.5" y="355.75" type="line" smooth="yes"/>
+      <point x="132.5" y="329.125"/>
+      <point x="149.625" y="304.375"/>
+      <point x="180.0" y="306.25" type="curve" smooth="yes"/>
+      <point x="211.25" y="308.125"/>
+      <point x="224.5" y="331.0"/>
+      <point x="224.5" y="355.75" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="224.5" y="165.25" type="line" smooth="yes"/>
+      <point x="224.5" y="190.0"/>
+      <point x="211.25" y="212.875"/>
+      <point x="180.0" y="214.75" type="curve" smooth="yes"/>
+      <point x="149.625" y="216.625"/>
+      <point x="132.5" y="191.875"/>
+      <point x="132.5" y="165.25" type="curve" smooth="yes"/>
+      <point x="132.5" y="-195.5" type="line" smooth="yes"/>
+      <point x="132.5" y="-222.125"/>
+      <point x="149.87850885013157" y="-246.58534163946678"/>
+      <point x="180.0" y="-245.0" type="curve" smooth="yes"/>
+      <point x="211.35346611218324" y="-243.349817573043"/>
+      <point x="224.5" y="-220.25"/>
+      <point x="224.5" y="-195.5" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

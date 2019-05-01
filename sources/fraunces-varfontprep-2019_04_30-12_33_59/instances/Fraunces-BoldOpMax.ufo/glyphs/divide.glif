@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divide" format="2">
+  <advance width="498.0"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <component base="minus" yOffset="-6.75"/>
+    <component base="period" xScale="0.675" yScale="0.675" xOffset="159.0" yOffset="82.5"/>
+    <component base="period" xScale="0.675" yScale="0.675" xOffset="159.0" yOffset="403.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
+</glyph>

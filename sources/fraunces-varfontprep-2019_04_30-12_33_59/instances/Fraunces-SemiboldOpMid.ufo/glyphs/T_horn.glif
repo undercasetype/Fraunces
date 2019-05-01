@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Thorn" format="2">
+  <advance width="690.1875"/>
+  <unicode hex="00DE"/>
+  <outline>
+    <contour>
+      <point x="197.5" y="505.75" type="line"/>
+      <point x="352.25" y="505.75" type="line" smooth="yes"/>
+      <point x="451.5" y="505.75"/>
+      <point x="518.625" y="449.625"/>
+      <point x="518.625" y="353.3125" type="curve" smooth="yes"/>
+      <point x="518.625" y="252.3125"/>
+      <point x="456.375" y="200.25"/>
+      <point x="374.5" y="200.25" type="curve" smooth="yes"/>
+      <point x="285.5" y="200.25"/>
+      <point x="243.5" y="219.25"/>
+      <point x="196.5" y="245.25" type="curve"/>
+      <point x="186.5" y="189.0" type="line"/>
+      <point x="249.6565691586506" y="153.91301713408296"/>
+      <point x="298.5" y="141.0"/>
+      <point x="377.5" y="141.0" type="curve" smooth="yes"/>
+      <point x="556.1875" y="141.0"/>
+      <point x="668.0" y="209.5"/>
+      <point x="668.0" y="342.625" type="curve" smooth="yes"/>
+      <point x="668.0" y="487.25"/>
+      <point x="547.5" y="571.0"/>
+      <point x="379.75" y="571.0" type="curve" smooth="yes"/>
+      <point x="197.5" y="571.0" type="line"/>
+    </contour>
+    <component base="I"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>

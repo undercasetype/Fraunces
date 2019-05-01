@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commercialminussign" format="2">
+  <advance width="534.0"/>
+  <unicode hex="2052"/>
+  <outline>
+    <contour>
+      <point x="601.0" y="565.5" type="curve" smooth="yes"/>
+      <point x="625.0" y="589.5"/>
+      <point x="632.5" y="605.5"/>
+      <point x="636.5" y="625.0" type="curve" smooth="yes"/>
+      <point x="641.0" y="647.0"/>
+      <point x="626.0" y="663.5"/>
+      <point x="600.0" y="663.5" type="curve" smooth="yes"/>
+      <point x="576.0" y="663.5"/>
+      <point x="553.0" y="650.0"/>
+      <point x="533.0" y="625.0" type="curve" smooth="yes"/>
+      <point x="475.5" y="546.5"/>
+      <point x="398.5" y="418.5"/>
+      <point x="340.0" y="347.5" type="curve" smooth="yes"/>
+      <point x="277.5" y="270.5"/>
+      <point x="175.5" y="164.5"/>
+      <point x="108.5" y="94.0" type="curve" smooth="yes"/>
+      <point x="74.5" y="60.5"/>
+      <point x="65.5" y="38.0"/>
+      <point x="61.5" y="18.0" type="curve" smooth="yes"/>
+      <point x="58.0" y="0.0"/>
+      <point x="71.0" y="-19.0"/>
+      <point x="97.5" y="-19.0" type="curve" smooth="yes"/>
+      <point x="122.0" y="-19.0"/>
+      <point x="147.0" y="-8.0"/>
+      <point x="172.5" y="27.5" type="curve" smooth="yes"/>
+      <point x="229.0" y="106.0"/>
+      <point x="293.0" y="227.0"/>
+      <point x="373.0" y="322.0" type="curve" smooth="yes"/>
+      <point x="441.0" y="403.5"/>
+      <point x="541.0" y="502.5"/>
+    </contour>
+    <component base="periodcentered" xOffset="192.5" yOffset="-202.0"/>
+    <component base="periodcentered" xOffset="56.0" yOffset="298.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
+</glyph>

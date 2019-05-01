@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divisionslash" format="2">
+  <advance width="359.0"/>
+  <unicode hex="2215"/>
+  <outline>
+    <contour>
+      <point x="243.125" y="613.25" type="line" smooth="yes"/>
+      <point x="250.375" y="636.0"/>
+      <point x="264.1875" y="652.0"/>
+      <point x="284.0" y="652.0" type="curve" smooth="yes"/>
+      <point x="311.5" y="652.0"/>
+      <point x="319.5" y="634.1875"/>
+      <point x="309.5" y="603.625" type="curve" smooth="yes"/>
+      <point x="115.3125" y="19.625" type="line" smooth="yes"/>
+      <point x="107.0625" y="-4.125"/>
+      <point x="94.375" y="-18.4375"/>
+      <point x="73.0" y="-18.0" type="curve" smooth="yes"/>
+      <point x="49.875" y="-17.5625"/>
+      <point x="41.0625" y="2.5"/>
+      <point x="50.1875" y="30.4375" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
+</glyph>
