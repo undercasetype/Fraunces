@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="logicalnot" format="2">
-  <advance width="402"/>
+  <advance width="498"/>
   <unicode hex="00AC"/>
   <outline>
     <contour>
@@ -9,10 +9,10 @@
       <point x="352" y="207"/>
       <point x="352" y="224" type="curve" smooth="yes"/>
       <point x="352" y="259"/>
-      <point x="334" y="305"/>
-      <point x="330" y="379" type="curve" smooth="yes"/>
-      <point x="329" y="396"/>
-      <point x="327" y="401.0"/>
+      <point x="333" y="307"/>
+      <point x="330" y="384" type="curve" smooth="yes"/>
+      <point x="330.0" y="396.0"/>
+      <point x="326" y="401"/>
       <point x="309" y="401" type="curve" smooth="yes"/>
       <point x="150" y="401"/>
       <point x="127" y="423"/>
@@ -34,10 +34,4 @@
       <point x="306" y="192"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.5737,0.8249,1</string>
-    </dict>
-  </lib>
 </glyph>
