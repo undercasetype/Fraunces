@@ -2,12 +2,34 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>C</key>
+    <string>C_.glif</string>
     <key>Euro</key>
     <string>E_uro.glif</string>
     <key>H</key>
     <string>H_.glif</string>
+    <key>backslash</key>
+    <string>backslash.glif</string>
+    <key>bar</key>
+    <string>bar.glif</string>
+    <key>brokenbar</key>
+    <string>brokenbar.glif</string>
     <key>cedi</key>
     <string>cedi.glif</string>
+    <key>cent</key>
+    <string>cent.glif</string>
+    <key>colonmonetary</key>
+    <string>colonmonetary.glif</string>
+    <key>commercialminussign</key>
+    <string>commercialminussign.glif</string>
+    <key>divisionslash</key>
+    <string>divisionslash.glif</string>
+    <key>dollar</key>
+    <string>dollar.glif</string>
+    <key>dong</key>
+    <string>dong.glif</string>
+    <key>fhook</key>
+    <string>fhook.glif</string>
     <key>franc</key>
     <string>franc.glif</string>
     <key>guarani</key>
@@ -16,16 +38,24 @@
     <string>indianrupee.glif</string>
     <key>kip</key>
     <string>kip.glif</string>
+    <key>less</key>
+    <string>less.glif</string>
+    <key>lira</key>
+    <string>lira.glif</string>
     <key>manat</key>
     <string>manat.glif</string>
     <key>naira</key>
     <string>naira.glif</string>
     <key>numero</key>
     <string>numero.glif</string>
+    <key>peseta</key>
+    <string>peseta.glif</string>
     <key>peso</key>
     <string>peso.glif</string>
     <key>ruble</key>
     <string>ruble.glif</string>
+    <key>sterling</key>
+    <string>sterling.glif</string>
     <key>turkishlira</key>
     <string>turkishlira.glif</string>
     <key>won</key>
