@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Nj" format="2">
-  <advance width="1071"/>
+  <advance width="953"/>
   <unicode hex="01CB"/>
   <outline>
     <component base="N"/>
-    <component base="j" xOffset="794"/>
+    <component base="j" xOffset="704"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2645,0.8606,0.3738,1</string>
+    </dict>
+  </lib>
 </glyph>
