@@ -95,7 +95,9 @@ def glyphDictGenerator(glyph, baseglyphs, accents):
         if accent in glyph:
             accentlist.append(accent)
     for accent in accentlist:
-        if 
+        for accent2 in accentlist:
+            if accent in accent2 and accent != accent2:
+                accentlist.pop(accent)
     
 # AEacute
         
