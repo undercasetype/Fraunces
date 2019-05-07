@@ -66,8 +66,12 @@ def accentsDictsGenerator(compglyphs, baseglyphs, accentsdict):
         for base in baseglyphs:
             if base[:1].isupper():
                 case = ".case"
+                position = 2
+                overvar = "{top_uc}:"
             else:
                 case = ""
+                position = 0
+                overvar = "{top_lc}:"
             #if glyph == accents or noncomb glyphs in PlusDrawn :
                 # don't run anything below here and move on to the next base glyph
             if glyph[:2] == base:
@@ -78,8 +82,10 @@ def accentsDictsGenerator(compglyphs, baseglyphs, accentsdict):
                 while subglyph2counter <= subglyphcounter:
                     subglyph2 = subglyph[:subglyph2counter]
                     for accent in accentsdict.keys():
+                        accentcounter = 0
                         if accent in subglyph2:
-                            glyphparsed.append("%s@%s,%s" % (accent+"%s" % (case), "center", accentsdict.get(accent)))
+                            accentcounter += 1
+                            glyphparsed.append("%s@%s,%s" % (accent+"%s" % (case), "center", overvar+accentsdict.get(accent)+"%s" % (str(position+accentcounter))))
                             subglyph = subglyph[len(accent):]
                         else:
                             continue
@@ -92,15 +98,17 @@ def accentsDictsGenerator(compglyphs, baseglyphs, accentsdict):
                 while subglyph2counter <= subglyphcounter:
                     subglyph2 = subglyph[:subglyph2counter]
                     for accent in accentsdict.keys():
+                        accentcounter = 0
                         if accent in subglyph2:
-                            glyphparsed.append("%s@%s,%s" % (accent+"%s" % (case), "center", accentsdict.get(accent)))
+                            accentcounter += 1
+                            glyphparsed.append("%s@%s,%s" % (accent+"%s" % (case), "center", overvar+accentsdict.get(accent)+"%s" % (str(position+accentcounter))))
                             subglyph = subglyph[len(accent):]
                         else:
                             continue
                     subglyph2counter += 1
             else:
                 continue
-        accentsDictstoGlyphCon.append("%s = %s + %s | %s" % (glyph, glyphparsed[0], " + ".join(glyphparsed[1:]), compglyphs.get(glyph)))
+        accentsDictstoGlyphCon.append("%s=%s+%s|%s" % (glyph, glyphparsed[0], "+".join(glyphparsed[1:]), compglyphs.get(glyph)))
 
 # Plug in list of composites, list of bases, and accent dictionary here.               
 accentsDictsGenerator(PlusCompDict, PlusDrawn, accent_dict)
@@ -109,3 +117,10 @@ accentsDictsGenerator(PlusCompDict, PlusDrawn, accent_dict)
 accentsDictstoGlyphCon.sort()
 for i in accentsDictstoGlyphCon:
     print(i)
+    
+# for i in accentsDictstoGlyphCon:
+#     nums = i.count("top3")
+#     if nums >= 2:
+#         newstring= i.replace("top3","butts",-1)
+#         print(i.replace(i, newstring))
+#     print(i)

@@ -646,7 +646,7 @@
       <string>fluid</string>
     </dict>
     <key>com.typemytype.glyphBuilder.lastSavedFileName</key>
-    <string>GooglePlus</string>
+    <string>GooglePlus_002</string>
     <key>com.typemytype.robofont.background.layerStrokeColor</key>
     <array>
       <real>0.0</real>
@@ -685,6 +685,8 @@
     <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.9KIK9dRrsw</key>
     <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.magnetic.D7aGhZ7o4v</key>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.DH0KhgFaFh</key>
     <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.FKpywbNsAH</key>
@@ -695,8 +697,12 @@
     <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.RDphvdBWiu</key>
     <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.magnetic.Ydpv2nmRMz</key>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.YqhlAZkVMg</key>
     <integer>5</integer>
+    <key>com.typemytype.robofont.guideline.magnetic.bEgMb6SEia</key>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.bG5QhWb50I</key>
     <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.cJGWne72uT</key>
@@ -705,12 +711,16 @@
     <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.j6VTdcgzN7</key>
     <integer>5</integer>
+    <key>com.typemytype.robofont.guideline.magnetic.mdsQHPU04f</key>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.p23oSKUL9m</key>
     <integer>5</integer>
     <key>com.typemytype.robofont.guideline.magnetic.qY3kwwHQoT</key>
     <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.xJoeB7YZT0</key>
     <integer>5</integer>
+    <key>com.typemytype.robofont.guideline.magnetic.yN5y72Cmdg</key>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.yyoEiTfVbP</key>
     <integer>5</integer>
     <key>com.typemytype.robofont.guideline.magnetic.zsEEwvS0pv</key>
@@ -720,6 +730,8 @@
     <key>com.typemytype.robofont.guideline.showMeasurements.6o3ypeaxbl</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.9KIK9dRrsw</key>
+    <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.D7aGhZ7o4v</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.DH0KhgFaFh</key>
     <false/>
@@ -731,13 +743,21 @@
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.RDphvdBWiu</key>
     <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.Ydpv2nmRMz</key>
+    <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.YqhlAZkVMg</key>
+    <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.bEgMb6SEia</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.bG5QhWb50I</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.clSakmEmRj</key>
     <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.mdsQHPU04f</key>
+    <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.qY3kwwHQoT</key>
+    <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.yN5y72Cmdg</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.zsEEwvS0pv</key>
     <false/>
@@ -1547,27 +1567,27 @@
       <string>ogonekcomb</string>
       <string>ringcomb</string>
       <string>tildecomb</string>
-      <string>acutecomb.case</string>
-      <string>brevebelowcomb.case</string>
-      <string>brevecomb.case</string>
-      <string>breveinvertedcomb.case</string>
-      <string>caroncomb.case</string>
-      <string>cedillacomb.case</string>
-      <string>circumflexcomb.case</string>
-      <string>commaaccentcomb.case</string>
-      <string>dieresisbelowcomb.case</string>
-      <string>dieresiscomb.case</string>
-      <string>dotaccentcomb.case</string>
-      <string>dotbelowcomb.case</string>
-      <string>gravecomb.case</string>
-      <string>hookabovecomb.case</string>
-      <string>horncomb.case</string>
-      <string>hungarumlautcomb.case</string>
-      <string>macronbelowcomb.case</string>
-      <string>macroncomb.case</string>
-      <string>ogonekcomb.case</string>
-      <string>ringcomb.case</string>
-      <string>tildecomb.case</string>
+      <string>acute.case</string>
+      <string>brevebelow.case</string>
+      <string>breve.case</string>
+      <string>breveinverted.case</string>
+      <string>caron.case</string>
+      <string>cedilla.case</string>
+      <string>circumflex.case</string>
+      <string>commaaccent.case</string>
+      <string>dieresisbelow.case</string>
+      <string>dieresis.case</string>
+      <string>dotaccent.case</string>
+      <string>dotbelow.case</string>
+      <string>grave.case</string>
+      <string>hookabove.case</string>
+      <string>horn.case</string>
+      <string>hungarumlaut.case</string>
+      <string>macronbelow.case</string>
+      <string>macron.case</string>
+      <string>ogonek.case</string>
+      <string>ring.case</string>
+      <string>tilde.case</string>
       <string>caroncomb.alt</string>
       <string>zero.case</string>
       <string>one.case</string>
@@ -1588,6 +1608,7 @@
       <string>uniF000</string>
       <string>CR</string>
       <string>NULL</string>
+      <string>verticalcaron</string>
     </array>
   </dict>
 </plist>
