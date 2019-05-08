@@ -178,6 +178,8 @@
     <string>I_tilde.glif</string>
     <key>J</key>
     <string>J_.glif</string>
+    <key>Jacute</key>
+    <string>J_acute.glif</string>
     <key>Jcircumflex</key>
     <string>J_circumflex.glif</string>
     <key>K</key>
@@ -250,6 +252,8 @@
     <string>O_grave.glif</string>
     <key>Ohookabove</key>
     <string>O_hookabove.glif</string>
+    <key>Ohorn</key>
+    <string>O_horn.glif</string>
     <key>Ohornacute</key>
     <string>O_hornacute.glif</string>
     <key>Ohorndotbelow</key>
@@ -494,8 +498,6 @@
     <string>breve.case.glif</string>
     <key>brevebelow.case</key>
     <string>brevebelow.case.glif</string>
-    <key>breveinverted.case</key>
-    <string>breveinverted.case.glif</string>
     <key>brokenbar</key>
     <string>brokenbar.glif</string>
     <key>bullet</key>
@@ -538,8 +540,10 @@
     <string>colonmonetary.glif</string>
     <key>comma</key>
     <string>comma.glif</string>
-    <key>commaaccent.case</key>
-    <string>commaaccent.case.glif</string>
+    <key>commaaccentbelowcmb</key>
+    <string>commaaccentbelowcmb.glif</string>
+    <key>commaaccentbelowcmb.case</key>
+    <string>commaaccentbelowcmb.case.glif</string>
     <key>commercialminussign</key>
     <string>commercialminussign.glif</string>
     <key>copyright</key>
@@ -576,10 +580,10 @@
     <string>dotaccent.glif</string>
     <key>dotaccent.case</key>
     <string>dotaccent.case.glif</string>
-    <key>dotbelow</key>
-    <string>dotbelow.glif</string>
-    <key>dotbelow.case</key>
-    <string>dotbelow.case.glif</string>
+    <key>dotbelowcombcmb</key>
+    <string>dotbelowcombcmb.glif</string>
+    <key>dotbelowcombcmb.case</key>
+    <string>dotbelowcombcmb.case.glif</string>
     <key>dotlessi</key>
     <string>dotlessi.glif</string>
     <key>doubleprimemod</key>
@@ -698,6 +702,10 @@
     <string>grave.glif</string>
     <key>grave.case</key>
     <string>grave.case.glif</string>
+    <key>gravedoublecmb</key>
+    <string>gravedoublecmb.glif</string>
+    <key>gravedoublecmb.case</key>
+    <string>gravedoublecmb.case.glif</string>
     <key>greater</key>
     <string>greater.glif</string>
     <key>greaterequal</key>
@@ -722,10 +730,10 @@
     <string>hookabove.glif</string>
     <key>hookabove.case</key>
     <string>hookabove.case.glif</string>
-    <key>horn</key>
-    <string>horn.glif</string>
-    <key>horn.case</key>
-    <string>horn.case.glif</string>
+    <key>horncmb</key>
+    <string>horncmb.glif</string>
+    <key>horncmb.case</key>
+    <string>horncmb.case.glif</string>
     <key>hungarumlaut</key>
     <string>hungarumlaut.glif</string>
     <key>hungarumlaut.case</key>
@@ -766,10 +774,16 @@
     <string>imacron.glif</string>
     <key>indianrupee</key>
     <string>indianrupee.glif</string>
+    <key>invertedbrevecmb</key>
+    <string>invertedbrevecmb.glif</string>
+    <key>invertedbrevecmb.case</key>
+    <string>invertedbrevecmb.case.glif</string>
     <key>itilde</key>
     <string>itilde.glif</string>
     <key>j</key>
     <string>j.glif</string>
+    <key>jacute</key>
+    <string>jacute.glif</string>
     <key>jcircumflex</key>
     <string>jcircumflex.glif</string>
     <key>jdotless</key>

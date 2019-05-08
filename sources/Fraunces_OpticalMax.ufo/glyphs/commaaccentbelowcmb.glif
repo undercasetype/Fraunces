@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="commaaccent.case" format="2">
+<glyph name="commaaccentbelowcmb" format="2">
+  <unicode hex="0326"/>
   <outline>
     <contour>
       <point x="91" y="-150" type="curve" smooth="yes"/>
@@ -29,4 +30,10 @@
       <point x="65" y="-150"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.6774,0.496,0.7778,1</string>
+    </dict>
+  </lib>
 </glyph>
