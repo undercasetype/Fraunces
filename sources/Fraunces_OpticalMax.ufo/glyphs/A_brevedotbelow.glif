@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Abrevedotbelow" format="2">
-  <advance width="705"/>
+  <advance width="613"/>
   <unicode hex="1EB6"/>
   <outline>
-    <component base="Abreve"/>
-    <component base="dotbelowcomb.case" xOffset="224" yOffset="-52"/>
+    <component base="A"/>
+    <component base="breve.case" xOffset="122" yOffset="31"/>
+    <component base="dotbelow.case" xOffset="170.5"/>
   </outline>
 </glyph>

@@ -1,15 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rdblgrave" format="2">
-  <advance width="413"/>
+  <advance width="338"/>
   <unicode hex="0211"/>
   <outline>
     <component base="r"/>
-    <component base="gravecomb" xOffset="13" yOffset="16"/>
+    <component base="grave" xOffset="-55" yOffset="-34"/>
+    <component base="dblgrave" xOffset="173" yOffset="430"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.4,1,0.8,1</string>
-    </dict>
-  </lib>
 </glyph>

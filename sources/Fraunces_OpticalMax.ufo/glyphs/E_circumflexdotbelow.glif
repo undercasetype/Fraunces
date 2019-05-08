@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflexdotbelow" format="2">
-  <advance width="623"/>
+  <advance width="568"/>
   <unicode hex="1EC6"/>
   <outline>
-    <component base="Ecircumflex"/>
-    <component base="dotbelowcomb.case" xOffset="190.37976320958114" yOffset="-5"/>
+    <component base="E"/>
+    <component base="circumflex.case" xOffset="83.5" yOffset="31"/>
+    <component base="dotbelow.case" xOffset="123.5"/>
   </outline>
 </glyph>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Otildemacron" format="2">
-  <advance width="788"/>
+  <advance width="747"/>
   <unicode hex="022C"/>
   <outline>
     <component base="O"/>
-    <component base="tildecomb.case" xOffset="197.5" yOffset="53"/>
-    <component base="macroncomb.case" xOffset="187" yOffset="199"/>
+    <component base="tilde.case" xOffset="177.5" yOffset="31"/>
+    <component base="macron.case" xOffset="167" yOffset="206"/>
   </outline>
 </glyph>

@@ -1,15 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Uhornhookabove" format="2">
-  <advance width="700"/>
+  <advance width="609"/>
   <unicode hex="1EEC"/>
   <outline>
-    <component base="Uhorn"/>
-    <component base="hookabovecomb.case" xOffset="206" yOffset="-21"/>
+    <component base="U"/>
+    <component base="horn.case" xOffset="487" yOffset="31"/>
+    <component base="hookabove.case" xOffset="186" yOffset="31"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.5737,0.8249,1</string>
-    </dict>
-  </lib>
 </glyph>
