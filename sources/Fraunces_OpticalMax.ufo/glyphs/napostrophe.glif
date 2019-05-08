@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="napostrophe" format="2">
-  <advance width="488"/>
+  <advance width="652"/>
   <unicode hex="0149"/>
   <outline>
-    <component base="n"/>
-    <component base=""/>
+    <component base="apostrophemod"/>
+    <component base="n" xOffset="164"/>
   </outline>
 </glyph>

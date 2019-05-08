@@ -430,8 +430,6 @@
     <string>acute.glif</string>
     <key>acute.case</key>
     <string>acute.case.glif</string>
-    <key>acutecomb</key>
-    <string>acutecomb.glif</string>
     <key>adblgrave</key>
     <string>adblgrave.glif</string>
     <key>adieresis</key>
@@ -496,14 +494,8 @@
     <string>breve.case.glif</string>
     <key>brevebelow.case</key>
     <string>brevebelow.case.glif</string>
-    <key>brevebelowcomb</key>
-    <string>brevebelowcomb.glif</string>
-    <key>brevecomb</key>
-    <string>brevecomb.glif</string>
     <key>breveinverted.case</key>
     <string>breveinverted.case.glif</string>
-    <key>breveinvertedcomb</key>
-    <string>breveinvertedcomb.glif</string>
     <key>brokenbar</key>
     <string>brokenbar.glif</string>
     <key>bullet</key>
@@ -516,12 +508,10 @@
     <string>cacute.glif</string>
     <key>caron</key>
     <string>caron.glif</string>
+    <key>caron.alt</key>
+    <string>caron.alt.glif</string>
     <key>caron.case</key>
     <string>caron.case.glif</string>
-    <key>caroncomb</key>
-    <string>caroncomb.glif</string>
-    <key>caroncomb.alt</key>
-    <string>caroncomb.alt.glif</string>
     <key>ccaron</key>
     <string>ccaron.glif</string>
     <key>ccedilla</key>
@@ -536,16 +526,12 @@
     <string>cedilla.glif</string>
     <key>cedilla.case</key>
     <string>cedilla.case.glif</string>
-    <key>cedillacomb</key>
-    <string>cedillacomb.glif</string>
     <key>cent</key>
     <string>cent.glif</string>
     <key>circumflex</key>
     <string>circumflex.glif</string>
     <key>circumflex.case</key>
     <string>circumflex.case.glif</string>
-    <key>circumflexcomb</key>
-    <string>circumflexcomb.glif</string>
     <key>colon</key>
     <string>colon.glif</string>
     <key>colonmonetary</key>
@@ -554,8 +540,6 @@
     <string>comma.glif</string>
     <key>commaaccent.case</key>
     <string>commaaccent.case.glif</string>
-    <key>commaaccentcomb</key>
-    <string>commaaccentcomb.glif</string>
     <key>commercialminussign</key>
     <string>commercialminussign.glif</string>
     <key>copyright</key>
@@ -580,10 +564,6 @@
     <string>dieresis.case.glif</string>
     <key>dieresisbelow.case</key>
     <string>dieresisbelow.case.glif</string>
-    <key>dieresisbelowcomb</key>
-    <string>dieresisbelowcomb.glif</string>
-    <key>dieresiscomb</key>
-    <string>dieresiscomb.glif</string>
     <key>divide</key>
     <string>divide.glif</string>
     <key>divisionslash</key>
@@ -596,14 +576,10 @@
     <string>dotaccent.glif</string>
     <key>dotaccent.case</key>
     <string>dotaccent.case.glif</string>
-    <key>dotaccentcomb</key>
-    <string>dotaccentcomb.glif</string>
     <key>dotbelow</key>
     <string>dotbelow.glif</string>
     <key>dotbelow.case</key>
     <string>dotbelow.case.glif</string>
-    <key>dotbelowcomb</key>
-    <string>dotbelowcomb.glif</string>
     <key>dotlessi</key>
     <string>dotlessi.glif</string>
     <key>doubleprimemod</key>
@@ -722,8 +698,6 @@
     <string>grave.glif</string>
     <key>grave.case</key>
     <string>grave.case.glif</string>
-    <key>gravecomb</key>
-    <string>gravecomb.glif</string>
     <key>greater</key>
     <string>greater.glif</string>
     <key>greaterequal</key>
@@ -748,8 +722,6 @@
     <string>hookabove.glif</string>
     <key>hookabove.case</key>
     <string>hookabove.case.glif</string>
-    <key>hookabovecomb</key>
-    <string>hookabovecomb.glif</string>
     <key>horn</key>
     <string>horn.glif</string>
     <key>horn.case</key>
@@ -758,8 +730,6 @@
     <string>hungarumlaut.glif</string>
     <key>hungarumlaut.case</key>
     <string>hungarumlaut.case.glif</string>
-    <key>hungarumlautcomb</key>
-    <string>hungarumlautcomb.glif</string>
     <key>hyphen</key>
     <string>hyphen.glif</string>
     <key>hyphensoft</key>
@@ -840,12 +810,10 @@
     <string>macron.glif</string>
     <key>macron.case</key>
     <string>macron.case.glif</string>
+    <key>macronbelow</key>
+    <string>macronbelow.glif</string>
     <key>macronbelow.case</key>
     <string>macronbelow.case.glif</string>
-    <key>macronbelowcomb</key>
-    <string>macronbelowcomb.glif</string>
-    <key>macroncomb</key>
-    <string>macroncomb.glif</string>
     <key>manat</key>
     <string>manat.glif</string>
     <key>minus</key>
@@ -918,8 +886,6 @@
     <string>ogonek.glif</string>
     <key>ogonek.case</key>
     <string>ogonek.case.glif</string>
-    <key>ogonekcomb</key>
-    <string>ogonekcomb.glif</string>
     <key>ograve</key>
     <string>ograve.glif</string>
     <key>ohookabove</key>
@@ -1032,8 +998,6 @@
     <string>ring.glif</string>
     <key>ring.case</key>
     <string>ring.case.glif</string>
-    <key>ringcomb</key>
-    <string>ringcomb.glif</string>
     <key>rinvertedbreve</key>
     <string>rinvertedbreve.glif</string>
     <key>ruble</key>
@@ -1098,8 +1062,6 @@
     <string>tilde.glif</string>
     <key>tilde.case</key>
     <string>tilde.case.glif</string>
-    <key>tildecomb</key>
-    <string>tildecomb.glif</string>
     <key>trademark</key>
     <string>trademark.glif</string>
     <key>turkishlira</key>
