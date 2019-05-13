@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohorn" format="2">
-  <advance width="500"/>
+  <advance width="575"/>
   <unicode hex="01A1"/>
   <outline>
+    <component base="o"/>
+    <component base="horncmb" xOffset="399" yOffset="-2"/>
   </outline>
 </glyph>
