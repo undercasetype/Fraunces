@@ -3,13 +3,8 @@
   <advance width="793"/>
   <unicode hex="1ED8"/>
   <outline>
-    <component base="Ocircumflex"/>
-    <component base="dotbelowcomb.case" xOffset="278" yOffset="5"/>
+    <component base="O"/>
+    <component base="circumflex.case" xOffset="194.89999999999418" yOffset="32"/>
+    <component base="dotbelowcombcmb.case" xOffset="278" yOffset="81"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,1</string>
-    </dict>
-  </lib>
 </glyph>

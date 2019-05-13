@@ -3,13 +3,8 @@
   <advance width="575"/>
   <unicode hex="1EDD"/>
   <outline>
-    <component base="ohorn"/>
-    <component base="gravecomb" xOffset="77" yOffset="14"/>
+    <component base="o"/>
+    <component base="horncmb" xOffset="399" yOffset="-2"/>
+    <component base="grave" xOffset="138.5" yOffset="-2"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

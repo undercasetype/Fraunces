@@ -2,7 +2,28 @@
 <glyph name="caron.alt" format="2">
   <advance width="204"/>
   <outline>
-    <component base="minute"/>
+    <contour>
+      <point x="41" y="432"/>
+      <point x="44" y="429"/>
+      <point x="48" y="429" type="curve" smooth="yes"/>
+      <point x="52" y="429"/>
+      <point x="56" y="431"/>
+      <point x="58" y="436" type="curve" smooth="yes"/>
+      <point x="182" y="699" type="line" smooth="yes"/>
+      <point x="189" y="713"/>
+      <point x="193" y="723"/>
+      <point x="193" y="734" type="curve" smooth="yes"/>
+      <point x="193" y="748"/>
+      <point x="182" y="758"/>
+      <point x="168" y="758" type="curve" smooth="yes"/>
+      <point x="151" y="758"/>
+      <point x="139" y="747"/>
+      <point x="132" y="726" type="curve" smooth="yes"/>
+      <point x="43" y="447" type="line" smooth="yes"/>
+      <point x="42" y="443"/>
+      <point x="41" y="440"/>
+      <point x="41" y="436" type="curve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
     <dict>

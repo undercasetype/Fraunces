@@ -3,7 +3,33 @@
   <advance width="325"/>
   <unicode hex="02DB"/>
   <outline>
-    <component base="ogonekcomb" xOffset="46"/>
+    <contour>
+      <point x="219" y="41" type="line"/>
+      <point x="76.55821813860445" y="-31.23833222970775"/>
+      <point x="24.0" y="-81.85427135678393"/>
+      <point x="24" y="-150" type="curve" smooth="yes"/>
+      <point x="24.0" y="-204.5977011494253"/>
+      <point x="73.23809523809524" y="-245.0"/>
+      <point x="156" y="-245" type="curve" smooth="yes"/>
+      <point x="242.86131386861314" y="-245.0"/>
+      <point x="296.0" y="-208.0"/>
+      <point x="296.0" y="-160.0" type="curve" smooth="yes"/>
+      <point x="296.0" y="-130.0"/>
+      <point x="278.0" y="-111.0"/>
+      <point x="251" y="-111" type="curve" smooth="yes"/>
+      <point x="222.0" y="-111.0"/>
+      <point x="201.0" y="-134.0"/>
+      <point x="201" y="-171" type="curve" smooth="yes"/>
+      <point x="201.0" y="-190.0"/>
+      <point x="187.66666666666666" y="-200.0"/>
+      <point x="171" y="-200" type="curve" smooth="yes"/>
+      <point x="151.68965517241378" y="-200.0"/>
+      <point x="136.0" y="-180.48148148148147"/>
+      <point x="136" y="-138" type="curve" smooth="yes"/>
+      <point x="136.0" y="-81.11688311688312"/>
+      <point x="170.83769216276417" y="-34.30374443127454"/>
+      <point x="241" y="8" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>
