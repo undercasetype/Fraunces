@@ -1,9 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="grave" format="2">
-  <advance width="295"/>
+  <advance width="239"/>
   <unicode hex="0060"/>
+  <guideline x="255.62861039877555" y="917.8453754124803" angle="0" identifier="sAGPsubm6r"/>
+  <guideline x="171.05395185375994" y="913.1022264168896" angle="0" identifier="LQsO1BELZr"/>
+  <anchor x="194" y="479" name="center"/>
   <outline>
-    <component base="acute" xScale="-1" xOffset="295"/>
+    <contour>
+      <point x="195" y="531" type="curve" smooth="yes"/>
+      <point x="99" y="659" type="line" smooth="yes"/>
+      <point x="84" y="679"/>
+      <point x="73" y="689"/>
+      <point x="55" y="689" type="curve" smooth="yes"/>
+      <point x="39" y="689"/>
+      <point x="30" y="678"/>
+      <point x="30" y="664" type="curve" smooth="yes"/>
+      <point x="30" y="649"/>
+      <point x="40" y="639"/>
+      <point x="57" y="624" type="curve" smooth="yes"/>
+      <point x="181" y="520" type="line" smooth="yes"/>
+      <point x="186" y="516"/>
+      <point x="190" y="515"/>
+      <point x="193" y="515" type="curve" smooth="yes"/>
+      <point x="196" y="515"/>
+      <point x="199" y="517"/>
+      <point x="199" y="521" type="curve" smooth="yes"/>
+      <point x="199" y="524"/>
+      <point x="197" y="528"/>
+    </contour>
   </outline>
   <lib>
     <dict>

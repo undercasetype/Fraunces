@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="question" format="2">
+  <advance width="451"/>
+  <unicode hex="003F"/>
+  <outline>
+    <contour>
+      <point x="305" y="385" type="curve" smooth="yes"/>
+      <point x="384.0" y="421.0"/>
+      <point x="422" y="455"/>
+      <point x="444.0" y="543.0" type="curve" smooth="yes"/>
+      <point x="461.91097423948776" y="614.6438969579509"/>
+      <point x="431.2280701754386" y="658.0"/>
+      <point x="392" y="658.0" type="curve" smooth="yes"/>
+      <point x="353.27272727272725" y="658.0"/>
+      <point x="327.06022854754036" y="638.0146538302333"/>
+      <point x="321" y="603" type="curve" smooth="yes"/>
+      <point x="312" y="551" type="line" smooth="yes"/>
+      <point x="304.02423028311506" y="504.91777496910925"/>
+      <point x="268.73809523809524" y="480.0"/>
+      <point x="233" y="480" type="curve" smooth="yes"/>
+      <point x="193.8421052631579" y="480.0"/>
+      <point x="171.0" y="509.9718309859155"/>
+      <point x="171" y="556" type="curve" smooth="yes"/>
+      <point x="171.0" y="637.1006711409397"/>
+      <point x="262" y="715"/>
+      <point x="410" y="715" type="curve" smooth="yes"/>
+      <point x="535.0" y="715.0"/>
+      <point x="607.0" y="645"/>
+      <point x="578.0" y="539.0" type="curve" smooth="yes"/>
+      <point x="560" y="472"/>
+      <point x="528.2396100145015" y="432.7931275076536"/>
+      <point x="396" y="363" type="curve" smooth="yes"/>
+      <point x="353.84817460062743" y="340.4536747863821"/>
+      <point x="325.4160326294832" y="310.8855073572436"/>
+      <point x="314" y="250" type="curve" smooth="yes"/>
+      <point x="309" y="223"/>
+      <point x="293" y="206.0"/>
+      <point x="266" y="206" type="curve" smooth="yes"/>
+      <point x="225.0" y="206.0"/>
+      <point x="193" y="233"/>
+      <point x="193.0" y="276" type="curve" smooth="yes"/>
+      <point x="193" y="316.0"/>
+      <point x="222" y="347"/>
+    </contour>
+    <component base="period" xScale="0.9329999999999999" yScale="0.9329999999999999" xOffset="55" yOffset="2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>
