@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="bulletoperator" format="2">
-  <advance width="322"/>
-  <unicode hex="2219"/>
+<glyph name="apostrophemod" format="2">
+  <advance width="164"/>
+  <unicode hex="02BC"/>
   <outline>
-    <component base="bullet"/>
+    <component base="quotesingle"/>
   </outline>
   <lib>
     <dict>

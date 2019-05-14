@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="greater" format="2">
-  <advance width="479"/>
-  <unicode hex="003E"/>
+<glyph name="bulletoperator" format="2">
+  <advance width="419"/>
+  <unicode hex="2219"/>
   <outline>
-    <component base="less" xScale="-1" xOffset="479"/>
+    <component base="bullet" xOffset="10" yOffset="50"/>
   </outline>
   <lib>
     <dict>
