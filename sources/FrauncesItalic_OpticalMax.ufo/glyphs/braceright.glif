@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="braceright" format="2">
-  <advance width="409"/>
+  <advance width="387"/>
   <unicode hex="007D"/>
   <outline>
-    <component base="braceleft" xScale="-1" yScale="-1" xOffset="548" yOffset="565"/>
+    <component base="braceleft" xScale="-1" yScale="-1" xOffset="539" yOffset="565"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.2645,0.8606,0.3738,1</string>
+    </dict>
+  </lib>
 </glyph>
