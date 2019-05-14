@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohungarumlaut" format="2">
+  <advance width="780.0"/>
+  <unicode hex="0150"/>
+  <outline>
+    <component base="O"/>
+    <component base="hungarumlautcomb.case" xOffset="158.97359876175113" yOffset="72.75"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>

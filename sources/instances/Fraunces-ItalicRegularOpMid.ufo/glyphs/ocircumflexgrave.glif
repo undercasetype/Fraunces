@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ocircumflexgrave" format="2">
+  <advance width="425.0"/>
+  <unicode hex="1ED3"/>
+  <outline>
+    <component base="o"/>
+    <component base="circumflexcomb.case" xOffset="-85.41722805185077" yOffset="-202.0"/>
+    <component base="gravecomb" xOffset="320.0" yOffset="116.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Odotaccentmacron" format="2">
+  <advance width="766.0"/>
+  <unicode hex="0230"/>
+  <outline>
+    <component base="O"/>
+    <component base="dotaccentcomb.case" xOffset="186.48988629034497" yOffset="15.950000000000045"/>
+    <component base="macroncomb.case" xOffset="246.98475386452748" yOffset="213.70000000000005"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>
