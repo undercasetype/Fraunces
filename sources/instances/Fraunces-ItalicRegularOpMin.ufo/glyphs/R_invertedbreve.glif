@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rinvertedbreve" format="2">
+  <advance width="629"/>
+  <unicode hex="0212"/>
+  <outline>
+    <component base="R"/>
+    <component base="brevecomb.case" xOffset="170" yOffset="35"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>

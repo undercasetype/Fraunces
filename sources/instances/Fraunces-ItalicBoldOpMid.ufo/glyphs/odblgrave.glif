@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odblgrave" format="2">
+  <advance width="506.5625"/>
+  <unicode hex="020D"/>
+  <outline>
+    <component base="o"/>
+    <component base="gravecomb" xOffset="181.14137452499284" yOffset="27.3125"/>
+    <component base="dblgravecomb" xOffset="463.0427211633772" yOffset="773.375"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

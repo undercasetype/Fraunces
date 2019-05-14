@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brokenbar" format="2">
+  <advance width="350.125"/>
+  <unicode hex="00A6"/>
+  <outline>
+    <contour>
+      <point x="111.25" y="-176.25" type="curve" smooth="yes"/>
+      <point x="111.25" y="-224.375"/>
+      <point x="141.35015856236785" y="-245.0"/>
+      <point x="173.0" y="-245.0" type="curve" smooth="yes"/>
+      <point x="204.64984143763215" y="-245.0"/>
+      <point x="234.75" y="-224.375"/>
+      <point x="234.75" y="-176.25" type="curve" smooth="yes"/>
+      <point x="234.75" y="-130.3401127432635"/>
+      <point x="205.5" y="-79.39970930232559"/>
+      <point x="205.5" y="166.5" type="curve" smooth="yes"/>
+      <point x="205.5" y="195.31578947368422"/>
+      <point x="195.75" y="207.0"/>
+      <point x="173.0" y="207.0" type="curve" smooth="yes"/>
+      <point x="150.25" y="207.0"/>
+      <point x="140.5" y="195.31578947368422"/>
+      <point x="140.5" y="166.5" type="curve" smooth="yes"/>
+      <point x="140.5" y="-79.39970930232559"/>
+      <point x="111.25" y="-130.3401127432635"/>
+    </contour>
+    <contour>
+      <point x="111.25" y="697.25" type="curve" smooth="yes"/>
+      <point x="111.25" y="652.0632010091492"/>
+      <point x="140.5" y="600.3391624273256"/>
+      <point x="140.5" y="354.5" type="curve" smooth="yes"/>
+      <point x="140.5" y="325.60087719298247"/>
+      <point x="150.25" y="314.0"/>
+      <point x="173.0" y="314.0" type="curve" smooth="yes"/>
+      <point x="195.75" y="314.0"/>
+      <point x="205.5" y="325.60087719298247"/>
+      <point x="205.5" y="354.5" type="curve" smooth="yes"/>
+      <point x="205.5" y="600.3391624273256"/>
+      <point x="234.75" y="652.0632010091492"/>
+      <point x="234.75" y="697.25" type="curve" smooth="yes"/>
+      <point x="234.75" y="745.375"/>
+      <point x="210.3372093023256" y="766.0"/>
+      <point x="173.0" y="766.0" type="curve" smooth="yes"/>
+      <point x="137.0988372093023" y="766.0"/>
+      <point x="111.25" y="745.375"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

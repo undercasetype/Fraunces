@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mu" format="2">
+  <advance width="558.3888888888889"/>
+  <unicode hex="03BC"/>
+  <outline>
+    <contour>
+      <point x="58.041666666666664" y="153.75" type="line"/>
+      <point x="58.041666666666664" y="-22.47222222222222"/>
+      <point x="11.291666666666664" y="-125.53826530612245"/>
+      <point x="11.291666666666664" y="-184.0" type="curve" smooth="yes"/>
+      <point x="11.291666666666664" y="-225.17108585858585"/>
+      <point x="39.92483086130628" y="-250.30555555555554"/>
+      <point x="78.32638888888889" y="-250.30555555555554" type="curve" smooth="yes"/>
+      <point x="113.09154040404037" y="-250.30555555555554"/>
+      <point x="141.83333333333334" y="-222.27272727272725"/>
+      <point x="141.83333333333334" y="-184.0" type="curve" smooth="yes"/>
+      <point x="141.83333333333334" y="-125.53826530612245"/>
+      <point x="97.61111111111111" y="-22.47222222222222"/>
+      <point x="97.61111111111111" y="153.75" type="curve"/>
+    </contour>
+    <component base="u"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

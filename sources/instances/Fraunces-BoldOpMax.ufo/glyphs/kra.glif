@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kra" format="2">
+  <advance width="506.375"/>
+  <unicode hex="0138"/>
+  <outline>
+    <contour>
+      <point x="302.0" y="314.875" type="line"/>
+      <point x="232.375" y="248.875" type="line"/>
+      <point x="334.25" y="76.5" type="line" smooth="yes"/>
+      <point x="336.5" y="70.375"/>
+      <point x="339.5" y="65.125"/>
+      <point x="339.5" y="58.0" type="curve" smooth="yes"/>
+      <point x="339.5" y="46.625"/>
+      <point x="331.375" y="37.0"/>
+      <point x="315.5" y="30.5" type="curve" smooth="yes"/>
+      <point x="312.0" y="23.375"/>
+      <point x="308.0" y="20.375"/>
+      <point x="308.0" y="13.75" type="curve" smooth="yes"/>
+      <point x="308.0" y="5.5"/>
+      <point x="311.0" y="0.0"/>
+      <point x="316.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="481.25" y="0.0" type="line" smooth="yes"/>
+      <point x="497.25" y="0.0"/>
+      <point x="507.25" y="6.375"/>
+      <point x="507.25" y="15.625" type="curve" smooth="yes"/>
+      <point x="507.25" y="25.0"/>
+      <point x="503.25" y="32.125"/>
+      <point x="494.5" y="38.5" type="curve" smooth="yes"/>
+      <point x="485.125" y="43.25"/>
+      <point x="472.0" y="53.375"/>
+      <point x="459.375" y="72.375" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="149.375" y="202.375" type="line"/>
+      <point x="182.125" y="175.375" type="line"/>
+      <point x="389.625" y="335.875" type="line" smooth="yes"/>
+      <point x="424.125" y="363.375"/>
+      <point x="456.375" y="392.875"/>
+      <point x="484.125" y="398.125" type="curve" smooth="yes"/>
+      <point x="508.125" y="404.5"/>
+      <point x="512.875" y="410.875"/>
+      <point x="512.875" y="421.125" type="curve" smooth="yes"/>
+      <point x="512.875" y="430.375"/>
+      <point x="507.25" y="437.875"/>
+      <point x="501.875" y="437.875" type="curve" smooth="yes"/>
+      <point x="329.875" y="439.875" type="line" smooth="yes"/>
+      <point x="319.25" y="439.875"/>
+      <point x="313.5" y="436.125"/>
+      <point x="313.5" y="426.75" type="curve" smooth="yes"/>
+      <point x="313.5" y="418.375"/>
+      <point x="315.625" y="410.875"/>
+      <point x="323.5" y="406.375" type="curve" smooth="yes"/>
+      <point x="351.625" y="399.625"/>
+      <point x="357.5" y="394.5"/>
+      <point x="357.5" y="381.75" type="curve" smooth="yes"/>
+      <point x="357.5" y="372.625"/>
+      <point x="356.75" y="358.875"/>
+      <point x="334.25" y="341.375" type="curve" smooth="yes"/>
+    </contour>
+    <component base="dotlessi" xOffset="-6.625"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macron" format="2">
+  <advance width="384.44444444444446"/>
+  <unicode hex="00AF"/>
+  <outline>
+    <contour>
+      <point x="33.47222222222222" y="562.0" type="curve" smooth="yes"/>
+      <point x="33.47222222222222" y="542.6666666666666"/>
+      <point x="45.611111111111114" y="529.9652777777778"/>
+      <point x="65.81944444444444" y="529.9652777777778" type="curve" smooth="yes"/>
+      <point x="317.625" y="529.9652777777778" type="line" smooth="yes"/>
+      <point x="337.8333333333333" y="529.9652777777778"/>
+      <point x="350.97222222222223" y="542.6666666666666"/>
+      <point x="350.97222222222223" y="562.0" type="curve" smooth="yes"/>
+      <point x="350.97222222222223" y="582.3333333333334"/>
+      <point x="336.8333333333333" y="596.0347222222222"/>
+      <point x="317.625" y="596.0347222222222" type="curve" smooth="yes"/>
+      <point x="66.81944444444444" y="596.0347222222222" type="line" smooth="yes"/>
+      <point x="47.611111111111114" y="596.0347222222222"/>
+      <point x="33.47222222222222" y="582.3333333333334"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>
