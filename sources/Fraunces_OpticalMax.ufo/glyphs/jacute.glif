@@ -2,7 +2,13 @@
 <glyph name="jacute" format="2">
   <advance width="277"/>
   <outline>
-    <component base="jdotless"/>
+    <component base="dotlessj"/>
     <component base="acute" xOffset="114" yOffset="-34"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8392,0.8706,1,1</string>
+    </dict>
+  </lib>
 </glyph>
