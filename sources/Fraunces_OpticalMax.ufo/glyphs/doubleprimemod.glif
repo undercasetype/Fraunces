@@ -1,13 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="doubleprimemod" format="2">
-  <advance width="460"/>
+  <advance width="358"/>
   <outline>
-    <component base="second"/>
+    <component base="second" xOffset="-1"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.6774,0.496,0.7778,1</string>
-    </dict>
-  </lib>
 </glyph>

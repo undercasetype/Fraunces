@@ -2,18 +2,32 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>Aacute</key>
+    <string>A_acute.glif</string>
     <key>Eth</key>
     <string>E_th.glif</string>
     <key>Euro</key>
     <string>E_uro.glif</string>
     <key>Nj</key>
     <string>N_j.glif</string>
+    <key>aacute</key>
+    <string>aacute.glif</string>
+    <key>acute.case</key>
+    <string>acute.case.glif</string>
+    <key>agrave</key>
+    <string>agrave.glif</string>
+    <key>amacron</key>
+    <string>amacron.glif</string>
     <key>approxequal</key>
     <string>approxequal.glif</string>
     <key>cedi</key>
     <string>cedi.glif</string>
+    <key>commaturnedabovecmb</key>
+    <string>commaturnedabovecmb.glif</string>
     <key>commercialminussign</key>
     <string>commercialminussign.glif</string>
+    <key>dotaccent</key>
+    <string>dotaccent.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
     <key>eng</key>
@@ -22,6 +36,10 @@
     <string>eth.glif</string>
     <key>fhook</key>
     <string>fhook.glif</string>
+    <key>horncmb</key>
+    <string>horncmb.glif</string>
+    <key>i</key>
+    <string>i.glif</string>
     <key>ij</key>
     <string>ij.glif</string>
     <key>indianrupee</key>
@@ -30,10 +48,16 @@
     <string>kip.glif</string>
     <key>logicalnot</key>
     <string>logicalnot.glif</string>
+    <key>macron</key>
+    <string>macron.glif</string>
     <key>manat</key>
     <string>manat.glif</string>
     <key>naira</key>
     <string>naira.glif</string>
+    <key>ohorn</key>
+    <string>ohorn.glif</string>
+    <key>ringacute</key>
+    <string>ringacute.glif</string>
     <key>ruble</key>
     <string>ruble.glif</string>
     <key>six</key>
@@ -48,8 +72,12 @@
     <string>trademark.glif</string>
     <key>turkishlira</key>
     <string>turkishlira.glif</string>
+    <key>turnedcommaabovecmb</key>
+    <string>turnedcommaabovecmb.glif</string>
     <key>two.alt</key>
     <string>two.alt.glif</string>
+    <key>uhorn</key>
+    <string>uhorn.glif</string>
     <key>won</key>
     <string>won.glif</string>
   </dict>

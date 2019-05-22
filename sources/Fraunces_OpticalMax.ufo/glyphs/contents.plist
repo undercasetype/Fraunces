@@ -506,8 +506,16 @@
     <string>breve.glif</string>
     <key>breve.case</key>
     <string>breve.case.glif</string>
+    <key>breveacute</key>
+    <string>breveacute.glif</string>
     <key>brevebelow.case</key>
     <string>brevebelow.case.glif</string>
+    <key>brevegrave</key>
+    <string>brevegrave.glif</string>
+    <key>brevehook</key>
+    <string>brevehook.glif</string>
+    <key>brevetilde</key>
+    <string>brevetilde.glif</string>
     <key>brokenbar</key>
     <string>brokenbar.glif</string>
     <key>bullet</key>
@@ -520,8 +528,6 @@
     <string>cacute.glif</string>
     <key>caron</key>
     <string>caron.glif</string>
-    <key>caron.alt</key>
-    <string>caron.alt.glif</string>
     <key>caron.case</key>
     <string>caron.case.glif</string>
     <key>ccaron</key>
@@ -544,6 +550,14 @@
     <string>circumflex.glif</string>
     <key>circumflex.case</key>
     <string>circumflex.case.glif</string>
+    <key>circumflexacute</key>
+    <string>circumflexacute.glif</string>
+    <key>circumflexgrave</key>
+    <string>circumflexgrave.glif</string>
+    <key>circumflexhook</key>
+    <string>circumflexhook.glif</string>
+    <key>circumflextilde</key>
+    <string>circumflextilde.glif</string>
     <key>colon</key>
     <string>colon.glif</string>
     <key>colonmonetary</key>
@@ -554,6 +568,8 @@
     <string>commaaccentbelowcmb.glif</string>
     <key>commaaccentbelowcmb.case</key>
     <string>commaaccentbelowcmb.case.glif</string>
+    <key>commaturnedabovecmb</key>
+    <string>commaturnedabovecmb.glif</string>
     <key>commercialminussign</key>
     <string>commercialminussign.glif</string>
     <key>copyright</key>
@@ -738,10 +754,10 @@
     <string>hbar.glif</string>
     <key>hcircumflex</key>
     <string>hcircumflex.glif</string>
-    <key>hookabove</key>
-    <string>hookabove.glif</string>
     <key>hookabove.case</key>
     <string>hookabove.case.glif</string>
+    <key>hookabovecmb</key>
+    <string>hookabovecmb.glif</string>
     <key>horncmb</key>
     <string>horncmb.glif</string>
     <key>horncmb.case</key>
@@ -1022,6 +1038,8 @@
     <string>ring.glif</string>
     <key>ring.case</key>
     <string>ring.case.glif</string>
+    <key>ringacute</key>
+    <string>ringacute.glif</string>
     <key>rinvertedbreve</key>
     <string>rinvertedbreve.glif</string>
     <key>ruble</key>
@@ -1090,6 +1108,8 @@
     <string>trademark.glif</string>
     <key>turkishlira</key>
     <string>turkishlira.glif</string>
+    <key>turnedcommaabovecmb</key>
+    <string>turnedcommaabovecmb.glif</string>
     <key>two</key>
     <string>two.glif</string>
     <key>two.alt</key>
