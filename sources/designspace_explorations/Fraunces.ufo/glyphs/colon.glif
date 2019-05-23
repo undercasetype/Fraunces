@@ -3,8 +3,34 @@
   <advance width="272"/>
   <unicode hex="003A"/>
   <outline>
-    <component base="period" xScale="0.9329999999999999" yScale="0.9329999999999999" yOffset="-1"/>
-    <component base="period" xScale="0.9329999999999999" yScale="0.9329999999999999" yOffset="294"/>
+    <contour>
+      <point x="126.88799999999999" y="-14.995" type="curve" smooth="yes"/>
+      <point x="162.34199999999998" y="-14.995"/>
+      <point x="190.332" y="13.927999999999999"/>
+      <point x="190.332" y="49.382" type="curve" smooth="yes"/>
+      <point x="190.332" y="84.836"/>
+      <point x="162.34199999999998" y="112.826"/>
+      <point x="126.88799999999999" y="112.826" type="curve" smooth="yes"/>
+      <point x="91.434" y="112.826"/>
+      <point x="63.443999999999996" y="84.836"/>
+      <point x="63.443999999999996" y="49.382" type="curve" smooth="yes"/>
+      <point x="63.443999999999996" y="13.927999999999999"/>
+      <point x="91.434" y="-14.995"/>
+    </contour>
+    <contour>
+      <point x="126.88799999999999" y="280.005" type="curve" smooth="yes"/>
+      <point x="162.34199999999998" y="280.005"/>
+      <point x="190.332" y="308.928"/>
+      <point x="190.332" y="344.382" type="curve" smooth="yes"/>
+      <point x="190.332" y="379.836"/>
+      <point x="162.34199999999998" y="407.826"/>
+      <point x="126.88799999999999" y="407.826" type="curve" smooth="yes"/>
+      <point x="91.434" y="407.826"/>
+      <point x="63.443999999999996" y="379.836"/>
+      <point x="63.443999999999996" y="344.382" type="curve" smooth="yes"/>
+      <point x="63.443999999999996" y="308.928"/>
+      <point x="91.434" y="280.005"/>
+    </contour>
   </outline>
   <lib>
     <dict>
