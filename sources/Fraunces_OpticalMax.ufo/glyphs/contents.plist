@@ -438,8 +438,8 @@
     <string>acircumflextilde.glif</string>
     <key>acute</key>
     <string>acute.glif</string>
-    <key>acute.case</key>
-    <string>acute.case.glif</string>
+    <key>acute.cap</key>
+    <string>acute.cap.glif</string>
     <key>adblgrave</key>
     <string>adblgrave.glif</string>
     <key>adieresis</key>
@@ -504,18 +504,26 @@
     <string>bracketright.glif</string>
     <key>breve</key>
     <string>breve.glif</string>
-    <key>breve.case</key>
-    <string>breve.case.glif</string>
+    <key>breve.cap</key>
+    <string>breve.cap.glif</string>
     <key>breveacute</key>
     <string>breveacute.glif</string>
+    <key>breveacute.cap</key>
+    <string>breveacute.cap.glif</string>
     <key>brevebelow.case</key>
     <string>brevebelow.case.glif</string>
     <key>brevegrave</key>
     <string>brevegrave.glif</string>
+    <key>brevegrave.cap</key>
+    <string>brevegrave.cap.glif</string>
     <key>brevehook</key>
     <string>brevehook.glif</string>
+    <key>brevehook.cap</key>
+    <string>brevehook.cap.glif</string>
     <key>brevetilde</key>
     <string>brevetilde.glif</string>
+    <key>brevetilde.cap</key>
+    <string>brevetilde.cap.glif</string>
     <key>brokenbar</key>
     <string>brokenbar.glif</string>
     <key>bullet</key>
@@ -528,8 +536,8 @@
     <string>cacute.glif</string>
     <key>caron</key>
     <string>caron.glif</string>
-    <key>caron.case</key>
-    <string>caron.case.glif</string>
+    <key>caron.cap</key>
+    <string>caron.cap.glif</string>
     <key>ccaron</key>
     <string>ccaron.glif</string>
     <key>ccedilla</key>
@@ -542,22 +550,28 @@
     <string>cedi.glif</string>
     <key>cedilla</key>
     <string>cedilla.glif</string>
-    <key>cedilla.case</key>
-    <string>cedilla.case.glif</string>
     <key>cent</key>
     <string>cent.glif</string>
     <key>circumflex</key>
     <string>circumflex.glif</string>
-    <key>circumflex.case</key>
-    <string>circumflex.case.glif</string>
+    <key>circumflex.cap</key>
+    <string>circumflex.cap.glif</string>
     <key>circumflexacute</key>
     <string>circumflexacute.glif</string>
+    <key>circumflexacute.cap</key>
+    <string>circumflexacute.cap.glif</string>
     <key>circumflexgrave</key>
     <string>circumflexgrave.glif</string>
+    <key>circumflexgrave.cap</key>
+    <string>circumflexgrave.cap.glif</string>
     <key>circumflexhook</key>
     <string>circumflexhook.glif</string>
+    <key>circumflexhook.cap</key>
+    <string>circumflexhook.cap.glif</string>
     <key>circumflextilde</key>
     <string>circumflextilde.glif</string>
+    <key>circumflextilde.cap</key>
+    <string>circumflextilde.cap.glif</string>
     <key>colon</key>
     <string>colon.glif</string>
     <key>colonmonetary</key>
@@ -566,8 +580,6 @@
     <string>comma.glif</string>
     <key>commaaccentbelowcmb</key>
     <string>commaaccentbelowcmb.glif</string>
-    <key>commaaccentbelowcmb.case</key>
-    <string>commaaccentbelowcmb.case.glif</string>
     <key>commaturnedabovecmb</key>
     <string>commaturnedabovecmb.glif</string>
     <key>commercialminussign</key>
@@ -590,8 +602,8 @@
     <string>degree.glif</string>
     <key>dieresis</key>
     <string>dieresis.glif</string>
-    <key>dieresis.case</key>
-    <string>dieresis.case.glif</string>
+    <key>dieresis.cap</key>
+    <string>dieresis.cap.glif</string>
     <key>dieresisbelow.case</key>
     <string>dieresisbelow.case.glif</string>
     <key>divide</key>
@@ -604,12 +616,10 @@
     <string>dong.glif</string>
     <key>dotaccent</key>
     <string>dotaccent.glif</string>
-    <key>dotaccent.case</key>
-    <string>dotaccent.case.glif</string>
+    <key>dotaccent.cap</key>
+    <string>dotaccent.cap.glif</string>
     <key>dotbelowcombcmb</key>
     <string>dotbelowcombcmb.glif</string>
-    <key>dotbelowcombcmb.case</key>
-    <string>dotbelowcombcmb.case.glif</string>
     <key>dotlessi</key>
     <string>dotlessi.glif</string>
     <key>dotlessj</key>
@@ -728,12 +738,12 @@
     <string>germandbls.glif</string>
     <key>grave</key>
     <string>grave.glif</string>
-    <key>grave.case</key>
-    <string>grave.case.glif</string>
+    <key>grave.cap</key>
+    <string>grave.cap.glif</string>
     <key>gravedoublecmb</key>
     <string>gravedoublecmb.glif</string>
-    <key>gravedoublecmb.case</key>
-    <string>gravedoublecmb.case.glif</string>
+    <key>gravedoublecmb.cap</key>
+    <string>gravedoublecmb.cap.glif</string>
     <key>greater</key>
     <string>greater.glif</string>
     <key>greaterequal</key>
@@ -754,8 +764,8 @@
     <string>hbar.glif</string>
     <key>hcircumflex</key>
     <string>hcircumflex.glif</string>
-    <key>hookabove.case</key>
-    <string>hookabove.case.glif</string>
+    <key>hookabove.cap</key>
+    <string>hookabove.cap.glif</string>
     <key>hookabovecmb</key>
     <string>hookabovecmb.glif</string>
     <key>horncmb</key>
@@ -764,8 +774,8 @@
     <string>horncmb.case.glif</string>
     <key>hungarumlaut</key>
     <string>hungarumlaut.glif</string>
-    <key>hungarumlaut.case</key>
-    <string>hungarumlaut.case.glif</string>
+    <key>hungarumlaut.cap</key>
+    <string>hungarumlaut.cap.glif</string>
     <key>hyphen</key>
     <string>hyphen.glif</string>
     <key>hyphensoft</key>
@@ -802,8 +812,8 @@
     <string>indianrupee.glif</string>
     <key>invertedbrevecmb</key>
     <string>invertedbrevecmb.glif</string>
-    <key>invertedbrevecmb.case</key>
-    <string>invertedbrevecmb.case.glif</string>
+    <key>invertedbrevecmb.cap</key>
+    <string>invertedbrevecmb.cap.glif</string>
     <key>iogonek</key>
     <string>iogonek.glif</string>
     <key>itilde</key>
@@ -848,12 +858,10 @@
     <string>m.glif</string>
     <key>macron</key>
     <string>macron.glif</string>
-    <key>macron.case</key>
-    <string>macron.case.glif</string>
+    <key>macron.cap</key>
+    <string>macron.cap.glif</string>
     <key>macronbelow</key>
     <string>macronbelow.glif</string>
-    <key>macronbelow.case</key>
-    <string>macronbelow.case.glif</string>
     <key>manat</key>
     <string>manat.glif</string>
     <key>minus</key>
@@ -924,8 +932,6 @@
     <string>oe.glif</string>
     <key>ogonek</key>
     <string>ogonek.glif</string>
-    <key>ogonek.case</key>
-    <string>ogonek.case.glif</string>
     <key>ograve</key>
     <string>ograve.glif</string>
     <key>ohookabove</key>
@@ -1036,8 +1042,8 @@
     <string>registered.glif</string>
     <key>ring</key>
     <string>ring.glif</string>
-    <key>ring.case</key>
-    <string>ring.case.glif</string>
+    <key>ring.cap</key>
+    <string>ring.cap.glif</string>
     <key>ringacute</key>
     <string>ringacute.glif</string>
     <key>rinvertedbreve</key>
@@ -1102,8 +1108,8 @@
     <string>threesuperior.glif</string>
     <key>tilde</key>
     <string>tilde.glif</string>
-    <key>tilde.case</key>
-    <string>tilde.case.glif</string>
+    <key>tilde.cap</key>
+    <string>tilde.cap.glif</string>
     <key>trademark</key>
     <string>trademark.glif</string>
     <key>turkishlira</key>

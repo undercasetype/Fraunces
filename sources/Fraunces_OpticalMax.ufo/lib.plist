@@ -199,15 +199,21 @@
           <string>Tbar</string>
           <string>Lslash</string>
           <string>Oslash</string>
+          <string>Aring</string>
+          <string>Aogonek</string>
+          <string>Eogonek</string>
+          <string>Iogonek</string>
+          <string>Oogonek</string>
+          <string>Uogonek</string>
           <string>Ohorn</string>
           <string>Uhorn</string>
           <string>DZcaron</string>
+          <string>Dzcaron</string>
           <string>IJ</string>
           <string>IJacute</string>
           <string>LJ</string>
-          <string>NJ</string>
-          <string>Dzcaron</string>
           <string>Lj</string>
+          <string>NJ</string>
           <string>Nj</string>
           <string>germandbls</string>
           <string>dotlessi</string>
@@ -236,8 +242,9 @@
           <string>fl</string>
           <string>f_f_i</string>
           <string>f_f_l</string>
-          <string>Agrave</string>
           <string>Aacute</string>
+          <string>Agrave</string>
+          <string>Adblgrave</string>
           <string>Acircumflex</string>
           <string>Acircumflexdotbelow</string>
           <string>Acircumflexacute</string>
@@ -250,16 +257,13 @@
           <string>Abrevegrave</string>
           <string>Abrevehookabove</string>
           <string>Abrevetilde</string>
+          <string>Ainvertedbreve</string>
           <string>Atilde</string>
           <string>Amacron</string>
           <string>Adieresis</string>
-          <string>Aring</string>
           <string>Aringacute</string>
           <string>Ahookabove</string>
           <string>Adotbelow</string>
-          <string>Adblgrave</string>
-          <string>Ainvertedbreve</string>
-          <string>Aogonek</string>
           <string>AEacute</string>
           <string>Cacute</string>
           <string>Ccircumflex</string>
@@ -269,6 +273,7 @@
           <string>Dcaron</string>
           <string>Eacute</string>
           <string>Egrave</string>
+          <string>Edblgrave</string>
           <string>Ecircumflex</string>
           <string>Ecircumflexdotbelow</string>
           <string>Ecircumflexacute</string>
@@ -277,15 +282,13 @@
           <string>Ecircumflextilde</string>
           <string>Ecaron</string>
           <string>Ebreve</string>
-          <string>Edieresis</string>
+          <string>Einvertedbreve</string>
           <string>Etilde</string>
           <string>Emacron</string>
+          <string>Edieresis</string>
           <string>Edotaccent</string>
           <string>Ehookabove</string>
           <string>Edotbelow</string>
-          <string>Eogonek</string>
-          <string>Edblgrave</string>
-          <string>Einvertedbreve</string>
           <string>Gcircumflex</string>
           <string>Gcaron</string>
           <string>Gbreve</string>
@@ -294,17 +297,16 @@
           <string>Hcircumflex</string>
           <string>Iacute</string>
           <string>Igrave</string>
+          <string>Idblgrave</string>
           <string>Icircumflex</string>
           <string>Ibreve</string>
+          <string>Iinvertedbreve</string>
           <string>Itilde</string>
           <string>Imacron</string>
           <string>Idieresis</string>
           <string>Idotaccent</string>
           <string>Ihookabove</string>
           <string>Idotbelow</string>
-          <string>Idblgrave</string>
-          <string>Iinvertedbreve</string>
-          <string>Iogonek</string>
           <string>Jacute</string>
           <string>Jcircumflex</string>
           <string>Kcommaaccent</string>
@@ -317,8 +319,9 @@
           <string>Ntilde</string>
           <string>Ncommaaccent</string>
           <string>Oacute</string>
-          <string>Ograve</string>
           <string>Ohungarumlaut</string>
+          <string>Ograve</string>
+          <string>Odblgrave</string>
           <string>Ocircumflex</string>
           <string>Ocircumflexdotbelow</string>
           <string>Ocircumflexacute</string>
@@ -326,17 +329,15 @@
           <string>Ocircumflexhookabove</string>
           <string>Ocircumflextilde</string>
           <string>Obreve</string>
+          <string>Oinvertedbreve</string>
           <string>Otilde</string>
-          <string>Omacron</string>
-          <string>Odieresismacron</string>
           <string>Otildemacron</string>
-          <string>Odotaccentmacron</string>
+          <string>Omacron</string>
           <string>Odieresis</string>
-          <string>Oogonek</string>
+          <string>Odieresismacron</string>
+          <string>Odotaccentmacron</string>
           <string>Ohookabove</string>
           <string>Odotbelow</string>
-          <string>Odblgrave</string>
-          <string>Oinvertedbreve</string>
           <string>Ohornacute</string>
           <string>Ohorngrave</string>
           <string>Ohorntilde</string>
@@ -344,10 +345,10 @@
           <string>Ohorndotbelow</string>
           <string>Oslashacute</string>
           <string>Racute</string>
-          <string>Rcaron</string>
-          <string>Rcommaaccent</string>
           <string>Rdblgrave</string>
+          <string>Rcaron</string>
           <string>Rinvertedbreve</string>
+          <string>Rcommaaccent</string>
           <string>Sacute</string>
           <string>Scircumflex</string>
           <string>Scaron</string>
@@ -357,24 +358,23 @@
           <string>Tcommaaccent</string>
           <string>Tcedilla</string>
           <string>Uacute</string>
-          <string>Ugrave</string>
           <string>Uhungarumlaut</string>
+          <string>Ugrave</string>
+          <string>Udblgrave</string>
           <string>Ucircumflex</string>
           <string>Ubreve</string>
+          <string>Uinvertedbreve</string>
           <string>Utilde</string>
           <string>Umacron</string>
           <string>Udieresis</string>
           <string>Uring</string>
+          <string>Uhoi</string>
           <string>Udotbelow</string>
-          <string>Uogonek</string>
-          <string>Udblgrave</string>
-          <string>Uinvertedbreve</string>
           <string>Uhornacute</string>
           <string>Uhorngrave</string>
           <string>Uhorntilde</string>
           <string>Uhornhookabove</string>
           <string>Uhorndotbelow</string>
-          <string>Uhoi</string>
           <string>Wacute</string>
           <string>Wgrave</string>
           <string>Wcircumflex</string>
@@ -392,6 +392,7 @@
           <string>Zdotaccent</string>
           <string>aacute</string>
           <string>agrave</string>
+          <string>adblgrave</string>
           <string>acircumflex</string>
           <string>acircumflexdotbelow</string>
           <string>acircumflexacute</string>
@@ -412,7 +413,6 @@
           <string>aringacute</string>
           <string>ahookabove</string>
           <string>adotbelow</string>
-          <string>adblgrave</string>
           <string>aogonek</string>
           <string>aeacute</string>
           <string>cacute</string>
@@ -423,6 +423,7 @@
           <string>dcaron</string>
           <string>eacute</string>
           <string>egrave</string>
+          <string>edblgrave</string>
           <string>ecircumflex</string>
           <string>ecircumflexdotbelow</string>
           <string>ecircumflexacute</string>
@@ -439,7 +440,6 @@
           <string>ehookabove</string>
           <string>edotbelow</string>
           <string>eogonek</string>
-          <string>edblgrave</string>
           <string>gcircumflex</string>
           <string>gcaron</string>
           <string>gbreve</string>
@@ -448,6 +448,7 @@
           <string>hcircumflex</string>
           <string>iacute</string>
           <string>igrave</string>
+          <string>idblgrave</string>
           <string>icircumflex</string>
           <string>ibreve</string>
           <string>iinvertedbreve</string>
@@ -458,7 +459,6 @@
           <string>ihookabove</string>
           <string>idotbelow</string>
           <string>iogonek</string>
-          <string>idblgrave</string>
           <string>jacute</string>
           <string>jcircumflex</string>
           <string>kcommaaccent</string>
@@ -472,8 +472,9 @@
           <string>ncommaaccent</string>
           <string>napostrophe</string>
           <string>oacute</string>
-          <string>ograve</string>
           <string>ohungarumlaut</string>
+          <string>ograve</string>
+          <string>odblgrave</string>
           <string>ocircumflex</string>
           <string>ocircumflexdotbelow</string>
           <string>ocircumflexacute</string>
@@ -481,17 +482,16 @@
           <string>ocircumflexhookabove</string>
           <string>ocircumflextilde</string>
           <string>obreve</string>
+          <string>oinvertedbreve</string>
           <string>otilde</string>
-          <string>omacron</string>
-          <string>odieresismacron</string>
           <string>otildemacron</string>
-          <string>odotaccentmacron</string>
+          <string>omacron</string>
           <string>odieresis</string>
+          <string>odieresismacron</string>
+          <string>odotaccentmacron</string>
           <string>ohookabove</string>
           <string>odotbelow</string>
           <string>oogonek</string>
-          <string>odblgrave</string>
-          <string>oinvertedbreve</string>
           <string>ohornacute</string>
           <string>ohorngrave</string>
           <string>ohornhookabove</string>
@@ -499,10 +499,10 @@
           <string>ohorndotbelow</string>
           <string>oslashacute</string>
           <string>racute</string>
-          <string>rcaron</string>
-          <string>rcommaaccent</string>
           <string>rdblgrave</string>
+          <string>rcaron</string>
           <string>rinvertedbreve</string>
+          <string>rcommaaccent</string>
           <string>sacute</string>
           <string>scircumflex</string>
           <string>scaron</string>
@@ -512,18 +512,18 @@
           <string>tcommaaccent</string>
           <string>tcedilla</string>
           <string>uacute</string>
-          <string>ugrave</string>
           <string>uhungarumlaut</string>
+          <string>ugrave</string>
+          <string>udblgrave</string>
           <string>ucircumflex</string>
           <string>ubreve</string>
+          <string>uinvertedbreve</string>
           <string>utilde</string>
           <string>umacron</string>
           <string>udieresis</string>
           <string>uring</string>
           <string>udotbelow</string>
           <string>uogonek</string>
-          <string>udblgrave</string>
-          <string>uinvertedbreve</string>
           <string>uhoi</string>
           <string>uhornacute</string>
           <string>uhorngrave</string>
@@ -546,8 +546,9 @@
           <string>zcaron</string>
           <string>zdotaccent</string>
           <string>acute</string>
-          <string>grave</string>
           <string>hungarumlaut</string>
+          <string>grave</string>
+          <string>gravedoublecmb</string>
           <string>turnedcommaabovecmb</string>
           <string>circumflex</string>
           <string>caron</string>
@@ -575,7 +576,28 @@
           <string>brevegrave</string>
           <string>brevehook</string>
           <string>brevetilde</string>
-          <string>acute.case</string>
+          <string>acute.cap</string>
+          <string>hungarumlaut.cap</string>
+          <string>grave.cap</string>
+          <string>gravedoublecmb.cap</string>
+          <string>circumflex.cap</string>
+          <string>caron.cap</string>
+          <string>breve.cap</string>
+          <string>invertedbrevecmb.cap</string>
+          <string>tilde.cap</string>
+          <string>macron.cap</string>
+          <string>dieresis.cap</string>
+          <string>dotaccent.cap</string>
+          <string>ring.cap</string>
+          <string>hookabove.cap</string>
+          <string>circumflexacute.cap</string>
+          <string>circumflexgrave.cap</string>
+          <string>circumflexhook.cap</string>
+          <string>circumflextilde.cap</string>
+          <string>breveacute.cap</string>
+          <string>brevegrave.cap</string>
+          <string>brevehook.cap</string>
+          <string>brevetilde.cap</string>
           <string>zero.case</string>
           <string>one.case</string>
           <string>two.case</string>
@@ -595,29 +617,10 @@
           <string>uniF000</string>
           <string>CR</string>
           <string>NULL</string>
-          <string>hungarumlaut.case</string>
-          <string>circumflex.case</string>
-          <string>caron.case</string>
-          <string>breve.case</string>
-          <string>tilde.case</string>
-          <string>macron.case</string>
-          <string>dieresis.case</string>
-          <string>dotaccent.case</string>
-          <string>ring.case</string>
-          <string>cedilla.case</string>
-          <string>ogonek.case</string>
-          <string>hookabove.case</string>
           <string>brevebelow.case</string>
           <string>doubleprimemod</string>
-          <string>invertedbrevecmb.case</string>
-          <string>commaaccentbelowcmb.case</string>
           <string>dieresisbelow.case</string>
-          <string>dotbelowcombcmb.case</string>
-          <string>grave.case</string>
           <string>horncmb.case</string>
-          <string>macronbelow.case</string>
-          <string>gravedoublecmb</string>
-          <string>gravedoublecmb.case</string>
         </array>
         <key>type</key>
         <string>glyphList</string>
@@ -1187,15 +1190,21 @@
       <string>Tbar</string>
       <string>Lslash</string>
       <string>Oslash</string>
+      <string>Aring</string>
+      <string>Aogonek</string>
+      <string>Eogonek</string>
+      <string>Iogonek</string>
+      <string>Oogonek</string>
+      <string>Uogonek</string>
       <string>Ohorn</string>
       <string>Uhorn</string>
       <string>DZcaron</string>
+      <string>Dzcaron</string>
       <string>IJ</string>
       <string>IJacute</string>
       <string>LJ</string>
-      <string>NJ</string>
-      <string>Dzcaron</string>
       <string>Lj</string>
+      <string>NJ</string>
       <string>Nj</string>
       <string>germandbls</string>
       <string>dotlessi</string>
@@ -1224,8 +1233,9 @@
       <string>fl</string>
       <string>f_f_i</string>
       <string>f_f_l</string>
-      <string>Agrave</string>
       <string>Aacute</string>
+      <string>Agrave</string>
+      <string>Adblgrave</string>
       <string>Acircumflex</string>
       <string>Acircumflexdotbelow</string>
       <string>Acircumflexacute</string>
@@ -1238,16 +1248,13 @@
       <string>Abrevegrave</string>
       <string>Abrevehookabove</string>
       <string>Abrevetilde</string>
+      <string>Ainvertedbreve</string>
       <string>Atilde</string>
       <string>Amacron</string>
       <string>Adieresis</string>
-      <string>Aring</string>
       <string>Aringacute</string>
       <string>Ahookabove</string>
       <string>Adotbelow</string>
-      <string>Adblgrave</string>
-      <string>Ainvertedbreve</string>
-      <string>Aogonek</string>
       <string>AEacute</string>
       <string>Cacute</string>
       <string>Ccircumflex</string>
@@ -1257,6 +1264,7 @@
       <string>Dcaron</string>
       <string>Eacute</string>
       <string>Egrave</string>
+      <string>Edblgrave</string>
       <string>Ecircumflex</string>
       <string>Ecircumflexdotbelow</string>
       <string>Ecircumflexacute</string>
@@ -1265,15 +1273,13 @@
       <string>Ecircumflextilde</string>
       <string>Ecaron</string>
       <string>Ebreve</string>
-      <string>Edieresis</string>
+      <string>Einvertedbreve</string>
       <string>Etilde</string>
       <string>Emacron</string>
+      <string>Edieresis</string>
       <string>Edotaccent</string>
       <string>Ehookabove</string>
       <string>Edotbelow</string>
-      <string>Eogonek</string>
-      <string>Edblgrave</string>
-      <string>Einvertedbreve</string>
       <string>Gcircumflex</string>
       <string>Gcaron</string>
       <string>Gbreve</string>
@@ -1282,17 +1288,16 @@
       <string>Hcircumflex</string>
       <string>Iacute</string>
       <string>Igrave</string>
+      <string>Idblgrave</string>
       <string>Icircumflex</string>
       <string>Ibreve</string>
+      <string>Iinvertedbreve</string>
       <string>Itilde</string>
       <string>Imacron</string>
       <string>Idieresis</string>
       <string>Idotaccent</string>
       <string>Ihookabove</string>
       <string>Idotbelow</string>
-      <string>Idblgrave</string>
-      <string>Iinvertedbreve</string>
-      <string>Iogonek</string>
       <string>Jacute</string>
       <string>Jcircumflex</string>
       <string>Kcommaaccent</string>
@@ -1305,8 +1310,9 @@
       <string>Ntilde</string>
       <string>Ncommaaccent</string>
       <string>Oacute</string>
-      <string>Ograve</string>
       <string>Ohungarumlaut</string>
+      <string>Ograve</string>
+      <string>Odblgrave</string>
       <string>Ocircumflex</string>
       <string>Ocircumflexdotbelow</string>
       <string>Ocircumflexacute</string>
@@ -1314,17 +1320,15 @@
       <string>Ocircumflexhookabove</string>
       <string>Ocircumflextilde</string>
       <string>Obreve</string>
+      <string>Oinvertedbreve</string>
       <string>Otilde</string>
-      <string>Omacron</string>
-      <string>Odieresismacron</string>
       <string>Otildemacron</string>
-      <string>Odotaccentmacron</string>
+      <string>Omacron</string>
       <string>Odieresis</string>
-      <string>Oogonek</string>
+      <string>Odieresismacron</string>
+      <string>Odotaccentmacron</string>
       <string>Ohookabove</string>
       <string>Odotbelow</string>
-      <string>Odblgrave</string>
-      <string>Oinvertedbreve</string>
       <string>Ohornacute</string>
       <string>Ohorngrave</string>
       <string>Ohorntilde</string>
@@ -1332,10 +1336,10 @@
       <string>Ohorndotbelow</string>
       <string>Oslashacute</string>
       <string>Racute</string>
-      <string>Rcaron</string>
-      <string>Rcommaaccent</string>
       <string>Rdblgrave</string>
+      <string>Rcaron</string>
       <string>Rinvertedbreve</string>
+      <string>Rcommaaccent</string>
       <string>Sacute</string>
       <string>Scircumflex</string>
       <string>Scaron</string>
@@ -1345,24 +1349,23 @@
       <string>Tcommaaccent</string>
       <string>Tcedilla</string>
       <string>Uacute</string>
-      <string>Ugrave</string>
       <string>Uhungarumlaut</string>
+      <string>Ugrave</string>
+      <string>Udblgrave</string>
       <string>Ucircumflex</string>
       <string>Ubreve</string>
+      <string>Uinvertedbreve</string>
       <string>Utilde</string>
       <string>Umacron</string>
       <string>Udieresis</string>
       <string>Uring</string>
+      <string>Uhoi</string>
       <string>Udotbelow</string>
-      <string>Uogonek</string>
-      <string>Udblgrave</string>
-      <string>Uinvertedbreve</string>
       <string>Uhornacute</string>
       <string>Uhorngrave</string>
       <string>Uhorntilde</string>
       <string>Uhornhookabove</string>
       <string>Uhorndotbelow</string>
-      <string>Uhoi</string>
       <string>Wacute</string>
       <string>Wgrave</string>
       <string>Wcircumflex</string>
@@ -1380,6 +1383,7 @@
       <string>Zdotaccent</string>
       <string>aacute</string>
       <string>agrave</string>
+      <string>adblgrave</string>
       <string>acircumflex</string>
       <string>acircumflexdotbelow</string>
       <string>acircumflexacute</string>
@@ -1400,7 +1404,6 @@
       <string>aringacute</string>
       <string>ahookabove</string>
       <string>adotbelow</string>
-      <string>adblgrave</string>
       <string>aogonek</string>
       <string>aeacute</string>
       <string>cacute</string>
@@ -1411,6 +1414,7 @@
       <string>dcaron</string>
       <string>eacute</string>
       <string>egrave</string>
+      <string>edblgrave</string>
       <string>ecircumflex</string>
       <string>ecircumflexdotbelow</string>
       <string>ecircumflexacute</string>
@@ -1427,7 +1431,6 @@
       <string>ehookabove</string>
       <string>edotbelow</string>
       <string>eogonek</string>
-      <string>edblgrave</string>
       <string>gcircumflex</string>
       <string>gcaron</string>
       <string>gbreve</string>
@@ -1436,6 +1439,7 @@
       <string>hcircumflex</string>
       <string>iacute</string>
       <string>igrave</string>
+      <string>idblgrave</string>
       <string>icircumflex</string>
       <string>ibreve</string>
       <string>iinvertedbreve</string>
@@ -1446,7 +1450,6 @@
       <string>ihookabove</string>
       <string>idotbelow</string>
       <string>iogonek</string>
-      <string>idblgrave</string>
       <string>jacute</string>
       <string>jcircumflex</string>
       <string>kcommaaccent</string>
@@ -1460,8 +1463,9 @@
       <string>ncommaaccent</string>
       <string>napostrophe</string>
       <string>oacute</string>
-      <string>ograve</string>
       <string>ohungarumlaut</string>
+      <string>ograve</string>
+      <string>odblgrave</string>
       <string>ocircumflex</string>
       <string>ocircumflexdotbelow</string>
       <string>ocircumflexacute</string>
@@ -1469,17 +1473,16 @@
       <string>ocircumflexhookabove</string>
       <string>ocircumflextilde</string>
       <string>obreve</string>
+      <string>oinvertedbreve</string>
       <string>otilde</string>
-      <string>omacron</string>
-      <string>odieresismacron</string>
       <string>otildemacron</string>
-      <string>odotaccentmacron</string>
+      <string>omacron</string>
       <string>odieresis</string>
+      <string>odieresismacron</string>
+      <string>odotaccentmacron</string>
       <string>ohookabove</string>
       <string>odotbelow</string>
       <string>oogonek</string>
-      <string>odblgrave</string>
-      <string>oinvertedbreve</string>
       <string>ohornacute</string>
       <string>ohorngrave</string>
       <string>ohornhookabove</string>
@@ -1487,10 +1490,10 @@
       <string>ohorndotbelow</string>
       <string>oslashacute</string>
       <string>racute</string>
-      <string>rcaron</string>
-      <string>rcommaaccent</string>
       <string>rdblgrave</string>
+      <string>rcaron</string>
       <string>rinvertedbreve</string>
+      <string>rcommaaccent</string>
       <string>sacute</string>
       <string>scircumflex</string>
       <string>scaron</string>
@@ -1500,18 +1503,18 @@
       <string>tcommaaccent</string>
       <string>tcedilla</string>
       <string>uacute</string>
-      <string>ugrave</string>
       <string>uhungarumlaut</string>
+      <string>ugrave</string>
+      <string>udblgrave</string>
       <string>ucircumflex</string>
       <string>ubreve</string>
+      <string>uinvertedbreve</string>
       <string>utilde</string>
       <string>umacron</string>
       <string>udieresis</string>
       <string>uring</string>
       <string>udotbelow</string>
       <string>uogonek</string>
-      <string>udblgrave</string>
-      <string>uinvertedbreve</string>
       <string>uhoi</string>
       <string>uhornacute</string>
       <string>uhorngrave</string>
@@ -1534,8 +1537,9 @@
       <string>zcaron</string>
       <string>zdotaccent</string>
       <string>acute</string>
-      <string>grave</string>
       <string>hungarumlaut</string>
+      <string>grave</string>
+      <string>gravedoublecmb</string>
       <string>turnedcommaabovecmb</string>
       <string>circumflex</string>
       <string>caron</string>
@@ -1563,7 +1567,28 @@
       <string>brevegrave</string>
       <string>brevehook</string>
       <string>brevetilde</string>
-      <string>acute.case</string>
+      <string>acute.cap</string>
+      <string>hungarumlaut.cap</string>
+      <string>grave.cap</string>
+      <string>gravedoublecmb.cap</string>
+      <string>circumflex.cap</string>
+      <string>caron.cap</string>
+      <string>breve.cap</string>
+      <string>invertedbrevecmb.cap</string>
+      <string>tilde.cap</string>
+      <string>macron.cap</string>
+      <string>dieresis.cap</string>
+      <string>dotaccent.cap</string>
+      <string>ring.cap</string>
+      <string>hookabove.cap</string>
+      <string>circumflexacute.cap</string>
+      <string>circumflexgrave.cap</string>
+      <string>circumflexhook.cap</string>
+      <string>circumflextilde.cap</string>
+      <string>breveacute.cap</string>
+      <string>brevegrave.cap</string>
+      <string>brevehook.cap</string>
+      <string>brevetilde.cap</string>
       <string>zero.case</string>
       <string>one.case</string>
       <string>two.case</string>
@@ -1583,29 +1608,10 @@
       <string>uniF000</string>
       <string>CR</string>
       <string>NULL</string>
-      <string>hungarumlaut.case</string>
-      <string>circumflex.case</string>
-      <string>caron.case</string>
-      <string>breve.case</string>
-      <string>tilde.case</string>
-      <string>macron.case</string>
-      <string>dieresis.case</string>
-      <string>dotaccent.case</string>
-      <string>ring.case</string>
-      <string>cedilla.case</string>
-      <string>ogonek.case</string>
-      <string>hookabove.case</string>
       <string>brevebelow.case</string>
       <string>doubleprimemod</string>
-      <string>invertedbrevecmb.case</string>
-      <string>commaaccentbelowcmb.case</string>
       <string>dieresisbelow.case</string>
-      <string>dotbelowcombcmb.case</string>
-      <string>grave.case</string>
       <string>horncmb.case</string>
-      <string>macronbelow.case</string>
-      <string>gravedoublecmb</string>
-      <string>gravedoublecmb.case</string>
     </array>
   </dict>
 </plist>
