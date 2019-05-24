@@ -67,8 +67,6 @@
       <string>P</string>
       <string>R</string>
       <string>LJ</string>
-      <string>IJ</string>
-      <string>IJacute</string>
       <string>Dzcaron</string>
       <string>Lj</string>
       <string>Dcaron</string>
@@ -300,7 +298,6 @@
     <array>
       <string>j</string>
       <string>dotlessj</string>
-      <string>jacute</string>
       <string>jcircumflex</string>
     </array>
     <key>left_l</key>
@@ -327,8 +324,6 @@
       <string>dotlessi</string>
       <string>eng</string>
       <string>kra</string>
-      <string>ij</string>
-      <string>ijacute</string>
       <string>nj</string>
       <string>iacute</string>
       <string>igrave</string>
@@ -347,7 +342,6 @@
       <string>ncaron</string>
       <string>ntilde</string>
       <string>ncommaaccent</string>
-      <string>napostrophe</string>
       <string>racute</string>
       <string>rcaron</string>
       <string>rcommaaccent</string>
@@ -458,7 +452,7 @@
     <key>left_u</key>
     <array>
       <string>u</string>
-      <string>mu</string>
+      <string>mu.math</string>
       <string>uhorn</string>
       <string>uacute</string>
       <string>ugrave</string>
@@ -614,7 +608,6 @@
       <string>Idblgrave</string>
       <string>Iinvertedbreve</string>
       <string>Iogonek</string>
-      <string>Jacute</string>
       <string>Jcircumflex</string>
       <string>J</string>
     </array>
@@ -822,11 +815,8 @@
     <array>
       <string>j</string>
       <string>dotlessj</string>
-      <string>ij</string>
-      <string>ijacute</string>
       <string>lj</string>
       <string>nj</string>
-      <string>jacute</string>
       <string>jcircumflex</string>
     </array>
     <key>right_k</key>
@@ -856,7 +846,6 @@
       <string>ncaron</string>
       <string>ntilde</string>
       <string>ncommaaccent</string>
-      <string>napostrophe</string>
     </array>
     <key>right_o</key>
     <array>
