@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gravedoublecmb.case" format="1">
-  <advance width="-609"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravedoublecmb.case" format="2">
+  <anchor x="349" y="653" name="center"/>
   <outline>
     <contour>
       <point x="693" y="709" type="curve" smooth="yes"/>
@@ -45,9 +45,6 @@
       <point x="-27" y="701" type="curve" smooth="yes"/>
       <point x="-27" y="705"/>
       <point x="-29" y="707"/>
-    </contour>
-    <contour>
-      <point x="349" y="653" type="move" name="center"/>
     </contour>
   </outline>
 </glyph>
