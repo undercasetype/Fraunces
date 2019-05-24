@@ -4,6 +4,12 @@
   <unicode hex="0154"/>
   <outline>
     <component base="R"/>
-    <component base="acute.case" xOffset="247" yOffset="31"/>
+    <component base="acute" xOffset="242" yOffset="250"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8392,0.8706,1,1</string>
+    </dict>
+  </lib>
 </glyph>

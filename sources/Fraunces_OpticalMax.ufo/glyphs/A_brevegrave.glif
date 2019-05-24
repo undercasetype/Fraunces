@@ -4,7 +4,12 @@
   <unicode hex="1EB0"/>
   <outline>
     <component base="A"/>
-    <component base="breve.case" xOffset="122" yOffset="31"/>
-    <component base="grave.case" xOffset="59" yOffset="206"/>
+    <component base="brevegrave.cap" xOffset="162.5" yOffset="250"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8392,0.8706,1,1</string>
+    </dict>
+  </lib>
 </glyph>
