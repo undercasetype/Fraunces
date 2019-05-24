@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="24" maximum="96" minimum="24" name="optical" tag="opsz" />
+        <axis default="400" maximum="800" minimum="400" name="weight" tag="wght" />
+    </axes>
+    <sources>
+        <source familyname="Fraunces" filename="Fraunces.ufo" stylename="Regular OpMin">
+            <location>
+                <dimension name="optical" xvalue="24" />
+                <dimension name="weight" xvalue="400" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="Fraunces_OpticalMax.ufo" stylename="Regular OpMax">
+            <location>
+                <dimension name="optical" xvalue="96" />
+                <dimension name="weight" xvalue="400" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="Fraunces_WeightMax.ufo" stylename="Bold OpMin">
+            <location>
+                <dimension name="optical" xvalue="24" />
+                <dimension name="weight" xvalue="800" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMin.ufo" postscriptfontname="Fraunces-LightOpMin" stylename="Light OpMin">
+            <location>
+                <dimension name="optical" xvalue="0" />
+                <dimension name="weight" xvalue="25" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMax.ufo" postscriptfontname="Fraunces-LightOpMax" stylename="Light OpMax">
+            <location>
+                <dimension name="optical" xvalue="91.288810" />
+                <dimension name="weight" xvalue="120" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>

@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="A" format="2">
+<glyph name="A" format="1">
   <advance width="705"/>
   <unicode hex="0041"/>
-  <anchor x="357" y="731" name="center"/>
   <outline>
     <contour>
       <point x="168" y="289" type="line"/>
@@ -81,9 +80,14 @@
       <point x="230" y="0"/>
       <point x="241" y="8"/>
     </contour>
+    <contour>
+      <point x="357" y="731" type="move" name="center"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
       <key>public.markColor</key>
       <string>1,0,0,1</string>
     </dict>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="m" format="2">
+<glyph name="m" format="1">
   <advance width="921"/>
   <unicode hex="006D"/>
   <outline>
@@ -128,6 +128,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
       <key>public.markColor</key>
       <string>1,1,0,1</string>
     </dict>

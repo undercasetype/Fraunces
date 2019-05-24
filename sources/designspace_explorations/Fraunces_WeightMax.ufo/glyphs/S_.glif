@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="S" format="2">
+<glyph name="S" format="1">
   <advance width="593"/>
   <unicode hex="0053"/>
-  <guideline x="366" y="432" angle="0" identifier="SfzeLWEwaB"/>
   <outline>
     <contour>
       <point x="298" y="-15" type="curve" smooth="yes"/>
@@ -74,6 +73,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
       <key>public.markColor</key>
       <string>1,0,0,1</string>
     </dict>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="dotaccent" format="2">
+<glyph name="dotaccent" format="1">
   <advance width="237"/>
   <unicode hex="02D9"/>
   <outline>
@@ -20,6 +20,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
       <key>public.markColor</key>
       <string>1,1,0,1</string>
     </dict>

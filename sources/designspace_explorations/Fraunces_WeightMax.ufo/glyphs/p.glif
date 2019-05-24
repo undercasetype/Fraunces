@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="p" format="2">
+<glyph name="p" format="1">
   <advance width="621"/>
   <unicode hex="0070"/>
-  <guideline x="444" y="705" angle="0" name="ascenders" identifier="OhGGrEjXxQ"/>
   <outline>
     <contour>
       <point x="237" y="442" type="line" smooth="yes"/>
@@ -77,6 +76,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
       <key>public.markColor</key>
       <string>1,1,0,1</string>
     </dict>

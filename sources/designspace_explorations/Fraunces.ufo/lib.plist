@@ -26,6 +26,13 @@
       <key>toolStyle</key>
       <string>fluid</string>
     </dict>
+    <key>com.loicsander.scaleFast</key>
+    <dict>
+      <key>guides</key>
+      <array/>
+      <key>presets</key>
+      <dict/>
+    </dict>
     <key>com.typemytype.glyphBuilder.lastSavedFileName</key>
     <string>GooglePlus_002</string>
     <key>com.typemytype.robofont.background.layerStrokeColor</key>
@@ -144,6 +151,10 @@
     <false/>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <integer>0</integer>
+    <key>com.typemytype.robofont.layerOrder</key>
+    <array>
+      <string>background</string>
+    </array>
     <key>com.typemytype.robofont.segmentType</key>
     <string>curve</string>
     <key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>

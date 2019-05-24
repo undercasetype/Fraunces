@@ -10,7 +10,7 @@
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Fraunces/sources/instances"/>
-    <data name="previewtext" value="/dagger"/>
+    <data name="previewtext" value="Aa"/>
     <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -128,6 +128,46 @@
         <location>
             <dimension name="optical" xvalue="24.000000"/>
             <dimension name="weight" xvalue="800.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMax.ufo" sortorder="12" stylename="Black OpMax">
+        <location>
+            <dimension name="optical" xvalue="96.000000"/>
+            <dimension name="weight" xvalue="1100.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMin.ufo" sortorder="13" stylename="Black OpMin">
+        <location>
+            <dimension name="optical" xvalue="30.000000"/>
+            <dimension name="weight" xvalue="1200.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMax.ufo" sortorder="14" stylename="Light OpMax">
+        <location>
+            <dimension name="optical" xvalue="91.288810"/>
+            <dimension name="weight" xvalue="120.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMin.ufo" sortorder="15" stylename="Light OpMin">
+        <location>
+            <dimension name="optical" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="25.000000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>

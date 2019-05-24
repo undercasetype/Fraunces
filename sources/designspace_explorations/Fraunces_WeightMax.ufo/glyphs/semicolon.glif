@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="semicolon" format="2">
+<glyph name="semicolon" format="1">
   <advance width="308"/>
   <unicode hex="003B"/>
   <outline>
@@ -47,6 +47,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
       <key>public.markColor</key>
       <string>1,1,0,1</string>
     </dict>

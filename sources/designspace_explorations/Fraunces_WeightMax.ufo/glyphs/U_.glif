@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="U" format="2">
+<glyph name="U" format="1">
   <advance width="722"/>
   <unicode hex="0055"/>
-  <anchor x="361" y="730" name="center"/>
-  <anchor x="273" y="-60" name="right"/>
   <outline>
     <contour>
       <point x="551" y="303" type="line" smooth="yes"/>
@@ -77,9 +75,17 @@
       <point x="532" y="601"/>
       <point x="535" y="555" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="361" y="730" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="273" y="-60" type="move" name="right"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
       <key>public.markColor</key>
       <string>1,0,0,1</string>
     </dict>

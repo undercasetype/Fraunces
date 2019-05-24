@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jdotless" format="1">
+  <advance width="265"/>
+  <outline>
+    <contour>
+      <point x="175" y="-20" type="line" smooth="yes"/>
+      <point x="175" y="-57"/>
+      <point x="186" y="-96"/>
+      <point x="186" y="-135" type="curve" smooth="yes"/>
+      <point x="186" y="-198"/>
+      <point x="136" y="-243"/>
+      <point x="73" y="-243" type="curve" smooth="yes"/>
+      <point x="33" y="-243"/>
+      <point x="-6" y="-213"/>
+      <point x="-6" y="-177" type="curve" smooth="yes"/>
+      <point x="-6" y="-145"/>
+      <point x="8" y="-125"/>
+      <point x="33" y="-125" type="curve" smooth="yes"/>
+      <point x="59" y="-125"/>
+      <point x="76" y="-137"/>
+      <point x="76" y="-154" type="curve" smooth="yes"/>
+      <point x="76" y="-169" type="line" smooth="yes"/>
+      <point x="76" y="-188"/>
+      <point x="87" y="-198"/>
+      <point x="106" y="-198" type="curve" smooth="yes"/>
+      <point x="133" y="-198"/>
+      <point x="151" y="-176"/>
+      <point x="151" y="-141" type="curve" smooth="yes"/>
+      <point x="151" y="-109"/>
+      <point x="139" y="-81"/>
+      <point x="139" y="-42" type="curve" smooth="yes"/>
+      <point x="139" y="374" type="line" smooth="yes"/>
+      <point x="139" y="404"/>
+      <point x="119" y="416"/>
+      <point x="95" y="416" type="curve" smooth="yes"/>
+      <point x="72" y="416" type="line" smooth="yes"/>
+      <point x="62" y="416"/>
+      <point x="57" y="418"/>
+      <point x="57" y="419" type="curve" smooth="yes"/>
+      <point x="57" y="428"/>
+      <point x="65" y="438"/>
+      <point x="77" y="445" type="curve" smooth="yes"/>
+      <point x="102" y="465" type="line" smooth="yes"/>
+      <point x="127" y="477"/>
+      <point x="137" y="484"/>
+      <point x="151" y="484" type="curve" smooth="yes"/>
+      <point x="167" y="484"/>
+      <point x="175" y="473"/>
+      <point x="175" y="454" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="158" y="540" type="move" name="center"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>
