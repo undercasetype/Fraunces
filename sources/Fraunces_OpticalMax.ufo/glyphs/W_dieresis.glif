@@ -4,6 +4,12 @@
   <unicode hex="1E84"/>
   <outline>
     <component base="W"/>
-    <component base="dieresis.case" xOffset="257.9109999999928" yOffset="31"/>
+    <component base="dieresis" xOffset="309.5" yOffset="250"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8392,0.8706,1,1</string>
+    </dict>
+  </lib>
 </glyph>

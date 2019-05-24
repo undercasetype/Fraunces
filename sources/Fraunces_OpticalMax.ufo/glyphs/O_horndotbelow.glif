@@ -4,7 +4,13 @@
   <unicode hex="1EE2"/>
   <outline>
     <component base="O"/>
-    <component base="horncmb.case" xOffset="515.5" yOffset="31"/>
-    <component base="dotbelowcombcmb.case" xOffset="222"/>
+    <component base="horncmb.case" xOffset="515.5" yOffset="250"/>
+    <component base="dotbelowcombcmb" xOffset="280"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8392,0.8706,1,1</string>
+    </dict>
+  </lib>
 </glyph>
