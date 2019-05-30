@@ -11,7 +11,20 @@
     <key>familyName</key>
     <string>Fraunces</string>
     <key>guidelines</key>
-    <array/>
+    <array>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>identifier</key>
+        <string>64KswESPAz</string>
+        <key>name</key>
+        <string>overshoot</string>
+        <key>x</key>
+        <integer>0</integer>
+        <key>y</key>
+        <integer>470</integer>
+      </dict>
+    </array>
     <key>postscriptBlueValues</key>
     <array/>
     <key>postscriptFamilyBlues</key>
@@ -31,6 +44,6 @@
     <key>unitsPerEm</key>
     <integer>1000</integer>
     <key>xHeight</key>
-    <integer>467</integer>
+    <real>460.0</real>
   </dict>
 </plist>
