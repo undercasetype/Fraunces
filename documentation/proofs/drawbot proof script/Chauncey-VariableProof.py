@@ -58,7 +58,7 @@ for page in range(2):
                 left, top, width, height = pageMargin, H-pageMargin-fontSize/2, W-margin*2, boxHeight
             
                 textBox("opsz", (left, top, width, height))
-                textBox("Chauncy Regular & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
+                textBox("Fraunces Regular & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
                 
                 dateWidth = 240
                 textBox("January 24, 2019", (W-dateWidth-left, top, dateWidth, height ), align="right")
@@ -84,8 +84,8 @@ for page in range(2):
         
         topMargin = pageMargin*2 + margin * line*2 + fontSize
         
-        placeText("./fonts/Chauncy-VF.ttf",margin,topMargin, line, opticalSize)
-        placeText("./fonts/ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line, opticalSize)
+        placeText("./fonts/Fraunces-VF.ttf",margin,topMargin, line, opticalSize)
+        placeText("./fonts/FrauncesItalic-VF.ttf",margin,topMargin+boxHeight, line, opticalSize)
 
 
     # margin= fontSize
@@ -148,7 +148,7 @@ for page in range(2):
             left, top, width, height = pageMargin, H-pageMargin-fontSize/2, W-margin*2, boxHeight
         
             textBox("wght", (left, top, width, height))
-            textBox("Chauncy Regular & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
+            textBox("Fraunces Regular & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
             
             dateWidth = 240
             textBox("January 24, 2019", (W-dateWidth-left, top, dateWidth, height ), align="right")
@@ -174,8 +174,8 @@ for page in range(2):
         
         topMargin = pageMargin*2 + margin * line*2 + fontSize
         
-        placeText("./fonts/Chauncy-VF.ttf",margin,topMargin, line, weightsize)
-        placeText("./fonts/ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line, weightsize)
+        placeText("./fonts/Fraunces-VF.ttf",margin,topMargin, line, weightsize)
+        placeText("./fonts/FrauncesItalic-VF.ttf",margin,topMargin+boxHeight, line, weightsize)
 
 
     # margin= fontSize
@@ -238,7 +238,7 @@ for page in range(2):
             left, top, width, height = pageMargin, H-pageMargin-fontSize/2, W-margin*2, boxHeight
         
             textBox("wght", (left, top, width, height))
-            textBox("Chauncy Regular & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
+            textBox("Fraunces Regular & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
             
             dateWidth = 240
             textBox("January 24, 2019", (W-dateWidth-left, top, dateWidth, height ), align="right")
@@ -264,8 +264,8 @@ for page in range(2):
         
         topMargin = pageMargin*2 + margin * line*2 + fontSize
         
-        placeText("./fonts/Chauncy-VF.ttf",margin,topMargin, line, weightsize)
-        placeText("./fonts/ChauncyItalic-VF.ttf",margin,topMargin+boxHeight, line, weightsize)
+        placeText("./fonts/Fraunces-VF.ttf",margin,topMargin, line, weightsize)
+        placeText("./fonts/FrauncesItalic-VF.ttf",margin,topMargin+boxHeight, line, weightsize)
 
 
     # margin= fontSize
