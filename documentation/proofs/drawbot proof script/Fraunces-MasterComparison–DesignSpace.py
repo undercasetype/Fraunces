@@ -9,7 +9,7 @@ shortSample = "hamburgefontsiv"
 pangrams = ["hamburgefontsiv"]
 
 maxopsz = 72.0
-minopsz = 9.0
+minopsz = 9.1
 maxwght = 1000.0
 minwght = 100.0
 pagerange = range(1)
@@ -26,7 +26,7 @@ for page in pagerange:
    
 
     # fontSize = 16
-    fontSize = 72 
+    fontSize = 60 
     
     pageMargin = 32
     
@@ -62,8 +62,7 @@ for page in pagerange:
             
             left, top, width, height = pageMargin, H-pageMargin-fontSize/2, W-margin*2, boxHeight
         
-            textBox("wght", (left, top, width, height))
-            textBox("Fraunces Regular & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
+            textBox("OpSz Min • Fraunces", (left, top, width, height))
             
             dateWidth = 240
             textBox("January 24, 2019", (W-dateWidth-left, top, dateWidth, height ), align="right")
@@ -140,8 +139,7 @@ for page in pagerange:
             
             left, top, width, height = pageMargin, H-pageMargin-fontSize/2, W-margin*2, boxHeight
         
-            textBox("wght", (left, top, width, height))
-            textBox("Fraunces Regular & Italic, " + str(fontSize) +"pt", (pageMargin*2, top, width, height ))
+            textBox("OpSz Max • Fraunces", (left, top, width, height))
             
             dateWidth = 240
             textBox("January 24, 2019", (W-dateWidth-left, top, dateWidth, height ), align="right")
