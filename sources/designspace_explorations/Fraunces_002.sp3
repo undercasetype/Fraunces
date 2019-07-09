@@ -10,7 +10,7 @@
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/spencercharles/Documents/Git Repositories/Fraunces/sources/designspace_explorations/instances"/>
-    <data name="previewtext" value="RRR"/>
+    <data name="previewtext" value="HIRO Ronan Onsib"/>
     <data name="verticalPreviewAxis" value="optical"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -31,33 +31,27 @@
     <axis maximum="72.000000" minimum="9.000000" name="optical" shortname="opsz">
         <color a="1.000" b="0.056" g="0.775" r="0.752"/>
     </axis>
-    <axis maximum="1.000000" minimum="0.000000" name="goofy" shortname="goof">
-        <color a="1.000" b="0.694" g="1.226" r="0.905"/>
-    </axis>
     <axis maximum="1000.000000" minimum="100.000000" name="weight" shortname="wght">
         <color a="1.000" b="0.764" g="0.000" r="0.989"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Fraunces" filename="Fraunces-BlackOpMax.ufo" sortorder="0" stylename="Black OpMax">
+    <master familyname="Fraunces" filename="Fraunces-BlackOpMax.ufo" sortorder="20" stylename="Black OpMax">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
-            <dimension name="goofy" xvalue="0.000000"/>
             <dimension name="weight" xvalue="1000.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces" filename="Fraunces-BlackOpMin.ufo" sortorder="1" stylename="Black OpMin">
+    <master familyname="Fraunces" filename="Fraunces-BlackOpMin.ufo" sortorder="23" stylename="Black OpMin">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
-            <dimension name="goofy" xvalue="0.000000"/>
             <dimension name="weight" xvalue="1000.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces" filename="Fraunces-LightOpMax.ufo" sortorder="2" stylename="Light OpMax">
+    <master familyname="Fraunces" filename="Fraunces-LightOpMax.ufo" sortorder="0" stylename="Light OpMax">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
-            <dimension name="goofy" xvalue="0.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
@@ -65,17 +59,205 @@
     <master familyname="Fraunces" filename="Fraunces-LightOpMin.ufo" sortorder="3" stylename="Light OpMin">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
-            <dimension name="goofy" xvalue="0.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMin.ufo" sortorder="4" stylename="Regular OpMin">
+    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMin.ufo" sortorder="11" stylename="Regular OpMin">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
-            <dimension name="goofy" xvalue="0.000000"/>
             <dimension name="weight" xvalue="380.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMax.ufo" sortorder="8" stylename="Regular OpMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="380.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMax.ufo" sortorder="12" stylename="Semibold OpMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMin.ufo" sortorder="15" stylename="Semibold OpMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMax.ufo" sortorder="16" stylename="Bold OpMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMin.ufo" sortorder="19" stylename="Bold OpMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMid.ufo" sortorder="14" stylename="Semibold OpMid">
+        <location>
+            <dimension name="optical" xvalue="36.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMid.ufo" sortorder="18" stylename="Bold OpMid">
+        <location>
+            <dimension name="optical" xvalue="36.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMid.ufo" sortorder="22" stylename="Black OpMid">
+        <location>
+            <dimension name="optical" xvalue="36.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMid.ufo" sortorder="2" stylename="Light OpMid">
+        <location>
+            <dimension name="optical" xvalue="36.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMid.ufo" sortorder="10" stylename="Regular OpMid">
+        <location>
+            <dimension name="optical" xvalue="36.000000"/>
+            <dimension name="weight" xvalue="380.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpHi.ufo" sortorder="9" stylename="Regular OpHi">
+        <location>
+            <dimension name="optical" xvalue="56.000000"/>
+            <dimension name="weight" xvalue="380.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpHi.ufo" sortorder="1" stylename="Light OpHi">
+        <location>
+            <dimension name="optical" xvalue="56.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpHi.ufo" sortorder="13" stylename="Semibold OpHi">
+        <location>
+            <dimension name="optical" xvalue="56.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpHi.ufo" sortorder="17" stylename="Bold OpHi">
+        <location>
+            <dimension name="optical" xvalue="56.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpHi.ufo" sortorder="21" stylename="Black OpHi">
+        <location>
+            <dimension name="optical" xvalue="56.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMin.ufo" sortorder="7" stylename="Thin OpMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="225.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMid.ufo" sortorder="6" stylename="Thin OpMid">
+        <location>
+            <dimension name="optical" xvalue="36.000000"/>
+            <dimension name="weight" xvalue="225.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpHi.ufo" sortorder="5" stylename="Thin OpHi">
+        <location>
+            <dimension name="optical" xvalue="56.000000"/>
+            <dimension name="weight" xvalue="225.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMax.ufo" sortorder="4" stylename="Thin OpMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="225.000000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>
