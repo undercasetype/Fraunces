@@ -1,15 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="i" format="1">
-  <advance width="213"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="i" format="2">
+  <advance width="206"/>
   <unicode hex="0069"/>
   <outline>
-    <component base="dotaccentcomb" xOffset="3"/>
     <component base="dotlessi"/>
+    <component base="dotaccent"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>
