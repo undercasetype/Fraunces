@@ -1,48 +1,192 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
+        <axis default="100" maximum="1000" minimum="100" name="weight" tag="wght" />
         <axis default="9" maximum="72" minimum="9" name="optical" tag="opsz" />
-        <axis default="400" maximum="1000" minimum="100" name="weight" tag="wght" />
     </axes>
     <sources>
-        <source familyname="Fraunces" filename="FrauncesItalic-LightOpMin.ufo" stylename="Light OpMin">
-            <location>
-                <dimension name="optical" xvalue="9" />
-                <dimension name="weight" xvalue="100" />
-            </location>
-        </source>
         <source familyname="Fraunces" filename="FrauncesItalic-LightOpMax.ufo" stylename="Light OpMax">
             <location>
-                <dimension name="optical" xvalue="72" />
                 <dimension name="weight" xvalue="100" />
+                <dimension name="optical" xvalue="72" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="FrauncesItalic-LightOpMin.ufo" stylename="Light OpMin">
+            <location>
+                <dimension name="weight" xvalue="100" />
+                <dimension name="optical" xvalue="9" />
             </location>
         </source>
         <source familyname="Fraunces" filename="FrauncesItalic-BlackOpMax.ufo" stylename="Black OpMax">
             <location>
-                <dimension name="optical" xvalue="72" />
                 <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="72" />
             </location>
         </source>
         <source familyname="Fraunces" filename="FrauncesItalic-BlackOpMin.ufo" stylename="Black OpMin">
             <location>
-                <dimension name="optical" xvalue="9" />
                 <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="9" />
             </location>
         </source>
     </sources>
     <instances>
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpHi.ufo" postscriptfontname="Fraunces-LightOpHi" stylemapstylename="italic" stylename="Light OpHi">
+            <location>
+                <dimension name="weight" xvalue="100" />
+                <dimension name="optical" xvalue="56" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMid.ufo" postscriptfontname="Fraunces-LightOpMid" stylemapstylename="italic" stylename="Light OpMid">
+            <location>
+                <dimension name="weight" xvalue="100" />
+                <dimension name="optical" xvalue="36" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMax.ufo" postscriptfontname="Fraunces-ThinOpMax" stylename="Thin OpMax">
+            <location>
+                <dimension name="weight" xvalue="225" />
+                <dimension name="optical" xvalue="72" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpHi.ufo" postscriptfontname="Fraunces-ThinOpHi" stylemapstylename="italic" stylename="Thin OpHi">
+            <location>
+                <dimension name="weight" xvalue="225" />
+                <dimension name="optical" xvalue="56" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMid.ufo" postscriptfontname="Fraunces-ThinOpMid" stylemapstylename="italic" stylename="Thin OpMid">
+            <location>
+                <dimension name="weight" xvalue="225" />
+                <dimension name="optical" xvalue="36" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMin.ufo" postscriptfontname="Fraunces-ThinOpMin" stylemapstylename="italic" stylename="Thin OpMin">
+            <location>
+                <dimension name="weight" xvalue="225" />
+                <dimension name="optical" xvalue="9" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
         <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMax.ufo" postscriptfontname="Fraunces-RegularOpMax" stylemapfamilyname="Fraunces" stylemapstylename="italic" stylename="Regular OpMax">
             <location>
-                <dimension name="optical" xvalue="72" />
                 <dimension name="weight" xvalue="380" />
+                <dimension name="optical" xvalue="72" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpHi.ufo" postscriptfontname="Fraunces-RegularOpHi" stylemapstylename="italic" stylename="Regular OpHi">
+            <location>
+                <dimension name="weight" xvalue="380" />
+                <dimension name="optical" xvalue="56" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMid.ufo" postscriptfontname="Fraunces-RegularOpMid" stylename="Regular OpMid">
+            <location>
+                <dimension name="weight" xvalue="380" />
+                <dimension name="optical" xvalue="36" />
             </location>
             <kerning />
             <info />
         </instance>
         <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMin.ufo" postscriptfontname="Fraunces-RegularOpMin" stylemapfamilyname="Fraunces" stylemapstylename="italic" stylename="Regular OpMin">
             <location>
-                <dimension name="optical" xvalue="9" />
                 <dimension name="weight" xvalue="380" />
+                <dimension name="optical" xvalue="9" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMax.ufo" postscriptfontname="Fraunces-SemiboldOpMax" stylename="Semibold OpMax">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="72" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpHi.ufo" postscriptfontname="Fraunces-SemiboldOpHi" stylemapstylename="italic" stylename="Semibold OpHi">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="56" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMid.ufo" postscriptfontname="Fraunces-SemiboldOpMid" stylemapstylename="italic" stylename="Semibold OpMid">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="36" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMin.ufo" postscriptfontname="Fraunces-SemiboldOpMin" stylemapstylename="italic" stylename="Semibold OpMin">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="9" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMax.ufo" postscriptfontname="Fraunces-BoldOpMax" stylemapstylename="italic" stylename="Bold OpMax">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="72" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpHi.ufo" postscriptfontname="Fraunces-BoldOpHi" stylemapstylename="italic" stylename="Bold OpHi">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="56" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMid.ufo" postscriptfontname="Fraunces-BoldOpMid" stylemapstylename="italic" stylename="Bold OpMid">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="36" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMin.ufo" postscriptfontname="Fraunces-BoldOpMin" stylemapstylename="italic" stylename="Bold OpMin">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="9" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpHi.ufo" postscriptfontname="Fraunces-BlackOpHi" stylemapstylename="italic" stylename="Black OpHi">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="56" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMid.ufo" postscriptfontname="Fraunces-BlackOpMid" stylemapstylename="italic" stylename="Black OpMid">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="36" />
             </location>
             <kerning />
             <info />
