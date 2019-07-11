@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="I" format="2">
+<glyph name="L" format="2">
   <advance width="394"/>
-  <unicode hex="0049"/>
+  <unicode hex="004C"/>
   <outline>
     <contour>
       <point x="304" y="29" type="curve" smooth="yes"/>
@@ -32,7 +32,7 @@
       <point x="82" y="16"/>
       <point x="67" y="14" type="curve" smooth="yes"/>
       <point x="19" y="9" type="line" smooth="yes"/>
-      <point x="12.97500554527424" y="8.372396410966067"/>
+      <point x="13" y="8"/>
       <point x="11" y="7"/>
       <point x="11" y="4" type="curve" smooth="yes"/>
       <point x="11.0" y="2.0"/>
@@ -50,10 +50,4 @@
       <point x="304" y="21"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0,0,1</string>
-    </dict>
-  </lib>
 </glyph>
