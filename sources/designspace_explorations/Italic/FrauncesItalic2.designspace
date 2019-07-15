@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="6" maximum="72" minimum="6" name="optical" tag="opsz" />
+        <axis default="100" maximum="1000" minimum="100" name="weight" tag="wght" />
+    </axes>
+    <sources>
+        <source familyname="Fraunces" filename="FrauncesItalic-BlackOpMax.ufo" stylename="Italic Black OpMax">
+            <location>
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="1000" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="FrauncesItalic-BlackOpMin.ufo" stylename="Italic Black OpMin">
+            <location>
+                <dimension name="optical" xvalue="6" />
+                <dimension name="weight" xvalue="1000" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="FrauncesItalic-LightOpMax.ufo" stylename="Italic Light OpMax">
+            <location>
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="100" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="FrauncesItalic-LightOpMin.ufo" stylename="Italic Light OpMin">
+            <location>
+                <dimension name="optical" xvalue="6" />
+                <dimension name="weight" xvalue="100" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ItalicBlackOpMax.ufo" postscriptfontname="Fraunces-ItalicBlackOpMax" stylename="Italic Black OpMax">
+            <location>
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="1000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ItalicBlackOpMin.ufo" postscriptfontname="Fraunces-ItalicBlackOpMin" stylename="Italic Black OpMin">
+            <location>
+                <dimension name="optical" xvalue="6" />
+                <dimension name="weight" xvalue="1000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ItalicLightOpMax.ufo" postscriptfontname="Fraunces-ItalicLightOpMax" stylename="Italic Light OpMax">
+            <location>
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>

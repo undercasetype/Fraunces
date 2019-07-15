@@ -1,7 +1,7 @@
-@alts_on = [ h.alt n.alt m.alt s.alt ] ;
+#@alts_on = [ h.alt n.alt m.alt s.alt ] ;
 
-@alts_off = [ h n m s ] ;
+#@alts_off = [ h n m s ] ;
 
-feature ss01 {
-	sub @alts_off by @alts_on ;
-} ss01 ;
+#feature ss01 {
+#	sub @alts_off by @alts_on ;
+#} ss01 ;
