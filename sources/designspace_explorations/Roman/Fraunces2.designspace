@@ -1,56 +1,56 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="3">
     <axes>
-        <axis default="6" maximum="72" minimum="6" name="optical" tag="opsz" />
         <axis default="100" maximum="1000" minimum="100" name="weight" tag="wght" />
+        <axis default="6" maximum="72" minimum="6" name="optical" tag="opsz" />
     </axes>
     <sources>
-        <source familyname="Fraunces" filename="Fraunces-BlackOpMax.ufo" stylename="Roman Black OpMax">
+        <source familyname="Fraunces" filename="Fraunces-BlackOpMax.ufo" stylename="Black OpMax">
             <location>
-                <dimension name="optical" xvalue="72" />
                 <dimension name="weight" xvalue="1000" />
-            </location>
-        </source>
-        <source familyname="Fraunces" filename="Fraunces-BlackOpMin.ufo" stylename="Roman Black OpMin">
-            <location>
-                <dimension name="optical" xvalue="6" />
-                <dimension name="weight" xvalue="1000" />
-            </location>
-        </source>
-        <source familyname="Fraunces" filename="Fraunces-LightOpMax.ufo" stylename="Roman Light OpMax">
-            <location>
                 <dimension name="optical" xvalue="72" />
-                <dimension name="weight" xvalue="100" />
             </location>
         </source>
-        <source familyname="Fraunces" filename="Fraunces-LightOpMin.ufo" stylename="Roman Light OpMin">
+        <source familyname="Fraunces" filename="Fraunces-BlackOpMin.ufo" stylename="Black OpMin">
             <location>
+                <dimension name="weight" xvalue="1000" />
                 <dimension name="optical" xvalue="6" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="Fraunces-LightOpMax.ufo" stylename="Light OpMax">
+            <location>
                 <dimension name="weight" xvalue="100" />
+                <dimension name="optical" xvalue="72" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="Fraunces-LightOpMin.ufo" stylename="Light OpMin">
+            <location>
+                <dimension name="weight" xvalue="100" />
+                <dimension name="optical" xvalue="6" />
             </location>
         </source>
     </sources>
     <instances>
-        <instance familyname="Fraunces" filename="instances/Fraunces-RomanBlackOpMax.ufo" postscriptfontname="Fraunces-RomanBlackOpMax" stylename="Roman Black OpMax">
+        <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMax.ufo" postscriptfontname="Fraunces-BlackOpMax" stylename="Black OpMax">
             <location>
-                <dimension name="optical" xvalue="72" />
                 <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="72" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Fraunces" filename="instances/Fraunces-RomanBlackOpMin.ufo" postscriptfontname="Fraunces-RomanBlackOpMin" stylename="Roman Black OpMin">
+        <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMin.ufo" postscriptfontname="Fraunces-BlackOpMin" stylename="Black OpMin">
             <location>
+                <dimension name="weight" xvalue="1000" />
                 <dimension name="optical" xvalue="6" />
-                <dimension name="weight" xvalue="1000" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Fraunces" filename="instances/Fraunces-RomanLightOpMax.ufo" postscriptfontname="Fraunces-RomanLightOpMax" stylename="Roman Light OpMax">
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMax.ufo" postscriptfontname="Fraunces-LightOpMax" stylename="Light OpMax">
             <location>
-                <dimension name="optical" xvalue="72" />
                 <dimension name="weight" xvalue="100" />
+                <dimension name="optical" xvalue="72" />
             </location>
             <kerning />
             <info />

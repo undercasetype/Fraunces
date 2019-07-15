@@ -5,25 +5,25 @@
         <axis default="100" maximum="1000" minimum="100" name="weight" tag="wght" />
     </axes>
     <sources>
-        <source familyname="Fraunces" filename="FrauncesItalic-BlackOpMax.ufo" stylename="Italic Black OpMax">
+        <source familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMax.ufo" stylename="Black OpMax">
             <location>
                 <dimension name="optical" xvalue="72" />
                 <dimension name="weight" xvalue="1000" />
             </location>
         </source>
-        <source familyname="Fraunces" filename="FrauncesItalic-BlackOpMin.ufo" stylename="Italic Black OpMin">
+        <source familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMin.ufo" stylename="Black OpMin">
             <location>
                 <dimension name="optical" xvalue="6" />
                 <dimension name="weight" xvalue="1000" />
             </location>
         </source>
-        <source familyname="Fraunces" filename="FrauncesItalic-LightOpMax.ufo" stylename="Italic Light OpMax">
+        <source familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMax.ufo" stylename="Light OpMax">
             <location>
                 <dimension name="optical" xvalue="72" />
                 <dimension name="weight" xvalue="100" />
             </location>
         </source>
-        <source familyname="Fraunces" filename="FrauncesItalic-LightOpMin.ufo" stylename="Italic Light OpMin">
+        <source familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMin.ufo" stylename="Light OpMin">
             <location>
                 <dimension name="optical" xvalue="6" />
                 <dimension name="weight" xvalue="100" />
@@ -31,7 +31,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Fraunces" filename="instances/Fraunces-ItalicBlackOpMax.ufo" postscriptfontname="Fraunces-ItalicBlackOpMax" stylename="Italic Black OpMax">
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMax.ufo" postscriptfontname="FrauncesItalic-BlackOpMax" stylename="Black OpMax">
             <location>
                 <dimension name="optical" xvalue="72" />
                 <dimension name="weight" xvalue="1000" />
@@ -39,7 +39,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Fraunces" filename="instances/Fraunces-ItalicBlackOpMin.ufo" postscriptfontname="Fraunces-ItalicBlackOpMin" stylename="Italic Black OpMin">
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMin.ufo" postscriptfontname="FrauncesItalic-BlackOpMin" stylename="Black OpMin">
             <location>
                 <dimension name="optical" xvalue="6" />
                 <dimension name="weight" xvalue="1000" />
@@ -47,7 +47,7 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Fraunces" filename="instances/Fraunces-ItalicLightOpMax.ufo" postscriptfontname="Fraunces-ItalicLightOpMax" stylename="Italic Light OpMax">
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMax.ufo" postscriptfontname="FrauncesItalic-LightOpMax" stylename="Light OpMax">
             <location>
                 <dimension name="optical" xvalue="72" />
                 <dimension name="weight" xvalue="100" />
