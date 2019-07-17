@@ -96,6 +96,8 @@
     <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
     <integer>1</integer>
+    <key>com.typemytype.robofont.compileSettings.createDummyDSIG</key>
+    <true/>
     <key>com.typemytype.robofont.compileSettings.decompose</key>
     <integer>1</integer>
     <key>com.typemytype.robofont.compileSettings.generateFormat</key>
@@ -106,8 +108,12 @@
     <string>/Users/Cadmon/Documents/GitHub/Fraunces/sources/instances/Fraunces-BlackOpMax.ttf</string>
     <key>com.typemytype.robofont.compileSettings.releaseMode</key>
     <integer>0</integer>
+    <key>com.typemytype.robofont.italicSlantOffset</key>
+    <integer>0</integer>
     <key>com.typemytype.robofont.segmentType</key>
     <string>curve</string>
+    <key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
+    <integer>1</integer>
     <key>public.glyphOrder</key>
     <array>
       <string>A</string>

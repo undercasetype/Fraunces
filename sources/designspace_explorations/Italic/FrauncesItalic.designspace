@@ -2,28 +2,28 @@
 <designspace format="3">
     <axes>
         <axis default="9" maximum="72" minimum="9" name="optical" tag="opsz" />
-        <axis default="400" maximum="1000" minimum="100" name="weight" tag="wght" />
+        <axis default="100" maximum="1000" minimum="100" name="weight" tag="wght" />
     </axes>
     <sources>
-        <source familyname="Fraunces" filename="FrauncesItalic-LightOpMin.ufo" stylename="Light OpMin">
+        <source familyname="Fraunces Light OpMax" filename="FrauncesItalic-LightOpMax.ufo" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="100" />
+            </location>
+        </source>
+        <source familyname="Fraunces Light OpMin" filename="FrauncesItalic-LightOpMin.ufo" stylename="Italic">
             <location>
                 <dimension name="optical" xvalue="9" />
                 <dimension name="weight" xvalue="100" />
             </location>
         </source>
-        <source familyname="Fraunces" filename="FrauncesItalic-LightOpMax.ufo" stylename="Light OpMax">
-            <location>
-                <dimension name="optical" xvalue="72" />
-                <dimension name="weight" xvalue="100" />
-            </location>
-        </source>
-        <source familyname="Fraunces" filename="FrauncesItalic-BlackOpMax.ufo" stylename="Black OpMax">
+        <source familyname="Fraunces Black OpMax" filename="FrauncesItalic-BlackOpMax.ufo" stylename="Italic">
             <location>
                 <dimension name="optical" xvalue="72" />
                 <dimension name="weight" xvalue="1000" />
             </location>
         </source>
-        <source familyname="Fraunces" filename="FrauncesItalic-BlackOpMin.ufo" stylename="Black OpMin">
+        <source familyname="Fraunces Black OpMin" filename="FrauncesItalic-BlackOpMin.ufo" stylename="Italic">
             <location>
                 <dimension name="optical" xvalue="9" />
                 <dimension name="weight" xvalue="1000" />
@@ -31,7 +31,55 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMax.ufo" postscriptfontname="Fraunces-RegularOpMax" stylemapfamilyname="Fraunces" stylemapstylename="italic" stylename="Regular OpMax">
+        <instance familyname="Fraunces Light OpHi" filename="instances/FrauncesLightOpHi-Italic.ufo" postscriptfontname="FrauncesLightOpHi-Italic" stylemapfamilyname="Fraunces Light OpHi" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="56" />
+                <dimension name="weight" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Light OpMid" filename="instances/FrauncesLightOpMid-Italic.ufo" postscriptfontname="FrauncesLightOpMid-Italic" stylemapfamilyname="Fraunces Light OpMid" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="36" />
+                <dimension name="weight" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Thin OpMax" filename="instances/FrauncesThinOpMax-Italic.ufo" postscriptfontname="FrauncesThinOpMax-Italic" stylemapfamilyname="Fraunces Thin OpMax" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="225" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Thin OpHi" filename="instances/FrauncesThinOpHi-Italic.ufo" postscriptfontname="FrauncesThinOpHi-Italic" stylemapfamilyname="Fraunces Thin OpHi" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="56" />
+                <dimension name="weight" xvalue="225" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Thin OpMid" filename="instances/FrauncesThinOpMid-Italic.ufo" postscriptfontname="FrauncesThinOpMid-Italic" stylemapfamilyname="Fraunces Thin OpMid" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="36" />
+                <dimension name="weight" xvalue="225" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Thin OpMin" filename="instances/FrauncesThinOpMin-Italic.ufo" postscriptfontname="FrauncesThinOpMin-Italic" stylemapfamilyname="Fraunces Thin OpMin" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="9" />
+                <dimension name="weight" xvalue="225" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Regular OpMax" filename="instances/FrauncesRegularOpMax-Italic.ufo" postscriptfontname="FrauncesRegularOpMax-Italic" stylemapfamilyname="Fraunces Regular OpMax" stylemapstylename="italic" stylename="Italic">
             <location>
                 <dimension name="optical" xvalue="72" />
                 <dimension name="weight" xvalue="380" />
@@ -39,10 +87,106 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMin.ufo" postscriptfontname="Fraunces-RegularOpMin" stylemapfamilyname="Fraunces" stylemapstylename="italic" stylename="Regular OpMin">
+        <instance familyname="Fraunces Regular OpHi" filename="instances/FrauncesRegularOpHi-Italic.ufo" postscriptfontname="FrauncesRegularOpHi-Italic" stylemapfamilyname="Regular OpHi" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="56" />
+                <dimension name="weight" xvalue="380" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Regular OpMid" filename="instances/FrauncesRegularOpMid-Italic.ufo" postscriptfontname="FrauncesRegularOpMid-Italic" stylemapfamilyname="Fraunces Regular OpMid" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="36" />
+                <dimension name="weight" xvalue="380" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Regular OpMin" filename="instances/FrauncesRegularOpMin-Italic.ufo" postscriptfontname="FrauncesRegularOpMin-Italic" stylemapfamilyname="Fraunces Regular OpMin" stylemapstylename="italic" stylename="Italic">
             <location>
                 <dimension name="optical" xvalue="9" />
                 <dimension name="weight" xvalue="380" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Semibold OpMax" filename="instances/FrauncesSemiboldOpMax-Italic.ufo" postscriptfontname="FrauncesSemiboldOpMax-Italic" stylemapfamilyname="Fraunces Semibold OpMax" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="600" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Semibold OpHi" filename="instances/FrauncesSemiboldOpHi-Italic.ufo" postscriptfontname="FrauncesSemiboldOpHi-Italic" stylemapfamilyname="Italic" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="56" />
+                <dimension name="weight" xvalue="600" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Semibold OpMid" filename="instances/FrauncesSemiboldOpMid-Italic.ufo" postscriptfontname="FrauncesSemiboldOpMid-Italic" stylemapfamilyname="Italic" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="36" />
+                <dimension name="weight" xvalue="600" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Semibold OpMin" filename="instances/FrauncesSemiboldOpMin-Italic.ufo" postscriptfontname="FrauncesSemiboldOpMin-Italic" stylemapfamilyname="Fraunces Semibold OpMin" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="9" />
+                <dimension name="weight" xvalue="600" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Bold OpMax" filename="instances/FrauncesBoldOpMax-Italic.ufo" postscriptfontname="FrauncesBoldOpMax-Italic" stylemapfamilyname="Fraunces Bold OpMax" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="800" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Bold OpHi" filename="instances/FrauncesBoldOpHi-Italic.ufo" postscriptfontname="FrauncesBoldOpHi-Italic" stylemapfamilyname="Fraunces Bold OpHi" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="56" />
+                <dimension name="weight" xvalue="800" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Bold OpMid" filename="instances/FrauncesBoldOpMid-Italic.ufo" postscriptfontname="FrauncesBoldOpMid-Italic" stylemapfamilyname="Fraunces Bold OpMid" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="36" />
+                <dimension name="weight" xvalue="800" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Bold OpMin" filename="instances/FrauncesBoldOpMin-Italic.ufo" postscriptfontname="FrauncesBoldOpMin-Italic" stylemapfamilyname="Fraunces Bold OpMin" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="9" />
+                <dimension name="weight" xvalue="800" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Black OpHi" filename="instances/FrauncesBlackOpHi-Italic.ufo" postscriptfontname="FrauncesBlackOpHi-Italic" stylemapfamilyname="Fraunces Black OpHi" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="56" />
+                <dimension name="weight" xvalue="1000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Black OpMid" filename="instances/FrauncesBlackOpMid-Italic.ufo" postscriptfontname="FrauncesBlackOpMid-Italic" stylemapfamilyname="Fraunces Black OpMid" stylemapstylename="italic" stylename="Italic">
+            <location>
+                <dimension name="optical" xvalue="36" />
+                <dimension name="weight" xvalue="1000" />
             </location>
             <kerning />
             <info />

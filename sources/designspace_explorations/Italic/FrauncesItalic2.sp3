@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<designspace format="2">
+    <!-- Superpolator Designspace Object -->
+    <!-- info -->
+    <version superpolator="2"/>
+    <!-- measurements -->
+    <!-- application data -->
+    <data name="horizontalPreviewAxis" value="optical"/>
+    <data name="lineInverted" value="False"/>
+    <data name="lineViewFilled" value="True"/>
+    <data name="lineStacked" value="sequence"/>
+    <data name="generateFontsAtFolder" value="/Users/spencercharles/Documents/Git Repositories/Fraunces/sources/designspace_explorations/Italic/instances"/>
+    <data name="previewtext" value=""/>
+    <data name="verticalPreviewAxis" value="weight"/>
+    <!-- don't generate these glyphs -->
+    <ignore glyphs=""/>
+    <!-- axis definitions -->
+    <axis maximum="72.000000" minimum="6.000000" name="optical" shortname="opsz">
+        <color a="1.000" b="0.056" g="0.775" r="0.752"/>
+    </axis>
+    <axis maximum="1000.000000" minimum="100.000000" name="weight" shortname="wght">
+        <color a="1.000" b="0.764" g="0.000" r="0.989"/>
+    </axis>
+    <!-- master definitions -->
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMax.ufo" sortorder="0" stylename="Black OpMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMin.ufo" sortorder="1" stylename="Black OpMin">
+        <location>
+            <dimension name="optical" xvalue="6.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMax.ufo" sortorder="2" stylename="Light OpMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMin.ufo" sortorder="3" stylename="Light OpMin">
+        <location>
+            <dimension name="optical" xvalue="6.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <!-- instance definitions -->
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMax.ufo" sortorder="4" stylename="Black OpMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMin.ufo" sortorder="5" stylename="Black OpMin">
+        <location>
+            <dimension name="optical" xvalue="6.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMax.ufo" sortorder="6" stylename="Light OpMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+</designspace>
