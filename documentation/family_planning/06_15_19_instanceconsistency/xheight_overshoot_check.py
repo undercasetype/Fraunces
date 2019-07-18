@@ -1,7 +1,7 @@
-# Write a script to proof paragraphs of text. 
+import datetime
 
-# To Do:
-    # Proof Roman against Italic in a single line
+now = datetime.datetime.now()
+newFileName = "xheight_overshoot_check" + now.strftime("%Y_%m_%d-%H_%M_%S")
 
 fnames = ["Fraunces", "Fraunces Italic", "Recur Mono"]
 textsample = "oingo boingo "
@@ -32,5 +32,5 @@ for y in range(0,pages,1):
         print(osize)
         print(weight)
         
-saveImage("xheight_overshoot_check.pdf")
-saveImage("xheight_overshoot_check.gif")
+saveImage("%s.pdf" % (newFileName))
+#saveImage("%s.gif" % (newFileName))
