@@ -8,12 +8,28 @@
     <data name="horizontalPreviewAxis" value="optical"/>
     <data name="lineInverted" value="False"/>
     <data name="lineViewFilled" value="True"/>
-    <data name="lineStacked" value="sequence"/>
-    <data name="generateFontsAtFolder" value="/Users/spencercharles/Documents/Git Repositories/Fraunces/sources/designspace_explorations/Roman/instances"/>
-    <data name="previewtext" value=""/>
+    <data name="lineStacked" value="lined"/>
+    <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Fraunces/sources/designspace_explorations/Roman/instances"/>
+    <data name="previewtext" value="higgs boson."/>
     <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
+    <!-- rules -->
+    <rule enabled="1" logic="all" resultfalse="n" resulttrue="n.alt">
+        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="m" resulttrue="m.alt">
+        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="h" resulttrue="h.alt">
+        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="s" resulttrue="s.alt">
+        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="ampersand" resulttrue="ampserand.alt">
+        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+    </rule>
     <!-- axis definitions -->
     <axis maximum="72.000000" minimum="6.000000" name="optical" shortname="opsz">
         <color a="1.000" b="0.056" g="0.775" r="0.752"/>
@@ -51,7 +67,7 @@
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BlackOpMax.ufo" sortorder="4" stylename="Black OpMax">
+    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMax.ufo" sortorder="4" stylename="Black OpMax">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="weight" xvalue="1000.000000"/>
@@ -61,7 +77,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BlackOpMin.ufo" sortorder="5" stylename="Black OpMin">
+    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMin.ufo" sortorder="5" stylename="Black OpMin">
         <location>
             <dimension name="optical" xvalue="6.000000"/>
             <dimension name="weight" xvalue="1000.000000"/>
@@ -71,7 +87,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-LightOpMax.ufo" sortorder="6" stylename="Light OpMax">
+    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMax.ufo" sortorder="6" stylename="Light OpMax">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
