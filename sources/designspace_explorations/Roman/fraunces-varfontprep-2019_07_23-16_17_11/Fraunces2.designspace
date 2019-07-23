@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="weight" minimum="100" maximum="1000" default="100"/>
+    <axis tag="opsz" name="optical" minimum="6" maximum="72" default="6"/>
+  </axes>
+  <sources>
+    <source filename="Fraunces-BlackOpMax.ufo" name="master.Fraunces.Black OpMax.0" familyname="Fraunces" stylename="Black OpMax">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="optical" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="Fraunces-BlackOpMin.ufo" name="master.Fraunces.Black OpMin.1" familyname="Fraunces" stylename="Black OpMin">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="optical" xvalue="6"/>
+      </location>
+    </source>
+    <source filename="Fraunces-LightOpMax.ufo" name="master.Fraunces.Light OpMax.2" familyname="Fraunces" stylename="Light OpMax">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+        <dimension name="optical" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="Fraunces-LightOpMin.ufo" name="master.Fraunces.Light OpMin.3" familyname="Fraunces" stylename="Light OpMin">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+        <dimension name="optical" xvalue="6"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="instance_Black_OpMax" familyname="Fraunces" stylename="Black OpMax" filename="instances/Fraunces-BlackOpMax.ufo" postscriptfontname="Fraunces-BlackOpMax">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="optical" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_Black_OpMin" familyname="Fraunces" stylename="Black OpMin" filename="instances/Fraunces-BlackOpMin.ufo" postscriptfontname="Fraunces-BlackOpMin">
+      <location>
+        <dimension name="weight" xvalue="1000"/>
+        <dimension name="optical" xvalue="6"/>
+      </location>
+      <glyphs>
+        <glyph unicode="0x68" name="h">
+          <location>
+            <dimension name="weight" xvalue="1000"/>
+            <dimension name="optical" xvalue="6"/>
+          </location>
+          <masters>
+            <master glyphname="h.alt" source="master.Fraunces.Black OpMax.0">
+              <location>
+                <dimension name="weight" xvalue="1000"/>
+                <dimension name="optical" xvalue="72"/>
+              </location>
+            </master>
+            <master glyphname="h.alt" source="master.Fraunces.Black OpMin.1">
+              <location>
+                <dimension name="weight" xvalue="1000"/>
+                <dimension name="optical" xvalue="6"/>
+              </location>
+            </master>
+            <master glyphname="h.alt" source="master.Fraunces.Light OpMax.2">
+              <location>
+                <dimension name="weight" xvalue="100"/>
+                <dimension name="optical" xvalue="72"/>
+              </location>
+            </master>
+            <master glyphname="h.alt" source="master.Fraunces.Light OpMin.3">
+              <location>
+                <dimension name="weight" xvalue="100"/>
+                <dimension name="optical" xvalue="6"/>
+              </location>
+            </master>
+          </masters>
+        </glyph>
+        <glyph unicode="0x6d" name="m">
+          <location>
+            <dimension name="weight" xvalue="1000"/>
+            <dimension name="optical" xvalue="6"/>
+          </location>
+          <masters>
+            <master glyphname="m.alt" source="master.Fraunces.Black OpMax.0">
+              <location>
+                <dimension name="weight" xvalue="1000"/>
+                <dimension name="optical" xvalue="72"/>
+              </location>
+            </master>
+            <master glyphname="m.alt" source="master.Fraunces.Black OpMin.1">
+              <location>
+                <dimension name="weight" xvalue="1000"/>
+                <dimension name="optical" xvalue="6"/>
+              </location>
+            </master>
+            <master glyphname="m.alt" source="master.Fraunces.Light OpMax.2">
+              <location>
+                <dimension name="weight" xvalue="100"/>
+                <dimension name="optical" xvalue="72"/>
+              </location>
+            </master>
+            <master glyphname="m.alt" source="master.Fraunces.Light OpMin.3">
+              <location>
+                <dimension name="weight" xvalue="100"/>
+                <dimension name="optical" xvalue="6"/>
+              </location>
+            </master>
+          </masters>
+        </glyph>
+        <glyph unicode="0x6e" name="n">
+          <location>
+            <dimension name="weight" xvalue="1000"/>
+            <dimension name="optical" xvalue="6"/>
+          </location>
+          <masters>
+            <master glyphname="n.alt" source="master.Fraunces.Black OpMax.0">
+              <location>
+                <dimension name="weight" xvalue="1000"/>
+                <dimension name="optical" xvalue="72"/>
+              </location>
+            </master>
+            <master glyphname="n.alt" source="master.Fraunces.Black OpMin.1">
+              <location>
+                <dimension name="weight" xvalue="1000"/>
+                <dimension name="optical" xvalue="6"/>
+              </location>
+            </master>
+            <master glyphname="n.alt" source="master.Fraunces.Light OpMax.2">
+              <location>
+                <dimension name="weight" xvalue="100"/>
+                <dimension name="optical" xvalue="72"/>
+              </location>
+            </master>
+            <master glyphname="n.alt" source="master.Fraunces.Light OpMin.3">
+              <location>
+                <dimension name="weight" xvalue="100"/>
+                <dimension name="optical" xvalue="6"/>
+              </location>
+            </master>
+          </masters>
+        </glyph>
+        <glyph unicode="0x73" name="s">
+          <location>
+            <dimension name="weight" xvalue="1000"/>
+            <dimension name="optical" xvalue="6"/>
+          </location>
+          <masters>
+            <master glyphname="s.alt" source="master.Fraunces.Black OpMax.0">
+              <location>
+                <dimension name="weight" xvalue="1000"/>
+                <dimension name="optical" xvalue="72"/>
+              </location>
+            </master>
+            <master glyphname="s.alt" source="master.Fraunces.Black OpMin.1">
+              <location>
+                <dimension name="weight" xvalue="1000"/>
+                <dimension name="optical" xvalue="6"/>
+              </location>
+            </master>
+            <master glyphname="s.alt" source="master.Fraunces.Light OpMax.2">
+              <location>
+                <dimension name="weight" xvalue="100"/>
+                <dimension name="optical" xvalue="72"/>
+              </location>
+            </master>
+            <master glyphname="s.alt" source="master.Fraunces.Light OpMin.3">
+              <location>
+                <dimension name="weight" xvalue="100"/>
+                <dimension name="optical" xvalue="6"/>
+              </location>
+            </master>
+          </masters>
+        </glyph>
+      </glyphs>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_Light_OpMax" familyname="Fraunces" stylename="Light OpMax" filename="instances/Fraunces-LightOpMax.ufo" postscriptfontname="Fraunces-LightOpMax">
+      <location>
+        <dimension name="weight" xvalue="100"/>
+        <dimension name="optical" xvalue="72"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>
