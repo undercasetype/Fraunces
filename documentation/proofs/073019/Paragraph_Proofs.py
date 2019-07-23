@@ -1,7 +1,7 @@
 import datetime
 
 now = datetime.datetime.now()
-newFileName = "xheight_overshoot_check" + now.strftime("%Y_%m_%d-%H_%M_%S")
+newFileName = "paragraph_proofs" + now.strftime("%Y_%m_%d-%H_%M_%S")
 
 fnames = ["Fraunces", "Fraunces Italic", "Recur Mono"]
 
@@ -47,3 +47,5 @@ for y in range(0,pages,1):
     # Box 3
     opticalsize = 7
     textBox(textGenerator(fnames, opticalsize, 200), ((boxMargin*2) + boxWidth, margin, boxWidth-margin, rightBoxHeight))
+    
+saveImage("%s.pdf" % (newFileName))
