@@ -9,8 +9,8 @@
     <data name="lineInverted" value="False"/>
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
-    <data name="generateFontsAtFolder" value="/Users/spencercharles/Documents/Git Repositories/Fraunces/sources/designspace_explorations/Italic/instances"/>
-    <data name="previewtext" value="fentimens."/>
+    <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Fraunces/sources/designspace_explorations/Italic/instances"/>
+    <data name="previewtext" value="h /h.alt "/>
     <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -19,7 +19,7 @@
         <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
     </rule>
     <!-- axis definitions -->
-    <axis maximum="72.000000" minimum="6.000000" name="optical" shortname="opsz">
+    <axis maximum="144.000000" minimum="6.000000" name="optical" shortname="opsz">
         <color a="1.000" b="0.056" g="0.775" r="0.752"/>
     </axis>
     <axis maximum="1000.000000" minimum="100.000000" name="weight" shortname="wght">
