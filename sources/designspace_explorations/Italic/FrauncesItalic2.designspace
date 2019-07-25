@@ -1,59 +1,166 @@
-<?xml version='1.0' encoding='utf-8'?>
-<designspace format="3">
-    <axes>
-        <axis default="6" maximum="72" minimum="6" name="optical" tag="opsz" />
-        <axis default="100" maximum="1000" minimum="100" name="weight" tag="wght" />
-    </axes>
-    <sources>
-        <source familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMax.ufo" stylename="Black OpMax">
-            <location>
-                <dimension name="optical" xvalue="72" />
-                <dimension name="weight" xvalue="1000" />
-            </location>
-        </source>
-        <source familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMin.ufo" stylename="Black OpMin">
-            <location>
-                <dimension name="optical" xvalue="6" />
-                <dimension name="weight" xvalue="1000" />
-            </location>
-        </source>
-        <source familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMax.ufo" stylename="Light OpMax">
-            <location>
-                <dimension name="optical" xvalue="72" />
-                <dimension name="weight" xvalue="100" />
-            </location>
-        </source>
-        <source familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMin.ufo" stylename="Light OpMin">
-            <location>
-                <dimension name="optical" xvalue="6" />
-                <dimension name="weight" xvalue="100" />
-            </location>
-        </source>
-    </sources>
-    <instances>
-        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMax.ufo" postscriptfontname="FrauncesItalic-BlackOpMax" stylename="Black OpMax">
-            <location>
-                <dimension name="optical" xvalue="72" />
-                <dimension name="weight" xvalue="1000" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMin.ufo" postscriptfontname="FrauncesItalic-BlackOpMin" stylename="Black OpMin">
-            <location>
-                <dimension name="optical" xvalue="6" />
-                <dimension name="weight" xvalue="1000" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMax.ufo" postscriptfontname="FrauncesItalic-LightOpMax" stylename="Light OpMax">
-            <location>
-                <dimension name="optical" xvalue="72" />
-                <dimension name="weight" xvalue="100" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-    </instances>
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="opsz" name="optical" minimum="6" maximum="144" default="6"/>
+    <axis tag="wght" name="weight" minimum="100" maximum="1000" default="100"/>
+  </axes>
+  <rules>
+    <rule name="wonk">
+      <conditionset>
+        <condition name="optical" minimum="6" maximum="18"/>
+        <condition name="weight" minimum="100" maximum="1000"/>
+      </conditionset>
+      <sub name="b" with="b.alt"/>
+      <sub name="h" with="h.alt"/>
+      <sub name="v" with="v.alt"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="FrauncesItalic-BlackOpMax.ufo" name="master.Fraunces Italic.Black OpMax.0" familyname="Fraunces Italic" stylename="Black OpMax">
+      <location>
+        <dimension name="optical" xvalue="144"/>
+        <dimension name="weight" xvalue="1000"/>
+      </location>
+    </source>
+    <source filename="FrauncesItalic-BlackOpMin.ufo" name="master.Fraunces Italic.Black OpMin.1" familyname="Fraunces Italic" stylename="Black OpMin">
+      <location>
+        <dimension name="optical" xvalue="6"/>
+        <dimension name="weight" xvalue="1000"/>
+      </location>
+    </source>
+    <source filename="FrauncesItalic-LightOpMax.ufo" name="master.Fraunces Italic.Light OpMax.2" familyname="Fraunces Italic" stylename="Light OpMax">
+      <location>
+        <dimension name="optical" xvalue="144"/>
+        <dimension name="weight" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="FrauncesItalic-LightOpMin.ufo" name="master.Fraunces Italic.Light OpMin.3" familyname="Fraunces Italic" stylename="Light OpMin">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="optical" xvalue="6"/>
+        <dimension name="weight" xvalue="100"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="instance_Black_OpMax" familyname="Fraunces Italic" stylename="Black OpMax" filename="instances/FrauncesItalic-BlackOpMax.ufo" postscriptfontname="FrauncesItalic-BlackOpMax">
+      <location>
+        <dimension name="optical" xvalue="144"/>
+        <dimension name="weight" xvalue="1000"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_Black_OpMin" familyname="Fraunces Italic" stylename="Black OpMin" filename="instances/FrauncesItalic-BlackOpMin.ufo" postscriptfontname="FrauncesItalic-BlackOpMin">
+      <location>
+        <dimension name="optical" xvalue="6"/>
+        <dimension name="weight" xvalue="1000"/>
+      </location>
+      <glyphs>
+        <glyph unicode="0x26" name="ampersand">
+          <location>
+            <dimension name="optical" xvalue="6"/>
+            <dimension name="weight" xvalue="1000"/>
+          </location>
+          <masters>
+            <master glyphname="ampersand.alt" source="master.Fraunces Italic.Black OpMax.0">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="ampersand.alt" source="master.Fraunces Italic.Black OpMin.1">
+              <location>
+                <dimension name="optical" xvalue="6"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="ampersand.alt" source="master.Fraunces Italic.Light OpMax.2">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="ampersand.alt" source="master.Fraunces Italic.Light OpMin.3">
+              <location>
+                <dimension name="optical" xvalue="6"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+          </masters>
+        </glyph>
+      </glyphs>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_Light_OpMax" familyname="Fraunces Italic" stylename="Light OpMax" filename="instances/FrauncesItalic-LightOpMax.ufo" postscriptfontname="FrauncesItalic-LightOpMax">
+      <location>
+        <dimension name="optical" xvalue="144"/>
+        <dimension name="weight" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_Regular_OpMin" familyname="Fraunces Italic" stylename="Regular OpMin" filename="instances/FrauncesItalic-RegularOpMin.ufo" postscriptfontname="FrauncesItalic-RegularOpMin">
+      <location>
+        <dimension name="optical" xvalue="6"/>
+        <dimension name="weight" xvalue="380"/>
+      </location>
+      <glyphs>
+        <glyph unicode="0x26" name="ampersand">
+          <location>
+            <dimension name="optical" xvalue="6"/>
+            <dimension name="weight" xvalue="380"/>
+          </location>
+          <masters>
+            <master glyphname="ampersand.alt" source="master.Fraunces Italic.Black OpMax.0">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="ampersand.alt" source="master.Fraunces Italic.Black OpMin.1">
+              <location>
+                <dimension name="optical" xvalue="6"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="ampersand.alt" source="master.Fraunces Italic.Light OpMax.2">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="ampersand.alt" source="master.Fraunces Italic.Light OpMin.3">
+              <location>
+                <dimension name="optical" xvalue="6"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+          </masters>
+        </glyph>
+      </glyphs>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_Light_OpMid" familyname="Fraunces Italic" stylename="Light OpMid" filename="instances/FrauncesItalic-LightOpMid.ufo" postscriptfontname="FrauncesItalic-LightOpMid">
+      <location>
+        <dimension name="optical" xvalue="36"/>
+        <dimension name="weight" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_Regular_OpMax" familyname="Fraunces Italic" stylename="Regular OpMax" filename="instances/FrauncesItalic-RegularOpMax.ufo" postscriptfontname="FrauncesItalic-RegularOpMax">
+      <location>
+        <dimension name="optical" xvalue="144"/>
+        <dimension name="weight" xvalue="380"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
 </designspace>

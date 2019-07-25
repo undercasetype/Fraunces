@@ -10,7 +10,7 @@
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Fraunces/sources/designspace_explorations/Italic/instances"/>
-    <data name="previewtext" value="horns on the torns."/>
+    <data name="previewtext" value="h /h.alt "/>
     <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -19,7 +19,7 @@
         <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
     </rule>
     <!-- axis definitions -->
-    <axis maximum="72.000000" minimum="6.000000" name="optical" shortname="opsz">
+    <axis maximum="144.000000" minimum="6.000000" name="optical" shortname="opsz">
         <color a="1.000" b="0.056" g="0.775" r="0.752"/>
     </axis>
     <axis maximum="1000.000000" minimum="100.000000" name="weight" shortname="wght">
@@ -88,6 +88,26 @@
     <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMin.ufo" sortorder="7" stylename="Regular OpMin">
         <location>
             <dimension name="optical" xvalue="6.000000"/>
+            <dimension name="weight" xvalue="380.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMid.ufo" sortorder="8" stylename="Light OpMid">
+        <location>
+            <dimension name="optical" xvalue="36.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMax.ufo" sortorder="9" stylename="Regular OpMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
             <dimension name="weight" xvalue="380.000000"/>
         </location>
         <provideFeatures state="1"/>
