@@ -9,8 +9,8 @@
     <data name="lineInverted" value="False"/>
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
-    <data name="generateFontsAtFolder" value="/Users/spencercharles/Documents/Git Repositories/Fraunces/sources/designspace_explorations/Roman/instances"/>
-    <data name="previewtext" value="higgs boson."/>
+    <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Fraunces/sources/designspace_explorations/Roman/instances"/>
+    <data name="previewtext" value="Hissings."/>
     <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -31,7 +31,7 @@
         <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
     </rule>
     <!-- axis definitions -->
-    <axis maximum="72.000000" minimum="6.000000" name="optical" shortname="opsz">
+    <axis maximum="144.000000" minimum="9.000000" name="optical" shortname="opsz">
         <color a="1.000" b="0.056" g="0.775" r="0.752"/>
     </axis>
     <axis maximum="1000.000000" minimum="100.000000" name="weight" shortname="wght">
@@ -40,36 +40,36 @@
     <!-- master definitions -->
     <master familyname="Fraunces" filename="Fraunces-BlackOpMax.ufo" sortorder="0" stylename="Black OpMax">
         <location>
-            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="optical" xvalue="144.000000"/>
             <dimension name="weight" xvalue="1000.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <master familyname="Fraunces" filename="Fraunces-BlackOpMin.ufo" sortorder="1" stylename="Black OpMin">
         <location>
-            <dimension name="optical" xvalue="6.000000"/>
+            <dimension name="optical" xvalue="9.000000"/>
             <dimension name="weight" xvalue="1000.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <master familyname="Fraunces" filename="Fraunces-LightOpMax.ufo" sortorder="2" stylename="Light OpMax">
         <location>
-            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="optical" xvalue="144.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <master familyname="Fraunces" filename="Fraunces-LightOpMin.ufo" sortorder="3" stylename="Light OpMin">
         <location>
-            <dimension name="optical" xvalue="6.000000"/>
+            <dimension name="optical" xvalue="9.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BlackOpMax.ufo" sortorder="4" stylename="Black OpMax">
+    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMax.ufo" sortorder="4" stylename="Black OpMax">
         <location>
-            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="optical" xvalue="144.000000"/>
             <dimension name="weight" xvalue="1000.000000"/>
         </location>
         <provideFeatures state="1"/>
@@ -77,9 +77,9 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BlackOpMin.ufo" sortorder="5" stylename="Black OpMin">
+    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMin.ufo" sortorder="5" stylename="Black OpMin">
         <location>
-            <dimension name="optical" xvalue="6.000000"/>
+            <dimension name="optical" xvalue="9.000000"/>
             <dimension name="weight" xvalue="1000.000000"/>
         </location>
         <provideFeatures state="1"/>
@@ -87,10 +87,30 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-LightOpMax.ufo" sortorder="6" stylename="Light OpMax">
+    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMax.ufo" sortorder="6" stylename="Light OpMax">
         <location>
-            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="optical" xvalue="144.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMax.ufo" sortorder="7" stylename="Regular OpMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="380.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMin.ufo" sortorder="8" stylename="Regular OpMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="380.000000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>
