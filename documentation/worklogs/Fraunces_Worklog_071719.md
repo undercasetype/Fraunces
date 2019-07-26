@@ -1,4 +1,4 @@
-Fraunces Production Notes – July 17th – Spencer
+# Fraunces Production Notes – July 17th – Spencer
 
 I spent the day writing proofing scripts to look at weight, spacing, x-height and overshoot consistency across instances. 
 

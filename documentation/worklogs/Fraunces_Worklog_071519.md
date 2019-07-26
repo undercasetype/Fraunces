@@ -1,4 +1,4 @@
-Fraunces Production Notes – July 15th – Spencer
+# Fraunces Production Notes – July 15th – Spencer
 
 Today, I've been working on generate VF files to test the Roman and Italic against each other. I've successfully build both files, but DrawBot seems to be having a problem recognizing the fonts. I have them both in a folder, with unique names, and the family name for each should be "Fraunces" and "Fraunces Italic" respectively.
 
