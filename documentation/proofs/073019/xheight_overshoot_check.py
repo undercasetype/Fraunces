@@ -32,5 +32,5 @@ for y in range(0,pages,1):
         print(osize)
         print(weight)
         
-saveImage("%s.pdf" % (newFileName))
+saveImage("PDFs/%s.pdf" % (newFileName))
 #saveImage("%s.gif" % (newFileName))
