@@ -47,26 +47,26 @@
 
 	### OpMin WeightMin
 
-		– X-height too tall
-		- a left loose
-		– o not centered?
-		– f left loose
-		– s left loose
-		– u offcenter
+		+ X-height too tall
+		+ a left loose
+		+ o not centered?
+		+ f left loose
+		+ s left loose
+		+ u offcenter
 
 
 	### OpMin WeightMax
 
-		- Less tracking -5
-		– Hair lighter
-		– s too wide
+		+ Less tracking -5
+		+ Hair lighter
+		+ s too wide
 
 	### OpMax WeightMin
 
-		– s light
-		– t bottom heavy?
-		– v light?
+		+ s light
+		+ t bottom heavy?
+		+ v light?
 
 	### OpMax WeightMax
 	
-		– s too wide
+		+ s too wide

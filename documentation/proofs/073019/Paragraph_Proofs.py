@@ -53,8 +53,8 @@ for y in range(0,pages,1):
     pageHeight = height()-(margin*2)
     boxMargin = (margin/2)
     boxWidth = (width()/2)- boxMargin
-    leftBoxHeight = pageHeight - boxMargin
-    rightBoxHeight = (pageHeight/2 - boxMargin)
+    topBoxHeight = (pageHeight/1.5) - boxMargin
+    bottomBoxHeight = (pageHeight/2.5) - boxMargin
     
     # Draw caption
     
@@ -63,17 +63,17 @@ for y in range(0,pages,1):
     
     # Box 1
     opticalsize = opMax
-    textBox(textGenerator(opticalsize, 200), (margin, margin, boxWidth-boxMargin, leftBoxHeight))
-    text("OpSz: %s" % (opticalsize), (50, 50))
+    textBox(textGenerator(opticalsize, 200), (margin, margin+bottomBoxHeight, boxWidth*2, topBoxHeight))
+    text("OpSz: %s" % (opticalsize), (margin, margin+bottomBoxHeight+boxMargin*2-10))
     
     # Box 2
     opticalsize = opMax/3
-    textBox(textGenerator(opticalsize, 200), ((boxMargin*2) + boxWidth, margin+rightBoxHeight+boxMargin*2, boxWidth-margin, rightBoxHeight))
-    text("OpSz: %s" % (opticalsize), ((boxMargin*2) + boxWidth, margin+rightBoxHeight+boxMargin*2-10))
+    textBox(textGenerator(opticalsize, 200), (margin, margin, boxWidth-margin, bottomBoxHeight))
+    text("OpSz: %s" % (opticalsize), (50,50))
     
     # Box 3
     opticalsize = opMin
-    textBox(textGenerator(opticalsize, 500), ((boxMargin*2) + boxWidth, margin+boxMargin, boxWidth-margin, rightBoxHeight))
+    textBox(textGenerator(opticalsize, 500), ((boxMargin*2) + boxWidth, margin+boxMargin, boxWidth-margin, bottomBoxHeight))
     text("OpSz: %s" % (opticalsize), ((boxMargin*2) + boxWidth, margin))
     
 ## Uppercase Paragraph Settings, Roman Only
@@ -86,8 +86,8 @@ for y in range(0,pages,1):
     pageHeight = height()-(margin*2)
     boxMargin = (margin/2)
     boxWidth = (width()/2)- boxMargin
-    leftBoxHeight = pageHeight - boxMargin
-    rightBoxHeight = (pageHeight/2 - boxMargin)
+    topBoxHeight = pageHeight - boxMargin
+    bottomBoxHeight = (pageHeight/2 - boxMargin)
     
     # Draw caption
     
@@ -96,17 +96,17 @@ for y in range(0,pages,1):
     
     # Box 1
     opticalsize = opMax
-    textBox(textGenerator(opticalsize, 200, fontpick = "Fraunces", isUpper=True), (margin, margin, boxWidth-boxMargin, leftBoxHeight))
+    textBox(textGenerator(opticalsize, 200, fontpick = "Fraunces", isUpper=True), (margin, margin, boxWidth-boxMargin, topBoxHeight))
     text("OpSz: %s" % (opticalsize), (50, 50))
     
     # Box 2
     opticalsize = opMax/3
-    textBox(textGenerator(opticalsize, 200, fontpick = "Fraunces", isUpper=True), ((boxMargin*2) + boxWidth, margin+rightBoxHeight+boxMargin*2, boxWidth-margin, rightBoxHeight))
-    text("OpSz: %s" % (opticalsize), ((boxMargin*2) + boxWidth, margin+rightBoxHeight+boxMargin*2-10))
+    textBox(textGenerator(opticalsize, 200, fontpick = "Fraunces", isUpper=True), ((boxMargin*2) + boxWidth, margin+bottomBoxHeight+boxMargin*2, boxWidth-margin, bottomBoxHeight))
+    text("OpSz: %s" % (opticalsize), ((boxMargin*2) + boxWidth, margin+bottomBoxHeight+boxMargin*2-10))
     
     # Box 3
     opticalsize = opMin
-    textBox(textGenerator(opticalsize, 500, fontpick = "Fraunces", isUpper=True), ((boxMargin*2) + boxWidth, margin+boxMargin, boxWidth-margin, rightBoxHeight))
+    textBox(textGenerator(opticalsize, 500, fontpick = "Fraunces", isUpper=True), ((boxMargin*2) + boxWidth, margin+boxMargin, boxWidth-margin, bottomBoxHeight))
     text("OpSz: %s" % (opticalsize), ((boxMargin*2) + boxWidth, margin))
     
 saveImage("PDFs/%s.pdf" % (newFileName))

@@ -43,13 +43,11 @@ for f in range(0,2,1):
         # Steps for wght
         for y in range(0,rows,1):
             font(fnames[f], fSize)
-            tracking(5)
             opSz = opMin+(opSzsteps*y)
             wgHt = wghtMin+(wghtSteps*x)
             fontVariations(opsz = opSz,wght = wgHt)
             textBox(textread, (margin,margin+(boxHeight*y),width()-margin*2,boxHeight), align = "center")
             font(fnames[2],9)
-            tracking(None)
             textBox("OpSz: %s, Wght: %s" % (opSz,wgHt), (margin,margin+(boxHeight*y)-boxHeight+captionHeight,width()-margin*2,boxHeight), align = "center")
             
 # Old to New Comparison
@@ -59,7 +57,6 @@ fontdict = {"Fraunces Beta Regular OpMin": (9.1,400), "Fraunces Beta Bold OpMin"
 def drawOldtoNewComparison(style):
     newPage("TabloidLandscape")
     font(style, fSize)
-    tracking(5)
     textBox(textread,(margin,margin, width()-(margin*2),boxHeight),align = "center")
     font(fnames[2],9)
     tracking(None)
@@ -68,16 +65,14 @@ def drawOldtoNewComparison(style):
         font("Fraunces Italic", fSize)
     else:
         font("Fraunces", fSize)
-    tracking(5)
     fontVariations(opsz = fontdict[style][0], wght = fontdict[style][1])
     textBox(textread,(margin,margin+(boxHeight*y), width()-(margin*2),boxHeight),align = "center")
     font(fnames[2],9)
-    tracking(None)
     textBox("Fraunces %s" % (str(fontdict[style])), (margin,300,width()-margin*2,boxHeight), align = "center")
     
 drawOldtoNewComparison("Fraunces Beta Regular OpMin")
 drawOldtoNewComparison("Fraunces Beta Bold OpMin")
-#drawOldtoNewComparison("Fraunces Beta Regular OpMax")
+drawOldtoNewComparison("Fraunces Beta Regular OpMax")
 drawOldtoNewComparison("Fraunces Italic Beta Regular OpMin")
 drawOldtoNewComparison("Fraunces Italic Beta Bold OpMin")
 drawOldtoNewComparison("Fraunces Italic Beta Regular OpMax")
