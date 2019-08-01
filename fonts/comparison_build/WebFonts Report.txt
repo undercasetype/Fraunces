@@ -1,0 +1,80 @@
+Web Fonts:
+**********
+
+Fraunces_BoldOpMin.ufo
+----------------------
+source: /Users/spencercharles/Documents/Git Repositories/Fraunces/sources/old masters/Fraunces_BoldOpMin.ufo
+
+Build TTF
+'''''''''
+    path: /Users/spencercharles/Documents/Git Repositories/Fraunces/fonts/comparison_build/Fraunces_Beta-Bold_OpMin.ttf
+    Source is a UFO file. Generate TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        b'\n' Built release mode font 'tmpyz3ymy2e.ttf' Revision 0.001
+        
+        --------------------
+
+
+Fraunces_OpticalMax.ufo
+-----------------------
+source: /Users/spencercharles/Documents/Git Repositories/Fraunces/sources/old masters/Fraunces_OpticalMax.ufo
+
+Build TTF
+'''''''''
+    path: /Users/spencercharles/Documents/Git Repositories/Fraunces/fonts/comparison_build/Fraunces_Beta-Regular_OpMax.ttf
+    Source is a UFO file. Generate TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        b'\n' Built release mode font 'tmpbobjdfg4.ttf' Revision 0.001
+        
+        --------------------
+
+
+Fraunces.ufo
+------------
+source: /Users/spencercharles/Documents/Git Repositories/Fraunces/sources/old masters/Fraunces.ufo
+
+Build TTF
+'''''''''
+    path: /Users/spencercharles/Documents/Git Repositories/Fraunces/fonts/comparison_build/Fraunces_Beta-Regular_OpMin.ttf
+    Source is a UFO file. Generate TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        b'\n' Built release mode font 'tmpfyas_d1t.ttf' Revision 0.001
+        
+        --------------------
+
+
+
+TTFAutohint options:
+********************
+addTTFAutoHintInfo     = False
+dwClearType            = False
+fallbackScript         = False
+gdiClearType           = True
+grayScale              = False
+hintRangeMaximum       = 50
+hintRangeMinimum       = 8
+hintingLimit           = 200
+noHintingLimit         = False
+noXHeightIncreaseLimit = False
+overRideFontLicense    = False
+preHinting             = False
+symbolFont             = False
+xHeightIncreaseLimit   = 14
