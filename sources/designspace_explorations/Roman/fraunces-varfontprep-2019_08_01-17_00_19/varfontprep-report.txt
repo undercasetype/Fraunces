@@ -1,0 +1,86 @@
+16:59:59; 01 August, 2019
+
+*******************
+
+Var Prep Report
+********************************************  
+  
+Unique glyphs removed from Fraunces Light OpMax:
+zero; one; five; three; six; nine; hyphen; eight; four; seven; two; 
+ 
+Unique glyphs removed from Fraunces Black OpMax:
+quotesingle; quotedbl; 
+ 
+Unique glyphs removed from Fraunces Light OpMin:
+zero; one; five; three; six; nine; hyphen; eight; four; seven; two; 
+ 
+Unique glyphs removed from Fraunces Black OpMin:
+quotesingle; quotedbl; 
+ 
+
+ ******************* 
+compatibleGlyphs are {'q', 't', 'U', 'h', 'h.alt', 'm.alt', 'semicolon', 'dotaccent', 'n', 'I', 'dotlessi', 'exclam', 'ellipsis', 'jdotless', 'H', 'L', 'b', 'C', 'o', 'r', 'colon', 'a', 'i', 'quoteright', 'quotedblleft', 'k', 'period', 'z', 'y', 'd', 'comma', 'R', 'g', 'B', 'f', 'O', 'T', 'Z', 'S', 'u', 'D', 'X', 's', 'V', 'questiondown', 'K', 'ampersand', 'l', 'Y', 'quotedblright', 'm', 'j', 'N', 'A', 's.alt', 'F', 'v', 'question', 'P', 'space', 'x', 'Q', 'W', 'c', 'w', 'e', 'E', 'exclamdown', 'M', 'ampersand.alt', 'J', 'nbspace', 'n.alt', 'p', 'G', 'quoteleft'}
+ ******************* 
+non-compatible glyphs: 
+L
+(False, [Fatal] Glyph: "L" + "L"
+[Fatal] Contour: [0] + [0]
+[Fatal] Contour: [0] contains 24 segments | [0] contains 25 segments)
+L
+(False, [Fatal] Glyph: "L" + "L"
+[Fatal] Contour: [0] + [0]
+[Fatal] Contour: [0] contains 24 segments | [0] contains 25 segments)
+d
+(False, [Fatal] Glyph: "d" + "d"
+[Fatal] Contour: [0] + [0]
+[Fatal] Contour: [0] contains 10 segments | [0] contains 15 segments
+[Fatal] Contour: [1] + [1]
+[Fatal] Contour: [1] contains 15 segments | [1] contains 10 segments)
+d
+(False, [Fatal] Glyph: "d" + "d"
+[Fatal] Contour: [0] + [0]
+[Fatal] Contour: [0] contains 10 segments | [0] contains 15 segments
+[Fatal] Contour: [1] + [1]
+[Fatal] Contour: [1] contains 15 segments | [1] contains 10 segments)
+d
+(False, [Fatal] Glyph: "d" + "d"
+[Fatal] Contour: [0] + [0]
+[Fatal] Contour: [0] contains 10 segments | [0] contains 15 segments
+[Fatal] Contour: [1] + [1]
+[Fatal] Contour: [1] contains 15 segments | [1] contains 10 segments)
+
+ ******************* 
+Non-compatible glyphs removed from Fraunces Light OpMax:
+ - L
+ - d
+
+ ******************* 
+Non-compatible glyphs removed from Fraunces Black OpMax:
+ - L
+ - d
+
+ ******************* 
+Non-compatible glyphs removed from Fraunces Light OpMin:
+ - L
+ - d
+
+ ******************* 
+Non-compatible glyphs removed from Fraunces Black OpMin:
+ - L
+ - d
+******************* 
+Guides removed from Fraunces Light OpMax:
+M; N; v; 
+ 
+******************* 
+Guides removed from Fraunces Black OpMax:
+M; 
+ 
+******************* 
+Guides removed from Fraunces Light OpMin:
+S; M; o; 
+ 
+******************* 
+Guides removed from Fraunces Black OpMin:
+M; 
+ 
