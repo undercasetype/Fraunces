@@ -131,14 +131,14 @@ def textGenerator2(textPath, opSz, pLength, weight, fontpick=None, track=None, w
             text.append(choice(textsample) + " ", font = choice(fnames[0:2]), fontSize = 60, fill = 0)
     return text
     
-for x in (9,144):
+for x in (9.1,144):
     for y in (100,1000):
         newPage("TabloidLandscape")
         textBox(textGenerator2(textHamburgerfontsiv, x, 200, y), (margin,margin, (width()-margin*2), (height()-margin*2)))
         font("Recur Mono", 9)
         text("OpSz: %s, Wght: %s" % (x,y), (50,50))
         
-for x in (9,144):
+for x in (9.1,144):
     for y in (100,1000):
         newPage("TabloidLandscape")
         textBox(textGenerator2(textHamburgerfontsiv, x, 200, y, whatCase = "upper"), (margin,margin, (width()-margin*2), (height()-margin*2)))
