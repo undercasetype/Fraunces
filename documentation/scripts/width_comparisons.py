@@ -1,37 +1,57 @@
-glyphdict = {}
+from vanilla.dialogs import *
 
-for font in AllFonts():
-    for glyph in font:
-        #print(glyph)
-        if glyph.markColor != None:
-            glyphWidth = glyph.width-(glyph.leftMargin+glyph.rightMargin)
-            glyphdict.setdefault(glyph.name, [])
-            glyphdict[glyph.name].append(glyphWidth)
+meanTotals = {}
 
-for i in glyphdict.copy():
-    if len(glyphdict[i]) < 2:
-        glyphdict.pop(i)
+# How do I specify the fontBase, and fontCompare?
 
-for entry in glyphdict:
-    percent = int((glyphdict[entry][1]/glyphdict[entry][0])*100)
-    glyphdict[entry] = percent
-
-meanTotal = 0
+def glyphReport(filterSensitivity):
     
-for key, value in glyphdict.items():
-    meanTotal += value
+    baseFontPath = getFile("Select font as base for comparison:", allowsMultipleSelection=False, fileTypes=["ufo"])[0]
+    compFontPath = getFile("Select font to be used as comparison:", allowsMultipleSelection=False, fileTypes=["ufo"])[0]
+    baseFont = OpenFont(baseFontPath, showInterface = False)
+    compFont = OpenFont(compFontPath, showInterface = False)
     
-meanTotal = int(meanTotal/len(glyphdict))
+    fonts = (baseFont, compFont)
+    glyphdict = {}
 
-outliers = []
-filterSensitivity = 15
+    for font in fonts:
+        for glyph in font:
+            #print(glyph)
+            if glyph.markColor != None:
+                glyphWidth = glyph.width-(glyph.leftMargin+glyph.rightMargin)
+                glyphdict.setdefault(glyph.name, [])
+                glyphdict[glyph.name].append(glyphWidth)
 
-for key, value in sorted(glyphdict.items(), key = lambda item: item[1]):
-    difference = value-meanTotal
-    if difference <= -filterSensitivity or difference >= filterSensitivity:
-        outliers.append("%s: %s%%" % (key, value-meanTotal))
+    for i in glyphdict.copy():
+        if len(glyphdict[i]) < 2:
+            glyphdict.pop(i)
 
-print("Glyph-to-glyph comparison between %s and %s with a filterSensitivity of +-%s:" % (
-    (AllFonts()[0].info.familyName + " " + AllFonts()[0].info.styleName), 
-    (AllFonts()[1].info.familyName + " " + AllFonts()[1].info.styleName), filterSensitivity))
-print(outliers)
+    for entry in glyphdict:
+        percent = int((glyphdict[entry][0]/glyphdict[entry][1])*100)
+        print(percent)
+        glyphdict[entry] = percent
+
+    meanTotal = 0
+    
+    for key, value in glyphdict.items():
+        meanTotal += value
+    
+    meanTotal = int(meanTotal/len(glyphdict))
+    meanTotals[str(fonts[0].info.familyName + " " + fonts[0].info.styleName)+" to "+str(fonts[1].info.familyName + " " + fonts[1].info.styleName)] = meanTotal
+
+    outliers = []
+
+    for key, value in sorted(glyphdict.items(), key = lambda item: item[1]):
+        difference = value-meanTotal
+        if difference <= -filterSensitivity or difference >= filterSensitivity:
+            outliers.append("%s: %s%%" % (key, value-meanTotal))
+
+    print("Glyph-to-glyph comparison between %s and %s with a filterSensitivity of +-%s:" % (
+        (fonts[0].info.familyName + " " + fonts[0].info.styleName), 
+        (fonts[1].info.familyName + " " + fonts[1].info.styleName), filterSensitivity))
+    print(outliers)
+    
+glyphReport(10)
+glyphReport(10)
+
+print(meanTotals)

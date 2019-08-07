@@ -41,3 +41,5 @@ A couple of things I'll have to do for this to work:
 What I am shooting to get a rate for:
 
 	• The rate of change on a given axis between the Max & Min should be roughly the same from Roman to Italic. If it isn't, what is a percentage that would bring those in line with each other.
+
+So I've written the script as a function that allows you to specify a base master and a comparison master. By doing this, I can see that the Roman OpMin from Black to Light compresses 74%, and the Italic OpMin compresses 71%. Now that I have this information, I'm not sure what master should change. I could look at the rate of change between the Roman Black and Italic Black, and compare that against the Roman Light and Italic Light.
