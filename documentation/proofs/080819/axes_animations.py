@@ -37,6 +37,6 @@ def gifGenerator(axisMin, axisMax, fixAxis1, fixAxis2):
 
 ## OpSz Gifs
 #gifGenerator("opMin", "opMax", "wghtMin", "goofMin")
-gifGenerator("opMin", "opMax", "wghtMax", "goofMin")
+#gifGenerator("opMin", "opMax", "wghtMax", "goofMin")
 #gifGenerator("opMin", "opMax", "wghtMin", "goofMax")
-#gifGenerator("opMin", "opMax", "wghtMax", "goofMax")
+gifGenerator("opMin", "opMax", "wghtMax", "goofMax")
