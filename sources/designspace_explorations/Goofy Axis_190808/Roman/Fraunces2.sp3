@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<designspace format="2">
+    <!-- Superpolator Designspace Object -->
+    <!-- info -->
+    <version superpolator="2"/>
+    <!-- measurements -->
+    <!-- application data -->
+    <data name="horizontalPreviewAxis" value="optical"/>
+    <data name="lineInverted" value="False"/>
+    <data name="lineViewFilled" value="True"/>
+    <data name="lineStacked" value="lined"/>
+    <data name="generateFontsAtFolder" value="/Users/flaviazimbardi/Desktop/GitHub/Fraunces/sources/designspace_explorations/Goofy Axis_190808/Roman/instances"/>
+    <data name="previewtext" value="hello"/>
+    <data name="verticalPreviewAxis" value="weight"/>
+    <!-- don't generate these glyphs -->
+    <ignore glyphs=""/>
+    <!-- rules -->
+    <rule enabled="1" logic="all" resultfalse="n" resulttrue="n.alt">
+        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="m" resulttrue="m.alt">
+        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="h" resulttrue="h.alt">
+        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="s" resulttrue="s.alt">
+        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="ampersand" resulttrue="ampserand.alt">
+        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+    </rule>
+    <!-- axis definitions -->
+    <axis maximum="144.000000" minimum="9.000000" name="optical" shortname="opsz">
+        <color a="1.000" b="0.056" g="0.775" r="0.752"/>
+    </axis>
+    <axis maximum="1000.000000" minimum="100.000000" name="weight" shortname="wght">
+        <color a="1.000" b="0.764" g="0.000" r="0.989"/>
+    </axis>
+    <!-- master definitions -->
+    <master familyname="Fraunces" filename="Fraunces-BlackOpMaxGoofMin.ufo" sortorder="0" stylename="Black OpMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces" filename="Fraunces-BlackOpMinGoofMax.ufo" sortorder="1" stylename="Black OpMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces" filename="Fraunces-LightOpMaxGoofMin.ufo" sortorder="2" stylename="Light OpMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces" filename="Fraunces-LightOpMinGoofMax.ufo" sortorder="3" stylename="Light OpMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <!-- instance definitions -->
+    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMax.ufo" sortorder="4" stylename="Black OpMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMin.ufo" sortorder="5" stylename="Black OpMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMax.ufo" sortorder="6" stylename="Light OpMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMax.ufo" sortorder="8" stylename="Regular OpMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="380.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMin.ufo" sortorder="7" stylename="Regular OpMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="380.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMaxGoofMax.ufo" sortorder="9" stylename="Black OpMax GoofMax">
+        <location>
+            <dimension name="optical" xvalue="48.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMaxGoofMax.ufo" sortorder="10" stylename="Light OpMax GoofMax">
+        <location>
+            <dimension name="optical" xvalue="48.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMinGoofMin.ufo" sortorder="11" stylename="Light OpMin GoofMin">
+        <location>
+            <dimension name="optical" xvalue="24.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMinGoofMin.ufo" sortorder="12" stylename="Black OpMin GoofMin">
+        <location>
+            <dimension name="optical" xvalue="24.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+</designspace>
