@@ -4,4 +4,4 @@
 
 The following animated gifs will demonstrate how the Goofy axis behaves across change in OpSz and Wght. 
 
-![alt text](documentation/proofs/080819/OpSzChange_wghtMax_goofMax.gif "OpSz Change, Wght Max Goof Max")
+![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/OpSzChange_wghtMax_goofMax.gif "OpSz Change, Wght Max Goof Max")
