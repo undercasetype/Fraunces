@@ -27,16 +27,22 @@ def gifGenerator(axisMin, axisMax, fixAxis1, fixAxis2):
         font("Fraunces", 80*scaleup)
         text("HAMBURGEFONTSIV", (50*scaleup,175*scaleup))
         text("hamburgefontsiv", (50*scaleup,60*scaleup))
-    saveImage("%s_%s_%s_fixedSize.gif" % (name, fixAxis1, fixAxis2))
+    saveImage("%s_%s_%s.gif" % (name, fixAxis1, fixAxis2))
     
 ## Goofy Gifs    
 #gifGenerator("goofMin", "goofMax", "opMin", "wghtMin")
 #gifGenerator("goofMin", "goofMax", "opMax", "wghtMin")
 #gifGenerator("goofMin", "goofMax", "opMin", "wghtMax")
-gifGenerator("goofMin", "goofMax", "opMax", "wghtMax")
+#gifGenerator("goofMin", "goofMax", "opMax", "wghtMax")
 
 ## OpSz Gifs
 #gifGenerator("opMin", "opMax", "wghtMin", "goofMin")
 #gifGenerator("opMin", "opMax", "wghtMax", "goofMin")
 #gifGenerator("opMin", "opMax", "wghtMin", "goofMax")
 #gifGenerator("opMin", "opMax", "wghtMax", "goofMax")
+
+## Wght Gifs
+gifGenerator("wghtMin", "wghtMax", "opMin", "goofMin")
+#gifGenerator("wghtMin", "wghtMax", "opMax", "goofMin")
+#gifGenerator("wghtMin", "wghtMax", "opMin", "goofMax")
+#gifGenerator("wghtMin", "wghtMax", "opMax", "goofMax")

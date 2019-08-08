@@ -35,3 +35,9 @@ The changes in the Goofy Axis are much more noticeable in the OpSz max, since th
 ![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/GoofyChange_opMax_wghtMin_fixedSize.gif "Goofy Change, Op Max Wght Min")
 
 ![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/GoofyChange_opMax_wghtMax_fixedSize.gif "Goofy Change, OpMax Wght Max")
+
+## To-Do
+
+For the Goofy axis to work properly, we will need to figure out the true interpolations for the lowercase of the OpMax Goof Max in Light and Black. In the past, Flavia and I would have used UFOStretch, which unfortunately doesn't work with ufo3 files. Currently, we scale the lowercase to match the OpMax Goof Min heights, move the ascender/descenders, and compress the tracking.
+
+However, we will worry about this later, since at this stage, we've built this purely as proof of concept.
