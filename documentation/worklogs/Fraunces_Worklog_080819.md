@@ -22,9 +22,13 @@ The changes in the Goofy Axis are much more noticeable in the OpSz max, since th
 
 ![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/goofyDeltas.png "Goofy Deltas")
 
+![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/goofyDeltas_italic.png "Italic Goofy Deltas")
+
 Below is an example of changes across the Goofy Axis for a Min Weight, Mid Weight, and Max Weight.
 
 ![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/goofyChange.gif "Changes across Goofy Axis")
+
+![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/goofyChange_italic.gif "Changes across Italic Goofy Axis")
 
 ### OpSz Min Rules/Substitutions
 
@@ -36,7 +40,7 @@ Roman: h, n, m, s
 
 Italic: b, d, h, l, k, v
 
-(paragraph setting side by side, maybe 24px, and then 18px?)
+![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/rules_comparisons_italic.png "Italic Subs")
 
 ## To-Do
 
