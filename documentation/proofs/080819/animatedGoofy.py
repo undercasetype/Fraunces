@@ -1,5 +1,5 @@
 def drawText(goofyval, opSz, Wght, horiz, vert):
-    font("Fraunces", 100)
+    font("Fraunces", 110)
     fontVariations(opsz = opSz, goof = goofyval, wght = Wght)
     text("hamburgers", (horiz, vert))
     font("Recur Mono", 18)
