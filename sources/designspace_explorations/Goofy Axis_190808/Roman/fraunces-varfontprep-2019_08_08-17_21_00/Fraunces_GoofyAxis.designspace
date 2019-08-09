@@ -1,21 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.0">
   <axes>
-    <axis tag="opsz" name="optical" minimum="9.0" maximum="144.0" default="9.0">
-	   <map input = "9.0" output = "9" />
-	   <map input = "18.0" output = "36" />
-	   <map input = "24.0" output = "72" />
-	   <map input = "36.0" output = "100" />
-	   <map input = "48.0" output = "130" />
-	   <map input = "72.0" output = "138" />
-	   <map input = "96.0" output = "142" />
-	   <map input = "122.0" output = "143" />
-	   <map input = "144.0" output = "144" />
-     <labelname xml:lang="en">Optical Size</labelname>
+    <axis tag="opsz" name="optical" minimum="9" maximum="144" default="9">
+      <labelname xml:lang="en">Optical Size</labelname>
+      <map input="9" output="9"/>
+      <map input="18" output="36"/>
+      <map input="24" output="72"/>
+      <map input="36" output="100"/>
+      <map input="48" output="130"/>
+      <map input="72" output="138"/>
+      <map input="96" output="142"/>
+      <map input="122" output="143"/>
+      <map input="144" output="144"/>
     </axis>
     <axis tag="goof" name="goofy" minimum="1" maximum="100" default="1"/>
     <axis tag="wght" name="weight" minimum="100" maximum="1000" default="100"/>
   </axes>
+  <rules>
+    <rule name="wonk">
+      <conditionset>
+        <condition name="optical" minimum="9" maximum="18"/>
+        <condition name="goofy" minimum="1" maximum="100"/>
+        <condition name="weight" minimum="100" maximum="1000"/>
+      </conditionset>
+      <sub name="n" with="n.alt"/>
+      <sub name="h" with="h.alt"/>
+      <sub name="m" with="m.alt"/>
+      <sub name="s" with="s.alt"/>
+    </rule>
+  </rules>
   <sources>
     <source filename="Fraunces-BlackOpMaxGoofMax.ufo" name="master.Fraunces.Black OpMax GoofMax.0" familyname="Fraunces" stylename="Black OpMax GoofMax">
       <location>
@@ -67,6 +80,10 @@
       </location>
     </source>
     <source filename="Fraunces-LightOpMinGoofMin.ufo" name="master.Fraunces.Light OpMin GoofMin.7" familyname="Fraunces" stylename="Light OpMin GoofMin">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="optical" xvalue="9"/>
         <dimension name="goofy" xvalue="1"/>

@@ -1,348 +1,376 @@
-<?xml version='1.0' encoding='utf-8'?>
-<designspace format="3">
-    <axes>
-        <axis default="9" maximum="144" minimum="9" name="optical" tag="opsz" />
-        <axis default="1" maximum="100" minimum="1" name="goofy" tag="goof" />
-        <axis default="100" maximum="1000" minimum="100" name="weight" tag="wght" />
-    </axes>
-    <sources>
-        <source familyname="Fraunces" filename="Fraunces-BlackOpMaxGoofMax.ufo" name="master.Fraunces.Black OpMax GoofMax.0" stylename="Black OpMax GoofMax">
-            <location>
-                <dimension name="optical" xvalue="144" />
-                <dimension name="goofy" xvalue="100" />
-                <dimension name="weight" xvalue="1000" />
-            </location>
-        </source>
-        <source familyname="Fraunces" filename="Fraunces-BlackOpMaxGoofMin.ufo" name="master.Fraunces.Black OpMax.1" stylename="Black OpMax">
-            <location>
-                <dimension name="optical" xvalue="144" />
-                <dimension name="goofy" xvalue="1" />
-                <dimension name="weight" xvalue="1000" />
-            </location>
-        </source>
-        <source familyname="Fraunces" filename="Fraunces-BlackOpMinGoofMax.ufo" name="master.Fraunces.Black OpMin.2" stylename="Black OpMin">
-            <location>
-                <dimension name="optical" xvalue="9" />
-                <dimension name="goofy" xvalue="100" />
-                <dimension name="weight" xvalue="1000" />
-            </location>
-        </source>
-        <source familyname="Fraunces" filename="Fraunces-BlackOpMinGoofMin.ufo" name="master.Fraunces.Black OpMin GoofMin.3" stylename="Black OpMin GoofMin">
-            <location>
-                <dimension name="optical" xvalue="9" />
-                <dimension name="goofy" xvalue="1" />
-                <dimension name="weight" xvalue="1000" />
-            </location>
-        </source>
-        <source familyname="Fraunces" filename="Fraunces-LightOpMaxGoofMax.ufo" name="master.Fraunces.Light OpMax GoofMax.4" stylename="Light OpMax GoofMax">
-            <location>
-                <dimension name="optical" xvalue="144" />
-                <dimension name="goofy" xvalue="100" />
-                <dimension name="weight" xvalue="100" />
-            </location>
-        </source>
-        <source familyname="Fraunces" filename="Fraunces-LightOpMaxGoofMin.ufo" name="master.Fraunces.Light OpMax.5" stylename="Light OpMax">
-            <location>
-                <dimension name="optical" xvalue="144" />
-                <dimension name="goofy" xvalue="1" />
-                <dimension name="weight" xvalue="100" />
-            </location>
-        </source>
-        <source familyname="Fraunces" filename="Fraunces-LightOpMinGoofMax.ufo" name="master.Fraunces.Light OpMin.6" stylename="Light OpMin">
-            <location>
-                <dimension name="optical" xvalue="9" />
-                <dimension name="goofy" xvalue="100" />
-                <dimension name="weight" xvalue="100" />
-            </location>
-        </source>
-        <source familyname="Fraunces" filename="Fraunces-LightOpMinGoofMin.ufo" name="master.Fraunces.Light OpMin GoofMin.7" stylename="Light OpMin GoofMin">
-            <location>
-                <dimension name="optical" xvalue="9" />
-                <dimension name="goofy" xvalue="1" />
-                <dimension name="weight" xvalue="100" />
-            </location>
-        </source>
-    </sources>
-    <instances>
-        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMinGoofMax.ufo" name="instance_Regular_OpMin_GoofMax" postscriptfontname="Fraunces-RegularOpMinGoofMax" stylename="Regular OpMin GoofMax">
-            <location>
-                <dimension name="optical" xvalue="9" />
-                <dimension name="goofy" xvalue="100" />
-                <dimension name="weight" xvalue="400" />
-            </location>
-            <glyphs>
-                <glyph name="h" unicode="0x68">
-                    <location>
-                        <dimension name="optical" xvalue="9" />
-                        <dimension name="goofy" xvalue="100" />
-                        <dimension name="weight" xvalue="400" />
-                    </location>
-                    <masters>
-                        <master glyphname="h.alt" source="master.Fraunces.Black OpMax GoofMax.0">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="h.alt" source="master.Fraunces.Black OpMax.1">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="h.alt" source="master.Fraunces.Black OpMin.2">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="h.alt" source="master.Fraunces.Black OpMin GoofMin.3">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="h.alt" source="master.Fraunces.Light OpMax GoofMax.4">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                        <master glyphname="h.alt" source="master.Fraunces.Light OpMax.5">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                        <master glyphname="h.alt" source="master.Fraunces.Light OpMin.6">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                        <master glyphname="h.alt" source="master.Fraunces.Light OpMin GoofMin.7">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                    </masters>
-                </glyph>
-                <glyph name="s" unicode="0x73">
-                    <location>
-                        <dimension name="optical" xvalue="9" />
-                        <dimension name="goofy" xvalue="100" />
-                        <dimension name="weight" xvalue="400" />
-                    </location>
-                    <masters>
-                        <master glyphname="s.alt" source="master.Fraunces.Black OpMax GoofMax.0">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="s.alt" source="master.Fraunces.Black OpMax.1">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="s.alt" source="master.Fraunces.Black OpMin.2">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="s.alt" source="master.Fraunces.Black OpMin GoofMin.3">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="s.alt" source="master.Fraunces.Light OpMax GoofMax.4">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                        <master glyphname="s.alt" source="master.Fraunces.Light OpMax.5">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                        <master glyphname="s.alt" source="master.Fraunces.Light OpMin.6">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                        <master glyphname="s.alt" source="master.Fraunces.Light OpMin GoofMin.7">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                    </masters>
-                </glyph>
-                <glyph name="m" unicode="0x6d">
-                    <location>
-                        <dimension name="optical" xvalue="9" />
-                        <dimension name="goofy" xvalue="100" />
-                        <dimension name="weight" xvalue="400" />
-                    </location>
-                    <masters>
-                        <master glyphname="m.alt" source="master.Fraunces.Black OpMax GoofMax.0">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="m.alt" source="master.Fraunces.Black OpMax.1">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="m.alt" source="master.Fraunces.Black OpMin.2">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="m.alt" source="master.Fraunces.Black OpMin GoofMin.3">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="m.alt" source="master.Fraunces.Light OpMax GoofMax.4">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                        <master glyphname="m.alt" source="master.Fraunces.Light OpMax.5">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                        <master glyphname="m.alt" source="master.Fraunces.Light OpMin.6">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                        <master glyphname="m.alt" source="master.Fraunces.Light OpMin GoofMin.7">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                    </masters>
-                </glyph>
-                <glyph name="n" unicode="0x6e">
-                    <location>
-                        <dimension name="optical" xvalue="9" />
-                        <dimension name="goofy" xvalue="100" />
-                        <dimension name="weight" xvalue="400" />
-                    </location>
-                    <masters>
-                        <master glyphname="n.alt" source="master.Fraunces.Black OpMax GoofMax.0">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="n.alt" source="master.Fraunces.Black OpMax.1">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="n.alt" source="master.Fraunces.Black OpMin.2">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="n.alt" source="master.Fraunces.Black OpMin GoofMin.3">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="1000" />
-                            </location>
-                        </master>
-                        <master glyphname="n.alt" source="master.Fraunces.Light OpMax GoofMax.4">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                        <master glyphname="n.alt" source="master.Fraunces.Light OpMax.5">
-                            <location>
-                                <dimension name="optical" xvalue="144" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                        <master glyphname="n.alt" source="master.Fraunces.Light OpMin.6">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="100" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                        <master glyphname="n.alt" source="master.Fraunces.Light OpMin GoofMin.7">
-                            <location>
-                                <dimension name="optical" xvalue="9" />
-                                <dimension name="goofy" xvalue="1" />
-                                <dimension name="weight" xvalue="100" />
-                            </location>
-                        </master>
-                    </masters>
-                </glyph>
-            </glyphs>
-            <kerning />
-            <info />
-        </instance>
-        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMaxGoofMax.ufo" name="instance_Regular_OpMax_GoofMax" postscriptfontname="Fraunces-RegularOpMaxGoofMax" stylename="Regular OpMax GoofMax">
-            <location>
-                <dimension name="optical" xvalue="144" />
-                <dimension name="goofy" xvalue="100" />
-                <dimension name="weight" xvalue="400" />
-            </location>
-            <kerning />
-            <info />
-        </instance>
-    </instances>
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="opsz" name="optical" minimum="9" maximum="144" default="9">
+      <labelname xml:lang="en">Optical Size</labelname>
+      <map input="9" output="9"/>
+      <map input="18" output="36"/>
+      <map input="24" output="72"/>
+      <map input="36" output="100"/>
+      <map input="48" output="130"/>
+      <map input="72" output="138"/>
+      <map input="96" output="142"/>
+      <map input="122" output="143"/>
+      <map input="144" output="144"/>
+    </axis>
+    <axis tag="goof" name="goofy" minimum="1" maximum="100" default="1"/>
+    <axis tag="wght" name="weight" minimum="100" maximum="1000" default="100"/>
+  </axes>
+  <rules>
+    <rule name="wonk">
+      <conditionset>
+        <condition name="optical" minimum="9" maximum="18"/>
+        <condition name="goofy" minimum="1" maximum="100"/>
+        <condition name="weight" minimum="100" maximum="1000"/>
+      </conditionset>
+      <sub name="n" with="n.alt"/>
+      <sub name="h" with="h.alt"/>
+      <sub name="m" with="m.alt"/>
+      <sub name="s" with="s.alt"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="Fraunces-BlackOpMaxGoofMax.ufo" name="master.Fraunces.Black OpMax GoofMax.0" familyname="Fraunces" stylename="Black OpMax GoofMax">
+      <location>
+        <dimension name="optical" xvalue="144"/>
+        <dimension name="goofy" xvalue="100"/>
+        <dimension name="weight" xvalue="1000"/>
+      </location>
+    </source>
+    <source filename="Fraunces-BlackOpMaxGoofMin.ufo" name="master.Fraunces.Black OpMax.1" familyname="Fraunces" stylename="Black OpMax">
+      <location>
+        <dimension name="optical" xvalue="144"/>
+        <dimension name="goofy" xvalue="1"/>
+        <dimension name="weight" xvalue="1000"/>
+      </location>
+    </source>
+    <source filename="Fraunces-BlackOpMinGoofMax.ufo" name="master.Fraunces.Black OpMin.2" familyname="Fraunces" stylename="Black OpMin">
+      <location>
+        <dimension name="optical" xvalue="9"/>
+        <dimension name="goofy" xvalue="100"/>
+        <dimension name="weight" xvalue="1000"/>
+      </location>
+    </source>
+    <source filename="Fraunces-BlackOpMinGoofMin.ufo" name="master.Fraunces.Black OpMin GoofMin.3" familyname="Fraunces" stylename="Black OpMin GoofMin">
+      <location>
+        <dimension name="optical" xvalue="9"/>
+        <dimension name="goofy" xvalue="1"/>
+        <dimension name="weight" xvalue="1000"/>
+      </location>
+    </source>
+    <source filename="Fraunces-LightOpMaxGoofMax.ufo" name="master.Fraunces.Light OpMax GoofMax.4" familyname="Fraunces" stylename="Light OpMax GoofMax">
+      <location>
+        <dimension name="optical" xvalue="144"/>
+        <dimension name="goofy" xvalue="100"/>
+        <dimension name="weight" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Fraunces-LightOpMaxGoofMin.ufo" name="master.Fraunces.Light OpMax.5" familyname="Fraunces" stylename="Light OpMax">
+      <location>
+        <dimension name="optical" xvalue="144"/>
+        <dimension name="goofy" xvalue="1"/>
+        <dimension name="weight" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Fraunces-LightOpMinGoofMax.ufo" name="master.Fraunces.Light OpMin.6" familyname="Fraunces" stylename="Light OpMin">
+      <location>
+        <dimension name="optical" xvalue="9"/>
+        <dimension name="goofy" xvalue="100"/>
+        <dimension name="weight" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Fraunces-LightOpMinGoofMin.ufo" name="master.Fraunces.Light OpMin GoofMin.7" familyname="Fraunces" stylename="Light OpMin GoofMin">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="optical" xvalue="9"/>
+        <dimension name="goofy" xvalue="1"/>
+        <dimension name="weight" xvalue="100"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="instance_Regular_OpMin_GoofMax" familyname="Fraunces" stylename="Regular OpMin GoofMax" filename="instances/Fraunces-RegularOpMinGoofMax.ufo" postscriptfontname="Fraunces-RegularOpMinGoofMax">
+      <location>
+        <dimension name="optical" xvalue="9"/>
+        <dimension name="goofy" xvalue="100"/>
+        <dimension name="weight" xvalue="400"/>
+      </location>
+      <glyphs>
+        <glyph unicode="0x68" name="h">
+          <location>
+            <dimension name="optical" xvalue="9"/>
+            <dimension name="goofy" xvalue="100"/>
+            <dimension name="weight" xvalue="400"/>
+          </location>
+          <masters>
+            <master glyphname="h.alt" source="master.Fraunces.Black OpMax GoofMax.0">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="h.alt" source="master.Fraunces.Black OpMax.1">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="h.alt" source="master.Fraunces.Black OpMin.2">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="h.alt" source="master.Fraunces.Black OpMin GoofMin.3">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="h.alt" source="master.Fraunces.Light OpMax GoofMax.4">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="h.alt" source="master.Fraunces.Light OpMax.5">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="h.alt" source="master.Fraunces.Light OpMin.6">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="h.alt" source="master.Fraunces.Light OpMin GoofMin.7">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+          </masters>
+        </glyph>
+        <glyph unicode="0x6d" name="m">
+          <location>
+            <dimension name="optical" xvalue="9"/>
+            <dimension name="goofy" xvalue="100"/>
+            <dimension name="weight" xvalue="400"/>
+          </location>
+          <masters>
+            <master glyphname="m.alt" source="master.Fraunces.Black OpMax GoofMax.0">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="m.alt" source="master.Fraunces.Black OpMax.1">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="m.alt" source="master.Fraunces.Black OpMin.2">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="m.alt" source="master.Fraunces.Black OpMin GoofMin.3">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="m.alt" source="master.Fraunces.Light OpMax GoofMax.4">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="m.alt" source="master.Fraunces.Light OpMax.5">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="m.alt" source="master.Fraunces.Light OpMin.6">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="m.alt" source="master.Fraunces.Light OpMin GoofMin.7">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+          </masters>
+        </glyph>
+        <glyph unicode="0x6e" name="n">
+          <location>
+            <dimension name="optical" xvalue="9"/>
+            <dimension name="goofy" xvalue="100"/>
+            <dimension name="weight" xvalue="400"/>
+          </location>
+          <masters>
+            <master glyphname="n.alt" source="master.Fraunces.Black OpMax GoofMax.0">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="n.alt" source="master.Fraunces.Black OpMax.1">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="n.alt" source="master.Fraunces.Black OpMin.2">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="n.alt" source="master.Fraunces.Black OpMin GoofMin.3">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="n.alt" source="master.Fraunces.Light OpMax GoofMax.4">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="n.alt" source="master.Fraunces.Light OpMax.5">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="n.alt" source="master.Fraunces.Light OpMin.6">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="n.alt" source="master.Fraunces.Light OpMin GoofMin.7">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+          </masters>
+        </glyph>
+        <glyph unicode="0x73" name="s">
+          <location>
+            <dimension name="optical" xvalue="9"/>
+            <dimension name="goofy" xvalue="100"/>
+            <dimension name="weight" xvalue="400"/>
+          </location>
+          <masters>
+            <master glyphname="s.alt" source="master.Fraunces.Black OpMax GoofMax.0">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="s.alt" source="master.Fraunces.Black OpMax.1">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="s.alt" source="master.Fraunces.Black OpMin.2">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="s.alt" source="master.Fraunces.Black OpMin GoofMin.3">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="1000"/>
+              </location>
+            </master>
+            <master glyphname="s.alt" source="master.Fraunces.Light OpMax GoofMax.4">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="s.alt" source="master.Fraunces.Light OpMax.5">
+              <location>
+                <dimension name="optical" xvalue="144"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="s.alt" source="master.Fraunces.Light OpMin.6">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="100"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+            <master glyphname="s.alt" source="master.Fraunces.Light OpMin GoofMin.7">
+              <location>
+                <dimension name="optical" xvalue="9"/>
+                <dimension name="goofy" xvalue="1"/>
+                <dimension name="weight" xvalue="100"/>
+              </location>
+            </master>
+          </masters>
+        </glyph>
+      </glyphs>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="instance_Regular_OpMax_GoofMax" familyname="Fraunces" stylename="Regular OpMax GoofMax" filename="instances/Fraunces-RegularOpMaxGoofMax.ufo" postscriptfontname="Fraunces-RegularOpMaxGoofMax">
+      <location>
+        <dimension name="optical" xvalue="144"/>
+        <dimension name="goofy" xvalue="100"/>
+        <dimension name="weight" xvalue="400"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
 </designspace>
