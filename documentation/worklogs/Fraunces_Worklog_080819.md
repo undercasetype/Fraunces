@@ -48,5 +48,5 @@ For the Goofy axis to work properly, we will need to figure out the true interpo
 
 However, we will worry about this later, since at this stage, we've built this purely as proof of concept.
 
-– Does it make sense to call it the "Goofy" axis? Would "Contrast" be more succinct?
-_ How can we toggle substitutions of "wonk" without the Goofy axis?
+	– Does it make sense to call it the "Goofy" axis? Would "Contrast" be more succinct?
+	- How can we toggle substitutions of "wonk" without the Goofy axis?
