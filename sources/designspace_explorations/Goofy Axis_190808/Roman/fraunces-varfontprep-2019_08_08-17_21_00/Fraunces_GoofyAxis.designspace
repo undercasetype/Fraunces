@@ -23,12 +23,13 @@
         <condition name="goofy" minimum="1" maximum="100"/>
         <condition name="weight" minimum="100" maximum="1000"/>
       </conditionset>
-      <sub name="n" with="n.alt"/>
       <sub name="h" with="h.alt"/>
       <sub name="m" with="m.alt"/>
+      <sub name="n" with="n.alt"/>
       <sub name="s" with="s.alt"/>
     </rule>
   </rules>
+
   <sources>
     <source filename="Fraunces-BlackOpMaxGoofMax.ufo" name="master.Fraunces.Black OpMax GoofMax.0" familyname="Fraunces" stylename="Black OpMax GoofMax">
       <location>
