@@ -30,7 +30,7 @@ Currently, a rule is set up so that below 18px, the following glyphs substitute 
 
 Roman: h, n, m, s
 
-(paragraph setting side by side, maybe 24px, and then 18px?)
+![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/rules_comparisons.png "Roman Subs")
 
 Italic: b, d, h, l, k, v
 
