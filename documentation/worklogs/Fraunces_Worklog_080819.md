@@ -18,7 +18,7 @@ The Goofy Max decreases the contrast, and slight change in width that we see in 
 
 The changes in the Goofy Axis are much more noticeable in the OpSz max, since this axis is intended to give the user access to the "juicier" side of the typeface, while still retaining certain OpSz considerations.
 
-(Fixed State images showing changes across Goofy)
+![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/goofyDeltas.png "Goofy Deltas")
 
 Below is an example of changes across the Goofy Axis for a Min Weight, Mid Weight, and Max Weight.
 
