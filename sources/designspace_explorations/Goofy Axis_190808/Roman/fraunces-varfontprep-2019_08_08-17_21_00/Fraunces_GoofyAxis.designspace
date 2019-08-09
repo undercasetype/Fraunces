@@ -1,10 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.0">
   <axes>
-    <axis tag="opsz" name="optical" minimum="9" maximum="144" default="9"/>
+    <axis tag="opsz" name="optical" minimum="9" maximum="144" default="9">
+      <labelname xml:lang="en">Optical Size</labelname>
+      <map input="9" output="9"/>
+      <map input="18" output="24"/>
+      <map input="24" output="48"/>
+      <map input="36" output="72"/>
+      <map input="48" output="100"/>
+      <map input="72" output="130"/>
+      <map input="96" output="138"/>
+      <map input="122" output="142"/>
+      <map input="144" output="144"/>
+    </axis>
     <axis tag="goof" name="goofy" minimum="1" maximum="100" default="1"/>
     <axis tag="wght" name="weight" minimum="100" maximum="1000" default="100"/>
   </axes>
+  <rules>
+    <rule name="wonk">
+      <conditionset>
+        <condition name="optical" minimum="9" maximum="18"/>
+        <condition name="goofy" minimum="1" maximum="100"/>
+        <condition name="weight" minimum="100" maximum="1000"/>
+      </conditionset>
+      <sub name="h" with="h.alt"/>
+      <sub name="m" with="m.alt"/>
+      <sub name="n" with="n.alt"/>
+      <sub name="s" with="s.alt"/>
+    </rule>
+  </rules>
+
   <sources>
     <source filename="Fraunces-BlackOpMaxGoofMax.ufo" name="master.Fraunces.Black OpMax GoofMax.0" familyname="Fraunces" stylename="Black OpMax GoofMax">
       <location>
