@@ -1,7 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.0">
   <axes>
-    <axis tag="opsz" name="optical" minimum="9" maximum="144" default="9"/>
+    <axis tag="opsz" name="optical" minimum="9.0" maximum="144.0" default="9.0">
+	   <map input = "9.0" output = "9" />
+	   <map input = "18.0" output = "36" />
+	   <map input = "24.0" output = "72" />
+	   <map input = "36.0" output = "100" />
+	   <map input = "48.0" output = "130" />
+	   <map input = "72.0" output = "138" />
+	   <map input = "96.0" output = "142" />
+	   <map input = "122.0" output = "143" />
+	   <map input = "144.0" output = "144" />
+     <labelname xml:lang="en">Optical Size</labelname>
+    </axis>
     <axis tag="goof" name="goofy" minimum="1" maximum="100" default="1"/>
     <axis tag="wght" name="weight" minimum="100" maximum="1000" default="100"/>
   </axes>

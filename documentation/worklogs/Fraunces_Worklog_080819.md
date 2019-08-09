@@ -2,39 +2,37 @@
 
 ## Demonstration of Goofy Axis
 
-The following animated gifs will demonstrate how the Goofy axis behaves across change in OpSz and Wght. 
+The following animated gifs and images will demonstrate how the Goofy axis behaves across change in OpSz and Wght. 
 
-### Change in OpSz and Font Size, fixed Goofy Min
+### Non-Linear OpSz Interpolation
 
 The Goof Min is essentially the unchanged Optical Max masters that we see currently in the design space. I've incorporated [non-linear axis mapping](https://docs.microsoft.com/en-us/typography/opentype/spec/avar) for OpSz in the .designspace file, so that the delicate features are retained for a larger size range.
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/OpSzChange_wghtMax_goofMin.gif "OpSz Change, Wght Max Goof Min")
+(Side By Side gif's to show non-linear and linear rates of change)
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/OpSzChange_wghtMin_goofMin.gif "OpSz Change, Wght Min Goof Min")
-
-### Change in OpSz and Font Size, fixed Goofy Max
+### Goofy Axis Deltas
 
 The Goofy Max decreases the contrast, and slight change in width that we see in the Optical Sizing, however retains the lower x-height, tighter spacing, and long ascenders/descenders.
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/OpSzChange_wghtMax_goofMax.gif "OpSz Change, Wght Max Goof Max")
+The changes in the Goofy Axis are much more noticeable in the OpSz max, since this axis is intended to give the user access to the "juicier" side of the typeface, while still retaining certain OpSz considerations.
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/OpSzChange_wghtMin_goofMax.gif "OpSz Change, Wght Min Goof Max")
+(Fixed State images showing changes across Goofy)
 
-### Change In Goofy Axis, fixed OpSz Min
+Below is an example of changes across the Goofy Axis for a Min Weight, Mid Weight, and Max Weight.
 
-In the OpMin, the changes across the Goofy Axis are much less noticeable, since the Optical Size considerations at 9px are far more demanding.
+(Animated gif of single word interpolation)
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/GoofyChange_opMin_wghtMin_fixedSize.gif "Goofy Change, Op Min Wght Min")
+### OpSz Min Rules/Substitutions
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/GoofyChange_opMin_wghtMax_fixedSize.gif "Goofy Change, Op Min Wght Max")
+Currently, a rule is set up so that below 18px, the following glyphs substitute for a more normalized character:
 
-### Change in Goofy Axis, fixed OpSz Max
+Roman: h, n, m, s
 
-The changes in the Goofy Axis are much more noticeable in the OpSz max, since this axis is intended to give the user access to the "juicier" side of the typeface, while still retaining certaing OpSz considerations.
+(paragraph setting side by side, maybe 24px, and then 18px?)
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/GoofyChange_opMax_wghtMin_fixedSize.gif "Goofy Change, Op Max Wght Min")
+Italic: b, d, h, l, k, v
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/GoofyChange_opMax_wghtMax_fixedSize.gif "Goofy Change, OpMax Wght Max")
+(paragraph setting side by side, maybe 24px, and then 18px?)
 
 ## To-Do
 
