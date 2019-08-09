@@ -10,7 +10,7 @@ The Goof Min is essentially the unchanged Optical Max masters that we see curren
 
 ![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/nonlinear.gif "Non Linear") ![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/linear.gif "Linear")
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/nonlinear_talic.gif "Non Linear Italic") ![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/linear_italic.gif "Linear Italic")
+![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/nonlinear_italic.gif "Non Linear Italic") ![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/linear_italic.gif "Linear Italic")
 
 This will allow for a more harmonized appearance of text at various OpSz's.
 
