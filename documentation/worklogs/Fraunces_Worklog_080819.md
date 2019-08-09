@@ -32,7 +32,7 @@ This will allow for a more harmonized appearance of text at various OpSz's.
 
 ### OpSz Min Rules/Substitutions
 
-Currently, a rule is set up so that below 18px, the following glyphs substitute for a more normalized character:
+Currently, a rule is set up so that below 18px, the following glyphs substitute for a more normalized character. I've made a design decision to seperate these rules from the Goofy Axis, mainly because I don't want these subsitutions be activated at larger sizes, only to help deal with smaller optical sizes.
 
 Roman: h, n, m, s
 
@@ -47,3 +47,6 @@ Italic: b, d, h, l, k, v
 For the Goofy axis to work properly, we will need to figure out the true interpolations for the lowercase of the OpMax Goof Max in Light and Black. In the past, Flavia and I would have used UFOStretch, which unfortunately doesn't work with ufo3 files. Currently, we scale the lowercase to match the OpMax Goof Min heights, move the ascender/descenders, and compress the tracking.
 
 However, we will worry about this later, since at this stage, we've built this purely as proof of concept.
+
+– Does it make sense to call it the "Goofy" axis? Would "Contrast" be more succinct?
+_ How can we toggle substitutions of "wonk" without the Goofy axis?
