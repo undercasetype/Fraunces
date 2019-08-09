@@ -2,7 +2,7 @@
 
 ## Demonstration of Goofy Axis
 
-The following animated gifs and images will demonstrate how the Goofy axis behaves across change in OpSz and Wght. 
+The following animated gifs and images will demonstrate how the Goofy axis behaves across change in OpSz and Wght. For more extensive proofs of the Goofy Axis, [see the PDF's here](https://github.com/sponcey/Fraunces/tree/master/documentation/proofs/080819/PDFs).
 
 ### Goofy Axis Deltas
 
