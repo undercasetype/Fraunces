@@ -22,7 +22,7 @@ The changes in the Goofy Axis are much more noticeable in the OpSz max, since th
 
 Below is an example of changes across the Goofy Axis for a Min Weight, Mid Weight, and Max Weight.
 
-(Animated gif of single word interpolation)
+![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/goofyChange.gif "Changes across Goofy Axis")
 
 ### OpSz Min Rules/Substitutions
 
