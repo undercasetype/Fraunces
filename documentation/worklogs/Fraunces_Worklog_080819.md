@@ -8,7 +8,7 @@ The following animated gifs and images will demonstrate how the Goofy axis behav
 
 The Goof Min is essentially the unchanged Optical Max masters that we see currently in the design space. I've incorporated [non-linear axis mapping](https://docs.microsoft.com/en-us/typography/opentype/spec/avar) for OpSz in the .designspace file, so that the delicate features are retained for a larger size range.
 
-(Side By Side gif's to show non-linear and linear rates of change)
+![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/nonlinear.gif "Non Linear") ![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/proofs/080819/linear.gif "Linear")
 
 ### Goofy Axis Deltas
 
