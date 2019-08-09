@@ -4,13 +4,13 @@
     <axis tag="opsz" name="optical" minimum="9" maximum="144" default="9">
       <labelname xml:lang="en">Optical Size</labelname>
       <map input="9" output="9"/>
-      <map input="18" output="24"/>
-      <map input="24" output="48"/>
-      <map input="36" output="72"/>
-      <map input="48" output="100"/>
-      <map input="72" output="130"/>
-      <map input="96" output="138"/>
-      <map input="122" output="142"/>
+      <map input="18" output="36"/>
+      <map input="24" output="72"/>
+      <map input="36" output="100"/>
+      <map input="48" output="130"/>
+      <map input="72" output="138"/>
+      <map input="96" output="142"/>
+      <map input="122" output="143"/>
       <map input="144" output="144"/>
     </axis>
     <axis tag="goof" name="goofy" minimum="1" maximum="100" default="1"/>
@@ -81,6 +81,10 @@
       </location>
     </source>
     <source filename="Fraunces-LightOpMinGoofMin.ufo" name="master.Fraunces.Light OpMin GoofMin.7" familyname="Fraunces" stylename="Light OpMin GoofMin">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="optical" xvalue="9"/>
         <dimension name="goofy" xvalue="1"/>

@@ -3,7 +3,7 @@ scaleup = 2
 axisValues = {"wghtMax": 1000, "wghtMin": 100, "goofMax": 100, "goofMin": 1, "opMax": 144, "opMin": 9}
 
 def gifGenerator(axisMin, axisMax, fixAxis1, fixAxis2):
-    rate = int((axisValues[axisMax]-axisValues[axisMin]) / 40)
+    rate = int((axisValues[axisMax]-axisValues[axisMin]) / 20)
     for x in range(axisValues[axisMax],axisValues[axisMin],-rate):
         newPage(1000*scaleup, 300*scaleup)
         fill(1,1,1)
@@ -24,7 +24,7 @@ def gifGenerator(axisMin, axisMax, fixAxis1, fixAxis2):
             font("Recur Mono", 10*scaleup)
             text("Optical Size: %s, Weight = %s, Goofy = %s" % (axisValues[fixAxis1], x, axisValues[fixAxis2]), (10*scaleup,10*scaleup))
             fontVariations(opsz = axisValues[fixAxis1]+0.1, wght = x, goof = axisValues[fixAxis2])
-        font("Fraunces", x)
+        font("Fraunces", 80*scaleup)
         text("HAMBURGEFONTSIV", (50*scaleup,175*scaleup))
         text("hamburgefontsiv", (50*scaleup,60*scaleup))
     saveImage("%s_%s_%s.gif" % (name, fixAxis1, fixAxis2))
@@ -37,6 +37,12 @@ def gifGenerator(axisMin, axisMax, fixAxis1, fixAxis2):
 
 ## OpSz Gifs
 #gifGenerator("opMin", "opMax", "wghtMin", "goofMin")
-gifGenerator("opMin", "opMax", "wghtMax", "goofMin")
+#gifGenerator("opMin", "opMax", "wghtMax", "goofMin")
 #gifGenerator("opMin", "opMax", "wghtMin", "goofMax")
 #gifGenerator("opMin", "opMax", "wghtMax", "goofMax")
+
+## Wght Gifs
+gifGenerator("wghtMin", "wghtMax", "opMin", "goofMin")
+#gifGenerator("wghtMin", "wghtMax", "opMax", "goofMin")
+#gifGenerator("wghtMin", "wghtMax", "opMin", "goofMax")
+#gifGenerator("wghtMin", "wghtMax", "opMax", "goofMax")
