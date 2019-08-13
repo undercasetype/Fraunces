@@ -16,7 +16,7 @@ The optical size axis ties together changes in contrast, x-height, spacing, and 
 
 Many of the peculiar, wonky characteristics that are suitable for display usage are less desirable for more continuous reading. At certain smaller optical sizes (18px and less), specific characters are substituted for a more normalized character. 
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/explanations/test.gif "Changes in Optical Size")
+![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/explanations/opsz_axis.gif "Changes in Optical Size")
 
 In the Roman, the characters that substitute are the h, n, m, and s. In the italic, the b, h, and v are swapped for a more simplified form.
 
@@ -24,9 +24,11 @@ In the Roman, the characters that substitute are the h, n, m, and s. In the ital
 
 The weight axis spans Light to Black. Nuff said.
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/explanations/test2.gif "Changes in Weight")
+![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/explanations/weight_axis.gif "Changes in Weight")
 
 ### Goofy Axis
 
 The Goofy axis gives access to the chocolate-y, chunky forms that are available towards the Optical Min, but still retaining other Optical Sizing considerations, such as change in x-height, spacing, width, and subbing of more unusual characters.
+
+![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/explanations/goof_axis.gif "Changes in Goofy")
 
