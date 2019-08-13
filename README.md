@@ -16,9 +16,9 @@ The optical size axis ties together changes in contrast, x-height, spacing, and 
 
 Many of the peculiar, wonky characteristics that are suitable for display usage are less desirable for more continuous reading. At certain smaller optical sizes (18px and less), specific characters are substituted for a more normalized character. 
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/explanations/opsz_axis.gif "Changes in Optical Size")
-
 In the Roman, the characters that substitute are the h, n, m, and s. In the italic, the b, h, and v are swapped for a more simplified form.
+
+![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/explanations/opsz_axis.gif "Changes in Optical Size")
 
 ### Weight Axis
 
