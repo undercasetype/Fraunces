@@ -28,7 +28,6 @@ def glyphReport(filterSensitivity):
 
     for entry in glyphdict:
         percent = int((glyphdict[entry][0]/glyphdict[entry][1])*100)
-        print(percent)
         glyphdict[entry] = percent
 
     meanTotal = 0
@@ -51,7 +50,9 @@ def glyphReport(filterSensitivity):
         (fonts[1].info.familyName + " " + fonts[1].info.styleName), filterSensitivity))
     print(outliers)
     
-glyphReport(10)
-glyphReport(10)
+glyphReport(5)
+glyphReport(5)
+glyphReport(5)
+glyphReport(5)
 
 print(meanTotals)
