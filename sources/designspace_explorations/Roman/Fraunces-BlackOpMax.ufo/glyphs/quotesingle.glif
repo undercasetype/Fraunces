@@ -1,8 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotesingle" format="2">
-  <advance width="164"/>
+  <advance width="328"/>
   <unicode hex="0027"/>
   <outline>
-    <component base="comma" xOffset="-45" yOffset="607"/>
+    <contour>
+      <point x="108.0" y="1228.0" type="curve" smooth="yes"/>
+      <point x="218.0" y="1196.0" type="line" smooth="yes"/>
+      <point x="270.0" y="1170.0"/>
+      <point x="286.0" y="1130.0"/>
+      <point x="286.0" y="1064.0" type="curve" smooth="yes"/>
+      <point x="286.0" y="950.0"/>
+      <point x="138.0" y="854.0"/>
+      <point x="-4.0" y="850.0" type="curve" smooth="yes"/>
+      <point x="-50.0" y="850.0"/>
+      <point x="-68.0" y="824.0"/>
+      <point x="-68.0" y="796.0" type="curve" smooth="yes"/>
+      <point x="-68.0" y="764.0"/>
+      <point x="-52.0" y="744.0"/>
+      <point x="-12.0" y="744.0" type="curve" smooth="yes"/>
+      <point x="206.0" y="744.0"/>
+      <point x="452.0" y="908.0"/>
+      <point x="452.0" y="1212.0" type="curve" smooth="yes"/>
+      <point x="452.0" y="1476.0"/>
+      <point x="328.0" y="1616.0"/>
+      <point x="194.0" y="1616.0" type="curve" smooth="yes"/>
+      <point x="72.0" y="1616.0"/>
+      <point x="-18.0" y="1532.0"/>
+      <point x="-18.0" y="1422.0" type="curve" smooth="yes"/>
+      <point x="-18.0" y="1344.0"/>
+      <point x="16.0" y="1272.0"/>
+    </contour>
   </outline>
 </glyph>
