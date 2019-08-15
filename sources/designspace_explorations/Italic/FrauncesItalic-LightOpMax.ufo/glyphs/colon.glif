@@ -1,9 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="colon" format="2">
-  <advance width="223"/>
+  <advance width="446"/>
   <unicode hex="003A"/>
   <outline>
-    <component base="period" xOffset="3"/>
-    <component base="period" xOffset="66" yOffset="269"/>
+    <contour>
+      <point x="98.0" y="-8.0" type="curve" smooth="yes"/>
+      <point x="128.0" y="-8.0"/>
+      <point x="172.0" y="86.0"/>
+      <point x="172.0" y="138.0" type="curve" smooth="yes"/>
+      <point x="172.0" y="152.0"/>
+      <point x="168.0" y="166.0"/>
+      <point x="152.0" y="166.0" type="curve" smooth="yes"/>
+      <point x="120.0" y="166.0"/>
+      <point x="76.0" y="60.0"/>
+      <point x="76.0" y="20.0" type="curve" smooth="yes"/>
+      <point x="76.0" y="4.0"/>
+      <point x="80.0" y="-8.0"/>
+    </contour>
+    <contour>
+      <point x="224.0" y="530.0" type="curve" smooth="yes"/>
+      <point x="254.0" y="530.0"/>
+      <point x="298.0" y="624.0"/>
+      <point x="298.0" y="676.0" type="curve" smooth="yes"/>
+      <point x="298.0" y="690.0"/>
+      <point x="294.0" y="704.0"/>
+      <point x="278.0" y="704.0" type="curve" smooth="yes"/>
+      <point x="246.0" y="704.0"/>
+      <point x="202.0" y="598.0"/>
+      <point x="202.0" y="558.0" type="curve" smooth="yes"/>
+      <point x="202.0" y="542.0"/>
+      <point x="206.0" y="530.0"/>
+    </contour>
   </outline>
 </glyph>
