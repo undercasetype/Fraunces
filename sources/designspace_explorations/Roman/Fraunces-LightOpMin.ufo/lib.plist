@@ -45,9 +45,7 @@
           <string>h</string>
           <string>h.alt</string>
           <string>i</string>
-          <string>dotlessi</string>
           <string>j</string>
-          <string>jdotless</string>
           <string>k</string>
           <string>l</string>
           <string>m</string>
@@ -82,6 +80,9 @@
           <string>quotedblright</string>
           <string>quoteleft</string>
           <string>quoteright</string>
+          <string>quotesingle</string>
+          <string>quotedbl</string>
+          <string>hyphen</string>
           <string>zero</string>
           <string>one</string>
           <string>two</string>
@@ -117,7 +118,11 @@
     <integer>0</integer>
     <key>com.typemytype.robofont.guideline.magnetic.64KswESPAz</key>
     <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.magnetic.6lk564S3Yr</key>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.showMeasurements.64KswESPAz</key>
+    <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.6lk564S3Yr</key>
     <false/>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <integer>0</integer>
@@ -165,9 +170,7 @@
       <string>h</string>
       <string>h.alt</string>
       <string>i</string>
-      <string>dotlessi</string>
       <string>j</string>
-      <string>jdotless</string>
       <string>k</string>
       <string>l</string>
       <string>m</string>
@@ -202,6 +205,7 @@
       <string>quotedblright</string>
       <string>quoteleft</string>
       <string>quoteright</string>
+      <string>hyphen</string>
       <string>zero</string>
       <string>one</string>
       <string>two</string>
@@ -212,8 +216,6 @@
       <string>seven</string>
       <string>eight</string>
       <string>nine</string>
-      <string>hyphen</string>
-      <string>dotaccent</string>
     </array>
   </dict>
 </plist>
