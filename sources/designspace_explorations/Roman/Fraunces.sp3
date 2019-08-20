@@ -10,8 +10,8 @@
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/spencercharles/Documents/Git Repositories/Fraunces/sources/designspace_explorations/Roman/instances"/>
-    <data name="previewtext" value="hamburgefontsiv"/>
-    <data name="verticalPreviewAxis" value="wonk"/>
+    <data name="previewtext" value="d"/>
+    <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
     <!-- rules -->
@@ -19,17 +19,21 @@
         <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
         <condition axisname="wonk" operator="&gt;=" xvalue="0.500000"/>
     </rule>
-    <rule enabled="1" logic="all" resultfalse="m" resulttrue="m.alt">
+    <rule enabled="1" logic="any" resultfalse="m" resulttrue="m.alt">
         <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.500000"/>
     </rule>
-    <rule enabled="1" logic="all" resultfalse="h" resulttrue="h.alt">
+    <rule enabled="1" logic="any" resultfalse="h" resulttrue="h.alt">
         <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.500000"/>
     </rule>
-    <rule enabled="1" logic="all" resultfalse="s" resulttrue="s.alt">
+    <rule enabled="1" logic="any" resultfalse="s" resulttrue="s.alt">
         <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.500000"/>
     </rule>
-    <rule enabled="1" logic="all" resultfalse="ampersand" resulttrue="ampserand.alt">
+    <rule enabled="1" logic="any" resultfalse="ampersand" resulttrue="ampserand.alt">
         <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.500000"/>
     </rule>
     <!-- axis definitions -->
     <axis maximum="144.000000" minimum="9.000000" name="optical" shortname="opsz">

@@ -1,0 +1,92 @@
+15:09:34; 20 August, 2019
+
+*******************
+
+Var Prep Report
+********************************************  
+  
+Unique glyphs removed from Fraunces Light OpMax:
+eight; zero; dotlessi; nine; hyphen; three; one; six; two; five; four; dotaccent; jdotless; seven; 
+ 
+Unique glyphs removed from Fraunces Black OpMax:
+dotlessi; quotesingle; quotedbl; dotaccent; jdotless; 
+ 
+Unique glyphs removed from Fraunces Light OpMin:
+eight; zero; nine; hyphen; three; one; six; two; five; four; seven; 
+ 
+Unique glyphs removed from Fraunces Black OpMin:
+eight; zero; nine; hyphen; quotesingle; three; one; six; quotedbl; two; five; four; seven; 
+ 
+
+ ******************* 
+compatibleGlyphs are {'t', 'p', 'exclamdown', 'D', 'o', 'ellipsis', 'l', 'h', 'quotedblright', 'q', 'semicolon', 'R', 'g', 'question', 'c', 'comma', 'quotedblleft', 'v', 'F', 'r', 'w', 'j', 'quoteright', 'i', 'n', 'd', 'A', 'm', 'ampersand.alt', 'u', 'colon', 'N', 'T', 'f', 'W', 'period', 'I', 'J', 'H', 'P', 'exclam', 'L', 'X', 'U', 'n.alt', 's.alt', 'E', 'C', 'y', 'ampersand', 'V', 'questiondown', 'h.alt', 'quoteleft', 'space', 'Y', 'b', 'O', 'k', 'G', 'a', 's', 'K', 'x', 'z', 'Q', 'Z', 'nbspace', 'B', 'e', 'S', 'm.alt', 'M'}
+ ******************* 
+non-compatible glyphs: 
+quotedblright
+(False, [Fatal] Glyph: "quotedblright" + "quotedblright"
+[Fatal] Glyph: "quotedblright" contains 0 contours | "quotedblright" contains 2 contours)
+quotedblright
+(False, [Fatal] Glyph: "quotedblright" + "quotedblright"
+[Fatal] Glyph: "quotedblright" contains 0 contours | "quotedblright" contains 2 contours)
+quotedblleft
+(False, [Fatal] Glyph: "quotedblleft" + "quotedblleft"
+[Fatal] Glyph: "quotedblleft" contains 0 contours | "quotedblleft" contains 2 contours)
+quotedblleft
+(False, [Fatal] Glyph: "quotedblleft" + "quotedblleft"
+[Fatal] Glyph: "quotedblleft" contains 0 contours | "quotedblleft" contains 2 contours)
+quoteright
+(False, [Fatal] Glyph: "quoteright" + "quoteright"
+[Fatal] Glyph: "quoteright" contains 0 contours | "quoteright" contains 1 contours)
+quoteright
+(False, [Fatal] Glyph: "quoteright" + "quoteright"
+[Fatal] Glyph: "quoteright" contains 0 contours | "quoteright" contains 1 contours)
+quoteleft
+(False, [Fatal] Glyph: "quoteleft" + "quoteleft"
+[Fatal] Glyph: "quoteleft" contains 0 contours | "quoteleft" contains 1 contours)
+quoteleft
+(False, [Fatal] Glyph: "quoteleft" + "quoteleft"
+[Fatal] Glyph: "quoteleft" contains 0 contours | "quoteleft" contains 1 contours)
+
+ ******************* 
+Non-compatible glyphs removed from Fraunces Light OpMax:
+ - quotedblright
+ - quotedblleft
+ - quoteright
+ - quoteleft
+
+ ******************* 
+Non-compatible glyphs removed from Fraunces Black OpMax:
+ - quotedblright
+ - quotedblleft
+ - quoteright
+ - quoteleft
+
+ ******************* 
+Non-compatible glyphs removed from Fraunces Light OpMin:
+ - quotedblright
+ - quotedblleft
+ - quoteright
+ - quoteleft
+
+ ******************* 
+Non-compatible glyphs removed from Fraunces Black OpMin:
+ - quotedblright
+ - quotedblleft
+ - quoteright
+ - quoteleft
+******************* 
+Guides removed from Fraunces Light OpMax:
+v; N; M; 
+ 
+******************* 
+Guides removed from Fraunces Black OpMax:
+v; M; 
+ 
+******************* 
+Guides removed from Fraunces Light OpMin:
+j; S; o; M; 
+ 
+******************* 
+Guides removed from Fraunces Black OpMin:
+g; v; a; w; M; 
+ 
