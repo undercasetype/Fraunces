@@ -119,7 +119,28 @@ text("OpSz: %s, Wght: %s" % (9.1,100), (50,50))
 newPage("TabloidLandscape")
 textBox(textGenerator2(textHamburgerfontsiv, 144, 72, 400, 100), (margin,margin, (width()-margin*2), (height()-margin*2)))
 font("Recur Mono", 9)
-text("OpSz: %s, Wght: %s" % (9.1,100), (50,50))
+text("OpSz: %s, Wght: %s" % (144,100), (50,50))
+
+newPage("TabloidLandscape")
+textBox(textGenerator2(textHamburgerfontsiv, 9.1, 24, 400, 400), (margin,margin, (width()-margin*2), (height()-margin*2)))
+font("Recur Mono", 9)
+text("OpSz: %s, Wght: %s" % (9.1,400), (50,50))
+
+newPage("TabloidLandscape")
+textBox(textGenerator2(textHamburgerfontsiv, 144, 72, 400, 400), (margin,margin, (width()-margin*2), (height()-margin*2)))
+font("Recur Mono", 9)
+text("OpSz: %s, Wght: %s" % (144,400), (50,50))
+
+newPage("TabloidLandscape")
+textBox(textGenerator2(textHamburgerfontsiv, 9.1, 24, 400, 900), (margin,margin, (width()-margin*2), (height()-margin*2)))
+font("Recur Mono", 9)
+text("OpSz: %s, Wght: %s" % (9.1,900), (50,50))
+
+newPage("TabloidLandscape")
+textBox(textGenerator2(textHamburgerfontsiv, 144, 72, 400, 900), (margin,margin, (width()-margin*2), (height()-margin*2)))
+font("Recur Mono", 9)
+text("OpSz: %s, Wght: %s" % (144,900), (50,50))
+
 
             
 saveImage("PDFs/%s.pdf" % (newFileName))
