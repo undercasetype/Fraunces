@@ -5,12 +5,12 @@
     <version superpolator="2"/>
     <!-- measurements -->
     <!-- application data -->
-    <data name="horizontalPreviewAxis" value="optical"/>
+    <data name="horizontalPreviewAxis" value="weight"/>
     <data name="lineInverted" value="False"/>
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
-    <data name="generateFontsAtFolder" value="/Users/spencercharles/Documents/Git Repositories/Fraunces/sources/designspace_explorations/Italic/instances"/>
-    <data name="previewtext" value="in a million years."/>
+    <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Fraunces/sources/designspace_explorations/Italic/instances"/>
+    <data name="previewtext" value="Ebeneezer Scrooge "/>
     <data name="verticalPreviewAxis" value="wonk"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -164,6 +164,17 @@
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="weight" xvalue="380.000000"/>
             <dimension name="wonk" xvalue="0.000000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMinWonkMax.ufo" sortorder="13" stylename="Regular OpMin WonkMax">
+        <location>
+            <dimension name="optical" xvalue="18.100000"/>
+            <dimension name="weight" xvalue="380.000000"/>
+            <dimension name="wonk" xvalue="1.000000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>
