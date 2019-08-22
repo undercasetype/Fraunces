@@ -5,39 +5,36 @@
     <version superpolator="2"/>
     <!-- measurements -->
     <!-- application data -->
-    <data name="horizontalPreviewAxis" value="optical"/>
+    <data name="horizontalPreviewAxis" value="weight"/>
     <data name="lineInverted" value="False"/>
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/spencercharles/Documents/Git Repositories/Fraunces/sources/designspace_explorations/Italic/instances"/>
-    <data name="previewtext" value="symphony in chunky"/>
-    <data name="verticalPreviewAxis" value="weight"/>
+    <data name="previewtext" value="CHRISTMAS DAY"/>
+    <data name="verticalPreviewAxis" value="wonk"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
     <!-- rules -->
-    <rule enabled="1" logic="any" resultfalse="b" resulttrue="b.alt">
-        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
-        <condition axisname="TXqIoWpo6U" operator="&lt;=" xvalue="0.500000"/>
+    <rule enabled="1" logic="all" resultfalse="b" resulttrue="b.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
     </rule>
-    <rule enabled="1" logic="any" resultfalse="d" resulttrue="d.alt">
-        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
-        <condition axisname="TXqIoWpo6U" operator="&lt;=" xvalue="0.500000"/>
+    <rule enabled="1" logic="all" resultfalse="d" resulttrue="d.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
     </rule>
-    <rule enabled="1" logic="any" resultfalse="h" resulttrue="h.alt">
-        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
-        <condition axisname="TXqIoWpo6U" operator="&lt;=" xvalue="0.500000"/>
+    <rule enabled="1" logic="all" resultfalse="h" resulttrue="h.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
     </rule>
-    <rule enabled="1" logic="any" resultfalse="l" resulttrue="l.alt">
-        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
-        <condition axisname="TXqIoWpo6U" operator="&lt;=" xvalue="0.500000"/>
+    <rule enabled="1" logic="all" resultfalse="k" resulttrue="k.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
     </rule>
-    <rule enabled="1" logic="any" resultfalse="k" resulttrue="k.alt">
-        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
-        <condition axisname="TXqIoWpo6U" operator="&lt;=" xvalue="0.500000"/>
+    <rule enabled="1" logic="all" resultfalse="l" resulttrue="l.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
     </rule>
-    <rule enabled="1" logic="any" resultfalse="v" resulttrue="v.alt">
-        <condition axisname="optical" operator="&lt;=" xvalue="18.000000"/>
-        <condition axisname="TXqIoWpo6U" operator="&lt;=" xvalue="0.500000"/>
+    <rule enabled="1" logic="all" resultfalse="v" resulttrue="v.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="w" resulttrue="w.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
     </rule>
     <!-- axis definitions -->
     <axis maximum="144.000000" minimum="9.000000" name="optical" shortname="opsz">
@@ -46,11 +43,15 @@
     <axis maximum="900.000000" minimum="100.000000" name="weight" shortname="wght">
         <color a="1.000" b="0.764" g="0.000" r="0.989"/>
     </axis>
+    <axis maximum="1.000000" minimum="0.000000" name="wonk" shortname="WONK">
+        <color a="1.000" b="0.694" g="1.226" r="0.905"/>
+    </axis>
     <!-- master definitions -->
     <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMax.ufo" sortorder="0" stylename="Black OpMax">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="weight" xvalue="900.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
@@ -58,6 +59,7 @@
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="weight" xvalue="900.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
@@ -65,6 +67,7 @@
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
@@ -72,6 +75,7 @@
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
@@ -80,6 +84,7 @@
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="weight" xvalue="900.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>
@@ -90,6 +95,7 @@
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="weight" xvalue="900.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>
@@ -100,6 +106,7 @@
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>
@@ -110,6 +117,7 @@
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>
@@ -120,6 +128,7 @@
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
         </location>
         <provideFeatures state="1"/>
         <provideGroups state="1"/>
