@@ -1,35 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="colon" format="2">
-  <advance width="618"/>
+  <advance width="398"/>
   <unicode hex="003A"/>
   <outline>
-    <contour>
-      <point x="258.27737499999995" y="-33.586375" type="curve" smooth="yes"/>
-      <point x="303.52712499999996" y="-33.586375"/>
-      <point x="338.33462499999996" y="2.961499999999999"/>
-      <point x="338.33462499999996" y="48.21124999999999" type="curve" smooth="yes"/>
-      <point x="338.33462499999996" y="95.20137499999998"/>
-      <point x="303.52712499999996" y="130.008875"/>
-      <point x="258.27737499999995" y="130.008875" type="curve" smooth="yes"/>
-      <point x="213.02762499999997" y="130.008875"/>
-      <point x="176.47974999999997" y="95.20137499999998"/>
-      <point x="176.47974999999997" y="48.21124999999999" type="curve" smooth="yes"/>
-      <point x="176.47974999999997" y="2.961499999999999"/>
-      <point x="213.02762499999997" y="-33.586375"/>
-    </contour>
-    <contour>
-      <point x="258.27737499999995" y="602.413625" type="curve" smooth="yes"/>
-      <point x="303.52712499999996" y="602.413625"/>
-      <point x="338.33462499999996" y="638.9615"/>
-      <point x="338.33462499999996" y="684.21125" type="curve" smooth="yes"/>
-      <point x="338.33462499999996" y="731.201375"/>
-      <point x="303.52712499999996" y="766.008875"/>
-      <point x="258.27737499999995" y="766.008875" type="curve" smooth="yes"/>
-      <point x="213.02762499999997" y="766.008875"/>
-      <point x="176.47974999999997" y="731.201375"/>
-      <point x="176.47974999999997" y="684.21125" type="curve" smooth="yes"/>
-      <point x="176.47974999999997" y="638.9615"/>
-      <point x="213.02762499999997" y="602.413625"/>
-    </contour>
+    <component base="period"/>
+    <component base="period" xOffset="1" yOffset="652"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3249,0.7937,0.913,0.67</string>
+    </dict>
+  </lib>
 </glyph>

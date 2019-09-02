@@ -1,13 +1,39 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotesingle" format="2">
-  <advance width="387"/>
+  <advance width="356"/>
   <outline>
-    <component base="comma" xOffset="-15" yOffset="1290"/>
+    <contour>
+      <point x="159" y="1301" type="curve" smooth="yes"/>
+      <point x="181" y="1301" type="line" smooth="yes"/>
+      <point x="204" y="1301"/>
+      <point x="216" y="1306"/>
+      <point x="216" y="1271" type="curve" smooth="yes"/>
+      <point x="216.0" y="1207.944099378882"/>
+      <point x="165" y="1154"/>
+      <point x="94" y="1130" type="curve" smooth="yes"/>
+      <point x="74.20358824342222" y="1123.0712558851978"/>
+      <point x="66" y="1108"/>
+      <point x="72" y="1093" type="curve" smooth="yes"/>
+      <point x="79" y="1076"/>
+      <point x="92.96416003543166" y="1072.6847443586096"/>
+      <point x="117" y="1080" type="curve" smooth="yes"/>
+      <point x="216" y="1109"/>
+      <point x="286.0" y="1197.2681992337166"/>
+      <point x="286" y="1321" type="curve" smooth="yes"/>
+      <point x="286" y="1437"/>
+      <point x="233" y="1479"/>
+      <point x="170" y="1479" type="curve" smooth="yes"/>
+      <point x="113" y="1479"/>
+      <point x="71" y="1440"/>
+      <point x="71" y="1387" type="curve" smooth="yes"/>
+      <point x="71" y="1339"/>
+      <point x="105" y="1301"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.3249,0.7937,0.913,0.67</string>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>
