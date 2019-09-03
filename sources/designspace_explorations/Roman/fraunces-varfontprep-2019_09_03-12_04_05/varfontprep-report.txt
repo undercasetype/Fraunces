@@ -1,0 +1,112 @@
+12:04:02; 03 September, 2019
+
+*******************
+
+Var Prep Report
+********************************************  
+  
+Unique glyphs removed from Fraunces Light OpMax:
+dotaccent; six; five; three; one; eight; nine; seven; hyphen; dotlessi; zero; four; two; jdotless; 
+ 
+Unique glyphs removed from Fraunces Black OpMax:
+dotaccent; quotesingle; quotedbl; dotlessi; jdotless; 
+ 
+Unique glyphs removed from Fraunces Light OpMin:
+guillemetleft; bar; six; bracketright; five; three; emdash; guilsinglright; quotesingle; one; quotedbl; eight; nine; seven; braceright; hyphen; braceleft; backslash; guilsinglleft; zero; endash; slash; parenleft; four; underscore; parenright; guillemetright; bracketleft; two; 
+ 
+Unique glyphs removed from Fraunces Black OpMin:
+guillemetleft; bar; six; bracketright; five; three; emdash; guilsinglright; quotesingle; one; quotedbl; eight; nine; seven; braceright; hyphen; braceleft; backslash; guilsinglleft; zero; endash; slash; parenleft; four; underscore; parenright; guillemetright; bracketleft; two; 
+ 
+
+ ******************* 
+compatibleGlyphs are {'t', 'semicolon', 'Y', 'ampersand.alt', 'nbspace', 'quotedblleft', 'q', 'O', 'n.alt', 'b', 'quoteright', 'I', 'M', 'C', 'g', 'L', 'D', 'Z', 's.alt', 'h', 'j', 'J', 'z', 'l', 'e', 'X', 'n', 'exclam', 'question', 'F', 'd', 'a', 'U', 'u', 'quoteleft', 'h.alt', 'r', 'ampersand', 'questiondown', 'v', 'G', 'space', 'H', 'B', 'V', 'k', 'Q', 'x', 'w', 'N', 'colon', 'comma', 'm', 'y', 'ellipsis', 'm.alt', 'K', 's', 'o', 'exclamdown', 'E', 'T', 'i', 'c', 'W', 'quotedblright', 'period', 'P', 'f', 'A', 'R', 'S', 'p'}
+ ******************* 
+non-compatible glyphs: 
+quoteleft
+(False, [Fatal] Glyph: "quoteleft" + "quoteleft"
+[Fatal] Glyph: "quoteleft" contains 0 contours | "quoteleft" contains 1 contours)
+quoteleft
+(False, [Fatal] Glyph: "quoteleft" + "quoteleft"
+[Fatal] Glyph: "quoteleft" contains 0 components | "quoteleft" contains 1 components
+[Warning] Glyph: "quoteleft" contains component quotesingle not in "quoteleft")
+quoteleft
+(False, [Fatal] Glyph: "quoteleft" + "quoteleft"
+[Fatal] Glyph: "quoteleft" contains 0 components | "quoteleft" contains 1 components
+[Warning] Glyph: "quoteleft" contains component quotesingle not in "quoteleft")
+quotedblleft
+(False, [Fatal] Glyph: "quotedblleft" + "quotedblleft"
+[Fatal] Glyph: "quotedblleft" contains 0 contours | "quotedblleft" contains 2 contours)
+quotedblleft
+(False, [Fatal] Glyph: "quotedblleft" + "quotedblleft"
+[Fatal] Glyph: "quotedblleft" contains 0 components | "quotedblleft" contains 1 components
+[Warning] Glyph: "quotedblleft" contains component quotedbl not in "quotedblleft")
+quotedblleft
+(False, [Fatal] Glyph: "quotedblleft" + "quotedblleft"
+[Fatal] Glyph: "quotedblleft" contains 0 components | "quotedblleft" contains 1 components
+[Warning] Glyph: "quotedblleft" contains component quotedbl not in "quotedblleft")
+quoteright
+(False, [Fatal] Glyph: "quoteright" + "quoteright"
+[Fatal] Glyph: "quoteright" contains 0 contours | "quoteright" contains 1 contours)
+quoteright
+(False, [Fatal] Glyph: "quoteright" + "quoteright"
+[Fatal] Glyph: "quoteright" contains 0 components | "quoteright" contains 1 components
+[Warning] Glyph: "quoteright" contains component quotesingle not in "quoteright")
+quoteright
+(False, [Fatal] Glyph: "quoteright" + "quoteright"
+[Fatal] Glyph: "quoteright" contains 0 components | "quoteright" contains 1 components
+[Warning] Glyph: "quoteright" contains component quotesingle not in "quoteright")
+quotedblright
+(False, [Fatal] Glyph: "quotedblright" + "quotedblright"
+[Fatal] Glyph: "quotedblright" contains 0 contours | "quotedblright" contains 2 contours)
+quotedblright
+(False, [Fatal] Glyph: "quotedblright" + "quotedblright"
+[Fatal] Glyph: "quotedblright" contains 0 components | "quotedblright" contains 1 components
+[Warning] Glyph: "quotedblright" contains component quotedbl not in "quotedblright")
+quotedblright
+(False, [Fatal] Glyph: "quotedblright" + "quotedblright"
+[Fatal] Glyph: "quotedblright" contains 0 components | "quotedblright" contains 1 components
+[Warning] Glyph: "quotedblright" contains component quotedbl not in "quotedblright")
+
+ ******************* 
+Non-compatible glyphs removed from Fraunces Light OpMax:
+ - quoteleft
+ - quotedblleft
+ - quoteright
+ - quotedblright
+
+ ******************* 
+Non-compatible glyphs removed from Fraunces Black OpMax:
+ - quoteleft
+ - quotedblleft
+ - quoteright
+ - quotedblright
+
+ ******************* 
+Non-compatible glyphs removed from Fraunces Light OpMin:
+ - quoteleft
+ - quotedblleft
+ - quoteright
+ - quotedblright
+
+ ******************* 
+Non-compatible glyphs removed from Fraunces Black OpMin:
+ - quoteleft
+ - quotedblleft
+ - quoteright
+ - quotedblright
+******************* 
+Guides removed from Fraunces Light OpMax:
+M; v; N; 
+ 
+******************* 
+Guides removed from Fraunces Black OpMax:
+M; v; 
+ 
+******************* 
+Guides removed from Fraunces Light OpMin:
+j; K; o; M; S; 
+ 
+******************* 
+Guides removed from Fraunces Black OpMin:
+a; w; M; v; 
+ 
