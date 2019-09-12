@@ -1,21 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccent" format="2">
-  <advance width="474"/>
+  <advance width="552"/>
   <unicode hex="02D9"/>
   <outline>
     <contour>
-      <point x="286.0" y="994.0" type="curve" smooth="yes"/>
-      <point x="404.0" y="994.0"/>
-      <point x="500.0" y="1092.0"/>
-      <point x="500.0" y="1212.0" type="curve" smooth="yes"/>
-      <point x="500.0" y="1330.0"/>
-      <point x="404.0" y="1422.0"/>
-      <point x="286.0" y="1422.0" type="curve" smooth="yes"/>
-      <point x="170.0" y="1422.0"/>
-      <point x="76.0" y="1330.0"/>
-      <point x="76.0" y="1212.0" type="curve" smooth="yes"/>
-      <point x="76.0" y="1092.0"/>
-      <point x="170.0" y="994.0"/>
+      <point x="277" y="997" type="curve" smooth="yes"/>
+      <point x="400" y="997.0"/>
+      <point x="486.0" y="1085.0"/>
+      <point x="486" y="1197" type="curve" smooth="yes"/>
+      <point x="486.0" y="1309.0"/>
+      <point x="400" y="1397.0"/>
+      <point x="277" y="1397" type="curve" smooth="yes"/>
+      <point x="156" y="1397.0"/>
+      <point x="72.0" y="1309.0"/>
+      <point x="72" y="1197" type="curve" smooth="yes"/>
+      <point x="72.0" y="1085.0"/>
+      <point x="156" y="997.0"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
