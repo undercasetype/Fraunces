@@ -1,36 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="exclam" format="2">
-  <advance width="450"/>
+  <advance width="295"/>
   <unicode hex="0021"/>
   <outline>
     <contour>
-      <point x="240.0" y="1426.0" type="curve" smooth="yes"/>
-      <point x="218.66666666666666" y="1426.0"/>
-      <point x="208.0" y="1415.84375"/>
-      <point x="208.0" y="1401.0" type="curve" smooth="yes"/>
-      <point x="208.0" y="1384.8461538461538"/>
-      <point x="208.7620812172968" y="1379.996854708888"/>
-      <point x="209.0" y="1371.0" type="curve" smooth="yes"/>
-      <point x="236.0" y="350.0" type="line" smooth="yes"/>
-      <point x="236" y="348"/>
-      <point x="237.0" y="346.0"/>
-      <point x="239.0" y="346.0" type="curve" smooth="yes"/>
-      <point x="241" y="346.0"/>
-      <point x="242" y="348"/>
-      <point x="242.0" y="350.0" type="curve" smooth="yes"/>
-      <point x="269.0" y="1371.0" type="line" smooth="yes"/>
-      <point x="269" y="1383"/>
-      <point x="270.0" y="1390.6756756756756"/>
-      <point x="270.0" y="1399.0" type="curve" smooth="yes"/>
-      <point x="270.0" y="1412.5"/>
-      <point x="261.75" y="1426.0"/>
+      <point x="148" y="1426" type="curve" smooth="yes"/>
+      <point x="127" y="1426"/>
+      <point x="116" y="1416"/>
+      <point x="116" y="1401" type="curve" smooth="yes"/>
+      <point x="116" y="1385"/>
+      <point x="117" y="1380"/>
+      <point x="117" y="1371" type="curve" smooth="yes"/>
+      <point x="144" y="350" type="line" smooth="yes"/>
+      <point x="144" y="348"/>
+      <point x="145" y="346"/>
+      <point x="147" y="346" type="curve" smooth="yes"/>
+      <point x="149" y="346"/>
+      <point x="150" y="348"/>
+      <point x="150" y="350" type="curve" smooth="yes"/>
+      <point x="177" y="1371" type="line" smooth="yes"/>
+      <point x="177" y="1383"/>
+      <point x="178" y="1391"/>
+      <point x="178" y="1399" type="curve" smooth="yes"/>
+      <point x="178" y="1413"/>
+      <point x="170" y="1426"/>
     </contour>
-    <component base="period" xOffset="79" yOffset="11"/>
+    <component base="period" xOffset="50" yOffset="11"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0,0,1</string>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>
