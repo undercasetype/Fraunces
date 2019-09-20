@@ -5,12 +5,104 @@
     <key>com.defcon.sortDescriptor</key>
     <array>
       <dict>
-        <key>allowPseudoUnicode</key>
-        <integer>0</integer>
         <key>ascending</key>
-        <string>New Google</string>
+        <array>
+          <string>space</string>
+          <string>nbspace</string>
+          <string>A</string>
+          <string>B</string>
+          <string>C</string>
+          <string>D</string>
+          <string>E</string>
+          <string>F</string>
+          <string>G</string>
+          <string>H</string>
+          <string>I</string>
+          <string>J</string>
+          <string>K</string>
+          <string>L</string>
+          <string>M</string>
+          <string>N</string>
+          <string>O</string>
+          <string>P</string>
+          <string>Q</string>
+          <string>R</string>
+          <string>S</string>
+          <string>T</string>
+          <string>U</string>
+          <string>V</string>
+          <string>W</string>
+          <string>X</string>
+          <string>Y</string>
+          <string>Z</string>
+          <string>a</string>
+          <string>b</string>
+          <string>b.alt</string>
+          <string>c</string>
+          <string>d</string>
+          <string>d.alt</string>
+          <string>e</string>
+          <string>f</string>
+          <string>g</string>
+          <string>h</string>
+          <string>h.alt</string>
+          <string>i</string>
+          <string>j</string>
+          <string>k</string>
+          <string>k.alt</string>
+          <string>l</string>
+          <string>l.alt</string>
+          <string>m</string>
+          <string>n</string>
+          <string>o</string>
+          <string>p</string>
+          <string>q</string>
+          <string>r</string>
+          <string>s</string>
+          <string>t</string>
+          <string>u</string>
+          <string>v</string>
+          <string>v.alt</string>
+          <string>w</string>
+          <string>w.alt</string>
+          <string>x</string>
+          <string>y</string>
+          <string>z</string>
+          <string>ampersand</string>
+          <string>ampersand.alt</string>
+          <string>question</string>
+          <string>questiondown</string>
+          <string>exclam</string>
+          <string>exclamdown</string>
+          <string>period</string>
+          <string>comma</string>
+          <string>colon</string>
+          <string>semicolon</string>
+          <string>ellipsis</string>
+          <string>quotedblleft</string>
+          <string>quotedblright</string>
+          <string>quoteleft</string>
+          <string>quoteright</string>
+          <string>quotesingle</string>
+          <string>quotedbl</string>
+          <string>hyphen</string>
+          <string>endash</string>
+          <string>emdash</string>
+          <string>underscore</string>
+          <string>zero</string>
+          <string>one</string>
+          <string>two</string>
+          <string>three</string>
+          <string>four</string>
+          <string>five</string>
+          <string>six</string>
+          <string>seven</string>
+          <string>eight</string>
+          <string>nine</string>
+          <string>dotaccent</string>
+        </array>
         <key>type</key>
-        <string>characterSet</string>
+        <string>glyphList</string>
       </dict>
     </array>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
@@ -63,16 +155,21 @@
       <string>Z</string>
       <string>a</string>
       <string>b</string>
+      <string>b.alt</string>
       <string>c</string>
       <string>d</string>
+      <string>d.alt</string>
       <string>e</string>
       <string>f</string>
       <string>g</string>
       <string>h</string>
+      <string>h.alt</string>
       <string>i</string>
       <string>j</string>
       <string>k</string>
+      <string>k.alt</string>
       <string>l</string>
+      <string>l.alt</string>
       <string>m</string>
       <string>n</string>
       <string>o</string>
@@ -83,7 +180,9 @@
       <string>t</string>
       <string>u</string>
       <string>v</string>
+      <string>v.alt</string>
       <string>w</string>
+      <string>w.alt</string>
       <string>x</string>
       <string>y</string>
       <string>z</string>
@@ -102,6 +201,8 @@
       <string>quotedblright</string>
       <string>quoteleft</string>
       <string>quoteright</string>
+      <string>quotesingle</string>
+      <string>quotedbl</string>
       <string>hyphen</string>
       <string>endash</string>
       <string>emdash</string>
@@ -116,18 +217,6 @@
       <string>seven</string>
       <string>eight</string>
       <string>nine</string>
-      <string>quotesingle</string>
-      <string>quotedbl</string>
-      <string>dotlessi</string>
-      <string>dotaccent</string>
-      <string>b.alt</string>
-      <string>d.alt</string>
-      <string>h.alt</string>
-      <string>jdotless</string>
-      <string>k.alt</string>
-      <string>l.alt</string>
-      <string>v.alt</string>
-      <string>w.alt</string>
     </array>
   </dict>
 </plist>
