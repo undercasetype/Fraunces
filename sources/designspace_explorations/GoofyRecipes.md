@@ -131,15 +131,15 @@ Skew: 0°
 Caps
 Scale Horizontal: 100
 Scale Vertical: 100
-Interpolate Horizontal: -1
-Interpolate Vertical: -1
+Interpolate Horizontal: 0
+Interpolate Vertical: 0
 Units of Tracking: 0
 
 Lowercase
 Scale Horizontal: 112
 Scale Vertical: 112
-Interpolate Horizontal: -2
-Interpolate Vertical: -2
+Interpolate Horizontal: -1
+Interpolate Vertical: -1
 Units of Tracking: 10
 
-Skew: 2°
+Skew: 0°
