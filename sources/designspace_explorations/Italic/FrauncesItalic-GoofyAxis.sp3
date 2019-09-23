@@ -50,7 +50,7 @@
         <color a="1.000" b="0.694" g="1.226" r="0.905"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Fraunces" filename="FrauncesItalic-BlackOpMax.ufo" sortorder="0" stylename="Black Italic">
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMax.ufo" sortorder="0" stylename="Black OptMax">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -81,6 +81,42 @@
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMaxGoofyMax.ufo" sortorder="9" stylename="Black OpMax GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="900.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMinGoofyMax.ufo" sortorder="10" stylename="Black OpMin GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="900.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMaxGoofyMax.ufo" sortorder="11" stylename="Light OpMax GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMinGoofyMax.ufo" sortorder="12" stylename="Light OpMin GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
             <dimension name="weight" xvalue="100.000000"/>
             <dimension name="wonk" xvalue="0.500000"/>
         </location>
