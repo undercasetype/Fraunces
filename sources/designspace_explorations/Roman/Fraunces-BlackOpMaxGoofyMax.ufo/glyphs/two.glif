@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="two" format="2">
   <advance width="1215"/>
+  <unicode hex="0032"/>
   <outline>
     <contour>
       <point x="338" y="585" type="curve" smooth="yes"/>
@@ -73,10 +74,4 @@
       <point x="571" y="721"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,1,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ampersand" format="2">
   <advance width="1693"/>
+  <unicode hex="0026"/>
   <outline>
     <contour>
       <point x="1121" y="-49" type="curve" smooth="yes"/>
@@ -109,10 +110,4 @@
       <point x="544" y="663" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.5737,0.8249,1</string>
-    </dict>
-  </lib>
 </glyph>

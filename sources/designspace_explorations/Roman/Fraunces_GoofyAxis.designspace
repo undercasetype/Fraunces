@@ -16,6 +16,23 @@
         <axis default="100" maximum="900" minimum="100" name="weight" tag="wght" />
         <axis default="0.5" maximum="1" minimum="0" name="wonk" tag="WONK" />
     </axes>
+    <rules>
+        <rule name="wonk">
+            <conditionset>
+                <condition name="optical" minimum="9" maximum="18"/>
+                <condition name="weight" minimum="100" maximum="900"/>
+                <condition name="goofy" minimum="0" maximum="100"/>
+            </conditionset>
+            <conditionset>
+                <condition name="wonk" minimum="0" maximum="0.49"/>
+            </conditionset>
+            <sub name="n" with="n.alt"/>
+            <sub name="m" with="m.alt"/>
+            <sub name="h" with="h.alt"/>
+            <sub name="s" with="s.alt"/>
+            <sub name="ampersand" with="ampersand.alt"/>
+        </rule>
+    </rules>
     <sources>
         <source familyname="Fraunces" filename="Fraunces-BlackOpMax.ufo" stylename="Black OpMax">
             <location>

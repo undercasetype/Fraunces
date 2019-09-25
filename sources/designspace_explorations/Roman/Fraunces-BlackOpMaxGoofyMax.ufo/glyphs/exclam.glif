@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="exclam" format="2">
   <advance width="612"/>
+  <unicode hex="0021"/>
   <outline>
     <contour>
       <point x="306" y="1504" type="curve" smooth="yes"/>
@@ -26,10 +27,4 @@
     </contour>
     <component base="period" xScale="0.93" xOffset="-6"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>

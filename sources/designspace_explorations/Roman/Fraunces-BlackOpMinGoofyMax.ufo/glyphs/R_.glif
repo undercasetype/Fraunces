@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="R" format="2">
   <advance width="1655"/>
+  <unicode hex="0052"/>
   <anchor x="661" y="1476" name="center"/>
   <outline>
     <contour>
@@ -88,10 +89,4 @@
       <point x="1273" y="609" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.5737,0.8249,1</string>
-    </dict>
-  </lib>
 </glyph>
