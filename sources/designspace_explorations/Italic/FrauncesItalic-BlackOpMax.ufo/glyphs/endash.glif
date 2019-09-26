@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="endash" format="2">
   <advance width="927"/>
+  <unicode hex="2013"/>
   <outline>
     <contour>
       <point x="25" y="504" type="curve" smooth="yes"/>
@@ -22,7 +23,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0.5737,0.8249,1</string>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

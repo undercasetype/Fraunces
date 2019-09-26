@@ -6,6 +6,26 @@
         <axis default="100" maximum="900" minimum="100" name="weight" tag="wght" />
         <axis default="0.5" maximum="1" minimum="0" name="wonk" tag="WONK" />
     </axes>
+  <rules>
+    <rule name="wonk">
+      <conditionset>
+        <condition name="optical" minimum="9" maximum="18"/>
+        <condition name="weight" minimum="100" maximum="900"/>
+        <condition name="goofy" minimum="0" maximum="100"/>
+      </conditionset>
+      <conditionset>
+        <condition name="wonk" minimum="0" maximum="0.49"/>
+      </conditionset>
+      <sub name="b" with="b.alt"/>
+      <sub name="d" with="d.alt"/>
+      <sub name="h" with="h.alt"/>
+      <sub name="k" with="k.alt"/>
+      <sub name="l" with="l.alt"/>
+      <sub name="v" with="v.alt"/>
+      <sub name="w" with="w.alt"/>
+      <sub name="ampersand" with="ampersand.alt"/>
+    </rule>
+  </rules>
     <sources>
         <source familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMax.ufo" stylename="Black OptMax">
             <location>

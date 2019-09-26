@@ -1,6 +1,6 @@
-Fraunces Goofy Axis Interpolations:
+Fraunces Goofy Axis Interpolation/Extrapolations:
 
-The following formulas are used to calculate the Goofy Axis interpolation/extrapolations generated from ScaleAndAdjust.py in ~/documentation/scripts/.
+The following formulas are used to calculate the Goofy Axis interpolation/extrapolations generated from ScaleAndInterpolate.py in ~/documentation/scripts/.
 
 
 ## ROMAN ##
@@ -26,15 +26,15 @@ Units of Tracking: -20
 Caps
 Scale Horizontal: 93
 Scale Vertical: 100
-Interpolate Horizontal: -5
-Interpolate Vertical: -10
+Interpolate Horizontal: -2
+Interpolate Vertical: -4
 Units of Tracking: -40
 
 Lowercase
 Scale Horizontal: 85
 Scale Vertical: 92
-Interpolate Horizontal: 0
-Interpolate Vertical: -5
+Interpolate Horizontal: 2
+Interpolate Vertical: 0
 Units of Tracking: -30
 
 # GoofyMax OpMin WeightMax: LightOpMin & Black OpMin
@@ -47,8 +47,8 @@ Interpolate Vertical: 98
 Units of Tracking: 0
 
 Lowercase
-Scale Horizontal: 112
-Scale Vertical: 112
+Scale Horizontal: 110
+Scale Vertical: 110
 Interpolate Horizontal: 94
 Interpolate Vertical: 94
 Units of Tracking: 10
@@ -63,8 +63,8 @@ Interpolate Vertical: -1
 Units of Tracking: 0
 
 Lowercase
-Scale Horizontal: 112
-Scale Vertical: 112
+Scale Horizontal: 110
+Scale Vertical: 110
 Interpolate Horizontal: -2
 Interpolate Vertical: -2
 Units of Tracking: 10
@@ -84,7 +84,7 @@ Units of Tracking: -30
 Lowercase
 Scale Horizontal: 85
 Scale Vertical: 92
-Interpolate Horizontal: 106
+Interpolate Horizontal: 110
 Interpolate Vertical: 103
 Units of Tracking: -20
 
@@ -95,15 +95,15 @@ Skew: 2°
 Caps
 Scale Horizontal: 93
 Scale Vertical: 100
-Interpolate Horizontal: -5
-Interpolate Vertical: -10
+Interpolate Horizontal: -2
+Interpolate Vertical: -4
 Units of Tracking: -40
 
 Lowercase
 Scale Horizontal: 85
 Scale Vertical: 92
-Interpolate Horizontal: 0
-Interpolate Vertical: -5
+Interpolate Horizontal: 2
+Interpolate Vertical: 0
 Units of Tracking: -30
 
 Skew: 2°
@@ -118,8 +118,8 @@ Interpolate Vertical: 98
 Units of Tracking: 0
 
 Lowercase
-Scale Horizontal: 112
-Scale Vertical: 112
+Scale Horizontal: 110
+Scale Vertical: 110
 Interpolate Horizontal: 94
 Interpolate Vertical: 94
 Units of Tracking: 10
@@ -138,8 +138,8 @@ Units of Tracking: 0
 Lowercase
 Scale Horizontal: 112
 Scale Vertical: 112
-Interpolate Horizontal: -1
-Interpolate Vertical: -1
+Interpolate Horizontal: -2
+Interpolate Vertical: -2
 Units of Tracking: 10
 
 Skew: 0°

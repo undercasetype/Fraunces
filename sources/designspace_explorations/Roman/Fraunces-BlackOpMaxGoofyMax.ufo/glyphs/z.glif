@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="z" format="2">
   <advance width="941"/>
+  <unicode hex="007A"/>
   <anchor x="558" y="938" name="center"/>
   <outline>
     <contour>
@@ -60,10 +61,4 @@
       <point x="407" y="56" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.5737,0.8249,1</string>
-    </dict>
-  </lib>
 </glyph>

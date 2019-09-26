@@ -1,26 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="period" format="2">
-  <advance width="651"/>
+  <advance width="682"/>
+  <unicode hex="002E"/>
   <outline>
     <contour>
-      <point x="324" y="-30" type="curve" smooth="yes"/>
-      <point x="458" y="-30"/>
-      <point x="561" y="82"/>
-      <point x="561" y="212" type="curve" smooth="yes"/>
-      <point x="561" y="343"/>
-      <point x="458" y="451"/>
-      <point x="324" y="451" type="curve" smooth="yes"/>
-      <point x="193" y="451"/>
-      <point x="90" y="343"/>
-      <point x="90" y="212" type="curve" smooth="yes"/>
-      <point x="90" y="82"/>
-      <point x="193" y="-30"/>
+      <point x="340" y="-30" type="curve" smooth="yes"/>
+      <point x="479" y="-30"/>
+      <point x="585" y="85"/>
+      <point x="585" y="219" type="curve" smooth="yes"/>
+      <point x="585" y="356"/>
+      <point x="479" y="467"/>
+      <point x="340" y="467" type="curve" smooth="yes"/>
+      <point x="204" y="467"/>
+      <point x="97" y="356"/>
+      <point x="97" y="219" type="curve" smooth="yes"/>
+      <point x="97" y="85"/>
+      <point x="204" y="-30"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-    </dict>
-  </lib>
 </glyph>
