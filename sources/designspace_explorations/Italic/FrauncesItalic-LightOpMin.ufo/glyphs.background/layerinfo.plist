@@ -3,10 +3,18 @@
 <plist version="1.0">
   <dict>
     <key>color</key>
-    <string>0.9883,0.4005,0.9993,1</string>
+    <string>0.8,0.4001,0.999,1</string>
     <key>lib</key>
     <dict>
       <key>com.typemytype.robofont.layerShow</key>
+      <true/>
+      <key>com.typemytype.robofont.layerShowCoordinates</key>
+      <false/>
+      <key>com.typemytype.robofont.layerShowFill</key>
+      <false/>
+      <key>com.typemytype.robofont.layerShowPoints</key>
+      <true/>
+      <key>com.typemytype.robofont.layerShowStroke</key>
       <true/>
     </dict>
   </dict>
