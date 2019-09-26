@@ -6,14 +6,17 @@ from mojo.UI import GetFile
 
 
 """
-Scale and Adjust glyphs
-2019_09_24 Andy Clymer
+Scale and Interpolate glyphs
+2019_09_26 Andy Clymer
+
+v1.1
 
 """
 
 
 
 LIBKEY = "com.andyclymer.ScaleAndAdjustSettings"
+VERSION = "v1.1"
 
 
 """ Helpers """
@@ -44,6 +47,32 @@ def measureStems(f):
 
 def interpolate(f, a, b):
     return a + (b - a) * f
+
+
+def interpolateAndScaleGuides(CASEINFO, obj0, obj1, destObj):
+    # Interpolate and scale guides that share names, and set them to a destination object
+    obj0guides = {}
+    for g0 in obj0.guidelines:
+        if g0.name:
+            if not g0.name in obj0guides:
+                obj0guides[g0.name] = g0
+    for g1 in obj1.guidelines:
+        if g1.name:
+            if g1.name in obj0guides:
+                g0 = obj0guides[g1.name]
+                # x (interpolate and scale)
+                x = interpolate(CASEINFO["interpH"], getattr(g0, "x"), getattr(g1, "x"))
+                x *= CASEINFO["scaleH"]
+                # y (interpolate and scale)
+                y = interpolate(CASEINFO["interpV"], getattr(g0, "y"), getattr(g1, "y"))
+                y *= CASEINFO["scaleV"]
+                # angle, name, color (copy)
+                angle = g0.angle
+                name = g0.name
+                color = g0.color
+                # Append
+                destObj.appendGuideline(position=(x, y), angle=angle, name=name, color=color)
+                
     
 
 def colorText(text, color="black", sizeStyle="regular", style=None):
@@ -133,7 +162,7 @@ class ScaleAndAdjust:
             "interpV": dict(default=100, dataType=float, scale=0.01),
             "tracking": dict(default=0, dataType=float, scale=1)}
         
-        self.w = vanilla.Window((300, 880), "Scale And Interpolate")
+        self.w = vanilla.Window((300, 880), "Scale And Interpolate %s" % VERSION)
         step = 10
         self.w.font0title = vanilla.TextBox((10, step, -10, 25), colorText("Lightest Master (0%)", style="bold"))
         self.w.font0choice = vanilla.PopUpButton((10, step+20, -10, 25), self.fontNames, callback=self.fontChoiceChanged)
@@ -407,7 +436,7 @@ class ScaleAndAdjust:
                     destGlyph.interpolate((CASEINFO["interpH"], CASEINFO["interpV"]), g0, g1)
                     # Scale
                     destGlyph.scaleBy((CASEINFO["scaleH"], CASEINFO["scaleV"]))
-                
+                    
             stems = measureStems(destFont)
             destFont.close()
             self.estimatedStems = stems
@@ -550,13 +579,25 @@ class ScaleAndAdjust:
                         destGlyph.rightMargin += int(round(CASEINFO["tracking"]*0.5))
                     else: destGlyph.width += CASEINFO["tracking"]
                     
+                    # Glyph Guides
+                    # @@@ (Automatic, don't need to do this here)
+                    #if len(g0.guides):
+                    #    interpolateAndScaleGuides(CASEINFO, g0, g1, destGlyph)
+                    
+                    # Unicodes
+                    if g0.unicodes == g1.unicodes:
+                        destGlyph.unicodes = g0.unicodes
+                    
                     # Done
                     destGlyph.markColor = None
                     destGlyph.changed()
         
+        # Font Guides (use the "other" set)
+        interpolateAndScaleGuides(self.normalizedInfo["other"], font0, font1, destFont)
+        
         # Start the Font Info
         # ...and interpolate/scale a few values
-        copyAttrs = ["familyName"]
+        copyAttrs = ["familyName", "unitsPerEm"]
         if self.w.infoBox.get():
             # Copy some attributes
             for attr in copyAttrs:
@@ -573,7 +614,9 @@ class ScaleAndAdjust:
             destFont.info.ascender = ascender
             descender = interpolate(self.normalizedInfo["lc"]["interpV"], font0.info.descender, font1.info.descender)
             descender *= self.normalizedInfo["lc"]["scaleV"]
-            destFont.info.ascender = descender
+            destFont.info.descender = descender
+            italicAngle = interpolate(self.normalizedInfo["lc"]["interpH"], font0.info.italicAngle, font1.info.italicAngle)
+            destFont.info.italicAngle = italicAngle
             
         
         # Save the settings to the font.lib
@@ -586,6 +629,8 @@ class ScaleAndAdjust:
 
         # Finish and open the font
         destFont.glyphOrder = font0.glyphOrder
+        
+        destFont.changed()
         destFont.openInterface()
 
 
