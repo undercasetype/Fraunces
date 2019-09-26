@@ -34,26 +34,26 @@
       <point x="91" y="-15"/>
       <point x="56" y="-15" type="curve" smooth="yes"/>
       <point x="36" y="-15"/>
-      <point x="31" y="0"/>
+      <point x="31" y="-1"/>
       <point x="40" y="30" type="curve" smooth="yes"/>
-      <point x="337" y="1053" type="line" smooth="yes"/>
-      <point x="431" y="1378"/>
-      <point x="594.0" y="1508.0"/>
-      <point x="940" y="1508" type="curve" smooth="yes"/>
-      <point x="999" y="1508"/>
-      <point x="1019" y="1490"/>
-      <point x="1019" y="1474" type="curve" smooth="yes"/>
-      <point x="1019" y="1456"/>
-      <point x="1000" y="1447"/>
-      <point x="960" y="1447" type="curve" smooth="yes"/>
-      <point x="915" y="1447.0"/>
-      <point x="848" y="1474"/>
-      <point x="778" y="1474" type="curve" smooth="yes"/>
-      <point x="598.0" y="1474.0"/>
-      <point x="465.0" y="1354.0"/>
-      <point x="397" y="1124" type="curve" smooth="yes"/>
-      <point x="322" y="871"/>
-      <point x="259.4518656213986" y="636.0534562382481"/>
+      <point x="317" y="983" type="line" smooth="yes"/>
+      <point x="412" y="1311"/>
+      <point x="574.0" y="1438.0"/>
+      <point x="920" y="1438" type="curve" smooth="yes"/>
+      <point x="979" y="1438"/>
+      <point x="999" y="1420"/>
+      <point x="999" y="1404" type="curve" smooth="yes"/>
+      <point x="999" y="1386"/>
+      <point x="980" y="1377"/>
+      <point x="940" y="1377" type="curve" smooth="yes"/>
+      <point x="895" y="1377.0"/>
+      <point x="828" y="1404"/>
+      <point x="758" y="1404" type="curve" smooth="yes"/>
+      <point x="578.0" y="1404.0"/>
+      <point x="445.0" y="1284.0"/>
+      <point x="377" y="1054" type="curve" smooth="yes"/>
+      <point x="310" y="829"/>
+      <point x="254.53882842690626" y="620.0214401299047"/>
       <point x="215" y="491" type="curve"/>
     </contour>
     <contour>
@@ -83,7 +83,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>1,0.5737,0.8249,1</string>
     </dict>
   </lib>
 </glyph>
