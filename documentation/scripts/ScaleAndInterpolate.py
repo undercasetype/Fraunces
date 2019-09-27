@@ -8,15 +8,13 @@ from mojo.UI import GetFile
 """
 Scale and Interpolate glyphs
 2019_09_26 Andy Clymer
-
-v1.1
-
 """
-
+VERSION = "v1.2"
 
 
 LIBKEY = "com.andyclymer.ScaleAndAdjustSettings"
-VERSION = "v1.1"
+
+
 
 
 """ Helpers """
@@ -72,7 +70,27 @@ def interpolateAndScaleGuides(CASEINFO, obj0, obj1, destObj):
                 color = g0.color
                 # Append
                 destObj.appendGuideline(position=(x, y), angle=angle, name=name, color=color)
-                
+
+
+def getFontName(font, fonts):
+    # A helper to get the font name, starting with the preferred name and working back to the PostScript name
+    # Make sure that it's not the same name as another font in the fonts list
+    if font.info.openTypeNamePreferredFamilyName and font.info.openTypeNamePreferredSubfamilyName:
+        name = "%s %s" % (font.info.openTypeNamePreferredFamilyName, font.info.openTypeNamePreferredSubfamilyName)
+    elif font.info.familyName and font.info.styleName:
+        name = "%s %s" % (font.info.familyName, font.info.styleName)
+    elif font.info.fullName:
+        name = font.info.fullName
+    elif font.info.fullName:
+        name = font.info.postscriptFontName
+    else: name = "Untitled"
+    # Add a number to the name if this name already exists
+    if name in fonts:
+        i = 2
+        while name + " (%s)" % i in fonts:
+            i += 1
+        name = name + " (%s)" % i
+    return name
     
 
 def colorText(text, color="black", sizeStyle="regular", style=None):
@@ -125,7 +143,8 @@ def colorText(text, color="black", sizeStyle="regular", style=None):
 
 
 def collectGroups(f):
-    fontName = f.info.postscriptFontName
+    #fontName = f.info.postscriptFontName
+    fontName = getFontName(f, AllFonts())
     groups = []
     groupNames = f.groups.keys()
     groupNames.sort()
@@ -269,8 +288,10 @@ class ScaleAndAdjust:
         self.fontNames = []
         self.fontList = []
         self.fontStems = []
+        fonts = AllFonts()
         for f in AllFonts():
-            name = f.info.postscriptFontName
+            #name = f.info.postscriptFontName
+            name = getFontName(f, fonts)
             if name == None:
                 name = f.info.fullName
                 if name == None:
@@ -603,20 +624,25 @@ class ScaleAndAdjust:
             for attr in copyAttrs:
                 setattr(destFont.info, attr, getattr(font0.info, attr))
             # Interpolate and scale other attributes
-            capHeight = interpolate(self.normalizedInfo["uc"]["interpV"], font0.info.capHeight, font1.info.capHeight)
-            capHeight *= self.normalizedInfo["uc"]["scaleV"]
-            destFont.info.capHeight = capHeight
-            xHeight = interpolate(self.normalizedInfo["lc"]["interpV"], font0.info.xHeight, font1.info.xHeight)
-            xHeight *= self.normalizedInfo["lc"]["scaleV"]
-            destFont.info.xHeight = xHeight
-            ascender = interpolate(self.normalizedInfo["lc"]["interpV"], font0.info.ascender, font1.info.ascender)
-            ascender *= self.normalizedInfo["lc"]["scaleV"]
-            destFont.info.ascender = ascender
-            descender = interpolate(self.normalizedInfo["lc"]["interpV"], font0.info.descender, font1.info.descender)
-            descender *= self.normalizedInfo["lc"]["scaleV"]
-            destFont.info.descender = descender
-            italicAngle = interpolate(self.normalizedInfo["lc"]["interpH"], font0.info.italicAngle, font1.info.italicAngle)
-            destFont.info.italicAngle = italicAngle
+            if not None in [font0.info.capHeight, font1.info.capHeight]:
+                capHeight = interpolate(self.normalizedInfo["uc"]["interpV"], font0.info.capHeight, font1.info.capHeight)
+                capHeight *= self.normalizedInfo["uc"]["scaleV"]
+                destFont.info.capHeight = capHeight
+            if not None in [font0.info.xHeight, font1.info.xHeight]:
+                xHeight = interpolate(self.normalizedInfo["lc"]["interpV"], font0.info.xHeight, font1.info.xHeight)
+                xHeight *= self.normalizedInfo["lc"]["scaleV"]
+                destFont.info.xHeight = xHeight
+            if not None in [font0.info.ascender, font1.info.ascender]:
+                ascender = interpolate(self.normalizedInfo["lc"]["interpV"], font0.info.ascender, font1.info.ascender)
+                ascender *= self.normalizedInfo["lc"]["scaleV"]
+                destFont.info.ascender = ascender
+            if not None in [font0.info.descender, font1.info.descender]:
+                descender = interpolate(self.normalizedInfo["lc"]["interpV"], font0.info.descender, font1.info.descender)
+                descender *= self.normalizedInfo["lc"]["scaleV"]
+                destFont.info.descender = descender
+            if not None in [font0.info.italicAngle, font1.info.italicAngle]:
+                italicAngle = interpolate(self.normalizedInfo["lc"]["interpH"], font0.info.italicAngle, font1.info.italicAngle)
+                destFont.info.italicAngle = italicAngle
             
         
         # Save the settings to the font.lib
