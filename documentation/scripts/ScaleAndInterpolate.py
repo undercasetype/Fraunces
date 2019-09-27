@@ -7,9 +7,9 @@ from mojo.UI import GetFile
 
 """
 Scale and Interpolate glyphs
-2019_09_26 Andy Clymer
+2019_09_27 Andy Clymer
 """
-VERSION = "v1.2"
+VERSION = "v1.3"
 
 
 LIBKEY = "com.andyclymer.ScaleAndAdjustSettings"
@@ -181,27 +181,30 @@ class ScaleAndAdjust:
             "interpV": dict(default=100, dataType=float, scale=0.01),
             "tracking": dict(default=0, dataType=float, scale=1)}
         
-        self.w = vanilla.Window((300, 880), "Scale And Interpolate %s" % VERSION)
+        self.w = vanilla.Window((317, 700), "Scale And Interpolate %s" % VERSION, minSize=(317, 300), maxSize=(317, 904), autosaveName="ScaleAndInterp") # 882 height
+        
+        self.g = vanilla.Group((0, 0, 300, 835))
+        
         step = 10
-        self.w.font0title = vanilla.TextBox((10, step, -10, 25), colorText("Lightest Master (0%)", style="bold"))
-        self.w.font0choice = vanilla.PopUpButton((10, step+20, -10, 25), self.fontNames, callback=self.fontChoiceChanged)
+        self.g.font0title = vanilla.TextBox((10, step, -10, 25), colorText("Lightest Master (0%)", style="bold"))
+        self.g.font0choice = vanilla.PopUpButton((10, step+20, -10, 25), self.fontNames, callback=self.fontChoiceChanged)
         step += 50
-        self.w.font0stemTextUC = vanilla.TextBox((20, step, -10, 20), "")
-        self.w.font0stemTextLC = vanilla.TextBox((20, step+20, -10, 20), "")
+        self.g.font0stemTextUC = vanilla.TextBox((20, step, -10, 20), "")
+        self.g.font0stemTextLC = vanilla.TextBox((20, step+20, -10, 20), "")
         step += 50
-        self.w.font1title = vanilla.TextBox((10, step, -10, 25), colorText("Heaviest Master (100%)", style="bold"))
-        self.w.font1choice = vanilla.PopUpButton((10, step+20, -10, 25), self.fontNames, callback=self.fontChoiceChanged)
+        self.g.font1title = vanilla.TextBox((10, step, -10, 25), colorText("Heaviest Master (100%)", style="bold"))
+        self.g.font1choice = vanilla.PopUpButton((10, step+20, -10, 25), self.fontNames, callback=self.fontChoiceChanged)
         step += 50
-        self.w.font1stemTextUC = vanilla.TextBox((20, step, -10, 20), "")
-        self.w.font1stemTextLC = vanilla.TextBox((20, step+20, -10, 20), "")
+        self.g.font1stemTextUC = vanilla.TextBox((20, step, -10, 20), "")
+        self.g.font1stemTextLC = vanilla.TextBox((20, step+20, -10, 20), "")
         step += 50
         
-        self.w.hr1 = vanilla.HorizontalLine((10, step, -10, 1))
+        self.g.hr1 = vanilla.HorizontalLine((10, step, -10, 1))
         
         step += 15
-        self.w.capsTitle = vanilla.TextBox((10, step, -10, 25), colorText("Caps", style="bold"))
+        self.g.capsTitle = vanilla.TextBox((10, step, -10, 25), colorText("Caps", style="bold"))
         step += 25
-        self.w.ucGroups = vanilla.PopUpButton((10, step, -10, 25), [])
+        self.g.ucGroups = vanilla.PopUpButton((10, step, -10, 25), [])
         step += 35
         columnDescriptions = [dict(title="Name"), dict(title="Value", editable=True, width=50)]
         capInfo = [
@@ -210,14 +213,14 @@ class ScaleAndAdjust:
             dict(Name="Interpolate Horizontal %", attr="interpH", Value=100),
             dict(Name="Interpolate Vertical %", attr="interpV", Value=100),
             dict(Name="Units of tracking", attr="tracking", Value=0)]
-        self.w.ucInfo = vanilla.List((10, step, -10, 100), capInfo, columnDescriptions=columnDescriptions, showColumnTitles=False, editCallback=self.dataChanged)
+        self.g.ucInfo = vanilla.List((10, step, -10, 100), capInfo, columnDescriptions=columnDescriptions, showColumnTitles=False, editCallback=self.dataChanged)
         step += 110
-        self.w.resultStemTextUC = vanilla.TextBox((20, step, -10, 20), "")
+        self.g.resultStemTextUC = vanilla.TextBox((20, step, -10, 20), "")
         step += 30
         
-        self.w.lcTitle = vanilla.TextBox((10, step, -10, 25), colorText("Lowercase", style="bold"))
+        self.g.lcTitle = vanilla.TextBox((10, step, -10, 25), colorText("Lowercase", style="bold"))
         step += 25
-        self.w.lcGroups = vanilla.PopUpButton((10, step, -10, 25), [])
+        self.g.lcGroups = vanilla.PopUpButton((10, step, -10, 25), [])
         step += 35
         lcInfo = [
             dict(Name="Scale Horizontal %", attr="scaleH", Value=100),
@@ -225,34 +228,38 @@ class ScaleAndAdjust:
             dict(Name="Interpolate Horizontal %", attr="interpH", Value=100),
             dict(Name="Interpolate Vertical %", attr="interpV", Value=100),
             dict(Name="Units of tracking", attr="tracking", Value=0)]
-        self.w.lcInfo = vanilla.List((10, step, -10, 100), lcInfo, columnDescriptions=columnDescriptions, showColumnTitles=False, editCallback=self.dataChanged)
+        self.g.lcInfo = vanilla.List((10, step, -10, 100), lcInfo, columnDescriptions=columnDescriptions, showColumnTitles=False, editCallback=self.dataChanged)
         step += 110
-        self.w.resultStemTextLC = vanilla.TextBox((20, step, -10, 20), "")
+        self.g.resultStemTextLC = vanilla.TextBox((20, step, -10, 20), "")
         step += 30
         
-        self.w.otherTitle = vanilla.TextBox((10, step, -10, 25), colorText("Other glyphs", style="bold"))
+        self.g.otherTitle = vanilla.TextBox((10, step, -10, 25), colorText("Other glyphs", style="bold"))
         step += 25
-        self.w.otherRadio = vanilla.RadioGroup((10, step, -10, 70), 
+        self.g.otherRadio = vanilla.RadioGroup((10, step, -10, 70), 
             ["Copy from the lightest master", 
             "Process at 50% of UC and LC settings", 
             "Skip any other glyphs"], callback=self.dataChanged)
-        self.w.otherRadio.set(2)
+        self.g.otherRadio.set(2)
         
         step += 80
         
-        self.w.loadButton = vanilla.SquareButton((100, step, -10, 25), "Load settings from UFO", callback=self.loadSettings)
+        self.g.loadButton = vanilla.SquareButton((100, step, -10, 25), "Load settings from UFO", callback=self.loadSettings)
         step += 35
         
-        self.w.hr2 = vanilla.HorizontalLine((10, step, -10, 1))
+        self.g.hr2 = vanilla.HorizontalLine((10, step, -10, 1))
         step += 15
-        self.w.skewBox = vanilla.CheckBox((10, step, -10, 25), "Skew Italic glyphs upright before scaling")
-        self.w.skewBox.set(True)
+        self.g.skewBox = vanilla.CheckBox((10, step, -10, 25), "Skew Italic glyphs upright before scaling")
+        self.g.skewBox.set(True)
         step += 25
-        self.w.infoBox = vanilla.CheckBox((10, step, -10, 25), "Interpolate Font Info whenever possible")
-        self.w.infoBox.set(True)
+        self.g.infoBox = vanilla.CheckBox((10, step, -10, 25), "Interpolate Font Info whenever possible")
+        self.g.infoBox.set(True)
     
-        step += 40
-        self.w.buildButton = vanilla.SquareButton((10, step, -10, 25), "Make Font", callback=self.makeFontCallback)
+        #step += 40
+        self.w.buildButton = vanilla.SquareButton((10, -35, -10, 25), "Make Font", callback=self.makeFontCallback)
+        
+        # Add the group to a ScrollView
+        view = self.g.getNSView()
+        self.w.sv = vanilla.ScrollView((0, 0, -0, -45), view, hasHorizontalScroller=False, hasVerticalScroller=True, autohidesScrollers=False, drawsBackground=False)#backgroundColor=NSColor.windowBackgroundColor())
         
         # Update the font info before opening
         self.fontsChanged()
@@ -275,14 +282,14 @@ class ScaleAndAdjust:
     def fontsChanged(self, sender=None):
         # Hold aside all dropdown choices by name
         # Get the choice indices and then turn them into strings
-        font0choice = self.w.font0choice.get()
+        font0choice = self.g.font0choice.get()
         if font0choice >= 0: font0choice = self.fontNames[font0choice]
-        font1choice = self.w.font1choice.get()
+        font1choice = self.g.font1choice.get()
         if font1choice >= 0: font1choice = self.fontNames[font1choice]
-        ucGroupsChoice = self.w.ucGroups.get()
-        if ucGroupsChoice >= 0: ucGroupsChoice = self.w.ucGroups.getItems()[ucGroupsChoice]
-        lcGroupsChoice = self.w.lcGroups.get()
-        if lcGroupsChoice >= 0: lcGroupsChoice = self.w.lcGroups.getItems()[lcGroupsChoice]
+        ucGroupsChoice = self.g.ucGroups.get()
+        if ucGroupsChoice >= 0: ucGroupsChoice = self.g.ucGroups.getItems()[ucGroupsChoice]
+        lcGroupsChoice = self.g.lcGroups.get()
+        if lcGroupsChoice >= 0: lcGroupsChoice = self.g.lcGroups.getItems()[lcGroupsChoice]
                 
         # Collect font info
         self.fontNames = []
@@ -311,29 +318,29 @@ class ScaleAndAdjust:
         # Update the group dropdowns and try to select the previous choice
         
         # Font0
-        self.w.font0choice.setItems(self.fontNames)
+        self.g.font0choice.setItems(self.fontNames)
         if font0choice in self.fontNames:
             idx = self.fontNames.index(font0choice)
         else: idx = 0
-        self.w.font0choice.set(idx)
+        self.g.font0choice.set(idx)
         # Font1
-        self.w.font1choice.setItems(self.fontNames)
+        self.g.font1choice.setItems(self.fontNames)
         if font1choice in self.fontNames:
             idx = self.fontNames.index(font1choice)
         else: idx = 0
-        self.w.font1choice.set(idx)
+        self.g.font1choice.set(idx)
         # ucGroups
-        self.w.ucGroups.setItems(groupNames)
+        self.g.ucGroups.setItems(groupNames)
         if ucGroupsChoice in groupNames:
             idx = groupNames.index(ucGroupsChoice)
         else: idx = 0
-        self.w.ucGroups.set(idx)
+        self.g.ucGroups.set(idx)
         # lcGroups
-        self.w.lcGroups.setItems(groupNames)
+        self.g.lcGroups.setItems(groupNames)
         if lcGroupsChoice in groupNames:
             idx = groupNames.index(lcGroupsChoice)
         else: idx = 0
-        self.w.lcGroups.set(idx)
+        self.g.lcGroups.set(idx)
                 
         # And update other font settings
         self.dataChanged()
@@ -341,19 +348,19 @@ class ScaleAndAdjust:
 
     def fontChoiceChanged(self, sender=None):
         # Font choice changed
-        font0Idx = self.w.font0choice.get()
-        font1Idx = self.w.font1choice.get()
+        font0Idx = self.g.font0choice.get()
+        font1Idx = self.g.font1choice.get()
         
         # Update the stem measurement
         self.estimateStems()
         
         # Reset the stem descriptions
-        self.w.font0stemTextUC.set(colorText("UC stems: (Uncertain)", color="gray", sizeStyle="small"))
-        self.w.font0stemTextLC.set(colorText("LC stems: (Uncertain)", color="gray", sizeStyle="small"))
-        self.w.font1stemTextUC.set(colorText("UC stems: (Uncertain)", color="gray", sizeStyle="small"))
-        self.w.font1stemTextLC.set(colorText("LC stems: (Uncertain)", color="gray", sizeStyle="small"))
-        self.w.resultStemTextUC.set(colorText("UC stems: (Uncertain)", color="gray", sizeStyle="small"))
-        self.w.resultStemTextLC.set(colorText("LC stems: (Uncertain)", color="gray", sizeStyle="small"))
+        self.g.font0stemTextUC.set(colorText("UC stems: (Uncertain)", color="gray", sizeStyle="small"))
+        self.g.font0stemTextLC.set(colorText("LC stems: (Uncertain)", color="gray", sizeStyle="small"))
+        self.g.font1stemTextUC.set(colorText("UC stems: (Uncertain)", color="gray", sizeStyle="small"))
+        self.g.font1stemTextLC.set(colorText("LC stems: (Uncertain)", color="gray", sizeStyle="small"))
+        self.g.resultStemTextUC.set(colorText("UC stems: (Uncertain)", color="gray", sizeStyle="small"))
+        self.g.resultStemTextLC.set(colorText("LC stems: (Uncertain)", color="gray", sizeStyle="small"))
         
         if font0Idx > -1 and font1Idx > -1:
             font0 = self.fontList[font0Idx]
@@ -374,11 +381,11 @@ class ScaleAndAdjust:
                             else: stemText += "(Uncertain)"
                         stemsText.append(colorText(stemText, color="gray", sizeStyle="small"))
                     if fontIdx == 0:
-                        self.w.font0stemTextUC.set(stemsText[0])
-                        self.w.font0stemTextLC.set(stemsText[1])
+                        self.g.font0stemTextUC.set(stemsText[0])
+                        self.g.font0stemTextLC.set(stemsText[1])
                     else:
-                        self.w.font1stemTextUC.set(stemsText[0])
-                        self.w.font1stemTextLC.set(stemsText[1])
+                        self.g.font1stemTextUC.set(stemsText[0])
+                        self.g.font1stemTextLC.set(stemsText[1])
                     
             # Updated estimated stem descriptions
             if not self.estimatedStems == None:
@@ -388,8 +395,8 @@ class ScaleAndAdjust:
                         stemText = "%s stems: " % case.upper()
                         stemText += "%s horizontal, %s vertical" % (stems["horiz"], stems["vert"])
                         if case == "uc":
-                            self.w.resultStemTextUC.set(colorText(stemText, color="gray", sizeStyle="small"))
-                        else: self.w.resultStemTextLC.set(colorText(stemText, color="gray", sizeStyle="small"))
+                            self.g.resultStemTextUC.set(colorText(stemText, color="gray", sizeStyle="small"))
+                        else: self.g.resultStemTextLC.set(colorText(stemText, color="gray", sizeStyle="small"))
 
 
     
@@ -402,8 +409,8 @@ class ScaleAndAdjust:
         for case in ["uc", "lc"]:
             # Collect data
             if case == "uc":
-                INFOLIST = self.w.ucInfo
-            else: INFOLIST = self.w.lcInfo
+                INFOLIST = self.g.ucInfo
+            else: INFOLIST = self.g.lcInfo
             # Normalize the data
             for item in INFOLIST.get():
                 default = self.dataNorms[item["attr"]]["default"]
@@ -415,7 +422,7 @@ class ScaleAndAdjust:
                     self.normalizedInfo[case][item["attr"]] = default
                     self.normalizedInfo[case]["problem"] = True
         # Build the "other" case
-        otherChoice = self.w.otherRadio.get()
+        otherChoice = self.g.otherRadio.get()
         if otherChoice == 1:
             otherInterp = 0.5
         else: otherInterp = 0
@@ -434,8 +441,8 @@ class ScaleAndAdjust:
         if not len(self.fontList):
             self.estimatedStems = None
         else:
-            font0Idx = self.w.font0choice.get()
-            font1Idx = self.w.font1choice.get()
+            font0Idx = self.g.font0choice.get()
+            font1Idx = self.g.font1choice.get()
             font0 = self.fontList[font0Idx]
             font1 = self.fontList[font1Idx]
             destFont = NewFont(showInterface=False)
@@ -470,9 +477,9 @@ class ScaleAndAdjust:
             prevFont = OpenFont(filePath, showInterface=False)
             if LIBKEY in prevFont.lib.keys():
                 libData = prevFont.lib[LIBKEY]
-                self.w.otherRadio.set(libData["otherOption"])
-                self.w.skewBox.set(libData["skewOption"])
-                self.w.infoBox.set(libData["infoOption"])
+                self.g.otherRadio.set(libData["otherOption"])
+                self.g.skewBox.set(libData["skewOption"])
+                self.g.infoBox.set(libData["infoOption"])
                 # Apply the normalized info
                 for case in ["uc", "lc"]:
                     scaleH = libData["normalizedInfo"][case]["scaleH"] / self.dataNorms["scaleH"]["scale"]
@@ -487,13 +494,13 @@ class ScaleAndAdjust:
                         dict(Name="Interpolate Vertical %", attr="interpV", Value=interpV),
                         dict(Name="Units of tracking", attr="tracking", Value=tracking)]
                     if case == "uc":
-                        self.w.ucInfo.set(info)
-                    else: self.w.lcInfo.set(info)
+                        self.g.ucInfo.set(info)
+                    else: self.g.lcInfo.set(info)
                 # Reset the dropdown choices
-                self.w.font0choice.set(-1)
-                self.w.font1choice.set(-1)
-                self.w.ucGroups.set(0)
-                self.w.lcGroups.set(0)
+                self.g.font0choice.set(-1)
+                self.g.font1choice.set(-1)
+                self.g.ucGroups.set(0)
+                self.g.lcGroups.set(0)
         
             prevFont.close()
         
@@ -502,8 +509,8 @@ class ScaleAndAdjust:
     def makeFontCallback(self, sender):
         # Validate data
         ready = True
-        font0Idx = self.w.font0choice.get()
-        font1Idx = self.w.font1choice.get()
+        font0Idx = self.g.font0choice.get()
+        font1Idx = self.g.font1choice.get()
         if not -1 in [font0Idx, font1Idx]:
             if font0Idx == font1Idx:
                 ready = False
@@ -512,8 +519,8 @@ class ScaleAndAdjust:
             ready = False
             print("Choose two fonts")
         # Groups
-        group0Idx = self.w.ucGroups.get()
-        group1Idx = self.w.lcGroups.get()
+        group0Idx = self.g.ucGroups.get()
+        group1Idx = self.g.lcGroups.get()
         if not -1 in [group0Idx, group1Idx]:
             if group0Idx == group1Idx:
                 ready = False
@@ -528,20 +535,20 @@ class ScaleAndAdjust:
     
     def doMakeFont(self):
         # Make a new font
-        font0Idx = self.w.font0choice.get()
-        font1Idx = self.w.font1choice.get()
+        font0Idx = self.g.font0choice.get()
+        font1Idx = self.g.font1choice.get()
         font0 = self.fontList[font0Idx]
         font1 = self.fontList[font1Idx]
         destFont = NewFont(showInterface=False)
         
         # Fetch the charsets
-        groupChoiceIdxUC = self.w.ucGroups.get()
-        groupChoiceIdxLC = self.w.lcGroups.get()
+        groupChoiceIdxUC = self.g.ucGroups.get()
+        groupChoiceIdxLC = self.g.lcGroups.get()
         charsetUC = self.groups[groupChoiceIdxUC]["glyphNames"]
         charsetLC = self.groups[groupChoiceIdxLC]["glyphNames"]
         # Collect an "other" charset
         charsetOther = []
-        if not self.w.otherRadio.get() == 2: # 2 = Skip
+        if not self.g.otherRadio.get() == 2: # 2 = Skip
             for gn in font0.keys():
                 if gn in font1.keys():
                     if not True in [gn in charsetUC, gn in charsetLC]:
@@ -570,7 +577,7 @@ class ScaleAndAdjust:
                     g1 = font1[gName].copy()
                     
                     # Skew the glyph if the font has an Italic angle
-                    if self.w.skewBox.get():
+                    if self.g.skewBox.get():
                         angle0 = font0.info.italicAngle
                         if not angle0: angle0 = 0
                         g0.skewBy(angle0)
@@ -588,7 +595,7 @@ class ScaleAndAdjust:
                     destGlyph.width = int(round(destGlyph.width * CASEINFO["scaleH"]))
                     
                     # Interpolate the Italic Angle and skew back
-                    if self.w.skewBox.get():
+                    if self.g.skewBox.get():
                         if not (angle0, angle1) == (0, 0):
                             f = (CASEINFO["interpH"] + CASEINFO["interpV"]) * 0.5
                             interpAngle = interpolate(f, angle0, angle1)
@@ -619,7 +626,7 @@ class ScaleAndAdjust:
         # Start the Font Info
         # ...and interpolate/scale a few values
         copyAttrs = ["familyName", "unitsPerEm"]
-        if self.w.infoBox.get():
+        if self.g.infoBox.get():
             # Copy some attributes
             for attr in copyAttrs:
                 setattr(destFont.info, attr, getattr(font0.info, attr))
@@ -648,9 +655,9 @@ class ScaleAndAdjust:
         # Save the settings to the font.lib
         libData = dict(
             normalizedInfo=self.normalizedInfo,
-            otherOption=self.w.otherRadio.get(),
-            skewOption=self.w.skewBox.get(),
-            infoOption=self.w.infoBox.get())
+            otherOption=self.g.otherRadio.get(),
+            skewOption=self.g.skewBox.get(),
+            infoOption=self.g.infoBox.get())
         destFont.lib[LIBKEY] = libData
 
         # Finish and open the font
