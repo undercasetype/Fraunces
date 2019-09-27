@@ -40,17 +40,17 @@
     <axis maximum="144.000000" minimum="9.000000" name="optical" shortname="opsz">
         <color a="1.000" b="0.056" g="0.775" r="0.752"/>
     </axis>
-    <axis maximum="900.000000" minimum="100.000000" name="weight" shortname="wght">
+    <axis maximum="1000.000000" minimum="0.000000" name="weight" shortname="wght">
         <color a="1.000" b="0.764" g="0.000" r="0.989"/>
     </axis>
     <axis maximum="1.000000" minimum="0.000000" name="wonk" shortname="WONK">
         <color a="1.000" b="0.694" g="1.226" r="0.905"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMax.ufo" sortorder="0" stylename="Black OpMax">
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMax.ufo" sortorder="0" stylename="Black OptMax">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
-            <dimension name="weight" xvalue="900.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
             <dimension name="wonk" xvalue="0.500000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
@@ -58,7 +58,7 @@
     <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMin.ufo" sortorder="1" stylename="Black OpMin">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
-            <dimension name="weight" xvalue="900.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
             <dimension name="wonk" xvalue="0.500000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
@@ -66,7 +66,7 @@
     <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMax.ufo" sortorder="2" stylename="Light OpMax">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
-            <dimension name="weight" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
             <dimension name="wonk" xvalue="0.500000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
@@ -74,7 +74,7 @@
     <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMin.ufo" sortorder="3" stylename="Light OpMin">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
-            <dimension name="weight" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
             <dimension name="wonk" xvalue="0.500000"/>
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
