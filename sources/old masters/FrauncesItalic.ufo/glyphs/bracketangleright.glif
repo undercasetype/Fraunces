@@ -1,9 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bracketangleright" format="2">
-  <advance width="395"/>
+  <advance width="790"/>
   <unicode hex="27E9"/>
   <outline>
-    <component base="bracketangleleft" xScale="-1" yScale="-1" xOffset="548" yOffset="574"/>
+    <contour>
+      <point x="614.0" y="574.0" type="line"/>
+      <point x="-14.0" y="-254.0" type="line" smooth="yes"/>
+      <point x="-24.0" y="-268.0"/>
+      <point x="-42.0" y="-294.0"/>
+      <point x="-46.0" y="-310.0" type="curve" smooth="yes"/>
+      <point x="-52.0" y="-330.0"/>
+      <point x="-44.0" y="-348.0"/>
+      <point x="-26.0" y="-348.0" type="curve" smooth="yes"/>
+      <point x="-10.0" y="-348.0"/>
+      <point x="8.0" y="-338.0"/>
+      <point x="26.0" y="-318.0" type="curve" smooth="yes"/>
+      <point x="734.0" y="496.0" type="line" smooth="yes"/>
+      <point x="756.0" y="522.0"/>
+      <point x="774.0" y="550.0"/>
+      <point x="780.0" y="574.0" type="curve" smooth="yes"/>
+      <point x="786.0" y="598.0"/>
+      <point x="784.0" y="626.0"/>
+      <point x="776.0" y="652.0" type="curve" smooth="yes"/>
+      <point x="504.0" y="1466.0" type="line" smooth="yes"/>
+      <point x="496.0" y="1486.0"/>
+      <point x="484.0" y="1496.0"/>
+      <point x="468.0" y="1496.0" type="curve" smooth="yes"/>
+      <point x="450.0" y="1496.0"/>
+      <point x="432.0" y="1478.0"/>
+      <point x="428.0" y="1458.0" type="curve" smooth="yes"/>
+      <point x="422.0" y="1442.0"/>
+      <point x="428.0" y="1416.0"/>
+      <point x="430.0" y="1402.0" type="curve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
     <dict>

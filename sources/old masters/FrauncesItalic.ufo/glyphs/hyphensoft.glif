@@ -1,9 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphensoft" format="2">
-  <advance width="394"/>
+  <advance width="788"/>
   <unicode hex="00AD"/>
   <outline>
-    <component base="hyphen"/>
+    <contour>
+      <point x="786.0" y="558.0" type="curve" smooth="yes"/>
+      <point x="340.0" y="558.0" type="line" smooth="yes"/>
+      <point x="302.0" y="558.0"/>
+      <point x="282.0" y="544.0"/>
+      <point x="266.0" y="508.0" type="curve" smooth="yes"/>
+      <point x="256.0" y="486.0" type="line" smooth="yes"/>
+      <point x="250.0" y="472.0"/>
+      <point x="248.0" y="464.0"/>
+      <point x="248.0" y="456.0" type="curve" smooth="yes"/>
+      <point x="248.0" y="430.0"/>
+      <point x="270.0" y="414.0"/>
+      <point x="298.0" y="414.0" type="curve" smooth="yes"/>
+      <point x="744.0" y="414.0" type="line" smooth="yes"/>
+      <point x="782.0" y="414.0"/>
+      <point x="802.0" y="428.0"/>
+      <point x="818.0" y="464.0" type="curve" smooth="yes"/>
+      <point x="828.0" y="486.0" type="line" smooth="yes"/>
+      <point x="834.0" y="500.0"/>
+      <point x="836.0" y="508.0"/>
+      <point x="836.0" y="516.0" type="curve" smooth="yes"/>
+      <point x="836.0" y="542.0"/>
+      <point x="814.0" y="558.0"/>
+    </contour>
   </outline>
   <lib>
     <dict>
