@@ -8,7 +8,7 @@ def easeInOutQuad(t):
 
 maxNum = 100
 minNum = 1
-frames = 30
+frames = 15
 
 steps = int((maxNum-minNum)/frames)
 
