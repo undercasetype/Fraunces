@@ -8,11 +8,11 @@ This typeface family is still under development, and will be ready for initial r
 
 ## What can Fraunces do?
 
-The Fraunces font family is composed of a Roman and Italic, and is being built as a Variable Font. Between these two styles, the family spans 3 axes: Optical Size, Weight, and Goofy. 
+The Fraunces font family is composed of a Roman and Italic, and is being built as a Variable Font. Between these two styles, the family spans 3 axes and 1 binary axis: Weight (0–1000), GOOF (0–100), Optical Size (9–144), and WONK (0 or 1).
 
 ### Weight Axis
 
-The weight axis spans Light to Black. Nuff said.
+The weight axis spans Thin to Black. Nuff said.
 
 ![alt text](documentation/explanations/weight_axis.gif "Changes in Weight")
 
