@@ -20,15 +20,15 @@ for x in range(minNum,maxNum,steps):
     rect(0,0,width(),height())
     fill(0,0,0)
 
-    fontVariations(opsz = 144, wght = 1000, goof = percent*maxNum)
+    fontVariations(opsz = 144, wght = 1000, GOOF = percent*maxNum)
 
     font("Fraunces", 200)
 
-    text("Hamburger Fonts", (50*2,175*2))
+    text("Fraunces Roman", (50*2,175*2))
 
     font("Fraunces Italic", 200)
 
-    text("Hamburger Fonts", (50*2,60*2))
+    text("Fraunces Italic", (50*2,60*2))
     
     font("Recur Mono", 20)
     
@@ -42,15 +42,15 @@ for x in range(maxNum,minNum,-steps):
     rect(0,0,width(),height())
     fill(0,0,0)
 
-    fontVariations(opsz = 144, wght = 1000, goof = percent*maxNum)
+    fontVariations(opsz = 144, wght = 1000, GOOF = percent*maxNum)
 
     font("Fraunces", 200)
 
-    text("Hamburger Fonts", (50*2,175*2))
+    text("Fraunces Roman", (50*2,175*2))
 
     font("Fraunces Italic", 200)
 
-    text("Hamburger Fonts", (50*2,60*2))
+    text("Fraunces Italic", (50*2,60*2))
     
     font("Recur Mono", 20)
     
