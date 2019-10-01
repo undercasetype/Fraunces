@@ -14,25 +14,27 @@ The Fraunces font family is composed of a Roman and Italic, and is being built a
 
 The weight axis spans Light to Black. Nuff said.
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/explanations/weight_axis.gif "Changes in Weight")
+![alt text](documentation/explanations/weight_axis.gif "Changes in Weight")
 
-### Goofy Axis
+### GOOF Axis
 
-The Goofy axis gives access to the chocolate-y, chunky forms that are available towards the Optical Min, but still retaining other Optical Sizing considerations, such as change in x-height, spacing, width, and subbing of more unusual characters.
+The "goofy" axis gives access to the chocolate-y, chunky forms that are available towards the Optical Min, but still retaining other Optical Sizing considerations, such as change in character width, spacing, tall ascenders, and shorter x-height
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/explanations/goof_axis.gif "Changes in Goofy")
-
-## Wonk Axis
-
-
+![alt text](documentation/explanations/goof_axis.gif "Changes in Goofy")
 
 ### Optical Size Axis
 
-The optical size axis ties together changes in contrast, x-height, spacing, and character widths. As the optical size decreases, the x-height increases, spacing opens up, and the characters expand slightly in the width.
+The optical size axis ties together changes in contrast, x-height, spacing, and character widths. As the optical size decreases, the x-height increases, spacing opens up, and the characters expand in width.
 
-Many of the peculiar, wonky characteristics that are suitable for display usage are less desirable for more continuous reading. At certain smaller optical sizes (18px and less), specific characters are substituted for a more normalized character. 
+Additionally, mapping of axis values is placed in the AVAR table to create non-linear interpolation in the Variable Font.
 
-In the Roman, the characters that substitute are the h, n, m, and s. In the italic, the b, h, and v are swapped for a more simplified form.
+Many of the peculiar, wonky characteristics that are suitable for display usage are less desirable for more continuous reading. At certain smaller optical sizes (18px and less), the WONK axis is disabled (see below). 
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/explanations/opsz_axis.gif "Changes in Optical Size")
+![alt text](documentation/explanations/opsz_axis.gif "Changes in Optical Size")
 
+
+### WONK Axis
+
+A binary axis that subsitutes "wonky" characters for more normalized characters, such as the leaning n/m/h in Roman, or the bulbous flags in the b/d/h/k/l of the Italic. In traditional instances of fonts, this will be implemented as a Stylistic Set.
+
+![alt text](documentation/explanations/wonk_axis.gif "Changes in Goofy")
