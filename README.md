@@ -1,6 +1,6 @@
 # Fraunces Font Project
 
-![alt text](https://github.com/sponcey/Fraunces/blob/master/documentation/specimen/Round%204/HonkForWonkyFonts%2B.jpg "Honk For Wonky Fonts")
+![alt text](documentation/img/HonkForWonkyFonts.jpg "Honk For Wonky Fonts")
 
 Fraunces is a display, "Old Style" soft-serif typeface inspired by the mannerisms of early 20th century typefaces such as [Windsor](http://fontreviewjournal.com/windsor/), Souvenir, and the Cooper Series.
 
