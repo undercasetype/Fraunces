@@ -44,19 +44,19 @@ for f in range(0,2,1):
     for x in (1, 1000):
         stringstextr = stringstext
         # For all values in opVals, draw a new page
-        for goofy in (0,100):
-            for y in (9.1, 144):
-                stringstextr2 = stringstextr
-                while len(stringstextr2) > 0:
-                    newPage("TabloidLandscape")
-                    font(fnames[2], 9)
-                    fontVariations(resetVariations=True)
-                    text("OpSz: %s, Wght: %s, GOOF: %s" % (y,x, goofy), (50,50))
-                    # For number of values specified in columns, draw a new column.
-                    for z in range(0,4,1):
-                        boxWidth = width()/4
-                        fontVariations(wght = x, opsz = y, GOOF = goofy)
-                        font(fnames[f], 24)
-                        stringstextr2 = textBox(stringstextr2, ((margin+(boxWidth*z)),margin+20,boxWidth,height()-margin*2))
+        #for goofy in (0,100):
+        for y in (9.1, 144):
+            stringstextr2 = stringstextr
+            while len(stringstextr2) > 0:
+                newPage("TabloidLandscape")
+                font(fnames[2], 9)
+                fontVariations(resetVariations=True)
+                text("OpSz: %s, Wght: %s, GOOF: %s" % (y,x, 1), (50,50))
+                # For number of values specified in columns, draw a new column.
+                for z in range(0,4,1):
+                    boxWidth = width()/4
+                    fontVariations(wght = x, opsz = y, GOOF = 1)
+                    font(fnames[f], 24)
+                    stringstextr2 = textBox(stringstextr2, ((margin+(boxWidth*z)),margin+20,boxWidth,height()-margin*2))
                     
 saveImage("PDFs/%s.pdf" % (newFileName))
