@@ -3,15 +3,28 @@
 <plist version="1.0">
   <dict>
     <key>ascender</key>
-    <real>-450.8</real>
+    <real>1389.2</real>
     <key>capHeight</key>
     <real>1400.0</real>
     <key>descender</key>
-    <integer>-250</integer>
+    <real>-450.8</real>
     <key>familyName</key>
     <string>Fraunces Italic</string>
     <key>guidelines</key>
-    <array/>
+    <array>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>ascender</string>
+        <key>x</key>
+        <integer>0</integer>
+        <key>y</key>
+        <real>1382.3424</real>
+      </dict>
+    </array>
+    <key>italicAngle</key>
+    <real>0.0</real>
     <key>postscriptBlueValues</key>
     <array/>
     <key>postscriptFamilyBlues</key>

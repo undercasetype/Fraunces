@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<designspace format="2">
+    <!-- Superpolator Designspace Object -->
+    <!-- info -->
+    <version superpolator="2"/>
+    <!-- measurements -->
+    <!-- application data -->
+    <data name="horizontalPreviewAxis" value="weight"/>
+    <data name="lineInverted" value="False"/>
+    <data name="lineViewFilled" value="True"/>
+    <data name="lineStacked" value="lined"/>
+    <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Fraunces/sources/designspace_explorations/Italic/instances"/>
+    <data name="previewtext" value="The Hundred Dollar."/>
+    <data name="verticalPreviewAxis" value="optical"/>
+    <!-- don't generate these glyphs -->
+    <ignore glyphs=""/>
+    <!-- rules -->
+    <rule enabled="1" logic="all" resultfalse="n" resulttrue="n.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="m" resulttrue="m.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="h" resulttrue="h.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="s" resulttrue="s.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
+    </rule>
+    <!-- axis definitions -->
+    <axis maximum="144.000000" minimum="9.000000" name="optical" shortname="opsz">
+        <color a="1.000" b="0.056" g="0.775" r="0.752"/>
+    </axis>
+    <axis maximum="100.000000" minimum="0.000000" name="goofy" shortname="GOOF">
+        <color a="1.000" b="0.694" g="1.226" r="0.905"/>
+    </axis>
+    <axis maximum="1000.000000" minimum="0.000000" name="weight" shortname="wght">
+        <color a="1.000" b="0.764" g="0.000" r="0.989"/>
+    </axis>
+    <axis maximum="1.000000" minimum="0.000000" name="wonk" shortname="WONK">
+        <color a="1.000" b="0.694" g="1.226" r="0.905"/>
+    </axis>
+    <!-- master definitions -->
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMax.ufo" sortorder="0" stylename="Black OptMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMin.ufo" sortorder="1" stylename="Black OpMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMax.ufo" sortorder="2" stylename="Light OpMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMin.ufo" sortorder="3" stylename="Light OpMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMaxGoofyMax.ufo" sortorder="22" stylename="Black OpMax GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMinGoofyMax.ufo" sortorder="23" stylename="Black OpMin GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMaxGoofyMax.ufo" sortorder="24" stylename="Light OpMax GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMinGoofyMax.ufo" sortorder="25" stylename="Light OpMin GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <!-- instance definitions -->
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMaxGoofyMin.ufo" sortorder="4" stylename="Black OpMax GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMinGoofyMin.ufo" sortorder="6" stylename="Black OpMin GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-ThinOpMaxGoofyMin.ufo" sortorder="19" stylename="Thin OpMax GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMaxGoofyMin.ufo" sortorder="13" stylename="Regular OpMax GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMinGoofyMin.ufo" sortorder="15" stylename="Regular OpMin GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-ThinOpMinGoofyMin.ufo" sortorder="21" stylename="Thin OpMin GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMaxGoofyMin.ufo" sortorder="7" stylename="Bold OpMax GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMidGoofyMin.ufo" sortorder="5" stylename="Black OpMid GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMidGoofyMin.ufo" sortorder="8" stylename="Bold OpMid GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMinGoofyMin.ufo" sortorder="9" stylename="Bold OpMin GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMidGoofyMin.ufo" sortorder="14" stylename="Regular OpMid GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-ThinOpMidGoofyMin.ufo" sortorder="20" stylename="Thin OpMid GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMaxGoofyMin.ufo" sortorder="16" stylename="Light OpMax GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMidGoofyMin.ufo" sortorder="17" stylename="Light OpMid GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMinGoofyMin.ufo" sortorder="18" stylename="Light OpMin GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMaxGoofyMin.ufo" sortorder="10" stylename="Semibold OpMax GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMidGoofyMin.ufo" sortorder="11" stylename="Semibold OpMid GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMinGoofyMin.ufo" sortorder="12" stylename="Semibold OpMin GoofyMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="0.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMaxGoofyMax.ufo" sortorder="26" stylename="Black OpMax GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMidGoofyMax.ufo" sortorder="27" stylename="Black OpMid GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMinGoofyMax.ufo" sortorder="28" stylename="Black OpMin GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMaxGoofyMax.ufo" sortorder="29" stylename="Bold OpMax GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMidGoofyMax.ufo" sortorder="30" stylename="Bold OpMid GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMinGoofyMax.ufo" sortorder="31" stylename="Bold OpMin GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMaxGoofyMax.ufo" sortorder="32" stylename="Semibold OpMax GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMidGoofyMax.ufo" sortorder="33" stylename="Semibold OpMid GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMinGoofyMax.ufo" sortorder="34" stylename="Semibold OpMin GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMaxGoofyMax.ufo" sortorder="35" stylename="Regular OpMax GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMidGoofyMax.ufo" sortorder="36" stylename="Regular OpMid GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMinGoofyMax.ufo" sortorder="37" stylename="Regular OpMin GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMaxGoofyMax.ufo" sortorder="38" stylename="Light OpMax GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMidGoofyMax.ufo" sortorder="39" stylename="Light OpMid GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMinGoofyMax.ufo" sortorder="40" stylename="Light OpMin GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-ThinOpMaxGoofyMax.ufo" sortorder="41" stylename="Thin OpMax GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-ThinOpMidGoofyMax.ufo" sortorder="42" stylename="Thin OpMid GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-ThinOpMinGoofyMax.ufo" sortorder="43" stylename="Thin OpMin GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="100.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMaxGoofyMid.ufo" sortorder="44" stylename="Black OpMax GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMidGoofyMid.ufo" sortorder="45" stylename="Black OpMid GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMinGoofyMid.ufo" sortorder="46" stylename="Black OpMin GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMaxGoofyMid.ufo" sortorder="47" stylename="Bold OpMax GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMidGoofyMid.ufo" sortorder="48" stylename="Bold OpMid GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMinGoofyMid.ufo" sortorder="49" stylename="Bold OpMin GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMaxGoofyMid.ufo" sortorder="50" stylename="Semibold OpMax GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMidGoofyMid.ufo" sortorder="51" stylename="Semibold OpMid GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMinGoofyMid.ufo" sortorder="52" stylename="Semibold OpMin GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMaxGoofyMid.ufo" sortorder="53" stylename="Regular OpMax GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMidGoofyMid.ufo" sortorder="54" stylename="Regular OpMid GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMinGoofyMid.ufo" sortorder="55" stylename="Regular OpMin GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMaxGoofyMid.ufo" sortorder="56" stylename="Light OpMax GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMidGoofyMid.ufo" sortorder="57" stylename="Light OpMid GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMinGoofyMid.ufo" sortorder="58" stylename="Light OpMin GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-ThinOpMaxGoofyMid.ufo" sortorder="59" stylename="Thin OpMax GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-ThinOpMidGoofyMid.ufo" sortorder="60" stylename="Thin OpMid GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-ThinOpMinGoofyMid.ufo" sortorder="61" stylename="Thin OpMin GoofyMid">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="goofy" xvalue="50.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+</designspace>

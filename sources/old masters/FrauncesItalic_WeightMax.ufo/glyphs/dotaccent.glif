@@ -1,10 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccent" format="2">
-  <advance width="223"/>
+  <advance width="446"/>
   <unicode hex="02D9"/>
   <outline>
-    <component base="dotaccentcomb" xOffset="23"/>
-    <component base="dotaccentcomb" xOffset="23"/>
+    <contour>
+      <point x="606.0" y="1084.0" type="curve" smooth="yes"/>
+      <point x="739.2537313432836" y="1084.0"/>
+      <point x="854.0" y="1176.5555555555557"/>
+      <point x="854.0" y="1280.0" type="curve" smooth="yes"/>
+      <point x="854.0" y="1367.6923076923076"/>
+      <point x="786.1052631578948" y="1430.0"/>
+      <point x="682.0" y="1430.0" type="curve" smooth="yes"/>
+      <point x="541.4285714285714" y="1430.0"/>
+      <point x="436.0" y="1330.091743119266"/>
+      <point x="436.0" y="1232.0" type="curve" smooth="yes"/>
+      <point x="436.0" y="1139.5"/>
+      <point x="501.73333333333335" y="1084.0"/>
+    </contour>
+    <contour>
+      <point x="606.0" y="1084.0" type="curve" smooth="yes"/>
+      <point x="739.2537313432836" y="1084.0"/>
+      <point x="854.0" y="1176.5555555555557"/>
+      <point x="854.0" y="1280.0" type="curve" smooth="yes"/>
+      <point x="854.0" y="1367.6923076923076"/>
+      <point x="786.1052631578948" y="1430.0"/>
+      <point x="682.0" y="1430.0" type="curve" smooth="yes"/>
+      <point x="541.4285714285714" y="1430.0"/>
+      <point x="436.0" y="1330.091743119266"/>
+      <point x="436.0" y="1232.0" type="curve" smooth="yes"/>
+      <point x="436.0" y="1139.5"/>
+      <point x="501.73333333333335" y="1084.0"/>
+    </contour>
   </outline>
   <lib>
     <dict>

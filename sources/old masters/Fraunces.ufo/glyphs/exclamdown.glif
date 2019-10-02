@@ -1,9 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="exclamdown" format="2">
-  <advance width="263"/>
+  <advance width="526"/>
   <unicode hex="00A1"/>
   <outline>
-    <component base="exclam" xScale="-1" yScale="-1" xOffset="268" yOffset="464"/>
+    <contour>
+      <point x="384.0" y="-482.0"/>
+      <point x="340.73333333333335" y="-518.0"/>
+      <point x="266.0" y="-518.0" type="curve" smooth="yes"/>
+      <point x="190.72413793103448" y="-518.0"/>
+      <point x="148.0" y="-472.0"/>
+      <point x="148.0" y="-406.0" type="curve" smooth="yes"/>
+      <point x="148.0" y="-396.0"/>
+      <point x="150.0" y="-380.0"/>
+      <point x="150.0" y="-370.0" type="curve" smooth="yes"/>
+      <point x="218.0" y="470.0" type="line" smooth="yes"/>
+      <point x="222.0" y="508.0"/>
+      <point x="236.0" y="528.0"/>
+      <point x="264.0" y="528.0" type="curve" smooth="yes"/>
+      <point x="292.0" y="528.0"/>
+      <point x="306.0" y="508.0"/>
+      <point x="310.0" y="466.0" type="curve" smooth="yes"/>
+      <point x="382.0" y="-354.0" type="line" smooth="yes"/>
+      <point x="384.0" y="-372.0"/>
+      <point x="384.0" y="-390.0"/>
+      <point x="384.0" y="-404.0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="268.22400000000005" y="957.99" type="curve" smooth="yes"/>
+      <point x="197.31600000000003" y="957.99"/>
+      <point x="141.336" y="900.144"/>
+      <point x="141.336" y="829.236" type="curve" smooth="yes"/>
+      <point x="141.336" y="758.328"/>
+      <point x="197.31600000000003" y="702.348"/>
+      <point x="268.22400000000005" y="702.348" type="curve" smooth="yes"/>
+      <point x="339.132" y="702.348"/>
+      <point x="395.112" y="758.328"/>
+      <point x="395.112" y="829.236" type="curve" smooth="yes"/>
+      <point x="395.112" y="900.144"/>
+      <point x="339.132" y="957.99"/>
+    </contour>
   </outline>
   <lib>
     <dict>

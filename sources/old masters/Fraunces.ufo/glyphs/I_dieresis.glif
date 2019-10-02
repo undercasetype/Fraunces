@@ -1,9 +1,81 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Idieresis" format="2">
-  <advance width="366"/>
+  <advance width="732"/>
   <unicode hex="00CF"/>
   <outline>
-    <component base="I"/>
-    <component base="dieresis.case" xOffset="-4.077000000019325" yOffset="38"/>
+    <contour>
+      <point x="470.0" y="184.0" type="curve" smooth="yes"/>
+      <point x="470.0" y="1214.0" type="line" smooth="yes"/>
+      <point x="470.0" y="1268.0"/>
+      <point x="494.0" y="1294.0"/>
+      <point x="544.0" y="1304.0" type="curve" smooth="yes"/>
+      <point x="594.0" y="1316.0" type="line" smooth="yes"/>
+      <point x="628.0" y="1322.0"/>
+      <point x="650.0" y="1334.0"/>
+      <point x="650.0" y="1362.0" type="curve" smooth="yes"/>
+      <point x="650.0" y="1388.0"/>
+      <point x="630.0" y="1400.0"/>
+      <point x="588.0" y="1400.0" type="curve" smooth="yes"/>
+      <point x="144.0" y="1400.0" type="line" smooth="yes"/>
+      <point x="100.0" y="1400.0"/>
+      <point x="82.0" y="1388.0"/>
+      <point x="82.0" y="1362.0" type="curve" smooth="yes"/>
+      <point x="82.0" y="1334.0"/>
+      <point x="102.0" y="1322.0"/>
+      <point x="138.0" y="1316.0" type="curve" smooth="yes"/>
+      <point x="188.0" y="1304.0" type="line" smooth="yes"/>
+      <point x="236.0" y="1294.0"/>
+      <point x="262.0" y="1268.0"/>
+      <point x="262.0" y="1214.0" type="curve" smooth="yes"/>
+      <point x="262.0" y="184.0" type="line" smooth="yes"/>
+      <point x="262.0" y="132.0"/>
+      <point x="236.0" y="106.0"/>
+      <point x="188.0" y="96.0" type="curve" smooth="yes"/>
+      <point x="138.0" y="84.0" type="line" smooth="yes"/>
+      <point x="102.0" y="76.0"/>
+      <point x="82.0" y="66.0"/>
+      <point x="82.0" y="38.0" type="curve" smooth="yes"/>
+      <point x="82.0" y="12.0"/>
+      <point x="100.0" y="0.0"/>
+      <point x="144.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="588.0" y="0.0" type="line" smooth="yes"/>
+      <point x="630.0" y="0.0"/>
+      <point x="650.0" y="12.0"/>
+      <point x="650.0" y="38.0" type="curve" smooth="yes"/>
+      <point x="650.0" y="66.0"/>
+      <point x="628.0" y="76.0"/>
+      <point x="594.0" y="84.0" type="curve" smooth="yes"/>
+      <point x="544.0" y="96.0" type="line" smooth="yes"/>
+      <point x="494.0" y="106.0"/>
+      <point x="470.0" y="132.0"/>
+    </contour>
+    <contour>
+      <point x="168.72599999996137" y="1529.8483500000002" type="curve" smooth="yes"/>
+      <point x="233.4059999999614" y="1529.8483500000002"/>
+      <point x="283.30199999996137" y="1579.8577500000001"/>
+      <point x="283.30199999996137" y="1640.58345" type="curve" smooth="yes"/>
+      <point x="283.30199999996137" y="1701.3091500000003"/>
+      <point x="233.4059999999614" y="1749.5325000000003"/>
+      <point x="168.72599999996137" y="1749.5325000000003" type="curve" smooth="yes"/>
+      <point x="105.89399999996138" y="1749.5325000000003"/>
+      <point x="55.997999999961365" y="1701.3091500000003"/>
+      <point x="55.997999999961365" y="1640.58345" type="curve" smooth="yes"/>
+      <point x="55.997999999961365" y="1579.8577500000001"/>
+      <point x="105.89399999996138" y="1529.8483500000002"/>
+    </contour>
+    <contour>
+      <point x="561.4259999999614" y="1529.8483500000002" type="curve" smooth="yes"/>
+      <point x="626.1059999999615" y="1529.8483500000002"/>
+      <point x="676.0019999999614" y="1579.8577500000001"/>
+      <point x="676.0019999999614" y="1640.58345" type="curve" smooth="yes"/>
+      <point x="676.0019999999614" y="1701.3091500000003"/>
+      <point x="626.1059999999615" y="1749.5325000000003"/>
+      <point x="561.4259999999614" y="1749.5325000000003" type="curve" smooth="yes"/>
+      <point x="498.5939999999614" y="1749.5325000000003"/>
+      <point x="448.6979999999614" y="1701.3091500000003"/>
+      <point x="448.6979999999614" y="1640.58345" type="curve" smooth="yes"/>
+      <point x="448.6979999999614" y="1579.8577500000001"/>
+      <point x="498.5939999999614" y="1529.8483500000002"/>
+    </contour>
   </outline>
 </glyph>

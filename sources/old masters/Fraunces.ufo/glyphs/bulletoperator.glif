@@ -1,9 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bulletoperator" format="2">
-  <advance width="413"/>
+  <advance width="826"/>
   <unicode hex="2219"/>
   <outline>
-    <component base="bullet" yOffset="50"/>
+    <contour>
+      <point x="413.0" y="396.375" type="curve" smooth="yes"/>
+      <point x="531.75" y="396.375"/>
+      <point x="625.5" y="493.25"/>
+      <point x="625.5" y="612.0" type="curve" smooth="yes"/>
+      <point x="625.5" y="730.75"/>
+      <point x="531.75" y="824.5"/>
+      <point x="413.0" y="824.5" type="curve" smooth="yes"/>
+      <point x="294.25" y="824.5"/>
+      <point x="200.5" y="730.75"/>
+      <point x="200.5" y="612.0" type="curve" smooth="yes"/>
+      <point x="200.5" y="493.25"/>
+      <point x="294.25" y="396.375"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,9 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="exclamdown" format="2">
-  <advance width="263"/>
+  <advance width="526"/>
   <unicode hex="00A1"/>
   <outline>
-    <component base="exclam" xScale="-1" yScale="-1" xOffset="410" yOffset="477"/>
+    <contour>
+      <point x="352.0" y="-406.0"/>
+      <point x="268.0" y="-478.0"/>
+      <point x="162.0" y="-478.0" type="curve" smooth="yes"/>
+      <point x="68.0" y="-478.0"/>
+      <point x="6.0" y="-402.0"/>
+      <point x="6.0" y="-310.0" type="curve" smooth="yes"/>
+      <point x="6.0" y="-286.0"/>
+      <point x="6.0" y="-268.0"/>
+      <point x="28.0" y="-220.0" type="curve" smooth="yes"/>
+      <point x="314.0" y="438.0" type="line" smooth="yes"/>
+      <point x="346.0" y="510.0"/>
+      <point x="380.0" y="534.0"/>
+      <point x="424.0" y="534.0" type="curve" smooth="yes"/>
+      <point x="468.0" y="534.0"/>
+      <point x="490.0" y="496.0"/>
+      <point x="482.0" y="432.0" type="curve" smooth="yes"/>
+      <point x="400.0" y="-242.0" type="line" smooth="yes"/>
+      <point x="396.0" y="-268.0"/>
+      <point x="392.0" y="-286.0"/>
+      <point x="386.0" y="-304.0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="555.832" y="983.99" type="curve" smooth="yes"/>
+      <point x="425.95034532374103" y="983.99"/>
+      <point x="315.11800000000005" y="877.0625454545454"/>
+      <point x="315.11800000000005" y="756.338" type="curve" smooth="yes"/>
+      <point x="315.11800000000005" y="678.1495409836066"/>
+      <point x="376.96257142857144" y="623.8520000000001"/>
+      <point x="464.398" y="623.8520000000001" type="curve" smooth="yes"/>
+      <point x="603.0151428571428" y="623.8520000000001"/>
+      <point x="706.9780000000001" y="739.3303358778626"/>
+      <point x="706.9780000000001" y="849.638" type="curve" smooth="yes"/>
+      <point x="706.9780000000001" y="927.6488387096774"/>
+      <point x="643.1134929577465" y="983.99"/>
+    </contour>
   </outline>
   <lib>
     <dict>
