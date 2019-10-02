@@ -53,15 +53,26 @@ fSize = (24,24)
 for f in range(0,2,1):
     # For all values in wghtVals
     for x in (1, 1000):
-        if f == 0:
-            stringstextr = stringstext + stringsroman
-        if f == 1: 
-            stringstextr = stringstext + stringsitalic
         # For all values in opVals, draw a new page
         #for goofy in (0,100):
         for y in (9.1, 144):
-            stringstextr2 = stringstextr
-            while len(stringstextr2) > 0:
+            formattedSpacing = FormattedString()
+            if y == 9.1:
+                wonky = 0
+            if y == 144:
+                wonky = 1
+            formattedSpacing.fontVariations(wght = x, opsz = y, WONK = wonky)
+            formattedSpacing.append(stringstext, font=fnames[f], fontSize = 24)
+            if y == 9.1:
+                wonky = 1
+            if y == 144:
+                wonky = 0
+            formattedSpacing.fontVariations(wght = x, opsz = y, WONK = wonky)
+            if f == 0:
+                formattedSpacing.append(stringsroman, font=fnames[f],  fontSize = 24)
+            if f == 1:
+                formattedSpacing.append(stringsitalic, font=fnames[f],  fontSize = 24)
+            while len(formattedSpacing) > 0:
                 newPage("TabloidLandscape")
                 font(fnames[2], 9)
                 fontVariations(resetVariations=True)
@@ -71,6 +82,6 @@ for f in range(0,2,1):
                     boxWidth = width()/4
                     fontVariations(wght = x, opsz = y)
                     font(fnames[f], 24)
-                    stringstextr2 = textBox(stringstextr2, ((margin+(boxWidth*z)),margin+20,boxWidth,height()-margin*2))
+                    formattedSpacing = textBox(formattedSpacing, ((margin+(boxWidth*z)),margin+20,boxWidth,height()-margin*2))
                     
-#saveImage("PDFs/%s.pdf" % (newFileName))
+saveImage("PDFs/%s.pdf" % (newFileName))
