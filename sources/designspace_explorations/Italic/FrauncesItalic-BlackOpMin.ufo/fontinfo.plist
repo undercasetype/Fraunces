@@ -9,7 +9,7 @@
     <key>descender</key>
     <integer>-490</integer>
     <key>familyName</key>
-    <string>Fraunces Italic</string>
+    <string>Fraunces</string>
     <key>guidelines</key>
     <array>
       <dict>
@@ -24,6 +24,18 @@
         <key>y</key>
         <integer>1440</integer>
       </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>identifier</key>
+        <string>PWLbegsTp9</string>
+        <key>name</key>
+        <string>mid x-height</string>
+        <key>x</key>
+        <integer>0</integer>
+        <key>y</key>
+        <integer>470</integer>
+      </dict>
     </array>
     <key>italicAngle</key>
     <integer>0</integer>
@@ -34,7 +46,7 @@
     <key>postscriptFamilyOtherBlues</key>
     <array/>
     <key>postscriptFontName</key>
-    <string>Fraunces-BlackOpMin</string>
+    <string>Fraunces-ItalicBlackOpMin</string>
     <key>postscriptOtherBlues</key>
     <array/>
     <key>postscriptStemSnapH</key>
@@ -42,7 +54,7 @@
     <key>postscriptStemSnapV</key>
     <array/>
     <key>styleName</key>
-    <string>Black OpMin</string>
+    <string>Italic Black OpMin</string>
     <key>unitsPerEm</key>
     <integer>2000</integer>
     <key>xHeight</key>
