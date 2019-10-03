@@ -13,15 +13,21 @@
       <map input="122" output="143"/>
       <map input="144" output="144"/>
     </axis>
-    <axis tag="wght" name="weight" minimum="100" maximum="900" default="100"/>
+    <axis tag="wght" name="weight" minimum="0" maximum="1000" default="0">
+    	<labelname xml:lang="en">Weight</labelname>
+    	<map input="0" output="0"/>
+    	<map input="200" output="100"/>
+    	<map input="400" output="350"/>
+    	<map input="1000" output="1000"/>
+    </axis>
     <axis tag="WONK" name="wonk" minimum="0" maximum="1" default="0.5"/>
   </axes>
   <rules>
     <rule name="wonk">
-      <conditionset>
+<!--       <conditionset>
         <condition name="optical" minimum="9" maximum="18"/>
-        <condition name="weight" minimum="100" maximum="900"/>
-      </conditionset>
+        <condition name="weight" minimum="0" maximum="1000"/>
+      </conditionset> -->
       <conditionset>
         <condition name="wonk" minimum="0" maximum="0.49"/>
       </conditionset>
@@ -36,77 +42,194 @@
     </rule>
   </rules>
     <sources>
-        <source familyname="Fraunces Italic" filename="../Italic/FrauncesItalic-BlackOpMax.ufo" stylename="Black OpMax">
+        <source familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMax.ufo" stylename="Black OptMax">
             <location>
+                <dimension name="wonk" xvalue="0.500000" />
                 <dimension name="optical" xvalue="144" />
-                <dimension name="wonk" xvalue="0.5" />
-                <dimension name="weight" xvalue="900" />
+                <dimension name="weight" xvalue="1000" />
             </location>
         </source>
-        <source familyname="Fraunces Italic" filename="../Italic/FrauncesItalic-BlackOpMin.ufo" stylename="Black OpMin">
+        <source familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMin.ufo" stylename="Black OpMin">
             <location>
+                <dimension name="wonk" xvalue="0.500000" />
                 <dimension name="optical" xvalue="9" />
-                <dimension name="wonk" xvalue="0.5" />
-                <dimension name="weight" xvalue="900" />
+                <dimension name="weight" xvalue="1000" />
             </location>
         </source>
-        <source familyname="Fraunces Italic" filename="../Italic/FrauncesItalic-LightOpMax.ufo" stylename="Light OpMax">
+        <source familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMax.ufo" stylename="Light OpMax">
             <location>
+                <dimension name="wonk" xvalue="0.500000" />
                 <dimension name="optical" xvalue="144" />
-                <dimension name="wonk" xvalue="0.5" />
-                <dimension name="weight" xvalue="100" />
+                <dimension name="weight" xvalue="0" />
             </location>
         </source>
-        <source familyname="Fraunces Italic" filename="../Italic/FrauncesItalic-LightOpMin.ufo" stylename="Light OpMin">
+        <source familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMin.ufo" stylename="Light OpMin">
             <location>
+                <dimension name="wonk" xvalue="0.500000" />
                 <dimension name="optical" xvalue="9" />
-                <dimension name="wonk" xvalue="0.5" />
-                <dimension name="weight" xvalue="100" />
+                <dimension name="weight" xvalue="0" />
             </location>
         </source>
     </sources>
     <instances>
-        <instance familyname="Fraunces Italic" filename="../Italic/instances/FrauncesItalic-BlackOpMax.ufo" postscriptfontname="FrauncesItalic-BlackOpMax" stylename="Black OpMax">
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMax.ufo" postscriptfontname="FrauncesItalic-BlackOpMax" stylename="Black OpMax">
             <location>
+                <dimension name="wonk" xvalue="0.500000" />
                 <dimension name="optical" xvalue="144" />
-                <dimension name="wonk" xvalue="0.5" />
-                <dimension name="weight" xvalue="900" />
+                <dimension name="weight" xvalue="1000" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Fraunces Italic" filename="../Italic/instances/FrauncesItalic-BlackOpMin.ufo" postscriptfontname="FrauncesItalic-BlackOpMin" stylename="Black OpMin">
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMid.ufo" postscriptfontname="FrauncesItalic-BlackOpMid" stylename="Black OpMid">
             <location>
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="1000" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BlackOpMin.ufo" postscriptfontname="FrauncesItalic-BlackOpMin" stylename="Black OpMin">
+            <location>
+                <dimension name="wonk" xvalue="0.500000" />
                 <dimension name="optical" xvalue="9" />
-                <dimension name="wonk" xvalue="0.5" />
-                <dimension name="weight" xvalue="900" />
+                <dimension name="weight" xvalue="1000" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Fraunces Italic" filename="../Italic/instances/FrauncesItalic-LightOpMax.ufo" postscriptfontname="FrauncesItalic-LightOpMax" stylename="Light OpMax">
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMax.ufo" postscriptfontname="FrauncesItalic-BoldOpMax" stylename="Bold OpMax">
             <location>
+                <dimension name="wonk" xvalue="0.500000" />
                 <dimension name="optical" xvalue="144" />
-                <dimension name="wonk" xvalue="0.5" />
+                <dimension name="weight" xvalue="800" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMid.ufo" postscriptfontname="FrauncesItalic-BoldOpMid" stylename="Bold OpMid">
+            <location>
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="800" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-BoldOpMin.ufo" postscriptfontname="FrauncesItalic-BoldOpMin" stylename="Bold OpMin">
+            <location>
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="weight" xvalue="800" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMax.ufo" postscriptfontname="FrauncesItalic-SemiboldOpMax" stylename="Semibold OpMax">
+            <location>
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="weight" xvalue="600" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMid.ufo" postscriptfontname="FrauncesItalic-SemiboldOpMid" stylename="Semibold OpMid">
+            <location>
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="600" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-SemiboldOpMin.ufo" postscriptfontname="FrauncesItalic-SemiboldOpMin" stylename="Semibold OpMin">
+            <location>
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="weight" xvalue="600" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMax.ufo" postscriptfontname="FrauncesItalic-RegularOpMax" stylename="Regular OpMax">
+            <location>
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="weight" xvalue="350" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMid.ufo" postscriptfontname="FrauncesItalic-RegularOpMid" stylename="Regular OpMid">
+            <location>
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="350" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-RegularOpMin.ufo" postscriptfontname="FrauncesItalic-RegularOpMin" stylename="Regular OpMin">
+            <location>
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="weight" xvalue="350" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMax.ufo" postscriptfontname="FrauncesItalic-LightOpMax" stylename="Light OpMax">
+            <location>
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="144" />
                 <dimension name="weight" xvalue="100" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Fraunces Italic" filename="../Italic/instances/FrauncesItalic-RegularOpMin.ufo" postscriptfontname="FrauncesItalic-RegularOpMin" stylename="Regular OpMin">
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMid.ufo" postscriptfontname="FrauncesItalic-LightOpMid" stylename="Light OpMid">
             <location>
-                <dimension name="optical" xvalue="9" />
-                <dimension name="wonk" xvalue="0.5" />
-                <dimension name="weight" xvalue="400" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="100" />
             </location>
             <kerning />
             <info />
         </instance>
-        <instance familyname="Fraunces Italic" filename="../Italic/instances/FrauncesItalic-RegularOpMax.ufo" postscriptfontname="FrauncesItalic-RegularOpMax" stylename="Regular OpMax">
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-LightOpMin.ufo" postscriptfontname="FrauncesItalic-LightOpMin" stylename="Light OpMin">
             <location>
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="weight" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-ThinOpMax.ufo" postscriptfontname="FrauncesItalic-ThinOpMax" stylename="Thin OpMax">
+            <location>
+                <dimension name="wonk" xvalue="0.500000" />
                 <dimension name="optical" xvalue="144" />
-                <dimension name="wonk" xvalue="0.5" />
-                <dimension name="weight" xvalue="400" />
+                <dimension name="weight" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-ThinOpMid.ufo" postscriptfontname="FrauncesItalic-ThinOpMid" stylename="Thin OpMid">
+            <location>
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="weight" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces Italic" filename="instances/FrauncesItalic-ThinOpMin.ufo" postscriptfontname="FrauncesItalic-ThinOpMin" stylename="Thin OpMin">
+            <location>
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="weight" xvalue="0" />
             </location>
             <kerning />
             <info />
