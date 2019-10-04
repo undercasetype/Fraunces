@@ -91,4 +91,4 @@ for x in (0.1, 400, 1000):
             font(fnames[2], 10)
             text("Weight: %s, Optical Size: %s, Wonk: %s" % (x,z,y), (margin,margin))
             
-saveImage("PDFs/%s.pdf" % (newFileName))
+esaveImage("PDFs/%s.pdf" % (newFileName))
