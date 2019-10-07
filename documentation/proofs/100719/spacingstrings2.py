@@ -52,10 +52,10 @@ fSize = (24,24)
 # For Fraunces and for Fraunces Italic:
 for f in range(0,2,1):
     # For all values in wghtVals
-    for x in (1, 1000):
+    for x in (1, 400, 1000):
         # For all values in opVals, draw a new page
         #for goofy in (0,100):
-        for y in (9.1, 144):
+        for y in (9.1, 36, 144):
             formattedSpacing = FormattedString()
             if y == 9.1:
                 wonky = 0
@@ -76,7 +76,7 @@ for f in range(0,2,1):
                 newPage("TabloidLandscape")
                 font(fnames[2], 9)
                 fontVariations(resetVariations=True)
-                text("OpSz: %s, Wght: %s, " % (y,x), (50,50))
+                text("OpSz: %s, Wght: %s" % (y,x), (50,50))
                 # For number of values specified in columns, draw a new column.
                 for z in range(0,4,1):
                     boxWidth = width()/4
