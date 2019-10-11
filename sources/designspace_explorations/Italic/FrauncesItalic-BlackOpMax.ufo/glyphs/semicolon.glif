@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="semicolon" format="2">
-  <advance width="684"/>
+  <advance width="652"/>
   <unicode hex="003B"/>
   <outline>
     <component base="comma"/>
-    <component base="period" xOffset="101" yOffset="554"/>
+    <component base="period" xOffset="131" yOffset="554"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.8431,0.8627,1,1</string>
     </dict>
   </lib>
 </glyph>
