@@ -74,6 +74,8 @@
     <string>T_horn.glif</string>
     <key>U</key>
     <string>U_.glif</string>
+    <key>Uhorn</key>
+    <string>U_horn.glif</string>
     <key>V</key>
     <string>V_.glif</string>
     <key>W</key>
@@ -86,6 +88,8 @@
     <string>Z_.glif</string>
     <key>a</key>
     <string>a.glif</string>
+    <key>ae</key>
+    <string>ae.glif</string>
     <key>ampersand</key>
     <string>ampersand.glif</string>
     <key>ampersand.alt</key>
@@ -150,6 +154,8 @@
     <string>dagger.glif</string>
     <key>daggerdbl</key>
     <string>daggerdbl.glif</string>
+    <key>dcroat</key>
+    <string>dcroat.glif</string>
     <key>degree</key>
     <string>degree.glif</string>
     <key>divide</key>
@@ -160,6 +166,10 @@
     <string>dollar.glif</string>
     <key>dong</key>
     <string>dong.glif</string>
+    <key>dotlessi</key>
+    <string>dotlessi.glif</string>
+    <key>dotlessj</key>
+    <string>dotlessj.glif</string>
     <key>e</key>
     <string>e.glif</string>
     <key>eight</key>
@@ -188,6 +198,10 @@
     <string>five.glif</string>
     <key>four</key>
     <string>four.glif</string>
+    <key>four.superior</key>
+    <string>four.superior.glif</string>
+    <key>fraction</key>
+    <string>fraction.glif</string>
     <key>franc</key>
     <string>franc.glif</string>
     <key>g</key>
@@ -214,6 +228,8 @@
     <string>h.glif</string>
     <key>h.alt</key>
     <string>h.alt.glif</string>
+    <key>hbar</key>
+    <string>hbar.glif</string>
     <key>hyphen</key>
     <string>hyphen.glif</string>
     <key>hyphensoft</key>
@@ -228,6 +244,8 @@
     <string>k.glif</string>
     <key>kip</key>
     <string>kip.glif</string>
+    <key>kra</key>
+    <string>kra.glif</string>
     <key>l</key>
     <string>l.glif</string>
     <key>less</key>
@@ -270,10 +288,18 @@
     <string>numero.glif</string>
     <key>o</key>
     <string>o.glif</string>
+    <key>oe</key>
+    <string>oe.glif</string>
     <key>ohorn</key>
     <string>ohorn.glif</string>
     <key>one</key>
     <string>one.glif</string>
+    <key>onehalf</key>
+    <string>onehalf.glif</string>
+    <key>onequarter</key>
+    <string>onequarter.glif</string>
+    <key>onesuperior</key>
+    <string>onesuperior.glif</string>
     <key>ordfeminine</key>
     <string>ordfeminine.glif</string>
     <key>ordmasculine</key>
@@ -338,8 +364,12 @@
     <string>s.glif</string>
     <key>s.alt</key>
     <string>s.alt.glif</string>
+    <key>schwa</key>
+    <string>schwa.glif</string>
     <key>second</key>
     <string>second.glif</string>
+    <key>section</key>
+    <string>section.glif</string>
     <key>semicolon</key>
     <string>semicolon.glif</string>
     <key>seven</key>
@@ -354,14 +384,24 @@
     <string>sterling.glif</string>
     <key>t</key>
     <string>t.glif</string>
+    <key>tbar</key>
+    <string>tbar.glif</string>
+    <key>thorn</key>
+    <string>thorn.glif</string>
     <key>three</key>
     <string>three.glif</string>
+    <key>threequarters</key>
+    <string>threequarters.glif</string>
+    <key>threesuperior</key>
+    <string>threesuperior.glif</string>
     <key>trademark</key>
     <string>trademark.glif</string>
     <key>turkishlira</key>
     <string>turkishlira.glif</string>
     <key>two</key>
     <string>two.glif</string>
+    <key>twosuperior</key>
+    <string>twosuperior.glif</string>
     <key>u</key>
     <string>u.glif</string>
     <key>uhorn</key>
@@ -384,5 +424,7 @@
     <string>z.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
+    <key>zero.superior</key>
+    <string>zero.superior.glif</string>
   </dict>
 </plist>
