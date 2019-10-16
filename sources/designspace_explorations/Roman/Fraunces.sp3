@@ -10,7 +10,7 @@
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
     <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Fraunces/sources/designspace_explorations/Roman/instances"/>
-    <data name="previewtext" value="The Hundred Dollar."/>
+    <data name="previewtext" value="/Eng"/>
     <data name="verticalPreviewAxis" value="wonk"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
@@ -38,7 +38,7 @@
         <color a="1.000" b="0.694" g="1.226" r="0.905"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Fraunces" filename="Fraunces-BlackOpMax.ufo" sortorder="0" stylename="Black OptMax">
+    <master familyname="Fraunces" filename="Fraunces-BlackOpMax.ufo" sortorder="0" stylename="Black OpMax">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="weight" xvalue="1000.000000"/>
@@ -46,7 +46,7 @@
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces" filename="Fraunces-BlackOpMin.ufo" sortorder="1" stylename="Black OpMin">
+    <master familyname="Fraunces" filename="Fraunces-BlackOpMin.ufo" sortorder="1" stylename="Black OpMin ">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="weight" xvalue="1000.000000"/>
