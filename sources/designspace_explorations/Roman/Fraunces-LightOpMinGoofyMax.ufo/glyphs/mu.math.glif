@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mu.math" format="2">
+  <advance width="1189"/>
+  <unicode hex="00B5"/>
+  <outline>
+    <contour>
+      <point x="234" y="269" type="line"/>
+      <point x="234" y="-57"/>
+      <point x="215" y="-294"/>
+      <point x="215" y="-439" type="curve" smooth="yes"/>
+      <point x="215" y="-480"/>
+      <point x="232" y="-502"/>
+      <point x="257" y="-502" type="curve" smooth="yes"/>
+      <point x="280" y="-502"/>
+      <point x="298" y="-480"/>
+      <point x="298" y="-439" type="curve" smooth="yes"/>
+      <point x="298" y="-294"/>
+      <point x="284" y="-56"/>
+      <point x="284" y="269" type="curve"/>
+    </contour>
+    <component base="u" xScale="1.05" yScale="1.05" xOffset="2"/>
+  </outline>
+</glyph>
