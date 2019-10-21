@@ -1,0 +1,56 @@
+Introducing Fraunces,  a new typeface family by Charles&Thorn.
+
+## For the Love of Plato's Shadows ##
+
+In Plato's Republic, Socrates describes a scenario where a prisoner is chained and restricted in a cave. Light enters the cave from behind the prisoner, and projects the silhouettes of passing figures, but because the prisoner is unable to turn their head, their experience of reality is only what they can see: the projected shadows. And so the prisoner believes the shadows are their reality, because that is the sum of their experience. Plato uses this allegory to point humanity to the source of truth, instead of the effects. 
+
+
+
+In the early summer of 2018, Google Fonts approached us with the challenge of designing a display typeface. I spent some time perusing the catalog, and was struck by a pretty big hole in the typographic voices available, a hole normally occupied by Cooper Black, Windsor, Souvenir, Clearface, and other “wonky” typefaces made popular in the 1970's.  Of course, many type designers and critics of this style of letterform would see this as a welcome oversight. Matthew Carter memorably had this to say:
+
+“It is one thing to lay out a multi-weight family schematically, it is quite another to draw a workable Ultra Black with personality of its own, a process close to caricature — an exaggeration of normal features to shape forms at once massive and articulate. Without careful design, boldfaces lose definition and look as though they have been dipped in chocolate.” 
+
+It's pretty obvious he's talking about Cooper Black. Why he's saying this as if it's a bad thing is beyond me. I love this era of type, with its wobbly interpretation of classic forms, a form of letter that is more interested in how it will look in an advertisement than as a face for a serious novel. A genre of type that is beautifully wrong.
+	This typeface would not be a recreation of Cooper Black. It would need to be something more robust and versatile, that could capture a broader range of typographic voices.
+
+
+## "Old Style" ##
+
+I tried to find information about this genre/era of type, and came up short. Additionally, my vision of this typographic voice extends beyond just “chocolate-dipped” faces made to sell sugary beverages. This is a voice that originally had root in the Arts & Crafts experimentations of the late 1800's—early 1900's. Yes, there were rounded, soft letters, but there were also sharper, elegant forms, such as the faces of Robert DeLittle. 
+
+[image from DeLittle specimen here]
+
+The Barnhart Brothers & Spindler type catalog from the 1920s was a major influence on the overall tone of the family.
+
+[images from BB&S catalog]
+
+As I was doing research on this era of type, I noticed a term pop up often: "Old Style". The commonality between these typefaces labeled Old Style seems like a stretch. As far as I can tell, this term is a bit of a misnomer, having more to do with how people at the time perceived older typefaces of antiquity, and less to do with an accurate interpretation of this lettterform.
+	Possibly, the origination of this style was William Morris' Golden Type, his interpretation of Nicolas Jensons type from the late 1400s. Unlike Bruce Rogers' Centaur, which aspired to be a crisp, calligraphic-rooted approach to Jenson's type, Morris interpreted Old Style as a heavy, inky letterform. Morris' drawings reflect this, emphasizing the silhouette/outline of the form. This approach spoke much more to a desire to romanticize the effects of printing on letterforms, a nostalgia for a letterform that never truly existed.
+
+[Morris vs. Jenson comparison]
+
+
+## Key Features ##
+
+Fraunces consists of a Roman and Italic. Within each are 4 axes: Weight, Goofy, Wonk, and Optical Size.
+	Type designers in the past would provide fixed instances of an axis (such as Light, Regular, Bold, Black). Variable Fonts allow granular control of each of these axes, and allows the user to access all the calculations in between.
+	The main axes intended for the end user to use are the Weight, Goofy, and Wonk. The Goofy axis controls the "wetness" or "goofiness" of the typeface, while the Wonk axis controls substitutions of all the leaning characters in the Roman, and the exaggerated flag characters in the italic. 
+	The Optical Size axis makes automatic size specific adjustments to the type. At larger sizes (Optical Max), the contrast between thicks & thin increases (especially in the Goofy Min), the x-height reduces, the letter width compresses, and letter spacing decreases to a tighter fitting. In the smaller sizes (Optical Min), the x-height increases, contrast decreases, the letter width expands, and letter spacing increases. Additionally, at 18pt and below, the wonky characters are automatically substituted for the normalized characters.
+	# specimen specific text
+	On pages XX, XX, and XX, you'll find more detailed explanations and diagrams of these axes. 
+
+## Weight ##
+
+While the Black side of the typeface draws inspiration from Cooper Black, and high contrast transitional typefaces, the Light is more difficult to draw a historical comparison. Oswald Cooper drew a lighter version of Cooper, that seems to carry very little in common with its Black companion besides its overall shape. Kyle Wayne Benson's Gooper showcases a sensible skeleton for this letterform, sharing more in common with monolinear typewriter faces. Fraunces follows this model, albeit with a more buttoned up approach.
+
+
+## Soft vs. Sharp ##
+
+Although Fraunces is drawn entirely with rounded serifs, it achieves sharpness in the Goofy Min area of the design space with extremely high contrast. 
+
+
+## Wonk ##
+
+The leaning h/n/m is a major characteristic of Windsor, which isn't without historical precedent. Diagonal movement is often seen in the Uncial a/d. Windsor seems to take liberty with this idea and gratuitously applies it to the h/n/m.
+
+Type designers introduced the horizontally squished lowercase f and j as a way to avoid the need for ligatures. This logic places an emphasis on economy. In the Italic, this logic is extended to the flagged characters of the d and l.
