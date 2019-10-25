@@ -12,8 +12,14 @@
     <string>C_.glif</string>
     <key>D</key>
     <string>D_.glif</string>
+    <key>Dcroat</key>
+    <string>D_croat.glif</string>
     <key>E</key>
     <string>E_.glif</string>
+    <key>Eng</key>
+    <string>E_ng.glif</string>
+    <key>Eth</key>
+    <string>E_th.glif</string>
     <key>Euro</key>
     <string>E_uro.glif</string>
     <key>F</key>
@@ -24,6 +30,8 @@
     <string>G_ermandbls.glif</string>
     <key>H</key>
     <string>H_.glif</string>
+    <key>Hbar</key>
+    <string>H_bar.glif</string>
     <key>I</key>
     <string>I_.glif</string>
     <key>J</key>
@@ -32,6 +40,8 @@
     <string>K_.glif</string>
     <key>L</key>
     <string>L_.glif</string>
+    <key>Lslash</key>
+    <string>L_slash.glif</string>
     <key>M</key>
     <string>M_.glif</string>
     <key>N</key>
@@ -40,6 +50,8 @@
     <string>O_.glif</string>
     <key>OE</key>
     <string>O_E_.glif</string>
+    <key>Oslash</key>
+    <string>O_slash.glif</string>
     <key>P</key>
     <string>P_.glif</string>
     <key>Q</key>
@@ -48,8 +60,14 @@
     <string>R_.glif</string>
     <key>S</key>
     <string>S_.glif</string>
+    <key>Schwa</key>
+    <string>S_chwa.glif</string>
     <key>T</key>
     <string>T_.glif</string>
+    <key>Tbar</key>
+    <string>T_bar.glif</string>
+    <key>Thorn</key>
+    <string>T_horn.glif</string>
     <key>U</key>
     <string>U_.glif</string>
     <key>V</key>
@@ -64,6 +82,8 @@
     <string>Z_.glif</string>
     <key>a</key>
     <string>a.glif</string>
+    <key>ae</key>
+    <string>ae.glif</string>
     <key>ampersand</key>
     <string>ampersand.glif</string>
     <key>ampersand.alt</key>
@@ -144,6 +164,10 @@
     <string>dollar.glif</string>
     <key>dong</key>
     <string>dong.glif</string>
+    <key>dotlessi</key>
+    <string>dotlessi.glif</string>
+    <key>dotlessj</key>
+    <string>dotlessj.glif</string>
     <key>e</key>
     <string>e.glif</string>
     <key>eight</key>
@@ -154,8 +178,12 @@
     <string>emdash.glif</string>
     <key>endash</key>
     <string>endash.glif</string>
+    <key>eng</key>
+    <string>eng.glif</string>
     <key>equal</key>
     <string>equal.glif</string>
+    <key>eth</key>
+    <string>eth.glif</string>
     <key>exclam</key>
     <string>exclam.glif</string>
     <key>exclamdown</key>
@@ -176,6 +204,8 @@
     <string>franc.glif</string>
     <key>g</key>
     <string>g.glif</string>
+    <key>germandbls</key>
+    <string>germandbls.glif</string>
     <key>gnrl:hyphen</key>
     <string>gnrl_hyphen.glif</string>
     <key>greater</key>
@@ -196,6 +226,8 @@
     <string>h.glif</string>
     <key>h.alt</key>
     <string>h.alt.glif</string>
+    <key>hbar</key>
+    <string>hbar.glif</string>
     <key>hyphen</key>
     <string>hyphen.glif</string>
     <key>hyphensoft</key>
@@ -212,6 +244,8 @@
     <string>k.alt.glif</string>
     <key>kip</key>
     <string>kip.glif</string>
+    <key>kra</key>
+    <string>kra.glif</string>
     <key>l</key>
     <string>l.glif</string>
     <key>l.alt</key>
@@ -224,6 +258,8 @@
     <string>lira.glif</string>
     <key>logicalnot</key>
     <string>logicalnot.glif</string>
+    <key>lslash</key>
+    <string>lslash.glif</string>
     <key>m</key>
     <string>m.glif</string>
     <key>manat</key>
@@ -232,6 +268,8 @@
     <string>minus.glif</string>
     <key>minute</key>
     <string>minute.glif</string>
+    <key>mu.math</key>
+    <string>mu.math.glif</string>
     <key>multiply</key>
     <string>multiply.glif</string>
     <key>n</key>
@@ -250,6 +288,10 @@
     <string>numero.glif</string>
     <key>o</key>
     <string>o.glif</string>
+    <key>oe</key>
+    <string>oe.glif</string>
+    <key>ogonek</key>
+    <string>ogonek.glif</string>
     <key>one</key>
     <string>one.glif</string>
     <key>onehalf</key>
@@ -258,8 +300,12 @@
     <string>onequarter.glif</string>
     <key>onesuperior</key>
     <string>onesuperior.glif</string>
+    <key>oslash</key>
+    <string>oslash.glif</string>
     <key>p</key>
     <string>p.glif</string>
+    <key>paragraph</key>
+    <string>paragraph.glif</string>
     <key>parenleft</key>
     <string>parenleft.glif</string>
     <key>parenright</key>
@@ -314,8 +360,12 @@
     <string>ruble.glif</string>
     <key>s</key>
     <string>s.glif</string>
+    <key>schwa</key>
+    <string>schwa.glif</string>
     <key>second</key>
     <string>second.glif</string>
+    <key>section</key>
+    <string>section.glif</string>
     <key>semicolon</key>
     <string>semicolon.glif</string>
     <key>seven</key>
@@ -330,6 +380,10 @@
     <string>sterling.glif</string>
     <key>t</key>
     <string>t.glif</string>
+    <key>tbar</key>
+    <string>tbar.glif</string>
+    <key>thorn</key>
+    <string>thorn.glif</string>
     <key>three</key>
     <string>three.glif</string>
     <key>threequarters</key>
