@@ -3,7 +3,33 @@
   <advance width="1601"/>
   <unicode hex="01EA"/>
   <outline>
+    <contour>
+      <point x="912" y="56" type="line"/>
+      <point x="586.6765636085105" y="-6.869253044981107"/>
+      <point x="436.21215256650777" y="-114.93473168975868"/>
+      <point x="397" y="-261" type="curve" smooth="yes"/>
+      <point x="359" y="-400"/>
+      <point x="430" y="-489"/>
+      <point x="593" y="-489" type="curve" smooth="yes"/>
+      <point x="738" y="-489"/>
+      <point x="862" y="-420"/>
+      <point x="925" y="-335" type="curve" smooth="yes"/>
+      <point x="969" y="-276"/>
+      <point x="952" y="-238"/>
+      <point x="925" y="-229" type="curve" smooth="yes"/>
+      <point x="901" y="-220"/>
+      <point x="878" y="-233"/>
+      <point x="848" y="-255" type="curve" smooth="yes"/>
+      <point x="816" y="-279"/>
+      <point x="792" y="-290"/>
+      <point x="764" y="-290" type="curve" smooth="yes"/>
+      <point x="719" y="-290"/>
+      <point x="693" y="-257"/>
+      <point x="709" y="-201" type="curve" smooth="yes"/>
+      <point x="728.1503223610233" y="-130.7821513429148"/>
+      <point x="782" y="-51"/>
+      <point x="928" y="3" type="curve"/>
+    </contour>
     <component base="O"/>
-    <component base="ogonek" xOffset="540" yOffset="-10"/>
   </outline>
 </glyph>
