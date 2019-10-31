@@ -3,43 +3,12 @@
   <advance width="573"/>
   <unicode hex="02DC"/>
   <outline>
-    <contour>
-      <point x="406" y="1108" type="curve" smooth="yes"/>
-      <point x="478.7563025210084" y="1108.0"/>
-      <point x="523.0" y="1158.625"/>
-      <point x="523" y="1270" type="curve" smooth="yes"/>
-      <point x="523" y="1293"/>
-      <point x="516" y="1300"/>
-      <point x="503" y="1300" type="curve" smooth="yes"/>
-      <point x="486" y="1300"/>
-      <point x="480" y="1289"/>
-      <point x="480" y="1270" type="curve" smooth="yes"/>
-      <point x="480" y="1207"/>
-      <point x="458" y="1175"/>
-      <point x="416" y="1175" type="curve" smooth="yes"/>
-      <point x="340" y="1175.0"/>
-      <point x="279.9068825910931" y="1305.0"/>
-      <point x="167" y="1305" type="curve" smooth="yes"/>
-      <point x="94.24369747899159" y="1305.0"/>
-      <point x="50.0" y="1252.3540372670807"/>
-      <point x="50" y="1142" type="curve" smooth="yes"/>
-      <point x="50" y="1121"/>
-      <point x="58" y="1113"/>
-      <point x="71" y="1113" type="curve" smooth="yes"/>
-      <point x="86" y="1113"/>
-      <point x="93" y="1125"/>
-      <point x="93" y="1142" type="curve" smooth="yes"/>
-      <point x="93" y="1208"/>
-      <point x="116" y="1238"/>
-      <point x="158" y="1238" type="curve" smooth="yes"/>
-      <point x="230.58536585365852" y="1238.0"/>
-      <point x="294.0975609756098" y="1108.0"/>
-    </contour>
+    <component base="tildecmb"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.8431,0.8627,1,1</string>
+      <string>0.3922,0.8039,1,1</string>
     </dict>
   </lib>
 </glyph>
