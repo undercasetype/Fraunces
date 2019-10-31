@@ -254,37 +254,10 @@
       <string>ring</string>
       <string>cedilla</string>
       <string>ogonek</string>
-      <string>hookabove</string>
-      <string>doubleprimemod</string>
-      <string>macronbelow</string>
-      <string>caron.alt</string>
-      <string>acute.case</string>
-      <string>brevebelow.case</string>
-      <string>breve.case</string>
-      <string>invertedbrevecmb.case</string>
-      <string>caron.case</string>
-      <string>cedilla.case</string>
-      <string>circumflex.case</string>
-      <string>commaaccentbelowcmb.case</string>
-      <string>dieresisbelow.case</string>
-      <string>dieresis.case</string>
-      <string>dotaccent.case</string>
-      <string>dotbelowcombcmb.case</string>
-      <string>grave.case</string>
-      <string>hookabove.case</string>
-      <string>horncmb.case</string>
-      <string>hungarumlaut.case</string>
-      <string>macronbelow.case</string>
-      <string>macron.case</string>
-      <string>ogonek.case</string>
-      <string>ring.case</string>
-      <string>tilde.case</string>
       <string>horncmb</string>
-      <string>dotbelowcombcmb</string>
       <string>invertedbrevecmb</string>
       <string>commaaccentbelowcmb</string>
       <string>gravedoublecmb</string>
-      <string>gravedoublecmb.case</string>
     </array>
     <key>Caps</key>
     <array>
@@ -339,6 +312,112 @@
       <string>slash</string>
       <string>backslash</string>
       <string>bar</string>
+      <string>bracketangleleft</string>
+      <string>bracketangleright</string>
+      <string>at</string>
+      <string>copyright</string>
+      <string>dagger</string>
+      <string>daggerdbl</string>
+      <string>numero</string>
+      <string>numbersign</string>
+      <string>dollar</string>
+      <string>yen</string>
+      <string>Euro</string>
+      <string>sterling</string>
+      <string>lira</string>
+      <string>colonmonetary</string>
+      <string>cedi</string>
+      <string>guarani</string>
+      <string>franc</string>
+      <string>kip</string>
+      <string>naira</string>
+      <string>ruble</string>
+      <string>peso</string>
+      <string>indianrupee</string>
+      <string>turkishlira</string>
+      <string>won</string>
+      <string>manat</string>
+      <string>peseta</string>
+      <string>section</string>
+      <string>paragraph</string>
+      <string>Germandbls</string>
+      <string>AE</string>
+      <string>OE</string>
+      <string>Schwa</string>
+      <string>Eng</string>
+      <string>Thorn</string>
+      <string>Eth</string>
+      <string>Dcroat</string>
+      <string>Hbar</string>
+      <string>Tbar</string>
+      <string>Lslash</string>
+      <string>Oslash</string>
+      <string>Aogonek</string>
+      <string>Eogonek</string>
+      <string>Iogonek</string>
+      <string>Oogonek</string>
+      <string>Uogonek</string>
+      <string>Ohorn</string>
+      <string>Uhorn</string>
+      <string>period</string>
+      <string>comma</string>
+      <string>colon</string>
+      <string>semicolon</string>
+      <string>ellipsis</string>
+      <string>quotedblleft</string>
+      <string>quotedblright</string>
+      <string>quoteleft</string>
+      <string>quoteright</string>
+      <string>apostrophemod</string>
+      <string>quotesinglbase</string>
+      <string>quotedblbase</string>
+      <string>guillemetleft</string>
+      <string>guillemetright</string>
+      <string>guilsinglleft</string>
+      <string>guilsinglright</string>
+      <string>hyphen</string>
+      <string>hyphensoft</string>
+      <string>gnrl:hyphen</string>
+      <string>endash</string>
+      <string>emdash</string>
+      <string>underscore</string>
+      <string>periodcentered</string>
+      <string>bullet</string>
+      <string>bulletoperator</string>
+      <string>quotesingle</string>
+      <string>quotedbl</string>
+      <string>minute</string>
+      <string>primemod</string>
+      <string>primedblmod</string>
+      <string>second</string>
+      <string>asciicircum</string>
+      <string>asciitilde</string>
+      <string>plus</string>
+      <string>minus</string>
+      <string>plusminus</string>
+      <string>divide</string>
+      <string>multiply</string>
+      <string>equal</string>
+      <string>less</string>
+      <string>greater</string>
+      <string>lessequal</string>
+      <string>greaterequal</string>
+      <string>approxequal</string>
+      <string>notequal</string>
+      <string>logicalnot</string>
+      <string>divisionslash</string>
+      <string>commercialminussign</string>
+      <string>percent</string>
+      <string>perthousand</string>
+      <string>zero.superior</string>
+      <string>onesuperior</string>
+      <string>twosuperior</string>
+      <string>threesuperior</string>
+      <string>four.superior</string>
+      <string>fraction</string>
+      <string>onequarter</string>
+      <string>onehalf</string>
+      <string>threequarters</string>
     </array>
     <key>Lowercase</key>
     <array>
@@ -372,6 +451,51 @@
       <string>x</string>
       <string>y</string>
       <string>z</string>
+      <string>registered</string>
+      <string>trademark</string>
+      <string>asterisk</string>
+      <string>cent</string>
+      <string>dong</string>
+      <string>fhook</string>
+      <string>degree</string>
+      <string>ordfeminine</string>
+      <string>ordmasculine</string>
+      <string>mu.math</string>
+      <string>germandbls</string>
+      <string>dotlessi</string>
+      <string>dotlessj</string>
+      <string>ae</string>
+      <string>oe</string>
+      <string>schwa</string>
+      <string>kra</string>
+      <string>eng</string>
+      <string>thorn</string>
+      <string>eth</string>
+      <string>dcroat</string>
+      <string>hbar</string>
+      <string>tbar</string>
+      <string>lslash</string>
+      <string>oslash</string>
+      <string>aogonek</string>
+      <string>eogonek</string>
+      <string>iogonek</string>
+      <string>oogonek</string>
+      <string>uogonek</string>
+      <string>ohorn</string>
+      <string>uhorn</string>
+      <string>acute</string>
+      <string>hungarumlaut</string>
+      <string>grave</string>
+      <string>circumflex</string>
+      <string>caron</string>
+      <string>breve</string>
+      <string>tilde</string>
+      <string>macron</string>
+      <string>dieresis</string>
+      <string>dotaccent</string>
+      <string>ring</string>
+      <string>cedilla</string>
+      <string>ogonek</string>
     </array>
   </dict>
 </plist>
