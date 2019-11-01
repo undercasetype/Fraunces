@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acute.cap" format="2">
   <advance width="568"/>
+  <anchor x="145" y="980" name="center"/>
   <outline>
     <contour>
       <point x="153" y="1324" type="curve" smooth="yes"/>
@@ -25,7 +26,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0.6667,0.2562,1</string>
+      <string>0.8039,1,0.3922,1</string>
     </dict>
   </lib>
 </glyph>
