@@ -3,11 +3,11 @@
 <plist version="1.0">
   <dict>
     <key>ascender</key>
-    <integer>1550</integer>
+    <integer>1510</integer>
     <key>capHeight</key>
-    <real>1400.0</real>
+    <integer>1400</integer>
     <key>descender</key>
-    <integer>-450</integer>
+    <integer>-490</integer>
     <key>familyName</key>
     <string>Fraunces Italic</string>
     <key>guidelines</key>
@@ -16,35 +16,37 @@
         <key>angle</key>
         <integer>0</integer>
         <key>identifier</key>
-        <string>Q4Hr2Bi6h6</string>
+        <string>drjsb4u9NT</string>
         <key>name</key>
         <string>ascender</string>
         <key>x</key>
-        <real>-13.334800000000001</real>
+        <integer>0</integer>
         <key>y</key>
-        <real>1520.0082000000002</real>
+        <integer>1434</integer>
       </dict>
       <dict>
         <key>angle</key>
         <integer>0</integer>
         <key>identifier</key>
-        <string>2jtS9psfst</string>
+        <string>cv32eevh5k</string>
         <key>name</key>
         <string>mid x-height</string>
         <key>x</key>
         <integer>0</integer>
         <key>y</key>
-        <real>476.788</real>
+        <integer>450</integer>
       </dict>
     </array>
     <key>italicAngle</key>
-    <real>0.0</real>
+    <integer>0</integer>
     <key>postscriptBlueValues</key>
     <array/>
     <key>postscriptFamilyBlues</key>
     <array/>
     <key>postscriptFamilyOtherBlues</key>
     <array/>
+    <key>postscriptFontName</key>
+    <string>Fraunces-ItalicLightOpMin</string>
     <key>postscriptOtherBlues</key>
     <array/>
     <key>postscriptStemSnapH</key>
@@ -56,6 +58,6 @@
     <key>unitsPerEm</key>
     <integer>2000</integer>
     <key>xHeight</key>
-    <real>1007.1040000000002</real>
+    <integer>900</integer>
   </dict>
 </plist>
