@@ -1,0 +1,642 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis tag="opsz" name="optical" minimum="9" maximum="144" default="9">
+          <labelname xml:lang="en">Optical Size</labelname>
+          <map input="9" output="9"/>
+          <map input="18" output="36"/>
+          <map input="24" output="72"/>
+          <map input="36" output="100"/>
+          <map input="48" output="130"/>
+          <map input="144" output="144"/>
+        </axis>
+        <axis default="0" maximum="100" minimum="0" name="goofy" tag="GOOF" />
+        <axis default="0" maximum="1000" minimum="0" name="weight" tag="wght" />
+        <axis default="0.5" maximum="1" minimum="0" name="wonk" tag="WONK" />
+    </axes>
+    <rules>
+        <rule name="wonk">
+            <conditionset>
+                <condition name="optical" minimum="9" maximum="18"/>
+                <condition name="weight" minimum="0" maximum="1000"/>
+                <condition name="goofy" minimum="0" maximum="100"/>
+            </conditionset>
+            <conditionset>
+                <condition name="wonk" minimum="0" maximum="0.49"/>
+            </conditionset>
+            <sub name="n" with="n.alt"/>
+            <sub name="m" with="m.alt"/>
+            <sub name="h" with="h.alt"/>
+            <sub name="s" with="s.alt"/>
+            <sub name="ampersand" with="ampersand.alt"/>
+        </rule>
+    </rules>
+    <sources>
+        <source familyname="Fraunces" filename="Fraunces-BlackOpMax.ufo" stylename="Black OptMax">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="Fraunces-BlackOpMin.ufo" stylename="Black OpMin">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="Fraunces-LightOpMax.ufo" stylename="Light OpMax">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="Fraunces-LightOpMin.ufo" stylename="Light OpMin">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="Fraunces-BlackOpMaxGoofyMax.ufo" stylename="Black OpMax GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="Fraunces-BlackOpMinGoofyMax.ufo" stylename="Black OpMin GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="Fraunces-LightOpMaxGoofyMax.ufo" stylename="Light OpMax GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+        </source>
+        <source familyname="Fraunces" filename="Fraunces-LightOpMinGoofyMax.ufo" stylename="Light OpMin GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMaxGoofyMin.ufo" postscriptfontname="Fraunces-BlackOpMaxGoofyMin" stylename="Black OpMax GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMidGoofyMin.ufo" postscriptfontname="Fraunces-BlackOpMidGoofyMin" stylename="Black OpMid GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMinGoofyMin.ufo" postscriptfontname="Fraunces-BlackOpMinGoofyMin" stylename="Black OpMin GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMaxGoofyMin.ufo" postscriptfontname="Fraunces-BoldOpMaxGoofyMin" stylename="Bold OpMax GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMidGoofyMin.ufo" postscriptfontname="Fraunces-BoldOpMidGoofyMin" stylename="Bold OpMid GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMinGoofyMin.ufo" postscriptfontname="Fraunces-BoldOpMinGoofyMin" stylename="Bold OpMin GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMaxGoofyMin.ufo" postscriptfontname="Fraunces-SemiboldOpMaxGoofyMin" stylename="Semibold OpMax GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMidGoofyMin.ufo" postscriptfontname="Fraunces-SemiboldOpMidGoofyMin" stylename="Semibold OpMid GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMinGoofyMin.ufo" postscriptfontname="Fraunces-SemiboldOpMinGoofyMin" stylename="Semibold OpMin GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMaxGoofyMin.ufo" postscriptfontname="Fraunces-RegularOpMaxGoofyMin" stylename="Regular OpMax GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMidGoofyMin.ufo" postscriptfontname="Fraunces-RegularOpMidGoofyMin" stylename="Regular OpMid GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMinGoofyMin.ufo" postscriptfontname="Fraunces-RegularOpMinGoofyMin" stylename="Regular OpMin GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMaxGoofyMin.ufo" postscriptfontname="Fraunces-LightOpMaxGoofyMin" stylename="Light OpMax GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="200" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMidGoofyMin.ufo" postscriptfontname="Fraunces-LightOpMidGoofyMin" stylename="Light OpMid GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="200" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMinGoofyMin.ufo" postscriptfontname="Fraunces-LightOpMinGoofyMin" stylename="Light OpMin GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="200" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMaxGoofyMin.ufo" postscriptfontname="Fraunces-ThinOpMaxGoofyMin" stylename="Thin OpMax GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMidGoofyMin.ufo" postscriptfontname="Fraunces-ThinOpMidGoofyMin" stylename="Thin OpMid GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMinGoofyMin.ufo" postscriptfontname="Fraunces-ThinOpMinGoofyMin" stylename="Thin OpMin GoofyMin">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="0" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMaxGoofyMax.ufo" postscriptfontname="Fraunces-BlackOpMaxGoofyMax" stylename="Black OpMax GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMidGoofyMax.ufo" postscriptfontname="Fraunces-BlackOpMidGoofyMax" stylename="Black OpMid GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMinGoofyMax.ufo" postscriptfontname="Fraunces-BlackOpMinGoofyMax" stylename="Black OpMin GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMaxGoofyMax.ufo" postscriptfontname="Fraunces-BoldOpMaxGoofyMax" stylename="Bold OpMax GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMidGoofyMax.ufo" postscriptfontname="Fraunces-BoldOpMidGoofyMax" stylename="Bold OpMid GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMinGoofyMax.ufo" postscriptfontname="Fraunces-BoldOpMinGoofyMax" stylename="Bold OpMin GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMaxGoofyMax.ufo" postscriptfontname="Fraunces-SemiboldOpMaxGoofyMax" stylename="Semibold OpMax GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMidGoofyMax.ufo" postscriptfontname="Fraunces-SemiboldOpMidGoofyMax" stylename="Semibold OpMid GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMinGoofyMax.ufo" postscriptfontname="Fraunces-SemiboldOpMinGoofyMax" stylename="Semibold OpMin GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMaxGoofyMax.ufo" postscriptfontname="Fraunces-RegularOpMaxGoofyMax" stylename="Regular OpMax GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMidGoofyMax.ufo" postscriptfontname="Fraunces-RegularOpMidGoofyMax" stylename="Regular OpMid GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMinGoofyMax.ufo" postscriptfontname="Fraunces-RegularOpMinGoofyMax" stylename="Regular OpMin GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMaxGoofyMax.ufo" postscriptfontname="Fraunces-LightOpMaxGoofyMax" stylename="Light OpMax GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="200" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMidGoofyMax.ufo" postscriptfontname="Fraunces-LightOpMidGoofyMax" stylename="Light OpMid GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="200" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMinGoofyMax.ufo" postscriptfontname="Fraunces-LightOpMinGoofyMax" stylename="Light OpMin GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="200" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMaxGoofyMax.ufo" postscriptfontname="Fraunces-ThinOpMaxGoofyMax" stylename="Thin OpMax GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMidGoofyMax.ufo" postscriptfontname="Fraunces-ThinOpMidGoofyMax" stylename="Thin OpMid GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMinGoofyMax.ufo" postscriptfontname="Fraunces-ThinOpMinGoofyMax" stylename="Thin OpMin GoofyMax">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMaxGoofyMid.ufo" postscriptfontname="Fraunces-BlackOpMaxGoofyMid" stylename="Black OpMax GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMidGoofyMid.ufo" postscriptfontname="Fraunces-BlackOpMidGoofyMid" stylename="Black OpMid GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMinGoofyMid.ufo" postscriptfontname="Fraunces-BlackOpMinGoofyMid" stylename="Black OpMin GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="1000" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMaxGoofyMid.ufo" postscriptfontname="Fraunces-BoldOpMaxGoofyMid" stylename="Bold OpMax GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMidGoofyMid.ufo" postscriptfontname="Fraunces-BoldOpMidGoofyMid" stylename="Bold OpMid GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMinGoofyMid.ufo" postscriptfontname="Fraunces-BoldOpMinGoofyMid" stylename="Bold OpMin GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMaxGoofyMid.ufo" postscriptfontname="Fraunces-SemiboldOpMaxGoofyMid" stylename="Semibold OpMax GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMidGoofyMid.ufo" postscriptfontname="Fraunces-SemiboldOpMidGoofyMid" stylename="Semibold OpMid GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMinGoofyMid.ufo" postscriptfontname="Fraunces-SemiboldOpMinGoofyMid" stylename="Semibold OpMin GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMaxGoofyMid.ufo" postscriptfontname="Fraunces-RegularOpMaxGoofyMid" stylename="Regular OpMax GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMidGoofyMid.ufo" postscriptfontname="Fraunces-RegularOpMidGoofyMid" stylename="Regular OpMid GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMinGoofyMid.ufo" postscriptfontname="Fraunces-RegularOpMinGoofyMid" stylename="Regular OpMin GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMaxGoofyMid.ufo" postscriptfontname="Fraunces-LightOpMaxGoofyMid" stylename="Light OpMax GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="200" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMidGoofyMid.ufo" postscriptfontname="Fraunces-LightOpMidGoofyMid" stylename="Light OpMid GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="200" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMinGoofyMid.ufo" postscriptfontname="Fraunces-LightOpMinGoofyMid" stylename="Light OpMin GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="200" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMaxGoofyMid.ufo" postscriptfontname="Fraunces-ThinOpMaxGoofyMid" stylename="Thin OpMax GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="optical" xvalue="144" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMidGoofyMid.ufo" postscriptfontname="Fraunces-ThinOpMidGoofyMid" stylename="Thin OpMid GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="optical" xvalue="72" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMinGoofyMid.ufo" postscriptfontname="Fraunces-ThinOpMinGoofyMid" stylename="Thin OpMin GoofyMid">
+            <location>
+                <dimension name="weight" xvalue="0" />
+                <dimension name="optical" xvalue="9" />
+                <dimension name="wonk" xvalue="0.500000" />
+                <dimension name="goofy" xvalue="50" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>
