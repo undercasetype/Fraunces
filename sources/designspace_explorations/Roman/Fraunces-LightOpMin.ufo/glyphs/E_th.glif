@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Eth" format="2">
-  <advance width="1502"/>
+  <advance width="1529"/>
   <unicode hex="00D0"/>
-  <guideline x="166" y="700" angle="0" identifier="9wALwiKkGu"/>
+  <guideline x="168.988" y="712.6" angle="0" identifier="9wALwiKkGu"/>
   <outline>
     <contour>
-      <point x="115" y="720" type="curve" smooth="yes"/>
-      <point x="115.0" y="702"/>
-      <point x="124.0" y="691.0"/>
-      <point x="143" y="691" type="curve" smooth="yes"/>
-      <point x="740" y="691" type="line" smooth="yes"/>
-      <point x="760" y="691"/>
-      <point x="768.0" y="702"/>
-      <point x="768" y="720" type="curve" smooth="yes"/>
-      <point x="768.0" y="738"/>
-      <point x="760" y="749"/>
-      <point x="740" y="749" type="curve" smooth="yes"/>
-      <point x="143" y="749" type="line" smooth="yes"/>
-      <point x="124.0" y="749.0"/>
-      <point x="115.0" y="738"/>
+      <point x="117" y="733" type="curve" smooth="yes"/>
+      <point x="117" y="715"/>
+      <point x="126" y="703"/>
+      <point x="146" y="703" type="curve" smooth="yes"/>
+      <point x="753" y="703" type="line" smooth="yes"/>
+      <point x="774" y="703"/>
+      <point x="782" y="715"/>
+      <point x="782" y="733" type="curve" smooth="yes"/>
+      <point x="782" y="751"/>
+      <point x="774" y="762"/>
+      <point x="753" y="762" type="curve" smooth="yes"/>
+      <point x="146" y="762" type="line" smooth="yes"/>
+      <point x="126" y="762"/>
+      <point x="117" y="751"/>
     </contour>
-    <component base="D"/>
+    <component base="D" xScale="1.018" yScale="1.018"/>
   </outline>
 </glyph>

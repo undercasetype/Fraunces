@@ -3,21 +3,60 @@
 <plist version="1.0">
   <dict>
     <key>ascender</key>
-    <integer>1550</integer>
+    <integer>1510</integer>
     <key>capHeight</key>
-    <real>1400.0</real>
+    <integer>1400</integer>
     <key>descender</key>
-    <integer>-450</integer>
+    <integer>-490</integer>
     <key>familyName</key>
-    <string>Fraunces</string>
+    <string>Fraunces Goofy</string>
     <key>guidelines</key>
-    <array/>
+    <array>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>identifier</key>
+        <string>6lk564S3Yr</string>
+        <key>name</key>
+        <string>x-height</string>
+        <key>x</key>
+        <integer>1000</integer>
+        <key>y</key>
+        <integer>735</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>identifier</key>
+        <string>X6oYarQcoG</string>
+        <key>name</key>
+        <string>ascender</string>
+        <key>x</key>
+        <integer>160</integer>
+        <key>y</key>
+        <integer>1352</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>identifier</key>
+        <string>7VqB5By3xy</string>
+        <key>name</key>
+        <string>accents</string>
+        <key>x</key>
+        <integer>0</integer>
+        <key>y</key>
+        <integer>1037</integer>
+      </dict>
+    </array>
     <key>postscriptBlueValues</key>
     <array/>
     <key>postscriptFamilyBlues</key>
     <array/>
     <key>postscriptFamilyOtherBlues</key>
     <array/>
+    <key>postscriptFontName</key>
+    <string>Fraunces-LightOpMin</string>
     <key>postscriptOtherBlues</key>
     <array/>
     <key>postscriptStemSnapH</key>
@@ -29,6 +68,6 @@
     <key>unitsPerEm</key>
     <integer>2000</integer>
     <key>xHeight</key>
-    <real>1011.032</real>
+    <integer>920</integer>
   </dict>
 </plist>
