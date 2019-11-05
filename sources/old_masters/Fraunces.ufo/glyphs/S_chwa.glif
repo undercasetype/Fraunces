@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Schwa" format="2">
+  <advance width="1312"/>
+  <unicode hex="018F"/>
+  <outline>
+    <contour>
+      <point x="154.0" y="552.0"/>
+      <point x="86.0" y="494.0"/>
+      <point x="86.0" y="386.0" type="curve" smooth="yes"/>
+      <point x="86.0" y="152.0"/>
+      <point x="284.0" y="-30.0"/>
+      <point x="564.0" y="-30.0" type="curve" smooth="yes"/>
+      <point x="952.0" y="-30.0"/>
+      <point x="1232.0" y="308.0"/>
+      <point x="1232.0" y="770.0" type="curve" smooth="yes"/>
+      <point x="1232.0" y="1134.0"/>
+      <point x="978.0" y="1430.0"/>
+      <point x="644.0" y="1430.0" type="curve" smooth="yes"/>
+      <point x="348.0" y="1430.0"/>
+      <point x="92.0" y="1240.0"/>
+      <point x="92.0" y="1110.0" type="curve" smooth="yes"/>
+      <point x="92.0" y="1092.0"/>
+      <point x="104.0" y="1080.0"/>
+      <point x="118.0" y="1080.0" type="curve" smooth="yes"/>
+      <point x="144.0" y="1080.0"/>
+      <point x="170.0" y="1106.0"/>
+      <point x="198.0" y="1132.0" type="curve" smooth="yes"/>
+      <point x="284.0" y="1210.0"/>
+      <point x="408.0" y="1260.0"/>
+      <point x="548.0" y="1260.0" type="curve" smooth="yes"/>
+      <point x="818.0" y="1260.0"/>
+      <point x="1022.0" y="1002.0"/>
+      <point x="1022.0" y="652.0" type="curve" smooth="yes"/>
+      <point x="1022.0" y="302.0"/>
+      <point x="872.0" y="108.0"/>
+      <point x="622.0" y="108.0" type="curve" smooth="yes"/>
+      <point x="430.0" y="108.0"/>
+      <point x="314.0" y="196.0"/>
+      <point x="314.0" y="328.0" type="curve" smooth="yes"/>
+      <point x="314.0" y="416.0"/>
+      <point x="360.0" y="462.0"/>
+      <point x="446.0" y="462.0" type="curve" smooth="yes"/>
+      <point x="1134.0" y="462.0" type="line"/>
+      <point x="1134.0" y="552.0" type="line"/>
+      <point x="272.0" y="552.0" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>
