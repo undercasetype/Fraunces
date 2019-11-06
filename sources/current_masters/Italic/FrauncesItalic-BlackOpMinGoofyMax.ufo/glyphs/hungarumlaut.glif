@@ -1,46 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hungarumlaut" format="2">
-  <advance width="1115"/>
+  <advance width="862"/>
   <unicode hex="02DD"/>
   <anchor x="384" y="1024" name="center"/>
   <outline>
-    <contour>
-      <point x="931" y="1332" type="curve" smooth="yes"/>
-      <point x="820" y="1176" type="line" smooth="yes"/>
-      <point x="791" y="1136"/>
-      <point x="772" y="1100"/>
-      <point x="791" y="1071" type="curve" smooth="yes"/>
-      <point x="808" y="1045"/>
-      <point x="854" y="1045"/>
-      <point x="897" y="1063" type="curve" smooth="yes"/>
-      <point x="1073" y="1139" type="line" smooth="yes"/>
-      <point x="1200" y="1193"/>
-      <point x="1261" y="1241"/>
-      <point x="1297" y="1323" type="curve" smooth="yes"/>
-      <point x="1335" y="1407"/>
-      <point x="1306" y="1495"/>
-      <point x="1212" y="1512" type="curve" smooth="yes"/>
-      <point x="1102" y="1532"/>
-      <point x="1016" y="1452"/>
-    </contour>
-    <contour>
-      <point x="374" y="1332" type="curve" smooth="yes"/>
-      <point x="263" y="1176" type="line" smooth="yes"/>
-      <point x="234" y="1136"/>
-      <point x="215" y="1100"/>
-      <point x="234" y="1071" type="curve" smooth="yes"/>
-      <point x="251" y="1045"/>
-      <point x="297" y="1045"/>
-      <point x="340" y="1063" type="curve" smooth="yes"/>
-      <point x="516" y="1139" type="line" smooth="yes"/>
-      <point x="643" y="1193"/>
-      <point x="704" y="1241"/>
-      <point x="740" y="1323" type="curve" smooth="yes"/>
-      <point x="778" y="1407"/>
-      <point x="749" y="1495"/>
-      <point x="655" y="1512" type="curve" smooth="yes"/>
-      <point x="545" y="1532"/>
-      <point x="459" y="1452"/>
-    </contour>
+    <component base="hungarumlautcmb"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
