@@ -3,10 +3,19 @@ By Spencer Charles
 
 In the early summer of 2018, Google Fonts approached us with the challenge of designing a display typeface. I spent some time perusing the catalog, and was struck by a pretty big hole in the typographic voices available. There isn't a specific name for this genre, but typefaces such as Cooper Black, Windsor, and Souvenir personify it. We've played alot with this style in our lettering work, and felt this was a create opportunity to create a typeface family. 
 
-The origin of this genre traces its roots back to the Arts & Crafts experimentations of the late 1800's—early 1900's. Golden Type by William Morris, and the extensive lettering of the Roycroft Guild captured this romanticized idea of an "Old Style" that their contemporaries had lost touch with.
+The origin of this genre traces its roots back to the Arts & Crafts experimentations of the late 1800's—early 1900's. Golden Type by William Morris, and the extensive lettering of the Roycroft Guild captured this romanticized idea of an "Old Style" that their contemporaries had lost touch with. Morris' Golden Type was an extremely crude interpretation of the types of Nicolas Jenson, opting instead to emphasize the perceived effects of printing, rather than the calligraphic origins of the form.
 
-Ironically, the letters they created, and the fad of wonky "Old Style" typefaces that it spawned in subsequent decades (such as Cooper Black, Windsor, Clearface) had little-to-nothing to do with typefaces of antiquity. Morris' Golden Type was an extremely crude interpretation of the types of Nicolas Jenson, opting instead to emphasize the perceived effects of printing, rather than the calligraphic origins of the form.
+Ironically, the letters they created, and the fad of wonky "Old Style" typefaces that it spawned in subsequent decades (such as Cooper Black, Windsor, Clearface) had little-to-nothing to do with typefaces of antiquity. These typefaces veered more on the "goofy" side, whereas Richardson Old Style by Robert DeLittle showcased some of the more elegant possibilities of this expressive approach. 
 
 Fast forward to the 1970's, when graphic designers were looking for more funky stylings, and the irreverence of these typefaces were the perfect antidote to the perceived stuffiness of traditional text faces. Ed Benguiat drew a swashy version of Bookman for ITC, an ode to Oswald Cooper's Cooper Black Italic, which has become ubiquitous with the "Thank You For Shopping With Us" grocery bags.
 
 Fraunces is not an Old Style typeface, but an "Old Style" typeface. That is, a genre of type that is less concerned with sensible construction of letterforms, and personality is always paramount.
+
+Within Fraunces are 4 axes: Weight, Goofy, Wonk, and Optical Size. Type designers in the past would provide fixed instances of an axis. In the Weight Axis, this is represented by Light, Regular, Bold, and Black weights. Variable Fonts allow granular control of each of these axes, and allows the user to access all the calculations in between.
+The Goofy axis controls the "wetness" or "goofiness" of the typeface. Although Fraunces is drawn entirely with rounded serifs, it achieves sharpness in the Goofy Min area of the design space with extremely high contrast.  
+
+The Optical Size axis is similar to the Goofy, in that it controls the overall contrast between thicks and thins. But, the Optical Size axis goes a step further and factors in additional changes depending on the size of the font. At smaller sizes, the letterspacing opens up, x-height increases, and contrast decreases to allow for easier reading. On the opposite page are examples of the Goofy Min, which changes in Optical Size at different font sizes. Most modern web browsers will automatically interpret this information. Designing in applications such as Adobe Illustrator or Sketch requires a manual approach to typesetting. 
+
+The Wonk axis controls the substitution of “wonky” characters. These substitutions automatically switch at smaller sizes (18 pt. and below), but can be toggled manually at larger optical sizes. The leaning h/n/m is a major characteristic borrowed from Windsor. In addition to the leaning characters, the Italic contains flagged characters with ball terminals.
+
+

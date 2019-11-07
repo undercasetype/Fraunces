@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<designspace format="2">
+    <!-- Superpolator Designspace Object -->
+    <!-- info -->
+    <version superpolator="2"/>
+    <!-- measurements -->
+    <!-- application data -->
+    <data name="horizontalPreviewAxis" value="weight"/>
+    <data name="lineInverted" value="False"/>
+    <data name="lineViewFilled" value="True"/>
+    <data name="lineStacked" value="lined"/>
+    <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Fraunces/sources/designspace_explorations/2019-11-03ec/Roman/instances"/>
+    <data name="previewtext" value="Nigel"/>
+    <data name="verticalPreviewAxis" value="optical"/>
+    <!-- don't generate these glyphs -->
+    <ignore glyphs=""/>
+    <!-- rules -->
+    <rule enabled="1" logic="all" resultfalse="n" resulttrue="n.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="m" resulttrue="m.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="h" resulttrue="h.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
+    </rule>
+    <rule enabled="1" logic="all" resultfalse="s" resulttrue="s.alt">
+        <condition axisname="wonk" operator="&lt;=" xvalue="0.490000"/>
+    </rule>
+    <!-- axis definitions -->
+    <axis maximum="144.000000" minimum="9.000000" name="optical" shortname="opsz">
+        <color a="1.000" b="0.056" g="0.775" r="0.752"/>
+    </axis>
+    <axis maximum="100.000000" minimum="0.000000" name="contrast" shortname="cntr">
+        <color a="1.000" b="0.694" g="1.226" r="0.905"/>
+    </axis>
+    <axis maximum="1000.000000" minimum="0.000000" name="weight" shortname="wght">
+        <color a="1.000" b="0.764" g="0.000" r="0.989"/>
+    </axis>
+    <axis maximum="1.000000" minimum="0.000000" name="wonk" shortname="WONK">
+        <color a="1.000" b="0.694" g="1.226" r="0.905"/>
+    </axis>
+    <!-- master definitions -->
+    <master familyname="Fraunces Goofy" filename="Fraunces-BlackOpMaxGoofyMax.ufo" sortorder="0" stylename="Black OpMax GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Goofy" filename="Fraunces-BlackOpMinGoofyMax.ufo" sortorder="1" stylename="Black OpMin GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Goofy" filename="Fraunces-LightOpMaxGoofyMax.ufo" sortorder="2" stylename="Light OpMax GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Goofy" filename="Fraunces-LightOpMinGoofyMax.ufo" sortorder="3" stylename="Light OpMin GoofyMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Goofy" filename="Fraunces-BlackOpMax.ufo" sortorder="22" stylename="Black OpMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Goofy" filename="Fraunces-BlackOpMin.ufo" sortorder="23" stylename="Black OpMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Goofy" filename="Fraunces-LightOpMax.ufo" sortorder="24" stylename="Light OpMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <master familyname="Fraunces Goofy" filename="Fraunces-LightOpMin.ufo" sortorder="25" stylename="Light OpMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <color a="1.000" b="0.300" g="0.300" r="0.300"/>
+    </master>
+    <!-- instance definitions -->
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BlackOpMaxCntrMin.ufo" sortorder="4" stylename="Black OpMax CntrMin">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BlackOpMinCntrMin.ufo" sortorder="6" stylename="Black OpMin CntrMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-ThinOpMaxCntrMin.ufo" sortorder="19" stylename="Thin OpMax CntrMin">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-RegularOpMaxCntrMin.ufo" sortorder="13" stylename="Regular OpMax CntrMin">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-RegularOpMinCntrMin.ufo" sortorder="15" stylename="Regular OpMin CntrMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-ThinOpMinCntrMin.ufo" sortorder="21" stylename="Thin OpMin CntrMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BoldOpMaxCntrMin.ufo" sortorder="7" stylename="Bold OpMax CntrMin">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BlackOpMidCntrMin.ufo" sortorder="5" stylename="Black OpMid CntrMin">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BoldOpMidCntrMin.ufo" sortorder="8" stylename="Bold OpMid CntrMin">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BoldOpMinCntrMin.ufo" sortorder="9" stylename="Bold OpMin CntrMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-RegularOpMidCntrMin.ufo" sortorder="14" stylename="Regular OpMid CntrMin">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-ThinOpMidCntrMin.ufo" sortorder="20" stylename="Thin OpMid CntrMin">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-LightOpMaxCntrMin.ufo" sortorder="16" stylename="Light OpMax CntrMin">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-LightOpMidCntrMin.ufo" sortorder="17" stylename="Light OpMid CntrMin">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-LightOpMinCntrMin.ufo" sortorder="18" stylename="Light OpMin CntrMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-SemiboldOpMaxCntrMin.ufo" sortorder="10" stylename="Semibold OpMax CntrMin">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-SemiboldOpMidCntrMin.ufo" sortorder="11" stylename="Semibold OpMid CntrMin">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-SemiboldOpMinCntrMin.ufo" sortorder="12" stylename="Semibold OpMin CntrMin">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="contrast" xvalue="0.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BlackOpMaxCntrMax.ufo" sortorder="26" stylename="Black OpMax CntrMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BlackOpMidCntrMax.ufo" sortorder="27" stylename="Black OpMid CntrMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BlackOpMinCntrMax.ufo" sortorder="28" stylename="Black OpMin CntrMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BoldOpMaxCntrMax.ufo" sortorder="29" stylename="Bold OpMax CntrMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BoldOpMidCntrMax.ufo" sortorder="30" stylename="Bold OpMid CntrMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BoldOpMinCntrMax.ufo" sortorder="31" stylename="Bold OpMin CntrMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-SemiboldOpMaxCntrMax.ufo" sortorder="32" stylename="Semibold OpMax CntrMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-SemiboldOpMidCntrMax.ufo" sortorder="33" stylename="Semibold OpMid CntrMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-SemiboldOpMinCntrMax.ufo" sortorder="34" stylename="Semibold OpMin CntrMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-RegularOpMaxCntrMax.ufo" sortorder="35" stylename="Regular OpMax CntrMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-RegularOpMidCntrMax.ufo" sortorder="36" stylename="Regular OpMid CntrMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-RegularOpMinCntrMax.ufo" sortorder="37" stylename="Regular OpMin CntrMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-LightOpMaxCntrMax.ufo" sortorder="38" stylename="Light OpMax CntrMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-LightOpMidCntrMax.ufo" sortorder="39" stylename="Light OpMid CntrMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-LightOpMinCntrMax.ufo" sortorder="40" stylename="Light OpMin CntrMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-ThinOpMaxCntrMax.ufo" sortorder="41" stylename="Thin OpMax CntrMax">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-ThinOpMidCntrMax.ufo" sortorder="42" stylename="Thin OpMid CntrMax">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-ThinOpMinCntrMax.ufo" sortorder="43" stylename="Thin OpMin CntrMax">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="contrast" xvalue="100.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BlackOpMaxCntrMid.ufo" sortorder="44" stylename="Black OpMax CntrMid">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BlackOpMidCntrMid.ufo" sortorder="45" stylename="Black OpMid CntrMid">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BlackOpMinCntrMid.ufo" sortorder="46" stylename="Black OpMin CntrMid">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="1000.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BoldOpMaxCntrMid.ufo" sortorder="47" stylename="Bold OpMax CntrMid">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BoldOpMidCntrMid.ufo" sortorder="48" stylename="Bold OpMid CntrMid">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-BoldOpMinCntrMid.ufo" sortorder="49" stylename="Bold OpMin CntrMid">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="800.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-SemiboldOpMaxCntrMid.ufo" sortorder="50" stylename="Semibold OpMax CntrMid">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-SemiboldOpMidCntrMid.ufo" sortorder="51" stylename="Semibold OpMid CntrMid">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-SemiboldOpMinCntrMid.ufo" sortorder="52" stylename="Semibold OpMin CntrMid">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="600.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-RegularOpMaxCntrMid.ufo" sortorder="53" stylename="Regular OpMax CntrMid">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-RegularOpMidCntrMid.ufo" sortorder="54" stylename="Regular OpMid CntrMid">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-RegularOpMinCntrMid.ufo" sortorder="55" stylename="Regular OpMin CntrMid">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="400.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-LightOpMaxCntrMid.ufo" sortorder="56" stylename="Light OpMax CntrMid">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-LightOpMidCntrMid.ufo" sortorder="57" stylename="Light OpMid CntrMid">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-LightOpMinCntrMid.ufo" sortorder="58" stylename="Light OpMin CntrMid">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="200.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-ThinOpMaxCntrMid.ufo" sortorder="59" stylename="Thin OpMax CntrMid">
+        <location>
+            <dimension name="optical" xvalue="144.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-ThinOpMidCntrMid.ufo" sortorder="60" stylename="Thin OpMid CntrMid">
+        <location>
+            <dimension name="optical" xvalue="72.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+    <instance familyname="Fraunces Goofy" filename="instances/FrauncesGoofy-ThinOpMinCntrMid.ufo" sortorder="61" stylename="Thin OpMin CntrMid">
+        <location>
+            <dimension name="optical" xvalue="9.000000"/>
+            <dimension name="weight" xvalue="0.000000"/>
+            <dimension name="contrast" xvalue="50.000000"/>
+            <dimension name="wonk" xvalue="0.500000"/>
+        </location>
+        <provideFeatures state="1"/>
+        <provideGroups state="1"/>
+        <provideLib state="1"/>
+        <provideInfo state="1"/>
+    </instance>
+</designspace>

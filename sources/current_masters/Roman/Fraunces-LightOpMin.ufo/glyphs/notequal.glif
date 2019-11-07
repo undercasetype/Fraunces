@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="notequal" format="2">
+  <advance width="1028"/>
+  <unicode hex="2260"/>
+  <outline>
+    <contour>
+      <point x="242" y="83" type="curve" smooth="yes"/>
+      <point x="253" y="83"/>
+      <point x="263" y="92"/>
+      <point x="273" y="112" type="curve" smooth="yes"/>
+      <point x="851" y="1255" type="line" smooth="yes"/>
+      <point x="861" y="1277"/>
+      <point x="852" y="1291"/>
+      <point x="839" y="1291" type="curve" smooth="yes"/>
+      <point x="821" y="1291"/>
+      <point x="813" y="1281"/>
+      <point x="805" y="1262" type="curve" smooth="yes"/>
+      <point x="228" y="115" type="line" smooth="yes"/>
+      <point x="219" y="97"/>
+      <point x="229" y="83"/>
+    </contour>
+    <component base="equal" xScale="1.018" yScale="1.018"/>
+  </outline>
+</glyph>
