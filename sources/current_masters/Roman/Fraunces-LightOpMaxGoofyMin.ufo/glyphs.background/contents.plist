@@ -4,6 +4,8 @@
   <dict>
     <key>A</key>
     <string>A_.glif</string>
+    <key>AE</key>
+    <string>A_E_.glif</string>
     <key>B</key>
     <string>B_.glif</string>
     <key>C</key>
@@ -12,6 +14,8 @@
     <string>D_.glif</string>
     <key>E</key>
     <string>E_.glif</string>
+    <key>Eng</key>
+    <string>E_ng.glif</string>
     <key>Eth</key>
     <string>E_th.glif</string>
     <key>Euro</key>
@@ -32,18 +36,26 @@
     <string>K_.glif</string>
     <key>L</key>
     <string>L_.glif</string>
+    <key>Lslash</key>
+    <string>L_slash.glif</string>
     <key>M</key>
     <string>M_.glif</string>
     <key>N</key>
     <string>N_.glif</string>
     <key>O</key>
     <string>O_.glif</string>
+    <key>OE</key>
+    <string>O_E_.glif</string>
+    <key>Oslash</key>
+    <string>O_slash.glif</string>
     <key>P</key>
     <string>P_.glif</string>
     <key>R</key>
     <string>R_.glif</string>
     <key>S</key>
     <string>S_.glif</string>
+    <key>Schwa</key>
+    <string>S_chwa.glif</string>
     <key>T</key>
     <string>T_.glif</string>
     <key>Tbar</key>
@@ -62,6 +74,8 @@
     <string>Z_.glif</string>
     <key>a</key>
     <string>a.glif</string>
+    <key>ae</key>
+    <string>ae.glif</string>
     <key>apostrophemod</key>
     <string>apostrophemod.glif</string>
     <key>asciicircum</key>
@@ -94,20 +108,34 @@
     <string>cedi.glif</string>
     <key>cedilla</key>
     <string>cedilla.glif</string>
+    <key>cent</key>
+    <string>cent.glif</string>
     <key>circumflex</key>
     <string>circumflex.glif</string>
+    <key>colonmonetary</key>
+    <string>colonmonetary.glif</string>
+    <key>commercialminussign</key>
+    <string>commercialminussign.glif</string>
     <key>d</key>
     <string>d.glif</string>
     <key>dcroat</key>
     <string>dcroat.glif</string>
     <key>dieresis</key>
     <string>dieresis.glif</string>
+    <key>dollar</key>
+    <string>dollar.glif</string>
+    <key>dong</key>
+    <string>dong.glif</string>
+    <key>dotlessj</key>
+    <string>dotlessj.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
     <key>emdash</key>
     <string>emdash.glif</string>
     <key>endash</key>
     <string>endash.glif</string>
+    <key>eng</key>
+    <string>eng.glif</string>
     <key>eth</key>
     <string>eth.glif</string>
     <key>exclamdown</key>
@@ -122,6 +150,8 @@
     <string>four.glif</string>
     <key>fraction</key>
     <string>fraction.glif</string>
+    <key>franc</key>
+    <string>franc.glif</string>
     <key>g</key>
     <string>g.glif</string>
     <key>gnrl:hyphen</key>
@@ -142,6 +172,8 @@
     <string>guilsinglright.glif</string>
     <key>h</key>
     <string>h.glif</string>
+    <key>hbar</key>
+    <string>hbar.glif</string>
     <key>hungarumlaut</key>
     <string>hungarumlaut.glif</string>
     <key>hyphen</key>
@@ -154,10 +186,16 @@
     <string>indianrupee.glif</string>
     <key>kip</key>
     <string>kip.glif</string>
+    <key>kra</key>
+    <string>kra.glif</string>
     <key>less</key>
     <string>less.glif</string>
+    <key>lira</key>
+    <string>lira.glif</string>
     <key>logicalnot</key>
     <string>logicalnot.glif</string>
+    <key>lslash</key>
+    <string>lslash.glif</string>
     <key>m</key>
     <string>m.glif</string>
     <key>m.alt</key>
@@ -176,24 +214,44 @@
     <string>n.glif</string>
     <key>n.alt</key>
     <string>n.alt.glif</string>
+    <key>naira</key>
+    <string>naira.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
     <key>notequal</key>
     <string>notequal.glif</string>
     <key>numbersign</key>
     <string>numbersign.glif</string>
+    <key>numero</key>
+    <string>numero.glif</string>
     <key>o</key>
     <string>o.glif</string>
+    <key>oe</key>
+    <string>oe.glif</string>
     <key>ogonek</key>
     <string>ogonek.glif</string>
     <key>one</key>
     <string>one.glif</string>
+    <key>ordfeminine</key>
+    <string>ordfeminine.glif</string>
+    <key>ordmasculine</key>
+    <string>ordmasculine.glif</string>
+    <key>oslash</key>
+    <string>oslash.glif</string>
     <key>paragraph</key>
     <string>paragraph.glif</string>
     <key>parenleft</key>
     <string>parenleft.glif</string>
     <key>parenright</key>
     <string>parenright.glif</string>
+    <key>percent</key>
+    <string>percent.glif</string>
+    <key>perthousand</key>
+    <string>perthousand.glif</string>
+    <key>peseta</key>
+    <string>peseta.glif</string>
+    <key>peso</key>
+    <string>peso.glif</string>
     <key>questiondown</key>
     <string>questiondown.glif</string>
     <key>quotedbl</key>
@@ -216,14 +274,22 @@
     <string>ruble.glif</string>
     <key>s.alt</key>
     <string>s.alt.glif</string>
+    <key>schwa</key>
+    <string>schwa.glif</string>
     <key>seven</key>
     <string>seven.glif</string>
     <key>six</key>
     <string>six.glif</string>
     <key>slash</key>
     <string>slash.glif</string>
+    <key>sterling</key>
+    <string>sterling.glif</string>
     <key>t</key>
     <string>t.glif</string>
+    <key>tbar</key>
+    <string>tbar.glif</string>
+    <key>thorn</key>
+    <string>thorn.glif</string>
     <key>three</key>
     <string>three.glif</string>
     <key>tilde</key>
@@ -242,10 +308,14 @@
     <string>v.glif</string>
     <key>w</key>
     <string>w.glif</string>
+    <key>won</key>
+    <string>won.glif</string>
     <key>x</key>
     <string>x.glif</string>
     <key>y</key>
     <string>y.glif</string>
+    <key>yen</key>
+    <string>yen.glif</string>
     <key>z</key>
     <string>z.glif</string>
     <key>zero</key>
