@@ -11,53 +11,53 @@
         <key>lc</key>
         <dict>
           <key>interpH</key>
-          <real>0.5</real>
+          <real>0.7000000000000001</real>
           <key>interpV</key>
-          <real>0.5</real>
+          <real>0.6</real>
           <key>problem</key>
           <false/>
           <key>scaleH</key>
-          <real>1.036</real>
+          <real>1.03041075879</real>
           <key>scaleV</key>
-          <real>1.036</real>
+          <real>1.03041075879</real>
           <key>tracking</key>
-          <real>0.0</real>
+          <real>14.0</real>
         </dict>
         <key>other</key>
         <dict>
           <key>interpH</key>
-          <real>0.5</real>
+          <real>0.75</real>
           <key>interpV</key>
-          <real>0.5</real>
+          <real>0.6</real>
           <key>problem</key>
           <false/>
           <key>scaleH</key>
-          <real>1.018</real>
+          <real>1.0202053793950001</real>
           <key>scaleV</key>
-          <real>1.018</real>
+          <real>1.015205379395</real>
           <key>tracking</key>
-          <real>0.0</real>
+          <real>15.0</real>
         </dict>
         <key>uc</key>
         <dict>
           <key>interpH</key>
-          <real>0.5</real>
+          <real>0.8</real>
           <key>interpV</key>
-          <real>0.5</real>
+          <real>0.6</real>
           <key>problem</key>
           <false/>
           <key>scaleH</key>
-          <real>1.0</real>
+          <real>1.01</real>
           <key>scaleV</key>
           <real>1.0</real>
           <key>tracking</key>
-          <real>0.0</real>
+          <real>16.0</real>
         </dict>
       </dict>
       <key>otherOption</key>
       <integer>1</integer>
       <key>skewOption</key>
-      <integer>0</integer>
+      <integer>1</integer>
     </dict>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
     <true/>
@@ -278,8 +278,21 @@
       <string>Iogonek</string>
       <string>Oogonek</string>
       <string>Uogonek</string>
+      <string>germandbls</string>
+      <string>dotlessi</string>
+      <string>dotlessj</string>
+      <string>ae</string>
+      <string>oe</string>
+      <string>schwa</string>
+      <string>kra</string>
+      <string>eng</string>
+      <string>thorn</string>
       <string>eth</string>
       <string>dcroat</string>
+      <string>hbar</string>
+      <string>tbar</string>
+      <string>lslash</string>
+      <string>oslash</string>
       <string>acute</string>
       <string>hungarumlaut</string>
       <string>grave</string>
