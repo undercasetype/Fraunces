@@ -1,0 +1,296 @@
+16:23:12; 11 November, 2019
+
+*******************
+
+Var Prep Report
+********************************************  
+  
+Decomposed and removed non-exporting glyphs: []******************* 
+Guides removed from Fraunces Black OpMax:
+M; v; quotesingle; parenleft; trademark; Eth; o; 
+ 
+Decomposed and removed non-exporting glyphs: []******************* 
+Guides removed from Fraunces Black OpMin GoofyMin:
+M; v; 
+ 
+Decomposed and removed non-exporting glyphs: []******************* 
+Guides removed from Fraunces Light OpMax:
+M; N; trademark; Eth; 
+ 
+Decomposed and removed non-exporting glyphs: []******************* 
+Guides removed from Fraunces Light OpMin GoofyMin:
+M; trademark; Eth; 
+ 
+Unique glyphs removed from Fraunces Black OpMax:
+
+ 
+Unique glyphs removed from Fraunces Black OpMin GoofyMin:
+cedilla, tilde, macron, dieresis, hungarumlaut, breve, dotaccent, acute, ogonek, ring, caron, grave, circumflex, 
+ 
+Unique glyphs removed from Fraunces Light OpMax:
+cedilla, tilde, gravecmb, tildecmb, macron, ohorn, dieresis, horncmb, hungarumlautcmb, hungarumlaut, ringcmb, hookcmb, cedillacmb, oe, breve, dotbelowcmb, schwa, acutecmb, dotaccent, dieresisbelowcmb, invertedbrevecmb, brevecmb, lslash, commaaccentbelowcmb, gravedoublecmb, acute, caroncmb, tbar, eng, ogonek, dieresiscmb, minute.copy_1, oslash, ae, germandbls, ring, circumflexcmb, uhorn, caron, commaturnedabovecmb, grave, kra, thorn, dotlessi, belowbrevecmb, dotlessj, circumflex, macroncmb, dotaccentcmb, hbar, turnedcommaabovecmb, ringacute, macronbelowcmb, ogonekcmb, 
+ 
+Unique glyphs removed from Fraunces Light OpMin GoofyMin:
+cedilla, tilde, macron, dieresis, hungarumlaut, oe, breve, schwa, dotaccent, lslash, acute, tbar, eng, ogonek, oslash, ae, germandbls, ring, caron, grave, kra, thorn, dotlessi, dotlessj, circumflex, hbar, 
+ 
+
+ ******************* 
+non-compatible glyphs removed: 
+mu.math
+(False, [Fatal] Glyph: "mu.math" + "mu.math"
+[Fatal] Glyph: "mu.math" contains 3 contours | "mu.math" contains 0 contours)
+AE
+(False, [Fatal] Glyph: "AE" + "AE"
+[Fatal] Glyph: "AE" contains 4 contours | "AE" contains 0 contours)
+cent
+(False, [Fatal] Glyph: "cent" + "cent"
+[Fatal] Glyph: "cent" contains 2 contours | "cent" contains 0 contours)
+cent
+(False, [Fatal] Glyph: "cent" + "cent"
+[Fatal] Contour: [0] + [0]
+[Fatal] Contour: [0] contains 8 segments | [0] contains 13 segments
+[Fatal] Contour: [1] + [1]
+[Fatal] Contour: [1] contains 13 segments | [1] contains 8 segments)
+yen
+(False, [Fatal] Glyph: "yen" + "yen"
+[Fatal] Glyph: "yen" contains 5 contours | "yen" contains 0 contours)
+yen
+(False, [Fatal] Glyph: "yen" + "yen"
+[Fatal] Glyph: "yen" contains 5 contours | "yen" contains 0 contours)
+fhook
+(False, [Fatal] Glyph: "fhook" + "fhook"
+[Fatal] Glyph: "fhook" contains 2 contours | "fhook" contains 0 contours)
+Aogonek
+(False, [Fatal] Glyph: "Aogonek" + "Aogonek"
+[Fatal] Glyph: "Aogonek" contains 2 components | "Aogonek" contains 1 components
+[Warning] Glyph: "Aogonek" contains component ogonek not in "Aogonek")
+Aogonek
+(False, [Fatal] Glyph: "Aogonek" + "Aogonek"
+[Fatal] Glyph: "Aogonek" contains 2 components | "Aogonek" contains 1 components
+[Warning] Glyph: "Aogonek" contains component ogonek not in "Aogonek")
+Aogonek
+(False, [Fatal] Glyph: "Aogonek" + "Aogonek"
+[Fatal] Glyph: "Aogonek" contains 2 components | "Aogonek" contains 1 components
+[Warning] Glyph: "Aogonek" contains component ogonek not in "Aogonek")
+eth
+(False, [Fatal] Glyph: "eth" + "eth"
+[Fatal] Glyph: "eth" contains 3 contours | "eth" contains 0 contours)
+eth
+(False, [Fatal] Glyph: "eth" + "eth"
+[Fatal] Contour: [1] + [1]
+[Fatal] Contour: [1] contains 6 segments | [1] contains 4 segments
+[Fatal] Contour: [1] is counter-clockwise | [1] is clockwise
+[Fatal] Contour: [2] + [2]
+[Fatal] Contour: [2] contains 4 segments | [2] contains 6 segments
+[Fatal] Contour: [2] is clockwise | [2] is counter-clockwise)
+eth
+(False, [Fatal] Glyph: "eth" + "eth"
+[Fatal] Contour: [1] + [1]
+[Fatal] Contour: [1] contains 6 segments | [1] contains 4 segments
+[Fatal] Contour: [1] is counter-clockwise | [1] is clockwise
+[Fatal] Contour: [2] + [2]
+[Fatal] Contour: [2] contains 4 segments | [2] contains 6 segments
+[Fatal] Contour: [2] is clockwise | [2] is counter-clockwise)
+franc
+(False, [Fatal] Glyph: "franc" + "franc"
+[Fatal] Glyph: "franc" contains 3 contours | "franc" contains 0 contours)
+franc
+(False, [Fatal] Glyph: "franc" + "franc"
+[Fatal] Glyph: "franc" contains 3 contours | "franc" contains 0 contours)
+numero
+(False, [Fatal] Glyph: "numero" + "numero"
+[Fatal] Glyph: "numero" contains 4 contours | "numero" contains 0 contours)
+numero
+(False, [Fatal] Glyph: "numero" + "numero"
+[Fatal] Glyph: "numero" contains 4 contours | "numero" contains 0 contours)
+kip
+(False, [Fatal] Glyph: "kip" + "kip"
+[Fatal] Glyph: "kip" contains 4 contours | "kip" contains 0 contours)
+kip
+(False, [Fatal] Glyph: "kip" + "kip"
+[Fatal] Glyph: "kip" contains 4 contours | "kip" contains 0 contours)
+dagger
+(False, [Fatal] Glyph: "dagger" + "dagger"
+[Fatal] Glyph: "dagger" contains 2 contours | "dagger" contains 0 contours)
+dagger
+(False, [Fatal] Glyph: "dagger" + "dagger"
+[Fatal] Contour: [0] + [0]
+[Fatal] Contour: [0] contains 8 segments | [0] contains 10 segments
+[Fatal] Contour: [1] + [1]
+[Fatal] Contour: [1] contains 10 segments | [1] contains 8 segments)
+peso
+(False, [Fatal] Glyph: "peso" + "peso"
+[Fatal] Glyph: "peso" contains 3 contours | "peso" contains 0 contours)
+paragraph
+(False, [Fatal] Glyph: "paragraph" + "paragraph"
+[Fatal] Glyph: "paragraph" contains 2 contours | "paragraph" contains 0 contours)
+paragraph
+(False, [Fatal] Glyph: "paragraph" + "paragraph"
+[Fatal] Glyph: "paragraph" contains 2 contours | "paragraph" contains 0 contours)
+Iogonek
+(False, [Fatal] Glyph: "Iogonek" + "Iogonek"
+[Fatal] Glyph: "Iogonek" contains 2 components | "Iogonek" contains 1 components
+[Warning] Glyph: "Iogonek" contains component ogonek not in "Iogonek")
+Iogonek
+(False, [Fatal] Glyph: "Iogonek" + "Iogonek"
+[Fatal] Glyph: "Iogonek" contains 2 components | "Iogonek" contains 1 components
+[Warning] Glyph: "Iogonek" contains component ogonek not in "Iogonek")
+Iogonek
+(False, [Fatal] Glyph: "Iogonek" + "Iogonek"
+[Fatal] Glyph: "Iogonek" contains 2 components | "Iogonek" contains 1 components
+[Warning] Glyph: "Iogonek" contains component ogonek not in "Iogonek")
+Oogonek
+(False, [Fatal] Glyph: "Oogonek" + "Oogonek"
+[Fatal] Glyph: "Oogonek" contains 2 components | "Oogonek" contains 0 components
+[Warning] Glyph: "Oogonek" contains component O not in "Oogonek"
+[Warning] Glyph: "Oogonek" contains component ogonek not in "Oogonek")
+Oogonek
+(False, [Fatal] Glyph: "Oogonek" + "Oogonek"
+[Fatal] Glyph: "Oogonek" contains 2 components | "Oogonek" contains 1 components
+[Warning] Glyph: "Oogonek" contains component ogonek not in "Oogonek")
+Oogonek
+(False, [Fatal] Glyph: "Oogonek" + "Oogonek"
+[Fatal] Glyph: "Oogonek" contains 2 components | "Oogonek" contains 0 components
+[Warning] Glyph: "Oogonek" contains component O not in "Oogonek"
+[Warning] Glyph: "Oogonek" contains component ogonek not in "Oogonek")
+ruble
+(False, [Fatal] Glyph: "ruble" + "ruble"
+[Fatal] Glyph: "ruble" contains 3 contours | "ruble" contains 0 contours)
+ruble
+(False, [Fatal] Glyph: "ruble" + "ruble"
+[Fatal] Glyph: "ruble" contains 3 contours | "ruble" contains 0 contours)
+asciicircum
+(False, [Fatal] Glyph: "asciicircum" + "asciicircum"
+[Fatal] Glyph: "asciicircum" contains 1 contours | "asciicircum" contains 0 contours)
+asciicircum
+(False, [Fatal] Glyph: "asciicircum" + "asciicircum"
+[Fatal] Glyph: "asciicircum" contains 1 contours | "asciicircum" contains 0 contours)
+lira
+(False, [Fatal] Glyph: "lira" + "lira"
+[Fatal] Glyph: "lira" contains 5 contours | "lira" contains 0 contours)
+lira
+(False, [Fatal] Glyph: "lira" + "lira"
+[Fatal] Glyph: "lira" contains 5 contours | "lira" contains 0 contours)
+colonmonetary
+(False, [Fatal] Glyph: "colonmonetary" + "colonmonetary"
+[Fatal] Glyph: "colonmonetary" contains 3 contours | "colonmonetary" contains 0 contours)
+gnrl:hyphen
+(False, [Fatal] Glyph: "gnrl:hyphen" + "gnrl:hyphen"
+[Fatal] Glyph: "gnrl:hyphen" contains 1 components | "gnrl:hyphen" contains 0 components
+[Warning] Glyph: "gnrl:hyphen" contains component hyphen not in "gnrl:hyphen")
+gnrl:hyphen
+(False, [Fatal] Glyph: "gnrl:hyphen" + "gnrl:hyphen"
+[Fatal] Glyph: "gnrl:hyphen" contains 1 components | "gnrl:hyphen" contains 0 components
+[Warning] Glyph: "gnrl:hyphen" contains component hyphen not in "gnrl:hyphen")
+Uogonek
+(False, [Fatal] Glyph: "Uogonek" + "Uogonek"
+[Fatal] Glyph: "Uogonek" contains 2 components | "Uogonek" contains 0 components
+[Warning] Glyph: "Uogonek" contains component U not in "Uogonek"
+[Warning] Glyph: "Uogonek" contains component ogonek not in "Uogonek")
+Uogonek
+(False, [Fatal] Glyph: "Uogonek" + "Uogonek"
+[Fatal] Glyph: "Uogonek" contains 2 components | "Uogonek" contains 1 components
+[Warning] Glyph: "Uogonek" contains component ogonek not in "Uogonek")
+Uogonek
+(False, [Fatal] Glyph: "Uogonek" + "Uogonek"
+[Fatal] Glyph: "Uogonek" contains 2 components | "Uogonek" contains 0 components
+[Warning] Glyph: "Uogonek" contains component U not in "Uogonek"
+[Warning] Glyph: "Uogonek" contains component ogonek not in "Uogonek")
+OE
+(False, [Fatal] Glyph: "OE" + "OE"
+[Fatal] Glyph: "OE" contains 3 contours | "OE" contains 0 contours)
+Schwa
+(False, [Fatal] Glyph: "Schwa" + "Schwa"
+[Fatal] Glyph: "Schwa" contains 1 contours | "Schwa" contains 0 contours)
+lessequal
+(False, [Fatal] Glyph: "lessequal" + "lessequal"
+[Fatal] Glyph: "lessequal" contains 2 components | "lessequal" contains 0 components
+[Warning] Glyph: "lessequal" contains component less not in "lessequal"
+[Warning] Glyph: "lessequal" contains component minus not in "lessequal")
+lessequal
+(False, [Fatal] Glyph: "lessequal" + "lessequal"
+[Fatal] Glyph: "lessequal" contains 2 components | "lessequal" contains 0 components
+[Warning] Glyph: "lessequal" contains component less not in "lessequal"
+[Warning] Glyph: "lessequal" contains component minus not in "lessequal")
+won
+(False, [Fatal] Glyph: "won" + "won"
+[Fatal] Glyph: "won" contains 1 contours | "won" contains 0 contours)
+won
+(False, [Fatal] Glyph: "won" + "won"
+[Fatal] Glyph: "won" contains 1 contours | "won" contains 7 contours)
+won
+(False, [Fatal] Glyph: "won" + "won"
+[Fatal] Glyph: "won" contains 1 contours | "won" contains 0 contours)
+guarani
+(False, [Fatal] Glyph: "guarani" + "guarani"
+[Fatal] Glyph: "guarani" contains 2 contours | "guarani" contains 0 contours)
+guarani
+(False, [Fatal] Glyph: "guarani" + "guarani"
+[Fatal] Glyph: "guarani" contains 2 contours | "guarani" contains 0 contours)
+naira
+(False, [Fatal] Glyph: "naira" + "naira"
+[Fatal] Glyph: "naira" contains 5 contours | "naira" contains 0 contours)
+naira
+(False, [Fatal] Glyph: "naira" + "naira"
+[Fatal] Contour: [0] + [0]
+[Fatal] Contour: [0] contains 5 segments | [0] contains 39 segments
+[Fatal] Contour: [4] + [4]
+[Fatal] Contour: [4] contains 39 segments | [4] contains 5 segments)
+Eogonek
+(False, [Fatal] Glyph: "Eogonek" + "Eogonek"
+[Fatal] Glyph: "Eogonek" contains 2 components | "Eogonek" contains 1 components
+[Warning] Glyph: "Eogonek" contains component ogonek not in "Eogonek")
+Eogonek
+(False, [Fatal] Glyph: "Eogonek" + "Eogonek"
+[Fatal] Glyph: "Eogonek" contains 2 components | "Eogonek" contains 1 components
+[Warning] Glyph: "Eogonek" contains component ogonek not in "Eogonek")
+Eogonek
+(False, [Fatal] Glyph: "Eogonek" + "Eogonek"
+[Fatal] Glyph: "Eogonek" contains 2 components | "Eogonek" contains 1 components
+[Warning] Glyph: "Eogonek" contains component ogonek not in "Eogonek")
+Eng
+(False, [Fatal] Glyph: "Eng" + "Eng"
+[Fatal] Glyph: "Eng" contains 1 contours | "Eng" contains 0 contours)
+Eng
+(False, [Fatal] Glyph: "Eng" + "Eng"
+[Fatal] Contour: [0] + [0]
+[Fatal] Contour: [0] contains 42 segments | [0] contains 41 segments)
+Eng
+(False, [Fatal] Glyph: "Eng" + "Eng"
+[Fatal] Glyph: "Eng" contains 1 contours | "Eng" contains 0 contours)
+cedi
+(False, [Fatal] Glyph: "cedi" + "cedi"
+[Fatal] Glyph: "cedi" contains 2 contours | "cedi" contains 0 contours)
+cedi
+(False, [Fatal] Glyph: "cedi" + "cedi"
+[Fatal] Contour: [0] + [0]
+[Fatal] Contour: [0] contains 8 segments | [0] contains 15 segments
+[Fatal] Contour: [1] + [1]
+[Fatal] Contour: [1] contains 15 segments | [1] contains 8 segments)
+hyphensoft
+(False, [Fatal] Glyph: "hyphensoft" + "hyphensoft"
+[Fatal] Glyph: "hyphensoft" contains 1 components | "hyphensoft" contains 0 components
+[Warning] Glyph: "hyphensoft" contains component hyphen not in "hyphensoft")
+hyphensoft
+(False, [Fatal] Glyph: "hyphensoft" + "hyphensoft"
+[Fatal] Glyph: "hyphensoft" contains 1 components | "hyphensoft" contains 0 components
+[Warning] Glyph: "hyphensoft" contains component hyphen not in "hyphensoft")
+greaterequal
+(False, [Fatal] Glyph: "greaterequal" + "greaterequal"
+[Fatal] Glyph: "greaterequal" contains 2 components | "greaterequal" contains 0 components
+[Warning] Glyph: "greaterequal" contains component greater not in "greaterequal"
+[Warning] Glyph: "greaterequal" contains component minus not in "greaterequal")
+greaterequal
+(False, [Fatal] Glyph: "greaterequal" + "greaterequal"
+[Fatal] Glyph: "greaterequal" contains 2 components | "greaterequal" contains 0 components
+[Warning] Glyph: "greaterequal" contains component greater not in "greaterequal"
+[Warning] Glyph: "greaterequal" contains component minus not in "greaterequal")
+Thorn
+(False, [Fatal] Glyph: "Thorn" + "Thorn"
+[Fatal] Glyph: "Thorn" contains 2 contours | "Thorn" contains 0 contours)
+sterling
+(False, [Fatal] Glyph: "sterling" + "sterling"
+[Fatal] Glyph: "sterling" contains 4 contours | "sterling" contains 0 contours)
+sterling
+(False, [Fatal] Glyph: "sterling" + "sterling"
+[Fatal] Glyph: "sterling" contains 4 contours | "sterling" contains 0 contours)
