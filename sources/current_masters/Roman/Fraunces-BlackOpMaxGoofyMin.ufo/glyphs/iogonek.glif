@@ -3,8 +3,34 @@
   <advance width="552"/>
   <unicode hex="012F"/>
   <outline>
+    <contour>
+      <point x="434" y="25" type="line"/>
+      <point x="177.56600099588587" y="-108.18665064554767"/>
+      <point x="70.0" y="-200.29479768786126"/>
+      <point x="70" y="-311" type="curve" smooth="yes"/>
+      <point x="70" y="-439"/>
+      <point x="169" y="-489"/>
+      <point x="344" y="-489" type="curve" smooth="yes"/>
+      <point x="440" y="-489"/>
+      <point x="505" y="-450"/>
+      <point x="530" y="-397" type="curve" smooth="yes"/>
+      <point x="535" y="-387"/>
+      <point x="533" y="-380"/>
+      <point x="529" y="-377" type="curve" smooth="yes"/>
+      <point x="523" y="-374"/>
+      <point x="516" y="-377"/>
+      <point x="513" y="-385" type="curve" smooth="yes"/>
+      <point x="496" y="-418"/>
+      <point x="454" y="-444"/>
+      <point x="411" y="-444" type="curve" smooth="yes"/>
+      <point x="363" y="-444"/>
+      <point x="323" y="-409"/>
+      <point x="323" y="-319" type="curve" smooth="yes"/>
+      <point x="323.0" y="-155.89795918367346"/>
+      <point x="375.60788632278803" y="-30.579155622685207"/>
+      <point x="440" y="14" type="curve"/>
+    </contour>
     <component base="i"/>
-    <component base="ogonek" xOffset="40"/>
   </outline>
   <lib>
     <dict>
