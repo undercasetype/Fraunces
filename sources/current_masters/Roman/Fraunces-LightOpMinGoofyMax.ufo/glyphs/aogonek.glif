@@ -4,7 +4,33 @@
   <unicode hex="0105"/>
   <guideline x="939" y="-251" angle="90" identifier="piI1GpURkd"/>
   <outline>
+    <contour>
+      <point x="850" y="23" type="line"/>
+      <point x="696" y="-49"/>
+      <point x="630.0" y="-161"/>
+      <point x="630" y="-269" type="curve" smooth="yes"/>
+      <point x="630" y="-367"/>
+      <point x="696" y="-433"/>
+      <point x="795" y="-433" type="curve" smooth="yes"/>
+      <point x="879" y="-433"/>
+      <point x="935" y="-374"/>
+      <point x="938" y="-323" type="curve" smooth="yes"/>
+      <point x="939" y="-307"/>
+      <point x="930" y="-301"/>
+      <point x="922" y="-301" type="curve" smooth="yes"/>
+      <point x="912" y="-301"/>
+      <point x="907" y="-305"/>
+      <point x="900" y="-318" type="curve" smooth="yes"/>
+      <point x="879" y="-361"/>
+      <point x="840" y="-380"/>
+      <point x="800" y="-380" type="curve" smooth="yes"/>
+      <point x="744" y="-380"/>
+      <point x="699" y="-341"/>
+      <point x="699" y="-265" type="curve" smooth="yes"/>
+      <point x="699.0" y="-168.0"/>
+      <point x="747.0" y="-85.0"/>
+      <point x="871" y="-16" type="curve"/>
+    </contour>
     <component base="a"/>
-    <component base="ogonek" xOffset="580"/>
   </outline>
 </glyph>
