@@ -2,6 +2,7 @@
 <glyph name="acutecmb" format="2">
   <advance width="324"/>
   <unicode hex="0301"/>
+  <anchor x="56" y="931" name="center"/>
   <outline>
     <contour>
       <point x="167" y="1186" type="curve" smooth="yes"/>
@@ -26,7 +27,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.8431,0.8627,1,1</string>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

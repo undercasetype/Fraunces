@@ -15,6 +15,11 @@ VERSION = "v1.3"
 LIBKEY = "com.andyclymer.ScaleAndAdjustSettings"
 
 
+"""
+Interp components but don't scale?
+
+"""
+
 
 
 """ Helpers """
@@ -183,7 +188,7 @@ class ScaleAndAdjust:
         
         self.w = vanilla.Window((317, 700), "Scale And Interpolate %s" % VERSION, minSize=(317, 300), maxSize=(317, 904), autosaveName="ScaleAndInterp") # 882 height
         
-        self.g = vanilla.Group((0, 0, 300, 835))
+        self.g = vanilla.Group((0, 0, 300, 860))
         
         step = 10
         self.g.font0title = vanilla.TextBox((10, step, -10, 25), colorText("Lightest Master (0%)", style="bold"))
@@ -253,6 +258,9 @@ class ScaleAndAdjust:
         step += 25
         self.g.infoBox = vanilla.CheckBox((10, step, -10, 25), "Interpolate Font Info whenever possible")
         self.g.infoBox.set(True)
+        step += 25
+        self.g.scaleComponentBox = vanilla.CheckBox((10, step, -10, 25), "Don’t scale component positions")
+        self.g.scaleComponentBox.set(True)
     
         #step += 40
         self.w.buildButton = vanilla.SquareButton((10, -35, -10, 25), "Make Font", callback=self.makeFontCallback)
@@ -590,6 +598,12 @@ class ScaleAndAdjust:
                     destGlyph = destFont[gName]
                     destGlyph.interpolate((CASEINFO["interpH"], CASEINFO["interpV"]), g0, g1)
                     
+                    # Hold aside component scale
+                    compScales = []
+                    if self.g.scaleComponentBox.get():
+                        for c in destGlyph.components:
+                            compScales.append(c.scale)
+                    
                     # Scale
                     destGlyph.scaleBy((CASEINFO["scaleH"], CASEINFO["scaleV"]))
                     destGlyph.width = int(round(destGlyph.width * CASEINFO["scaleH"]))
@@ -611,7 +625,12 @@ class ScaleAndAdjust:
                     # @@@ (Automatic, don't need to do this here)
                     #if len(g0.guides):
                     #    interpolateAndScaleGuides(CASEINFO, g0, g1, destGlyph)
-                    
+                
+                    # Set component scale back to where it was
+                    if self.g.scaleComponentBox.get():
+                        for cIdx, s in enumerate(compScales):
+                            destGlyph.components[cIdx].scale = s
+                            
                     # Unicodes
                     if g0.unicodes == g1.unicodes:
                         destGlyph.unicodes = g0.unicodes

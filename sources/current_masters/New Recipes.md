@@ -36,37 +36,37 @@ Interpolate Horizontal: 2
 Interpolate Vertical: 0
 Units of Tracking: -30
 
-# Black OpMin GoofyMin = Black OpMax + Black OpMin GoofyMax
+# Black OpMin GoofyMin = Black OpMax GoofyMin + Black OpMin GoofyMax
 
 Caps
 Scale Horizontal: 100
 Scale Vertical: 100
-Interpolate Horizontal: 50
-Interpolate Vertical: 50
-Units of Tracking: 0
+Interpolate Horizontal: 72
+Interpolate Vertical: 64
+Units of Tracking: 14
 
 Lowercase
-Scale Horizontal: 103.6 _(based on height of /x)_
-Scale Vertical: 103.6 _(based on height of /x)_
-Interpolate Horizontal: 50
-Interpolate Vertical: 50
-Units of Tracking: 0
+Scale Horizontal: 102.545922778
+Scale Vertical: 102.545922778
+Interpolate Horizontal: 72
+Interpolate Vertical: 64
+Units of Tracking: 12
 
-# Light OpMin GoofyMin = Light OpMax + Light OpMin GoofyMax
+# Light OpMin GoofyMin = Light OpMax GoofyMin + Light OpMin GoofyMax
 
 Caps
-Scale Horizontal: 100
+Scale Horizontal: 101
 Scale Vertical: 100
-Interpolate Horizontal: 70
-Interpolate Vertical: 70
-Units of Tracking: 0
+Interpolate Horizontal: 80
+Interpolate Vertical: 60
+Units of Tracking: 16
 
 Lowercase
-Scale Horizontal: 102.5 _(based on height of /x)_
-Scale Vertical: 102.5 _(based on height of /x)_
+Scale Horizontal: 103.041075879
+Scale Vertical: 103.041075879
 Interpolate Horizontal: 70
-Interpolate Vertical: 70
-Units of Tracking: 0
+Interpolate Vertical: 60
+Units of Tracking: 14
 
 
 ## Italic ##
@@ -107,38 +107,38 @@ Units of Tracking: -30
 
 Skew: 2°
 
-# Black OpMin GoofyMin = Black OpMax + Black OpMin GoofyMax
+# Black OpMin GoofyMin = Black OpMax GoofyMin + Black OpMin GoofyMax
 
 Caps
 Scale Horizontal: 100
 Scale Vertical: 100
-Interpolate Horizontal: 50
-Interpolate Vertical: 50
-Units of Tracking: 0
+Interpolate Horizontal: 72
+Interpolate Vertical: 64
+Units of Tracking: 14
 
 Lowercase
-Scale Horizontal: 103.6 _(based on height of roman /x)_
-Scale Vertical: 103.6 _(based on height of roman /x)_
-Interpolate Horizontal: 50
-Interpolate Vertical: 50
-Units of Tracking: 0
+Scale Horizontal: 102.545922778
+Scale Vertical: 102.545922778
+Interpolate Horizontal: 72
+Interpolate Vertical: 64
+Units of Tracking: 12
 
 Skew: 0°
 
-# Light OpMin GoofyMin = Light OpMax + Light OpMin GoofyMax
+# Light OpMin GoofyMin = Light OpMax GoofyMin + Light OpMin GoofyMax
 
 Caps
-Scale Horizontal: 100
+Scale Horizontal: 101
 Scale Vertical: 100
-Interpolate Horizontal: 70
-Interpolate Vertical: 70
-Units of Tracking: 0
+Interpolate Horizontal: 80
+Interpolate Vertical: 60
+Units of Tracking: 16
 
 Lowercase
-Scale Horizontal: 102.5 _(based on height of roman /x)_
-Scale Vertical: 102.5 _(based on height of roman /x)_
+Scale Horizontal: 103.041075879
+Scale Vertical: 103.041075879
 Interpolate Horizontal: 70
-Interpolate Vertical: 70
-Units of Tracking: 0
+Interpolate Vertical: 60
+Units of Tracking: 14
 
 Skew: 0°

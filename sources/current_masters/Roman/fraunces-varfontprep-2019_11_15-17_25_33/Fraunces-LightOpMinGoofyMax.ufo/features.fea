@@ -1,0 +1,19 @@
+# Script and language coverage
+
+ languagesystem DFLT dflt;
+ languagesystem latn dflt;
+
+ @UC = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ];
+ @LC = [ a b c d e f g h i j k l m n o p q r s t u v w x y z ];
+
+ @alts_on = [ h.alt m.alt n.alt s.alt ampersand.alt ] ;
+ @alts_off = [ h m n s ampersand ];
+
+
+ feature case {
+    sub @LC by @UC ;
+ } case;
+
+ feature ss01 {
+    sub @alts_off by @alts_on ;
+ } ss01 ;

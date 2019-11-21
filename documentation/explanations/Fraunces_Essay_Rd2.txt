@@ -12,6 +12,8 @@ Fast forward to the 1970's, when graphic designers were looking for more funky s
 Fraunces is not an Old Style typeface, but an "Old Style" typeface. That is, a genre of type that is less concerned with sensible construction of letterforms, and personality is always paramount.
 
 Within Fraunces are 4 axes: Weight, Goofy, Wonk, and Optical Size. Type designers in the past would provide fixed instances of an axis. In the Weight Axis, this is represented by Light, Regular, Bold, and Black weights. Variable Fonts allow granular control of each of these axes, and allows the user to access all the calculations in between.
+
+The Weight Axis spans a range of weights from Thin (100), Light (200), Regular (400), Semibold (600), Bold (800), and Black (1000). Because Fraunces is built as a variable font, users can access all the calculations in between for a real fine-tuned approach.
 The Goofy axis controls the "wetness" or "goofiness" of the typeface. Although Fraunces is drawn entirely with rounded serifs, it achieves sharpness in the Goofy Min area of the design space with extremely high contrast.  
 
 The Optical Size axis is similar to the Goofy, in that it controls the overall contrast between thicks and thins. But, the Optical Size axis goes a step further and factors in additional changes depending on the size of the font. At smaller sizes, the letterspacing opens up, x-height increases, and contrast decreases to allow for easier reading. On the opposite page are examples of the Goofy Min, which changes in Optical Size at different font sizes. Most modern web browsers will automatically interpret this information. Designing in applications such as Adobe Illustrator or Sketch requires a manual approach to typesetting. 
