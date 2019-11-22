@@ -2,6 +2,8 @@
 <glyph name="t" format="2">
   <advance width="630"/>
   <unicode hex="0074"/>
+  <anchor x="350" y="1209" name="center"/>
+  <anchor x="390" y="1209" name="right"/>
   <outline>
     <contour>
       <point x="160" y="867" type="line" smooth="yes"/>
@@ -58,7 +60,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0.5686,0.8235,1</string>
+      <string>0.8431,0.8627,1,1</string>
     </dict>
   </lib>
 </glyph>
