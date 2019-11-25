@@ -32,11 +32,11 @@
           <key>problem</key>
           <false/>
           <key>scaleH</key>
-          <real>1.01272961389</real>
+          <real>1.0</real>
           <key>scaleV</key>
-          <real>1.01272961389</real>
+          <real>1.0</real>
           <key>tracking</key>
-          <real>13.0</real>
+          <real>14.0</real>
         </dict>
         <key>uc</key>
         <dict>
@@ -55,9 +55,9 @@
         </dict>
       </dict>
       <key>otherOption</key>
-      <integer>1</integer>
+      <integer>2</integer>
       <key>skewOption</key>
-      <integer>1</integer>
+      <integer>0</integer>
     </dict>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
     <true/>
@@ -278,8 +278,42 @@
       <string>Iogonek</string>
       <string>Oogonek</string>
       <string>Uogonek</string>
+      <string>Ohorn</string>
+      <string>Uhorn</string>
+      <string>IJ</string>
+      <string>LJ</string>
+      <string>NJ</string>
+      <string>Lj</string>
+      <string>Nj</string>
+      <string>germandbls</string>
+      <string>dotlessi</string>
+      <string>dotlessj</string>
+      <string>ae</string>
+      <string>oe</string>
+      <string>schwa</string>
+      <string>kra</string>
+      <string>eng</string>
+      <string>thorn</string>
       <string>eth</string>
       <string>dcroat</string>
+      <string>hbar</string>
+      <string>tbar</string>
+      <string>lslash</string>
+      <string>oslash</string>
+      <string>aogonek</string>
+      <string>eogonek</string>
+      <string>iogonek</string>
+      <string>oogonek</string>
+      <string>uogonek</string>
+      <string>ohorn</string>
+      <string>uhorn</string>
+      <string>lj</string>
+      <string>nj</string>
+      <string>f_f</string>
+      <string>fi</string>
+      <string>fl</string>
+      <string>f_f_i</string>
+      <string>f_f_l</string>
       <string>acute</string>
       <string>hungarumlaut</string>
       <string>grave</string>
@@ -293,6 +327,61 @@
       <string>ring</string>
       <string>cedilla</string>
       <string>ogonek</string>
+      <string>acutecmb</string>
+      <string>hungarumlautcmb</string>
+      <string>gravecmb</string>
+      <string>gravedoublecmb</string>
+      <string>turnedcommaabovecmb</string>
+      <string>circumflexcmb</string>
+      <string>caroncmb</string>
+      <string>brevecmb</string>
+      <string>invertedbrevecmb</string>
+      <string>tildecmb</string>
+      <string>macroncmb</string>
+      <string>dieresiscmb</string>
+      <string>dotaccentcmb</string>
+      <string>ringcmb</string>
+      <string>commaturnedabovecmb</string>
+      <string>hookcmb</string>
+      <string>horncmb</string>
+      <string>dotbelowcmb</string>
+      <string>commaaccentbelowcmb</string>
+      <string>cedillacmb</string>
+      <string>ogonekcmb</string>
+      <string>belowbrevecmb</string>
+      <string>macronbelowcmb</string>
+      <string>dieresisbelowcmb</string>
+      <string>ringacute</string>
+      <string>circumflexacute</string>
+      <string>circumflexgrave</string>
+      <string>circumflextilde</string>
+      <string>circumflexhook</string>
+      <string>breveacute</string>
+      <string>brevegrave</string>
+      <string>brevetilde</string>
+      <string>brevehook</string>
+      <string>acute.cap</string>
+      <string>hungarumlaut.cap</string>
+      <string>grave.cap</string>
+      <string>gravedouble.cap</string>
+      <string>circumflex.cap</string>
+      <string>caron.cap</string>
+      <string>breve.cap</string>
+      <string>invertedbreve.cap</string>
+      <string>tilde.cap</string>
+      <string>macron.cap</string>
+      <string>dieresis.cap</string>
+      <string>dotaccent.cap</string>
+      <string>ring.cap</string>
+      <string>hook.cap</string>
+      <string>circumflexacute.cap</string>
+      <string>circumflexgrave.cap</string>
+      <string>circumflextilde.cap</string>
+      <string>circumflexhook.cap</string>
+      <string>breveacute.cap</string>
+      <string>brevegrave.cap</string>
+      <string>brevetilde.cap</string>
+      <string>brevehook.cap</string>
     </array>
   </dict>
 </plist>
