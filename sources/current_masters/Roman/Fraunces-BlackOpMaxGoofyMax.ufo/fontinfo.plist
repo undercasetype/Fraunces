@@ -11,7 +11,48 @@
     <key>familyName</key>
     <string>Fraunces</string>
     <key>guidelines</key>
-    <array/>
+    <array>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>top3</string>
+        <key>x</key>
+        <integer>0</integer>
+        <key>y</key>
+        <real>510.0</real>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>bottom2</string>
+        <key>x</key>
+        <integer>0</integer>
+        <key>y</key>
+        <real>980.0</real>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>top4</string>
+        <key>x</key>
+        <integer>0</integer>
+        <key>y</key>
+        <real>145.0</real>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>name</key>
+        <string>top2</string>
+        <key>x</key>
+        <integer>0</integer>
+        <key>y</key>
+        <real>590.0</real>
+      </dict>
+    </array>
     <key>postscriptBlueValues</key>
     <array/>
     <key>postscriptFamilyBlues</key>
