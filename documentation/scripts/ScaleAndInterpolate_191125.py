@@ -7,18 +7,14 @@ from mojo.UI import GetFile
 
 """
 Scale and Interpolate glyphs
-2019_09_27 Andy Clymer
+2019_11_25 Andy Clymer
 """
-VERSION = "v1.3"
+VERSION = "v1.4"
 
 
 LIBKEY = "com.andyclymer.ScaleAndAdjustSettings"
 
 
-"""
-Interp components but don't scale?
-
-"""
 
 
 
@@ -186,9 +182,9 @@ class ScaleAndAdjust:
             "interpV": dict(default=100, dataType=float, scale=0.01),
             "tracking": dict(default=0, dataType=float, scale=1)}
         
-        self.w = vanilla.Window((317, 700), "Scale And Interpolate %s" % VERSION, minSize=(317, 300), maxSize=(317, 904), autosaveName="ScaleAndInterp") # 882 height
+        self.w = vanilla.Window((317, 700), "Scale And Interpolate %s" % VERSION, minSize=(317, 300), maxSize=(317, 969), autosaveName="ScaleAndInterp") # 882 height
         
-        self.g = vanilla.Group((0, 0, 300, 860))
+        self.g = vanilla.Group((0, 0, 300, 900))
         
         step = 10
         self.g.font0title = vanilla.TextBox((10, step, -10, 25), colorText("Lightest Master (0%)", style="bold"))
@@ -261,6 +257,11 @@ class ScaleAndAdjust:
         step += 25
         self.g.scaleComponentBox = vanilla.CheckBox((10, step, -10, 25), "Don’t scale component positions")
         self.g.scaleComponentBox.set(True)
+        step += 25
+        self.g.doKernBox = vanilla.CheckBox((10, step, -10, 25), "Process Kerning")
+        self.g.doKernBox.set(True)
+        step += 3
+        self.g.testKernButton = vanilla.SquareButton((135, step, -10, 25), "Compatibility Test", callback=self.kernCompatibilityTestCallback)
     
         #step += 40
         self.w.buildButton = vanilla.SquareButton((10, -35, -10, 25), "Make Font", callback=self.makeFontCallback)
@@ -620,11 +621,6 @@ class ScaleAndAdjust:
                         destGlyph.leftMargin += int(round(CASEINFO["tracking"]*0.5))
                         destGlyph.rightMargin += int(round(CASEINFO["tracking"]*0.5))
                     else: destGlyph.width += CASEINFO["tracking"]
-                    
-                    # Glyph Guides
-                    # @@@ (Automatic, don't need to do this here)
-                    #if len(g0.guides):
-                    #    interpolateAndScaleGuides(CASEINFO, g0, g1, destGlyph)
                 
                     # Set component scale back to where it was
                     if self.g.scaleComponentBox.get():
@@ -638,6 +634,18 @@ class ScaleAndAdjust:
                     # Done
                     destGlyph.markColor = None
                     destGlyph.changed()
+        
+        # Process kerning
+        if self.g.doKernBox.get():
+            groupTestResult = self.kernCompatibilityTest()
+            if not groupTestResult["report"]:
+                # The kerning groups are compatible, can continue with the kerning
+                destFont.groups.update(font0.groups)
+                kernDict = self.doProcessKerns()
+                destFont.kerning.update(kernDict)
+            else:
+                # Groups are incompatible, print the test result
+                self.kernCompatibilityTestCallback(None)
         
         # Font Guides (use the "other" set)
         interpolateAndScaleGuides(self.normalizedInfo["other"], font0, font1, destFont)
@@ -670,7 +678,6 @@ class ScaleAndAdjust:
                 italicAngle = interpolate(self.normalizedInfo["lc"]["interpH"], font0.info.italicAngle, font1.info.italicAngle)
                 destFont.info.italicAngle = italicAngle
             
-        
         # Save the settings to the font.lib
         libData = dict(
             normalizedInfo=self.normalizedInfo,
@@ -684,6 +691,171 @@ class ScaleAndAdjust:
         
         destFont.changed()
         destFont.openInterface()
+        
+        
+    def kernCompatibilityTestCallback(self, sender):
+        # Print a compatibility test
+        if len(self.fontList) > 1:
+            groupTestResult = self.kernCompatibilityTest()
+            print("-"*30)
+            print("Kerning group report:")
+            if not groupTestResult["report"]:
+                print("\tAll OK!")
+            else: print(groupTestResult["report"])
+            print("-"*30)
+        
+    
+    def doProcessKerns(self):
+        groupTestResult = self.kernCompatibilityTest()
+        if not groupTestResult["report"]:
+            # The groups match, kern processing can continue
 
+            font0Idx = self.g.font0choice.get()
+            font1Idx = self.g.font1choice.get()
+            font0 = self.fontList[font0Idx]
+            font1 = self.fontList[font1Idx]
+            
+            # Group all kernable items (group names and glyph names) by their classifications
+            kernItemsByClass = dict(uc=[], lc=[], other=[])
+            kernItemsByClass["uc"] += groupTestResult["charsetUC"]
+            kernItemsByClass["uc"] += groupTestResult["groupsUC"]
+            kernItemsByClass["lc"] += groupTestResult["charsetLC"]
+            kernItemsByClass["lc"] += groupTestResult["groupsLC"]
+            kernItemsByClass["other"] += groupTestResult["charsetOther"]
+            kernItemsByClass["other"] += groupTestResult["groupsOther"]
+            # Make a quick reverse lookup of this dict
+            kernItemClasses = {}
+            for c in kernItemsByClass:
+                for i in kernItemsByClass[c]:
+                    kernItemClasses[i] = c
+                    
+            # Collect all kerning pairs, from both masters
+            pairs = []
+            for f in [font0, font1]:
+                for pair in f.kerning.keys():
+                    if not pair in pairs:
+                        pairs.append(pair)
+                        
+            # Go one-by-one through all the pairs and scale/interpolate the values
+            newKernDict = {}
+            for pair in pairs:
+                if not False in [pair[0] in kernItemClasses, pair[1] in kernItemClasses]:
+                    # Get the value from each font
+                    value0 = font0.kerning.get(pair, 0)
+                    value1 = font1.kerning.get(pair, 0)
+                    # Find the item classifications
+                    classL = kernItemClasses[pair[0]]
+                    classR = kernItemClasses[pair[1]]
+                    # Process the left class first
+                    v = interpolate(self.normalizedInfo[classL]["interpH"], value0, value1)
+                    v = v * self.normalizedInfo[classL]["scaleH"]
+                    # If the L and R classes differ, process again and take the 50% avg
+                    if not classL == classR:
+                        vR = interpolate(self.normalizedInfo[classR]["interpH"], value0, value1)
+                        vR = vR * self.normalizedInfo[classR]["scaleH"]
+                        v = interpolate(0.5, v, vR)
+                    newKernDict[pair] = v
+            
+            return newKernDict
+                    
+        
+    
+    def kernCompatibilityTest(self):
+        # Test the kerning for compatibility
+        # Kerning groups must be identical between masters
+        # Chosen UC and LC groups must not conflict with the group contents (i.e. no mixing UC and LC in the same group)
+        # Give a report for group compatibility
+        
+        font0Idx = self.g.font0choice.get()
+        font1Idx = self.g.font1choice.get()
+        font0 = self.fontList[font0Idx]
+        font1 = self.fontList[font1Idx]
+        font0name = self.g.font0choice.getItems()[font0Idx]
+        font1name = self.g.font1choice.getItems()[font1Idx]
+        
+        # Build a report for the problems
+        groupReport = []
+        # Be ready to sort the kerning groups by classification
+        groupsUC = []
+        groupsLC = []
+        groupsOther = []
+        charsetUC = []
+        charsetLC = []
+        charsetOther = []
+        
+        # Fetch the charsets
+        groupChoiceIdxUC = self.g.ucGroups.get()
+        groupChoiceIdxLC = self.g.lcGroups.get()
+        if 0 in [groupChoiceIdxUC, groupChoiceIdxLC]:
+            groupReport.append("\tProblem: Choose two different groups or two different fonts")
+
+        else:
+            charsetUC = self.groups[groupChoiceIdxUC]["glyphNames"]
+            charsetLC = self.groups[groupChoiceIdxLC]["glyphNames"]
+            # Collect an "other" charset
+            charsetOther = []
+            if not self.g.otherRadio.get() == 2: # 2 = Skip
+                for gn in font0.keys():
+                    if gn in font1.keys():
+                        if not True in [gn in charsetUC, gn in charsetLC]:
+                            charsetOther.append(gn)
+        
+            # Group contents
+            for group0name in font0.groups.keys():
+                if group0name.startswith("public.kern"):
+                    if not group0name in font1.groups:
+                        groupReport.append("\tMissing kerning group:   %s is not in %s" % (group0name, font1name))
+                    else:
+                        # Test if contents match
+                        if not font0.groups[group0name] == font1.groups[group0name]:
+                            groupReport.append("\tMismatching glyph list:  %s" % group0name)
+                        else:
+                            # Test if contents are in matching classifications
+                            classifications = dict(uc=[], lc=[], etc=[])
+                            for gn in font0.groups[group0name]:
+                                if gn in charsetUC:
+                                    classifications["uc"].append(gn)
+                                elif gn in charsetLC:
+                                    classifications["lc"].append(gn)
+                                else: classifications["etc"].append(gn)
+                            # Report if the classifications are mixed
+                            classifications = [c[0] for c in classifications.items() if not len(c[1]) == 0]
+                            if len(classifications) > 1:
+                                classReport = ""
+                                for c in ["uc", "lc", "etc"]:
+                                    names = classifications[c]
+                                    if len(names):
+                                        #if len(classReport): classReport += ", "
+                                        classReport += "(%s: %s) " % (c.upper(), " ".join(classifications[c]))
+                                groupReport.append("\tIncompatible group:      %s %s" % (group0name, classReport))
+                            else:
+                                # The group is ok! It's the same in both fonts and all the glyphs are in the same classification
+                                c = classifications[0]
+                                if c == "uc":
+                                    groupsUC.append(group0name)
+                                elif c == "lc":
+                                    groupsLC.append(group0name)
+                                else: groupsOther.append(group0name)
+            # One more test from font1 to font0 for missing groups
+            for group1name in font1.groups.keys():
+                if group1name.startswith("public.kern"):
+                    if not group1name in font0.groups:
+                        groupReport.append("\tMissing kerning group:   %s is not in %s" % (group1name, font0name))
+                    
+        groupReport.sort()
+        if len(groupReport):
+            fullReport = "\n".join(groupReport)
+        else: fullReport = None
+        return dict(
+            groupsUC=groupsUC, 
+            groupsLC=groupsLC, 
+            groupsOther=groupsOther, 
+            charsetUC=charsetUC,
+            charsetLC=charsetLC,
+            charsetOther=charsetOther,
+            report=fullReport)
+        
+        
+        
 
 ScaleAndAdjust()
