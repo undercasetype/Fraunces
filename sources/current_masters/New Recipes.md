@@ -25,16 +25,16 @@ Units of Tracking: -20
 Caps
 Scale Horizontal: 93
 Scale Vertical: 100
-Interpolate Horizontal: -2
+Interpolate Horizontal: -4.6
 Interpolate Vertical: -4
-Units of Tracking: -40
+Units of Tracking: -84
 
 Lowercase
-Scale Horizontal: 85
-Scale Vertical: 92
-Interpolate Horizontal: 2
-Interpolate Vertical: 0
-Units of Tracking: -30
+Scale Horizontal: 89
+Scale Vertical: 92.8
+Interpolate Horizontal: -2.6
+Interpolate Vertical: -5
+Units of Tracking: -80
 
 # Black OpMin GoofyMin = Black OpMax GoofyMin + Black OpMin GoofyMax
 
