@@ -11,22 +11,22 @@
         <key>lc</key>
         <dict>
           <key>interpH</key>
-          <real>0.02</real>
+          <real>-0.026000000000000002</real>
           <key>interpV</key>
-          <real>0.0</real>
+          <real>-0.05</real>
           <key>problem</key>
           <false/>
           <key>scaleH</key>
-          <real>0.85</real>
+          <real>0.89</real>
           <key>scaleV</key>
-          <real>0.92</real>
+          <real>0.9279999999999999</real>
           <key>tracking</key>
-          <real>-30.0</real>
+          <real>-80.0</real>
         </dict>
         <key>other</key>
         <dict>
           <key>interpH</key>
-          <real>-0.02</real>
+          <real>-0.046</real>
           <key>interpV</key>
           <real>-0.04</real>
           <key>problem</key>
@@ -36,12 +36,12 @@
           <key>scaleV</key>
           <real>1.0</real>
           <key>tracking</key>
-          <real>-40.0</real>
+          <real>-84.0</real>
         </dict>
         <key>uc</key>
         <dict>
           <key>interpH</key>
-          <real>-0.02</real>
+          <real>-0.046</real>
           <key>interpV</key>
           <real>-0.04</real>
           <key>problem</key>
@@ -51,7 +51,7 @@
           <key>scaleV</key>
           <real>1.0</real>
           <key>tracking</key>
-          <real>-40.0</real>
+          <real>-84.0</real>
         </dict>
       </dict>
       <key>otherOption</key>
@@ -70,6 +70,22 @@
     <key>com.typemytype.robofont.compileSettings.generateFormat</key>
     <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.releaseMode</key>
+    <false/>
+    <key>com.typemytype.robofont.guideline.magnetic.1wkfyB8sea</key>
+    <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.magnetic.RrsSKvEswC</key>
+    <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.magnetic.S3IvODJdXo</key>
+    <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.magnetic.zwdSAu9qJD</key>
+    <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.showMeasurements.1wkfyB8sea</key>
+    <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.RrsSKvEswC</key>
+    <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.S3IvODJdXo</key>
+    <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.zwdSAu9qJD</key>
     <false/>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <integer>0</integer>

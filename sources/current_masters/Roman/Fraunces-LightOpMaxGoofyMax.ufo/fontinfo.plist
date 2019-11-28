@@ -3,11 +3,11 @@
 <plist version="1.0">
   <dict>
     <key>ascender</key>
-    <real>1389.2</real>
+    <integer>1446</integer>
     <key>capHeight</key>
     <real>1400.0</real>
     <key>descender</key>
-    <real>-450.8</real>
+    <integer>-471</integer>
     <key>familyName</key>
     <string>Fraunces</string>
     <key>guidelines</key>
@@ -16,7 +16,7 @@
         <key>angle</key>
         <integer>0</integer>
         <key>identifier</key>
-        <string>GecJkcW0HH</string>
+        <string>yzBPiAHAKv</string>
         <key>name</key>
         <string>top3</string>
         <key>x</key>
@@ -28,7 +28,7 @@
         <key>angle</key>
         <integer>0</integer>
         <key>identifier</key>
-        <string>5oD8KmWaWG</string>
+        <string>4Ft7JoExMg</string>
         <key>name</key>
         <string>bottom2</string>
         <key>x</key>
@@ -40,7 +40,7 @@
         <key>angle</key>
         <integer>0</integer>
         <key>identifier</key>
-        <string>tAGhrQOlbP</string>
+        <string>4xpOte8HvO</string>
         <key>name</key>
         <string>top4</string>
         <key>x</key>
@@ -52,13 +52,61 @@
         <key>angle</key>
         <integer>0</integer>
         <key>identifier</key>
-        <string>eZAkSIGGI8</string>
+        <string>oBbib8vSmq</string>
         <key>name</key>
         <string>top2</string>
         <key>x</key>
         <integer>0</integer>
         <key>y</key>
         <real>590.0</real>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>identifier</key>
+        <string>S3IvODJdXo</string>
+        <key>name</key>
+        <string>overshoot</string>
+        <key>x</key>
+        <integer>0</integer>
+        <key>y</key>
+        <integer>870</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>identifier</key>
+        <string>RrsSKvEswC</string>
+        <key>name</key>
+        <string>overshoot</string>
+        <key>x</key>
+        <integer>0</integer>
+        <key>y</key>
+        <integer>-20</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>identifier</key>
+        <string>zwdSAu9qJD</string>
+        <key>name</key>
+        <string>overshoot</string>
+        <key>x</key>
+        <integer>0</integer>
+        <key>y</key>
+        <integer>1420</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>identifier</key>
+        <string>1wkfyB8sea</string>
+        <key>name</key>
+        <string>overshoot</string>
+        <key>x</key>
+        <integer>0</integer>
+        <key>y</key>
+        <integer>-494</integer>
       </dict>
     </array>
     <key>postscriptBlueValues</key>
@@ -78,6 +126,6 @@
     <key>unitsPerEm</key>
     <integer>2000</integer>
     <key>xHeight</key>
-    <real>846.4000000000001</real>
+    <integer>850</integer>
   </dict>
 </plist>
