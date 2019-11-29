@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sdotaccent.alt" format="2">
+  <advance width="915"/>
+  <outline>
+    <component base="s.alt" xScale="0.85" yScale="0.92"/>
+    <component base="dotaccentcmb" xScale="0.85" yScale="0.92" xOffset="212"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

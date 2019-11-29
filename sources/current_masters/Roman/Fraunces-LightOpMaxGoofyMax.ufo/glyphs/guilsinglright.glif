@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guilsinglright" format="2">
-  <advance width="505"/>
+  <advance width="458"/>
   <unicode hex="203A"/>
   <outline>
-    <component base="guilsinglleft" xScale="-0.89" yScale="-0.96" xOffset="523" yOffset="890"/>
+    <component base="guilsinglleft" xScale="-0.89" yScale="-0.9279999999999999" xOffset="498" yOffset="858"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

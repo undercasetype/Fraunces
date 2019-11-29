@@ -1,10 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="threequarters" format="2">
-  <advance width="1691"/>
+  <advance width="1751"/>
   <unicode hex="00BE"/>
   <outline>
-    <component base="four.superior" xScale="0.89" yScale="0.96" xOffset="875.76" yOffset="-600.9599999999999"/>
-    <component base="fraction" xScale="0.89" yScale="0.96" xOffset="396.05" yOffset="-3.84"/>
-    <component base="threesuperior" xScale="0.89" yScale="0.96" xOffset="53.4"/>
+    <component base="four.superior" xScale="0.93" xOffset="895" yOffset="-630"/>
+    <component base="fraction" xScale="0.93" xOffset="394" yOffset="-4"/>
+    <component base="threesuperior" xScale="0.93" xOffset="41"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

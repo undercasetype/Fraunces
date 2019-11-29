@@ -3,39 +3,6 @@
   <advance width="433"/>
   <unicode hex="02DA"/>
   <outline>
-    <contour>
-      <point x="320" y="1057" type="curve" smooth="yes"/>
-      <point x="411" y="1057"/>
-      <point x="506" y="1132"/>
-      <point x="531" y="1224" type="curve" smooth="yes"/>
-      <point x="555" y="1315"/>
-      <point x="500" y="1390"/>
-      <point x="409" y="1390" type="curve" smooth="yes"/>
-      <point x="317" y="1390"/>
-      <point x="222" y="1315"/>
-      <point x="198" y="1224" type="curve" smooth="yes"/>
-      <point x="173" y="1132"/>
-      <point x="228" y="1057"/>
-    </contour>
-    <contour>
-      <point x="396" y="1340" type="curve" smooth="yes"/>
-      <point x="458" y="1340"/>
-      <point x="495" y="1288"/>
-      <point x="478" y="1224" type="curve" smooth="yes"/>
-      <point x="461" y="1160"/>
-      <point x="396" y="1107"/>
-      <point x="334" y="1107" type="curve" smooth="yes"/>
-      <point x="271" y="1107"/>
-      <point x="234" y="1160"/>
-      <point x="251" y="1224" type="curve" smooth="yes"/>
-      <point x="268" y="1288"/>
-      <point x="334" y="1340"/>
-    </contour>
+    <component base="ringcmb"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.8431,0.8627,1,1</string>
-    </dict>
-  </lib>
 </glyph>

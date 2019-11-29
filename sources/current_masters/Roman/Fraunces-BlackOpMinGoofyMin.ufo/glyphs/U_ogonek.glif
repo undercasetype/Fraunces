@@ -1,7 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Uogonek" format="2">
-  <advance width="14"/>
+  <advance width="1516"/>
   <unicode hex="0172"/>
   <outline>
+    <contour>
+      <point x="1024" y="52" type="line"/>
+      <point x="733" y="-33"/>
+      <point x="611" y="-136"/>
+      <point x="611" y="-285" type="curve" smooth="yes"/>
+      <point x="611" y="-413"/>
+      <point x="703" y="-483"/>
+      <point x="875" y="-483" type="curve" smooth="yes"/>
+      <point x="1007" y="-483"/>
+      <point x="1101" y="-424"/>
+      <point x="1137" y="-351" type="curve" smooth="yes"/>
+      <point x="1159" y="-310"/>
+      <point x="1139" y="-283"/>
+      <point x="1117" y="-276" type="curve" smooth="yes"/>
+      <point x="1095" y="-269"/>
+      <point x="1080" y="-278"/>
+      <point x="1062" y="-295" type="curve" smooth="yes"/>
+      <point x="1038" y="-323"/>
+      <point x="1011" y="-339"/>
+      <point x="979" y="-339" type="curve" smooth="yes"/>
+      <point x="937" y="-339"/>
+      <point x="906" y="-310"/>
+      <point x="906" y="-244" type="curve" smooth="yes"/>
+      <point x="906" y="-118"/>
+      <point x="958" y="-46"/>
+      <point x="1051" y="5" type="curve"/>
+    </contour>
+    <component base="U" xOffset="7"/>
   </outline>
 </glyph>

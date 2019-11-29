@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="approxequal" format="2">
-  <advance width="1223"/>
+  <advance width="1269"/>
   <unicode hex="2248"/>
   <outline>
-    <component base="asciitilde" xScale="0.89" yScale="0.96" xOffset="-12" yOffset="-218"/>
-    <component base="asciitilde" xScale="0.89" yScale="0.96" xOffset="-12" yOffset="267"/>
+    <component base="asciitilde" xScale="0.93" xOffset="-15" yOffset="-226"/>
+    <component base="asciitilde" xScale="0.93" xOffset="-15" yOffset="276"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
