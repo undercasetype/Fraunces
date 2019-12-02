@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omacronacute" format="2">
+  <advance width="1048"/>
+  <unicode hex="1E53"/>
+  <outline>
+    <component base="o"/>
+    <component base="macroncmb" xOffset="206.5"/>
+    <component base="acute.cap" xOffset="454" yOffset="306"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3922,0.8039,1,1</string>
+    </dict>
+  </lib>
+</glyph>
