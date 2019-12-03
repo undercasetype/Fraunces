@@ -22,39 +22,39 @@ Benedikt has done his initial review of the .designspace files. The biggest prob
 
 WooOoooO! What haven't I been working on? :P I've been splitting my time between quite a few fronts:
 
-– Designed the look & feel/wireframe for the digital specimen. Will be meeting with everyone on Thursday to review the latest build of the minisite.
-– Working with Andy Sturdevant to refine the text for the digital/print specimen. Waiting for feedback from the Google team.
-– Worked a bit on the print specimen, getting a more accurate quote for the Riso printing. I would say the design is about 80% there. Just need to refine content, and polish certain pages.
-– Working with Alphabet to begin the mastering process. Benedikt opened an issue on the repo with questions about instance naming.
-– Been working on all drawn glyphs for the Italic OpMax Light & Black, so that is in good shape for Flavia to start looking at next week.
+* Designed the look & feel/wireframe for the digital specimen. Will be meeting with everyone on Thursday to review the latest build of the minisite.
+* Working with Andy Sturdevant to refine the text for the digital/print specimen. Waiting for feedback from the Google team.
+* Worked a bit on the print specimen, getting a more accurate quote for the Riso printing. I would say the design is about 80% there. Just need to refine content, and polish certain pages.
+* Working with Alphabet to begin the mastering process. Benedikt opened an issue on the repo with questions about instance naming.
+* Been working on all drawn glyphs for the Italic OpMax Light & Black, so that is in good shape for Flavia to start looking at next week.
 
 ### To-Do
 
 #### Font
 
-– Accented & Combining Characters for Italic Goofy Min
-– Corrections and Extended Character Set for all Goofy Max masters
-– Kerning all Masters, would be good to start by setting up groups (most likely Flavia or Ethan will work on this when the time comes)
+* Accented & Combining Characters for Italic Goofy Min
+* Corrections and Extended Character Set for all Goofy Max masters
+* Kerning all Masters, would be good to start by setting up groups (most likely Flavia or Ethan will work on this when the time comes)
 
 #### Mastering
 
-– Instance naming (get feedback from Dave!!)
-– Pass fontbakery checks
+* Instance naming (get feedback from Dave!!)
+* Pass fontbakery checks
 
 #### Writing
 
-– Axis explanations on Git repo
-– Feedback from Google
-– Final draft of essay
+* Axis explanations on Git repo
+* Feedback from Google
+* Final draft of essay
 
 #### Digital Specimen
 
-– Character set overview
-– OpSz diagram
-– Stickers and header
+* Character set overview
+* OpSz diagram
+* Stickers and header
 
 #### Print Specimen
 
-– Final quote
-– Finalize copy
-– Finish design
+* Final quote
+* Finalize copy
+* Finish design
