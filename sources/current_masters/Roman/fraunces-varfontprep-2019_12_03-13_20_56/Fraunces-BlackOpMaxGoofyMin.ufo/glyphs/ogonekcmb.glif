@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ogonekcmb" format="2">
+  <advance width="538"/>
+  <unicode hex="0328"/>
+  <outline>
+    <contour>
+      <point x="439" y="74" type="line"/>
+      <point x="129" y="-46"/>
+      <point x="50" y="-143"/>
+      <point x="50" y="-250" type="curve" smooth="yes"/>
+      <point x="50" y="-364"/>
+      <point x="132" y="-428"/>
+      <point x="269" y="-428" type="curve" smooth="yes"/>
+      <point x="370" y="-428"/>
+      <point x="448" y="-386"/>
+      <point x="485" y="-316" type="curve" smooth="yes"/>
+      <point x="489" y="-309"/>
+      <point x="490" y="-302"/>
+      <point x="483" y="-298" type="curve" smooth="yes"/>
+      <point x="477" y="-295"/>
+      <point x="471" y="-298"/>
+      <point x="468" y="-304" type="curve" smooth="yes"/>
+      <point x="441" y="-351"/>
+      <point x="408" y="-373"/>
+      <point x="372" y="-373" type="curve" smooth="yes"/>
+      <point x="333" y="-373"/>
+      <point x="296" y="-333"/>
+      <point x="296" y="-228" type="curve" smooth="yes"/>
+      <point x="296" y="-87"/>
+      <point x="338" y="-3"/>
+      <point x="445" y="60" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8431,0.8627,1,1</string>
+    </dict>
+  </lib>
+</glyph>
