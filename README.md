@@ -10,6 +10,16 @@ This typeface family is still under development, and will be ready for initial r
 
 The Fraunces font family is composed of a Roman and Italic, and is being built as a Variable Font. Between these two styles, the family spans 3 axes and 1 binary axis: Weight (0–1000), GOOF (0–100), Optical Size (9–144), and WONK (0 or 1).
 
+## Variable Axes
+
+Fraunces has the following axes:
+
+Axis | Tag | Range | Default | Description
+Optical Size | opsz | 9 to 144 | 9 | Labeled 9, 72, and 144 in instances
+Weight | wght | 100 to 900 | 100 | Thin, Light, Regular, Semibold, Bold, and Black in instances
+Goofy | GOOF | 0 to 100 | 100 | Labeled GMin, GMid, and GMax in instances
+Wonk | WONK | 0 to 1 | 0.5 | Controls substitution of "wonky" characters
+
 ### Weight Axis
 
 The weight axis spans Thin to Black. Nuff said.
