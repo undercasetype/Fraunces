@@ -4,11 +4,7 @@
 
 Fraunces is a display, "Old Style" soft-serif typeface inspired by the mannerisms of early 20th century typefaces such as [Windsor](http://fontreviewjournal.com/windsor/), Souvenir, and the Cooper Series.
 
-This typeface family is still under development, and will be ready for initial release by the end of 2019.
-
-## What can Fraunces do?
-
-The Fraunces font family is composed of a Roman and Italic, and is being built as a Variable Font. Between these two styles, the family spans 3 axes and 1 binary axis: Weight (0–1000), GOOF (0–100), Optical Size (9–144), and WONK (0 or 1).
+This typeface family is still under development, and will be ready for initial release by early 2020.
 
 ## Variable Axes
 
