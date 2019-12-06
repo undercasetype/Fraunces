@@ -4,6 +4,12 @@
   <unicode hex="1EDC"/>
   <outline>
     <component base="Ohorn"/>
-    <component base="grave.cap" xOffset="416" yOffset="492"/>
+    <component base="grave.cap" xOffset="418" yOffset="485"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

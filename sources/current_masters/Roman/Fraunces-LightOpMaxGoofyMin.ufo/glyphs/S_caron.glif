@@ -4,6 +4,12 @@
   <unicode hex="0160"/>
   <outline>
     <component base="S"/>
-    <component base="caron.cap" xOffset="282" yOffset="492"/>
+    <component base="caron.cap" xOffset="292" yOffset="485"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

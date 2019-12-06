@@ -4,6 +4,12 @@
   <unicode hex="0140"/>
   <outline>
     <component base="l"/>
-    <component base="dotaccentcmb" xOffset="275" yOffset="-444.5"/>
+    <component base="dotaccentcmb" xOffset="275" yOffset="-339.5"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>
