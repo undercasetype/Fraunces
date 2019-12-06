@@ -5,13 +5,13 @@
     <version superpolator="2"/>
     <!-- measurements -->
     <!-- application data -->
-    <data name="horizontalPreviewAxis" value="weight"/>
+    <data name="horizontalPreviewAxis" value="optical"/>
     <data name="lineInverted" value="False"/>
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
-    <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Fraunces/sources/designspace_explorations/Italic/instances"/>
-    <data name="previewtext" value="The Hundred Dollar."/>
-    <data name="verticalPreviewAxis" value="wonk"/>
+    <data name="generateFontsAtFolder" value="/Users/spencercharles/Documents/Git Repositories/Fraunces/sources/current_masters/Italic/instances"/>
+    <data name="previewtext" value="Quimby"/>
+    <data name="verticalPreviewAxis" value="weight"/>
     <!-- don't generate these glyphs -->
     <ignore glyphs=""/>
     <!-- rules -->
@@ -38,7 +38,7 @@
         <color a="1.000" b="0.694" g="1.226" r="0.905"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMax.ufo" sortorder="0" stylename="Black OptMax">
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMaxGoofyMin.ufo" sortorder="0" stylename="Black OpMax GoofyMin">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="weight" xvalue="1000.000000"/>
@@ -46,7 +46,7 @@
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMin.ufo" sortorder="1" stylename="Black OpMin">
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-BlackOpMinGoofyMax.ufo" sortorder="1" stylename="Black OpMin GoofyMax">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="weight" xvalue="1000.000000"/>
@@ -54,7 +54,7 @@
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMax.ufo" sortorder="2" stylename="Light OpMax">
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMaxGoofyMin.ufo" sortorder="2" stylename="Light OpMax GoofyMin">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="weight" xvalue="0.000000"/>
@@ -62,7 +62,7 @@
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMin.ufo" sortorder="3" stylename="Light OpMin">
+    <master familyname="Fraunces Italic" filename="FrauncesItalic-LightOpMinGoofyMax.ufo" sortorder="3" stylename="Light OpMin GoofyMax">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="weight" xvalue="0.000000"/>
