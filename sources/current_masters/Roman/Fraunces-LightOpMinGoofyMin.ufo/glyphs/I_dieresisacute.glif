@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idieresisacute" format="2">
+  <advance width="639"/>
+  <unicode hex="1E2E"/>
+  <outline>
+    <component base="I" xScale="1.01" xOffset="8"/>
+    <component base="dieresis.cap" xScale="1.01" xOffset="40" yOffset="446"/>
+    <component base="acute.cap" xScale="1.01" xOffset="229" yOffset="685"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

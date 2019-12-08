@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Otildedieresis" format="2">
+  <advance width="1590"/>
+  <unicode hex="1E4E"/>
+  <outline>
+    <component base="O" xOffset="7"/>
+    <component base="tilde.cap" xOffset="426" yOffset="470"/>
+    <component base="dieresis.cap" xOffset="321" yOffset="850"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

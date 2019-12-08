@@ -2,8 +2,13 @@
 <glyph name="acute" format="2">
   <advance width="562"/>
   <unicode hex="00B4"/>
-  <anchor x="-210.21914169490003" y="996.7463694021601" name="center"/>
   <outline>
     <component base="acutecmb" xScale="1.02545922778" yScale="1.02545922778"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
