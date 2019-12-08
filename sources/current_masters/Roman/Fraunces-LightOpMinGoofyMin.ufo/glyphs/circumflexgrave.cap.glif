@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexgrave.cap" format="2">
   <advance width="656"/>
-  <anchor x="283" y="1014" name="center"/>
   <outline>
     <contour>
       <point x="286" y="1189" type="line"/>
@@ -48,4 +47,10 @@
       <point x="591" y="1188" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,8 +2,6 @@
 <glyph name="E" format="2">
   <advance width="1236"/>
   <unicode hex="0045"/>
-  <anchor x="614.0" y="-150" name="right"/>
-  <anchor x="635" y="1528" name="center"/>
   <outline>
     <contour>
       <point x="336" y="710" type="line"/>
@@ -93,4 +91,10 @@
       <point x="119" y="1394"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

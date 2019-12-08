@@ -2,7 +2,6 @@
 <glyph name="trademark" format="2">
   <advance width="1906"/>
   <unicode hex="2122"/>
-  <guideline x="1434.2" y="1348" angle="0" identifier="X2uzwlVdTN"/>
   <outline>
     <contour>
       <point x="187" y="1399" type="line" smooth="yes"/>
@@ -154,4 +153,10 @@
       <point x="1301" y="709" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

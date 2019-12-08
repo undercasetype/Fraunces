@@ -2,7 +2,6 @@
 <glyph name="gravecmb" format="2">
   <advance width="376"/>
   <unicode hex="0300"/>
-  <anchor x="280" y="1011" name="center"/>
   <outline>
     <contour>
       <point x="182" y="1276" type="line" smooth="yes"/>
@@ -24,4 +23,10 @@
       <point x="311" y="1091" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

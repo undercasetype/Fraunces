@@ -2,7 +2,6 @@
 <glyph name="acutecmb" format="2">
   <advance width="376"/>
   <unicode hex="0301"/>
-  <anchor x="80" y="971" name="center"/>
   <outline>
     <contour>
       <point x="194" y="1276" type="curve" smooth="yes"/>
@@ -24,4 +23,10 @@
       <point x="226" y="1323"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>
