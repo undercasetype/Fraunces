@@ -4,6 +4,12 @@
   <unicode hex="1E49"/>
   <outline>
     <component base="n"/>
-    <component base="macronbelowcmb" xOffset="199" yOffset="-23"/>
+    <component base="macronbelowcmb" xOffset="239"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

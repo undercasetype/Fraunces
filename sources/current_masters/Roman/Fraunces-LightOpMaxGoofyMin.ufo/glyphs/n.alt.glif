@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="n.alt" format="2">
   <advance width="898"/>
+  <anchor x="484" y="944" name="center"/>
   <outline>
     <contour>
       <point x="214" y="852" type="line" smooth="yes"/>
@@ -88,7 +89,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.8431,0.8627,1,1</string>
     </dict>
   </lib>
 </glyph>

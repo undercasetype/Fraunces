@@ -3,7 +3,13 @@
   <advance width="1052"/>
   <outline>
     <component base="S"/>
-    <component base="caron.cap" xOffset="282" yOffset="492"/>
-    <component base="dotaccent.cap" xOffset="437" yOffset="704"/>
+    <component base="caron.cap" xOffset="292" yOffset="485"/>
+    <component base="dotaccent.cap" xOffset="447" yOffset="650"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>

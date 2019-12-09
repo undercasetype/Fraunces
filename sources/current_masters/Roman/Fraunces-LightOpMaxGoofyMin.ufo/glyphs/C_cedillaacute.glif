@@ -4,7 +4,13 @@
   <unicode hex="1E08"/>
   <outline>
     <component base="C"/>
-    <component base="acute.cap" xOffset="599" yOffset="497"/>
-    <component base="cedillacmb" xOffset="478.1803398874981"/>
+    <component base="acute.cap" xOffset="625" yOffset="490"/>
+    <component base="cedillacmb" xOffset="483.1803398874981"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
 </glyph>
