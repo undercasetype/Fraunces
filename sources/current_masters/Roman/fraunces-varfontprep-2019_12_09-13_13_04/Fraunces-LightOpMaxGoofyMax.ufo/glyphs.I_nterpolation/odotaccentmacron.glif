@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odotaccentmacron" format="2">
+  <advance width="953"/>
+  <outline>
+    <contour>
+      <point x="430.52" y="1097" type="curve" smooth="yes"/>
+      <point x="462.14" y="1097"/>
+      <point x="485.39" y="1132"/>
+      <point x="485.39" y="1172" type="curve" smooth="yes"/>
+      <point x="485.39" y="1212"/>
+      <point x="462.14" y="1245"/>
+      <point x="430.52" y="1245" type="curve" smooth="yes"/>
+      <point x="397.97" y="1245"/>
+      <point x="375.65" y="1212"/>
+      <point x="375.65" y="1172" type="curve" smooth="yes"/>
+      <point x="375.65" y="1132"/>
+      <point x="397.97" y="1097"/>
+    </contour>
+    <contour>
+      <point x="371.0" y="-454.71999999999997" type="line"/>
+      <point x="371.0" y="1401.28" type="line"/>
+      <point x="489.11" y="1401.28" type="line"/>
+      <point x="489.11" y="-454.71999999999997" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="-454.71999999999997" type="line"/>
+      <point x="0" y="1401.28" type="line"/>
+      <point x="953" y="1401.28" type="line"/>
+      <point x="953" y="-454.71999999999997" type="line"/>
+    </contour>
+  </outline>
+</glyph>
