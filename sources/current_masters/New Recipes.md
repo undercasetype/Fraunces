@@ -1,6 +1,6 @@
 Fraunces goofy and opsz axis explorations:
 
-Here are the formulas used to generate OpMax GoofyMax (i.e., low contrast) and OpMin GoofyMin (i.e., high contrast) masters with ScaleAndInterpolate.py in ~/documentation/scripts/. Please note that the functionality in that script that allows you to drop in a UFO and see how it was generated might not work at the moment because we re-arranged the designspace, which involved swapping masters.
+Here are the formulas used to generate OpMax GoofyMax (i.e., low contrast) and OpMin GoofyMin (i.e., high contrast) masters with ScaleAndInterpolate.py in ~/documentation/scripts/.
 
 ## ROMAN ##
 

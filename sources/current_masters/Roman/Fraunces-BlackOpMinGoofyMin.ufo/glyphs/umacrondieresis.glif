@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="umacrondieresis" format="2">
+  <advance width="1333"/>
+  <unicode hex="1E7B"/>
+  <outline>
+    <component base="u" xScale="1.02545922778" yScale="1.02545922778" xOffset="6"/>
+    <component base="macroncmb" xScale="1.02545922778" yScale="1.02545922778" xOffset="258"/>
+    <component base="dieresiscmb" xScale="1.02545922778" yScale="1.02545922778" xOffset="181" yOffset="344"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

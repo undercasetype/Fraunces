@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="grave.cap" format="2">
   <advance width="410"/>
-  <anchor x="293" y="938" name="center"/>
   <outline>
     <contour>
       <point x="185" y="1209" type="line" smooth="yes"/>
@@ -23,4 +22,10 @@
       <point x="342" y="1053" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

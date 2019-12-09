@@ -2,7 +2,6 @@
 <glyph name="W" format="2">
   <advance width="1936"/>
   <unicode hex="0057"/>
-  <anchor x="955" y="1498" name="center"/>
   <outline>
     <contour>
       <point x="972" y="1166" type="line"/>
@@ -113,4 +112,10 @@
       <point x="1541" y="1394"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>
