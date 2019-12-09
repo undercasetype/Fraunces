@@ -28,7 +28,7 @@
         <rule name="wonk">
             <conditionset>
                 <condition maximum="18" minimum="9" name="optical" />
-                <condition maximum="1000" minimum="0" name="weight" />
+                <condition maximum="900" minimum="100" name="weight" />
                 <condition maximum="100" minimum="0" name="goofy" />
             </conditionset>
             <conditionset>
