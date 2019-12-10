@@ -231,6 +231,7 @@
       Udotbelow
       Ugrave
       Uhoi
+      Uhorn
       Uhornacute
       Uhorndotbelow
       Uhorngrave
@@ -272,6 +273,7 @@
   </group>
   <group color="0.0 1.0 0.0 0.25" name="Z" side="side1" type="kerning">
     <glyphs>
+      DZcaron
       Z
       Zacute
       Zcaron
@@ -414,7 +416,10 @@
       Nj
       dotlessj
       eng
+      ij
+      ijacute
       j
+      jacute
       jcircumflex
       lj
       nj
@@ -443,6 +448,13 @@
       ldot
       ldotbelow
       lmacronbelow
+      lslash
+    </glyphs>
+  </group>
+  <group color="1.0 1.0 0.0 0.25" name="leftquote" side="side1" type="kerning">
+    <glyphs>
+      quotedblleft
+      quoteleft
     </glyphs>
   </group>
   <group color="0.0 1.0 1.0 0.25" name="n" side="side1" type="kerning">
@@ -466,13 +478,26 @@
   <group color="1.0 1.0 0.0 0.25" name="n.alt" side="side1" type="kerning">
     <glyphs>
       h.alt
+      hbar
+      hbrevebelow.alt
+      hcircumflex.alt
+      hdotbelow.alt
       m.alt
+      mdotbelow.alt
       n.alt
+      nacute.alt
+      ncaron.alt
+      ncommaaccent.alt
+      ndotaccent.alt
+      ndotbelow.alt
+      nmacronbelow.alt
+      ntilde.alt
     </glyphs>
   </group>
   <group color="0.0 0.5 1.0 0.25" name="o" side="side1" type="kerning">
     <glyphs>
       b
+      eth
       o
       oacute
       obreve
@@ -512,6 +537,17 @@
       thorn
     </glyphs>
   </group>
+  <group color="1.0 0.5 0.0 0.25" name="period" side="side1" type="kerning">
+    <glyphs>
+      colon
+      comma
+      ellipsis
+      period
+      quotedblbase
+      quotesinglbase
+      semicolon
+    </glyphs>
+  </group>
   <group color="0.0 1.0 1.0 0.25" name="r" side="side1" type="kerning">
     <glyphs>
       r
@@ -524,25 +560,44 @@
       rmacronbelow
     </glyphs>
   </group>
+  <group color="0.0 1.0 0.0 0.25" name="rightquote" side="side1" type="kerning">
+    <glyphs>
+      quotedbl
+      quotedblright
+      quoteright
+      quotesingle
+    </glyphs>
+  </group>
   <group color="1.0 0.5 0.0 0.25" name="s" side="side1" type="kerning">
     <glyphs>
       s
       s.alt
       sacute
+      sacute.alt
       sacutedotaccent
+      sacutedotaccent.alt
       scaron
+      scaron.alt
       scarondotaccent
+      scarondotaccent.alt
       scedilla
+      scedilla.alt
       scircumflex
+      scircumflex.alt
       scommaaccent
+      scommaaccent.alt
       sdotaccent
+      sdotaccent.alt
       sdotbelow
+      sdotbelow.alt
       sdotbelowdotaccent
+      sdotbelowdotaccent.alt
     </glyphs>
   </group>
   <group color="1.0 0.0 0.5 0.25" name="t" side="side1" type="kerning">
     <glyphs>
       t
+      tbar
       tcaron
       tcedilla
       tcommaaccent
@@ -578,6 +633,7 @@
   </group>
   <group color="1.0 0.0 0.0 0.25" name="z" side="side1" type="kerning">
     <glyphs>
+      dzcaron
       z
       zacute
       zcaron
@@ -624,6 +680,7 @@
     <glyphs>
       B
       D
+      DZcaron
       Dcaron
       Dcroat
       Ddotbelow
@@ -662,6 +719,7 @@
       Hdotbelow
       I
       IJ
+      IJacute
       Iacute
       Ibreve
       Icircumflex
@@ -713,6 +771,7 @@
   <group color="1.0 0.0 0.5 0.25" name="J" side="side2" type="kerning">
     <glyphs>
       J
+      Jacute
       Jcircumflex
     </glyphs>
   </group>
@@ -809,6 +868,7 @@
       Udotbelow
       Ugrave
       Uhoi
+      Uhorn
       Uhornacute
       Uhorndotbelow
       Uhorngrave
@@ -915,6 +975,7 @@
     <glyphs>
       dotlessj
       j
+      jacute
       jcircumflex
     </glyphs>
   </group>
@@ -923,9 +984,13 @@
       b
       h
       h.alt
+      hbar
       hbrevebelow
+      hbrevebelow.alt
       hcircumflex
+      hcircumflex.alt
       hdotbelow
+      hdotbelow.alt
       k
       kcommaaccent
       l
@@ -936,7 +1001,14 @@
       ldotbelow
       lj
       lmacronbelow
+      lslash
       thorn
+    </glyphs>
+  </group>
+  <group color="0.0 1.0 1.0 0.25" name="leftquote" side="side2" type="kerning">
+    <glyphs>
+      quotedblleft
+      quoteleft
     </glyphs>
   </group>
   <group color="0.0 1.0 0.0 0.25" name="n" side="side2" type="kerning">
@@ -955,6 +1027,8 @@
       igrave
       ihookabove
       iinvertedbreve
+      ij
+      ijacute
       imacron
       iogonek
       itilde
@@ -962,16 +1036,24 @@
       m
       m.alt
       mdotbelow
+      mdotbelow.alt
       n
       n.alt
       nacute
+      nacute.alt
       ncaron
+      ncaron.alt
       ncommaaccent
+      ncommaaccent.alt
       ndotaccent
+      ndotaccent.alt
       ndotbelow
+      ndotbelow.alt
       nj
       nmacronbelow
+      nmacronbelow.alt
       ntilde
+      ntilde.alt
       r
       racute
       rcaron
@@ -996,6 +1078,7 @@
       dcroat
       ddotbelow
       dmacronbelow
+      dzcaron
       e
       eacute
       ebreve
@@ -1018,6 +1101,7 @@
       emacronacute
       emacrongrave
       eogonek
+      eth
       etilde
       o
       oacute
@@ -1057,25 +1141,55 @@
       q
     </glyphs>
   </group>
+  <group color="0.0 1.0 0.0 0.25" name="period" side="side2" type="kerning">
+    <glyphs>
+      colon
+      comma
+      ellipsis
+      period
+      quotedblbase
+      quotesinglbase
+      semicolon
+    </glyphs>
+  </group>
+  <group color="0.0 0.5 1.0 0.25" name="rightquote" side="side2" type="kerning">
+    <glyphs>
+      quotedbl
+      quotedblright
+      quoteright
+      quotesingle
+    </glyphs>
+  </group>
   <group color="0.0 0.0 1.0 0.25" name="s" side="side2" type="kerning">
     <glyphs>
       s
       s.alt
       sacute
+      sacute.alt
       sacutedotaccent
+      sacutedotaccent.alt
       scaron
+      scaron.alt
       scarondotaccent
+      scarondotaccent.alt
       scedilla
+      scedilla.alt
       scircumflex
+      scircumflex.alt
       scommaaccent
+      scommaaccent.alt
       sdotaccent
+      sdotaccent.alt
       sdotbelow
+      sdotbelow.alt
       sdotbelowdotaccent
+      sdotbelowdotaccent.alt
     </glyphs>
   </group>
   <group color="1.0 0.0 0.0 0.25" name="t" side="side2" type="kerning">
     <glyphs>
       t
+      tbar
       tcaron
       tcedilla
       tcommaaccent

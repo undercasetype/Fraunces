@@ -915,6 +915,13 @@
         <real>1.0</real>
         <real>0.25</real>
       </array>
+      <key>public.kern1.leftquote</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern1.n</key>
       <array>
         <real>0.0</real>
@@ -936,11 +943,25 @@
         <real>1.0</real>
         <real>0.25</real>
       </array>
+      <key>public.kern1.period</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern1.r</key>
       <array>
         <real>0.0</real>
         <real>1.0</real>
         <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.rightquote</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.s</key>
@@ -1090,6 +1111,13 @@
         <real>0.0</real>
         <real>0.25</real>
       </array>
+      <key>public.kern2.leftquote</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern2.n</key>
       <array>
         <real>0.0</real>
@@ -1102,6 +1130,20 @@
         <real>1.0</real>
         <real>0.5</real>
         <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.period</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.rightquote</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.s</key>

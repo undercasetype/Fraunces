@@ -512,6 +512,11 @@
       <string>f_f_l</string>
       <string>fl</string>
     </array>
+    <key>public.kern1.leftquote</key>
+    <array>
+      <string>quotedblleft</string>
+      <string>quoteleft</string>
+    </array>
     <key>public.kern1.n</key>
     <array>
       <string>h</string>
@@ -576,6 +581,16 @@
       <string>thorn</string>
       <string>schwa</string>
     </array>
+    <key>public.kern1.period</key>
+    <array>
+      <string>quotedblbase</string>
+      <string>quotesinglbase</string>
+      <string>colon</string>
+      <string>comma</string>
+      <string>ellipsis</string>
+      <string>period</string>
+      <string>semicolon</string>
+    </array>
     <key>public.kern1.r</key>
     <array>
       <string>r</string>
@@ -586,6 +601,13 @@
       <string>rdotbelow</string>
       <string>rinvertedbreve</string>
       <string>rmacronbelow</string>
+    </array>
+    <key>public.kern1.rightquote</key>
+    <array>
+      <string>quotedbl</string>
+      <string>quotedblright</string>
+      <string>quoteright</string>
+      <string>quotesingle</string>
     </array>
     <key>public.kern1.s</key>
     <array>
@@ -768,6 +790,7 @@
     <array>
       <string>J</string>
       <string>Jcircumflex</string>
+      <string>Jacute</string>
     </array>
     <key>public.kern2.O</key>
     <array>
@@ -980,6 +1003,11 @@
       <string>b</string>
       <string>h.alt</string>
     </array>
+    <key>public.kern2.leftquote</key>
+    <array>
+      <string>quotedblleft</string>
+      <string>quoteleft</string>
+    </array>
     <key>public.kern2.n</key>
     <array>
       <string>ndotaccent</string>
@@ -1095,6 +1123,23 @@
       <string>oslashacute</string>
       <string>dcroat</string>
       <string>oe</string>
+    </array>
+    <key>public.kern2.period</key>
+    <array>
+      <string>colon</string>
+      <string>comma</string>
+      <string>ellipsis</string>
+      <string>period</string>
+      <string>quotedblbase</string>
+      <string>quotesinglbase</string>
+      <string>semicolon</string>
+    </array>
+    <key>public.kern2.rightquote</key>
+    <array>
+      <string>quotedbl</string>
+      <string>quotedblright</string>
+      <string>quoteright</string>
+      <string>quotesingle</string>
     </array>
     <key>public.kern2.s</key>
     <array>
