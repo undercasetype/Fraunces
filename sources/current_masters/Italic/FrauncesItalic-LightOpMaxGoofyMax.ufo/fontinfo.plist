@@ -6,6 +6,8 @@
     <real>1389.2</real>
     <key>capHeight</key>
     <real>1400.0</real>
+    <key>copyright</key>
+    <string>Copyright 2020 The Fraunces Project Authors (github.com/undercasetype/Fraunces)</string>
     <key>descender</key>
     <real>-450.8</real>
     <key>familyName</key>
@@ -39,6 +41,12 @@
     </array>
     <key>italicAngle</key>
     <real>0.0</real>
+    <key>openTypeNameLicenseURL</key>
+    <string>https://scripts.sil.org/OFL</string>
+    <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2VendorID</key>
+    <string>UTF</string>
     <key>postscriptBlueValues</key>
     <array/>
     <key>postscriptFamilyBlues</key>
@@ -55,6 +63,10 @@
     <string>Light OpMax GoofyMax</string>
     <key>unitsPerEm</key>
     <integer>2000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>0</integer>
     <key>xHeight</key>
     <real>828.0</real>
   </dict>
