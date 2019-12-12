@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringacute" format="2">
+  <advance width="456"/>
+  <outline>
+    <contour>
+      <point x="221" y="1064" type="curve" smooth="yes"/>
+      <point x="310" y="1064"/>
+      <point x="384" y="1137"/>
+      <point x="384" y="1224" type="curve" smooth="yes"/>
+      <point x="384" y="1312"/>
+      <point x="310" y="1384"/>
+      <point x="221" y="1384" type="curve" smooth="yes"/>
+      <point x="132" y="1384"/>
+      <point x="59" y="1312"/>
+      <point x="59" y="1224" type="curve" smooth="yes"/>
+      <point x="59" y="1137"/>
+      <point x="132" y="1064"/>
+    </contour>
+    <contour>
+      <point x="221" y="1340" type="curve" smooth="yes"/>
+      <point x="284" y="1340"/>
+      <point x="335" y="1288"/>
+      <point x="335" y="1224" type="curve" smooth="yes"/>
+      <point x="335" y="1160"/>
+      <point x="284" y="1108"/>
+      <point x="221" y="1108" type="curve" smooth="yes"/>
+      <point x="160" y="1108"/>
+      <point x="107" y="1160"/>
+      <point x="107" y="1224" type="curve" smooth="yes"/>
+      <point x="107" y="1288"/>
+      <point x="160" y="1340"/>
+    </contour>
+    <contour>
+      <point x="317" y="1658" type="curve" smooth="yes"/>
+      <point x="168" y="1494" type="line" smooth="yes"/>
+      <point x="162" y="1488"/>
+      <point x="156" y="1480"/>
+      <point x="163" y="1473" type="curve" smooth="yes"/>
+      <point x="168" y="1468"/>
+      <point x="176" y="1469"/>
+      <point x="182" y="1473" type="curve" smooth="yes"/>
+      <point x="375" y="1602" type="line" smooth="yes"/>
+      <point x="409" y="1625"/>
+      <point x="436" y="1642"/>
+      <point x="440" y="1669" type="curve" smooth="yes"/>
+      <point x="445" y="1690"/>
+      <point x="433" y="1712"/>
+      <point x="409" y="1717" type="curve" smooth="yes"/>
+      <point x="377" y="1724"/>
+      <point x="356" y="1700"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>
