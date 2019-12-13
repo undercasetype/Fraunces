@@ -2,6 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>Caps</key>
+    <array>
+      <string>A</string>
+      <string>B</string>
+      <string>C</string>
+      <string>D</string>
+      <string>E</string>
+      <string>F</string>
+      <string>G</string>
+      <string>H</string>
+      <string>I</string>
+      <string>J</string>
+      <string>K</string>
+      <string>L</string>
+      <string>M</string>
+      <string>N</string>
+      <string>O</string>
+      <string>P</string>
+      <string>Q</string>
+      <string>R</string>
+      <string>S</string>
+      <string>T</string>
+      <string>U</string>
+      <string>V</string>
+      <string>W</string>
+      <string>X</string>
+      <string>Y</string>
+      <string>Z</string>
+      <string>ampersand.alt</string>
+      <string>ampersand</string>
+      <string>zero</string>
+      <string>one</string>
+      <string>two</string>
+      <string>three</string>
+      <string>four</string>
+      <string>five</string>
+      <string>six</string>
+      <string>seven</string>
+      <string>eight</string>
+      <string>nine</string>
+      <string>question</string>
+      <string>questiondown</string>
+      <string>exclam</string>
+      <string>exclamdown</string>
+      <string>parenleft</string>
+      <string>parenright</string>
+      <string>bracketleft</string>
+      <string>bracketright</string>
+      <string>braceleft</string>
+      <string>braceright</string>
+      <string>slash</string>
+      <string>backslash</string>
+      <string>bar</string>
+    </array>
+    <key>Lowercase</key>
+    <array>
+      <string>a</string>
+      <string>b</string>
+      <string>c</string>
+      <string>d</string>
+      <string>e</string>
+      <string>f</string>
+      <string>g</string>
+      <string>h</string>
+      <string>h.alt</string>
+      <string>i</string>
+      <string>j</string>
+      <string>k</string>
+      <string>l</string>
+      <string>m</string>
+      <string>m.alt</string>
+      <string>n</string>
+      <string>n.alt</string>
+      <string>o</string>
+      <string>p</string>
+      <string>q</string>
+      <string>r</string>
+      <string>s</string>
+      <string>s.alt</string>
+      <string>t</string>
+      <string>u</string>
+      <string>v</string>
+      <string>w</string>
+      <string>x</string>
+      <string>y</string>
+      <string>z</string>
+    </array>
     <key>public.kern1.A</key>
     <array>
       <string>A</string>
@@ -19,9 +106,9 @@
     <array>
       <string>H</string>
       <string>I</string>
-      <string>J</string>
-      <string>M</string>
       <string>N</string>
+      <string>M</string>
+      <string>J</string>
     </array>
     <key>public.kern1.K</key>
     <array>
@@ -33,8 +120,8 @@
     </array>
     <key>public.kern1.O</key>
     <array>
-      <string>D</string>
       <string>O</string>
+      <string>D</string>
       <string>Q</string>
     </array>
     <key>public.kern1.R</key>
@@ -126,11 +213,11 @@
     </array>
     <key>public.kern1.period</key>
     <array>
+      <string>quotedblbase</string>
+      <string>quotesinglbase</string>
       <string>comma</string>
       <string>ellipsis</string>
       <string>period</string>
-      <string>quotedblbase</string>
-      <string>quotesinglbase</string>
     </array>
     <key>public.kern1.r</key>
     <array>
@@ -175,12 +262,12 @@
       <string>F</string>
       <string>H</string>
       <string>I</string>
-      <string>K</string>
-      <string>L</string>
-      <string>M</string>
       <string>N</string>
       <string>P</string>
       <string>R</string>
+      <string>L</string>
+      <string>M</string>
+      <string>K</string>
     </array>
     <key>public.kern2.J</key>
     <array>
@@ -240,11 +327,11 @@
     </array>
     <key>public.kern2.l</key>
     <array>
-      <string>b</string>
       <string>h</string>
-      <string>h.alt</string>
       <string>k</string>
       <string>l</string>
+      <string>b</string>
+      <string>h.alt</string>
     </array>
     <key>public.kern2.leftquote</key>
     <array>
@@ -253,11 +340,11 @@
     </array>
     <key>public.kern2.n</key>
     <array>
-      <string>m</string>
-      <string>m.alt</string>
-      <string>n</string>
-      <string>n.alt</string>
       <string>r</string>
+      <string>m</string>
+      <string>n</string>
+      <string>m.alt</string>
+      <string>n.alt</string>
     </array>
     <key>public.kern2.o</key>
     <array>
