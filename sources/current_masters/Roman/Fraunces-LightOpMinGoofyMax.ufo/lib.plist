@@ -42,6 +42,7 @@
           <string>e</string>
           <string>f</string>
           <string>g</string>
+          <string>g.alt</string>
           <string>h</string>
           <string>h.alt</string>
           <string>i</string>
@@ -257,12 +258,6 @@
           <string>brevegrave.cap</string>
           <string>brevetilde.cap</string>
           <string>brevehook.cap</string>
-          <string>cmb:overlaystrokeshort</string>
-          <string>uniE0FF</string>
-          <string>uniEFFD</string>
-          <string>uniF000</string>
-          <string>NUL</string>
-          <string>CR</string>
           <string>AE</string>
           <string>OE</string>
           <string>Schwa</string>
@@ -277,8 +272,9 @@
           <string>Ohorn</string>
           <string>Uhorn</string>
           <string>Germandbls</string>
-          <string>IJ</string>
           <string>DZcaron</string>
+          <string>IJ</string>
+          <string>IJacute</string>
           <string>LJ</string>
           <string>NJ</string>
           <string>AEacute</string>
@@ -492,6 +488,8 @@
           <string>f_f_i</string>
           <string>f_f_l</string>
           <string>dzcaron</string>
+          <string>ij</string>
+          <string>ijacute</string>
           <string>lj</string>
           <string>nj</string>
           <string>Dzcaron</string>
@@ -579,6 +577,7 @@
           <string>ihookabove</string>
           <string>idotbelow</string>
           <string>iogonek</string>
+          <string>jacute</string>
           <string>jcircumflex</string>
           <string>kcommaaccent</string>
           <string>lacute</string>
@@ -711,6 +710,8 @@
         <string>glyphList</string>
       </dict>
     </array>
+    <key>com.typemytype.glyphBuilder.lastSavedFileName</key>
+    <string>LightOpMin</string>
     <key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
     <false/>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
@@ -1204,6 +1205,7 @@
       <string>e</string>
       <string>f</string>
       <string>g</string>
+      <string>g.alt</string>
       <string>h</string>
       <string>h.alt</string>
       <string>i</string>
@@ -1419,12 +1421,6 @@
       <string>brevegrave.cap</string>
       <string>brevetilde.cap</string>
       <string>brevehook.cap</string>
-      <string>cmb:overlaystrokeshort</string>
-      <string>uniE0FF</string>
-      <string>uniEFFD</string>
-      <string>uniF000</string>
-      <string>NUL</string>
-      <string>CR</string>
       <string>AE</string>
       <string>OE</string>
       <string>Schwa</string>
@@ -1439,8 +1435,9 @@
       <string>Ohorn</string>
       <string>Uhorn</string>
       <string>Germandbls</string>
-      <string>IJ</string>
       <string>DZcaron</string>
+      <string>IJ</string>
+      <string>IJacute</string>
       <string>LJ</string>
       <string>NJ</string>
       <string>AEacute</string>
@@ -1654,6 +1651,8 @@
       <string>f_f_i</string>
       <string>f_f_l</string>
       <string>dzcaron</string>
+      <string>ij</string>
+      <string>ijacute</string>
       <string>lj</string>
       <string>nj</string>
       <string>Dzcaron</string>
@@ -1741,6 +1740,7 @@
       <string>ihookabove</string>
       <string>idotbelow</string>
       <string>iogonek</string>
+      <string>jacute</string>
       <string>jcircumflex</string>
       <string>kcommaaccent</string>
       <string>lacute</string>
