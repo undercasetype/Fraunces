@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omacrongrave" format="2">
+  <advance width="1121"/>
+  <unicode hex="1E51"/>
+  <outline>
+    <component base="o"/>
+    <component base="macroncmb" xOffset="269.5"/>
+    <component base="grave.cap" xOffset="283.5" yOffset="246"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
+</glyph>

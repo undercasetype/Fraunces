@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="otildeacute" format="2">
+  <advance width="1048"/>
+  <unicode hex="1E4D"/>
+  <outline>
+    <component base="o"/>
+    <component base="tildecmb" xOffset="201"/>
+    <component base="acute.cap" xOffset="427" yOffset="356"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.4,0.8,0.9989,1</string>
+    </dict>
+  </lib>
+</glyph>
