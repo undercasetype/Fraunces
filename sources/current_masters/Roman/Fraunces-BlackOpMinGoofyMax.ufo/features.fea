@@ -19,3 +19,10 @@
  } ss01 ;
 
 
+feature liga { 
+  sub f f i by f_f_i;  
+  sub f f l by f_f_l; 
+  sub f f by f_f;
+  sub f i by fi; 
+  sub f l by fl; 
+}liga;
