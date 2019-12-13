@@ -102,7 +102,6 @@
   <group color="1.0 0.0 0.0 0.25" name="i" side="side1" type="kerning">
     <glyphs>
       i
-      u
     </glyphs>
   </group>
   <group color="0.0 0.0 1.0 0.25" name="j" side="side1" type="kerning">
@@ -139,6 +138,7 @@
       h.alt
       m.alt
       n.alt
+      u
     </glyphs>
   </group>
   <group color="0.0 0.5 1.0 0.25" name="o" side="side1" type="kerning">
@@ -150,13 +150,11 @@
   </group>
   <group color="1.0 0.5 0.0 0.25" name="period" side="side1" type="kerning">
     <glyphs>
-      colon
       comma
       ellipsis
       period
       quotedblbase
       quotesinglbase
-      semicolon
     </glyphs>
   </group>
   <group color="0.0 1.0 1.0 0.25" name="r" side="side1" type="kerning">
@@ -166,6 +164,7 @@
   </group>
   <group color="0.0 1.0 0.0 0.25" name="rightquote" side="side1" type="kerning">
     <glyphs>
+      apostrophemod
       quotedbl
       quotedblright
       quoteright
@@ -183,10 +182,6 @@
       t
     </glyphs>
   </group>
-  <group color="0.5 0.0 1.0 0.25" name="u" side="side1" type="kerning">
-    <glyphs>
-    </glyphs>
-  </group>
   <group color="0.0 0.5 1.0 0.25" name="v" side="side1" type="kerning">
     <glyphs>
       v
@@ -202,10 +197,6 @@
   <group color="1.0 0.0 0.0 0.25" name="A" side="side2" type="kerning">
     <glyphs>
       A
-    </glyphs>
-  </group>
-  <group color="1.0 1.0 0.0 0.25" name="E" side="side2" type="kerning">
-    <glyphs>
     </glyphs>
   </group>
   <group color="0.0 1.0 0.0 0.25" name="H" side="side2" type="kerning">
@@ -283,6 +274,11 @@
       g
     </glyphs>
   </group>
+  <group color="0.0 0.5 1.0 0.25" name="i" side="side2" type="kerning">
+    <glyphs>
+      i
+    </glyphs>
+  </group>
   <group color="1.0 1.0 0.0 0.25" name="j" side="side2" type="kerning">
     <glyphs>
       j
@@ -305,7 +301,6 @@
   </group>
   <group color="0.0 1.0 0.0 0.25" name="n" side="side2" type="kerning">
     <glyphs>
-      i
       m
       m.alt
       n
@@ -324,17 +319,16 @@
   </group>
   <group color="0.0 1.0 0.0 0.25" name="period" side="side2" type="kerning">
     <glyphs>
-      colon
       comma
       ellipsis
       period
       quotedblbase
       quotesinglbase
-      semicolon
     </glyphs>
   </group>
   <group color="0.0 0.5 1.0 0.25" name="rightquote" side="side2" type="kerning">
     <glyphs>
+      apostrophemod
       quotedbl
       quotedblright
       quoteright
