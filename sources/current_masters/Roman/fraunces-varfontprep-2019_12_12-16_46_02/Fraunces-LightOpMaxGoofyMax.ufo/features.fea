@@ -17,3 +17,8 @@
  feature ss01 {
     sub @alts_off by @alts_on ;
  } ss01 ;
+
+feature kern {
+    # glyph, glyph
+    pos F X -45;
+} kern;
