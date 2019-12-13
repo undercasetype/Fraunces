@@ -3,8 +3,34 @@
   <advance width="1333"/>
   <unicode hex="0104"/>
   <outline>
+    <contour>
+      <point x="1129" y="39" type="line"/>
+      <point x="972.7037764330312" y="-33.136718569370274"/>
+      <point x="889.0" y="-138"/>
+      <point x="889" y="-252" type="curve" smooth="yes"/>
+      <point x="889" y="-352"/>
+      <point x="959.0" y="-419.0"/>
+      <point x="1063" y="-419" type="curve" smooth="yes"/>
+      <point x="1154" y="-419"/>
+      <point x="1214" y="-360"/>
+      <point x="1217" y="-309" type="curve" smooth="yes"/>
+      <point x="1218" y="-293"/>
+      <point x="1209" y="-287"/>
+      <point x="1201" y="-287" type="curve" smooth="yes"/>
+      <point x="1191" y="-287"/>
+      <point x="1186" y="-291"/>
+      <point x="1179" y="-304" type="curve" smooth="yes"/>
+      <point x="1158" y="-348"/>
+      <point x="1112" y="-366"/>
+      <point x="1068" y="-366" type="curve" smooth="yes"/>
+      <point x="1008.0" y="-366.0"/>
+      <point x="958" y="-327"/>
+      <point x="958" y="-248" type="curve" smooth="yes"/>
+      <point x="958.0" y="-144"/>
+      <point x="1024.611380888138" y="-71.22073565553764"/>
+      <point x="1150" y="0" type="curve"/>
+    </contour>
     <component base="A"/>
-    <component base="ogonek" xOffset="880"/>
   </outline>
   <lib>
     <dict>
