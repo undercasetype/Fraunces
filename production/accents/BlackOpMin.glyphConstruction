@@ -245,9 +245,7 @@ gdotaccent=g+dotaccentcmb@center,{top_lc}:top1|0121
 gcommaaccent=g+commaturnedabovecmb@center,{top_lc}:top1|0123
 gmacron=g+macroncmb@center,{top_lc}:top1|1E21
 hcircumflex=h+circumflex.cap@`center-33 0`,{top_lc}:`top3+10`|0125
-
 hbrevebelow=h+belowbrevecmb@center,{top_uc}:bottom1|1E2B
- 
 hdotbelow=h+dotbelowcmb@center,{top_lc}:bottom1|1E25 
 iacute=dotlessi+acutecmb@center,{top_lc}:top1|00ED
 igrave=dotlessi+gravecmb@center,{top_lc}:top1|00EC
@@ -284,7 +282,7 @@ ohungarumlaut=o+hungarumlautcmb@center,{top_lc}:top1|0151
 ograve=o+gravecmb@center,{top_lc}:top1|00F2
 odblgrave=o+gravedoublecmb@center,{top_lc}:top1|020D
 ocircumflex=o+circumflexcmb@center,{top_lc}:top1|00F4
-ocircumflexdotbelow=o+circumflexcmb@center,{top_lc}:top1+dotbelowcmb@center,{top_lc}:bottom1|1ED9
+ocircumflexdotbelow=o+circumflexcmb@center,{top_lc}:top1+dotbelowcmb@`center+30`,{top_lc}:bottom1|1ED9
 ocircumflexacute=o+circumflexacute@center,{top_lc}:top1|1ED1
 ocircumflexgrave=o+circumflexgrave@center,{top_lc}:top1|1ED3
 ocircumflexhookabove=o+circumflexhook@center,{top_lc}:top1|1ED5
@@ -302,11 +300,11 @@ odieresis=o+dieresiscmb@center,{top_lc}:top1|00F6
 odieresismacron=o+dieresiscmb@center,{top_lc}:top1+macroncmb@center,{top_lc}:top2|022B
 odotaccentmacron=o+dotaccentcmb@center,{top_lc}:top1+macroncmb@center,{top_lc}:top2|0231
 ohookabove=o+hookcmb@center,{top_lc}:top1|1ECF
-odotbelow=o+dotbelowcmb@center,{top_lc}:bottom1|1ECD
-ohornacute=ohorn+acutecmb@center,{top_lc}:top1|1EDB
+odotbelow=o+dotbelowcmb@`center+30`,{top_lc}:bottom1|1ECD
+ohornacute=ohorn+acutecmb@`center-30`,{top_lc}:top1|1EDB
 ohorngrave=ohorn+gravecmb@center,{top_lc}:top1|1EDD
-ohornhookabove=ohorn+hookcmb@center,{top_lc}:top1|1EDF
-ohorntilde=ohorn+tildecmb@center,{top_lc}:top1|1EE1
+ohornhookabove=ohorn+hookcmb@`center-10`,{top_lc}:top1|1EDF
+ohorntilde=ohorn+tildecmb@`center-30`,{top_lc}:top1|1EE1
 ohorndotbelow=ohorn+dotbelowcmb@center,{top_lc}:bottom1|1EE3
 oslashacute=oslash+acutecmb@center,{top_lc}:top1|01FF
 racute=r+acutecmb@center,{top_lc}:top1|0155
@@ -317,14 +315,11 @@ rcommaaccent=r+commaaccentbelowcmb@`center-150`,{top_lc}:bottom1|0157
 rdotbelow=r+dotbelowcmb@`center-150`,{top_lc}:bottom1|1E5B 
 rmacronbelow=r+macronbelowcmb@`center-150`,{top_uc}:bottom2|1E5F 
 sacute=s+acutecmb@center,{top_lc}:top1|015B
-
 sacutedotaccent=s+acutecmb@`center+180`,{top_lc}:top1+dotaccentcmb@`center-340`,{top_lc}:top1|1E65 
 scircumflex=s+circumflexcmb@center,{top_lc}:top1|015D
 scaron=s+caroncmb@center,{top_lc}:top1|0161
-
 scarondotaccent=s+caroncmb@center,{top_lc}:top1+dotaccentcmb@center,{top_lc}:`top2+40`
 sdotaccent=s+dotaccentcmb@center,{top_lc}:top1
-
 sdotbelow=s+dotbelowcmb@`center-10`,{top_lc}:bottom1|1E63
 sdotbelowdotaccent=s+dotaccentcmb@center,{top_lc}:top1+dotbelowcmb@`center-10`,{top_lc}:bottom1
 scommaaccent=s+commaaccentbelowcmb@`center-10`,{top_lc}:bottom1|0219
