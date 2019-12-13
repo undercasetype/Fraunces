@@ -173,7 +173,6 @@
     <key>public.kern1.i</key>
     <array>
       <string>i</string>
-      <string>u</string>
     </array>
     <key>public.kern1.j</key>
     <array>
@@ -204,6 +203,7 @@
       <string>h.alt</string>
       <string>m.alt</string>
       <string>n.alt</string>
+      <string>u</string>
     </array>
     <key>public.kern1.o</key>
     <array>
@@ -213,13 +213,11 @@
     </array>
     <key>public.kern1.period</key>
     <array>
-      <string>colon</string>
       <string>comma</string>
       <string>ellipsis</string>
       <string>period</string>
       <string>quotedblbase</string>
       <string>quotesinglbase</string>
-      <string>semicolon</string>
     </array>
     <key>public.kern1.r</key>
     <array>
@@ -231,6 +229,7 @@
       <string>quotedblright</string>
       <string>quoteright</string>
       <string>quotesingle</string>
+      <string>apostrophemod</string>
     </array>
     <key>public.kern1.s</key>
     <array>
@@ -318,6 +317,10 @@
     <array>
       <string>g</string>
     </array>
+    <key>public.kern2.i</key>
+    <array>
+      <string>i</string>
+    </array>
     <key>public.kern2.j</key>
     <array>
       <string>j</string>
@@ -337,7 +340,6 @@
     </array>
     <key>public.kern2.n</key>
     <array>
-      <string>i</string>
       <string>m</string>
       <string>m.alt</string>
       <string>n</string>
@@ -354,13 +356,11 @@
     </array>
     <key>public.kern2.period</key>
     <array>
-      <string>colon</string>
       <string>comma</string>
       <string>ellipsis</string>
       <string>period</string>
       <string>quotedblbase</string>
       <string>quotesinglbase</string>
-      <string>semicolon</string>
     </array>
     <key>public.kern2.rightquote</key>
     <array>
@@ -368,6 +368,7 @@
       <string>quotedblright</string>
       <string>quoteright</string>
       <string>quotesingle</string>
+      <string>apostrophemod</string>
     </array>
     <key>public.kern2.s</key>
     <array>
