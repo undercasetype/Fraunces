@@ -1,4 +1,4 @@
-Fraunces goofy and opsz axis explorations:
+Fraunces Generated Masters Interpolation and Kerning Recipes:
 
 Here are the formulas used to generate OpMax GoofyMax (i.e., low contrast) and OpMin GoofyMin (i.e., high contrast) masters with ScaleAndInterpolate.py in ~/documentation/scripts/.
 
@@ -20,6 +20,8 @@ Interpolate Horizontal: 106
 Interpolate Vertical: 103
 Units of Tracking: -20
 
+Kerning: Start by interpolating with ScaleAndInterpolate.py
+
 # Light OpMax GoofyMax = Light OpMin GoofyMax + Black OpMin GoofyMax
 
 Caps
@@ -35,6 +37,8 @@ Scale Vertical: 92.8
 Interpolate Horizontal: -2.6
 Interpolate Vertical: -5
 Units of Tracking: -80
+
+Kerning: Start by copying from Light OpMax GoofyMin
 
 # Black OpMin GoofyMin = Black OpMax GoofyMin + Black OpMin GoofyMax
 
@@ -52,6 +56,8 @@ Interpolate Horizontal: 72
 Interpolate Vertical: 64
 Units of Tracking: 12
 
+Kerning: Copy from Black OpMin GoofyMax, will only need minor adjustments
+
 # Light OpMin GoofyMin = Light OpMax GoofyMin + Light OpMin GoofyMax
 
 Caps
@@ -67,6 +73,8 @@ Scale Vertical: 103.041075879
 Interpolate Horizontal: 70
 Interpolate Vertical: 60
 Units of Tracking: 14
+
+Kerning: Copy from Light OpMin GoofyMax, will only need minor adjustments
 
 
 ## Italic ##

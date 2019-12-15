@@ -2,8 +2,8 @@
 <glyph name="ndotaccent" format="2">
   <advance width="1178"/>
   <outline>
-    <component base="n" xScale="0.85" yScale="0.92"/>
-    <component base="dotaccentcmb" xScale="0.85" yScale="0.92" xOffset="362"/>
+    <component base="n"/>
+    <component base="dotaccentcmb" xOffset="362"/>
   </outline>
   <lib>
     <dict>
