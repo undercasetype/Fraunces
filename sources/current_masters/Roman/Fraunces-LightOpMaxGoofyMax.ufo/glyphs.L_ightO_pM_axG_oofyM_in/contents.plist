@@ -74,6 +74,8 @@
     <string>C_dotaccent.glif</string>
     <key>D</key>
     <string>D_.glif</string>
+    <key>DZcaron</key>
+    <string>D_Z_caron.glif</string>
     <key>Dcaron</key>
     <string>D_caron.glif</string>
     <key>Dcroat</key>
@@ -82,6 +84,8 @@
     <string>D_dotbelow.glif</string>
     <key>Dmacronbelow</key>
     <string>D_macronbelow.glif</string>
+    <key>Dzcaron</key>
+    <string>D_zcaron.glif</string>
     <key>E</key>
     <string>E_.glif</string>
     <key>Eacute</key>
@@ -704,6 +708,8 @@
     <string>dotlessi.glif</string>
     <key>dotlessj</key>
     <string>dotlessj.glif</string>
+    <key>dzcaron</key>
+    <string>dzcaron.glif</string>
     <key>e</key>
     <string>e.glif</string>
     <key>eacute</key>
@@ -842,10 +848,16 @@
     <string>hbar.glif</string>
     <key>hbrevebelow</key>
     <string>hbrevebelow.glif</string>
+    <key>hbrevebelow.alt</key>
+    <string>hbrevebelow.alt.glif</string>
     <key>hcircumflex</key>
     <string>hcircumflex.glif</string>
+    <key>hcircumflex.alt</key>
+    <string>hcircumflex.alt.glif</string>
     <key>hdotbelow</key>
     <string>hdotbelow.glif</string>
+    <key>hdotbelow.alt</key>
+    <string>hdotbelow.alt.glif</string>
     <key>hook.cap</key>
     <string>hook.cap.glif</string>
     <key>hookcmb</key>
@@ -952,6 +964,8 @@
     <string>manat.glif</string>
     <key>mdotbelow</key>
     <string>mdotbelow.glif</string>
+    <key>mdotbelow.alt</key>
+    <string>mdotbelow.alt.glif</string>
     <key>minus</key>
     <string>minus.glif</string>
     <key>minute</key>
@@ -966,28 +980,42 @@
     <string>n.alt.glif</string>
     <key>nacute</key>
     <string>nacute.glif</string>
+    <key>nacute.alt</key>
+    <string>nacute.alt.glif</string>
     <key>naira</key>
     <string>naira.glif</string>
     <key>nbspace</key>
     <string>nbspace.glif</string>
     <key>ncaron</key>
     <string>ncaron.glif</string>
+    <key>ncaron.alt</key>
+    <string>ncaron.alt.glif</string>
     <key>ncommaaccent</key>
     <string>ncommaaccent.glif</string>
+    <key>ncommaaccent.alt</key>
+    <string>ncommaaccent.alt.glif</string>
     <key>ndotaccent</key>
     <string>ndotaccent.glif</string>
+    <key>ndotaccent.alt</key>
+    <string>ndotaccent.alt.glif</string>
     <key>ndotbelow</key>
     <string>ndotbelow.glif</string>
+    <key>ndotbelow.alt</key>
+    <string>ndotbelow.alt.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
     <key>nj</key>
     <string>nj.glif</string>
     <key>nmacronbelow</key>
     <string>nmacronbelow.glif</string>
+    <key>nmacronbelow.alt</key>
+    <string>nmacronbelow.alt.glif</string>
     <key>notequal</key>
     <string>notequal.glif</string>
     <key>ntilde</key>
     <string>ntilde.glif</string>
+    <key>ntilde.alt</key>
+    <string>ntilde.alt.glif</string>
     <key>numbersign</key>
     <string>numbersign.glif</string>
     <key>numero</key>
@@ -1162,26 +1190,46 @@
     <string>s.alt.glif</string>
     <key>sacute</key>
     <string>sacute.glif</string>
+    <key>sacute.alt</key>
+    <string>sacute.alt.glif</string>
     <key>sacutedotaccent</key>
     <string>sacutedotaccent.glif</string>
+    <key>sacutedotaccent.alt</key>
+    <string>sacutedotaccent.alt.glif</string>
     <key>scaron</key>
     <string>scaron.glif</string>
+    <key>scaron.alt</key>
+    <string>scaron.alt.glif</string>
     <key>scarondotaccent</key>
     <string>scarondotaccent.glif</string>
+    <key>scarondotaccent.alt</key>
+    <string>scarondotaccent.alt.glif</string>
     <key>scedilla</key>
     <string>scedilla.glif</string>
+    <key>scedilla.alt</key>
+    <string>scedilla.alt.glif</string>
     <key>schwa</key>
     <string>schwa.glif</string>
     <key>scircumflex</key>
     <string>scircumflex.glif</string>
+    <key>scircumflex.alt</key>
+    <string>scircumflex.alt.glif</string>
     <key>scommaaccent</key>
     <string>scommaaccent.glif</string>
+    <key>scommaaccent.alt</key>
+    <string>scommaaccent.alt.glif</string>
     <key>sdotaccent</key>
     <string>sdotaccent.glif</string>
+    <key>sdotaccent.alt</key>
+    <string>sdotaccent.alt.glif</string>
     <key>sdotbelow</key>
     <string>sdotbelow.glif</string>
+    <key>sdotbelow.alt</key>
+    <string>sdotbelow.alt.glif</string>
     <key>sdotbelowdotaccent</key>
     <string>sdotbelowdotaccent.glif</string>
+    <key>sdotbelowdotaccent.alt</key>
+    <string>sdotbelowdotaccent.alt.glif</string>
     <key>second</key>
     <string>second.glif</string>
     <key>section</key>

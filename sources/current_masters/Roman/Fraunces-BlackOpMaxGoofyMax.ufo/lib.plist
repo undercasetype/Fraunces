@@ -71,6 +71,8 @@
     <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.releaseMode</key>
     <false/>
+    <key>com.typemytype.robofont.guideline.magnetic.ApiKn86dRN</key>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.bUJP21HJ1b</key>
     <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.cweV8jEv3t</key>
@@ -81,6 +83,8 @@
     <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.yy5Q1dYhHw</key>
     <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.showMeasurements.ApiKn86dRN</key>
+    <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.bUJP21HJ1b</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.cweV8jEv3t</key>
@@ -1201,6 +1205,11 @@
       <string>zcaron</string>
       <string>zdotaccent</string>
       <string>zdotbelow</string>
+      <string>IJacute</string>
+      <string>jacute</string>
+      <string>ij</string>
+      <string>ijacute</string>
+      <string>g.alt</string>
     </array>
   </dict>
 </plist>
