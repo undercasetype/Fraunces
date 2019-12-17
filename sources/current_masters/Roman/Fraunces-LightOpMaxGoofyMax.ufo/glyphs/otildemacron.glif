@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="otildemacron" format="2">
-  <advance width="915"/>
+  <advance width="914"/>
   <unicode hex="022D"/>
   <outline>
-    <component base="o" xOffset="-40"/>
-    <component base="tildecmb" xOffset="205"/>
-    <component base="macroncmb" xOffset="201" yOffset="221"/>
+    <component base="o"/>
+    <component base="tildecmb" xOffset="243.5"/>
+    <component base="macroncmb" xOffset="240.5" yOffset="170"/>
   </outline>
   <lib>
     <dict>
