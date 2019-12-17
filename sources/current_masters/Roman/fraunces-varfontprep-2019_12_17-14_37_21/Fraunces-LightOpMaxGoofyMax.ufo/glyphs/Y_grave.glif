@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ygrave" format="2">
+  <advance width="1164"/>
+  <unicode hex="1EF2"/>
+  <outline>
+    <component base="Y" xScale="0.93" xOffset="-42"/>
+    <component base="grave.cap" xScale="0.93" xOffset="348" yOffset="446"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

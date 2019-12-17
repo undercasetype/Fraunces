@@ -9,7 +9,7 @@
     <data name="lineInverted" value="False"/>
     <data name="lineViewFilled" value="True"/>
     <data name="lineStacked" value="lined"/>
-    <data name="generateFontsAtFolder" value="/Users/Cadmon/Documents/GitHub/Fraunces/sources/designspace_explorations/Roman/instances"/>
+    <data name="generateFontsAtFolder" value="/Users/spencercharles/Documents/Git Repositories/Fraunces/sources/current_masters/Roman/instances"/>
     <data name="previewtext" value="The Hundred Dollar."/>
     <data name="verticalPreviewAxis" value="optical"/>
     <!-- don't generate these glyphs -->
@@ -41,7 +41,7 @@
         <color a="1.000" b="0.694" g="1.226" r="0.905"/>
     </axis>
     <!-- master definitions -->
-    <master familyname="Fraunces" filename="Fraunces-BlackOpMax.ufo" sortorder="0" stylename="Black OptMax">
+    <master familyname="Fraunces" filename="Fraunces-BlackOpMaxGoofyMin.ufo" sortorder="0" stylename="Black OpMax GoofyMin">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -50,7 +50,7 @@
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces" filename="Fraunces-BlackOpMin.ufo" sortorder="1" stylename="Black OpMin">
+    <master familyname="Fraunces" filename="Fraunces-BlackOpMinGoofyMin.ufo" sortorder="1" stylename="Black OpMin GoofyMin">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -59,7 +59,7 @@
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces" filename="Fraunces-LightOpMax.ufo" sortorder="2" stylename="Light OpMax">
+    <master familyname="Fraunces" filename="Fraunces-LightOpMaxGoofyMin.ufo" sortorder="2" stylename="Light OpMax GoofyMin">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -68,7 +68,7 @@
         </location>
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
-    <master familyname="Fraunces" filename="Fraunces-LightOpMin.ufo" sortorder="3" stylename="Light OpMin">
+    <master familyname="Fraunces" filename="Fraunces-LightOpMinGoofyMin.ufo" sortorder="3" stylename="Light OpMin GoofyMin">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -114,7 +114,7 @@
         <color a="1.000" b="0.300" g="0.300" r="0.300"/>
     </master>
     <!-- instance definitions -->
-    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMaxGoofyMin.ufo" sortorder="4" stylename="Black OpMax GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BlackOpMaxGoofyMin.ufo" sortorder="4" stylename="Black OpMax GoofyMin">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -126,7 +126,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMinGoofyMin.ufo" sortorder="6" stylename="Black OpMin GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BlackOpMinGoofyMin.ufo" sortorder="6" stylename="Black OpMin GoofyMin">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -138,7 +138,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMaxGoofyMin.ufo" sortorder="19" stylename="Thin OpMax GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-ThinOpMaxGoofyMin.ufo" sortorder="19" stylename="Thin OpMax GoofyMin">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -150,7 +150,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMaxGoofyMin.ufo" sortorder="13" stylename="Regular OpMax GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-RegularOpMaxGoofyMin.ufo" sortorder="13" stylename="Regular OpMax GoofyMin">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -162,7 +162,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMinGoofyMin.ufo" sortorder="15" stylename="Regular OpMin GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-RegularOpMinGoofyMin.ufo" sortorder="15" stylename="Regular OpMin GoofyMin">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -174,7 +174,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMinGoofyMin.ufo" sortorder="21" stylename="Thin OpMin GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-ThinOpMinGoofyMin.ufo" sortorder="21" stylename="Thin OpMin GoofyMin">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -186,7 +186,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMaxGoofyMin.ufo" sortorder="7" stylename="Bold OpMax GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BoldOpMaxGoofyMin.ufo" sortorder="7" stylename="Bold OpMax GoofyMin">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -198,7 +198,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMidGoofyMin.ufo" sortorder="5" stylename="Black OpMid GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BlackOpMidGoofyMin.ufo" sortorder="5" stylename="Black OpMid GoofyMin">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -210,7 +210,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMidGoofyMin.ufo" sortorder="8" stylename="Bold OpMid GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BoldOpMidGoofyMin.ufo" sortorder="8" stylename="Bold OpMid GoofyMin">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -222,7 +222,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMinGoofyMin.ufo" sortorder="9" stylename="Bold OpMin GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BoldOpMinGoofyMin.ufo" sortorder="9" stylename="Bold OpMin GoofyMin">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -234,7 +234,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMidGoofyMin.ufo" sortorder="14" stylename="Regular OpMid GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-RegularOpMidGoofyMin.ufo" sortorder="14" stylename="Regular OpMid GoofyMin">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -246,7 +246,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMidGoofyMin.ufo" sortorder="20" stylename="Thin OpMid GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-ThinOpMidGoofyMin.ufo" sortorder="20" stylename="Thin OpMid GoofyMin">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -258,7 +258,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMaxGoofyMin.ufo" sortorder="16" stylename="Light OpMax GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-LightOpMaxGoofyMin.ufo" sortorder="16" stylename="Light OpMax GoofyMin">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -270,7 +270,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMidGoofyMin.ufo" sortorder="17" stylename="Light OpMid GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-LightOpMidGoofyMin.ufo" sortorder="17" stylename="Light OpMid GoofyMin">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -282,7 +282,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMinGoofyMin.ufo" sortorder="18" stylename="Light OpMin GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-LightOpMinGoofyMin.ufo" sortorder="18" stylename="Light OpMin GoofyMin">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -294,7 +294,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMaxGoofyMin.ufo" sortorder="10" stylename="Semibold OpMax GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-SemiboldOpMaxGoofyMin.ufo" sortorder="10" stylename="Semibold OpMax GoofyMin">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -306,7 +306,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMidGoofyMin.ufo" sortorder="11" stylename="Semibold OpMid GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-SemiboldOpMidGoofyMin.ufo" sortorder="11" stylename="Semibold OpMid GoofyMin">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -318,7 +318,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMinGoofyMin.ufo" sortorder="12" stylename="Semibold OpMin GoofyMin">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-SemiboldOpMinGoofyMin.ufo" sortorder="12" stylename="Semibold OpMin GoofyMin">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="0.000000"/>
@@ -330,7 +330,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMaxGoofyMax.ufo" sortorder="26" stylename="Black OpMax GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BlackOpMaxGoofyMax.ufo" sortorder="26" stylename="Black OpMax GoofyMax">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -342,7 +342,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMidGoofyMax.ufo" sortorder="27" stylename="Black OpMid GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BlackOpMidGoofyMax.ufo" sortorder="27" stylename="Black OpMid GoofyMax">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -354,7 +354,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMinGoofyMax.ufo" sortorder="28" stylename="Black OpMin GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BlackOpMinGoofyMax.ufo" sortorder="28" stylename="Black OpMin GoofyMax">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -366,7 +366,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMaxGoofyMax.ufo" sortorder="29" stylename="Bold OpMax GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BoldOpMaxGoofyMax.ufo" sortorder="29" stylename="Bold OpMax GoofyMax">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -378,7 +378,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMidGoofyMax.ufo" sortorder="30" stylename="Bold OpMid GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BoldOpMidGoofyMax.ufo" sortorder="30" stylename="Bold OpMid GoofyMax">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -390,7 +390,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMinGoofyMax.ufo" sortorder="31" stylename="Bold OpMin GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BoldOpMinGoofyMax.ufo" sortorder="31" stylename="Bold OpMin GoofyMax">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -402,7 +402,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMaxGoofyMax.ufo" sortorder="32" stylename="Semibold OpMax GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-SemiboldOpMaxGoofyMax.ufo" sortorder="32" stylename="Semibold OpMax GoofyMax">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -414,7 +414,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMidGoofyMax.ufo" sortorder="33" stylename="Semibold OpMid GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-SemiboldOpMidGoofyMax.ufo" sortorder="33" stylename="Semibold OpMid GoofyMax">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -426,7 +426,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMinGoofyMax.ufo" sortorder="34" stylename="Semibold OpMin GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-SemiboldOpMinGoofyMax.ufo" sortorder="34" stylename="Semibold OpMin GoofyMax">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -438,7 +438,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMaxGoofyMax.ufo" sortorder="35" stylename="Regular OpMax GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-RegularOpMaxGoofyMax.ufo" sortorder="35" stylename="Regular OpMax GoofyMax">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -450,7 +450,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMidGoofyMax.ufo" sortorder="36" stylename="Regular OpMid GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-RegularOpMidGoofyMax.ufo" sortorder="36" stylename="Regular OpMid GoofyMax">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -462,7 +462,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMinGoofyMax.ufo" sortorder="37" stylename="Regular OpMin GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-RegularOpMinGoofyMax.ufo" sortorder="37" stylename="Regular OpMin GoofyMax">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -474,7 +474,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMaxGoofyMax.ufo" sortorder="38" stylename="Light OpMax GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-LightOpMaxGoofyMax.ufo" sortorder="38" stylename="Light OpMax GoofyMax">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -486,7 +486,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMidGoofyMax.ufo" sortorder="39" stylename="Light OpMid GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-LightOpMidGoofyMax.ufo" sortorder="39" stylename="Light OpMid GoofyMax">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -498,7 +498,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMinGoofyMax.ufo" sortorder="40" stylename="Light OpMin GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-LightOpMinGoofyMax.ufo" sortorder="40" stylename="Light OpMin GoofyMax">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -510,7 +510,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMaxGoofyMax.ufo" sortorder="41" stylename="Thin OpMax GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-ThinOpMaxGoofyMax.ufo" sortorder="41" stylename="Thin OpMax GoofyMax">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -522,7 +522,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMidGoofyMax.ufo" sortorder="42" stylename="Thin OpMid GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-ThinOpMidGoofyMax.ufo" sortorder="42" stylename="Thin OpMid GoofyMax">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -534,7 +534,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMinGoofyMax.ufo" sortorder="43" stylename="Thin OpMin GoofyMax">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-ThinOpMinGoofyMax.ufo" sortorder="43" stylename="Thin OpMin GoofyMax">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="100.000000"/>
@@ -546,7 +546,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMaxGoofyMid.ufo" sortorder="44" stylename="Black OpMax GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BlackOpMaxGoofyMid.ufo" sortorder="44" stylename="Black OpMax GoofyMid">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -558,7 +558,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMidGoofyMid.ufo" sortorder="45" stylename="Black OpMid GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BlackOpMidGoofyMid.ufo" sortorder="45" stylename="Black OpMid GoofyMid">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -570,7 +570,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BlackOpMinGoofyMid.ufo" sortorder="46" stylename="Black OpMin GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BlackOpMinGoofyMid.ufo" sortorder="46" stylename="Black OpMin GoofyMid">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -582,7 +582,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMaxGoofyMid.ufo" sortorder="47" stylename="Bold OpMax GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BoldOpMaxGoofyMid.ufo" sortorder="47" stylename="Bold OpMax GoofyMid">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -594,7 +594,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMidGoofyMid.ufo" sortorder="48" stylename="Bold OpMid GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BoldOpMidGoofyMid.ufo" sortorder="48" stylename="Bold OpMid GoofyMid">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -606,7 +606,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-BoldOpMinGoofyMid.ufo" sortorder="49" stylename="Bold OpMin GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-BoldOpMinGoofyMid.ufo" sortorder="49" stylename="Bold OpMin GoofyMid">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -618,7 +618,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMaxGoofyMid.ufo" sortorder="50" stylename="Semibold OpMax GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-SemiboldOpMaxGoofyMid.ufo" sortorder="50" stylename="Semibold OpMax GoofyMid">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -630,7 +630,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMidGoofyMid.ufo" sortorder="51" stylename="Semibold OpMid GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-SemiboldOpMidGoofyMid.ufo" sortorder="51" stylename="Semibold OpMid GoofyMid">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -642,7 +642,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-SemiboldOpMinGoofyMid.ufo" sortorder="52" stylename="Semibold OpMin GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-SemiboldOpMinGoofyMid.ufo" sortorder="52" stylename="Semibold OpMin GoofyMid">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -654,7 +654,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMaxGoofyMid.ufo" sortorder="53" stylename="Regular OpMax GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-RegularOpMaxGoofyMid.ufo" sortorder="53" stylename="Regular OpMax GoofyMid">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -666,7 +666,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMidGoofyMid.ufo" sortorder="54" stylename="Regular OpMid GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-RegularOpMidGoofyMid.ufo" sortorder="54" stylename="Regular OpMid GoofyMid">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -678,7 +678,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-RegularOpMinGoofyMid.ufo" sortorder="55" stylename="Regular OpMin GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-RegularOpMinGoofyMid.ufo" sortorder="55" stylename="Regular OpMin GoofyMid">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -690,7 +690,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMaxGoofyMid.ufo" sortorder="56" stylename="Light OpMax GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-LightOpMaxGoofyMid.ufo" sortorder="56" stylename="Light OpMax GoofyMid">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -702,7 +702,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMidGoofyMid.ufo" sortorder="57" stylename="Light OpMid GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-LightOpMidGoofyMid.ufo" sortorder="57" stylename="Light OpMid GoofyMid">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -714,7 +714,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-LightOpMinGoofyMid.ufo" sortorder="58" stylename="Light OpMin GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-LightOpMinGoofyMid.ufo" sortorder="58" stylename="Light OpMin GoofyMid">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -726,7 +726,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMaxGoofyMid.ufo" sortorder="59" stylename="Thin OpMax GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-ThinOpMaxGoofyMid.ufo" sortorder="59" stylename="Thin OpMax GoofyMid">
         <location>
             <dimension name="optical" xvalue="144.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -738,7 +738,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMidGoofyMid.ufo" sortorder="60" stylename="Thin OpMid GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-ThinOpMidGoofyMid.ufo" sortorder="60" stylename="Thin OpMid GoofyMid">
         <location>
             <dimension name="optical" xvalue="72.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>
@@ -750,7 +750,7 @@
         <provideLib state="1"/>
         <provideInfo state="1"/>
     </instance>
-    <instance familyname="Fraunces" filename="instances/Fraunces-ThinOpMinGoofyMid.ufo" sortorder="61" stylename="Thin OpMin GoofyMid">
+    <instance familyname="Fraunces" filename="../../../../../../../../Applications/Superpolator.app/Contents/Resources/instances/Fraunces-ThinOpMinGoofyMid.ufo" sortorder="61" stylename="Thin OpMin GoofyMid">
         <location>
             <dimension name="optical" xvalue="9.000000"/>
             <dimension name="goofy" xvalue="50.000000"/>

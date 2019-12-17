@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="scarondotaccent.alt" format="2">
+  <advance width="678"/>
+  <outline>
+    <component base="s.alt" xScale="0.89" yScale="0.9279999999999999" xOffset="-40"/>
+    <component base="caroncmb" xScale="0.89" yScale="0.9279999999999999" xOffset="90"/>
+    <component base="dotaccentcmb" xScale="0.89" yScale="0.9279999999999999" xOffset="231" yOffset="230"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>
