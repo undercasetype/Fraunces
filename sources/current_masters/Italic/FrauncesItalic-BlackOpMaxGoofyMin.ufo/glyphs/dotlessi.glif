@@ -2,8 +2,10 @@
 <glyph name="dotlessi" format="2">
   <advance width="615"/>
   <unicode hex="0131"/>
+  <anchor x="443" y="980" name="center"/>
   <outline>
     <contour>
+      <point x="395" y="134"/>
       <point x="409" y="106"/>
       <point x="437" y="106" type="curve" smooth="yes"/>
       <point x="463" y="106"/>
@@ -41,7 +43,6 @@
       <point x="605" y="833"/>
       <point x="558" y="678" type="curve" smooth="yes"/>
       <point x="427" y="242" type="line" smooth="yes"/>
-      <point x="395" y="134"/>
     </contour>
   </outline>
 </glyph>
