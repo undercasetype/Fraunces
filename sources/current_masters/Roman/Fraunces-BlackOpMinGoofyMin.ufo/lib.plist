@@ -79,6 +79,8 @@
     <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.hvHIxsBhkP</key>
     <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.magnetic.jk0pQPcFar</key>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.showMeasurements.7nm96YsG0N</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.FznIijY7Yx</key>
@@ -86,6 +88,8 @@
     <key>com.typemytype.robofont.guideline.showMeasurements.Oxb4ZCUyNe</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.hvHIxsBhkP</key>
+    <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.jk0pQPcFar</key>
     <false/>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <integer>0</integer>
@@ -411,6 +415,13 @@
         <real>0.25</real>
       </array>
       <key>public.kern2.g</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.i</key>
       <array>
         <real>0.0</real>
         <real>0.5</real>
@@ -1197,6 +1208,11 @@
       <string>Gcaron</string>
       <string>scircumflex</string>
       <string>Ugrave</string>
+      <string>IJacute</string>
+      <string>ijacute</string>
+      <string>ij</string>
+      <string>jacute</string>
+      <string>g.alt</string>
     </array>
   </dict>
 </plist>

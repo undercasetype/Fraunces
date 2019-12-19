@@ -417,6 +417,13 @@
         <real>1.0</real>
         <real>0.25</real>
       </array>
+      <key>public.kern2.i</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern2.j</key>
       <array>
         <real>1.0</real>
@@ -1197,6 +1204,11 @@
       <string>zcaron</string>
       <string>zdotaccent</string>
       <string>zdotbelow</string>
+      <string>IJacute</string>
+      <string>ij</string>
+      <string>g.alt</string>
+      <string>ijacute</string>
+      <string>jacute</string>
     </array>
   </dict>
 </plist>
