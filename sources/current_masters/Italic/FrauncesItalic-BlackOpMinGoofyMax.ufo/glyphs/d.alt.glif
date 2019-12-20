@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="d.alt" format="2">
   <advance width="1276"/>
+  <anchor x="1397" y="1128" name="right"/>
+  <anchor x="511" y="1022" name="center"/>
   <outline>
     <contour>
       <point x="1328" y="1177" type="line" smooth="yes"/>
@@ -72,4 +74,10 @@
       <point x="1087" y="418" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.8431,0.8627,1,1</string>
+    </dict>
+  </lib>
 </glyph>
