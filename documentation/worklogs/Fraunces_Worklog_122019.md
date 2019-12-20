@@ -24,6 +24,7 @@ In the roman masters, top & bottom diacritics were infrequently in different pos
 notes: 
 1. The roman masters use a g.alt with a smaller ear for all accented characters. you will need to edit that in the italic structure files. 
 2. d & l caron uses only the alt shape. so they are present in the full char-set structure, not the alts one.
+3. ogonek characters need to be drawn/placed manually. Copy from roman. 
 
 
 
