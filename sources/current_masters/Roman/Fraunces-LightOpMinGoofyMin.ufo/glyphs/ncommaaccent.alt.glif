@@ -2,7 +2,13 @@
 <glyph name="ncommaaccent.alt" format="2">
   <advance width="1133"/>
   <outline>
-    <component base="n.alt" xScale="1.03041075879" yScale="1.03041075879" xOffset="7"/>
-    <component base="commaaccentbelowcmb" xScale="1.03041075879" yScale="1.03041075879" xOffset="466"/>
+    <component base="n.alt" xOffset="7"/>
+    <component base="commaaccentbelowcmb" xOffset="466"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

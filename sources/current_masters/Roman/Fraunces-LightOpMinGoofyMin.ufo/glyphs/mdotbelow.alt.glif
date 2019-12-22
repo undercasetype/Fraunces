@@ -2,7 +2,13 @@
 <glyph name="mdotbelow.alt" format="2">
   <advance width="1740"/>
   <outline>
-    <component base="m.alt" xScale="1.03041075879" yScale="1.03041075879" xOffset="7"/>
-    <component base="dotbelowcmb" xScale="1.03041075879" yScale="1.03041075879" xOffset="762"/>
+    <component base="m.alt" xOffset="7"/>
+    <component base="dotbelowcmb" xOffset="762"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
