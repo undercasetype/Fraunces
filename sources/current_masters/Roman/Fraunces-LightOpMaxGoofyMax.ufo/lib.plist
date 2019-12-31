@@ -59,6 +59,21 @@
       <key>skewOption</key>
       <integer>0</integer>
     </dict>
+    <key>com.letterror.lightMeter.prefs</key>
+    <dict>
+      <key>chunkSize</key>
+      <integer>5</integer>
+      <key>diameter</key>
+      <integer>200</integer>
+      <key>drawTail</key>
+      <false/>
+      <key>invert</key>
+      <false/>
+      <key>toolDiameter</key>
+      <integer>30</integer>
+      <key>toolStyle</key>
+      <string>fluid</string>
+    </dict>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
     <true/>
     <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
