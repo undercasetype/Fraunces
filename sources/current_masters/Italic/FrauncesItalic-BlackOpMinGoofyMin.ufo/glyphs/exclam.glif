@@ -25,6 +25,12 @@
       <point x="883" y="1452"/>
       <point x="821" y="1528"/>
     </contour>
-    <component base="period" xScale="1.02545922778" yScale="1.02545922778" xOffset="18"/>
+    <component base="period" xOffset="23"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

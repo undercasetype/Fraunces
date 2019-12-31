@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rinvertedbreve" format="2">
+  <advance width="1109"/>
+  <unicode hex="0213"/>
+  <outline>
+    <component base="r" xOffset="6"/>
+    <component base="invertedbrevecmb" xOffset="312"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

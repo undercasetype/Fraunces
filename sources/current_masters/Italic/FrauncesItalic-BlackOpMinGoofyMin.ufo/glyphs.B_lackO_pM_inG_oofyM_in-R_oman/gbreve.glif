@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gbreve" format="2">
+  <advance width="1232"/>
+  <unicode hex="011F"/>
+  <outline>
+    <contour>
+      <point x="605" y="1284" type="curve" smooth="yes"/>
+      <point x="522" y="1284"/>
+      <point x="463" y="1316"/>
+      <point x="414" y="1394" type="curve" smooth="yes"/>
+      <point x="396" y="1420"/>
+      <point x="376" y="1434"/>
+      <point x="352" y="1434" type="curve" smooth="yes"/>
+      <point x="313" y="1434"/>
+      <point x="292" y="1402"/>
+      <point x="297" y="1356" type="curve" smooth="yes"/>
+      <point x="314" y="1153"/>
+      <point x="445" y="1051"/>
+      <point x="605" y="1051" type="curve" smooth="yes"/>
+      <point x="766" y="1051"/>
+      <point x="896" y="1153"/>
+      <point x="913" y="1356" type="curve" smooth="yes"/>
+      <point x="918" y="1402"/>
+      <point x="896" y="1434"/>
+      <point x="857" y="1434" type="curve" smooth="yes"/>
+      <point x="835" y="1434"/>
+      <point x="814" y="1420"/>
+      <point x="796" y="1394" type="curve" smooth="yes"/>
+      <point x="746" y="1320"/>
+      <point x="692" y="1284"/>
+    </contour>
+    <contour>
+      <point x="239" y="-490" type="line"/>
+      <point x="239" y="1510" type="line"/>
+      <point x="971" y="1510" type="line"/>
+      <point x="971" y="-490" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="-490" type="line"/>
+      <point x="0" y="1510" type="line"/>
+      <point x="1232" y="1510" type="line"/>
+      <point x="1232" y="-490" type="line"/>
+    </contour>
+  </outline>
+</glyph>
