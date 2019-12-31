@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nmacronbelow" format="2">
+  <advance width="1348"/>
+  <outline>
+    <contour>
+      <point x="344" y="-251" type="curve" smooth="yes"/>
+      <point x="344" y="-318"/>
+      <point x="375" y="-348"/>
+      <point x="430" y="-348" type="curve" smooth="yes"/>
+      <point x="964" y="-348" type="line" smooth="yes"/>
+      <point x="1019" y="-348"/>
+      <point x="1050" y="-318"/>
+      <point x="1050" y="-250" type="curve" smooth="yes"/>
+      <point x="1050" y="-181"/>
+      <point x="1019" y="-152"/>
+      <point x="964" y="-152" type="curve" smooth="yes"/>
+      <point x="430" y="-152" type="line" smooth="yes"/>
+      <point x="375" y="-152"/>
+      <point x="344" y="-182"/>
+    </contour>
+    <contour>
+      <point x="287" y="-500" type="line"/>
+      <point x="287" y="1500" type="line"/>
+      <point x="1107" y="1500" type="line"/>
+      <point x="1107" y="-500" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="-490" type="line"/>
+      <point x="0" y="1510" type="line"/>
+      <point x="1348" y="1510" type="line"/>
+      <point x="1348" y="-490" type="line"/>
+    </contour>
+  </outline>
+</glyph>
