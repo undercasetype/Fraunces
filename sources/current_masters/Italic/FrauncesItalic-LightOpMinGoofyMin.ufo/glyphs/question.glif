@@ -46,6 +46,12 @@
       <point x="298" y="410"/>
       <point x="302" y="428" type="curve" smooth="yes"/>
     </contour>
-    <component base="period" xScale="1.03041075879" yScale="1.03041075879" xOffset="96" yOffset="-5"/>
+    <component base="period" xOffset="96" yOffset="-5"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
 </glyph>

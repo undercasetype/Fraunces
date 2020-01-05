@@ -3,8 +3,14 @@
   <advance width="1358"/>
   <unicode hex="2026"/>
   <outline>
-    <component base="period" xScale="1.03041075879" yScale="1.03041075879" xOffset="21"/>
-    <component base="period" xScale="1.03041075879" yScale="1.03041075879" xOffset="490"/>
-    <component base="period" xScale="1.03041075879" yScale="1.03041075879" xOffset="912"/>
+    <component base="period" xOffset="21"/>
+    <component base="period" xOffset="490"/>
+    <component base="period" xOffset="912"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
