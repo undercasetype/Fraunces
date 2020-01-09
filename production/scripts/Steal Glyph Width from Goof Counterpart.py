@@ -13,9 +13,9 @@ g = CurrentGlyph()
 
 s = f.info.styleName
 
-if "GoofyMax" in s:
-    l = g.getLayer(s.replace(" ", "").replace("GoofyMax", "GoofyMin"))
+if "G100" in s:
+    l = g.getLayer(s.replace(" ", "").replace("G100", "G0"))
 else:
-    l = g.getLayer(s.replace(" ", "").replace("GoofyMin", "GoofyMax"))
+    l = g.getLayer(s.replace(" ", "").replace("G0", "G100"))
 
 g.width = l.width
