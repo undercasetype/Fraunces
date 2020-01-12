@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="backslash" format="2">
-  <advance width="780"/>
+  <advance width="705"/>
   <unicode hex="005C"/>
   <outline>
-    <component base="slash" xScale="-0.9311217172533821" xyScale="-0.006840402866513375" yxScale="0.246437309587667" yScale="1.0024122951685637" xOffset="759" yOffset="-15"/>
+    <component base="slash" xScale="-1.0015679918595664" xyScale="-0.008252262018161734" yxScale="0.2351786239488919" yScale="1.0030153689607046" xOffset="707" yOffset="-12"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>
