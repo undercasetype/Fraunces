@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ihookabove" format="2">
-  <advance width="525"/>
+  <advance width="550"/>
   <unicode hex="1EC9"/>
   <outline>
-    <component base="dotlessi" xOffset="7"/>
-    <component base="hookcmb" xOffset="20"/>
+    <component base="dotlessi"/>
+    <component base="hookcmb" xOffset="13.5"/>
   </outline>
   <lib>
     <dict>

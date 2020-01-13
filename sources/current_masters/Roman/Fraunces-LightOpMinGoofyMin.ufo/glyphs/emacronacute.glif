@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="emacronacute" format="2">
-  <advance width="966"/>
+  <advance width="998"/>
   <unicode hex="1E17"/>
   <outline>
-    <component base="e" xOffset="7"/>
-    <component base="macroncmb" xOffset="232"/>
-    <component base="acute.cap" xOffset="428" yOffset="204"/>
+    <component base="e"/>
+    <component base="macroncmb" xOffset="240.5"/>
+    <component base="acute.cap" xOffset="440" yOffset="256"/>
   </outline>
   <lib>
     <dict>

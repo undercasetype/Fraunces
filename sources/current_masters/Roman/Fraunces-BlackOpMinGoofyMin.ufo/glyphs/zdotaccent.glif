@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zdotaccent" format="2">
-  <advance width="1100"/>
+  <advance width="1060"/>
   <unicode hex="017C"/>
   <outline>
-    <component base="z" xOffset="6"/>
-    <component base="dotaccentcmb" xOffset="345"/>
+    <component base="z"/>
+    <component base="dotaccentcmb" xOffset="355"/>
   </outline>
   <lib>
     <dict>
