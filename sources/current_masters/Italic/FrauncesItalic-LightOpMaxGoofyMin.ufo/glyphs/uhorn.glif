@@ -2,6 +2,7 @@
 <glyph name="uhorn" format="2">
   <advance width="832"/>
   <unicode hex="01B0"/>
+  <anchor x="560" y="1016.0" name="center"/>
   <outline>
     <contour>
       <point x="1016" y="1017" type="curve" smooth="yes"/>
@@ -26,10 +27,4 @@
     </contour>
     <component base="u"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.5761,0.8225,1</string>
-    </dict>
-  </lib>
 </glyph>

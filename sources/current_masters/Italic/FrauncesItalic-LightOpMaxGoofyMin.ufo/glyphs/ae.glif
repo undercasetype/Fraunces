@@ -2,7 +2,7 @@
 <glyph name="ae" format="2">
   <advance width="1168"/>
   <unicode hex="00E6"/>
-  <anchor x="662" y="1003" name="center"/>
+  <anchor x="821" y="1023" name="center"/>
   <outline>
     <contour>
       <point x="622" y="428" type="curve"/>
@@ -85,10 +85,4 @@
       <point x="65" y="98"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.5761,0.8225,1</string>
-    </dict>
-  </lib>
 </glyph>
