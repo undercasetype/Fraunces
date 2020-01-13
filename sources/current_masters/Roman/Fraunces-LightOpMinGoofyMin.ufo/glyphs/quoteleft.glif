@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quoteleft" format="2">
-  <advance width="307"/>
+  <advance width="322"/>
   <unicode hex="2018"/>
   <outline>
-    <component base="quotesingle" xScale="-1.03041075879" yScale="-1.03041075879" xOffset="288.5150124612" yOffset="2650.21647160788"/>
+    <component base="quotesingle" xScale="-1" yScale="-1" xOffset="317" yOffset="2559"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0,0,1,0.5</string>
     </dict>
   </lib>
 </glyph>

@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sdotbelow.alt" format="2">
-  <advance width="845"/>
+  <advance width="857"/>
   <outline>
-    <component base="s.alt" xScale="1.03041075879" yScale="1.03041075879" xOffset="7"/>
-    <component base="dotbelowcmb" xScale="1.03041075879" yScale="1.03041075879" xOffset="330"/>
+    <component base="s.alt"/>
+    <component base="dotbelowcmb" xOffset="331"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

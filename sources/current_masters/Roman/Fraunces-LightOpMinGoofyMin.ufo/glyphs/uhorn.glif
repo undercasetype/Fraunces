@@ -2,6 +2,7 @@
 <glyph name="uhorn" format="2">
   <advance width="1109"/>
   <unicode hex="01B0"/>
+  <anchor x="536.0" y="1098.0" name="center"/>
   <outline>
     <contour>
       <point x="1151" y="1127" type="curve" smooth="yes"/>
@@ -24,7 +25,7 @@
       <point x="1043" y="901"/>
       <point x="1151" y="997"/>
     </contour>
-    <component base="u" xScale="1.03041075879" yScale="1.03041075879" xOffset="7"/>
+    <component base="u" xOffset="7"/>
   </outline>
   <lib>
     <dict>

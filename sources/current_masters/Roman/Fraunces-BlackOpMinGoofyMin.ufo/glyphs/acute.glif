@@ -2,8 +2,9 @@
 <glyph name="acute" format="2">
   <advance width="562"/>
   <unicode hex="00B4"/>
+  <anchor x="-306" y="974" name="center"/>
   <outline>
-    <component base="acutecmb" xScale="1.02545922778" yScale="1.02545922778"/>
+    <component base="acutecmb"/>
   </outline>
   <lib>
     <dict>

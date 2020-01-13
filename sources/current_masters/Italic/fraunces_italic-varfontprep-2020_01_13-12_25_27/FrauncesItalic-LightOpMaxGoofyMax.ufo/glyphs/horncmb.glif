@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="horncmb" format="2">
+  <advance width="369"/>
+  <outline>
+    <contour>
+      <point x="529" y="1044" type="curve" smooth="yes"/>
+      <point x="537" y="1076"/>
+      <point x="523" y="1095"/>
+      <point x="498" y="1095" type="curve" smooth="yes"/>
+      <point x="470" y="1095"/>
+      <point x="447" y="1077"/>
+      <point x="440" y="1048" type="curve" smooth="yes"/>
+      <point x="425" y="992" type="line" smooth="yes"/>
+      <point x="398" y="887"/>
+      <point x="272" y="821"/>
+      <point x="139" y="857" type="curve" smooth="yes"/>
+      <point x="130" y="860"/>
+      <point x="120" y="853"/>
+      <point x="118" y="843" type="curve" smooth="yes"/>
+      <point x="115" y="834"/>
+      <point x="119" y="829"/>
+      <point x="131" y="826" type="curve" smooth="yes"/>
+      <point x="315" y="780"/>
+      <point x="488" y="888"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>

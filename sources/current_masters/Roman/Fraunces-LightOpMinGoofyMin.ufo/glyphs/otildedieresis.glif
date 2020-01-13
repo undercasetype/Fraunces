@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="otildedieresis" format="2">
-  <advance width="1105"/>
+  <advance width="1121"/>
   <unicode hex="1E4F"/>
   <outline>
-    <component base="o" xScale="1.03041075879" yScale="1.03041075879" xOffset="7"/>
-    <component base="tildecmb" xScale="1.03041075879" yScale="1.03041075879" xOffset="271"/>
-    <component base="dieresis.cap" xScale="1.03041075879" yScale="1.03041075879" xOffset="276" yOffset="221"/>
+    <component base="o"/>
+    <component base="tildecmb" xOffset="272"/>
+    <component base="dieresis.cap" xOffset="274" yOffset="256"/>
   </outline>
   <lib>
     <dict>

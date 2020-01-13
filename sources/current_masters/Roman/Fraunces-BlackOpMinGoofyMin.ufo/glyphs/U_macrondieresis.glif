@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Umacrondieresis" format="2">
-  <advance width="1540"/>
+  <advance width="1536"/>
   <unicode hex="1E7A"/>
   <outline>
-    <component base="U" xOffset="7"/>
-    <component base="macron.cap" xOffset="483" yOffset="468"/>
-    <component base="dieresis.cap" xOffset="403" yOffset="800"/>
+    <component base="U"/>
+    <component base="macron.cap" xOffset="499" yOffset="454"/>
+    <component base="dieresis.cap" xOffset="419" yOffset="824"/>
   </outline>
   <lib>
     <dict>

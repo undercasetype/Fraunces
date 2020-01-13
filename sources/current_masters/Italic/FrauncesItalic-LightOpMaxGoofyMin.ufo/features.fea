@@ -7,8 +7,7 @@
  @LC = [ a b c d e f g h i j k l m n o p q r s t u v w x y z ];
 
  @alts_on = [ b.alt d.alt h.alt k.alt l.alt v.alt w.alt ampersand.alt ] ;
- @alts_off = [ b d h k l v w ampersand];
-
+ @alts_off = [ b d h k l v w ampersand ];
 
  feature case {
     sub @LC by @UC ;
@@ -17,3 +16,11 @@
  feature ss01 {
     sub @alts_off by @alts_on ;
  } ss01 ;
+ 
+#  feature liga { 
+#   sub f f i by f_f_i;  
+#   sub f f l by f_f_l; 
+#   sub f f by f_f;
+#   sub f i by fi; 
+#   sub f l by fl; 
+# } liga;

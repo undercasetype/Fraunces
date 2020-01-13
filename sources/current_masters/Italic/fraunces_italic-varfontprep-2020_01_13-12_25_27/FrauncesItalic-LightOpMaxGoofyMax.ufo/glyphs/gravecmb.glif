@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecmb" format="2">
+  <advance width="238"/>
+  <outline>
+    <contour>
+      <point x="196" y="1159" type="line" smooth="yes"/>
+      <point x="178" y="1199"/>
+      <point x="166" y="1221"/>
+      <point x="136" y="1216" type="curve" smooth="yes"/>
+      <point x="113" y="1212"/>
+      <point x="98" y="1196"/>
+      <point x="96" y="1178" type="curve" smooth="yes"/>
+      <point x="94" y="1156"/>
+      <point x="110" y="1138"/>
+      <point x="126" y="1115" type="curve" smooth="yes"/>
+      <point x="246" y="966" type="line" smooth="yes"/>
+      <point x="250" y="962"/>
+      <point x="257" y="960"/>
+      <point x="264" y="965" type="curve" smooth="yes"/>
+      <point x="273" y="970"/>
+      <point x="272" y="980"/>
+      <point x="268" y="987" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>

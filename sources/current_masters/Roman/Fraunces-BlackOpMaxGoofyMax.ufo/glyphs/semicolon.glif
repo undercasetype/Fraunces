@@ -3,13 +3,13 @@
   <advance width="592"/>
   <unicode hex="003B"/>
   <outline>
-    <component base="comma" xOffset="1"/>
     <component base="period" xOffset="10" yOffset="519"/>
+    <component base="comma" xOffset="1"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.9811,0.4634,0.5508,1</string>
     </dict>
   </lib>
 </glyph>

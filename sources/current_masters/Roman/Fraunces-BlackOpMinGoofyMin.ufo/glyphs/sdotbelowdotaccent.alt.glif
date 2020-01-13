@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sdotbelowdotaccent.alt" format="2">
-  <advance width="1041"/>
+  <advance width="1065"/>
   <outline>
-    <component base="s.alt" xScale="1.02545922778" yScale="1.02545922778" xOffset="6"/>
-    <component base="dotaccentcmb" xScale="1.02545922778" yScale="1.02545922778" xOffset="253"/>
-    <component base="dotbelowcmb" xScale="1.02545922778" yScale="1.02545922778" xOffset="249"/>
+    <component base="s.alt"/>
+    <component base="dotaccentcmb" xOffset="260"/>
+    <component base="dotbelowcmb" xOffset="250"/>
   </outline>
   <lib>
     <dict>

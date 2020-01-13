@@ -3,13 +3,13 @@
 <plist version="1.0">
   <dict>
     <key>ascender</key>
-    <real>1389.2</real>
+    <integer>1510</integer>
     <key>capHeight</key>
     <real>1400.0</real>
     <key>copyright</key>
     <string>Copyright 2020 The Fraunces Project Authors (github.com/undercasetype/Fraunces)</string>
     <key>descender</key>
-    <real>-450.8</real>
+    <integer>-450</integer>
     <key>familyName</key>
     <string>Fraunces</string>
     <key>guidelines</key>
@@ -22,9 +22,9 @@
         <key>name</key>
         <string>top3</string>
         <key>x</key>
-        <integer>0</integer>
+        <integer>109</integer>
         <key>y</key>
-        <real>510.0</real>
+        <integer>411</integer>
       </dict>
       <dict>
         <key>angle</key>
@@ -34,9 +34,9 @@
         <key>name</key>
         <string>bottom2</string>
         <key>x</key>
-        <integer>0</integer>
+        <integer>1098</integer>
         <key>y</key>
-        <real>980.0</real>
+        <integer>980</integer>
       </dict>
       <dict>
         <key>angle</key>
@@ -46,9 +46,9 @@
         <key>name</key>
         <string>top4</string>
         <key>x</key>
-        <integer>0</integer>
+        <integer>-52</integer>
         <key>y</key>
-        <real>145.0</real>
+        <integer>92</integer>
       </dict>
       <dict>
         <key>angle</key>
@@ -58,9 +58,9 @@
         <key>name</key>
         <string>top2</string>
         <key>x</key>
-        <integer>0</integer>
+        <integer>59</integer>
         <key>y</key>
-        <real>590.0</real>
+        <integer>555</integer>
       </dict>
       <dict>
         <key>angle</key>
@@ -94,9 +94,9 @@
         <key>name</key>
         <string>overshoot</string>
         <key>x</key>
-        <integer>83</integer>
+        <integer>1086</integer>
         <key>y</key>
-        <integer>-20</integer>
+        <integer>-18</integer>
       </dict>
       <dict>
         <key>angle</key>
@@ -135,6 +135,8 @@
         <integer>1420</integer>
       </dict>
     </array>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
     <key>openTypeNameLicenseURL</key>
     <string>https://scripts.sil.org/OFL</string>
     <key>openTypeOS2Type</key>
@@ -153,8 +155,12 @@
     <array/>
     <key>postscriptStemSnapV</key>
     <array/>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-300</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>150</integer>
     <key>styleName</key>
-    <string>Black OpMax GoofyMax</string>
+    <string>144 G100 Black</string>
     <key>unitsPerEm</key>
     <integer>2000</integer>
     <key>versionMajor</key>
