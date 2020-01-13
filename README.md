@@ -12,10 +12,10 @@ Fraunces has the following axes:
 
 Axis | Tag | Range | Default | Description
 --- | --- | --- | --- | ---
-Optical Size | opsz | 9 to 144 | 9 | Labeled 9, 72, and 144 in instances
-Weight | wght | 100 to 900 | 100 | Thin, Light, Regular, Semibold, Bold, and Black in instances
-Goofy | GOOF | 0 to 100 | 100 | Labeled G0, G50, and G100 in instances
-Wonk | WONK | 0 to 1 | 0.5 | Controls substitution of "wonky" characters. Not listed in instances.
+Optical Size | opsz | 9 to 144 | 9 | Labeled 9, 72, and 144 in instances.
+Weight | wght | 100 to 900 | 100 | Labeled Thin, Light, Regular, Semibold, Bold, and Black in instances.
+Goofy | GOOF | 0 to 100 | 100 | Labeled G0, G50, and G100 in instances.
+Wonk | WONK | 0 to 1 | 0.5 | Controls substitution of "wonky" characters. Automatically substitutes when opsz > 18. Not listed in instances.
 
 ### Weight Axis
 
