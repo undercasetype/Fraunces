@@ -25,7 +25,7 @@ for x in range(0,900,100):
 
     font("Fraunces Italic", 200)
 
-    text("Italic: bdhkl&", (50*2,60*2))
+    text("Italic: bdhklvw&", (50*2,60*2))
     
     font("Recur Mono", 20)
     
@@ -50,7 +50,7 @@ for x in range(900,0,-100):
 
     font("Fraunces Italic", 200)
 
-    text("Italic: bdhkl&", (50*2,60*2))
+    text("Italic: bdhklvw&", (50*2,60*2))
     
     font("Recur Mono", 20)
     
