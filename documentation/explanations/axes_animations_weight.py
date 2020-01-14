@@ -14,8 +14,7 @@ for x in range(0,900,40):
     rect(0,0,width(),height())
     fill(0,0,0)
 
-    fontVariations(opsz = 48, wght = (percent*900)+100, GOOF = 100)
-
+    fontVariations(opsz = 48, wght = (percent*900)+100.1, GOOF = 100)
     font("Fraunces", 200)
 
     text("Fraunces Roman", (50*2,175*2))
@@ -37,7 +36,6 @@ for x in range(900,0,-40):
     fill(0,0,0)
 
     fontVariations(opsz = 48, wght = (percent*900)+100, GOOF = 100)
-
     font("Fraunces", 200)
 
     text("Fraunces Roman", (50*2,175*2))
