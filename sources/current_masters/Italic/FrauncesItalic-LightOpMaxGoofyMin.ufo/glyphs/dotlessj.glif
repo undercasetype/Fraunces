@@ -2,7 +2,7 @@
 <glyph name="dotlessj" format="2">
   <advance width="335"/>
   <unicode hex="0237"/>
-  <anchor x="290" y="1003" name="center"/>
+  <anchor x="285" y="980" name="center"/>
   <outline>
     <contour>
       <point x="295" y="697" type="line" smooth="yes"/>
@@ -45,10 +45,4 @@
       <point x="8" y="-296" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>1,0.5761,0.8225,1</string>
-    </dict>
-  </lib>
 </glyph>

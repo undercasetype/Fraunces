@@ -1,14 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="breve" format="2">
   <advance width="454"/>
-  <unicode hex="02D8"/>
   <outline>
-    <component base="brevecmb"/>
+    <component base="brevecmb" xOffset="-234.36832267258987"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0.5761,0.8225,1</string>
+      <string>0.3922,0.8039,1,1</string>
     </dict>
   </lib>
 </glyph>

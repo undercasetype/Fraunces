@@ -2,24 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>Aogonek</key>
+    <string>A_ogonek.glif</string>
     <key>B</key>
     <string>B_.glif</string>
+    <key>Eogonek</key>
+    <string>E_ogonek.glif</string>
     <key>Eth</key>
     <string>E_th.glif</string>
     <key>Euro</key>
     <string>E_uro.glif</string>
+    <key>H</key>
+    <string>H_.glif</string>
     <key>Hbar</key>
     <string>H_bar.glif</string>
     <key>I</key>
     <string>I_.glif</string>
+    <key>Iogonek</key>
+    <string>I_ogonek.glif</string>
     <key>OE</key>
     <string>O_E_.glif</string>
+    <key>Oogonek</key>
+    <string>O_ogonek.glif</string>
     <key>Tbar</key>
     <string>T_bar.glif</string>
+    <key>Uogonek</key>
+    <string>U_ogonek.glif</string>
     <key>a</key>
     <string>a.glif</string>
     <key>acute.cap</key>
     <string>acute.cap.glif</string>
+    <key>aogonek</key>
+    <string>aogonek.glif</string>
     <key>asciicircum</key>
     <string>asciicircum.glif</string>
     <key>asciitilde</key>
@@ -102,6 +116,8 @@
     <string>emdash.glif</string>
     <key>endash</key>
     <string>endash.glif</string>
+    <key>eogonek</key>
+    <string>eogonek.glif</string>
     <key>eth</key>
     <string>eth.glif</string>
     <key>exclam</key>
@@ -146,6 +162,8 @@
     <string>hyphensoft.glif</string>
     <key>i</key>
     <string>i.glif</string>
+    <key>iogonek</key>
+    <string>iogonek.glif</string>
     <key>j</key>
     <string>j.glif</string>
     <key>k</key>
@@ -186,6 +204,8 @@
     <string>ogonek.glif</string>
     <key>one</key>
     <string>one.glif</string>
+    <key>oogonek</key>
+    <string>oogonek.glif</string>
     <key>parenleft</key>
     <string>parenleft.glif</string>
     <key>parenright</key>
@@ -222,6 +242,8 @@
     <string>u.glif</string>
     <key>underscore</key>
     <string>underscore.glif</string>
+    <key>uogonek</key>
+    <string>uogonek.glif</string>
     <key>yen</key>
     <string>yen.glif</string>
     <key>zero</key>

@@ -2,7 +2,7 @@
 <glyph name="W" format="2">
   <advance width="1819"/>
   <unicode hex="0057"/>
-  <anchor x="1333" y="1478.0" name="center"/>
+  <anchor x="1133" y="1478.0" name="center"/>
   <outline>
     <contour>
       <point x="1064" y="1072" type="line"/>
@@ -53,14 +53,14 @@
       <point x="1062" y="978" type="line"/>
     </contour>
     <contour>
-      <point x="1700" y="1376" type="curve" smooth="yes"/>
-      <point x="1700" y="1360"/>
-      <point x="1711" y="1349"/>
-      <point x="1740" y="1343" type="curve" smooth="yes"/>
-      <point x="1807" y="1328" type="line" smooth="yes"/>
-      <point x="1846" y="1319"/>
-      <point x="1856" y="1267"/>
-      <point x="1831" y="1227" type="curve" smooth="yes"/>
+      <point x="1670" y="1376" type="curve" smooth="yes"/>
+      <point x="1670" y="1360"/>
+      <point x="1681" y="1349"/>
+      <point x="1710" y="1343" type="curve" smooth="yes"/>
+      <point x="1777" y="1328" type="line" smooth="yes"/>
+      <point x="1816" y="1319"/>
+      <point x="1833" y="1281"/>
+      <point x="1801" y="1227" type="curve" smooth="yes"/>
       <point x="1146" y="110" type="line"/>
       <point x="1174" y="124" type="line"/>
       <point x="1166.9619589408742" y="322.07058409253807"/>
@@ -103,28 +103,28 @@
       <point x="1182" y="45" type="curve" smooth="yes"/>
       <point x="1195" y="85" type="line" smooth="yes"/>
       <point x="1204" y="113"/>
-      <point x="1223.0752491964392" y="135.15005567235943"/>
+      <point x="1224" y="135"/>
       <point x="1239" y="161" type="curve" smooth="yes"/>
-      <point x="1884" y="1208" type="line" smooth="yes"/>
-      <point x="1938.1965327532648" y="1295.974836887858"/>
-      <point x="1970" y="1328"/>
-      <point x="2012" y="1339" type="curve" smooth="yes"/>
-      <point x="2044" y="1347" type="line" smooth="yes"/>
-      <point x="2074" y="1355"/>
-      <point x="2088" y="1367"/>
-      <point x="2088" y="1380" type="curve" smooth="yes"/>
-      <point x="2088" y="1394"/>
-      <point x="2080" y="1400"/>
-      <point x="2055" y="1400" type="curve" smooth="yes"/>
-      <point x="1735" y="1400" type="line" smooth="yes"/>
-      <point x="1715.0" y="1400.0"/>
-      <point x="1700" y="1390"/>
+      <point x="1854" y="1208" type="line" smooth="yes"/>
+      <point x="1906" y="1297"/>
+      <point x="1940" y="1328"/>
+      <point x="1982" y="1339" type="curve" smooth="yes"/>
+      <point x="2014" y="1347" type="line" smooth="yes"/>
+      <point x="2044" y="1355"/>
+      <point x="2058" y="1367"/>
+      <point x="2058" y="1380" type="curve" smooth="yes"/>
+      <point x="2058" y="1394"/>
+      <point x="2050" y="1400"/>
+      <point x="2025" y="1400" type="curve" smooth="yes"/>
+      <point x="1705" y="1400" type="line" smooth="yes"/>
+      <point x="1685" y="1400"/>
+      <point x="1670" y="1390"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0.5737,0.8249,1</string>
+      <string>0.8431,0.8627,1,1</string>
     </dict>
   </lib>
 </glyph>

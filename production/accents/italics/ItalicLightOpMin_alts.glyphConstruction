@@ -1,0 +1,17 @@
+$top_uc = x
+$top_lc = x
+ddotbelow.alt=d.alt+dotbelowcmb@center,{top_lc}:bottom1
+dmacronbelow.alt=d.alt+macronbelowcmb@center,{top_uc}:bottom2 
+hcircumflex.alt=h.alt+circumflex.cap@`center+330`,{top_lc}:`top3+30`
+hbrevebelow.alt=h.alt+belowbrevecmb@center,{top_uc}:bottom1
+hdotbelow.alt=h.alt+dotbelowcmb@center,{top_lc}:bottom1 
+kcommaaccent.alt=k.alt+commaaccentbelowcmb@center,{top_lc}:bottom1
+lacute.alt=l.alt+acute.cap@`center+320`,{top_lc}:`top3+30`
+lcommaaccent.alt=l.alt+commaaccentbelowcmb@center,{top_lc}:bottom1
+ldot.alt=l.alt+dotaccentcmb@`right,{top_lc}:`center+80`
+ldotbelow.alt=l.alt+dotbelowcmb@center,{top_lc}:bottom1 
+lmacronbelow.alt=l.alt+macronbelowcmb@`center+20`,{top_uc}:bottom2
+wacute.alt=w.alt+acutecmb@center,{top_lc}:top1
+wgrave.alt=w.alt+gravecmb@center,{top_lc}:top1
+wcircumflex.alt=w.alt+circumflexcmb@center,{top_lc}:top1
+wdieresis.alt=w.alt+dieresiscmb@center,{top_lc}:top1
