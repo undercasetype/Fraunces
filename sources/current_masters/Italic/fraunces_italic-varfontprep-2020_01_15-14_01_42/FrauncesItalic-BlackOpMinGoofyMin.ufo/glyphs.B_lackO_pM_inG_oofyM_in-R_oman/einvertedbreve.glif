@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="einvertedbreve" format="2">
+  <advance width="1113"/>
+  <unicode hex="0207"/>
+  <outline>
+    <contour>
+      <point x="575" y="1207" type="curve" smooth="yes"/>
+      <point x="662" y="1207"/>
+      <point x="716" y="1171"/>
+      <point x="766" y="1097" type="curve" smooth="yes"/>
+      <point x="784" y="1071"/>
+      <point x="805" y="1057"/>
+      <point x="827" y="1057" type="curve" smooth="yes"/>
+      <point x="866" y="1057"/>
+      <point x="888" y="1089"/>
+      <point x="883" y="1135" type="curve" smooth="yes"/>
+      <point x="866" y="1338"/>
+      <point x="736" y="1440"/>
+      <point x="575" y="1440" type="curve" smooth="yes"/>
+      <point x="415" y="1440"/>
+      <point x="284" y="1338"/>
+      <point x="267" y="1135" type="curve" smooth="yes"/>
+      <point x="262" y="1089"/>
+      <point x="283" y="1057"/>
+      <point x="322" y="1057" type="curve" smooth="yes"/>
+      <point x="346" y="1057"/>
+      <point x="366" y="1071"/>
+      <point x="384" y="1097" type="curve" smooth="yes"/>
+      <point x="433" y="1175"/>
+      <point x="492" y="1207"/>
+    </contour>
+    <contour>
+      <point x="209" y="-490" type="line"/>
+      <point x="209" y="1510" type="line"/>
+      <point x="941" y="1510" type="line"/>
+      <point x="941" y="-490" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="-490" type="line"/>
+      <point x="0" y="1510" type="line"/>
+      <point x="1113" y="1510" type="line"/>
+      <point x="1113" y="-490" type="line"/>
+    </contour>
+  </outline>
+</glyph>
