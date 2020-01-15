@@ -1,8 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="aogonek" format="2">
-  <advance width="12"/>
+  <advance width="1263"/>
   <unicode hex="0105"/>
   <outline>
+    <contour>
+      <point x="1045" y="81" type="line"/>
+      <point x="668" y="-47"/>
+      <point x="526" y="-175"/>
+      <point x="526" y="-319" type="curve" smooth="yes"/>
+      <point x="526" y="-416"/>
+      <point x="593" y="-473"/>
+      <point x="745" y="-473" type="curve" smooth="yes"/>
+      <point x="883" y="-473"/>
+      <point x="998" y="-413"/>
+      <point x="1055" y="-337" type="curve" smooth="yes"/>
+      <point x="1090" y="-295"/>
+      <point x="1078" y="-268"/>
+      <point x="1057" y="-261" type="curve" smooth="yes"/>
+      <point x="1038" y="-254"/>
+      <point x="1019" y="-264"/>
+      <point x="995" y="-281" type="curve" smooth="yes"/>
+      <point x="963" y="-308"/>
+      <point x="929" y="-325"/>
+      <point x="899" y="-325" type="curve" smooth="yes"/>
+      <point x="868" y="-325"/>
+      <point x="843" y="-304"/>
+      <point x="843" y="-254" type="curve" smooth="yes"/>
+      <point x="843" y="-165"/>
+      <point x="911" y="-34"/>
+      <point x="1058" y="43" type="curve"/>
+    </contour>
+    <component base="a" xOffset="6"/>
   </outline>
   <lib>
     <dict>

@@ -1,30 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohorn" format="2">
-  <advance width="1074"/>
+  <advance width="1065"/>
   <unicode hex="01A1"/>
   <outline>
     <contour>
-      <point x="1242" y="954" type="curve" smooth="yes"/>
-      <point x="1275" y="1087"/>
-      <point x="1231" y="1169"/>
-      <point x="1156" y="1176" type="curve" smooth="yes"/>
-      <point x="1072" y="1182"/>
-      <point x="1033" y="1121"/>
-      <point x="1018" y="1030" type="curve" smooth="yes"/>
-      <point x="1001" y="926" type="line" smooth="yes"/>
-      <point x="991" y="860"/>
-      <point x="977" y="824"/>
-      <point x="934" y="823" type="curve" smooth="yes"/>
-      <point x="890" y="822"/>
-      <point x="850" y="851"/>
+      <point x="1245" y="954" type="curve" smooth="yes"/>
+      <point x="1278" y="1087"/>
+      <point x="1233" y="1169"/>
+      <point x="1157" y="1176" type="curve" smooth="yes"/>
+      <point x="1070" y="1182"/>
+      <point x="1030" y="1121"/>
+      <point x="1016" y="1030" type="curve" smooth="yes"/>
+      <point x="998" y="926" type="line" smooth="yes"/>
+      <point x="989" y="860"/>
+      <point x="979" y="824"/>
+      <point x="939" y="823" type="curve" smooth="yes"/>
+      <point x="894" y="822"/>
+      <point x="852" y="851"/>
       <point x="785" y="874" type="curve" smooth="yes"/>
-      <point x="785" y="874"/>
-      <point x="932" y="734"/>
-      <point x="931" y="734" type="curve" smooth="yes"/>
-      <point x="1103" y="735"/>
-      <point x="1205" y="804"/>
+      <point x="786" y="874"/>
+      <point x="937" y="734"/>
+      <point x="936" y="734" type="curve" smooth="yes"/>
+      <point x="1109" y="735"/>
+      <point x="1208" y="804"/>
     </contour>
-    <component base="o"/>
+    <component base="o" xOffset="-10"/>
   </outline>
   <lib>
     <dict>
