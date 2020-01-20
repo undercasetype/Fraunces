@@ -42,7 +42,7 @@
         </rule>
     </rules>
     <sources>
-        <source familyname="Fraunces" filename="Fraunces-BlackOpMaxGoofyMin.ufo" stylename="144 G0 Black">
+        <source familyname="Fraunces" filename="Fraunces-144G0Black.ufo" stylename="144 G0 Black">
             <location>
                 <dimension name="optical" xvalue="144" />
                 <dimension name="weight" xvalue="900" />
@@ -50,7 +50,7 @@
                 <dimension name="wonk" xvalue="0.500000" />
             </location>
         </source>
-        <source familyname="Fraunces" filename="Fraunces-BlackOpMinGoofyMin.ufo" stylename="9 G0 Black">
+        <source familyname="Fraunces" filename="Fraunces-9G0Black.ufo" stylename="9 G0 Black">
             <location>
                 <dimension name="optical" xvalue="9" />
                 <dimension name="weight" xvalue="900" />
@@ -58,7 +58,7 @@
                 <dimension name="wonk" xvalue="0.500000" />
             </location>
         </source>
-        <source familyname="Fraunces" filename="Fraunces-LightOpMaxGoofyMin.ufo" stylename="144 G0 Light">
+        <source familyname="Fraunces" filename="Fraunces-144G0Light.ufo" stylename="144 G0 Light">
             <location>
                 <dimension name="optical" xvalue="144" />
                 <dimension name="weight" xvalue="100" />
@@ -66,7 +66,7 @@
                 <dimension name="wonk" xvalue="0.500000" />
             </location>
         </source>
-        <source familyname="Fraunces" filename="Fraunces-LightOpMinGoofyMin.ufo" stylename="9 G0 Light">
+        <source familyname="Fraunces" filename="Fraunces-9G0Light.ufo" stylename="9 G0 Light">
             <location>
                 <dimension name="optical" xvalue="9" />
                 <dimension name="weight" xvalue="100" />
@@ -74,7 +74,7 @@
                 <dimension name="wonk" xvalue="0.500000" />
             </location>
         </source>
-        <source familyname="Fraunces" filename="Fraunces-BlackOpMaxGoofyMax.ufo" stylename="144 G100 Black">
+        <source familyname="Fraunces" filename="Fraunces-144G100Black.ufo" stylename="144 G100 Black">
             <location>
                 <dimension name="optical" xvalue="144" />
                 <dimension name="weight" xvalue="900" />
@@ -82,7 +82,7 @@
                 <dimension name="wonk" xvalue="0.500000" />
             </location>
         </source>
-        <source familyname="Fraunces" filename="Fraunces-BlackOpMinGoofyMax.ufo" stylename="9 G100 Black">
+        <source familyname="Fraunces" filename="Fraunces-9G100Black.ufo" stylename="9 G100 Black">
             <location>
                 <dimension name="optical" xvalue="9" />
                 <dimension name="weight" xvalue="900" />
@@ -90,7 +90,7 @@
                 <dimension name="wonk" xvalue="0.500000" />
             </location>
         </source>
-        <source familyname="Fraunces" filename="Fraunces-LightOpMaxGoofyMax.ufo" stylename="144 G100 Light">
+        <source familyname="Fraunces" filename="Fraunces-144G100Light.ufo" stylename="144 G100 Light">
             <location>
                 <dimension name="optical" xvalue="144" />
                 <dimension name="weight" xvalue="100" />
@@ -98,7 +98,7 @@
                 <dimension name="wonk" xvalue="0.500000" />
             </location>
         </source>
-        <source familyname="Fraunces" filename="Fraunces-LightOpMinGoofyMax.ufo" stylename="9 G100 Light">
+        <source familyname="Fraunces" filename="Fraunces-9G100Light.ufo" stylename="9 G100 Light">
             <location>
                 <dimension name="optical" xvalue="9" />
                 <dimension name="weight" xvalue="100" />
@@ -651,11 +651,11 @@
     </instances>
     <lib>
         <dict>
-          <key>org.statmake.additionalLocations</key>
-          <dict>
-            <key>Italic</key>
-            <integer>0</integer>
-          </dict>
+            <key>org.statmake.additionalLocations</key>
+            <dict>
+                <key>Italic</key>
+                <integer>0</integer>
+            </dict>
         </dict>
     </lib>
 </designspace>
