@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gmacron" format="2">
+  <advance width="1240"/>
+  <unicode hex="1E20"/>
+  <outline>
+    <contour>
+      <point x="780.7399200426478" y="1570.0" type="curve" smooth="yes"/>
+      <point x="778.2466400142159" y="1560.0"/>
+      <point x="783.0" y="1555.0"/>
+      <point x="793.0" y="1555.0" type="curve" smooth="yes"/>
+      <point x="1155.0" y="1555.0" type="line" smooth="yes"/>
+      <point x="1165.0" y="1555.0"/>
+      <point x="1172.246640014216" y="1560.0"/>
+      <point x="1174.7399200426478" y="1570.0" type="curve" smooth="yes"/>
+      <point x="1177.2332000710794" y="1580.0"/>
+      <point x="1172.4798400852956" y="1585.0"/>
+      <point x="1162.4798400852956" y="1585.0" type="curve" smooth="yes"/>
+      <point x="800.4798400852955" y="1585.0" type="line" smooth="yes"/>
+      <point x="790.4798400852955" y="1585.0"/>
+      <point x="783.2332000710795" y="1580.0"/>
+    </contour>
+    <contour>
+      <point x="727" y="15" type="line"/>
+      <point x="727" y="2015" type="line"/>
+      <point x="1221" y="2015" type="line"/>
+      <point x="1221" y="15" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="-490" type="line"/>
+      <point x="0" y="1510" type="line"/>
+      <point x="1240" y="1510" type="line"/>
+      <point x="1240" y="-490" type="line"/>
+    </contour>
+  </outline>
+</glyph>
