@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="imacron" format="2">
-  <advance width="463"/>
+  <advance width="430"/>
   <unicode hex="012B"/>
   <outline>
-    <component base="dotlessi" xOffset="-15"/>
-    <component base="macroncmb" xOffset="62"/>
+    <component base="dotlessi" yxScale="0.010182069312382691" xOffset="-40"/>
+    <component base="macroncmb" yxScale="0.010182069312382691" xOffset="41"/>
   </outline>
 </glyph>

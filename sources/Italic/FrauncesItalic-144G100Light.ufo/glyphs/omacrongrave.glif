@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="omacrongrave" format="2">
-  <advance width="788"/>
+  <advance width="766"/>
   <unicode hex="1E51"/>
   <outline>
-    <component base="o" xOffset="-15"/>
-    <component base="macroncmb" xOffset="249"/>
-    <component base="grave.cap" xOffset="271" yOffset="216"/>
+    <component base="o" yxScale="0.010182069312382691" xOffset="-40"/>
+    <component base="macroncmb" yxScale="0.010182069312382691" xOffset="236"/>
+    <component base="grave.cap" yxScale="0.010182069312382691" xOffset="261" yOffset="212"/>
   </outline>
 </glyph>

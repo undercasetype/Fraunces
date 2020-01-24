@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Rdblgrave" format="2">
-  <advance width="1132"/>
+  <advance width="1080"/>
   <unicode hex="0210"/>
   <outline>
-    <component base="R" xOffset="-20"/>
-    <component base="gravedouble.cap" xOffset="463" yOffset="434"/>
+    <component base="R" yxScale="0.01875644347017863" xOffset="-42"/>
+    <component base="gravedouble.cap" yxScale="0.01875644347017863" xOffset="451" yOffset="434"/>
   </outline>
 </glyph>

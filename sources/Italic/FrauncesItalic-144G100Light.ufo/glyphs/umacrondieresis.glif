@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="umacrondieresis" format="2">
-  <advance width="912"/>
+  <advance width="896"/>
   <unicode hex="1E7B"/>
   <outline>
-    <component base="u" xOffset="-15"/>
-    <component base="macroncmb" xOffset="294"/>
-    <component base="dieresiscmb" xOffset="317" yOffset="207"/>
+    <component base="u" yxScale="0.010182069312382691" xOffset="-40"/>
+    <component base="macroncmb" yxScale="0.010182069312382691" xOffset="284"/>
+    <component base="dieresiscmb" yxScale="0.010182069312382691" xOffset="310" yOffset="201"/>
   </outline>
 </glyph>

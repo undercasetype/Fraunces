@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Idieresisacute" format="2">
-  <advance width="553"/>
+  <advance width="503"/>
   <unicode hex="1E2E"/>
   <outline>
-    <component base="I" xOffset="-20"/>
-    <component base="dieresis.cap" xOffset="267" yOffset="434"/>
-    <component base="acute.cap" xOffset="466" yOffset="731"/>
+    <component base="I" yxScale="0.01875644347017863" xOffset="-42"/>
+    <component base="dieresis.cap" yxScale="0.01875644347017863" xOffset="256" yOffset="434"/>
+    <component base="acute.cap" yxScale="0.01875644347017863" xOffset="456" yOffset="731"/>
   </outline>
 </glyph>

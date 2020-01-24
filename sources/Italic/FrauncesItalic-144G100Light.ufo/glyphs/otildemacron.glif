@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="otildemacron" format="2">
-  <advance width="788"/>
+  <advance width="766"/>
   <unicode hex="022D"/>
   <outline>
-    <component base="o" xOffset="-15"/>
-    <component base="tildecmb" xOffset="244"/>
-    <component base="macroncmb" xOffset="283" yOffset="216"/>
+    <component base="o" yxScale="0.010182069312382691" xOffset="-40"/>
+    <component base="tildecmb" yxScale="0.010182069312382691" xOffset="231"/>
+    <component base="macroncmb" yxScale="0.010182069312382691" xOffset="272" yOffset="210"/>
   </outline>
 </glyph>
