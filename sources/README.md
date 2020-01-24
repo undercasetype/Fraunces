@@ -4,4 +4,5 @@ Half of the masters used to define the .designspace are interpolated/extrapolate
 
 To Do:
 – Explain steps for using scale&interpolate script
+– Steps/method for mounting accents
 – How to use build script to generate font
