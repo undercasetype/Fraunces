@@ -11,16 +11,16 @@ mkdir -p ../fonts/static/ttf
 # later, this might not be done dynamically
 # python ../mastering/scripts/generate_static_fonts_designspace.py
 
-# fontmake -m current_masters/Roman/Fraunces_static.designspace -i -o ttf --output-dir ../fonts/static/ttf/
-# fontmake -m current_masters/Roman/Fraunces_static.designspace -i -o otf --output-dir ../fonts/static/otf/
-# fontmake -m current_masters/Italic/FrauncesItalic_static.designspace -i -o ttf --output-dir ../fonts/static/ttf/
-# fontmake -m current_masters/Italic/FrauncesItalic_static.designspace -i -o otf --output-dir ../fonts/static/otf/
+# fontmake -m Roman/Fraunces_static.designspace -i -o ttf --output-dir ../fonts/static/ttf/
+# fontmake -m Roman/Fraunces_static.designspace -i -o otf --output-dir ../fonts/static/otf/
+# fontmake -m Italic/FrauncesItalic_static.designspace -i -o ttf --output-dir ../fonts/static/ttf/
+# fontmake -m Italic/FrauncesItalic_static.designspace -i -o otf --output-dir ../fonts/static/otf/
 
 echo "Generating VFs"
-fontmake -m current_masters/Roman/Fraunces.designspace -o variable --output-path ../fonts/Fraunces[GOOF,WONK,opsz,wght].ttf
-#fontmake -m current_masters/Italic/FrauncesItalic.designspace -o variable --output-path ../fonts/Frances-Italic[GOOF,WONK,opsz,wght].ttf
+fontmake -m Roman/Fraunces.designspace -o variable --output-path ../fonts/Fraunces[GOOF,WONK,opsz,wght].ttf
+# fontmake -m Italic/FrauncesItalic.designspace -o variable --output-path ../fonts/Frances-Italic[GOOF,WONK,opsz,wght].ttf
 
-rm -rf master_ufo/ instance_ufo/ instance_ufos/ instances/
+rm -rf */*/master_ufo/ */*/instance_ufo/ */*/instance_ufos/ */*/instances/
 
 
 # echo "Post processing"
@@ -42,7 +42,7 @@ do
 	#mv "$vf.fix" $vf;
 done
 
-echo "Fixing VF Meta"
+# echo "Fixing VF Meta"
 # gftools fix-vf-meta $vfs;
 
 echo "Dropping MVAR"
