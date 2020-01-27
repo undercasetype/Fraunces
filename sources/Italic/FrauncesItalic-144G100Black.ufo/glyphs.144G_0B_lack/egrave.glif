@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="egrave" format="2">
+  <advance width="960"/>
+  <unicode hex="00E8"/>
+  <outline>
+    <contour>
+      <point x="622.4803167781024" y="1255.0" type="line" smooth="yes"/>
+      <point x="620.5317521232001" y="1348.0"/>
+      <point x="585.4626313409947" y="1398.0"/>
+      <point x="515.4626313409947" y="1398.0" type="curve" smooth="yes"/>
+      <point x="433.4626313409947" y="1398.0"/>
+      <point x="379.9455762796412" y="1338.0"/>
+      <point x="367.5319322305585" y="1290.0" type="curve" smooth="yes"/>
+      <point x="347.6183782351549" y="1213.0"/>
+      <point x="384.4288814330045" y="1162.0"/>
+      <point x="433.3427956431248" y="1123.0" type="curve" smooth="yes"/>
+      <point x="612.3604810802325" y="980.0" type="line" smooth="yes"/>
+      <point x="615.8432459115207" y="978.0"/>
+      <point x="620.8432459115207" y="978.0"/>
+      <point x="624.6190986645884" y="981.0" type="curve" smooth="yes"/>
+      <point x="629.653569002012" y="985.0"/>
+      <point x="627.4294217550796" y="988.0"/>
+      <point x="627.7225096768591" y="993.0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="232" y="-490" type="line"/>
+      <point x="232" y="1510" type="line"/>
+      <point x="696" y="1510" type="line"/>
+      <point x="696" y="-490" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="-490" type="line"/>
+      <point x="0" y="1510" type="line"/>
+      <point x="960" y="1510" type="line"/>
+      <point x="960" y="-490" type="line"/>
+    </contour>
+  </outline>
+</glyph>
