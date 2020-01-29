@@ -18,7 +18,7 @@ mkdir -p ../fonts/static/ttf
 
 echo "Generating VFs"
 fontmake -m Roman/Fraunces.designspace -o variable --output-path ../fonts/Fraunces[GOOF,WONK,opsz,wght].ttf
-# fontmake -m Italic/FrauncesItalic.designspace -o variable --output-path ../fonts/Frances-Italic[GOOF,WONK,opsz,wght].ttf
+fontmake -m Italic/FrauncesItalic.designspace -o variable --output-path ../fonts/Frances-Italic[GOOF,WONK,opsz,wght].ttf
 
 rm -rf */*/master_ufo/ */*/instance_ufo/ */*/instance_ufos/ */*/instances/
 
