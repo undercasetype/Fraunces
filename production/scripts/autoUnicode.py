@@ -1,5 +1,4 @@
-font = CurrentFont()
-
-for glyph in font:
-    glyph.autoUnicodes()
-    print(glyph.unicode)
+for font in AllFonts():
+    for glyph in font:
+        glyph.autoUnicodes()
+        print(glyph.unicode)
