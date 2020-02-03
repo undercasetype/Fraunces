@@ -7,9 +7,9 @@ from mojo.UI import GetFile
 
 """
 Scale and Interpolate glyphs
-2019_11_25 Andy Clymer
+2020_02_03 Andy Clymer
 """
-VERSION = "v1.4"
+VERSION = "v1.5"
 
 
 LIBKEY = "com.andyclymer.ScaleAndAdjustSettings"
@@ -593,6 +593,12 @@ class ScaleAndAdjust:
                         angle1 = font1.info.italicAngle
                         if not angle1: angle1 = 0
                         g1.skewBy(angle1)
+                        # ...but skew back the components to be upright if the components aren't scaling
+                        if self.g.scaleComponentBox.get():
+                            for c in g0.components:
+                                c.skewBy(-angle0)
+                            for c in g1.components:
+                                c.skewBy(-angle1)
                     
                     # Interpolate
                     destGlyph = destFont.newGlyph(gName)
@@ -615,6 +621,15 @@ class ScaleAndAdjust:
                             f = (CASEINFO["interpH"] + CASEINFO["interpV"]) * 0.5
                             interpAngle = interpolate(f, angle0, angle1)
                             destGlyph.skewBy(-interpAngle)
+                            # ...but reset the components if we're not skewing/scaling them
+                            if self.g.scaleComponentBox.get():
+                                for c in destGlyph.components:
+                                    c.skewBy(interpAngle)
+                                    # ...and fix it if it's now off by a tiny rounding error
+                                    if 0.0001 > c.transformation[2] > -0.0001:
+                                        t = list(c.transformation)
+                                        t[2] = 0
+                                        c.transformation = t
                     
                     # Track
                     if destGlyph.leftMargin:
