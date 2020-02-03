@@ -9,7 +9,7 @@
     <key>copyright</key>
     <string>Copyright 2020 The Fraunces Project Authors (github.com/undercasetype/Fraunces)</string>
     <key>descender</key>
-    <real>-450.8</real>
+    <integer>-490</integer>
     <key>familyName</key>
     <string>Fraunces Italic</string>
     <key>guidelines</key>
@@ -189,6 +189,10 @@
     <array/>
     <key>postscriptStemSnapV</key>
     <array/>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-300</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>150</integer>
     <key>styleName</key>
     <string>144 G100 Black</string>
     <key>unitsPerEm</key>
@@ -198,6 +202,6 @@
     <key>versionMinor</key>
     <integer>0</integer>
     <key>xHeight</key>
-    <real>865.9040000000001</real>
+    <integer>896</integer>
   </dict>
 </plist>
