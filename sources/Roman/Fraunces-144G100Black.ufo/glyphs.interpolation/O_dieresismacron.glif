@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Odieresismacron" format="2">
+  <advance width="1466"/>
+  <unicode hex="022A"/>
+  <outline>
+    <contour>
+      <point x="370" y="2031" type="curve" smooth="yes"/>
+      <point x="370" y="1957"/>
+      <point x="408" y="1917"/>
+      <point x="468" y="1917" type="curve" smooth="yes"/>
+      <point x="967" y="1917" type="line" smooth="yes"/>
+      <point x="1027" y="1917"/>
+      <point x="1065" y="1956"/>
+      <point x="1065" y="2032" type="curve" smooth="yes"/>
+      <point x="1065" y="2106"/>
+      <point x="1027" y="2146"/>
+      <point x="967" y="2146" type="curve" smooth="yes"/>
+      <point x="468" y="2146" type="line" smooth="yes"/>
+      <point x="408" y="2146"/>
+      <point x="370" y="2107"/>
+    </contour>
+    <contour>
+      <point x="338.0" y="365.2" type="line"/>
+      <point x="338.0" y="2205.2" type="line"/>
+      <point x="1097.0" y="2205.2" type="line"/>
+      <point x="1097.0" y="365.2" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="-450.8" type="line"/>
+      <point x="0" y="1389.2" type="line"/>
+      <point x="1466" y="1389.2" type="line"/>
+      <point x="1466" y="-450.8" type="line"/>
+    </contour>
+  </outline>
+</glyph>

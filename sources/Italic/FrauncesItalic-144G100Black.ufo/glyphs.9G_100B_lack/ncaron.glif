@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ncaron" format="2">
+  <advance width="1333"/>
+  <unicode hex="0148"/>
+  <outline>
+    <contour>
+      <point x="908.6231594830153" y="1214.0" type="line"/>
+      <point x="716.6231594830153" y="1214.0" type="line"/>
+      <point x="1071.5912197043292" y="1449.0" type="line" smooth="yes"/>
+      <point x="1132.309187401574" y="1489.0"/>
+      <point x="1182.9694414394185" y="1484.0"/>
+      <point x="1206.466864051347" y="1456.0" type="curve" smooth="yes"/>
+      <point x="1225.304032625431" y="1433.0"/>
+      <point x="1219.2463189660307" y="1388.0"/>
+      <point x="1165.5809101520433" y="1337.0" type="curve" smooth="yes"/>
+      <point x="961.5987668204057" y="1143.0" type="line" smooth="yes"/>
+      <point x="893.1820693123827" y="1078.0"/>
+      <point x="839.0" y="1040.0"/>
+      <point x="766.0" y="1040.0" type="curve" smooth="yes"/>
+      <point x="693.0" y="1040.0"/>
+      <point x="659.1820693123827" y="1078.0"/>
+      <point x="625.5987668204057" y="1143.0" type="curve" smooth="yes"/>
+      <point x="525.5809101520435" y="1337.0" type="line" smooth="yes"/>
+      <point x="499.24631896603074" y="1388.0"/>
+      <point x="517.3040326254313" y="1433.0"/>
+      <point x="548.4668640513471" y="1456.0" type="curve" smooth="yes"/>
+      <point x="586.9694414394185" y="1484.0"/>
+      <point x="640.309187401574" y="1489.0"/>
+      <point x="679.5912197043292" y="1449.0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="367" y="-490" type="line"/>
+      <point x="367" y="1510" type="line"/>
+      <point x="1165" y="1510" type="line"/>
+      <point x="1165" y="-490" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="-490" type="line"/>
+      <point x="0" y="1510" type="line"/>
+      <point x="1333" y="1510" type="line"/>
+      <point x="1333" y="-490" type="line"/>
+    </contour>
+  </outline>
+</glyph>
