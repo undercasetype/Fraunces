@@ -4,10 +4,10 @@
   <unicode hex="0048"/>
   <outline>
     <contour>
-      <point x="369" y="767" type="line"/>
+      <point x="369" y="766" type="line"/>
       <point x="369" y="555" type="line"/>
       <point x="1186" y="555" type="line"/>
-      <point x="1186" y="767" type="line"/>
+      <point x="1186" y="766" type="line"/>
     </contour>
     <contour>
       <point x="621" y="306" type="curve" smooth="yes"/>
@@ -105,7 +105,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,0.5</string>
+      <string>0,0,1,1</string>
     </dict>
   </lib>
 </glyph>
