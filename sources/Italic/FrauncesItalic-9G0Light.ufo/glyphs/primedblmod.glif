@@ -1,15 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="primedblmod" format="2">
-  <advance width="719"/>
+  <advance width="647"/>
   <unicode hex="02BA"/>
   <outline>
-    <component base="primemod" xOffset="6"/>
-    <component base="primemod" xOffset="251"/>
+    <component base="second" xOffset="125"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0,0,1,0.5</string>
     </dict>
   </lib>
 </glyph>
