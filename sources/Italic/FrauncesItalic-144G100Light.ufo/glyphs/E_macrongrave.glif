@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Emacrongrave" format="2">
-  <advance width="1008"/>
+  <advance width="1050"/>
   <unicode hex="1E14"/>
   <outline>
-    <component base="E" xOffset="-42"/>
-    <component base="macron.cap" xOffset="490" yOffset="434"/>
-    <component base="grave.cap" xOffset="491" yOffset="669"/>
+    <component base="E"/>
+    <component base="macron.cap" xOffset="433.5" yOffset="495"/>
+    <component base="grave.cap" xOffset="450" yOffset="686"/>
   </outline>
 </glyph>

@@ -1,33 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acutecmb" format="2">
-  <advance width="324"/>
+  <advance width="328"/>
   <unicode hex="0301"/>
-  <anchor x="92" y="991" name="center"/>
+  <anchor x="155.0" y="931" name="center"/>
   <outline>
     <contour>
-      <point x="235.0" y="1131" type="curve" smooth="yes"/>
-      <point x="61" y="960" type="line" smooth="yes"/>
-      <point x="52" y="951"/>
-      <point x="44.0" y="939"/>
-      <point x="52" y="930" type="curve" smooth="yes"/>
-      <point x="58" y="924.0"/>
-      <point x="69" y="927"/>
-      <point x="77" y="933" type="curve" smooth="yes"/>
-      <point x="273" y="1094.0" type="line" smooth="yes"/>
-      <point x="297" y="1114"/>
-      <point x="319.0" y="1129"/>
-      <point x="327" y="1147" type="curve" smooth="yes"/>
-      <point x="334" y="1163"/>
-      <point x="327" y="1178.0"/>
-      <point x="311" y="1180" type="curve" smooth="yes"/>
-      <point x="289" y="1186"/>
-      <point x="269" y="1165"/>
+      <point x="324" y="1126" type="curve" smooth="yes"/>
+      <point x="161" y="953" type="line" smooth="yes"/>
+      <point x="154" y="947"/>
+      <point x="147" y="937"/>
+      <point x="153" y="931" type="curve" smooth="yes"/>
+      <point x="157" y="926"/>
+      <point x="166" y="928"/>
+      <point x="172" y="933" type="curve" smooth="yes"/>
+      <point x="369" y="1082" type="line" smooth="yes"/>
+      <point x="398" y="1104"/>
+      <point x="425" y="1123"/>
+      <point x="434" y="1144" type="curve" smooth="yes"/>
+      <point x="443" y="1164"/>
+      <point x="435" y="1182"/>
+      <point x="416" y="1185" type="curve" smooth="yes"/>
+      <point x="388" y="1192"/>
+      <point x="366" y="1167"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,0.5</string>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>
