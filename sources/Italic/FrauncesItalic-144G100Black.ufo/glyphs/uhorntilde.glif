@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorntilde" format="2">
-  <advance width="1132"/>
+  <advance width="1142"/>
   <unicode hex="1EEF"/>
   <outline>
-    <component base="uhorn" xOffset="-10"/>
-    <component base="tildecmb" xOffset="297"/>
+    <component base="uhorn"/>
+    <component base="tildecmb" xOffset="174.83360514091328"/>
   </outline>
   <lib>
     <dict>

@@ -1,29 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macron.cap" format="2">
-  <advance width="759"/>
-  <anchor x="324" y="995" name="center"/>
+  <advance width="755"/>
   <outline>
     <contour>
-      <point x="61" y="1215" type="curve" smooth="yes"/>
-      <point x="42" y="1141"/>
-      <point x="70" y="1101"/>
-      <point x="130" y="1101" type="curve" smooth="yes"/>
-      <point x="629" y="1101" type="line" smooth="yes"/>
-      <point x="689" y="1101"/>
-      <point x="737" y="1140"/>
-      <point x="757" y="1216" type="curve" smooth="yes"/>
-      <point x="776" y="1290"/>
-      <point x="749" y="1330"/>
-      <point x="688" y="1330" type="curve" smooth="yes"/>
-      <point x="190" y="1330" type="line" smooth="yes"/>
-      <point x="129" y="1330"/>
-      <point x="81" y="1291"/>
+      <point x="231" y="1123" type="curve" smooth="yes"/>
+      <point x="211" y="1049"/>
+      <point x="238" y="1009"/>
+      <point x="298" y="1009" type="curve" smooth="yes"/>
+      <point x="797" y="1009" type="line" smooth="yes"/>
+      <point x="857" y="1009"/>
+      <point x="906" y="1048"/>
+      <point x="926" y="1124" type="curve" smooth="yes"/>
+      <point x="946" y="1198"/>
+      <point x="919" y="1238"/>
+      <point x="859" y="1238" type="curve" smooth="yes"/>
+      <point x="360" y="1238" type="line" smooth="yes"/>
+      <point x="300" y="1238"/>
+      <point x="251" y="1199"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0,0,1</string>
+      <string>0.9811,0.4634,0.5508,1</string>
     </dict>
   </lib>
 </glyph>
