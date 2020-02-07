@@ -6,8 +6,8 @@
  @UC = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ];
  @LC = [ a b c d e f g h i j k l m n o p q r s t u v w x y z ];
 
- @alts_on = [ h.alt m.alt n.alt s.alt ampersand.alt ] ;
- @alts_off = [ h m n s ampersand ];
+@alts_on = [ ampersand.alt h.alt hbrevebelow.alt hcircumflex.alt hdotbelow.alt m.alt mdotbelow.alt n.alt nacute.alt ncaron.alt ncommaaccent.alt ndotaccent.alt ndotbelow.alt nmacronbelow.alt ntilde.alt s.alt sacute.alt sacutedotaccent.alt scaron.alt scarondotaccent.alt scedilla.alt scircumflex.alt scommaaccent.alt sdotaccent.alt sdotbelow.alt sdotbelowdotaccent.alt ];
+@alts_off = [ ampersand h hbrevebelow hcircumflex hdotbelow m mdotbelow n nacute ncaron ncommaaccent ndotaccent ndotbelow nmacronbelow ntilde s sacute sacutedotaccent scaron scarondotaccent scedilla scircumflex scommaaccent sdotaccent sdotbelow sdotbelowdotaccent ];
 
  feature case {
     sub @LC by @UC ;

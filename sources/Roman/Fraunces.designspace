@@ -34,11 +34,33 @@
             <conditionset>
                 <condition maximum="0.490000" minimum="0" name="wonk" />
             </conditionset>
-            <sub name="n" with="n.alt" />
-            <sub name="m" with="m.alt" />
-            <sub name="h" with="h.alt" />
-            <sub name="s" with="s.alt" />
-            <sub name="ampersand" with="ampersand.alt" />
+			<sub name='ampersand' with='ampersand.alt' />
+			<sub name='g' with='g.alt' />
+			<sub name='h' with='h.alt' />
+			<sub name='hbrevebelow' with='hbrevebelow.alt' />
+			<sub name='hcircumflex' with='hcircumflex.alt' />
+			<sub name='hdotbelow' with='hdotbelow.alt' />
+			<sub name='m' with='m.alt' />
+			<sub name='mdotbelow' with='mdotbelow.alt' />
+			<sub name='n' with='n.alt' />
+			<sub name='nacute' with='nacute.alt' />
+			<sub name='ncaron' with='ncaron.alt' />
+			<sub name='ncommaaccent' with='ncommaaccent.alt' />
+			<sub name='ndotaccent' with='ndotaccent.alt' />
+			<sub name='ndotbelow' with='ndotbelow.alt' />
+			<sub name='nmacronbelow' with='nmacronbelow.alt' />
+			<sub name='ntilde' with='ntilde.alt' />
+			<sub name='s' with='s.alt' />
+			<sub name='sacute' with='sacute.alt' />
+			<sub name='sacutedotaccent' with='sacutedotaccent.alt' />
+			<sub name='scaron' with='scaron.alt' />
+			<sub name='scarondotaccent' with='scarondotaccent.alt' />
+			<sub name='scedilla' with='scedilla.alt' />
+			<sub name='scircumflex' with='scircumflex.alt' />
+			<sub name='scommaaccent' with='scommaaccent.alt' />
+			<sub name='sdotaccent' with='sdotaccent.alt' />
+			<sub name='sdotbelow' with='sdotbelow.alt' />
+			<sub name='sdotbelowdotaccent' with='sdotbelowdotaccent.alt' />
         </rule>
     </rules>
     <sources>

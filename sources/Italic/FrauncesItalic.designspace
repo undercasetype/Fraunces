@@ -34,15 +34,45 @@
             <conditionset>
                 <condition maximum="0.490000" minimum="0" name="wonk" />
             </conditionset>
-            <sub name="b" with="b.alt" />
-            <sub name="d" with="d.alt" />
-            <sub name="h" with="h.alt" />
-            <sub name="k" with="k.alt" />
-            <sub name="l" with="l.alt" />
-            <sub name="v" with="v.alt" />
-            <sub name="w" with="w.alt" />
-            <sub name="ampersand" with="ampersand.alt" />
+			<sub name='ampersand' with='ampersand.alt' />
+			<sub name='b' with='b.alt' />
+			<sub name='d' with='d.alt' />
+			<sub name='ddotbelow' with='ddotbelow.alt' />
+			<sub name='dmacronbelow' with='dmacronbelow.alt' />
+			<sub name='h' with='h.alt' />
+			<sub name='hbrevebelow' with='hbrevebelow.alt' />
+			<sub name='hcircumflex' with='hcircumflex.alt' />
+			<sub name='hdotbelow' with='hdotbelow.alt' />
+			<sub name='k' with='k.alt' />
+			<sub name='kcommaaccent' with='kcommaaccent.alt' />
+			<sub name='l' with='l.alt' />
+			<sub name='lacute' with='lacute.alt' />
+			<sub name='lcommaaccent' with='lcommaaccent.alt' />
+			<sub name='ldot' with='ldot.alt' />
+			<sub name='ldotbelow' with='ldotbelow.alt' />
+			<sub name='lmacronbelow' with='lmacronbelow.alt' />
+			<sub name='v' with='v.alt' />
+			<sub name='w' with='w.alt' />
+			<sub name='wacute' with='wacute.alt' />
+			<sub name='wcircumflex' with='wcircumflex.alt' />
+			<sub name='wdieresis' with='wdieresis.alt' />
+			<sub name='wgrave' with='wgrave.alt' />
         </rule>
+	    <rule name="dl">
+			<conditionset>
+                <condition maximum="900" minimum="500" name="weight" />
+                <condition maximum="100" minimum="50" name="goofy" />
+			</conditionset>
+			<sub name='d' with='d.alt' />
+			<sub name='ddotbelow' with='ddotbelow.alt' />
+			<sub name='dmacronbelow' with='dmacronbelow.alt' />
+			<sub name='l' with='l.alt' />
+			<sub name='lacute' with='lacute.alt' />
+			<sub name='lcommaaccent' with='lcommaaccent.alt' />
+			<sub name='ldot' with='ldot.alt' />
+			<sub name='ldotbelow' with='ldotbelow.alt' />
+			<sub name='lmacronbelow' with='lmacronbelow.alt' />
+		</rule>
     </rules>
     <sources>
         <source familyname="Fraunces Italic" filename="FrauncesItalic-144G0Black.ufo" stylename="144 G0 Black">
