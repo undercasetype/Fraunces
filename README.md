@@ -12,9 +12,9 @@ Fraunces has the following axes:
 
 Axis | Tag | Range | Default | Description
 --- | --- | --- | --- | ---
-Optical Size | opsz | 9 to 144 | 9 | Labeled 9, 36, 72, and 144 in instances.
-Weight | wght | 100 to 900 | 100 | Labeled Thin, Light, Regular, Semibold, Bold, and Black in instances.
-Blob | BLOB | 000 to 100 | 050 | Labeled G000, G050, and G100 in instances.
+Optical Size | opsz | 9 to 144 | 36 | Labeled 9, 36, 72, and 144 in instances.
+Weight | wght | 100 to 900 | 400 | Labeled Thin, Light, Regular, Semibold, Bold, and Black in instances.
+Blob | BLOB | 000 to 100 | 050 | Labeled B000, B050, and B100 in instances.
 Wonky | WONK | 0 to 1 | 1 | Binary axis controls substitution of "wonky" characters. Automatically substitutes when opsz > 18. Not listed in instances.
 
 ### `opsz` (Optical Size) Axis
