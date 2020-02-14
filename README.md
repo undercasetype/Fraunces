@@ -14,7 +14,7 @@ Axis | Tag | Range | Default | Description
 --- | --- | --- | --- | ---
 Optical Size | opsz | 9 to 144 | 36 | Labeled 9, 36, 72, and 144 in instances.
 Weight | wght | 100 to 900 | 400 | Labeled Thin, Light, Regular, Semibold, Bold, and Black in instances.
-Blob | BLOB | 000 to 100 | 050 | Labeled B000, B050, and B100 in instances.
+Goofy* | GOOF* | 000 to 100 | 050 | Labeled G000, G050, and G100 in instances. * Final axis name TBD
 Wonky | WONK | 0 to 1 | 1 | Binary axis controls substitution of "wonky" characters. Automatically substitutes when opsz > 18. Not listed in instances.
 
 ### `opsz` (Optical Size) Axis
@@ -33,11 +33,11 @@ The `wght` axis spans Thin to Black. Nuff said.
 
 ![alt text](documentation/explanations/weight_axis.gif "Changes in Weight")
 
-### `BLOB` (Blob) Axis
+### `GOOF` (Goof) Axis (final axis name TBD)
 
-The `BLOB` axis gives access to the chocolate-y, blobby forms that are available towards the Optical Min, but still retaining other Optical Sizing considerations, such as change in character width, spacing, tall ascenders, and shorter x-height
+The `Goof` axis gives access to the chocolate-y, Goofy forms that are available towards the Optical Min, but still retaining other Optical Sizing considerations, such as change in character width, spacing, tall ascenders, and shorter x-height
 
-![alt text](documentation/explanations/goof_axis.gif "Changes in Blob")
+![alt text](documentation/explanations/goof_axis.gif "Changes in Goof")
 
 
 ### `WONK` (Wonky) Axis
