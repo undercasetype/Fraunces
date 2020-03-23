@@ -4,26 +4,6 @@
   <unicode hex="00F7"/>
   <outline>
     <contour>
-      <point x="430.86185" y="300.1497" type="curve" smooth="yes"/>
-      <point x="453.716" y="300.1497"/>
-      <point x="477.4166" y="322.1574"/>
-      <point x="485.03465" y="350.93670000000003" type="curve" smooth="yes"/>
-      <point x="492.65270000000004" y="378.86955"/>
-      <point x="482.49530000000004" y="402.57015"/>
-      <point x="458.79470000000003" y="402.57015" type="curve" smooth="yes"/>
-      <point x="437.63345000000004" y="402.57015"/>
-      <point x="412.23995" y="379.716"/>
-      <point x="404.6219" y="350.93670000000003" type="curve" smooth="yes"/>
-      <point x="397.00385" y="322.1574"/>
-      <point x="407.16125" y="300.1497"/>
-    </contour>
-    <contour>
-      <point x="386.0" y="-102.76050000000009" type="line"/>
-      <point x="386.0" y="1590.1395000000002" type="line"/>
-      <point x="584.91575" y="1590.1395000000002" type="line"/>
-      <point x="584.91575" y="-102.76050000000009" type="line"/>
-    </contour>
-    <contour>
       <point x="590.86185" y="994.1497" type="curve" smooth="yes"/>
       <point x="613.716" y="994.1497"/>
       <point x="637.4166" y="1016.1574"/>
@@ -64,6 +44,26 @@
       <point x="-20" y="1510" type="line"/>
       <point x="890" y="1510" type="line"/>
       <point x="890" y="-490" type="line"/>
+    </contour>
+    <contour>
+      <point x="430.86185" y="300.1497" type="curve" smooth="yes"/>
+      <point x="453.716" y="300.1497"/>
+      <point x="477.4166" y="322.1574"/>
+      <point x="485.03465" y="350.93670000000003" type="curve" smooth="yes"/>
+      <point x="492.65270000000004" y="378.86955"/>
+      <point x="482.49530000000004" y="402.57015"/>
+      <point x="458.79470000000003" y="402.57015" type="curve" smooth="yes"/>
+      <point x="437.63345000000004" y="402.57015"/>
+      <point x="412.23995" y="379.716"/>
+      <point x="404.6219" y="350.93670000000003" type="curve" smooth="yes"/>
+      <point x="397.00385" y="322.1574"/>
+      <point x="407.16125" y="300.1497"/>
+    </contour>
+    <contour>
+      <point x="386.0" y="-102.76050000000009" type="line"/>
+      <point x="386.0" y="1590.1395000000002" type="line"/>
+      <point x="584.91575" y="1590.1395000000002" type="line"/>
+      <point x="584.91575" y="-102.76050000000009" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-490" type="line"/>

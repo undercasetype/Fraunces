@@ -9,7 +9,7 @@
     <key>copyright</key>
     <string>Copyright 2020 The Fraunces Project Authors (github.com/undercasetype/Fraunces)</string>
     <key>descender</key>
-    <real>-450.8</real>
+    <integer>-490</integer>
     <key>familyName</key>
     <string>Fraunces Italic</string>
     <key>guidelines</key>
@@ -106,9 +106,9 @@
         <key>name</key>
         <string>top2</string>
         <key>x</key>
-        <integer>0</integer>
+        <integer>-3</integer>
         <key>y</key>
-        <integer>590</integer>
+        <integer>561</integer>
       </dict>
       <dict>
         <key>angle</key>
@@ -118,7 +118,7 @@
         <key>name</key>
         <string>top3</string>
         <key>x</key>
-        <integer>0</integer>
+        <integer>307</integer>
         <key>y</key>
         <integer>402</integer>
       </dict>
@@ -130,9 +130,21 @@
         <key>name</key>
         <string>top4</string>
         <key>x</key>
+        <integer>41</integer>
+        <key>y</key>
+        <integer>55</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>identifier</key>
+        <string>iPybQb4iEu</string>
+        <key>name</key>
+        <string>overshoot2</string>
+        <key>x</key>
         <integer>0</integer>
         <key>y</key>
-        <integer>140</integer>
+        <integer>924</integer>
       </dict>
     </array>
     <key>italicAngle</key>
@@ -160,7 +172,7 @@
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2VendorID</key>
-    <string>UTF</string>
+    <string>UCT</string>
     <key>openTypeOS2WinAscent</key>
     <integer>2320</integer>
     <key>openTypeOS2WinDescent</key>
@@ -177,6 +189,10 @@
     <array/>
     <key>postscriptStemSnapV</key>
     <array/>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-300</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>150</integer>
     <key>styleName</key>
     <string>144 G100 Black</string>
     <key>unitsPerEm</key>
@@ -186,6 +202,6 @@
     <key>versionMinor</key>
     <integer>0</integer>
     <key>xHeight</key>
-    <real>865.9040000000001</real>
+    <integer>896</integer>
   </dict>
 </plist>

@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="second" format="2">
-  <advance width="766"/>
+  <advance width="647"/>
   <unicode hex="2033"/>
   <outline>
-    <component base="minute" xOffset="10"/>
-    <component base="minute" xOffset="268" yOffset="-4"/>
+    <component base="minute"/>
+    <component base="minute" xOffset="315"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0,0,1,0.5</string>
     </dict>
   </lib>
 </glyph>

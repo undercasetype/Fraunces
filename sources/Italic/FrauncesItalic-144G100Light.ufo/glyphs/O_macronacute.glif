@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Omacronacute" format="2">
-  <advance width="1328"/>
+  <advance width="1316"/>
   <unicode hex="1E52"/>
   <outline>
-    <component base="O" yxScale="0.01875644347017863" xOffset="-42"/>
-    <component base="macron.cap" yxScale="0.01875644347017863" xOffset="664" yOffset="439"/>
-    <component base="acute.cap" yxScale="0.01875644347017863" xOffset="782" yOffset="669"/>
+    <component base="O"/>
+    <component base="macron.cap" xOffset="677.5" yOffset="500"/>
+    <component base="acute.cap" xOffset="836" yOffset="686"/>
   </outline>
 </glyph>

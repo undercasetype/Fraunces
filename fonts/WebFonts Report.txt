@@ -1,0 +1,42 @@
+Web Fonts:
+**********
+
+Frances-Italic[GOOF,WONK,opsz,wght].ttf
+---------------------------------------
+source: /Users/spencercharles/Documents/Git Repositories/Fraunces/fonts/Frances-Italic[GOOF,WONK,opsz,wght].ttf
+
+Build WOFF2 (TTF)
+'''''''''''''''''
+    path: /Users/spencercharles/Documents/Git Repositories/Fraunces/fonts/Fraunces_Italic-9_G0_Thin.woff2
+    Source is binary a TTF file.
+    Auto hint the existing TTF file.
+
+
+Fraunces[GOOF,WONK,opsz,wght].ttf
+---------------------------------
+source: /Users/spencercharles/Documents/Git Repositories/Fraunces/fonts/Fraunces[GOOF,WONK,opsz,wght].ttf
+
+Build WOFF2 (TTF)
+'''''''''''''''''
+    path: /Users/spencercharles/Documents/Git Repositories/Fraunces/fonts/Fraunces-9_G0_Thin.woff2
+    Source is binary a TTF file.
+    Auto hint the existing TTF file.
+
+
+
+TTFAutohint options:
+********************
+addTTFAutoHintInfo     = False
+dwClearType            = False
+fallbackScript         = False
+gdiClearType           = True
+grayScale              = False
+hintRangeMaximum       = 50
+hintRangeMinimum       = 8
+hintingLimit           = 200
+noHintingLimit         = False
+noXHeightIncreaseLimit = False
+overRideFontLicense    = False
+preHinting             = False
+symbolFont             = False
+xHeightIncreaseLimit   = 14

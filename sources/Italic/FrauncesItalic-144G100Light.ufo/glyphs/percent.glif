@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="percent" format="2">
-  <advance width="1106"/>
+  <advance width="1104"/>
   <unicode hex="0025"/>
   <outline>
-    <component base="zero.superior" yxScale="0.01875644347017863" xOffset="-23.092558883257652" yOffset="11"/>
-    <component base="zero.superior" yxScale="0.01875644347017863" xOffset="377.5293943706937" yOffset="-736"/>
-    <component base="fraction" yxScale="0.01875644347017863" xOffset="138.57"/>
+    <component base="zero.superior" xOffset="-103" yOffset="11"/>
+    <component base="fraction" xOffset="9"/>
+    <component base="zero.superior" xOffset="258" yOffset="-736"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0,0,1,0.5</string>
     </dict>
   </lib>
 </glyph>

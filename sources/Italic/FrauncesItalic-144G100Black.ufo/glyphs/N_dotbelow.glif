@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ndotbelow" format="2">
-  <advance width="1425"/>
+  <advance width="1416"/>
   <unicode hex="1E46"/>
   <outline>
-    <component base="N" xOffset="-15"/>
-    <component base="dotbelowcmb" xOffset="333"/>
+    <component base="N"/>
+    <component base="dotbelowcmb" xOffset="472.28229487918907"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

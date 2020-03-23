@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="wcircumflex.alt" format="2">
-  <advance width="1558"/>
+  <advance width="1498"/>
   <outline>
-    <component base="w.alt" xOffset="-10"/>
-    <component base="circumflexcmb" xOffset="533"/>
+    <component base="w.alt"/>
+    <component base="circumflexcmb" xOffset="426"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -65,11 +65,13 @@
         <key>allowPseudoUnicode</key>
         <integer>0</integer>
         <key>ascending</key>
-        <string>Google Italic Full Characterset</string>
+        <string>Italic Full</string>
         <key>type</key>
         <string>characterSet</string>
       </dict>
     </array>
+    <key>com.typemytype.glyphBuilder.lastSavedFileName</key>
+    <string>Ligs_italic</string>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
     <true/>
     <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
@@ -94,6 +96,12 @@
     <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.ZZzzIohQZu</key>
     <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.magnetic.fAQl6ID1rK</key>
+    <real>2.0</real>
+    <key>com.typemytype.robofont.guideline.magnetic.iPybQb4iEu</key>
+    <real>5.0</real>
+    <key>com.typemytype.robofont.guideline.magnetic.rTAiEhqa8d</key>
+    <real>2.0</real>
     <key>com.typemytype.robofont.guideline.showMeasurements.2fws5t3GwQ</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.B0P0PTlrd5</key>
@@ -104,8 +112,12 @@
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.ZZzzIohQZu</key>
     <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.iPybQb4iEu</key>
+    <false/>
+    <key>com.typemytype.robofont.guideline.showMeasurements.pzBdQ6p8IO</key>
+    <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.rTAiEhqa8d</key>
-    <true/>
+    <false/>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <integer>0</integer>
     <key>com.typemytype.robofont.segmentType</key>
@@ -807,6 +819,10 @@
       <string>zcaron</string>
       <string>zdotaccent</string>
       <string>zdotbelow</string>
+      <string>fl.alt</string>
+      <string>f_f_l.alt</string>
+      <string>dzcaron.alt</string>
+      <string>lj.alt</string>
     </array>
   </dict>
 </plist>

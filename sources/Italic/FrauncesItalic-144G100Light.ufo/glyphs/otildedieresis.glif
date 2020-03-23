@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="otildedieresis" format="2">
-  <advance width="766"/>
+  <advance width="759"/>
   <unicode hex="1E4F"/>
   <outline>
-    <component base="o" yxScale="0.010182069312382691" xOffset="-40"/>
-    <component base="tildecmb" yxScale="0.010182069312382691" xOffset="231"/>
-    <component base="dieresis.cap" yxScale="0.010182069312382691" xOffset="262" yOffset="219"/>
+    <component base="o"/>
+    <component base="tildecmb" xOffset="211.2304291872424"/>
+    <component base="dieresis.cap" xOffset="273.30258562852396" yOffset="182"/>
   </outline>
 </glyph>

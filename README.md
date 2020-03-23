@@ -12,36 +12,36 @@ Fraunces has the following axes:
 
 Axis | Tag | Range | Default | Description
 --- | --- | --- | --- | ---
-Optical Size | opsz | 9 to 144 | 9 | Labeled 9, 72, and 144 in instances.
-Weight | wght | 100 to 900 | 100 | Labeled Thin, Light, Regular, Semibold, Bold, and Black in instances.
-Goofy | GOOF | 0 to 100 | 100 | Labeled G0, G50, and G100 in instances.
-Wonk | WONK | 0 to 1 | 0.5 | Controls substitution of "wonky" characters. Automatically substitutes when opsz > 18. Not listed in instances.
+Optical Size | opsz | 9pt to 144pt | 72pt | Labeled 9pt, 72pt, and 144pt in instances.
+Weight | wght | 100 to 900 | 400 | Labeled Thin, Light, Regular, Semibold, Bold, and Black in instances.
+Softness | SOFT | 000 to 100 | 050 | Labeled S000, S050, and S100 in instances.
+Wonky | WONK | 0 to 1 | 1 | Binary axis controls substitution of "wonky" characters. Automatically substitutes when opsz > 18. Not listed in instances.
 
-### Weight Axis
+### `opsz` (Optical Size) Axis
 
-The weight axis spans Thin to Black. Nuff said.
+The `opsz` axis ties together changes in contrast, x-height, spacing, and character widths. As `opsz` decreases, the x-height increases, spacing opens up, and the characters expand in width.
 
-![alt text](documentation/explanations/weight_axis.gif "Changes in Weight")
+Additionally, mapping of axis values is placed in the AVAR table to create non-linear interpolation in the Variable font.
 
-### GOOF Axis
-
-The "goofy" axis gives access to the chocolate-y, chunky forms that are available towards the Optical Min, but still retaining other Optical Sizing considerations, such as change in character width, spacing, tall ascenders, and shorter x-height
-
-![alt text](documentation/explanations/goof_axis.gif "Changes in Goofy")
-
-### Optical Size Axis
-
-The optical size axis ties together changes in contrast, x-height, spacing, and character widths. As the optical size decreases, the x-height increases, spacing opens up, and the characters expand in width.
-
-Additionally, mapping of axis values is placed in the AVAR table to create non-linear interpolation in the Variable Font.
-
-Many of the peculiar, wonky characteristics that are suitable for display usage are less desirable for more continuous reading. At certain smaller optical sizes (18px and less), the WONK axis is disabled (see below). 
+Many of the peculiar, wonky characteristics that are suitable for display usage are less desirable for more continuous reading. At certain smaller optical sizes (18px and less), the `wonk` axis is disabled (see below). 
 
 ![alt text](documentation/explanations/opsz_axis.gif "Changes in Optical Size")
 
+### `wght` (Weight) Axis
 
-### WONK Axis
+The `wght` axis spans Thin to Black. Nuff said.
 
-A binary axis that subsitutes "wonky" characters for more normalized characters, such as the leaning n/m/h in Roman, or the bulbous flags in the b/d/h/k/l of the Italic. In traditional instances of fonts, this will be implemented as a Stylistic Set.
+![alt text](documentation/explanations/weight_axis.gif "Changes in Weight")
 
-![alt text](documentation/explanations/wonk_axis.gif "Changes in Goofy")
+### `SOFT` (Softness) Axis
+
+The `SOFT` axis gives access to the softer, rounded forms that are available towards the Optical Min, but still retaining other Optical Sizing considerations, such as change in character width, spacing, tall ascenders, and shorter x-height
+
+![alt text](documentation/explanations/goof_axis.gif "Changes in Softness")
+
+
+### `WONK` (Wonky) Axis
+
+A binary axis that subsitutes `wonk` characters for more normalized characters, such as the leaning n/m/h in Roman, or the bulbous flags in the b/d/h/k/l of the Italic. In traditional instances of fonts, this will be implemented as a Stylistic Set.
+
+![alt text](documentation/explanations/wonk_axis.gif "Changes in Wonk")

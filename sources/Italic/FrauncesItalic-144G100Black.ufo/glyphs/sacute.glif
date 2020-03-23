@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sacute" format="2">
-  <advance width="912"/>
+  <advance width="881"/>
   <unicode hex="015B"/>
   <outline>
-    <component base="s" xOffset="-10"/>
-    <component base="acutecmb" xOffset="497"/>
+    <component base="s"/>
+    <component base="acutecmb" xOffset="366"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

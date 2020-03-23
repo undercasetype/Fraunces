@@ -6,8 +6,8 @@
  @UC = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ];
  @LC = [ a b c d e f g h i j k l m n o p q r s t u v w x y z ];
 
- @alts_on = [ b.alt d.alt h.alt k.alt l.alt v.alt w.alt ampersand.alt ] ;
- @alts_off = [ b d h k l v w ampersand ];
+@alts_on = [ ampersand.alt b.alt d.alt ddotbelow.alt dmacronbelow.alt h.alt hbrevebelow.alt hcircumflex.alt hdotbelow.alt k.alt kcommaaccent.alt l.alt lacute.alt lcommaaccent.alt ldot.alt ldotbelow.alt lmacronbelow.alt v.alt w.alt wacute.alt wcircumflex.alt wdieresis.alt wgrave.alt ];
+@alts_off = [ ampersand b d ddotbelow dmacronbelow h hbrevebelow hcircumflex hdotbelow k kcommaaccent l lacute lcommaaccent ldot ldotbelow lmacronbelow v w wacute wcircumflex wdieresis wgrave ];
 
  feature case {
     sub @LC by @UC ;

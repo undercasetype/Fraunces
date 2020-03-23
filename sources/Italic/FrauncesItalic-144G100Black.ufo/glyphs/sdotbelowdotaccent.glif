@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sdotbelowdotaccent" format="2">
-  <advance width="912"/>
+  <advance width="881"/>
   <outline>
-    <component base="s" xOffset="-10"/>
-    <component base="dotaccentcmb" xOffset="322"/>
-    <component base="dotbelowcmb" xOffset="72"/>
+    <component base="s"/>
+    <component base="dotaccentcmb" xOffset="171"/>
+    <component base="dotbelowcmb" xOffset="288.28229487918907"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
 </glyph>

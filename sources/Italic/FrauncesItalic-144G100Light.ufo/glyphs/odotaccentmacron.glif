@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="odotaccentmacron" format="2">
-  <advance width="766"/>
+  <advance width="759"/>
   <unicode hex="0231"/>
   <outline>
-    <component base="o" yxScale="0.010182069312382691" xOffset="-40"/>
-    <component base="dotaccentcmb" yxScale="0.010182069312382691" xOffset="406"/>
-    <component base="macroncmb" yxScale="0.010182069312382691" xOffset="286" yOffset="201"/>
+    <component base="o"/>
+    <component base="dotaccentcmb" xOffset="374.098227734823"/>
+    <component base="macroncmb" xOffset="264.0594339700183" yOffset="182"/>
   </outline>
 </glyph>

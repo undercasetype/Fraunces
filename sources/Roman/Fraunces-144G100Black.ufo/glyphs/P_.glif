@@ -6,7 +6,7 @@
     <contour>
       <point x="1358" y="876" type="curve" smooth="yes"/>
       <point x="1358.0" y="1177.0"/>
-      <point x="1115.928057553957" y="1400"/>
+      <point x="1116" y="1400"/>
       <point x="657" y="1400" type="curve" smooth="yes"/>
       <point x="157" y="1400" type="line" smooth="yes"/>
       <point x="87" y="1400"/>
@@ -41,29 +41,29 @@
       <point x="633" y="234"/>
       <point x="621" y="257"/>
       <point x="621" y="306" type="curve" smooth="yes"/>
-      <point x="621" y="1199" type="line"/>
-      <point x="638" y="1199" type="line" smooth="yes"/>
-      <point x="805.8456375838925" y="1199"/>
-      <point x="919.0" y="1073.0"/>
+      <point x="621" y="1206" type="line"/>
+      <point x="638" y="1206" type="line" smooth="yes"/>
+      <point x="806.0" y="1206"/>
+      <point x="919.0" y="1077.0891089108911"/>
       <point x="919" y="896" type="curve" smooth="yes"/>
-      <point x="919.0" y="716.0"/>
-      <point x="816.0285714285715" y="623.0"/>
-      <point x="681" y="623" type="curve" smooth="yes"/>
-      <point x="573" y="623"/>
-      <point x="525" y="652"/>
-      <point x="460" y="695" type="curve"/>
-      <point x="441" y="510" type="line"/>
-      <point x="538" y="455"/>
-      <point x="661" y="418"/>
-      <point x="802" y="418" type="curve" smooth="yes"/>
-      <point x="1156.8290909090908" y="418.0"/>
-      <point x="1358.0" y="598.0"/>
+      <point x="919.0" y="710.7252747252747"/>
+      <point x="816" y="615"/>
+      <point x="681" y="615" type="curve" smooth="yes"/>
+      <point x="596.0" y="615.0"/>
+      <point x="549" y="640"/>
+      <point x="460" y="697" type="curve"/>
+      <point x="441" y="509" type="line"/>
+      <point x="538" y="454"/>
+      <point x="661" y="417"/>
+      <point x="802" y="417" type="curve" smooth="yes"/>
+      <point x="1157.0" y="417.0"/>
+      <point x="1358.0" y="597.3930131004367"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,0.5</string>
+      <string>0,0,1,1</string>
     </dict>
   </lib>
 </glyph>

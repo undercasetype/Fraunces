@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorngrave" format="2">
-  <advance width="896"/>
+  <advance width="830"/>
   <unicode hex="1EEB"/>
   <outline>
-    <component base="uhorn" yxScale="0.010182069312382691" xOffset="-40"/>
-    <component base="gravecmb" yxScale="0.010182069312382691" xOffset="303"/>
+    <component base="uhorn"/>
+    <component base="gravecmb" xOffset="311"/>
   </outline>
 </glyph>

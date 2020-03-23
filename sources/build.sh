@@ -3,8 +3,8 @@ set -e
 
 echo "Generating Static fonts"
 mkdir -p ../fonts
-mkdir -p ../fonts/static/otf
-mkdir -p ../fonts/static/ttf
+#mkdir -p ../fonts/static/otf
+#mkdir -p ../fonts/static/ttf
 
 
 # generate static designspace referencing csv and variable designspace file
