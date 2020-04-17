@@ -3,9 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>com.commercialtype.futureproof.allowedSuffixes</key>
-    <array>
-      <string>alt</string>
-    </array>
+    <array/>
     <key>com.commercialtype.futureproof.avoidBreakingSections</key>
     <integer>0</integer>
     <key>com.commercialtype.futureproof.includeAltsInAlphabeticalOrder</key>
@@ -304,6 +302,7 @@
           <string>Ohorn</string>
           <string>Uhorn</string>
           <string>Germandbls</string>
+          <string>Dotlessi</string>
           <string>DZcaron</string>
           <string>IJ</string>
           <string>IJacute</string>
@@ -731,6 +730,10 @@
           <string>zcaron</string>
           <string>zdotaccent</string>
           <string>zdotbelow</string>
+          <string>fl.alt</string>
+          <string>f_f_l.alt</string>
+          <string>dzcaron.alt</string>
+          <string>lj.alt</string>
         </array>
         <key>type</key>
         <string>glyphList</string>
@@ -833,6 +836,13 @@
         <real>1.0</real>
         <real>0.0</real>
         <real>0.5</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.N</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.O</key>
@@ -1071,6 +1081,13 @@
         <real>1.0</real>
         <real>0.0</real>
         <real>0.5</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.N</key>
+      <array>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.O</key>
@@ -1510,6 +1527,7 @@
       <string>Ohorn</string>
       <string>Uhorn</string>
       <string>Germandbls</string>
+      <string>Dotlessi</string>
       <string>DZcaron</string>
       <string>IJ</string>
       <string>IJacute</string>

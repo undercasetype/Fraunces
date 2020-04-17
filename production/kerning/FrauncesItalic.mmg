@@ -79,7 +79,6 @@
   </group>
   <group color="1.0 0.0 0.0 0.25" name="H" side="side1" type="kerning">
     <glyphs>
-      Eng
       H
       Hbar
       Hbrevebelow
@@ -102,15 +101,7 @@
       Itilde
       M
       Mdotbelow
-      N
       NJ
-      Nacute
-      Ncaron
-      Ncommaaccent
-      Ndotaccent
-      Ndotbelow
-      Nmacronbelow
-      Ntilde
     </glyphs>
   </group>
   <group color="0.5 0.0 1.0 0.25" name="J" side="side1" type="kerning">
@@ -139,6 +130,19 @@
       Ldotbelow
       Lmacronbelow
       Lslash
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 1.0 0.25" name="N" side="side1" type="kerning">
+    <glyphs>
+      Eng
+      N
+      Nacute
+      Ncaron
+      Ncommaaccent
+      Ndotaccent
+      Ndotbelow
+      Nmacronbelow
+      Ntilde
     </glyphs>
   </group>
   <group color="1.0 0.5 0.0 0.25" name="O" side="side1" type="kerning">
@@ -722,7 +726,6 @@
       Emacron
       Emacronacute
       Emacrongrave
-      Eng
       Eogonek
       Eth
       Etilde
@@ -762,18 +765,7 @@
       Lj
       Lmacronbelow
       Lslash
-      M
-      Mdotbelow
-      N
       NJ
-      Nacute
-      Ncaron
-      Ncommaaccent
-      Ndotaccent
-      Ndotbelow
-      Nj
-      Nmacronbelow
-      Ntilde
       P
       R
       Racute
@@ -791,6 +783,22 @@
       J
       Jacute
       Jcircumflex
+    </glyphs>
+  </group>
+  <group color="0.5 0.0 1.0 0.25" name="N" side="side2" type="kerning">
+    <glyphs>
+      Eng
+      M
+      Mdotbelow
+      N
+      Nacute
+      Ncaron
+      Ncommaaccent
+      Ndotaccent
+      Ndotbelow
+      Nj
+      Nmacronbelow
+      Ntilde
     </glyphs>
   </group>
   <group color="0.0 1.0 1.0 0.25" name="O" side="side2" type="kerning">
@@ -1250,16 +1258,6 @@
       wcircumflex
       wdieresis
       wgrave
-      y
-      yacute
-      ycircumflex
-      ydieresis
-      ydotaccent
-      ydotbelow
-      ygrave
-      yhookabove
-      ymacron
-      ytilde
     </glyphs>
   </group>
   <group color="0.0 0.0 1.0 0.25" name="v.alt" side="side2" type="kerning">
@@ -1270,6 +1268,16 @@
       wcircumflex.alt
       wdieresis.alt
       wgrave.alt
+      y
+      yacute
+      ycircumflex
+      ydieresis
+      ydotaccent
+      ydotbelow
+      ygrave
+      yhookabove
+      ymacron
+      ytilde
     </glyphs>
   </group>
   <group color="1.0 0.5 0.0 0.25" name="z" side="side2" type="kerning">

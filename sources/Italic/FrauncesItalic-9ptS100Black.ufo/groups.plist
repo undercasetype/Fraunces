@@ -171,8 +171,6 @@
       <string>H</string>
       <string>I</string>
       <string>M</string>
-      <string>N</string>
-      <string>Eng</string>
       <string>Hbar</string>
       <string>Hbrevebelow</string>
       <string>Hcircumflex</string>
@@ -193,13 +191,6 @@
       <string>Itilde</string>
       <string>Mdotbelow</string>
       <string>NJ</string>
-      <string>Nacute</string>
-      <string>Ncaron</string>
-      <string>Ncommaaccent</string>
-      <string>Ndotaccent</string>
-      <string>Ndotbelow</string>
-      <string>Nmacronbelow</string>
-      <string>Ntilde</string>
     </array>
     <key>public.kern1.J</key>
     <array>
@@ -225,6 +216,18 @@
       <string>Ldotbelow</string>
       <string>Lmacronbelow</string>
       <string>Lslash</string>
+    </array>
+    <key>public.kern1.N</key>
+    <array>
+      <string>Eng</string>
+      <string>N</string>
+      <string>Nacute</string>
+      <string>Ncaron</string>
+      <string>Ncommaaccent</string>
+      <string>Ndotaccent</string>
+      <string>Ndotbelow</string>
+      <string>Nmacronbelow</string>
+      <string>Ntilde</string>
     </array>
     <key>public.kern1.O</key>
     <array>
@@ -754,8 +757,6 @@
       <string>I</string>
       <string>K</string>
       <string>L</string>
-      <string>M</string>
-      <string>N</string>
       <string>P</string>
       <string>R</string>
       <string>DZcaron</string>
@@ -783,7 +784,6 @@
       <string>Emacron</string>
       <string>Emacronacute</string>
       <string>Emacrongrave</string>
-      <string>Eng</string>
       <string>Eogonek</string>
       <string>Eth</string>
       <string>Etilde</string>
@@ -815,15 +815,7 @@
       <string>Ldotbelow</string>
       <string>Lmacronbelow</string>
       <string>Lslash</string>
-      <string>Mdotbelow</string>
       <string>NJ</string>
-      <string>Nacute</string>
-      <string>Ncaron</string>
-      <string>Ncommaaccent</string>
-      <string>Ndotaccent</string>
-      <string>Ndotbelow</string>
-      <string>Nmacronbelow</string>
-      <string>Ntilde</string>
       <string>Racute</string>
       <string>Rcaron</string>
       <string>Rcommaaccent</string>
@@ -834,7 +826,6 @@
       <string>Thorn</string>
       <string>Dzcaron</string>
       <string>Lj</string>
-      <string>Nj</string>
       <string>IJ</string>
       <string>IJacute</string>
     </array>
@@ -843,6 +834,21 @@
       <string>J</string>
       <string>Jacute</string>
       <string>Jcircumflex</string>
+    </array>
+    <key>public.kern2.N</key>
+    <array>
+      <string>Eng</string>
+      <string>M</string>
+      <string>Mdotbelow</string>
+      <string>N</string>
+      <string>Nacute</string>
+      <string>Ncaron</string>
+      <string>Ncommaaccent</string>
+      <string>Ndotaccent</string>
+      <string>Ndotbelow</string>
+      <string>Nj</string>
+      <string>Nmacronbelow</string>
+      <string>Ntilde</string>
     </array>
     <key>public.kern2.O</key>
     <array>
@@ -1276,20 +1282,10 @@
     <array>
       <string>v</string>
       <string>w</string>
-      <string>y</string>
       <string>wacute</string>
       <string>wcircumflex</string>
       <string>wdieresis</string>
       <string>wgrave</string>
-      <string>yacute</string>
-      <string>ycircumflex</string>
-      <string>ydieresis</string>
-      <string>ydotaccent</string>
-      <string>ydotbelow</string>
-      <string>ygrave</string>
-      <string>yhookabove</string>
-      <string>ymacron</string>
-      <string>ytilde</string>
     </array>
     <key>public.kern2.v.alt</key>
     <array>
@@ -1299,6 +1295,16 @@
       <string>wcircumflex.alt</string>
       <string>wdieresis.alt</string>
       <string>wgrave.alt</string>
+      <string>y</string>
+      <string>yacute</string>
+      <string>ycircumflex</string>
+      <string>ydieresis</string>
+      <string>ydotaccent</string>
+      <string>ydotbelow</string>
+      <string>ygrave</string>
+      <string>yhookabove</string>
+      <string>ymacron</string>
+      <string>ytilde</string>
     </array>
     <key>public.kern2.z</key>
     <array>
