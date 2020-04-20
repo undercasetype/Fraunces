@@ -38,13 +38,6 @@
       Ccedillaacute
       Ccircumflex
       Cdotaccent
-      G
-      Gbreve
-      Gcaron
-      Gcircumflex
-      Gcommaaccent
-      Gdotaccent
-      Gmacron
     </glyphs>
   </group>
   <group color="1.0 0.0 1.0 0.25" name="E" side="side1" type="kerning">
@@ -75,6 +68,17 @@
       Eogonek
       Etilde
       OE
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.5 0.25" name="G" side="side1" type="kerning">
+    <glyphs>
+      G
+      Gbreve
+      Gcaron
+      Gcircumflex
+      Gcommaaccent
+      Gdotaccent
+      Gmacron
     </glyphs>
   </group>
   <group color="1.0 0.0 0.0 0.25" name="H" side="side1" type="kerning">

@@ -123,19 +123,12 @@
     <key>public.kern1.C</key>
     <array>
       <string>C</string>
-      <string>G</string>
       <string>Cacute</string>
       <string>Ccaron</string>
       <string>Ccedilla</string>
       <string>Ccedillaacute</string>
       <string>Ccircumflex</string>
       <string>Cdotaccent</string>
-      <string>Gbreve</string>
-      <string>Gcaron</string>
-      <string>Gcircumflex</string>
-      <string>Gcommaaccent</string>
-      <string>Gdotaccent</string>
-      <string>Gmacron</string>
     </array>
     <key>public.kern1.E</key>
     <array>
@@ -165,6 +158,16 @@
       <string>Eogonek</string>
       <string>Etilde</string>
       <string>OE</string>
+    </array>
+    <key>public.kern1.G</key>
+    <array>
+      <string>G</string>
+      <string>Gbreve</string>
+      <string>Gcaron</string>
+      <string>Gcircumflex</string>
+      <string>Gcommaaccent</string>
+      <string>Gdotaccent</string>
+      <string>Gmacron</string>
     </array>
     <key>public.kern1.H</key>
     <array>

@@ -3,7 +3,9 @@
 <plist version="1.0">
   <dict>
     <key>com.commercialtype.futureproof.allowedSuffixes</key>
-    <array/>
+    <array>
+      <string>alt</string>
+    </array>
     <key>com.commercialtype.futureproof.avoidBreakingSections</key>
     <integer>0</integer>
     <key>com.commercialtype.futureproof.includeAltsInAlphabeticalOrder</key>
@@ -808,6 +810,13 @@
         <real>1.0</real>
         <real>0.0</real>
         <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.G</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.H</key>
