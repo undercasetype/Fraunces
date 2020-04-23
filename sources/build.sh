@@ -42,8 +42,11 @@ do
 	#mv "$vf.fix" $vf;
 done
 
-# echo "Fixing VF Meta"
-# gftools fix-vf-meta $vfs;
+echo "Fix STAT"
+python ../mastering/scripts/add_STAT.py Roman/Fraunces.designspace ../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf
+python ../mastering/scripts/add_STAT.py Italic/FrauncesItalic.designspace ../fonts/FrauncesItalic[SOFT,WONK,opsz,wght].ttf
+rm -f Roman/*.stylespace
+rm -f Italic/*.stylespace
 
 echo "Dropping MVAR"
 for vf in $vfs
@@ -75,4 +78,7 @@ rm -f ../fonts/static/ttf/*.ttx
 rm -f ../fonts/*gasp.ttf
 rm -f ../fonts/static/ttf/*gasp.ttf
 
-echo "Done"
+echo "Done Generating"
+
+fontbakery check-googlefonts $vfs  --ghmarkdown checks/fontbakery_var_checks.md
+
