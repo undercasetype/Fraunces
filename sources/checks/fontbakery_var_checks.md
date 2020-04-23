@@ -1,18 +1,36 @@
 ## Fontbakery report
 
-Fontbakery version: 0.7.22
+Fontbakery version: 0.7.23
 
 <details>
-<summary><b>[13] Family checks</b></summary>
+<summary><b>[14] Family checks</b></summary>
 <details>
 <summary>ℹ <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version)
 
-* ℹ **INFO** fontbakery (0.7.22)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.7.22 (latest)
+* ℹ **INFO** fontbakery (0.7.24)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.7.23
+  LATEST:    0.7.24
 
 * 🍞 **PASS** Font Bakery is up-to-date
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Ensure that all variable font files have the same set of axes and axis ranges.</summary>
+
+* [com.google.fonts/check/varfont/consistent_axes](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/consistent_axes)
+<pre>--- Rationale ---
+
+In order to facilitate the construction of intuitive and friendly user
+interfaces, all variable font files in a given family should have the same set
+of variation axes. Also, each axis must have a consistent setting of min/max
+value ranges accross all the files.
+
+
+</pre>
+
+* 🍞 **PASS** All looks good!
 
 </details>
 <details>
@@ -64,12 +82,13 @@ Bakery could access `ftxvalidator` on OSX, e.g. via ssh or a remote procedure
 call (rpc).
 
 There&#x27;s an ssh example implementation at:
-https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds/ftxvalidator/ssh-implementation/ftxvalidator
+https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
+/ftxvalidator/ssh-implementation/ftxvalidator
 
 
 </pre>
 
-* 🍞 **PASS** ftxvalidator is available.
+* 🍞 **PASS** ftxvalidator is available at /usr/bin/ftxvalidator
 
 </details>
 <details>
@@ -199,138 +218,11 @@ field, using bits 0 and 5.
 <details>
 <summary><b>[153] Fraunces[SOFT,WONK,opsz,wght].ttf</b></summary>
 <details>
-<summary>💔 <b>ERROR:</b> Version number has increased since previous release on Google Fonts?</summary>
-
-* [com.google.fonts/check/version_bump](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: FailedConditionError: The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Glyphs are similiar to Google Fonts version?</summary>
-
-* [com.google.fonts/check/production_glyphs_similarity](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: FailedConditionError: The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
-<pre>--- Rationale ---
-
-Checks that the family name infered from the font filename matches the string
-at nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise
-checks that nameID 1 is the family name + the style name.
-
-
-</pre>
-
-* 💔 **ERROR** The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check name table: FULL_FONT_NAME entries.</summary>
-
-* [com.google.fonts/check/name/fullfontname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/typographicfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts.</summary>
-
-* [com.google.fonts/check/vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions)
-<pre>--- Rationale ---
-
-If the family already exists on Google Fonts, we need to ensure that the
-checked family&#x27;s vertical metrics are similar. This check will test the
-following schema which was outlined in Fontbakery issue #1162 [1]:
-
-- The family should visually have the same vertical metrics as the
-  Regular style hosted on Google Fonts.
-- If the family on Google Fonts has differing hhea and typo metrics,
-  the family being checked should use the typo metrics for both the
-  hhea and typo entries.
-- If the family on Google Fonts has use typo metrics not enabled and the
-  family being checked has it enabled, the hhea and typo metrics
-  should use the family on Google Fonts winAscent and winDescent values.
-- If the upms differ, the values must be scaled so the visual appearance
-  is the same.
-
-[1] https://github.com/googlefonts/fontbakery/issues/1162
-
-
-</pre>
-
-* 💔 **ERROR** The condition <FontBakeryCondition:remote_styles> had an error: FailedConditionError: The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
 
 * [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "144pt S100 Black" is incorrect. It must be "144pt Black". [code: bad-typo-win]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Variable font weight coordinates must be multiples of 100.</summary>
-
-* [com.google.fonts/check/varfont_weight_instances](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances)
-<pre>--- Rationale ---
-
-The named instances on the weight axis of a variable font must have coordinates
-that are multiples of 100 on the design space.
-
-
-</pre>
-
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
 
 </details>
 <details>
@@ -348,78 +240,6 @@ variable fonts in their web browsers.
 </pre>
 
 * 🔥 **FAIL** Static dir is empty [code: empty]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check variable font instances have correct coordinate values</summary>
-
-* [com.google.fonts/check/varfont_instance_coordinates](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates)
-
-* 🔥 **FAIL** Instance "9pt S000 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S000 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S000 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S000 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Check has either failed or produced a warning. See our wip spec for further info https://gist.github.com/m4rc1e/8f4c4498519e8a36cd54e16a004275cb
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-
-A font&#x27;s winAscent and winDescent values should be greater than the head
-table&#x27;s yMax, abs(yMin) values. If they are less than these values, clipping
-can occur on Windows platforms
-(https://github.com/RedHatBrand/Overpass/issues/33).
-
-If the font includes tall/deep writing systems such as Arabic or Devanagari,
-the winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-
-When the win Metrics are significantly greater than the upm, the linespacing
-can appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead.
-This means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).
-
-
-</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2336, but got 2320 instead [code: ascent]
 
 </details>
 <details>
@@ -794,37 +614,6 @@ not placed on subdirectories.
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> License URL matches License text on name table?</summary>
-
-* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
-<pre>--- Rationale ---
-
-A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
-of the name table.
-
-The source of truth for this check is the licensing text found on the NameID 13
-entry (LICENSE DESCRIPTION).
-
-The string snippets used for detecting licensing terms are:
-- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
-- &quot;Licensed under the Apache License, Version 2.0&quot;
-- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
-
-
-Currently accepted licenses are Apache or Open Font License.
-For a small set of legacy families the Ubuntu Font License may be acceptable as
-well.
-
-When in doubt, please choose OFL for new font projects.
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: familyname
-
-</details>
-<details>
 <summary>💤 <b>SKIP:</b> Font has ttfautohint params?</summary>
 
 * [com.google.fonts/check/has_ttfautohint_params](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/has_ttfautohint_params)
@@ -1126,6 +915,22 @@ We may want to merge them all into a single check.
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Version number has increased since previous release on Google Fonts?</summary>
+
+* [com.google.fonts/check/version_bump](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump)
+
+* 💤 **SKIP** Unfulfilled Conditions: api_gfonts_ttFont, github_gfonts_ttFont
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Glyphs are similiar to Google Fonts version?</summary>
+
+* [com.google.fonts/check/production_glyphs_similarity](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity)
+
+* 💤 **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> Checking OS/2 fsSelection value.</summary>
 
 * [com.google.fonts/check/fsselection](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection)
@@ -1209,26 +1014,43 @@ optimized for the typical construction of glyphs in static fonts.
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Check name table: POSTSCRIPT_NAME entries.</summary>
+<summary>💤 <b>SKIP:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
 
-* [com.google.fonts/check/name/postscriptname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname)
-
-* 💤 **SKIP** Unfulfilled Conditions: style, familyname
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
-
-* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+* [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
 <pre>--- Rationale ---
 
-We need to check names are not already used, and today the best place to check
-that is http://namecheck.fontdata.com
+Checks that the family name infered from the font filename matches the string
+at nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise
+checks that nameID 1 is the family name + the style name.
 
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: familyname
+* 💤 **SKIP** Unfulfilled Conditions: style
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check name table: FULL_FONT_NAME entries.</summary>
+
+* [com.google.fonts/check/name/fullfontname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname)
+
+* 💤 **SKIP** Unfulfilled Conditions: style_with_spaces
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check name table: POSTSCRIPT_NAME entries.</summary>
+
+* [com.google.fonts/check/name/postscriptname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname)
+
+* 💤 **SKIP** Unfulfilled Conditions: style
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/typographicfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname)
+
+* 💤 **SKIP** Unfulfilled Conditions: style
 
 </details>
 <details>
@@ -1259,6 +1081,35 @@ Bit 3 = Force ppem to integer values for all internal scaler math;
 * [com.google.fonts/check/repo/dirname_matches_nameid_1](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/repo/dirname_matches_nameid_1)
 
 * 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure, not is_variable_font
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts.</summary>
+
+* [com.google.fonts/check/vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions)
+<pre>--- Rationale ---
+
+If the family already exists on Google Fonts, we need to ensure that the
+checked family&#x27;s vertical metrics are similar. This check will test the
+following schema which was outlined in Fontbakery issue #1162 [1]:
+
+- The family should visually have the same vertical metrics as the
+  Regular style hosted on Google Fonts.
+- If the family on Google Fonts has differing hhea and typo metrics,
+  the family being checked should use the typo metrics for both the
+  hhea and typo entries.
+- If the family on Google Fonts has use typo metrics not enabled and the
+  family being checked has it enabled, the hhea and typo metrics
+  should use the family on Google Fonts winAscent and winDescent values.
+- If the upms differ, the values must be scaled so the visual appearance
+  is the same.
+
+[1] https://github.com/googlefonts/fontbakery/issues/1162
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: remote_styles
 
 </details>
 <details>
@@ -1480,9 +1331,9 @@ of hinted versus unhinted font files.
 
 	|  | /Users/b.bramboeck/Documents/Fontprojects_GIT/Fraunces/fonts/Fraunces[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 368.7kb |
-	| Hinted Size | 368.3kb |
-	| Increase | -456 bytes |
+	| Dehinted Size | 365.6kb |
+	| Hinted Size | 365.1kb |
+	| Increase | -452 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1591,7 +1442,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [GSUB, prep, DSIG, gasp, GPOS, loca]
+* ℹ **INFO** This font contains the following optional tables [gasp, GPOS, prep, loca, GSUB, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1746,6 +1597,37 @@ When in doubt, please choose OFL for new font projects.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> License URL matches License text on name table?</summary>
+
+* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
+<pre>--- Rationale ---
+
+A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
+of the name table.
+
+The source of truth for this check is the licensing text found on the NameID 13
+entry (LICENSE DESCRIPTION).
+
+The string snippets used for detecting licensing terms are:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 🍞 **PASS** Font has a valid license URL in NAME table.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Description strings in the name table must not exceed 200 characters.</summary>
 
 * [com.google.fonts/check/name/description_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length)
@@ -1879,6 +1761,21 @@ characters.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
+
+* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+<pre>--- Rationale ---
+
+We need to check names are not already used, and today the best place to check
+that is http://namecheck.fontdata.com
+
+
+</pre>
+
+* 🍞 **PASS** Font familyname seems to be unique.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Check a static ttf can be generated from a variable font.</summary>
 
 * [com.google.fonts/check/varfont/generate_static](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/generate_static)
@@ -1919,7 +1816,8 @@ So, all variable fonts on the Google Fonts collection should have an HVAR with
 valid values.
 
 More info on the HVAR table can be found at:
-https://docs.microsoft.com/en-us/typography/opentype/spec/otvaroverview#variation-data-tables-and-miscellaneous-requirements
+https://docs.microsoft.com/en-us/typography/opentype/spec
+/otvaroverview#variation-data-tables-and-miscellaneous-requirements
 
 
 </pre>
@@ -2034,6 +1932,21 @@ the users&#x27; typical expectations of a traditional static font workflow.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Variable font weight coordinates must be multiples of 100.</summary>
+
+* [com.google.fonts/check/varfont_weight_instances](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances)
+<pre>--- Rationale ---
+
+The named instances on the weight axis of a variable font must have coordinates
+that are multiples of 100 on the design space.
+
+
+</pre>
+
+* 🍞 **PASS** OK
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table entries should not contain line-breaks.</summary>
 
 * [com.google.fonts/check/name/line_breaks](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks)
@@ -2079,11 +1992,47 @@ This check ensures &quot;Reserved Font Name&quot; is not mentioned in the name t
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Check variable font instances have correct coordinate values</summary>
+
+* [com.google.fonts/check/varfont_instance_coordinates](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates)
+
+* 🍞 **PASS** Instance coordinates are correct
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table records must not have trailing spaces.</summary>
 
 * [com.google.fonts/check/name/trailing_spaces](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces)
 
 * 🍞 **PASS** No trailing spaces on name table entries.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
+
+* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
+<pre>--- Rationale ---
+
+A font&#x27;s winAscent and winDescent values should be greater than the head
+table&#x27;s yMax, abs(yMin) values. If they are less than these values, clipping
+can occur on Windows platforms
+(https://github.com/RedHatBrand/Overpass/issues/33).
+
+If the font includes tall/deep writing systems such as Arabic or Devanagari,
+the winAscent and winDescent can be greater than the yMax and abs(yMin) to
+accommodate vowel marks.
+
+When the win Metrics are significantly greater than the upm, the linespacing
+can appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
+(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead.
+This means the font developer can control the linespacing with the typo values,
+whilst avoiding clipping by setting the win values to values greater than the
+yMax and abs(yMin).
+
+
+</pre>
+
+* 🍞 **PASS** OS/2 usWinAscent & usWinDescent values look good!
 
 </details>
 <details>
@@ -2136,7 +2085,8 @@ take care of their own situation.
 The OpenType specification v1.8.2 recommends that the first glyph is the
 .notdef glyph without a codepoint assigned and with a drawing.
 
-https://docs.microsoft.com/en-us/typography/opentype/spec/recom#glyph-0-the-notdef-glyph
+https://docs.microsoft.com/en-us/typography/opentype/spec
+/recom#glyph-0-the-notdef-glyph
 
 Pre-v1.8, it was recommended that a font should also contain a .null, CR and
 space glyph. This might have been relevant for applications on MacOS 9.
@@ -2201,6 +2151,13 @@ underscore, i.e. from the set [A-Za-z0-9_.] and should start with a letter,
 except the special glyph name &quot;.notdef&quot; which starts with a period.&#x27;
 
 https://docs.microsoft.com/en-us/typography/opentype/spec/recom#post-table
+
+
+In practice, though, particularly in modern environments, glyph names can be as
+long as 63 characters.
+According to the &quot;Adobe Glyph List Specification&quot; available at:
+
+https://github.com/adobe-type-tools/agl-specification
 
 
 </pre>
@@ -2620,83 +2577,6 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 <details>
 <summary><b>[153] FrauncesItalic[SOFT,WONK,opsz,wght].ttf</b></summary>
 <details>
-<summary>💔 <b>ERROR:</b> Version number has increased since previous release on Google Fonts?</summary>
-
-* [com.google.fonts/check/version_bump](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: FailedConditionError: The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Glyphs are similiar to Google Fonts version?</summary>
-
-* [com.google.fonts/check/production_glyphs_similarity](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: FailedConditionError: The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
-<pre>--- Rationale ---
-
-Checks that the family name infered from the font filename matches the string
-at nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise
-checks that nameID 1 is the family name + the style name.
-
-
-</pre>
-
-* 💔 **ERROR** The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check name table: FULL_FONT_NAME entries.</summary>
-
-* [com.google.fonts/check/name/fullfontname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/typographicfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts.</summary>
-
-* [com.google.fonts/check/vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions)
-<pre>--- Rationale ---
-
-If the family already exists on Google Fonts, we need to ensure that the
-checked family&#x27;s vertical metrics are similar. This check will test the
-following schema which was outlined in Fontbakery issue #1162 [1]:
-
-- The family should visually have the same vertical metrics as the
-  Regular style hosted on Google Fonts.
-- If the family on Google Fonts has differing hhea and typo metrics,
-  the family being checked should use the typo metrics for both the
-  hhea and typo entries.
-- If the family on Google Fonts has use typo metrics not enabled and the
-  family being checked has it enabled, the hhea and typo metrics
-  should use the family on Google Fonts winAscent and winDescent values.
-- If the upms differ, the values must be scaled so the visual appearance
-  is the same.
-
-[1] https://github.com/googlefonts/fontbakery/issues/1162
-
-
-</pre>
-
-* 💔 **ERROR** The condition <FontBakeryCondition:remote_styles> had an error: FailedConditionError: The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
 
 * [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
@@ -2710,56 +2590,6 @@ following schema which was outlined in Fontbakery issue #1162 [1]:
 * [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
 
 * 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "144pt S100 Black" is incorrect. It must be "144pt Black Italic". [code: bad-typo-win]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Variable font weight coordinates must be multiples of 100.</summary>
-
-* [com.google.fonts/check/varfont_weight_instances](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances)
-<pre>--- Rationale ---
-
-The named instances on the weight axis of a variable font must have coordinates
-that are multiples of 100 on the design space.
-
-
-</pre>
-
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
 
 </details>
 <details>
@@ -2780,75 +2610,19 @@ variable fonts in their web browsers.
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check variable font instances have correct coordinate values</summary>
+<summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
 
-* [com.google.fonts/check/varfont_instance_coordinates](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates)
-
-* 🔥 **FAIL** Instance "9pt S000 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S000 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S000 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S000 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Check has either failed or produced a warning. See our wip spec for further info https://gist.github.com/m4rc1e/8f4c4498519e8a36cd54e16a004275cb
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
+* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
 <pre>--- Rationale ---
 
-A font&#x27;s winAscent and winDescent values should be greater than the head
-table&#x27;s yMax, abs(yMin) values. If they are less than these values, clipping
-can occur on Windows platforms
-(https://github.com/RedHatBrand/Overpass/issues/33).
-
-If the font includes tall/deep writing systems such as Arabic or Devanagari,
-the winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-
-When the win Metrics are significantly greater than the upm, the linespacing
-can appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead.
-This means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).
+All ligatures in a font must have corresponding caret (text cursor) positions
+defined in the GDEF table, otherwhise, users may experience issues with caret
+rendering.
 
 
 </pre>
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2336, but got 2320 instead [code: ascent]
+* ⚠ **WARN** GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
 
 </details>
 <details>
@@ -3191,37 +2965,6 @@ not placed on subdirectories.
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> License URL matches License text on name table?</summary>
-
-* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
-<pre>--- Rationale ---
-
-A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
-of the name table.
-
-The source of truth for this check is the licensing text found on the NameID 13
-entry (LICENSE DESCRIPTION).
-
-The string snippets used for detecting licensing terms are:
-- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
-- &quot;Licensed under the Apache License, Version 2.0&quot;
-- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
-
-
-Currently accepted licenses are Apache or Open Font License.
-For a small set of legacy families the Ubuntu Font License may be acceptable as
-well.
-
-When in doubt, please choose OFL for new font projects.
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: familyname
-
-</details>
-<details>
 <summary>💤 <b>SKIP:</b> Font has ttfautohint params?</summary>
 
 * [com.google.fonts/check/has_ttfautohint_params](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/has_ttfautohint_params)
@@ -3523,6 +3266,22 @@ We may want to merge them all into a single check.
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Version number has increased since previous release on Google Fonts?</summary>
+
+* [com.google.fonts/check/version_bump](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump)
+
+* 💤 **SKIP** Unfulfilled Conditions: api_gfonts_ttFont, github_gfonts_ttFont
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Glyphs are similiar to Google Fonts version?</summary>
+
+* [com.google.fonts/check/production_glyphs_similarity](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity)
+
+* 💤 **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> Checking OS/2 fsSelection value.</summary>
 
 * [com.google.fonts/check/fsselection](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection)
@@ -3606,26 +3365,43 @@ optimized for the typical construction of glyphs in static fonts.
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Check name table: POSTSCRIPT_NAME entries.</summary>
+<summary>💤 <b>SKIP:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
 
-* [com.google.fonts/check/name/postscriptname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname)
-
-* 💤 **SKIP** Unfulfilled Conditions: style, familyname
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
-
-* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+* [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
 <pre>--- Rationale ---
 
-We need to check names are not already used, and today the best place to check
-that is http://namecheck.fontdata.com
+Checks that the family name infered from the font filename matches the string
+at nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise
+checks that nameID 1 is the family name + the style name.
 
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: familyname
+* 💤 **SKIP** Unfulfilled Conditions: style
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check name table: FULL_FONT_NAME entries.</summary>
+
+* [com.google.fonts/check/name/fullfontname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname)
+
+* 💤 **SKIP** Unfulfilled Conditions: style_with_spaces
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check name table: POSTSCRIPT_NAME entries.</summary>
+
+* [com.google.fonts/check/name/postscriptname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname)
+
+* 💤 **SKIP** Unfulfilled Conditions: style
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/typographicfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname)
+
+* 💤 **SKIP** Unfulfilled Conditions: style
 
 </details>
 <details>
@@ -3651,22 +3427,6 @@ Bit 3 = Force ppem to integer values for all internal scaler math;
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Are there caret positions declared for every ligature?</summary>
-
-* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
-<pre>--- Rationale ---
-
-All ligatures in a font must have corresponding caret (text cursor) positions
-defined in the GDEF table, otherwhise, users may experience issues with caret
-rendering.
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: ligature_glyphs
-
-</details>
-<details>
 <summary>💤 <b>SKIP:</b> Is there kerning info for non-ligated sequences?</summary>
 
 * [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
@@ -3679,7 +3439,7 @@ https://github.com/impallari/Raleway/issues/14).
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: ligatures, has_kerning_info
+* 💤 **SKIP** Unfulfilled Conditions: has_kerning_info
 
 </details>
 <details>
@@ -3688,6 +3448,35 @@ https://github.com/impallari/Raleway/issues/14).
 * [com.google.fonts/check/repo/dirname_matches_nameid_1](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/repo/dirname_matches_nameid_1)
 
 * 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure, not is_variable_font
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts.</summary>
+
+* [com.google.fonts/check/vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions)
+<pre>--- Rationale ---
+
+If the family already exists on Google Fonts, we need to ensure that the
+checked family&#x27;s vertical metrics are similar. This check will test the
+following schema which was outlined in Fontbakery issue #1162 [1]:
+
+- The family should visually have the same vertical metrics as the
+  Regular style hosted on Google Fonts.
+- If the family on Google Fonts has differing hhea and typo metrics,
+  the family being checked should use the typo metrics for both the
+  hhea and typo entries.
+- If the family on Google Fonts has use typo metrics not enabled and the
+  family being checked has it enabled, the hhea and typo metrics
+  should use the family on Google Fonts winAscent and winDescent values.
+- If the upms differ, the values must be scaled so the visual appearance
+  is the same.
+
+[1] https://github.com/googlefonts/fontbakery/issues/1162
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: remote_styles
 
 </details>
 <details>
@@ -3909,8 +3698,8 @@ of hinted versus unhinted font files.
 
 	|  | /Users/b.bramboeck/Documents/Fontprojects_GIT/Fraunces/fonts/FrauncesItalic[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 399.7kb |
-	| Hinted Size | 399.3kb |
+	| Dehinted Size | 399.8kb |
+	| Hinted Size | 399.4kb |
 	| Increase | -456 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
@@ -4020,7 +3809,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [GSUB, prep, DSIG, gasp, loca]
+* ℹ **INFO** This font contains the following optional tables [gasp, prep, loca, GSUB, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -4188,6 +3977,37 @@ When in doubt, please choose OFL for new font projects.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> License URL matches License text on name table?</summary>
+
+* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
+<pre>--- Rationale ---
+
+A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
+of the name table.
+
+The source of truth for this check is the licensing text found on the NameID 13
+entry (LICENSE DESCRIPTION).
+
+The string snippets used for detecting licensing terms are:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 🍞 **PASS** Font has a valid license URL in NAME table.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Description strings in the name table must not exceed 200 characters.</summary>
 
 * [com.google.fonts/check/name/description_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length)
@@ -4313,6 +4133,21 @@ characters.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
+
+* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+<pre>--- Rationale ---
+
+We need to check names are not already used, and today the best place to check
+that is http://namecheck.fontdata.com
+
+
+</pre>
+
+* 🍞 **PASS** Font familyname seems to be unique.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Check a static ttf can be generated from a variable font.</summary>
 
 * [com.google.fonts/check/varfont/generate_static](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/generate_static)
@@ -4353,7 +4188,8 @@ So, all variable fonts on the Google Fonts collection should have an HVAR with
 valid values.
 
 More info on the HVAR table can be found at:
-https://docs.microsoft.com/en-us/typography/opentype/spec/otvaroverview#variation-data-tables-and-miscellaneous-requirements
+https://docs.microsoft.com/en-us/typography/opentype/spec
+/otvaroverview#variation-data-tables-and-miscellaneous-requirements
 
 
 </pre>
@@ -4468,6 +4304,21 @@ the users&#x27; typical expectations of a traditional static font workflow.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Variable font weight coordinates must be multiples of 100.</summary>
+
+* [com.google.fonts/check/varfont_weight_instances](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances)
+<pre>--- Rationale ---
+
+The named instances on the weight axis of a variable font must have coordinates
+that are multiples of 100 on the design space.
+
+
+</pre>
+
+* 🍞 **PASS** OK
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table entries should not contain line-breaks.</summary>
 
 * [com.google.fonts/check/name/line_breaks](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks)
@@ -4513,11 +4364,47 @@ This check ensures &quot;Reserved Font Name&quot; is not mentioned in the name t
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Check variable font instances have correct coordinate values</summary>
+
+* [com.google.fonts/check/varfont_instance_coordinates](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates)
+
+* 🍞 **PASS** Instance coordinates are correct
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table records must not have trailing spaces.</summary>
 
 * [com.google.fonts/check/name/trailing_spaces](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces)
 
 * 🍞 **PASS** No trailing spaces on name table entries.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
+
+* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
+<pre>--- Rationale ---
+
+A font&#x27;s winAscent and winDescent values should be greater than the head
+table&#x27;s yMax, abs(yMin) values. If they are less than these values, clipping
+can occur on Windows platforms
+(https://github.com/RedHatBrand/Overpass/issues/33).
+
+If the font includes tall/deep writing systems such as Arabic or Devanagari,
+the winAscent and winDescent can be greater than the yMax and abs(yMin) to
+accommodate vowel marks.
+
+When the win Metrics are significantly greater than the upm, the linespacing
+can appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
+(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead.
+This means the font developer can control the linespacing with the typo values,
+whilst avoiding clipping by setting the win values to values greater than the
+yMax and abs(yMin).
+
+
+</pre>
+
+* 🍞 **PASS** OS/2 usWinAscent & usWinDescent values look good!
 
 </details>
 <details>
@@ -4570,7 +4457,8 @@ take care of their own situation.
 The OpenType specification v1.8.2 recommends that the first glyph is the
 .notdef glyph without a codepoint assigned and with a drawing.
 
-https://docs.microsoft.com/en-us/typography/opentype/spec/recom#glyph-0-the-notdef-glyph
+https://docs.microsoft.com/en-us/typography/opentype/spec
+/recom#glyph-0-the-notdef-glyph
 
 Pre-v1.8, it was recommended that a font should also contain a .null, CR and
 space glyph. This might have been relevant for applications on MacOS 9.
@@ -4635,6 +4523,13 @@ underscore, i.e. from the set [A-Za-z0-9_.] and should start with a letter,
 except the special glyph name &quot;.notdef&quot; which starts with a period.&#x27;
 
 https://docs.microsoft.com/en-us/typography/opentype/spec/recom#post-table
+
+
+In practice, though, particularly in modern environments, glyph names can be as
+long as 63 characters.
+According to the &quot;Adobe Glyph List Specification&quot; available at:
+
+https://github.com/adobe-type-tools/agl-specification
 
 
 </pre>
@@ -5040,5 +4935,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 12 | 11 | 7 | 142 | 16 | 131 | 0 |
-| 4% | 3% | 2% | 45% | 5% | 41% | 0% |
+| 0 | 5 | 8 | 149 | 16 | 142 | 0 |
+| 0% | 2% | 2% | 47% | 5% | 44% | 0% |
