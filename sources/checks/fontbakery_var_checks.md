@@ -1,18 +1,33 @@
 ## Fontbakery report
 
-Fontbakery version: 0.7.22
+Fontbakery version: 0.7.24
 
 <details>
-<summary><b>[13] Family checks</b></summary>
+<summary><b>[14] Family checks</b></summary>
 <details>
-<summary>ℹ <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
+<summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version)
 
-* ℹ **INFO** fontbakery (0.7.22)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.7.22 (latest)
-
+* 🔥 **FAIL** Unable to detect what's the latest version of FontBakery available. Maybe we're offline? Please check Internet access and try again.
 * 🍞 **PASS** Font Bakery is up-to-date
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Ensure that all variable font files have the same set of axes and axis ranges.</summary>
+
+* [com.google.fonts/check/varfont/consistent_axes](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/consistent_axes)
+<pre>--- Rationale ---
+
+In order to facilitate the construction of intuitive and friendly user
+interfaces, all variable font files in a given family should have the same set
+of variation axes. Also, each axis must have a consistent setting of min/max
+value ranges accross all the files.
+
+
+</pre>
+
+* 🍞 **PASS** All looks good!
 
 </details>
 <details>
@@ -48,28 +63,6 @@ the files from a single family spreaded in several separate directories).
 </pre>
 
 * 🍞 **PASS** All files are in the same directory.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Is the command `ftxvalidator` (Apple Font Tool Suite) available?</summary>
-
-* [com.google.fonts/check/ftxvalidator_is_available](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator_is_available)
-<pre>--- Rationale ---
-
-There&#x27;s no reasonable (and legal) way to run the command `ftxvalidator` of the
-Apple Font Tool Suite on a non-macOS machine. I.e. on GNU+Linux or Windows etc.
-
-If Font Bakery is not running on an OSX machine, the machine running Font
-Bakery could access `ftxvalidator` on OSX, e.g. via ssh or a remote procedure
-call (rpc).
-
-There&#x27;s an ssh example implementation at:
-https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds/ftxvalidator/ssh-implementation/ftxvalidator
-
-
-</pre>
-
-* 🍞 **PASS** ftxvalidator is available.
 
 </details>
 <details>
@@ -194,85 +187,56 @@ field, using bits 0 and 5.
 * 💤 **SKIP** Unfulfilled Conditions: RIBBI_ttFonts
 
 </details>
+<details>
+<summary>⚠ <b>WARN:</b> Is the command `ftxvalidator` (Apple Font Tool Suite) available?</summary>
+
+* [com.google.fonts/check/ftxvalidator_is_available](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator_is_available)
+<pre>--- Rationale ---
+
+There&#x27;s no reasonable (and legal) way to run the command `ftxvalidator` of the
+Apple Font Tool Suite on a non-macOS machine. I.e. on GNU+Linux or Windows etc.
+
+If Font Bakery is not running on an OSX machine, the machine running Font
+Bakery could access `ftxvalidator` on OSX, e.g. via ssh or a remote procedure
+call (rpc).
+
+There&#x27;s an ssh example implementation at:
+https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
+/ftxvalidator/ssh-implementation/ftxvalidator
+
+
+</pre>
+
+* ⚠ **WARN** Could not find ftxvalidator.
+
+</details>
 <br>
 </details>
 <details>
-<summary><b>[153] Fraunces[SOFT,WONK,opsz,wght].ttf</b></summary>
+<summary><b>[153] Fraunces-Italic[SOFT,WONK,opsz,wght].ttf</b></summary>
 <details>
-<summary>💔 <b>ERROR:</b> Version number has increased since previous release on Google Fonts?</summary>
+<summary>💔 <b>ERROR:</b> Check for font-v versioning.</summary>
 
-* [com.google.fonts/check/version_bump](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: FailedConditionError: The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Glyphs are similiar to Google Fonts version?</summary>
-
-* [com.google.fonts/check/production_glyphs_similarity](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: FailedConditionError: The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
+* [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
 <pre>--- Rationale ---
 
-Checks that the family name infered from the font filename matches the string
-at nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise
-checks that nameID 1 is the family name + the style name.
+The git sha1 tagging and dev/release features of Source Foundry `font-v` tool
+are awesome and we would love to consider upstreaming the approach into
+fontmake someday. For now we only emit a WARN if a given font does not yet
+follow the experimental versioning style, but at some point we may start
+enforcing it.
 
 
 </pre>
 
-* 💔 **ERROR** The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check name table: FULL_FONT_NAME entries.</summary>
-
-* [com.google.fonts/check/name/fullfontname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/typographicfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts.</summary>
-
-* [com.google.fonts/check/vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions)
-<pre>--- Rationale ---
-
-If the family already exists on Google Fonts, we need to ensure that the
-checked family&#x27;s vertical metrics are similar. This check will test the
-following schema which was outlined in Fontbakery issue #1162 [1]:
-
-- The family should visually have the same vertical metrics as the
-  Regular style hosted on Google Fonts.
-- If the family on Google Fonts has differing hhea and typo metrics,
-  the family being checked should use the typo metrics for both the
-  hhea and typo entries.
-- If the family on Google Fonts has use typo metrics not enabled and the
-  family being checked has it enabled, the hhea and typo metrics
-  should use the family on Google Fonts winAscent and winDescent values.
-- If the upms differ, the values must be scaled so the visual appearance
-  is the same.
-
-[1] https://github.com/googlefonts/fontbakery/issues/1162
-
-
-</pre>
-
-* 💔 **ERROR** The condition <FontBakeryCondition:remote_styles> had an error: FailedConditionError: The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
+* 💔 **ERROR** Failed with ImportError: Failed to initialize: Cmd('git') failed due to: exit code(71)
+  cmdline: git version
+  stderr: 'dyld: Symbol not found: _OBJC_IVAR_$_NSFont._fFlags
+  Referenced from: /Applications/Xcode.app/Contents/SharedFrameworks/DVTDocumentation.framework/Versions/A/../../../../SharedFrameworks/DVTKit.framework/Versions/A/DVTKit
+  Expected in: /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+ in /Applications/Xcode.app/Contents/SharedFrameworks/DVTDocumentation.framework/Versions/A/../../../../SharedFrameworks/DVTKit.framework/Versions/A/DVTKit
+git: error: unable to locate xcodebuild, please make sure the path to the Xcode folder is set correctly!
+git: error: You can set the path to the Xcode folder using /usr/bin/xcode-select -switch'
 
 </details>
 <details>
@@ -280,57 +244,7 @@ following schema which was outlined in Fontbakery issue #1162 [1]:
 
 * [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
 
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "144pt S100 Black" is incorrect. It must be "144pt Black". [code: bad-typo-win]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Variable font weight coordinates must be multiples of 100.</summary>
-
-* [com.google.fonts/check/varfont_weight_instances](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances)
-<pre>--- Rationale ---
-
-The named instances on the weight axis of a variable font must have coordinates
-that are multiples of 100 on the design space.
-
-
-</pre>
-
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win is missing. It must be "144pt Black Italic". [code: missing-typo-win]
 
 </details>
 <details>
@@ -351,78 +265,6 @@ variable fonts in their web browsers.
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check variable font instances have correct coordinate values</summary>
-
-* [com.google.fonts/check/varfont_instance_coordinates](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates)
-
-* 🔥 **FAIL** Instance "9pt S000 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S000 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S000 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S000 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 Light" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 Regular" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 SemiBold" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 Bold" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Check has either failed or produced a warning. See our wip spec for further info https://gist.github.com/m4rc1e/8f4c4498519e8a36cd54e16a004275cb
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-<pre>--- Rationale ---
-
-A font&#x27;s winAscent and winDescent values should be greater than the head
-table&#x27;s yMax, abs(yMin) values. If they are less than these values, clipping
-can occur on Windows platforms
-(https://github.com/RedHatBrand/Overpass/issues/33).
-
-If the font includes tall/deep writing systems such as Arabic or Devanagari,
-the winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-
-When the win Metrics are significantly greater than the upm, the linespacing
-can appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead.
-This means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).
-
-
-</pre>
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2336, but got 2320 instead [code: ascent]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
 
 * [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
@@ -435,59 +277,7 @@ rendering.
 
 </pre>
 
-* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences?</summary>
-
-* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
-<pre>--- Rationale ---
-
-Fonts with ligatures should have kerning on the corresponding non-ligated
-sequences for text where ligatures aren&#x27;t used (eg
-https://github.com/impallari/Raleway/issues/14).
-
-
-</pre>
-
-* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
-	- uni0066 + uni0066
-	- uni0066 + uni0069
-	- uni0069 + uni0066
-	- uni0066 + uni006C
-	- uni006C + uni0066
-	- uni0069 + uni006C
-
-   [code: lacks-kern-info]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary>
-
-* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
-<pre>--- Rationale ---
-
-According to a GlyphsApp tutorial [1], in order to make sure all versions of
-Windows recognize it as a valid font file, we must make sure that the
-concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
-(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
-characters.
-
-After discussing the problem in more detail at `FontBakery issue #2179 [2] we
-decided that allowing up to 27 chars would still be on the safe side, though.
-
-[1]
-https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
-[2] https://github.com/googlefonts/fontbakery/issues/2179
-
-
-</pre>
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Fraunces 144pt S100 Black' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+* ⚠ **WARN** GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
 
 </details>
 <details>
@@ -495,115 +285,123 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * [com.google.fonts/check/varfont_instance_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names)
 
-* ⚠ **WARN** Instance "9pt S000 Thin": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "9pt S000 Thin": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S000 Light": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "9pt S000 Light": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S000 Regular": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "9pt S000 Regular": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S000 SemiBold": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "9pt S000 SemiBold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S000 Bold": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "9pt S000 Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S000 Black": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "9pt S000 Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S050 Thin": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "9pt S050 Thin": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S050 Light": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "9pt S050 Light": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S050 Regular": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "9pt S050 Regular": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S050 SemiBold": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "9pt S050 SemiBold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S050 Bold": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "9pt S050 Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S050 Black": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "9pt S050 Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S100 Thin": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "9pt S100 Thin": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S100 Light": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "9pt S100 Light": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S100 Regular": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "9pt S100 Regular": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S100 SemiBold": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "9pt S100 SemiBold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S100 Bold": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "9pt S100 Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S100 Black": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "9pt S100 Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S000 Thin": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "72pt S000 Thin": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S000 Light": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "72pt S000 Light": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S000 Regular": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "72pt S000 Regular": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S000 SemiBold": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "72pt S000 SemiBold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S000 Bold": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "72pt S000 Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S000 Black": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "72pt S000 Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S050 Thin": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "72pt S050 Thin": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S050 Light": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "72pt S050 Light": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S050 Regular": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "72pt S050 Regular": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S050 SemiBold": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "72pt S050 SemiBold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S050 Bold": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "72pt S050 Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S050 Black": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "72pt S050 Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S100 Thin": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "72pt S100 Thin": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S100 Light": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "72pt S100 Light": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S100 Regular": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "72pt S100 Regular": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S100 SemiBold": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "72pt S100 SemiBold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S100 Bold": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "72pt S100 Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S100 Black": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "72pt S100 Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S000 Thin": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "144pt S000 Thin": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S000 Light": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "144pt S000 Light": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S000 Regular": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "144pt S000 Regular": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S000 SemiBold": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "144pt S000 SemiBold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S000 Bold": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "144pt S000 Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S000 Black": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "144pt S000 Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S050 Thin": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "144pt S050 Thin": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S050 Light": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "144pt S050 Light": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S050 Regular": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "144pt S050 Regular": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S050 SemiBold": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "144pt S050 SemiBold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S050 Bold": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "144pt S050 Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S050 Black": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "144pt S050 Black": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S100 Thin": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "144pt S100 Thin": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S100 Light": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "144pt S100 Light": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S100 Regular": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "144pt S100 Regular": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S100 SemiBold": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "144pt S100 SemiBold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S100 Bold": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "144pt S100 Bold": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S100 Black": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "144pt S100 Black": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S000 Thin Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "9pt S000 Thin Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S000 Light Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "9pt S000 Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S000 Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "9pt S000 Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S000 SemiBold Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "9pt S000 SemiBold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S000 Bold Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "9pt S000 Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S000 Black Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "9pt S000 Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S050 Thin Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "9pt S050 Thin Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S050 Light Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "9pt S050 Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S050 Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "9pt S050 Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S050 SemiBold Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "9pt S050 SemiBold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S050 Bold Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "9pt S050 Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S050 Black Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "9pt S050 Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S100 Thin Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "9pt S100 Thin Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S100 Light Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "9pt S100 Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S100 Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "9pt S100 Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S100 SemiBold Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "9pt S100 SemiBold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S100 Bold Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "9pt S100 Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S100 Black Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "9pt S100 Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S000 Thin Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "72pt S000 Thin Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S000 Light Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "72pt S000 Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S000 Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "72pt S000 Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S000 SemiBold Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "72pt S000 SemiBold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S000 Bold Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "72pt S000 Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S000 Black Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "72pt S000 Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S050 Thin Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "72pt S050 Thin Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S050 Light Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "72pt S050 Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S050 Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "72pt S050 Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S050 SemiBold Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "72pt S050 SemiBold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S050 Bold Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "72pt S050 Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S050 Black Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "72pt S050 Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S100 Thin Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "72pt S100 Thin Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S100 Light Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "72pt S100 Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S100 Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "72pt S100 Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S100 SemiBold Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "72pt S100 SemiBold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S100 Bold Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "72pt S100 Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S100 Black Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "72pt S100 Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S000 Thin Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "144pt S000 Thin Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S000 Light Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "144pt S000 Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S000 Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "144pt S000 Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S000 SemiBold Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "144pt S000 SemiBold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S000 Bold Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "144pt S000 Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S000 Black Italic": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "144pt S000 Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S050 Thin Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "144pt S050 Thin Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S050 Light Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "144pt S050 Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S050 Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "144pt S050 Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S050 SemiBold Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "144pt S050 SemiBold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S050 Bold Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "144pt S050 Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S050 Black Italic": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "144pt S050 Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S100 Thin Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "144pt S100 Thin Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S100 Light Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "144pt S100 Light Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S100 Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "144pt S100 Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S100 SemiBold Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "144pt S100 SemiBold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S100 Bold Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "144pt S100 Bold Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S100 Black Italic": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "144pt S100 Black Italic": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Check has either failed or produced a warning. See our wip spec for further info https://gist.github.com/m4rc1e/8f4c4498519e8a36cd54e16a004275cb
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Does GPOS table have kerning information?</summary>
+
+* [com.google.fonts/check/gpos_kerning_info](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info)
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 
 </details>
 <details>
@@ -709,7 +507,7 @@ malformed.
 
 </pre>
 
-* 💤 **SKIP** Font family at '/Users/b.bramboeck/Documents/Fontprojects_GIT/Fraunces/fonts' lacks a METADATA.pb file.
+* 💤 **SKIP** Font family at '../fonts' lacks a METADATA.pb file.
 
 </details>
 <details>
@@ -794,18 +592,36 @@ not placed on subdirectories.
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> License URL matches License text on name table?</summary>
+<summary>💤 <b>SKIP:</b> Check license file has good copyright string.</summary>
 
-* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
+* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
 <pre>--- Rationale ---
 
-A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
-of the name table.
+An OFL.txt file&#x27;s first line should be the font copyright e.g:
+&quot;Copyright 2019 The Montserrat Project Authors
+(https://github.com/julietaula/montserrat)&quot;
 
-The source of truth for this check is the licensing text found on the NameID 13
-entry (LICENSE DESCRIPTION).
 
-The string snippets used for detecting licensing terms are:
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: license_contents
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+<pre>--- Rationale ---
+
+A known licensing description must be provided in the NameID 14 (LICENSE
+DESCRIPTION) entries of the name table.
+
+The source of truth for this check (to determine which license is in use) is a
+file placed side-by-side to your font project including the licensing terms.
+
+Depending on the chosen license, one of the following string snippets is
+expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
+table:
 - &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
 - &quot;Licensed under the Apache License, Version 2.0&quot;
@@ -821,7 +637,7 @@ When in doubt, please choose OFL for new font projects.
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: familyname
+* 💤 **SKIP** Unfulfilled Conditions: license
 
 </details>
 <details>
@@ -1126,6 +942,22 @@ We may want to merge them all into a single check.
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Version number has increased since previous release on Google Fonts?</summary>
+
+* [com.google.fonts/check/version_bump](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump)
+
+* 💤 **SKIP** Unfulfilled Conditions: api_gfonts_ttFont, github_gfonts_ttFont
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Glyphs are similiar to Google Fonts version?</summary>
+
+* [com.google.fonts/check/production_glyphs_similarity](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity)
+
+* 💤 **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> Checking OS/2 fsSelection value.</summary>
 
 * [com.google.fonts/check/fsselection](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection)
@@ -1209,26 +1041,43 @@ optimized for the typical construction of glyphs in static fonts.
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Check name table: POSTSCRIPT_NAME entries.</summary>
+<summary>💤 <b>SKIP:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
 
-* [com.google.fonts/check/name/postscriptname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname)
-
-* 💤 **SKIP** Unfulfilled Conditions: style, familyname
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
-
-* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+* [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
 <pre>--- Rationale ---
 
-We need to check names are not already used, and today the best place to check
-that is http://namecheck.fontdata.com
+Checks that the family name infered from the font filename matches the string
+at nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise
+checks that nameID 1 is the family name + the style name.
 
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: familyname
+* 💤 **SKIP** Unfulfilled Conditions: style
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check name table: FULL_FONT_NAME entries.</summary>
+
+* [com.google.fonts/check/name/fullfontname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname)
+
+* 💤 **SKIP** Unfulfilled Conditions: style_with_spaces
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check name table: POSTSCRIPT_NAME entries.</summary>
+
+* [com.google.fonts/check/name/postscriptname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname)
+
+* 💤 **SKIP** Unfulfilled Conditions: style
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/typographicfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname)
+
+* 💤 **SKIP** Unfulfilled Conditions: style
 
 </details>
 <details>
@@ -1254,11 +1103,64 @@ Bit 3 = Force ppem to integer values for all internal scaler math;
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Is there kerning info for non-ligated sequences?</summary>
+
+* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
+<pre>--- Rationale ---
+
+Fonts with ligatures should have kerning on the corresponding non-ligated
+sequences for text where ligatures aren&#x27;t used (eg
+https://github.com/impallari/Raleway/issues/14).
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: has_kerning_info
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> Directory name in GFonts repo structure must match NameID 1 of the regular.</summary>
 
 * [com.google.fonts/check/repo/dirname_matches_nameid_1](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/repo/dirname_matches_nameid_1)
 
 * 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure, not is_variable_font
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts.</summary>
+
+* [com.google.fonts/check/vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions)
+<pre>--- Rationale ---
+
+If the family already exists on Google Fonts, we need to ensure that the
+checked family&#x27;s vertical metrics are similar. This check will test the
+following schema which was outlined in Fontbakery issue #1162 [1]:
+
+- The family should visually have the same vertical metrics as the
+  Regular style hosted on Google Fonts.
+- If the family on Google Fonts has differing hhea and typo metrics,
+  the family being checked should use the typo metrics for both the
+  hhea and typo entries.
+- If the family on Google Fonts has use typo metrics not enabled and the
+  family being checked has it enabled, the hhea and typo metrics
+  should use the family on Google Fonts winAscent and winDescent values.
+- If the upms differ, the values must be scaled so the visual appearance
+  is the same.
+
+[1] https://github.com/googlefonts/fontbakery/issues/1162
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: remote_styles
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Checking with ftxvalidator.</summary>
+
+* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
+
+* 💤 **SKIP** Unfulfilled Conditions: ftxvalidator_cmd
 
 </details>
 <details>
@@ -1478,11 +1380,11 @@ of hinted versus unhinted font files.
 
 * ℹ **INFO** Hinting filesize impact:
 
-	|  | /Users/b.bramboeck/Documents/Fontprojects_GIT/Fraunces/fonts/Fraunces[SOFT,WONK,opsz,wght].ttf |
+	|  | ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 368.7kb |
-	| Hinted Size | 368.3kb |
-	| Increase | -456 bytes |
+	| Dehinted Size | 400.1kb |
+	| Hinted Size | 399.7kb |
+	| Increase | -416 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1555,26 +1457,6 @@ PPM <= 65535:
 
 </details>
 <details>
-<summary>ℹ <b>INFO:</b> Check for font-v versioning.</summary>
-
-* [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
-<pre>--- Rationale ---
-
-The git sha1 tagging and dev/release features of Source Foundry `font-v` tool
-are awesome and we would love to consider upstreaming the approach into
-fontmake someday. For now we only emit a WARN if a given font does not yet
-follow the experimental versioning style, but at some point we may start
-enforcing it.
-
-
-</pre>
-
-* ℹ **INFO** Version string is: "Version 1.000"
-The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
-"Version 1.3; git-0d08353-release" [code: bad-format]
-
-</details>
-<details>
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables)
@@ -1591,7 +1473,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [GSUB, prep, DSIG, gasp, GPOS, loca]
+* ℹ **INFO** This font contains the following optional tables [GSUB, gasp, prep, loca, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1610,7 +1492,7 @@ checks.
 
 </pre>
 
-* ℹ **INFO** /Users/b.bramboeck/Documents/Fontprojects_GIT/Fraunces/fonts [code: family-path]
+* ℹ **INFO** ../fonts [code: family-path]
 
 </details>
 <details>
@@ -1634,7 +1516,7 @@ and separated by commas:
 
 </pre>
 
-* 🍞 **PASS** /Users/b.bramboeck/Documents/Fontprojects_GIT/Fraunces/fonts/Fraunces[SOFT,WONK,opsz,wght].ttf is named canonically.
+* 🍞 **PASS** ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf is named canonically.
 
 </details>
 <details>
@@ -1697,36 +1579,18 @@ set of characters defined in the `GF-latin-core` glyph-set.
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Check license file has good copyright string.</summary>
+<summary>🍞 <b>PASS:</b> License URL matches License text on name table?</summary>
 
-* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
+* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
 <pre>--- Rationale ---
 
-An OFL.txt file&#x27;s first line should be the font copyright e.g:
-&quot;Copyright 2019 The Montserrat Project Authors
-(https://github.com/julietaula/montserrat)&quot;
+A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
+of the name table.
 
+The source of truth for this check is the licensing text found on the NameID 13
+entry (LICENSE DESCRIPTION).
 
-</pre>
-
-* 🍞 **PASS** looks good
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
-<pre>--- Rationale ---
-
-A known licensing description must be provided in the NameID 14 (LICENSE
-DESCRIPTION) entries of the name table.
-
-The source of truth for this check (to determine which license is in use) is a
-file placed side-by-side to your font project including the licensing terms.
-
-Depending on the chosen license, one of the following string snippets is
-expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
-table:
+The string snippets used for detecting licensing terms are:
 - &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
 - &quot;Licensed under the Apache License, Version 2.0&quot;
@@ -1742,7 +1606,7 @@ When in doubt, please choose OFL for new font projects.
 
 </pre>
 
-* 🍞 **PASS** Licensing entry on name table is correctly set.
+* 🍞 **PASS** Font has a valid license URL in NAME table.
 
 </details>
 <details>
@@ -1879,6 +1743,21 @@ characters.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
+
+* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+<pre>--- Rationale ---
+
+We need to check names are not already used, and today the best place to check
+that is http://namecheck.fontdata.com
+
+
+</pre>
+
+* 🍞 **PASS** Font familyname seems to be unique.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Check a static ttf can be generated from a variable font.</summary>
 
 * [com.google.fonts/check/varfont/generate_static](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/generate_static)
@@ -1919,7 +1798,8 @@ So, all variable fonts on the Google Fonts collection should have an HVAR with
 valid values.
 
 More info on the HVAR table can be found at:
-https://docs.microsoft.com/en-us/typography/opentype/spec/otvaroverview#variation-data-tables-and-miscellaneous-requirements
+https://docs.microsoft.com/en-us/typography/opentype/spec
+/otvaroverview#variation-data-tables-and-miscellaneous-requirements
 
 
 </pre>
@@ -2034,6 +1914,46 @@ the users&#x27; typical expectations of a traditional static font workflow.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Variable font weight coordinates must be multiples of 100.</summary>
+
+* [com.google.fonts/check/varfont_weight_instances](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances)
+<pre>--- Rationale ---
+
+The named instances on the weight axis of a variable font must have coordinates
+that are multiples of 100 on the design space.
+
+
+</pre>
+
+* 🍞 **PASS** OK
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Combined length of family and style must not exceed 27 characters.</summary>
+
+* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
+<pre>--- Rationale ---
+
+According to a GlyphsApp tutorial [1], in order to make sure all versions of
+Windows recognize it as a valid font file, we must make sure that the
+concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
+(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
+characters.
+
+After discussing the problem in more detail at `FontBakery issue #2179 [2] we
+decided that allowing up to 27 chars would still be on the safe side, though.
+
+[1]
+https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
+[2] https://github.com/googlefonts/fontbakery/issues/2179
+
+
+</pre>
+
+* 🍞 **PASS** All name entries are good.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table entries should not contain line-breaks.</summary>
 
 * [com.google.fonts/check/name/line_breaks](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks)
@@ -2079,11 +1999,47 @@ This check ensures &quot;Reserved Font Name&quot; is not mentioned in the name t
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Check variable font instances have correct coordinate values</summary>
+
+* [com.google.fonts/check/varfont_instance_coordinates](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates)
+
+* 🍞 **PASS** Instance coordinates are correct
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table records must not have trailing spaces.</summary>
 
 * [com.google.fonts/check/name/trailing_spaces](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces)
 
 * 🍞 **PASS** No trailing spaces on name table entries.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
+
+* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
+<pre>--- Rationale ---
+
+A font&#x27;s winAscent and winDescent values should be greater than the head
+table&#x27;s yMax, abs(yMin) values. If they are less than these values, clipping
+can occur on Windows platforms
+(https://github.com/RedHatBrand/Overpass/issues/33).
+
+If the font includes tall/deep writing systems such as Arabic or Devanagari,
+the winAscent and winDescent can be greater than the yMax and abs(yMin) to
+accommodate vowel marks.
+
+When the win Metrics are significantly greater than the upm, the linespacing
+can appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
+(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead.
+This means the font developer can control the linespacing with the typo values,
+whilst avoiding clipping by setting the win values to values greater than the
+yMax and abs(yMin).
+
+
+</pre>
+
+* 🍞 **PASS** OS/2 usWinAscent & usWinDescent values look good!
 
 </details>
 <details>
@@ -2112,14 +2068,6 @@ take care of their own situation.
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Checking with ftxvalidator.</summary>
-
-* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
-
-* 🍞 **PASS** ftxvalidator passed this file
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Checking with ots-sanitize.</summary>
 
 * [com.google.fonts/check/ots](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ots)
@@ -2136,7 +2084,8 @@ take care of their own situation.
 The OpenType specification v1.8.2 recommends that the first glyph is the
 .notdef glyph without a codepoint assigned and with a drawing.
 
-https://docs.microsoft.com/en-us/typography/opentype/spec/recom#glyph-0-the-notdef-glyph
+https://docs.microsoft.com/en-us/typography/opentype/spec
+/recom#glyph-0-the-notdef-glyph
 
 Pre-v1.8, it was recommended that a font should also contain a .null, CR and
 space glyph. This might have been relevant for applications on MacOS 9.
@@ -2201,6 +2150,13 @@ underscore, i.e. from the set [A-Za-z0-9_.] and should start with a letter,
 except the special glyph name &quot;.notdef&quot; which starts with a period.&#x27;
 
 https://docs.microsoft.com/en-us/typography/opentype/spec/recom#post-table
+
+
+In practice, though, particularly in modern environments, glyph names can be as
+long as 63 characters.
+According to the &quot;Adobe Glyph List Specification&quot; available at:
+
+https://github.com/adobe-type-tools/agl-specification
 
 
 </pre>
@@ -2499,19 +2455,11 @@ Reference: https://github.com/googlefonts/fontbakery/issues/1845
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Whitespace and non-breaking space have the same width?</summary>
+<summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width?</summary>
 
 * [com.google.fonts/check/whitespace_widths](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths)
 
-* 🍞 **PASS** Whitespace and non-breaking space have the same width.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Does GPOS table have kerning information?</summary>
-
-* [com.google.fonts/check/gpos_kerning_info](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info)
-
-* 🍞 **PASS** GPOS table has got kerning information.
+* 🍞 **PASS** Space and non-breaking space have the same width.
 
 </details>
 <details>
@@ -2618,90 +2566,55 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 <br>
 </details>
 <details>
-<summary><b>[153] FrauncesItalic[SOFT,WONK,opsz,wght].ttf</b></summary>
+<summary><b>[153] Fraunces[SOFT,WONK,opsz,wght].ttf</b></summary>
 <details>
-<summary>💔 <b>ERROR:</b> Version number has increased since previous release on Google Fonts?</summary>
+<summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
 
-* [com.google.fonts/check/version_bump](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: FailedConditionError: The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Glyphs are similiar to Google Fonts version?</summary>
-
-* [com.google.fonts/check/production_glyphs_similarity](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:api_gfonts_ttFont> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: FailedConditionError: The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
+* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
 <pre>--- Rationale ---
 
-Checks that the family name infered from the font filename matches the string
-at nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise
-checks that nameID 1 is the family name + the style name.
+We need to check names are not already used, and today the best place to check
+that is http://namecheck.fontdata.com
 
 
 </pre>
 
-* 💔 **ERROR** The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
 
 </details>
 <details>
-<summary>💔 <b>ERROR:</b> Check name table: FULL_FONT_NAME entries.</summary>
+<summary>💔 <b>ERROR:</b> Check for font-v versioning.</summary>
 
-* [com.google.fonts/check/name/fullfontname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/typographicfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname)
-
-* 💔 **ERROR** The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>💔 <b>ERROR:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts.</summary>
-
-* [com.google.fonts/check/vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions)
+* [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
 <pre>--- Rationale ---
 
-If the family already exists on Google Fonts, we need to ensure that the
-checked family&#x27;s vertical metrics are similar. This check will test the
-following schema which was outlined in Fontbakery issue #1162 [1]:
-
-- The family should visually have the same vertical metrics as the
-  Regular style hosted on Google Fonts.
-- If the family on Google Fonts has differing hhea and typo metrics,
-  the family being checked should use the typo metrics for both the
-  hhea and typo entries.
-- If the family on Google Fonts has use typo metrics not enabled and the
-  family being checked has it enabled, the hhea and typo metrics
-  should use the family on Google Fonts winAscent and winDescent values.
-- If the upms differ, the values must be scaled so the visual appearance
-  is the same.
-
-[1] https://github.com/googlefonts/fontbakery/issues/1162
+The git sha1 tagging and dev/release features of Source Foundry `font-v` tool
+are awesome and we would love to consider upstreaming the approach into
+fontmake someday. For now we only emit a WARN if a given font does not yet
+follow the experimental versioning style, but at some point we may start
+enforcing it.
 
 
 </pre>
 
-* 💔 **ERROR** The condition <FontBakeryCondition:remote_styles> had an error: FailedConditionError: The condition <FontBakeryCondition:familyname_with_spaces> had an error: TypeError: expected string or bytes-like object
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
-
-* 🔥 **FAIL** SUBFAMILY_NAME for Win "Regular" must be "Italic" [code: bad-familyname]
+* 💔 **ERROR** Failed with ImportError: Failed to initialize: Cmd('git') failed due to: exit code(71)
+  cmdline: git version
+  stderr: 'dyld: Symbol not found: _OBJC_IVAR_$_NSFont._fFlags
+  Referenced from: /Applications/Xcode.app/Contents/SharedFrameworks/DVTDocumentation.framework/Versions/A/../../../../SharedFrameworks/DVTKit.framework/Versions/A/DVTKit
+  Expected in: /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+ in /Applications/Xcode.app/Contents/SharedFrameworks/DVTDocumentation.framework/Versions/A/../../../../SharedFrameworks/DVTKit.framework/Versions/A/DVTKit
+git: error: unable to locate xcodebuild, please make sure the path to the Xcode folder is set correctly!
+git: error: You can set the path to the Xcode folder using /usr/bin/xcode-select -switch'
 
 </details>
 <details>
@@ -2709,57 +2622,7 @@ following schema which was outlined in Fontbakery issue #1162 [1]:
 
 * [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
 
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "144pt S100 Black" is incorrect. It must be "144pt Black Italic". [code: bad-typo-win]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Variable font weight coordinates must be multiples of 100.</summary>
-
-* [com.google.fonts/check/varfont_weight_instances](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances)
-<pre>--- Rationale ---
-
-The named instances on the weight axis of a variable font must have coordinates
-that are multiples of 100 on the design space.
-
-
-</pre>
-
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=325.0. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=387.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=612.5. This should instead be a multiple of 100. [code: bad-coordinate]
-* 🔥 **FAIL** Found a variable font instance with 'wght'=675.0. This should instead be a multiple of 100. [code: bad-coordinate]
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win is missing. It must be "144pt Black". [code: missing-typo-win]
 
 </details>
 <details>
@@ -2780,103 +2643,43 @@ variable fonts in their web browsers.
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Check variable font instances have correct coordinate values</summary>
+<summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
 
-* [com.google.fonts/check/varfont_instance_coordinates](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates)
-
-* 🔥 **FAIL** Instance "9pt S000 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S000 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S000 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S000 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S050 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "9pt S100 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S000 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S050 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "72pt S100 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S000 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S050 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 Light Italic" wght value is "325.0". It should be "300.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 Italic" wght value is "387.5". It should be "400.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 SemiBold Italic" wght value is "612.5". It should be "600.0" [code: bad-coordinate]
-* 🔥 **FAIL** Instance "144pt S100 Bold Italic" wght value is "675.0". It should be "700.0" [code: bad-coordinate]
-* 🔥 **FAIL** Check has either failed or produced a warning. See our wip spec for further info https://gist.github.com/m4rc1e/8f4c4498519e8a36cd54e16a004275cb
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
+* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
 <pre>--- Rationale ---
 
-A font&#x27;s winAscent and winDescent values should be greater than the head
-table&#x27;s yMax, abs(yMin) values. If they are less than these values, clipping
-can occur on Windows platforms
-(https://github.com/RedHatBrand/Overpass/issues/33).
-
-If the font includes tall/deep writing systems such as Arabic or Devanagari,
-the winAscent and winDescent can be greater than the yMax and abs(yMin) to
-accommodate vowel marks.
-
-When the win Metrics are significantly greater than the upm, the linespacing
-can appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
-(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead.
-This means the font developer can control the linespacing with the typo values,
-whilst avoiding clipping by setting the win values to values greater than the
-yMax and abs(yMin).
+All ligatures in a font must have corresponding caret (text cursor) positions
+defined in the GDEF table, otherwhise, users may experience issues with caret
+rendering.
 
 
 </pre>
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2336, but got 2320 instead [code: ascent]
+* ⚠ **WARN** This font lacks caret position values for ligature glyphs on its GDEF table. [code: lacks-caret-pos]
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary>
+<summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences?</summary>
 
-* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
+* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
 <pre>--- Rationale ---
 
-According to a GlyphsApp tutorial [1], in order to make sure all versions of
-Windows recognize it as a valid font file, we must make sure that the
-concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
-(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
-characters.
-
-After discussing the problem in more detail at `FontBakery issue #2179 [2] we
-decided that allowing up to 27 chars would still be on the safe side, though.
-
-[1]
-https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
-[2] https://github.com/googlefonts/fontbakery/issues/2179
+Fonts with ligatures should have kerning on the corresponding non-ligated
+sequences for text where ligatures aren&#x27;t used (eg
+https://github.com/impallari/Raleway/issues/14).
 
 
 </pre>
 
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Fraunces Italic 144pt S100 Black' / SUBFAMILY_NAME = 'Regular'
+* ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+	- uni0066 + uni0066
+	- uni0066 + uni0069
+	- uni0069 + uni0066
+	- uni0066 + uni006C
+	- uni006C + uni0066
+	- uni0069 + uni006C
 
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+   [code: lacks-kern-info]
 
 </details>
 <details>
@@ -2884,123 +2687,115 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * [com.google.fonts/check/varfont_instance_names](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_names)
 
-* ⚠ **WARN** Instance "9pt S000 Thin Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "9pt S000 Thin Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S000 Light Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "9pt S000 Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S000 Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "9pt S000 Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S000 SemiBold Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "9pt S000 SemiBold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S000 Bold Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "9pt S000 Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S000 Black Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "9pt S000 Black Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S050 Thin Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "9pt S050 Thin Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S050 Light Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "9pt S050 Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S050 Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "9pt S050 Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S050 SemiBold Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "9pt S050 SemiBold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S050 Bold Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "9pt S050 Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S050 Black Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "9pt S050 Black Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S100 Thin Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "9pt S100 Thin Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S100 Light Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "9pt S100 Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S100 Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "9pt S100 Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S100 SemiBold Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "9pt S100 SemiBold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S100 Bold Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "9pt S100 Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "9pt S100 Black Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "9pt S100 Black Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S000 Thin Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "72pt S000 Thin Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S000 Light Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "72pt S000 Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S000 Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "72pt S000 Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S000 SemiBold Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "72pt S000 SemiBold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S000 Bold Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "72pt S000 Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S000 Black Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "72pt S000 Black Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S050 Thin Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "72pt S050 Thin Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S050 Light Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "72pt S050 Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S050 Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "72pt S050 Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S050 SemiBold Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "72pt S050 SemiBold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S050 Bold Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "72pt S050 Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S050 Black Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "72pt S050 Black Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S100 Thin Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "72pt S100 Thin Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S100 Light Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "72pt S100 Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S100 Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "72pt S100 Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S100 SemiBold Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "72pt S100 SemiBold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S100 Bold Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "72pt S100 Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "72pt S100 Black Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "72pt S100 Black Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S000 Thin Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "144pt S000 Thin Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S000 Light Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "144pt S000 Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S000 Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "144pt S000 Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S000 SemiBold Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "144pt S000 SemiBold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S000 Bold Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "144pt S000 Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S000 Black Italic": contains the following unparsable tokens "['S000']"
-* ⚠ **WARN** Instance "144pt S000 Black Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S050 Thin Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "144pt S050 Thin Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S050 Light Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "144pt S050 Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S050 Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "144pt S050 Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S050 SemiBold Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "144pt S050 SemiBold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S050 Bold Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "144pt S050 Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S050 Black Italic": contains the following unparsable tokens "['S050']"
-* ⚠ **WARN** Instance "144pt S050 Black Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S100 Thin Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "144pt S100 Thin Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S100 Light Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "144pt S100 Light Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S100 Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "144pt S100 Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S100 SemiBold Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "144pt S100 SemiBold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S100 Bold Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "144pt S100 Bold Italic": cannot determine instance name due to unparsable tokens
-* ⚠ **WARN** Instance "144pt S100 Black Italic": contains the following unparsable tokens "['S100']"
-* ⚠ **WARN** Instance "144pt S100 Black Italic": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S000 Thin": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "9pt S000 Thin": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S000 Light": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "9pt S000 Light": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S000 Regular": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "9pt S000 Regular": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S000 SemiBold": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "9pt S000 SemiBold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S000 Bold": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "9pt S000 Bold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S000 Black": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "9pt S000 Black": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S050 Thin": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "9pt S050 Thin": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S050 Light": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "9pt S050 Light": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S050 Regular": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "9pt S050 Regular": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S050 SemiBold": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "9pt S050 SemiBold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S050 Bold": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "9pt S050 Bold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S050 Black": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "9pt S050 Black": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S100 Thin": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "9pt S100 Thin": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S100 Light": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "9pt S100 Light": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S100 Regular": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "9pt S100 Regular": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S100 SemiBold": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "9pt S100 SemiBold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S100 Bold": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "9pt S100 Bold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "9pt S100 Black": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "9pt S100 Black": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S000 Thin": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "72pt S000 Thin": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S000 Light": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "72pt S000 Light": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S000 Regular": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "72pt S000 Regular": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S000 SemiBold": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "72pt S000 SemiBold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S000 Bold": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "72pt S000 Bold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S000 Black": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "72pt S000 Black": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S050 Thin": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "72pt S050 Thin": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S050 Light": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "72pt S050 Light": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S050 Regular": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "72pt S050 Regular": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S050 SemiBold": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "72pt S050 SemiBold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S050 Bold": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "72pt S050 Bold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S050 Black": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "72pt S050 Black": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S100 Thin": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "72pt S100 Thin": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S100 Light": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "72pt S100 Light": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S100 Regular": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "72pt S100 Regular": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S100 SemiBold": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "72pt S100 SemiBold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S100 Bold": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "72pt S100 Bold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "72pt S100 Black": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "72pt S100 Black": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S000 Thin": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "144pt S000 Thin": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S000 Light": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "144pt S000 Light": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S000 Regular": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "144pt S000 Regular": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S000 SemiBold": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "144pt S000 SemiBold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S000 Bold": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "144pt S000 Bold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S000 Black": contains the following unparsable tokens "['S000']"
+* ⚠ **WARN** Instance "144pt S000 Black": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S050 Thin": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "144pt S050 Thin": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S050 Light": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "144pt S050 Light": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S050 Regular": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "144pt S050 Regular": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S050 SemiBold": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "144pt S050 SemiBold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S050 Bold": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "144pt S050 Bold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S050 Black": contains the following unparsable tokens "['S050']"
+* ⚠ **WARN** Instance "144pt S050 Black": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S100 Thin": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "144pt S100 Thin": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S100 Light": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "144pt S100 Light": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S100 Regular": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "144pt S100 Regular": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S100 SemiBold": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "144pt S100 SemiBold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S100 Bold": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "144pt S100 Bold": cannot determine instance name due to unparsable tokens
+* ⚠ **WARN** Instance "144pt S100 Black": contains the following unparsable tokens "['S100']"
+* ⚠ **WARN** Instance "144pt S100 Black": cannot determine instance name due to unparsable tokens
 * ⚠ **WARN** Check has either failed or produced a warning. See our wip spec for further info https://gist.github.com/m4rc1e/8f4c4498519e8a36cd54e16a004275cb
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Does GPOS table have kerning information?</summary>
-
-* [com.google.fonts/check/gpos_kerning_info](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info)
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 
 </details>
 <details>
@@ -3106,7 +2901,7 @@ malformed.
 
 </pre>
 
-* 💤 **SKIP** Font family at '/Users/b.bramboeck/Documents/Fontprojects_GIT/Fraunces/fonts' lacks a METADATA.pb file.
+* 💤 **SKIP** Font family at '../fonts' lacks a METADATA.pb file.
 
 </details>
 <details>
@@ -3191,18 +2986,36 @@ not placed on subdirectories.
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> License URL matches License text on name table?</summary>
+<summary>💤 <b>SKIP:</b> Check license file has good copyright string.</summary>
 
-* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
+* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
 <pre>--- Rationale ---
 
-A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
-of the name table.
+An OFL.txt file&#x27;s first line should be the font copyright e.g:
+&quot;Copyright 2019 The Montserrat Project Authors
+(https://github.com/julietaula/montserrat)&quot;
 
-The source of truth for this check is the licensing text found on the NameID 13
-entry (LICENSE DESCRIPTION).
 
-The string snippets used for detecting licensing terms are:
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: license_contents
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+<pre>--- Rationale ---
+
+A known licensing description must be provided in the NameID 14 (LICENSE
+DESCRIPTION) entries of the name table.
+
+The source of truth for this check (to determine which license is in use) is a
+file placed side-by-side to your font project including the licensing terms.
+
+Depending on the chosen license, one of the following string snippets is
+expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
+table:
 - &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
 - &quot;Licensed under the Apache License, Version 2.0&quot;
@@ -3218,7 +3031,7 @@ When in doubt, please choose OFL for new font projects.
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: familyname
+* 💤 **SKIP** Unfulfilled Conditions: license
 
 </details>
 <details>
@@ -3523,6 +3336,22 @@ We may want to merge them all into a single check.
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Version number has increased since previous release on Google Fonts?</summary>
+
+* [com.google.fonts/check/version_bump](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump)
+
+* 💤 **SKIP** Unfulfilled Conditions: api_gfonts_ttFont, github_gfonts_ttFont
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Glyphs are similiar to Google Fonts version?</summary>
+
+* [com.google.fonts/check/production_glyphs_similarity](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity)
+
+* 💤 **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> Checking OS/2 fsSelection value.</summary>
 
 * [com.google.fonts/check/fsselection](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection)
@@ -3606,26 +3435,43 @@ optimized for the typical construction of glyphs in static fonts.
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Check name table: POSTSCRIPT_NAME entries.</summary>
+<summary>💤 <b>SKIP:</b> Check name table: FONT_FAMILY_NAME entries.</summary>
 
-* [com.google.fonts/check/name/postscriptname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname)
-
-* 💤 **SKIP** Unfulfilled Conditions: style, familyname
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
-
-* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+* [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
 <pre>--- Rationale ---
 
-We need to check names are not already used, and today the best place to check
-that is http://namecheck.fontdata.com
+Checks that the family name infered from the font filename matches the string
+at nameID 1 (NAMEID_FONT_FAMILY_NAME) if it conforms to RIBBI and otherwise
+checks that nameID 1 is the family name + the style name.
 
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: familyname
+* 💤 **SKIP** Unfulfilled Conditions: style
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check name table: FULL_FONT_NAME entries.</summary>
+
+* [com.google.fonts/check/name/fullfontname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/fullfontname)
+
+* 💤 **SKIP** Unfulfilled Conditions: style_with_spaces
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check name table: POSTSCRIPT_NAME entries.</summary>
+
+* [com.google.fonts/check/name/postscriptname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/postscriptname)
+
+* 💤 **SKIP** Unfulfilled Conditions: style
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/typographicfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname)
+
+* 💤 **SKIP** Unfulfilled Conditions: style
 
 </details>
 <details>
@@ -3651,43 +3497,48 @@ Bit 3 = Force ppem to integer values for all internal scaler math;
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Are there caret positions declared for every ligature?</summary>
-
-* [com.google.fonts/check/ligature_carets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets)
-<pre>--- Rationale ---
-
-All ligatures in a font must have corresponding caret (text cursor) positions
-defined in the GDEF table, otherwhise, users may experience issues with caret
-rendering.
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: ligature_glyphs
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Is there kerning info for non-ligated sequences?</summary>
-
-* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences)
-<pre>--- Rationale ---
-
-Fonts with ligatures should have kerning on the corresponding non-ligated
-sequences for text where ligatures aren&#x27;t used (eg
-https://github.com/impallari/Raleway/issues/14).
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: ligatures, has_kerning_info
-
-</details>
-<details>
 <summary>💤 <b>SKIP:</b> Directory name in GFonts repo structure must match NameID 1 of the regular.</summary>
 
 * [com.google.fonts/check/repo/dirname_matches_nameid_1](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/repo/dirname_matches_nameid_1)
 
 * 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure, not is_variable_font
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts.</summary>
+
+* [com.google.fonts/check/vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics_regressions)
+<pre>--- Rationale ---
+
+If the family already exists on Google Fonts, we need to ensure that the
+checked family&#x27;s vertical metrics are similar. This check will test the
+following schema which was outlined in Fontbakery issue #1162 [1]:
+
+- The family should visually have the same vertical metrics as the
+  Regular style hosted on Google Fonts.
+- If the family on Google Fonts has differing hhea and typo metrics,
+  the family being checked should use the typo metrics for both the
+  hhea and typo entries.
+- If the family on Google Fonts has use typo metrics not enabled and the
+  family being checked has it enabled, the hhea and typo metrics
+  should use the family on Google Fonts winAscent and winDescent values.
+- If the upms differ, the values must be scaled so the visual appearance
+  is the same.
+
+[1] https://github.com/googlefonts/fontbakery/issues/1162
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: remote_styles
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Checking with ftxvalidator.</summary>
+
+* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
+
+* 💤 **SKIP** Unfulfilled Conditions: ftxvalidator_cmd
 
 </details>
 <details>
@@ -3907,11 +3758,11 @@ of hinted versus unhinted font files.
 
 * ℹ **INFO** Hinting filesize impact:
 
-	|  | /Users/b.bramboeck/Documents/Fontprojects_GIT/Fraunces/fonts/FrauncesItalic[SOFT,WONK,opsz,wght].ttf |
+	|  | ../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 399.7kb |
-	| Hinted Size | 399.3kb |
-	| Increase | -456 bytes |
+	| Dehinted Size | 366.0kb |
+	| Hinted Size | 365.6kb |
+	| Increase | -384 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -3984,26 +3835,6 @@ PPM <= 65535:
 
 </details>
 <details>
-<summary>ℹ <b>INFO:</b> Check for font-v versioning.</summary>
-
-* [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
-<pre>--- Rationale ---
-
-The git sha1 tagging and dev/release features of Source Foundry `font-v` tool
-are awesome and we would love to consider upstreaming the approach into
-fontmake someday. For now we only emit a WARN if a given font does not yet
-follow the experimental versioning style, but at some point we may start
-enforcing it.
-
-
-</pre>
-
-* ℹ **INFO** Version string is: "Version 1.000"
-The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
-"Version 1.3; git-0d08353-release" [code: bad-format]
-
-</details>
-<details>
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables)
@@ -4020,7 +3851,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [GSUB, prep, DSIG, gasp, loca]
+* ℹ **INFO** This font contains the following optional tables [GPOS, GSUB, gasp, prep, loca, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -4039,20 +3870,7 @@ checks.
 
 </pre>
 
-* ℹ **INFO** /Users/b.bramboeck/Documents/Fontprojects_GIT/Fraunces/fonts [code: family-path]
-
-</details>
-<details>
-<summary>ℹ <b>INFO:</b> Font follows the family naming recommendations?</summary>
-
-* [com.google.fonts/check/family_naming_recommendations](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/family_naming_recommendations)
-
-* ℹ **INFO** Font does not follow some family naming recommendations:
-
-| Field | Value | Recommendation |
-|:----- |:----- |:-------------- |
-| Family Name | Fraunces Italic 144pt S100 Black | exceeds max length (31) |
- [code: bad-entries]
+* ℹ **INFO** ../fonts [code: family-path]
 
 </details>
 <details>
@@ -4076,7 +3894,7 @@ and separated by commas:
 
 </pre>
 
-* 🍞 **PASS** /Users/b.bramboeck/Documents/Fontprojects_GIT/Fraunces/fonts/FrauncesItalic[SOFT,WONK,opsz,wght].ttf is named canonically.
+* 🍞 **PASS** ../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf is named canonically.
 
 </details>
 <details>
@@ -4139,36 +3957,18 @@ set of characters defined in the `GF-latin-core` glyph-set.
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Check license file has good copyright string.</summary>
+<summary>🍞 <b>PASS:</b> License URL matches License text on name table?</summary>
 
-* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
+* [com.google.fonts/check/name/license_url](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url)
 <pre>--- Rationale ---
 
-An OFL.txt file&#x27;s first line should be the font copyright e.g:
-&quot;Copyright 2019 The Montserrat Project Authors
-(https://github.com/julietaula/montserrat)&quot;
+A known license URL must be provided in the NameID 14 (LICENSE INFO URL) entry
+of the name table.
 
+The source of truth for this check is the licensing text found on the NameID 13
+entry (LICENSE DESCRIPTION).
 
-</pre>
-
-* 🍞 **PASS** looks good
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
-<pre>--- Rationale ---
-
-A known licensing description must be provided in the NameID 14 (LICENSE
-DESCRIPTION) entries of the name table.
-
-The source of truth for this check (to determine which license is in use) is a
-file placed side-by-side to your font project including the licensing terms.
-
-Depending on the chosen license, one of the following string snippets is
-expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
-table:
+The string snippets used for detecting licensing terms are:
 - &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
 - &quot;Licensed under the Apache License, Version 2.0&quot;
@@ -4184,7 +3984,7 @@ When in doubt, please choose OFL for new font projects.
 
 </pre>
 
-* 🍞 **PASS** Licensing entry on name table is correctly set.
+* 🍞 **PASS** Font has a valid license URL in NAME table.
 
 </details>
 <details>
@@ -4296,6 +4096,14 @@ much added benefit.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
+
+* 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Length of copyright notice must not exceed 500 characters.</summary>
 
 * [com.google.fonts/check/name/copyright_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/copyright_length)
@@ -4353,7 +4161,8 @@ So, all variable fonts on the Google Fonts collection should have an HVAR with
 valid values.
 
 More info on the HVAR table can be found at:
-https://docs.microsoft.com/en-us/typography/opentype/spec/otvaroverview#variation-data-tables-and-miscellaneous-requirements
+https://docs.microsoft.com/en-us/typography/opentype/spec
+/otvaroverview#variation-data-tables-and-miscellaneous-requirements
 
 
 </pre>
@@ -4468,6 +4277,46 @@ the users&#x27; typical expectations of a traditional static font workflow.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Variable font weight coordinates must be multiples of 100.</summary>
+
+* [com.google.fonts/check/varfont_weight_instances](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_weight_instances)
+<pre>--- Rationale ---
+
+The named instances on the weight axis of a variable font must have coordinates
+that are multiples of 100 on the design space.
+
+
+</pre>
+
+* 🍞 **PASS** OK
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Combined length of family and style must not exceed 27 characters.</summary>
+
+* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
+<pre>--- Rationale ---
+
+According to a GlyphsApp tutorial [1], in order to make sure all versions of
+Windows recognize it as a valid font file, we must make sure that the
+concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
+(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
+characters.
+
+After discussing the problem in more detail at `FontBakery issue #2179 [2] we
+decided that allowing up to 27 chars would still be on the safe side, though.
+
+[1]
+https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
+[2] https://github.com/googlefonts/fontbakery/issues/2179
+
+
+</pre>
+
+* 🍞 **PASS** All name entries are good.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table entries should not contain line-breaks.</summary>
 
 * [com.google.fonts/check/name/line_breaks](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks)
@@ -4513,11 +4362,47 @@ This check ensures &quot;Reserved Font Name&quot; is not mentioned in the name t
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Check variable font instances have correct coordinate values</summary>
+
+* [com.google.fonts/check/varfont_instance_coordinates](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont_instance_coordinates)
+
+* 🍞 **PASS** Instance coordinates are correct
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table records must not have trailing spaces.</summary>
 
 * [com.google.fonts/check/name/trailing_spaces](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces)
 
 * 🍞 **PASS** No trailing spaces on name table entries.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
+
+* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
+<pre>--- Rationale ---
+
+A font&#x27;s winAscent and winDescent values should be greater than the head
+table&#x27;s yMax, abs(yMin) values. If they are less than these values, clipping
+can occur on Windows platforms
+(https://github.com/RedHatBrand/Overpass/issues/33).
+
+If the font includes tall/deep writing systems such as Arabic or Devanagari,
+the winAscent and winDescent can be greater than the yMax and abs(yMin) to
+accommodate vowel marks.
+
+When the win Metrics are significantly greater than the upm, the linespacing
+can appear too loose. To counteract this, enabling the OS/2 fsSelection bit 7
+(Use_Typo_Metrics), will force Windows to use the OS/2 typo values instead.
+This means the font developer can control the linespacing with the typo values,
+whilst avoiding clipping by setting the win values to values greater than the
+yMax and abs(yMin).
+
+
+</pre>
+
+* 🍞 **PASS** OS/2 usWinAscent & usWinDescent values look good!
 
 </details>
 <details>
@@ -4546,14 +4431,6 @@ take care of their own situation.
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Checking with ftxvalidator.</summary>
-
-* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
-
-* 🍞 **PASS** ftxvalidator passed this file
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Checking with ots-sanitize.</summary>
 
 * [com.google.fonts/check/ots](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ots)
@@ -4570,7 +4447,8 @@ take care of their own situation.
 The OpenType specification v1.8.2 recommends that the first glyph is the
 .notdef glyph without a codepoint assigned and with a drawing.
 
-https://docs.microsoft.com/en-us/typography/opentype/spec/recom#glyph-0-the-notdef-glyph
+https://docs.microsoft.com/en-us/typography/opentype/spec
+/recom#glyph-0-the-notdef-glyph
 
 Pre-v1.8, it was recommended that a font should also contain a .null, CR and
 space glyph. This might have been relevant for applications on MacOS 9.
@@ -4635,6 +4513,13 @@ underscore, i.e. from the set [A-Za-z0-9_.] and should start with a letter,
 except the special glyph name &quot;.notdef&quot; which starts with a period.&#x27;
 
 https://docs.microsoft.com/en-us/typography/opentype/spec/recom#post-table
+
+
+In practice, though, particularly in modern environments, glyph names can be as
+long as 63 characters.
+According to the &quot;Adobe Glyph List Specification&quot; available at:
+
+https://github.com/adobe-type-tools/agl-specification
 
 
 </pre>
@@ -4859,6 +4744,14 @@ https://typedrawers.com/discussion/comment/45140/#Comment_45140
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Font follows the family naming recommendations?</summary>
+
+* [com.google.fonts/check/family_naming_recommendations](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/family_naming_recommendations)
+
+* 🍞 **PASS** Font follows the family naming recommendations.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table ID 6 (PostScript name) must be consistent across platforms.</summary>
 
 * [com.adobe.fonts/check/name/postscript_name_consistency](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.adobe.fonts/check/name/postscript_name_consistency)
@@ -4925,11 +4818,19 @@ Reference: https://github.com/googlefonts/fontbakery/issues/1845
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Whitespace and non-breaking space have the same width?</summary>
+<summary>🍞 <b>PASS:</b> Space and non-breaking space have the same width?</summary>
 
 * [com.google.fonts/check/whitespace_widths](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hmtx.html#com.google.fonts/check/whitespace_widths)
 
-* 🍞 **PASS** Whitespace and non-breaking space have the same width.
+* 🍞 **PASS** Space and non-breaking space have the same width.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Does GPOS table have kerning information?</summary>
+
+* [com.google.fonts/check/gpos_kerning_info](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info)
+
+* 🍞 **PASS** GPOS table has got kerning information.
 
 </details>
 <details>
@@ -5040,5 +4941,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 12 | 11 | 7 | 142 | 16 | 131 | 0 |
-| 4% | 3% | 2% | 45% | 5% | 41% | 0% |
+| 3 | 5 | 7 | 155 | 12 | 138 | 0 |
+| 1% | 2% | 2% | 48% | 4% | 43% | 0% |
