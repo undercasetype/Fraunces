@@ -18,7 +18,7 @@ mkdir -p ../fonts
 
 echo "Generating VFs"
 fontmake -m Roman/Fraunces.designspace -o variable --output-path ../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf
-fontmake -m Italic/FrauncesItalic.designspace -o variable --output-path ../fonts/FrauncesItalic[SOFT,WONK,opsz,wght].ttf
+fontmake -m Italic/FrauncesItalic.designspace -o variable --output-path ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf
 
 rm -rf */*/master_ufo/ */*/instance_ufo/ */*/instance_ufos/ */*/instances/
 
@@ -44,7 +44,7 @@ done
 
 echo "Fix STAT"
 python ../mastering/scripts/add_STAT.py Roman/Fraunces.designspace ../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf
-python ../mastering/scripts/add_STAT.py Italic/FrauncesItalic.designspace ../fonts/FrauncesItalic[SOFT,WONK,opsz,wght].ttf
+python ../mastering/scripts/add_STAT.py Italic/FrauncesItalic.designspace ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf
 rm -f Roman/*.stylespace
 rm -f Italic/*.stylespace
 
