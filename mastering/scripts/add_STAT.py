@@ -59,12 +59,8 @@ def makeStyleSpace(designspace,path):
         elif axis.name == "Weight":
             for value, name in styles["Weight"].items():
                 if value != 400:
-                    if italic:
-                        name = name + " Italic"
                     locations.append({"name": name, "value": value})
                 else:
-                    if italic:
-                        name = "Italic"
                     locations.append({"name": name,
                                         "value": value,
                                         "linked_value": 700,
@@ -75,12 +71,14 @@ def makeStyleSpace(designspace,path):
                 locations.append({"name": name, "value": value})
         elif axis.name == "wonk":
             for value, name in styles["wonk"].items():
-                locations.append({"name": name, "value": value})
+                print(axis.name, value, name)
+                locations.append({"name": name,
+                                    "value": value,  
+                                    "flags": ["ElidableAxisValueName"]})
 
         a["locations"] = locations
         axes.append(a)
 
-    # italic bit should be added here
     a = {}
     a["name"] = "Italic"
     a["tag"] = "ital"
@@ -89,14 +87,16 @@ def makeStyleSpace(designspace,path):
         name = "Italic"
         value = 1
         linked_value = 0
+        flags = []
     else:
         name = "Roman"
         value = 0
         linked_value = 1
+        flags = ["ElidableAxisValueName"]
     locations.append({"name": name,
                         "value": value,
                         "linked_value": linked_value,
-                        "flags": ["ElidableAxisValueName"]
+                        "flags": flags
                     })
     a["locations"] = locations
     axes.append(a)
