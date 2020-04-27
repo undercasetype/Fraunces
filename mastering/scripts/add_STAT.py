@@ -71,7 +71,6 @@ def makeStyleSpace(designspace,path):
                 locations.append({"name": name, "value": value})
         elif axis.name == "wonk":
             for value, name in styles["wonk"].items():
-                print(axis.name, value, name)
                 locations.append({"name": name,
                                     "value": value,  
                                     "flags": ["ElidableAxisValueName"]})
@@ -117,7 +116,6 @@ def add_STAT(designspacePath,fontPath, stylespacePath=None):
         additional_locations = ds.lib.get("org.statmake.additionalLocations",
                                           {})
         font = fontTools.ttLib.TTFont(fontPath)
-        print(stylespacePath)
         stylespace = Stylespace.from_file(stylespacePath)
         apply_stylespace_to_variable_font(stylespace,
                                           font,
