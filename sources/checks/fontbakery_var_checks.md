@@ -5,13 +5,11 @@ Fontbakery version: 0.7.24
 <details>
 <summary><b>[14] Family checks</b></summary>
 <details>
-<summary>ℹ <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
+<summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version)
 
-* ℹ **INFO** fontbakery (0.7.24)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.7.24 (latest)
-
+* 🔥 **FAIL** Unable to detect what's the latest version of FontBakery available. Maybe we're offline? Please check Internet access and try again.
 * 🍞 **PASS** Font Bakery is up-to-date
 
 </details>
@@ -65,29 +63,6 @@ the files from a single family spreaded in several separate directories).
 </pre>
 
 * 🍞 **PASS** All files are in the same directory.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Is the command `ftxvalidator` (Apple Font Tool Suite) available?</summary>
-
-* [com.google.fonts/check/ftxvalidator_is_available](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator_is_available)
-<pre>--- Rationale ---
-
-There&#x27;s no reasonable (and legal) way to run the command `ftxvalidator` of the
-Apple Font Tool Suite on a non-macOS machine. I.e. on GNU+Linux or Windows etc.
-
-If Font Bakery is not running on an OSX machine, the machine running Font
-Bakery could access `ftxvalidator` on OSX, e.g. via ssh or a remote procedure
-call (rpc).
-
-There&#x27;s an ssh example implementation at:
-https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
-/ftxvalidator/ssh-implementation/ftxvalidator
-
-
-</pre>
-
-* 🍞 **PASS** ftxvalidator is available at /usr/bin/ftxvalidator
 
 </details>
 <details>
@@ -212,16 +187,56 @@ field, using bits 0 and 5.
 * 💤 **SKIP** Unfulfilled Conditions: RIBBI_ttFonts
 
 </details>
+<details>
+<summary>⚠ <b>WARN:</b> Is the command `ftxvalidator` (Apple Font Tool Suite) available?</summary>
+
+* [com.google.fonts/check/ftxvalidator_is_available](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator_is_available)
+<pre>--- Rationale ---
+
+There&#x27;s no reasonable (and legal) way to run the command `ftxvalidator` of the
+Apple Font Tool Suite on a non-macOS machine. I.e. on GNU+Linux or Windows etc.
+
+If Font Bakery is not running on an OSX machine, the machine running Font
+Bakery could access `ftxvalidator` on OSX, e.g. via ssh or a remote procedure
+call (rpc).
+
+There&#x27;s an ssh example implementation at:
+https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
+/ftxvalidator/ssh-implementation/ftxvalidator
+
+
+</pre>
+
+* ⚠ **WARN** Could not find ftxvalidator.
+
+</details>
 <br>
 </details>
 <details>
-<summary><b>[153] FrauncesItalic[SOFT,WONK,opsz,wght].ttf</b></summary>
+<summary><b>[153] Fraunces-Italic[SOFT,WONK,opsz,wght].ttf</b></summary>
 <details>
-<summary>🔥 <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
+<summary>💔 <b>ERROR:</b> Check for font-v versioning.</summary>
 
-* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
+* [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
+<pre>--- Rationale ---
 
-* 🔥 **FAIL** SUBFAMILY_NAME for Win "Regular" must be "Italic" [code: bad-familyname]
+The git sha1 tagging and dev/release features of Source Foundry `font-v` tool
+are awesome and we would love to consider upstreaming the approach into
+fontmake someday. For now we only emit a WARN if a given font does not yet
+follow the experimental versioning style, but at some point we may start
+enforcing it.
+
+
+</pre>
+
+* 💔 **ERROR** Failed with ImportError: Failed to initialize: Cmd('git') failed due to: exit code(71)
+  cmdline: git version
+  stderr: 'dyld: Symbol not found: _OBJC_IVAR_$_NSFont._fFlags
+  Referenced from: /Applications/Xcode.app/Contents/SharedFrameworks/DVTDocumentation.framework/Versions/A/../../../../SharedFrameworks/DVTKit.framework/Versions/A/DVTKit
+  Expected in: /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+ in /Applications/Xcode.app/Contents/SharedFrameworks/DVTDocumentation.framework/Versions/A/../../../../SharedFrameworks/DVTKit.framework/Versions/A/DVTKit
+git: error: unable to locate xcodebuild, please make sure the path to the Xcode folder is set correctly!
+git: error: You can set the path to the Xcode folder using /usr/bin/xcode-select -switch'
 
 </details>
 <details>
@@ -229,7 +244,7 @@ field, using bits 0 and 5.
 
 * [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
 
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "144pt S100 Black" is incorrect. It must be "144pt Black Italic". [code: bad-typo-win]
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win is missing. It must be "144pt Black Italic". [code: missing-typo-win]
 
 </details>
 <details>
@@ -263,34 +278,6 @@ rendering.
 </pre>
 
 * ⚠ **WARN** GDEF table is missing, but it is mandatory to declare it on fonts that provide ligature glyphs because the caret (text cursor) positioning for each ligature must be provided in this table. [code: GDEF-missing]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary>
-
-* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
-<pre>--- Rationale ---
-
-According to a GlyphsApp tutorial [1], in order to make sure all versions of
-Windows recognize it as a valid font file, we must make sure that the
-concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
-(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
-characters.
-
-After discussing the problem in more detail at `FontBakery issue #2179 [2] we
-decided that allowing up to 27 chars would still be on the safe side, though.
-
-[1]
-https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
-[2] https://github.com/googlefonts/fontbakery/issues/2179
-
-
-</pre>
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Fraunces Italic 144pt S100 Black' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 
 </details>
 <details>
@@ -602,6 +589,55 @@ not placed on subdirectories.
 * [com.google.fonts/check/family/has_license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/has_license)
 
 * 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check license file has good copyright string.</summary>
+
+* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
+<pre>--- Rationale ---
+
+An OFL.txt file&#x27;s first line should be the font copyright e.g:
+&quot;Copyright 2019 The Montserrat Project Authors
+(https://github.com/julietaula/montserrat)&quot;
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: license_contents
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+<pre>--- Rationale ---
+
+A known licensing description must be provided in the NameID 14 (LICENSE
+DESCRIPTION) entries of the name table.
+
+The source of truth for this check (to determine which license is in use) is a
+file placed side-by-side to your font project including the licensing terms.
+
+Depending on the chosen license, one of the following string snippets is
+expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
+table:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: license
 
 </details>
 <details>
@@ -1120,6 +1156,14 @@ following schema which was outlined in Fontbakery issue #1162 [1]:
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Checking with ftxvalidator.</summary>
+
+* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
+
+* 💤 **SKIP** Unfulfilled Conditions: ftxvalidator_cmd
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> Each font in set of sibling families must have the same set of vertical metrics values.</summary>
 
 * [com.google.fonts/check/superfamily/vertical_metrics](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/superfamily/vertical_metrics)
@@ -1336,11 +1380,11 @@ of hinted versus unhinted font files.
 
 * ℹ **INFO** Hinting filesize impact:
 
-	|  | ../fonts/FrauncesItalic[SOFT,WONK,opsz,wght].ttf |
+	|  | ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 400.3kb |
-	| Hinted Size | 399.9kb |
-	| Increase | -480 bytes |
+	| Dehinted Size | 400.1kb |
+	| Hinted Size | 399.7kb |
+	| Increase | -416 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1413,26 +1457,6 @@ PPM <= 65535:
 
 </details>
 <details>
-<summary>ℹ <b>INFO:</b> Check for font-v versioning.</summary>
-
-* [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
-<pre>--- Rationale ---
-
-The git sha1 tagging and dev/release features of Source Foundry `font-v` tool
-are awesome and we would love to consider upstreaming the approach into
-fontmake someday. For now we only emit a WARN if a given font does not yet
-follow the experimental versioning style, but at some point we may start
-enforcing it.
-
-
-</pre>
-
-* ℹ **INFO** Version string is: "Version 1.000"
-The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
-"Version 1.3; git-0d08353-release" [code: bad-format]
-
-</details>
-<details>
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables)
@@ -1449,7 +1473,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [gasp, prep, DSIG, loca, GSUB]
+* ℹ **INFO** This font contains the following optional tables [GSUB, gasp, prep, loca, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1469,19 +1493,6 @@ checks.
 </pre>
 
 * ℹ **INFO** ../fonts [code: family-path]
-
-</details>
-<details>
-<summary>ℹ <b>INFO:</b> Font follows the family naming recommendations?</summary>
-
-* [com.google.fonts/check/family_naming_recommendations](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/family_naming_recommendations)
-
-* ℹ **INFO** Font does not follow some family naming recommendations:
-
-| Field | Value | Recommendation |
-|:----- |:----- |:-------------- |
-| Family Name | Fraunces Italic 144pt S100 Black | exceeds max length (31) |
- [code: bad-entries]
 
 </details>
 <details>
@@ -1505,7 +1516,7 @@ and separated by commas:
 
 </pre>
 
-* 🍞 **PASS** ../fonts/FrauncesItalic[SOFT,WONK,opsz,wght].ttf is named canonically.
+* 🍞 **PASS** ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf is named canonically.
 
 </details>
 <details>
@@ -1565,55 +1576,6 @@ set of characters defined in the `GF-latin-core` glyph-set.
 * [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
 
 * 🍞 **PASS** OS/2 usWeightClass value looks good!
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check license file has good copyright string.</summary>
-
-* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
-<pre>--- Rationale ---
-
-An OFL.txt file&#x27;s first line should be the font copyright e.g:
-&quot;Copyright 2019 The Montserrat Project Authors
-(https://github.com/julietaula/montserrat)&quot;
-
-
-</pre>
-
-* 🍞 **PASS** looks good
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
-<pre>--- Rationale ---
-
-A known licensing description must be provided in the NameID 14 (LICENSE
-DESCRIPTION) entries of the name table.
-
-The source of truth for this check (to determine which license is in use) is a
-file placed side-by-side to your font project including the licensing terms.
-
-Depending on the chosen license, one of the following string snippets is
-expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
-table:
-- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
-- &quot;Licensed under the Apache License, Version 2.0&quot;
-- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
-
-
-Currently accepted licenses are Apache or Open Font License.
-For a small set of legacy families the Ubuntu Font License may be acceptable as
-well.
-
-When in doubt, please choose OFL for new font projects.
-
-
-</pre>
-
-* 🍞 **PASS** Licensing entry on name table is correctly set.
 
 </details>
 <details>
@@ -1753,6 +1715,14 @@ much added benefit.
 </pre>
 
 * 🍞 **PASS** Font em size is good (unitsPerEm = 2000).
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
+
+* 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
 
 </details>
 <details>
@@ -1959,6 +1929,31 @@ that are multiples of 100 on the design space.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Combined length of family and style must not exceed 27 characters.</summary>
+
+* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
+<pre>--- Rationale ---
+
+According to a GlyphsApp tutorial [1], in order to make sure all versions of
+Windows recognize it as a valid font file, we must make sure that the
+concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
+(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
+characters.
+
+After discussing the problem in more detail at `FontBakery issue #2179 [2] we
+decided that allowing up to 27 chars would still be on the safe side, though.
+
+[1]
+https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
+[2] https://github.com/googlefonts/fontbakery/issues/2179
+
+
+</pre>
+
+* 🍞 **PASS** All name entries are good.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table entries should not contain line-breaks.</summary>
 
 * [com.google.fonts/check/name/line_breaks](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks)
@@ -2070,14 +2065,6 @@ take care of their own situation.
 </pre>
 
 * 🍞 **PASS** OS/2.sTypoAscender/Descender values match hhea.ascent/descent.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Checking with ftxvalidator.</summary>
-
-* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
-
-* 🍞 **PASS** ftxvalidator passed this file
 
 </details>
 <details>
@@ -2394,6 +2381,14 @@ https://typedrawers.com/discussion/comment/45140/#Comment_45140
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Font follows the family naming recommendations?</summary>
+
+* [com.google.fonts/check/family_naming_recommendations](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/family_naming_recommendations)
+
+* 🍞 **PASS** Font follows the family naming recommendations.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table ID 6 (PostScript name) must be consistent across platforms.</summary>
 
 * [com.adobe.fonts/check/name/postscript_name_consistency](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.adobe.fonts/check/name/postscript_name_consistency)
@@ -2573,11 +2568,61 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 <details>
 <summary><b>[153] Fraunces[SOFT,WONK,opsz,wght].ttf</b></summary>
 <details>
+<summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
+
+* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+<pre>--- Rationale ---
+
+We need to check names are not already used, and today the best place to check
+that is http://namecheck.fontdata.com
+
+
+</pre>
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
+
+</details>
+<details>
+<summary>💔 <b>ERROR:</b> Check for font-v versioning.</summary>
+
+* [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
+<pre>--- Rationale ---
+
+The git sha1 tagging and dev/release features of Source Foundry `font-v` tool
+are awesome and we would love to consider upstreaming the approach into
+fontmake someday. For now we only emit a WARN if a given font does not yet
+follow the experimental versioning style, but at some point we may start
+enforcing it.
+
+
+</pre>
+
+* 💔 **ERROR** Failed with ImportError: Failed to initialize: Cmd('git') failed due to: exit code(71)
+  cmdline: git version
+  stderr: 'dyld: Symbol not found: _OBJC_IVAR_$_NSFont._fFlags
+  Referenced from: /Applications/Xcode.app/Contents/SharedFrameworks/DVTDocumentation.framework/Versions/A/../../../../SharedFrameworks/DVTKit.framework/Versions/A/DVTKit
+  Expected in: /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+ in /Applications/Xcode.app/Contents/SharedFrameworks/DVTDocumentation.framework/Versions/A/../../../../SharedFrameworks/DVTKit.framework/Versions/A/DVTKit
+git: error: unable to locate xcodebuild, please make sure the path to the Xcode folder is set correctly!
+git: error: You can set the path to the Xcode folder using /usr/bin/xcode-select -switch'
+
+</details>
+<details>
 <summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
 
 * [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
 
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "144pt S100 Black" is incorrect. It must be "144pt Black". [code: bad-typo-win]
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win is missing. It must be "144pt Black". [code: missing-typo-win]
 
 </details>
 <details>
@@ -2635,34 +2680,6 @@ https://github.com/impallari/Raleway/issues/14).
 	- uni0069 + uni006C
 
    [code: lacks-kern-info]
-
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary>
-
-* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
-<pre>--- Rationale ---
-
-According to a GlyphsApp tutorial [1], in order to make sure all versions of
-Windows recognize it as a valid font file, we must make sure that the
-concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
-(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
-characters.
-
-After discussing the problem in more detail at `FontBakery issue #2179 [2] we
-decided that allowing up to 27 chars would still be on the safe side, though.
-
-[1]
-https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
-[2] https://github.com/googlefonts/fontbakery/issues/2179
-
-
-</pre>
-
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Fraunces 144pt S100 Black' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 
 </details>
 <details>
@@ -2966,6 +2983,55 @@ not placed on subdirectories.
 * [com.google.fonts/check/family/has_license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/has_license)
 
 * 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check license file has good copyright string.</summary>
+
+* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
+<pre>--- Rationale ---
+
+An OFL.txt file&#x27;s first line should be the font copyright e.g:
+&quot;Copyright 2019 The Montserrat Project Authors
+(https://github.com/julietaula/montserrat)&quot;
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: license_contents
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+<pre>--- Rationale ---
+
+A known licensing description must be provided in the NameID 14 (LICENSE
+DESCRIPTION) entries of the name table.
+
+The source of truth for this check (to determine which license is in use) is a
+file placed side-by-side to your font project including the licensing terms.
+
+Depending on the chosen license, one of the following string snippets is
+expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
+table:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: license
 
 </details>
 <details>
@@ -3468,6 +3534,14 @@ following schema which was outlined in Fontbakery issue #1162 [1]:
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Checking with ftxvalidator.</summary>
+
+* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
+
+* 💤 **SKIP** Unfulfilled Conditions: ftxvalidator_cmd
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> Each font in set of sibling families must have the same set of vertical metrics values.</summary>
 
 * [com.google.fonts/check/superfamily/vertical_metrics](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/superfamily/vertical_metrics)
@@ -3686,9 +3760,9 @@ of hinted versus unhinted font files.
 
 	|  | ../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 366.1kb |
+	| Dehinted Size | 366.0kb |
 	| Hinted Size | 365.6kb |
-	| Increase | -468 bytes |
+	| Increase | -384 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -3761,26 +3835,6 @@ PPM <= 65535:
 
 </details>
 <details>
-<summary>ℹ <b>INFO:</b> Check for font-v versioning.</summary>
-
-* [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
-<pre>--- Rationale ---
-
-The git sha1 tagging and dev/release features of Source Foundry `font-v` tool
-are awesome and we would love to consider upstreaming the approach into
-fontmake someday. For now we only emit a WARN if a given font does not yet
-follow the experimental versioning style, but at some point we may start
-enforcing it.
-
-
-</pre>
-
-* ℹ **INFO** Version string is: "Version 1.000"
-The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
-"Version 1.3; git-0d08353-release" [code: bad-format]
-
-</details>
-<details>
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables)
@@ -3797,7 +3851,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [gasp, prep, DSIG, loca, GSUB, GPOS]
+* ℹ **INFO** This font contains the following optional tables [GPOS, GSUB, gasp, prep, loca, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -3900,55 +3954,6 @@ set of characters defined in the `GF-latin-core` glyph-set.
 * [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
 
 * 🍞 **PASS** OS/2 usWeightClass value looks good!
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check license file has good copyright string.</summary>
-
-* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
-<pre>--- Rationale ---
-
-An OFL.txt file&#x27;s first line should be the font copyright e.g:
-&quot;Copyright 2019 The Montserrat Project Authors
-(https://github.com/julietaula/montserrat)&quot;
-
-
-</pre>
-
-* 🍞 **PASS** looks good
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
-<pre>--- Rationale ---
-
-A known licensing description must be provided in the NameID 14 (LICENSE
-DESCRIPTION) entries of the name table.
-
-The source of truth for this check (to determine which license is in use) is a
-file placed side-by-side to your font project including the licensing terms.
-
-Depending on the chosen license, one of the following string snippets is
-expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
-table:
-- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
-- &quot;Licensed under the Apache License, Version 2.0&quot;
-- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
-
-
-Currently accepted licenses are Apache or Open Font License.
-For a small set of legacy families the Ubuntu Font License may be acceptable as
-well.
-
-When in doubt, please choose OFL for new font projects.
-
-
-</pre>
-
-* 🍞 **PASS** Licensing entry on name table is correctly set.
 
 </details>
 <details>
@@ -4113,21 +4118,6 @@ characters.
 </pre>
 
 * 🍞 **PASS** All copyright notice name entries on the 'name' table are shorter than 500 characters.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
-
-* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
-<pre>--- Rationale ---
-
-We need to check names are not already used, and today the best place to check
-that is http://namecheck.fontdata.com
-
-
-</pre>
-
-* 🍞 **PASS** Font familyname seems to be unique.
 
 </details>
 <details>
@@ -4302,6 +4292,31 @@ that are multiples of 100 on the design space.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Combined length of family and style must not exceed 27 characters.</summary>
+
+* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
+<pre>--- Rationale ---
+
+According to a GlyphsApp tutorial [1], in order to make sure all versions of
+Windows recognize it as a valid font file, we must make sure that the
+concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
+(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
+characters.
+
+After discussing the problem in more detail at `FontBakery issue #2179 [2] we
+decided that allowing up to 27 chars would still be on the safe side, though.
+
+[1]
+https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
+[2] https://github.com/googlefonts/fontbakery/issues/2179
+
+
+</pre>
+
+* 🍞 **PASS** All name entries are good.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table entries should not contain line-breaks.</summary>
 
 * [com.google.fonts/check/name/line_breaks](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks)
@@ -4413,14 +4428,6 @@ take care of their own situation.
 </pre>
 
 * 🍞 **PASS** OS/2.sTypoAscender/Descender values match hhea.ascent/descent.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Checking with ftxvalidator.</summary>
-
-* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
-
-* 🍞 **PASS** ftxvalidator passed this file
 
 </details>
 <details>
@@ -4934,5 +4941,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 8 | 149 | 16 | 142 | 0 |
-| 0% | 2% | 2% | 47% | 5% | 44% | 0% |
+| 3 | 5 | 7 | 155 | 12 | 138 | 0 |
+| 1% | 2% | 2% | 48% | 4% | 43% | 0% |
