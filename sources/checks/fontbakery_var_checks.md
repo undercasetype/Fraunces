@@ -1338,7 +1338,7 @@ of hinted versus unhinted font files.
 
 	|  | ../fonts/FrauncesItalic[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 400.4kb |
+	| Dehinted Size | 400.3kb |
 	| Hinted Size | 399.9kb |
 	| Increase | -480 bytes |
 	| Change   | -0.1 % |
@@ -1449,7 +1449,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [DSIG, prep, gasp, loca, GSUB]
+* ℹ **INFO** This font contains the following optional tables [gasp, prep, DSIG, loca, GSUB]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -3797,7 +3797,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [DSIG, prep, gasp, loca, GPOS, GSUB]
+* ℹ **INFO** This font contains the following optional tables [gasp, prep, DSIG, loca, GSUB, GPOS]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
