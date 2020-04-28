@@ -71,7 +71,10 @@ def makeStyleSpace(designspace,path):
                 locations.append({"name": name, "value": value})
         elif axis.name == "wonk":
             for value, name in styles["wonk"].items():
-                locations.append({"name": name,
+                if value != 1:
+                    locations.append({"name": name, "value": value})
+                else:
+                    locations.append({"name": name,
                                     "value": value,  
                                     "flags": ["ElidableAxisValueName"]})
 

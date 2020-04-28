@@ -5,11 +5,13 @@ Fontbakery version: 0.7.24
 <details>
 <summary><b>[14] Family checks</b></summary>
 <details>
-<summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed?</summary>
+<summary>ℹ <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version)
 
-* 🔥 **FAIL** Unable to detect what's the latest version of FontBakery available. Maybe we're offline? Please check Internet access and try again.
+* ℹ **INFO** fontbakery (0.7.24)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.7.24 (latest)
+
 * 🍞 **PASS** Font Bakery is up-to-date
 
 </details>
@@ -240,11 +242,43 @@ git: error: You can set the path to the Xcode folder using /usr/bin/xcode-select
 
 </details>
 <details>
+<summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
+
+* [com.google.fonts/check/canonical_filename](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename)
+<pre>--- Rationale ---
+
+A font&#x27;s filename must be composed in the following manner:
+&lt;familyname&gt;-&lt;stylename&gt;.ttf
+
+- Nunito-Regular.ttf,
+- Oswald-BoldItalic.ttf
+
+Variable fonts must list the axis tags in alphabetical order in square brackets
+and separated by commas:
+
+- Roboto[wdth,wght].ttf
+- Familyname-Italic[wght].ttf
+
+
+</pre>
+
+* 🔥 **FAIL** The file 'Fraunces-Italic[SOFT,WONK,opsz,wght].ttf' must be renamed to 'Fraunces[SOFT,WONK,opsz,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
+
+* 🔥 **FAIL** SUBFAMILY_NAME for Win "Regular" must be "Italic" [code: bad-familyname]
+
+</details>
+<details>
 <summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
 
 * [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
 
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win is missing. It must be "144pt Black Italic". [code: missing-typo-win]
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "Italic" is incorrect. It must be "144pt Black Italic". [code: bad-typo-win]
 
 </details>
 <details>
@@ -1382,9 +1416,9 @@ of hinted versus unhinted font files.
 
 	|  | ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 400.1kb |
+	| Dehinted Size | 400.2kb |
 	| Hinted Size | 399.7kb |
-	| Increase | -416 bytes |
+	| Increase | -464 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1473,7 +1507,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [GSUB, gasp, prep, loca, DSIG]
+* ℹ **INFO** This font contains the following optional tables [GSUB, prep, loca, gasp, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1493,30 +1527,6 @@ checks.
 </pre>
 
 * ℹ **INFO** ../fonts [code: family-path]
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Checking file is named canonically.</summary>
-
-* [com.google.fonts/check/canonical_filename](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename)
-<pre>--- Rationale ---
-
-A font&#x27;s filename must be composed in the following manner:
-&lt;familyname&gt;-&lt;stylename&gt;.ttf
-
-- Nunito-Regular.ttf,
-- Oswald-BoldItalic.ttf
-
-Variable fonts must list the axis tags in alphabetical order in square brackets
-and separated by commas:
-
-- Roboto[wdth,wght].ttf
-- Familyname-Italic[wght].ttf
-
-
-</pre>
-
-* 🍞 **PASS** ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf is named canonically.
 
 </details>
 <details>
@@ -1715,14 +1725,6 @@ much added benefit.
 </pre>
 
 * 🍞 **PASS** Font em size is good (unitsPerEm = 2000).
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
-
-* 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
 
 </details>
 <details>
@@ -2568,31 +2570,6 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 <details>
 <summary><b>[153] Fraunces[SOFT,WONK,opsz,wght].ttf</b></summary>
 <details>
-<summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
-
-* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
-<pre>--- Rationale ---
-
-We need to check names are not already used, and today the best place to check
-that is http://namecheck.fontdata.com
-
-
-</pre>
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
-
-</details>
-<details>
 <summary>💔 <b>ERROR:</b> Check for font-v versioning.</summary>
 
 * [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
@@ -2622,7 +2599,7 @@ git: error: You can set the path to the Xcode folder using /usr/bin/xcode-select
 
 * [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
 
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win is missing. It must be "144pt Black". [code: missing-typo-win]
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "Roman" is incorrect. It must be "144pt Black". [code: bad-typo-win]
 
 </details>
 <details>
@@ -3762,7 +3739,7 @@ of hinted versus unhinted font files.
 	|:--- | ---:|
 	| Dehinted Size | 366.0kb |
 	| Hinted Size | 365.6kb |
-	| Increase | -384 bytes |
+	| Increase | -428 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -3851,7 +3828,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [GPOS, GSUB, gasp, prep, loca, DSIG]
+* ℹ **INFO** This font contains the following optional tables [GSUB, prep, GPOS, loca, gasp, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -4118,6 +4095,21 @@ characters.
 </pre>
 
 * 🍞 **PASS** All copyright notice name entries on the 'name' table are shorter than 500 characters.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
+
+* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+<pre>--- Rationale ---
+
+We need to check names are not already used, and today the best place to check
+that is http://namecheck.fontdata.com
+
+
+</pre>
+
+* 🍞 **PASS** Font familyname seems to be unique.
 
 </details>
 <details>
@@ -4941,5 +4933,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 5 | 7 | 155 | 12 | 138 | 0 |
+| 2 | 6 | 7 | 155 | 13 | 137 | 0 |
 | 1% | 2% | 2% | 48% | 4% | 43% | 0% |
