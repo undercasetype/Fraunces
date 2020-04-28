@@ -75,6 +75,10 @@
     <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
     <key>openTypeNameLicenseURL</key>
     <string>https://scripts.sil.org/OFL</string>
+    <key>openTypeNamePreferredFamilyName</key>
+    <string>Fraunces</string>
+    <key>openTypeNamePreferredSubfamilyName</key>
+    <string>Italic</string>
     <key>openTypeOS2Selection</key>
     <array>
       <integer>7</integer>
@@ -90,7 +94,7 @@
     <key>openTypeOS2VendorID</key>
     <string>UCT</string>
     <key>openTypeOS2WinAscent</key>
-    <integer>2320</integer>
+    <integer>2340</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>606</integer>
     <key>postscriptBlueValues</key>
@@ -99,8 +103,6 @@
     <array/>
     <key>postscriptFamilyOtherBlues</key>
     <array/>
-    <key>postscriptFontName</key>
-    <string>Fraunces-LightOpMax</string>
     <key>postscriptOtherBlues</key>
     <array/>
     <key>postscriptStemSnapH</key>
