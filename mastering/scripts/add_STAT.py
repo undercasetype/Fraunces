@@ -14,6 +14,19 @@ def getStyleSpacePath(designspacePath):
     stylespacePath = os.path.join(root, newName)
     return stylespacePath
 
+def get_range(values, i):
+    if values[i] == min(values):
+        min_range = values[i]
+        max_range = (values[i] + values[i+1])
+    elif values[i] == max(values):
+        min_range = (values[i-1] + values[i]) / 2
+        max_range = values[i]
+    else:
+        min_range = (values[i-1] + values[i]) / 2
+        max_range = (values[i] + values[i+1]) / 2
+
+    return((min_range,max_range))
+
 def makeStyleSpace(designspace,path):
     # Style naming info
     styles = {
@@ -57,13 +70,17 @@ def makeStyleSpace(designspace,path):
             for value, name in styles["Optical Size"].items():
                 locations.append({"name": name, "value": value})
         elif axis.name == "Weight":
-            for value, name in styles["Weight"].items():
+            sorted_weight_keys = sorted(styles["Weight"].keys())
+            for i, value in enumerate(sorted_weight_keys):
+                name = styles["Weight"][value]
+                v_range = get_range(sorted_weight_keys, i)
                 if value != 400:
-                    locations.append({"name": name, "value": value})
+                    locations.append({"name": name, "value": value, "range": v_range})
                 else:
                     locations.append({"name": name,
                                         "value": value,
                                         "linked_value": 700,
+                                        "range": v_range,
                                         "flags": ["ElidableAxisValueName"]
                                         })
         elif axis.name == "soften":
