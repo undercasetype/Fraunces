@@ -17,6 +17,7 @@ def fix_naming(font_path):
     
     if italic:
         name_dict[2] = style_name
+        name_dict[4] = f"{family_name} {style_name}"
 
     for name_id, name_string in name_dict.items():
         font["name"].setName(name_string, name_id, 3, 1, 0x409)
