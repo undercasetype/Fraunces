@@ -1336,7 +1336,7 @@ of hinted versus unhinted font files.
 	|:--- | ---:|
 	| Dehinted Size | 400.2kb |
 	| Hinted Size | 399.8kb |
-	| Increase | -460 bytes |
+	| Increase | -444 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1445,7 +1445,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [loca, DSIG, prep, gasp, GSUB]
+* ℹ **INFO** This font contains the following optional tables [gasp, prep, DSIG, GSUB, loca]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -3769,7 +3769,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [loca, DSIG, GPOS, prep, gasp, GSUB]
+* ℹ **INFO** This font contains the following optional tables [gasp, prep, DSIG, GPOS, GSUB, loca]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
