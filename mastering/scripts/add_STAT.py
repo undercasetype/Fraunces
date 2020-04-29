@@ -14,10 +14,12 @@ def getStyleSpacePath(designspacePath):
     stylespacePath = os.path.join(root, newName)
     return stylespacePath
 
-def get_range(values, i):
+def get_range(values, value):
+    values = list(values)
+    i = values.index(value)
     if values[i] == min(values):
         min_range = values[i]
-        max_range = (values[i] + values[i+1])
+        max_range = (values[i] + values[i+1]) / 2
     elif values[i] == max(values):
         min_range = (values[i-1] + values[i]) / 2
         max_range = values[i]
@@ -57,6 +59,7 @@ def makeStyleSpace(designspace,path):
             1:"1"
         },
     }
+
     italic = False
     if "ITALIC" in designspace.filename.upper():
         italic = True
@@ -68,12 +71,11 @@ def makeStyleSpace(designspace,path):
         locations = []
         if axis.name == "Optical Size":
             for value, name in styles["Optical Size"].items():
-                locations.append({"name": name, "value": value})
+                v_range = get_range(sorted(styles["Optical Size"].keys()), value)
+                locations.append({"name": name, "value": value, "range":v_range})
         elif axis.name == "Weight":
-            sorted_weight_keys = sorted(styles["Weight"].keys())
-            for i, value in enumerate(sorted_weight_keys):
-                name = styles["Weight"][value]
-                v_range = get_range(sorted_weight_keys, i)
+            for value, name in styles["Weight"].items():
+                v_range = get_range(sorted(styles["Weight"].keys()), value)
                 if value != 400:
                     locations.append({"name": name, "value": value, "range": v_range})
                 else:
