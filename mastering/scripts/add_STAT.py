@@ -14,6 +14,21 @@ def getStyleSpacePath(designspacePath):
     stylespacePath = os.path.join(root, newName)
     return stylespacePath
 
+def get_range(values, value):
+    values = list(values)
+    i = values.index(value)
+    if values[i] == min(values):
+        min_range = values[i]
+        max_range = (values[i] + values[i+1]) / 2
+    elif values[i] == max(values):
+        min_range = (values[i-1] + values[i]) / 2
+        max_range = values[i]
+    else:
+        min_range = (values[i-1] + values[i]) / 2
+        max_range = (values[i] + values[i+1]) / 2
+
+    return((min_range,max_range))
+
 def makeStyleSpace(designspace,path):
     # Style naming info
     styles = {
@@ -44,6 +59,7 @@ def makeStyleSpace(designspace,path):
             1:"1"
         },
     }
+
     italic = False
     if "ITALIC" in designspace.filename.upper():
         italic = True
@@ -55,12 +71,19 @@ def makeStyleSpace(designspace,path):
         locations = []
         if axis.name == "Optical Size":
             for value, name in styles["Optical Size"].items():
-                locations.append({"name": name, "value": value})
+                v_range = get_range(sorted(styles["Optical Size"].keys()), value)
+                locations.append({"name": name, "value": value, "range":v_range})
         elif axis.name == "Weight":
             for value, name in styles["Weight"].items():
+                v_range = get_range(sorted(styles["Weight"].keys()), value)
                 if value != 400:
-                    locations.append({"name": name, "value": value})
+                    locations.append({"name": name, "value": value, "range": v_range})
                 else:
+                    locations.append({"name": name,
+                                        "value": value,
+                                        "range": v_range,
+                                        "flags": ["ElidableAxisValueName"]
+                                        })
                     locations.append({"name": name,
                                         "value": value,
                                         "linked_value": 700,
@@ -68,7 +91,8 @@ def makeStyleSpace(designspace,path):
                                         })
         elif axis.name == "soften":
             for value, name in styles["soften"].items():
-                locations.append({"name": name, "value": value})
+                v_range = get_range(sorted(styles["soften"].keys()), value)
+                locations.append({"name": name, "value": value, "range": v_range})
         elif axis.name == "wonk":
             for value, name in styles["wonk"].items():
                 if value != 1:
@@ -88,18 +112,19 @@ def makeStyleSpace(designspace,path):
     if italic:
         name = "Italic"
         value = 1
-        linked_value = 0
-        flags = []
+        #linked_value = 0
+        #flags = []
+        locations.append({"name": name, "value": value})
     else:
         name = "Roman"
         value = 0
         linked_value = 1
         flags = ["ElidableAxisValueName"]
-    locations.append({"name": name,
-                        "value": value,
-                        "linked_value": linked_value,
-                        "flags": flags
-                    })
+        locations.append({"name": name,
+                            "value": value,
+                            "linked_value": linked_value,
+                            "flags": flags
+                        })
     a["locations"] = locations
     axes.append(a)
 

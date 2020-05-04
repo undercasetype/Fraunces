@@ -68,6 +68,29 @@ the files from a single family spreaded in several separate directories).
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Is the command `ftxvalidator` (Apple Font Tool Suite) available?</summary>
+
+* [com.google.fonts/check/ftxvalidator_is_available](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator_is_available)
+<pre>--- Rationale ---
+
+There&#x27;s no reasonable (and legal) way to run the command `ftxvalidator` of the
+Apple Font Tool Suite on a non-macOS machine. I.e. on GNU+Linux or Windows etc.
+
+If Font Bakery is not running on an OSX machine, the machine running Font
+Bakery could access `ftxvalidator` on OSX, e.g. via ssh or a remote procedure
+call (rpc).
+
+There&#x27;s an ssh example implementation at:
+https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
+/ftxvalidator/ssh-implementation/ftxvalidator
+
+
+</pre>
+
+* 🍞 **PASS** ftxvalidator is available at /Library/Apple/usr/bin/ftxvalidator
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Each font in a family must have the same set of vertical metrics values.</summary>
 
 * [com.google.fonts/check/family/vertical_metrics](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/vertical_metrics)
@@ -189,56 +212,16 @@ field, using bits 0 and 5.
 * 💤 **SKIP** Unfulfilled Conditions: RIBBI_ttFonts
 
 </details>
-<details>
-<summary>⚠ <b>WARN:</b> Is the command `ftxvalidator` (Apple Font Tool Suite) available?</summary>
-
-* [com.google.fonts/check/ftxvalidator_is_available](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator_is_available)
-<pre>--- Rationale ---
-
-There&#x27;s no reasonable (and legal) way to run the command `ftxvalidator` of the
-Apple Font Tool Suite on a non-macOS machine. I.e. on GNU+Linux or Windows etc.
-
-If Font Bakery is not running on an OSX machine, the machine running Font
-Bakery could access `ftxvalidator` on OSX, e.g. via ssh or a remote procedure
-call (rpc).
-
-There&#x27;s an ssh example implementation at:
-https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
-/ftxvalidator/ssh-implementation/ftxvalidator
-
-
-</pre>
-
-* ⚠ **WARN** Could not find ftxvalidator.
-
-</details>
 <br>
 </details>
 <details>
 <summary><b>[153] Fraunces-Italic[SOFT,WONK,opsz,wght].ttf</b></summary>
 <details>
-<summary>💔 <b>ERROR:</b> Check for font-v versioning.</summary>
+<summary>💔 <b>ERROR:</b> Checking with ftxvalidator.</summary>
 
-* [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
-<pre>--- Rationale ---
+* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
 
-The git sha1 tagging and dev/release features of Source Foundry `font-v` tool
-are awesome and we would love to consider upstreaming the approach into
-fontmake someday. For now we only emit a WARN if a given font does not yet
-follow the experimental versioning style, but at some point we may start
-enforcing it.
-
-
-</pre>
-
-* 💔 **ERROR** Failed with ImportError: Failed to initialize: Cmd('git') failed due to: exit code(71)
-  cmdline: git version
-  stderr: 'dyld: Symbol not found: _OBJC_IVAR_$_NSFont._fFlags
-  Referenced from: /Applications/Xcode.app/Contents/SharedFrameworks/DVTDocumentation.framework/Versions/A/../../../../SharedFrameworks/DVTKit.framework/Versions/A/DVTKit
-  Expected in: /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
- in /Applications/Xcode.app/Contents/SharedFrameworks/DVTDocumentation.framework/Versions/A/../../../../SharedFrameworks/DVTKit.framework/Versions/A/DVTKit
-git: error: unable to locate xcodebuild, please make sure the path to the Xcode folder is set correctly!
-git: error: You can set the path to the Xcode folder using /usr/bin/xcode-select -switch'
+* 💔 **ERROR** Failed with InvalidFileException: Invalid file
 
 </details>
 <details>
@@ -263,14 +246,6 @@ and separated by commas:
 </pre>
 
 * 🔥 **FAIL** The file 'Fraunces-Italic[SOFT,WONK,opsz,wght].ttf' must be renamed to 'Fraunces[SOFT,WONK,opsz,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
-
-* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
-
-* 🔥 **FAIL** SUBFAMILY_NAME for Win "Regular" must be "Italic" [code: bad-familyname]
 
 </details>
 <details>
@@ -623,55 +598,6 @@ not placed on subdirectories.
 * [com.google.fonts/check/family/has_license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/has_license)
 
 * 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Check license file has good copyright string.</summary>
-
-* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
-<pre>--- Rationale ---
-
-An OFL.txt file&#x27;s first line should be the font copyright e.g:
-&quot;Copyright 2019 The Montserrat Project Authors
-(https://github.com/julietaula/montserrat)&quot;
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: license_contents
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
-<pre>--- Rationale ---
-
-A known licensing description must be provided in the NameID 14 (LICENSE
-DESCRIPTION) entries of the name table.
-
-The source of truth for this check (to determine which license is in use) is a
-file placed side-by-side to your font project including the licensing terms.
-
-Depending on the chosen license, one of the following string snippets is
-expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
-table:
-- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
-- &quot;Licensed under the Apache License, Version 2.0&quot;
-- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
-
-
-Currently accepted licenses are Apache or Open Font License.
-For a small set of legacy families the Ubuntu Font License may be acceptable as
-well.
-
-When in doubt, please choose OFL for new font projects.
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: license
 
 </details>
 <details>
@@ -1190,14 +1116,6 @@ following schema which was outlined in Fontbakery issue #1162 [1]:
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Checking with ftxvalidator.</summary>
-
-* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
-
-* 💤 **SKIP** Unfulfilled Conditions: ftxvalidator_cmd
-
-</details>
-<details>
 <summary>💤 <b>SKIP:</b> Each font in set of sibling families must have the same set of vertical metrics values.</summary>
 
 * [com.google.fonts/check/superfamily/vertical_metrics](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/superfamily/vertical_metrics)
@@ -1416,9 +1334,9 @@ of hinted versus unhinted font files.
 
 	|  | ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 400.2kb |
-	| Hinted Size | 399.7kb |
-	| Increase | -464 bytes |
+	| Dehinted Size | 400.3kb |
+	| Hinted Size | 399.9kb |
+	| Increase | -456 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1491,6 +1409,26 @@ PPM <= 65535:
 
 </details>
 <details>
+<summary>ℹ <b>INFO:</b> Check for font-v versioning.</summary>
+
+* [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
+<pre>--- Rationale ---
+
+The git sha1 tagging and dev/release features of Source Foundry `font-v` tool
+are awesome and we would love to consider upstreaming the approach into
+fontmake someday. For now we only emit a WARN if a given font does not yet
+follow the experimental versioning style, but at some point we may start
+enforcing it.
+
+
+</pre>
+
+* ℹ **INFO** Version string is: "Version 1.000"
+The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
+"Version 1.3; git-0d08353-release" [code: bad-format]
+
+</details>
+<details>
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables)
@@ -1507,7 +1445,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [GSUB, prep, loca, gasp, DSIG]
+* ℹ **INFO** This font contains the following optional tables [GSUB, loca, DSIG, prep, gasp]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1586,6 +1524,55 @@ set of characters defined in the `GF-latin-core` glyph-set.
 * [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
 
 * 🍞 **PASS** OS/2 usWeightClass value looks good!
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check license file has good copyright string.</summary>
+
+* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
+<pre>--- Rationale ---
+
+An OFL.txt file&#x27;s first line should be the font copyright e.g:
+&quot;Copyright 2019 The Montserrat Project Authors
+(https://github.com/julietaula/montserrat)&quot;
+
+
+</pre>
+
+* 🍞 **PASS** looks good
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+<pre>--- Rationale ---
+
+A known licensing description must be provided in the NameID 14 (LICENSE
+DESCRIPTION) entries of the name table.
+
+The source of truth for this check (to determine which license is in use) is a
+file placed side-by-side to your font project including the licensing terms.
+
+Depending on the chosen license, one of the following string snippets is
+expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
+table:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 🍞 **PASS** Licensing entry on name table is correctly set.
 
 </details>
 <details>
@@ -1725,6 +1712,14 @@ much added benefit.
 </pre>
 
 * 🍞 **PASS** Font em size is good (unitsPerEm = 2000).
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check name table: FONT_SUBFAMILY_NAME entries.</summary>
+
+* [com.google.fonts/check/name/subfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/subfamilyname)
+
+* 🍞 **PASS** FONT_SUBFAMILY_NAME entries are all good.
 
 </details>
 <details>
@@ -2570,28 +2565,11 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 <details>
 <summary><b>[153] Fraunces[SOFT,WONK,opsz,wght].ttf</b></summary>
 <details>
-<summary>💔 <b>ERROR:</b> Check for font-v versioning.</summary>
+<summary>💔 <b>ERROR:</b> Checking with ftxvalidator.</summary>
 
-* [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
-<pre>--- Rationale ---
+* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
 
-The git sha1 tagging and dev/release features of Source Foundry `font-v` tool
-are awesome and we would love to consider upstreaming the approach into
-fontmake someday. For now we only emit a WARN if a given font does not yet
-follow the experimental versioning style, but at some point we may start
-enforcing it.
-
-
-</pre>
-
-* 💔 **ERROR** Failed with ImportError: Failed to initialize: Cmd('git') failed due to: exit code(71)
-  cmdline: git version
-  stderr: 'dyld: Symbol not found: _OBJC_IVAR_$_NSFont._fFlags
-  Referenced from: /Applications/Xcode.app/Contents/SharedFrameworks/DVTDocumentation.framework/Versions/A/../../../../SharedFrameworks/DVTKit.framework/Versions/A/DVTKit
-  Expected in: /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
- in /Applications/Xcode.app/Contents/SharedFrameworks/DVTDocumentation.framework/Versions/A/../../../../SharedFrameworks/DVTKit.framework/Versions/A/DVTKit
-git: error: unable to locate xcodebuild, please make sure the path to the Xcode folder is set correctly!
-git: error: You can set the path to the Xcode folder using /usr/bin/xcode-select -switch'
+* 💔 **ERROR** Failed with InvalidFileException: Invalid file
 
 </details>
 <details>
@@ -2960,55 +2938,6 @@ not placed on subdirectories.
 * [com.google.fonts/check/family/has_license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/family/has_license)
 
 * 💤 **SKIP** Unfulfilled Conditions: gfonts_repo_structure
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Check license file has good copyright string.</summary>
-
-* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
-<pre>--- Rationale ---
-
-An OFL.txt file&#x27;s first line should be the font copyright e.g:
-&quot;Copyright 2019 The Montserrat Project Authors
-(https://github.com/julietaula/montserrat)&quot;
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: license_contents
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Check copyright namerecords match license file.</summary>
-
-* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
-<pre>--- Rationale ---
-
-A known licensing description must be provided in the NameID 14 (LICENSE
-DESCRIPTION) entries of the name table.
-
-The source of truth for this check (to determine which license is in use) is a
-file placed side-by-side to your font project including the licensing terms.
-
-Depending on the chosen license, one of the following string snippets is
-expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
-table:
-- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
-- &quot;Licensed under the Apache License, Version 2.0&quot;
-- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
-
-
-Currently accepted licenses are Apache or Open Font License.
-For a small set of legacy families the Ubuntu Font License may be acceptable as
-well.
-
-When in doubt, please choose OFL for new font projects.
-
-
-</pre>
-
-* 💤 **SKIP** Unfulfilled Conditions: license
 
 </details>
 <details>
@@ -3511,14 +3440,6 @@ following schema which was outlined in Fontbakery issue #1162 [1]:
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Checking with ftxvalidator.</summary>
-
-* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
-
-* 💤 **SKIP** Unfulfilled Conditions: ftxvalidator_cmd
-
-</details>
-<details>
 <summary>💤 <b>SKIP:</b> Each font in set of sibling families must have the same set of vertical metrics values.</summary>
 
 * [com.google.fonts/check/superfamily/vertical_metrics](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/superfamily/vertical_metrics)
@@ -3737,9 +3658,9 @@ of hinted versus unhinted font files.
 
 	|  | ../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 366.0kb |
-	| Hinted Size | 365.6kb |
-	| Increase | -428 bytes |
+	| Dehinted Size | 366.1kb |
+	| Hinted Size | 365.7kb |
+	| Increase | -440 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -3812,6 +3733,26 @@ PPM <= 65535:
 
 </details>
 <details>
+<summary>ℹ <b>INFO:</b> Check for font-v versioning.</summary>
+
+* [com.google.fonts/check/fontv](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontv)
+<pre>--- Rationale ---
+
+The git sha1 tagging and dev/release features of Source Foundry `font-v` tool
+are awesome and we would love to consider upstreaming the approach into
+fontmake someday. For now we only emit a WARN if a given font does not yet
+follow the experimental versioning style, but at some point we may start
+enforcing it.
+
+
+</pre>
+
+* ℹ **INFO** Version string is: "Version 1.000"
+The version string must ideally include a git commit hash and either a "dev" or a "release" suffix such as in the example below:
+"Version 1.3; git-0d08353-release" [code: bad-format]
+
+</details>
+<details>
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/required_tables)
@@ -3828,7 +3769,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [GSUB, prep, GPOS, loca, gasp, DSIG]
+* ℹ **INFO** This font contains the following optional tables [GSUB, loca, GPOS, DSIG, prep, gasp]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -3931,6 +3872,55 @@ set of characters defined in the `GF-latin-core` glyph-set.
 * [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
 
 * 🍞 **PASS** OS/2 usWeightClass value looks good!
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check license file has good copyright string.</summary>
+
+* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
+<pre>--- Rationale ---
+
+An OFL.txt file&#x27;s first line should be the font copyright e.g:
+&quot;Copyright 2019 The Montserrat Project Authors
+(https://github.com/julietaula/montserrat)&quot;
+
+
+</pre>
+
+* 🍞 **PASS** looks good
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Check copyright namerecords match license file.</summary>
+
+* [com.google.fonts/check/name/license](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license)
+<pre>--- Rationale ---
+
+A known licensing description must be provided in the NameID 14 (LICENSE
+DESCRIPTION) entries of the name table.
+
+The source of truth for this check (to determine which license is in use) is a
+file placed side-by-side to your font project including the licensing terms.
+
+Depending on the chosen license, one of the following string snippets is
+expected to be found on the NameID 13 (LICENSE DESCRIPTION) entries of the name
+table:
+- &quot;This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL&quot;
+- &quot;Licensed under the Apache License, Version 2.0&quot;
+- &quot;Licensed under the Ubuntu Font Licence 1.0.&quot;
+
+
+Currently accepted licenses are Apache or Open Font License.
+For a small set of legacy families the Ubuntu Font License may be acceptable as
+well.
+
+When in doubt, please choose OFL for new font projects.
+
+
+</pre>
+
+* 🍞 **PASS** Licensing entry on name table is correctly set.
 
 </details>
 <details>
@@ -4933,5 +4923,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 2 | 6 | 7 | 155 | 13 | 137 | 0 |
-| 1% | 2% | 2% | 48% | 4% | 43% | 0% |
+| 2 | 5 | 6 | 149 | 15 | 143 | 0 |
+| 1% | 2% | 2% | 47% | 5% | 45% | 0% |
