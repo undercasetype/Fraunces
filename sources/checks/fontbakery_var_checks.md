@@ -225,35 +225,11 @@ field, using bits 0 and 5.
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
-
-* [com.google.fonts/check/canonical_filename](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename)
-<pre>--- Rationale ---
-
-A font&#x27;s filename must be composed in the following manner:
-&lt;familyname&gt;-&lt;stylename&gt;.ttf
-
-- Nunito-Regular.ttf,
-- Oswald-BoldItalic.ttf
-
-Variable fonts must list the axis tags in alphabetical order in square brackets
-and separated by commas:
-
-- Roboto[wdth,wght].ttf
-- Familyname-Italic[wght].ttf
-
-
-</pre>
-
-* 🔥 **FAIL** The file 'Fraunces-Italic[SOFT,WONK,opsz,wght].ttf' must be renamed to 'Fraunces[SOFT,WONK,opsz,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_SUBFAMILY_NAME entries.</summary>
 
 * [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
 
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "Italic" is incorrect. It must be "144pt Black Italic". [code: bad-typo-win]
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "144pt S100 Black Italic" is incorrect. It must be "144pt Black Italic". [code: bad-typo-win]
 
 </details>
 <details>
@@ -1334,9 +1310,9 @@ of hinted versus unhinted font files.
 
 	|  | ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 400.3kb |
-	| Hinted Size | 399.9kb |
-	| Increase | -456 bytes |
+	| Dehinted Size | 400.4kb |
+	| Hinted Size | 400.0kb |
+	| Increase | -476 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1445,7 +1421,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [GSUB, loca, DSIG, prep, gasp]
+* ℹ **INFO** This font contains the following optional tables [prep, gasp, DSIG, loca, GSUB]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1465,6 +1441,30 @@ checks.
 </pre>
 
 * ℹ **INFO** ../fonts [code: family-path]
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking file is named canonically.</summary>
+
+* [com.google.fonts/check/canonical_filename](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename)
+<pre>--- Rationale ---
+
+A font&#x27;s filename must be composed in the following manner:
+&lt;familyname&gt;-&lt;stylename&gt;.ttf
+
+- Nunito-Regular.ttf,
+- Oswald-BoldItalic.ttf
+
+Variable fonts must list the axis tags in alphabetical order in square brackets
+and separated by commas:
+
+- Roboto[wdth,wght].ttf
+- Familyname-Italic[wght].ttf
+
+
+</pre>
+
+* 🍞 **PASS** ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf is named canonically.
 
 </details>
 <details>
@@ -2577,7 +2577,7 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 * [com.google.fonts/check/name/typographicsubfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicsubfamilyname)
 
-* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "Roman" is incorrect. It must be "144pt Black". [code: bad-typo-win]
+* 🔥 **FAIL** TYPOGRAPHIC_SUBFAMILY_NAME for Win "144pt S100 Black" is incorrect. It must be "144pt Black". [code: bad-typo-win]
 
 </details>
 <details>
@@ -2635,6 +2635,34 @@ https://github.com/impallari/Raleway/issues/14).
 	- uni0069 + uni006C
 
    [code: lacks-kern-info]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary>
+
+* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
+<pre>--- Rationale ---
+
+According to a GlyphsApp tutorial [1], in order to make sure all versions of
+Windows recognize it as a valid font file, we must make sure that the
+concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
+(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
+characters.
+
+After discussing the problem in more detail at `FontBakery issue #2179 [2] we
+decided that allowing up to 27 chars would still be on the safe side, though.
+
+[1]
+https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
+[2] https://github.com/googlefonts/fontbakery/issues/2179
+
+
+</pre>
+
+* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+ FONT_FAMILY_NAME = 'Fraunces 144pt S100 Black' / SUBFAMILY_NAME = 'Regular'
+
+Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 
 </details>
 <details>
@@ -3658,9 +3686,9 @@ of hinted versus unhinted font files.
 
 	|  | ../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 366.1kb |
-	| Hinted Size | 365.7kb |
-	| Increase | -440 bytes |
+	| Dehinted Size | 366.2kb |
+	| Hinted Size | 365.8kb |
+	| Increase | -484 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -3769,7 +3797,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [GSUB, loca, GPOS, DSIG, prep, gasp]
+* ℹ **INFO** This font contains the following optional tables [prep, gasp, DSIG, loca, GPOS, GSUB]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -4271,31 +4299,6 @@ that are multiples of 100 on the design space.
 </pre>
 
 * 🍞 **PASS** OK
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Combined length of family and style must not exceed 27 characters.</summary>
-
-* [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
-<pre>--- Rationale ---
-
-According to a GlyphsApp tutorial [1], in order to make sure all versions of
-Windows recognize it as a valid font file, we must make sure that the
-concatenated length of the familyname (NameID.FONT_FAMILY_NAME) and style
-(NameID.FONT_SUBFAMILY_NAME) strings in the name table do not exceed 20
-characters.
-
-After discussing the problem in more detail at `FontBakery issue #2179 [2] we
-decided that allowing up to 27 chars would still be on the safe side, though.
-
-[1]
-https://glyphsapp.com/tutorials/multiple-masters-part-3-setting-up-instances
-[2] https://github.com/googlefonts/fontbakery/issues/2179
-
-
-</pre>
-
-* 🍞 **PASS** All name entries are good.
 
 </details>
 <details>
@@ -4923,5 +4926,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 2 | 5 | 6 | 149 | 15 | 143 | 0 |
-| 1% | 2% | 2% | 47% | 5% | 45% | 0% |
+| 2 | 4 | 7 | 149 | 15 | 143 | 0 |
+| 1% | 1% | 2% | 47% | 5% | 45% | 0% |
