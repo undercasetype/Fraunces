@@ -38,7 +38,7 @@ echo "Post processing VFs"
 for vf in $vfs
 do
 	gftools fix-dsig -f $vf;
-	python ../mastering/scripts/fix_naming.py $vf;
+	#python ../mastering/scripts/fix_naming.py $vf;
 	#ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
 	#mv "$vf.fix" $vf;
 done
