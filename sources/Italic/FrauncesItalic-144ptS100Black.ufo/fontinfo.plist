@@ -11,7 +11,7 @@
     <key>descender</key>
     <integer>-490</integer>
     <key>familyName</key>
-    <string>Fraunces Italic</string>
+    <string>Fraunces</string>
     <key>guidelines</key>
     <array>
       <dict>
@@ -159,10 +159,6 @@
     <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
     <key>openTypeNameLicenseURL</key>
     <string>https://scripts.sil.org/OFL</string>
-    <key>openTypeNamePreferredFamilyName</key>
-    <string>Fraunces</string>
-    <key>openTypeNamePreferredSubfamilyName</key>
-    <string>Italic</string>
     <key>openTypeOS2Selection</key>
     <array>
       <integer>7</integer>
@@ -197,8 +193,10 @@
     <integer>-300</integer>
     <key>postscriptUnderlineThickness</key>
     <integer>150</integer>
+    <key>styleMapStyleName</key>
+    <string>italic</string>
     <key>styleName</key>
-    <string>144pt S100 Black</string>
+    <string>144pt S100 Black Italic</string>
     <key>unitsPerEm</key>
     <integer>2000</integer>
     <key>versionMajor</key>
