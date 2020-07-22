@@ -82,13 +82,14 @@ def makeStyleSpace(designspace,path):
                     locations.append({"name": name,
                                         "value": value,
                                         "range": v_range,
-                                        "flags": ["ElidableAxisValueName"]
-                                        })
-                    locations.append({"name": name,
-                                        "value": value,
                                         "linked_value": 700,
                                         "flags": ["ElidableAxisValueName"]
                                         })
+                    # locations.append({"name": name,
+                    #                     "value": value,
+                    #                     "linked_value": 700,
+                    #                     "flags": ["ElidableAxisValueName"]
+                    #                     })
         elif axis.name == "soften":
             for value, name in styles["soften"].items():
                 v_range = get_range(sorted(styles["soften"].keys()), value)
@@ -109,22 +110,25 @@ def makeStyleSpace(designspace,path):
     a["name"] = "Italic"
     a["tag"] = "ital"
     locations = []
-    if italic:
-        name = "Italic"
-        value = 1
-        #linked_value = 0
-        #flags = []
-        locations.append({"name": name, "value": value})
-    else:
-        name = "Roman"
-        value = 0
-        linked_value = 1
-        flags = ["ElidableAxisValueName"]
-        locations.append({"name": name,
-                            "value": value,
-                            "linked_value": linked_value,
-                            "flags": flags
-                        })
+
+    name = "Italic"
+    value = 1
+    # linked_value = 0
+    # flags = []
+    locations.append({"name": name,
+                      "value": value,
+                    })
+
+    name = "Upright"
+    value = 0
+    linked_value = 1
+    flags = ["ElidableAxisValueName"]
+    locations.append({"name": name,
+                        "value": value,
+                        "linked_value": linked_value,
+                        "flags": flags
+                    })
+
     a["locations"] = locations
     axes.append(a)
 
