@@ -34,6 +34,7 @@ do
 	if [ -f "$ttf.fix" ]; then mv "$ttf.fix" $ttf; fi
 	gftools fix-hinting $ttf;
 	if [ -f "$ttf.fix" ]; then mv "$ttf.fix" $ttf; fi
+    python ../mastering/scripts/fixNameTable.py $ttf
 done
 
 
