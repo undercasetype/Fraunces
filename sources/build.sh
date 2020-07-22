@@ -1,21 +1,22 @@
 #!/bin/sh
 set -e
 
+
+
+# Only use this when necesdsary, are currently not all instances are defined in the VF designspace files.
+# # generate static designspace referencing csv and variable designspace file
+# # later, this might not be done dynamically
+# python ../mastering/scripts/generate_static_fonts_designspace.py
+
+
+
+
+## Statics
+
 echo "Generating Static fonts"
-mkdir -p ../fonts
-mkdir -p ../fonts/static/otf
+# mkdir -p ../fonts/static/otf
 mkdir -p ../fonts/static/ttf
 
-
-
-
-
-
-### Statics
-
-# generate static designspace referencing csv and variable designspace file
-# later, this might not be done dynamically
-python ../mastering/scripts/generate_static_fonts_designspace.py
 
 fontmake -m Roman/Fraunces_static.designspace -i -o ttf --output-dir ../fonts/static/ttf/
 # fontmake -m Roman/Fraunces_static.designspace -i -o otf --output-dir ../fonts/static/otf/
@@ -28,24 +29,19 @@ ttfs=$(ls ../fonts/static/ttf/*.ttf)
 for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
+	if [ -f "$ttf.fix" ]; then mv "$ttf.fix" $ttf; fi
 	ttfautohint $ttf "$ttf.fix";
-	mv "$ttf.fix" $ttf;
-done
-
-echo "Fixing Hinting"
-for ttf in $ttfs
-do
-	gftools fix-nonhinting $ttf "$ttf.fix";
+	if [ -f "$ttf.fix" ]; then mv "$ttf.fix" $ttf; fi
+	gftools fix-hinting $ttf;
 	if [ -f "$ttf.fix" ]; then mv "$ttf.fix" $ttf; fi
 done
 
 
 
-
-
-### VF
+# ### VF
 
 echo "Generating VFs"
+mkdir -p ../fonts
 fontmake -m Roman/Fraunces.designspace -o variable --output-path ../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf
 fontmake -m Italic/FrauncesItalic.designspace -o variable --output-path ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf
 
@@ -90,7 +86,7 @@ done
 ### Cleanup
 
 
-rm -rf */*/master_ufo/ */*/instance_ufo/ */*/instance_ufos/ */*/instances/
+rm -rf ./*/instances/
 
 rm -f ../fonts/*.ttx
 rm -f ../fonts/static/ttf/*.ttx
@@ -99,5 +95,5 @@ rm -f ../fonts/static/ttf/*gasp.ttf
 
 echo "Done Generating"
 
-# fontbakery check-googlefonts $vfs  --ghmarkdown checks/fontbakery_var_checks.md
+fontbakery check-googlefonts $vfs  --ghmarkdown checks/fontbakery_var_checks.md
 
