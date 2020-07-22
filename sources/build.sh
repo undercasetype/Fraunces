@@ -70,6 +70,15 @@ python ../mastering/scripts/add_STAT.py Italic/FrauncesItalic.designspace ../fon
 rm -f Roman/*.stylespace
 rm -f Italic/*.stylespace
 
+rm -rf ../fonts/*gasp*
+
+echo "Remove unwanted STAT instances"
+for vf in $vfs
+do
+	# remove unwanted instances
+	python ../mastering/scripts/removeUnwantedVFInstances.py $vf
+done
+
 echo "Dropping MVAR"
 for vf in $vfs
 do
