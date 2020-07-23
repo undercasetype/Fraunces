@@ -91,6 +91,11 @@ do
 	rm $new_file
 done
 
+echo "Fix name table"
+for vf in $vfs
+do
+    python ../mastering/scripts/fixNameTable.py $vf
+done
 
 
 ### Cleanup

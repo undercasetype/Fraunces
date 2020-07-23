@@ -1,6 +1,7 @@
 import sys, re, unicodedata, os
 import fontTools.ttLib
-from fontbakery.parse import style_parse
+# from fontbakery.parse import style_parse
+from fontbakery.profiles.googlefonts_conditions import expected_style
 
 #file = "/Users/yanone/Projekte/Google/Onboarding/piazzolla/fonts/Piazzolla/variable/ttf/Piazzolla-Italic[opsz,wght].ttf"#sys.argv[1]
 file = sys.argv[1]
@@ -107,16 +108,20 @@ def is_RIBBI(stylename):
 if 'fvar' in ttFont:
 
     # Sub family name
+    style = expected_style(ttFont)
+
     for name in ttFont['name'].names:
         if name.nameID == 2:
-            name.string = style_parse(ttFont).win_style_name
+            name.string = style.win_style_name
+        if name.nameID == 17:
+            name.string = style.typo_style_name
 
-    # macStyle & fsSelection
     if '-Italic' in file:
         ttFont['head'].macStyle |= 1 << 1 # Set  bit 1
         ttFont['OS/2'].fsSelection |= 1 << 0 # Set bit 0 (Italic)
         ttFont['OS/2'].fsSelection = ttFont['OS/2'].fsSelection & ~(1<<5) # Unset bit 5 (Bold)
         ttFont['OS/2'].fsSelection = ttFont['OS/2'].fsSelection & ~(1<<6) # Unset bit 6 (Regular)
+
 
 # Static FOnt
 else:
