@@ -3,18 +3,18 @@ set -e
 
 echo "Generating Static fonts"
 mkdir -p ../fonts
-#mkdir -p ../fonts/static/otf
-#mkdir -p ../fonts/static/ttf
+mkdir -p ../fonts/static/otf
+mkdir -p ../fonts/static/ttf
 
 
 # generate static designspace referencing csv and variable designspace file
 # later, this might not be done dynamically
-# python ../mastering/scripts/generate_static_fonts_designspace.py
+python ../mastering/scripts/generate_static_fonts_designspace.py
 
-# fontmake -m Roman/Fraunces_static.designspace -i -o ttf --output-dir ../fonts/static/ttf/
-# fontmake -m Roman/Fraunces_static.designspace -i -o otf --output-dir ../fonts/static/otf/
-# fontmake -m Italic/FrauncesItalic_static.designspace -i -o ttf --output-dir ../fonts/static/ttf/
-# fontmake -m Italic/FrauncesItalic_static.designspace -i -o otf --output-dir ../fonts/static/otf/
+fontmake -m Roman/Fraunces_static.designspace -i -o ttf --output-dir ../fonts/static/ttf/
+fontmake -m Roman/Fraunces_static.designspace -i -o otf --output-dir ../fonts/static/otf/
+fontmake -m Italic/FrauncesItalic_static.designspace -i -o ttf --output-dir ../fonts/static/ttf/
+fontmake -m Italic/FrauncesItalic_static.designspace -i -o otf --output-dir ../fonts/static/otf/
 
 echo "Generating VFs"
 fontmake -m Roman/Fraunces.designspace -o variable --output-path ../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf
