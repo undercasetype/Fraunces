@@ -8,7 +8,7 @@ based on https://github.com/arrowtype/recursive/blob/master/mastering/data/write
 2020_01_07 Benedikt Bramboeck, Alphabet
 """
 
-doc_paths = ["../sources/current_masters/Roman/Fraunces.designspace", "../sources/current_masters/Italic/FrauncesItalic.designspace"]
+doc_paths = ["../sources/Roman/Fraunces.designspace", "../sources/Italic/FrauncesItalic.designspace"]
 
 names = {}
 with open("../mastering/data/instance_names.csv") as csvfile:
