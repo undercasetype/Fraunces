@@ -5,8 +5,8 @@ set -e
 
 
 # Only use this when necesdsary, are currently not all instances are defined in the VF designspace files.
-# # generate static designspace referencing csv and variable designspace file
-# # later, this might not be done dynamically
+# generate static designspace referencing csv and variable designspace file
+# later, this might not be done dynamically
 # python ../mastering/scripts/generate_static_fonts_designspace.py
 
 
