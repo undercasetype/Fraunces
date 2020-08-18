@@ -34,6 +34,7 @@
         <condition name="wonk" minimum="0" maximum="0.490000"/>
       </conditionset>
       <sub name="ampersand" with="ampersand.alt"/>
+      <sub name="g" with="g.alt"/>
       <sub name="h" with="h.alt"/>
       <sub name="hbrevebelow" with="hbrevebelow.alt"/>
       <sub name="hcircumflex" with="hcircumflex.alt"/>
@@ -158,7 +159,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces9ptS000-SemiBold.ufo" familyname="Fraunces 9pt S000" stylename="SemiBold" filename="instances/Fraunces9ptS000-SemiBold.ufo" postscriptfontname="Fraunces9ptS000-SemiBold" stylemapfamilyname="Fraunces 9pt S000 SmBd" stylemapstylename="Regular">
+    <instance name="Fraunces9ptS000-SemiBold.ufo" familyname="Fraunces 9pt S000" stylename="SemiBold" filename="instances/Fraunces9ptS000-SemiBold.ufo" postscriptfontname="Fraunces9ptS000-SemiBold" stylemapfamilyname="Fraunces 9pt S000 SemiBold" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="580"/>
@@ -218,7 +219,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces9ptS050-SemiBold.ufo" familyname="Fraunces 9pt S050" stylename="SemiBold" filename="instances/Fraunces9ptS050-SemiBold.ufo" postscriptfontname="Fraunces9ptS050-SemiBold" stylemapfamilyname="Fraunces 9pt S050 SmBd" stylemapstylename="Regular">
+    <instance name="Fraunces9ptS050-SemiBold.ufo" familyname="Fraunces 9pt S050" stylename="SemiBold" filename="instances/Fraunces9ptS050-SemiBold.ufo" postscriptfontname="Fraunces9ptS050-SemiBold" stylemapfamilyname="Fraunces 9pt S050 SemiBold" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="580"/>
@@ -278,7 +279,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces9ptS100-SemiBold.ufo" familyname="Fraunces 9pt S100" stylename="SemiBold" filename="instances/Fraunces9ptS100-SemiBold.ufo" postscriptfontname="Fraunces9ptS100-SemiBold" stylemapfamilyname="Fraunces 9pt S100 SmBd" stylemapstylename="Regular">
+    <instance name="Fraunces9ptS100-SemiBold.ufo" familyname="Fraunces 9pt S100" stylename="SemiBold" filename="instances/Fraunces9ptS100-SemiBold.ufo" postscriptfontname="Fraunces9ptS100-SemiBold" stylemapfamilyname="Fraunces 9pt S100 SemiBold" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="580"/>
@@ -318,7 +319,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces72ptS000-Light.ufo" familyname="Fraunces 72pt S000" stylename="Light" filename="instances/Fraunces72ptS000-Light.ufo" postscriptfontname="Fraunces72ptS000-Light" stylemapfamilyname="Fraunces 72pt S000 Lt" stylemapstylename="Regular">
+    <instance name="Fraunces72ptS000-Light.ufo" familyname="Fraunces 72pt S000" stylename="Light" filename="instances/Fraunces72ptS000-Light.ufo" postscriptfontname="Fraunces72ptS000-Light" stylemapfamilyname="Fraunces 72pt S000 Light" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="260"/>
@@ -338,7 +339,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces72ptS000-SemiBold.ufo" familyname="Fraunces 72pt S000" stylename="SemiBold" filename="instances/Fraunces72ptS000-SemiBold.ufo" postscriptfontname="Fraunces72ptS000-SemiBold" stylemapfamilyname="Fraunces 72pt S000 SmBd" stylemapstylename="Regular">
+    <instance name="Fraunces72ptS000-SemiBold.ufo" familyname="Fraunces 72pt S000" stylename="SemiBold" filename="instances/Fraunces72ptS000-SemiBold.ufo" postscriptfontname="Fraunces72ptS000-SemiBold" stylemapfamilyname="Fraunces 72pt S000 SemiBold" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="580"/>
@@ -358,7 +359,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces72ptS000-Black.ufo" familyname="Fraunces 72pt S000" stylename="Black" filename="instances/Fraunces72ptS000-Black.ufo" postscriptfontname="Fraunces72ptS000-Black" stylemapfamilyname="Fraunces 72pt S000 Blk" stylemapstylename="Regular">
+    <instance name="Fraunces72ptS000-Black.ufo" familyname="Fraunces 72pt S000" stylename="Black" filename="instances/Fraunces72ptS000-Black.ufo" postscriptfontname="Fraunces72ptS000-Black" stylemapfamilyname="Fraunces 72pt S000 Black" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="900"/>
@@ -378,7 +379,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces72ptS050-Light.ufo" familyname="Fraunces 72pt S050" stylename="Light" filename="instances/Fraunces72ptS050-Light.ufo" postscriptfontname="Fraunces72ptS050-Light" stylemapfamilyname="Fraunces 72pt S050 Lt" stylemapstylename="Regular">
+    <instance name="Fraunces72ptS050-Light.ufo" familyname="Fraunces 72pt S050" stylename="Light" filename="instances/Fraunces72ptS050-Light.ufo" postscriptfontname="Fraunces72ptS050-Light" stylemapfamilyname="Fraunces 72pt S050 Light" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="260"/>
@@ -398,7 +399,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces72ptS050-SemiBold.ufo" familyname="Fraunces 72pt S050" stylename="SemiBold" filename="instances/Fraunces72ptS050-SemiBold.ufo" postscriptfontname="Fraunces72ptS050-SemiBold" stylemapfamilyname="Fraunces 72pt S050 SmBd" stylemapstylename="Regular">
+    <instance name="Fraunces72ptS050-SemiBold.ufo" familyname="Fraunces 72pt S050" stylename="SemiBold" filename="instances/Fraunces72ptS050-SemiBold.ufo" postscriptfontname="Fraunces72ptS050-SemiBold" stylemapfamilyname="Fraunces 72pt S050 SemiBold" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="580"/>
@@ -418,7 +419,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces72ptS050-Black.ufo" familyname="Fraunces 72pt S050" stylename="Black" filename="instances/Fraunces72ptS050-Black.ufo" postscriptfontname="Fraunces72ptS050-Black" stylemapfamilyname="Fraunces 72pt S050 Blk" stylemapstylename="Regular">
+    <instance name="Fraunces72ptS050-Black.ufo" familyname="Fraunces 72pt S050" stylename="Black" filename="instances/Fraunces72ptS050-Black.ufo" postscriptfontname="Fraunces72ptS050-Black" stylemapfamilyname="Fraunces 72pt S050 Black" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="900"/>
@@ -438,7 +439,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces72ptS100-Light.ufo" familyname="Fraunces 72pt S100" stylename="Light" filename="instances/Fraunces72ptS100-Light.ufo" postscriptfontname="Fraunces72ptS100-Light" stylemapfamilyname="Fraunces 72pt S100 Lt" stylemapstylename="Regular">
+    <instance name="Fraunces72ptS100-Light.ufo" familyname="Fraunces 72pt S100" stylename="Light" filename="instances/Fraunces72ptS100-Light.ufo" postscriptfontname="Fraunces72ptS100-Light" stylemapfamilyname="Fraunces 72pt S100 Light" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="260"/>
@@ -458,7 +459,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces72ptS100-SemiBold.ufo" familyname="Fraunces 72pt S100" stylename="SemiBold" filename="instances/Fraunces72ptS100-SemiBold.ufo" postscriptfontname="Fraunces72ptS100-SemiBold" stylemapfamilyname="Fraunces 72pt S100 SmBd" stylemapstylename="Regular">
+    <instance name="Fraunces72ptS100-SemiBold.ufo" familyname="Fraunces 72pt S100" stylename="SemiBold" filename="instances/Fraunces72ptS100-SemiBold.ufo" postscriptfontname="Fraunces72ptS100-SemiBold" stylemapfamilyname="Fraunces 72pt S100 SemiBold" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="580"/>
@@ -478,7 +479,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces72ptS100-Black.ufo" familyname="Fraunces 72pt S100" stylename="Black" filename="instances/Fraunces72ptS100-Black.ufo" postscriptfontname="Fraunces72ptS100-Black" stylemapfamilyname="Fraunces 72pt S100 Blk" stylemapstylename="Regular">
+    <instance name="Fraunces72ptS100-Black.ufo" familyname="Fraunces 72pt S100" stylename="Black" filename="instances/Fraunces72ptS100-Black.ufo" postscriptfontname="Fraunces72ptS100-Black" stylemapfamilyname="Fraunces 72pt S100 Black" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="900"/>
@@ -488,7 +489,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces144ptS000-Thin.ufo" familyname="Fraunces 144pt S000" stylename="Thin" filename="instances/Fraunces144ptS000-Thin.ufo" postscriptfontname="Fraunces144ptS000-Thin" stylemapfamilyname="Fraunces 144pt S000 Tn" stylemapstylename="Regular">
+    <instance name="Fraunces144ptS000-Thin.ufo" familyname="Fraunces 144pt S000" stylename="Thin" filename="instances/Fraunces144ptS000-Thin.ufo" postscriptfontname="Fraunces144ptS000-Thin" stylemapfamilyname="Fraunces 144pt S000 Thin" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="100"/>
@@ -498,7 +499,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces144ptS000-Light.ufo" familyname="Fraunces 144pt S000" stylename="Light" filename="instances/Fraunces144ptS000-Light.ufo" postscriptfontname="Fraunces144ptS000-Light" stylemapfamilyname="Fraunces 144pt S000 Lt" stylemapstylename="Regular">
+    <instance name="Fraunces144ptS000-Light.ufo" familyname="Fraunces 144pt S000" stylename="Light" filename="instances/Fraunces144ptS000-Light.ufo" postscriptfontname="Fraunces144ptS000-Light" stylemapfamilyname="Fraunces 144pt S000 Light" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="260"/>
@@ -518,7 +519,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces144ptS000-SemiBold.ufo" familyname="Fraunces 144pt S000" stylename="SemiBold" filename="instances/Fraunces144ptS000-SemiBold.ufo" postscriptfontname="Fraunces144ptS000-SemiBold" stylemapfamilyname="Fraunces 144pt S000 SBd" stylemapstylename="Regular">
+    <instance name="Fraunces144ptS000-SemiBold.ufo" familyname="Fraunces 144pt S000" stylename="SemiBold" filename="instances/Fraunces144ptS000-SemiBold.ufo" postscriptfontname="Fraunces144ptS000-SemiBold" stylemapfamilyname="Fraunces 144pt S000 SemiBold" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="580"/>
@@ -538,7 +539,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces144ptS000-Black.ufo" familyname="Fraunces 144pt S000" stylename="Black" filename="instances/Fraunces144ptS000-Black.ufo" postscriptfontname="Fraunces144ptS000-Black" stylemapfamilyname="Fraunces 144pt S000 Blk" stylemapstylename="Regular">
+    <instance name="Fraunces144ptS000-Black.ufo" familyname="Fraunces 144pt S000" stylename="Black" filename="instances/Fraunces144ptS000-Black.ufo" postscriptfontname="Fraunces144ptS000-Black" stylemapfamilyname="Fraunces 144pt S000 Black" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="900"/>
@@ -548,7 +549,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces144ptS050-Thin.ufo" familyname="Fraunces 144pt S050" stylename="Thin" filename="instances/Fraunces144ptS050-Thin.ufo" postscriptfontname="Fraunces144ptS050-Thin" stylemapfamilyname="Fraunces 144pt S050 Tn" stylemapstylename="Regular">
+    <instance name="Fraunces144ptS050-Thin.ufo" familyname="Fraunces 144pt S050" stylename="Thin" filename="instances/Fraunces144ptS050-Thin.ufo" postscriptfontname="Fraunces144ptS050-Thin" stylemapfamilyname="Fraunces 144pt S050 Thin" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="100"/>
@@ -558,7 +559,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces144ptS050-Light.ufo" familyname="Fraunces 144pt S050" stylename="Light" filename="instances/Fraunces144ptS050-Light.ufo" postscriptfontname="Fraunces144ptS050-Light" stylemapfamilyname="Fraunces 144pt S050 Lt" stylemapstylename="Regular">
+    <instance name="Fraunces144ptS050-Light.ufo" familyname="Fraunces 144pt S050" stylename="Light" filename="instances/Fraunces144ptS050-Light.ufo" postscriptfontname="Fraunces144ptS050-Light" stylemapfamilyname="Fraunces 144pt S050 Light" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="260"/>
@@ -578,7 +579,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces144ptS050-SemiBold.ufo" familyname="Fraunces 144pt S050" stylename="SemiBold" filename="instances/Fraunces144ptS050-SemiBold.ufo" postscriptfontname="Fraunces144ptS050-SemiBold" stylemapfamilyname="Fraunces 144pt S050 SBd" stylemapstylename="Regular">
+    <instance name="Fraunces144ptS050-SemiBold.ufo" familyname="Fraunces 144pt S050" stylename="SemiBold" filename="instances/Fraunces144ptS050-SemiBold.ufo" postscriptfontname="Fraunces144ptS050-SemiBold" stylemapfamilyname="Fraunces 144pt S050 SemiBold" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="580"/>
@@ -598,7 +599,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces144ptS050-Black.ufo" familyname="Fraunces 144pt S050" stylename="Black" filename="instances/Fraunces144ptS050-Black.ufo" postscriptfontname="Fraunces144ptS050-Black" stylemapfamilyname="Fraunces 144pt S050 Blk" stylemapstylename="Regular">
+    <instance name="Fraunces144ptS050-Black.ufo" familyname="Fraunces 144pt S050" stylename="Black" filename="instances/Fraunces144ptS050-Black.ufo" postscriptfontname="Fraunces144ptS050-Black" stylemapfamilyname="Fraunces 144pt S050 Black" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="900"/>
@@ -608,7 +609,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces144ptS100-Thin.ufo" familyname="Fraunces 144pt S100" stylename="Thin" filename="instances/Fraunces144ptS100-Thin.ufo" postscriptfontname="Fraunces144ptS100-Thin" stylemapfamilyname="Fraunces 144pt S100 Tn" stylemapstylename="Regular">
+    <instance name="Fraunces144ptS100-Thin.ufo" familyname="Fraunces 144pt S100" stylename="Thin" filename="instances/Fraunces144ptS100-Thin.ufo" postscriptfontname="Fraunces144ptS100-Thin" stylemapfamilyname="Fraunces 144pt S100 Thin" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="100"/>
@@ -618,7 +619,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces144ptS100-Light.ufo" familyname="Fraunces 144pt S100" stylename="Light" filename="instances/Fraunces144ptS100-Light.ufo" postscriptfontname="Fraunces144ptS100-Light" stylemapfamilyname="Fraunces 144pt S100 Lt" stylemapstylename="Regular">
+    <instance name="Fraunces144ptS100-Light.ufo" familyname="Fraunces 144pt S100" stylename="Light" filename="instances/Fraunces144ptS100-Light.ufo" postscriptfontname="Fraunces144ptS100-Light" stylemapfamilyname="Fraunces 144pt S100 Light" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="260"/>
@@ -638,7 +639,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces144ptS100-SemiBold.ufo" familyname="Fraunces 144pt S100" stylename="SemiBold" filename="instances/Fraunces144ptS100-SemiBold.ufo" postscriptfontname="Fraunces144ptS100-SemiBold" stylemapfamilyname="Fraunces 144pt S100 SBd" stylemapstylename="Regular">
+    <instance name="Fraunces144ptS100-SemiBold.ufo" familyname="Fraunces 144pt S100" stylename="SemiBold" filename="instances/Fraunces144ptS100-SemiBold.ufo" postscriptfontname="Fraunces144ptS100-SemiBold" stylemapfamilyname="Fraunces 144pt S100 SemiBold" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="580"/>
@@ -658,7 +659,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces144ptS100-Black.ufo" familyname="Fraunces 144pt S100" stylename="Black" filename="instances/Fraunces144ptS100-Black.ufo" postscriptfontname="Fraunces144ptS100-Black" stylemapfamilyname="Fraunces 144pt S100 Blk" stylemapstylename="Regular">
+    <instance name="Fraunces144ptS100-Black.ufo" familyname="Fraunces 144pt S100" stylename="Black" filename="instances/Fraunces144ptS100-Black.ufo" postscriptfontname="Fraunces144ptS100-Black" stylemapfamilyname="Fraunces 144pt S100 Black" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="900"/>
