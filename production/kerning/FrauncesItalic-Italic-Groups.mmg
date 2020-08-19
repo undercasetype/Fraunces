@@ -38,13 +38,6 @@
       Ccedillaacute
       Ccircumflex
       Cdotaccent
-      G
-      Gbreve
-      Gcaron
-      Gcircumflex
-      Gcommaaccent
-      Gdotaccent
-      Gmacron
     </glyphs>
   </group>
   <group color="1.0 0.0 1.0 0.25" name="E" side="side1" type="kerning">
@@ -77,6 +70,17 @@
       OE
     </glyphs>
   </group>
+  <group color="1.0 0.0 0.5 0.25" name="G" side="side1" type="kerning">
+    <glyphs>
+      G
+      Gbreve
+      Gcaron
+      Gcircumflex
+      Gcommaaccent
+      Gdotaccent
+      Gmacron
+    </glyphs>
+  </group>
   <group color="1.0 0.0 0.0 0.25" name="H" side="side1" type="kerning">
     <glyphs>
       H
@@ -99,13 +103,19 @@
       Imacron
       Iogonek
       Itilde
+      M
+      Mdotbelow
+      NJ
+    </glyphs>
+  </group>
+  <group color="0.5 0.0 1.0 0.25" name="J" side="side1" type="kerning">
+    <glyphs>
+      IJ
+      IJacute
       J
       Jacute
       Jcircumflex
       LJ
-      M
-      Mdotbelow
-      NJ
     </glyphs>
   </group>
   <group color="1.0 1.0 0.0 0.25" name="K" side="side1" type="kerning">
@@ -126,7 +136,7 @@
       Lslash
     </glyphs>
   </group>
-  <group color="0.0 1.0 1.0 0.25" name="N" side="side1" type="kerning">
+  <group color="1.0 0.0 1.0 0.25" name="N" side="side1" type="kerning">
     <glyphs>
       Eng
       N
@@ -285,21 +295,196 @@
       Zdotbelow
     </glyphs>
   </group>
-  <group color="1.0 0.5 0.0 0.25" name="g" side="side1" type="kerning">
+  <group color="0.5 0.0 1.0 0.25" name="a" side="side1" type="kerning">
     <glyphs>
-      g
-      j
+      a
+      aacute
+      abreve
+      abreveacute
+      abrevedotbelow
+      abrevegrave
+      abrevehookabove
+      abrevetilde
+      acircumflex
+      acircumflexacute
+      acircumflexdotbelow
+      acircumflexgrave
+      acircumflexhookabove
+      acircumflextilde
+      adblgrave
+      adieresis
+      adotbelow
+      agrave
+      ahookabove
+      ainvertedbreve
+      amacron
+      aogonek
+      aring
+      aringacute
+      atilde
     </glyphs>
   </group>
-  <group color="1.0 0.0 0.5 0.25" name="l" side="side1" type="kerning">
+  <group color="1.0 0.0 1.0 0.25" name="c" side="side1" type="kerning">
     <glyphs>
-      b
-      d
-      h
+      c
+      cacute
+      ccaron
+      ccedilla
+      ccedillaacute
+      ccircumflex
+      cdotaccent
+    </glyphs>
+  </group>
+  <group color="0.0 1.0 1.0 0.25" name="e" side="side1" type="kerning">
+    <glyphs>
+      ae
+      aeacute
+      e
+      eacute
+      ebreve
+      ecaron
+      ecedillabreve
+      ecircumflex
+      ecircumflexacute
+      ecircumflexdotbelow
+      ecircumflexgrave
+      ecircumflexhookabove
+      ecircumflextilde
+      edblgrave
+      edieresis
+      edotaccent
+      edotbelow
+      egrave
+      ehookabove
+      einvertedbreve
+      emacron
+      emacronacute
+      emacrongrave
+      eogonek
+      etilde
+      oe
+    </glyphs>
+  </group>
+  <group color="0.0 1.0 0.0 0.25" name="f" side="side1" type="kerning">
+    <glyphs>
+      f
+      f_f
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.0 0.25" name="g" side="side1" type="kerning">
+    <glyphs>
+      g
+      gbreve
+      gcaron
+      gcircumflex
+      gcommaaccent
+      gdotaccent
+      gmacron
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.0 0.25" name="i" side="side1" type="kerning">
+    <glyphs>
+      dotlessi
+      f_f_i
+      fi
       i
+      iacute
+      ibreve
+      icircumflex
+      idblgrave
+      idieresis
+      idieresisacute
+      idotaccent
+      idotbelow
+      igrave
+      ihookabove
+      iinvertedbreve
+      imacron
+      iogonek
+      itilde
+      u
+      uacute
+      ubreve
+      ucircumflex
+      udblgrave
+      udieresis
+      udieresiscaron
+      udotbelow
+      ugrave
+      uhoi
+      uhorn
+      uhornacute
+      uhorndotbelow
+      uhorngrave
+      uhornhookabove
+      uhorntilde
+      uhungarumlaut
+      uinvertedbreve
+      umacron
+      umacrondieresis
+      uogonek
+      uring
+      utilde
+      utildeacute
+    </glyphs>
+  </group>
+  <group color="0.0 0.0 1.0 0.25" name="j" side="side1" type="kerning">
+    <glyphs>
+      Lj
+      Nj
+      dotlessj
+      eng
+      ij
+      ijacute
+      j
+      jacute
+      jcircumflex
+      lj
+      lj.alt
+      nj
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 1.0 0.25" name="k" side="side1" type="kerning">
+    <glyphs>
       k
+      k.alt
+      kcommaaccent
+      kcommaaccent.alt
+      kra
+    </glyphs>
+  </group>
+  <group color="0.0 0.0 1.0 0.25" name="l" side="side1" type="kerning">
+    <glyphs>
+      d
+      ddotbelow
+      dmacronbelow
+      f_f_l
+      fl
       l
+      lacute
+      lcommaaccent
+      ldot
+      ldotbelow
+      lmacronbelow
+      lslash
+    </glyphs>
+  </group>
+  <group color="0.0 0.5 1.0 0.25" name="l.alt" side="side1" type="kerning">
+    <glyphs>
+      d.alt
+      dcaron
+      dcroat
+      ddotbelow.alt
+      dmacronbelow.alt
+      f_f_l.alt
+      fl.alt
       l.alt
+      lacute.alt
+      lcaron
+      lcommaaccent.alt
+      ldot.alt
+      ldotbelow.alt
+      lmacronbelow.alt
     </glyphs>
   </group>
   <group color="1.0 1.0 0.0 0.25" name="leftquote" side="side1" type="kerning">
@@ -308,25 +493,70 @@
       quoteleft
     </glyphs>
   </group>
-  <group color="1.0 0.0 1.0 0.25" name="n" side="side1" type="kerning">
+  <group color="0.0 1.0 1.0 0.25" name="n" side="side1" type="kerning">
     <glyphs>
-      a
+      h
       h.alt
+      hbar
+      hbrevebelow
+      hbrevebelow.alt
+      hcircumflex
+      hcircumflex.alt
+      hdotbelow
+      hdotbelow.alt
       m
+      mdotbelow
       n
-      u
-      x
-      z
+      nacute
+      ncaron
+      ncommaaccent
+      ndotaccent
+      ndotbelow
+      nmacronbelow
+      ntilde
     </glyphs>
   </group>
-  <group color="1.0 0.0 0.0 0.25" name="o" side="side1" type="kerning">
+  <group color="0.0 0.5 1.0 0.25" name="o" side="side1" type="kerning">
     <glyphs>
       b.alt
-      c
-      e
+      eth
       o
+      oacute
+      obreve
+      ocircumflex
+      ocircumflexacute
+      ocircumflexdotbelow
+      ocircumflexgrave
+      ocircumflexhookabove
+      ocircumflextilde
+      odblgrave
+      odieresis
+      odieresismacron
+      odotaccentmacron
+      odotbelow
+      ograve
+      ohookabove
+      ohorn
+      ohornacute
+      ohorndotbelow
+      ohorngrave
+      ohornhookabove
+      ohorntilde
+      ohungarumlaut
+      oinvertedbreve
+      omacron
+      omacronacute
+      omacrongrave
+      oogonek
+      oslash
+      oslashacute
+      otilde
+      otildeacute
+      otildedieresis
+      otildemacron
       p
-      s
+      schwa
+      thorn
     </glyphs>
   </group>
   <group color="1.0 0.5 0.0 0.25" name="period" side="side1" type="kerning">
@@ -340,6 +570,18 @@
       semicolon
     </glyphs>
   </group>
+  <group color="0.0 1.0 1.0 0.25" name="r" side="side1" type="kerning">
+    <glyphs>
+      r
+      racute
+      rcaron
+      rcommaaccent
+      rdblgrave
+      rdotbelow
+      rinvertedbreve
+      rmacronbelow
+    </glyphs>
+  </group>
   <group color="0.0 1.0 0.0 0.25" name="rightquote" side="side1" type="kerning">
     <glyphs>
       quotedbl
@@ -348,13 +590,82 @@
       quotesingle
     </glyphs>
   </group>
-  <group color="1.0 1.0 0.0 0.25" name="v" side="side1" type="kerning">
+  <group color="1.0 0.5 0.0 0.25" name="s" side="side1" type="kerning">
+    <glyphs>
+      s
+      sacute
+      sacutedotaccent
+      scaron
+      scarondotaccent
+      scedilla
+      scircumflex
+      scommaaccent
+      sdotaccent
+      sdotbelow
+      sdotbelowdotaccent
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.5 0.25" name="t" side="side1" type="kerning">
+    <glyphs>
+      t
+      tbar
+      tcaron
+      tcedilla
+      tcommaaccent
+      tdieresis
+      tdotbelow
+      tmacronbelow
+    </glyphs>
+  </group>
+  <group color="0.5 0.0 1.0 0.25" name="u" side="side1" type="kerning">
+    <glyphs>
+      mu.math
+    </glyphs>
+  </group>
+  <group color="0.0 0.5 1.0 0.25" name="v" side="side1" type="kerning">
     <glyphs>
       v
-      v.alt
       w
+      wacute
+      wcircumflex
+      wdieresis
+      wgrave
+    </glyphs>
+  </group>
+  <group color="0.0 0.0 1.0 0.25" name="v.alt" side="side1" type="kerning">
+    <glyphs>
+      v.alt
       w.alt
+      wacute.alt
+      wcircumflex.alt
+      wdieresis.alt
+      wgrave.alt
+    </glyphs>
+  </group>
+  <group color="0.0 0.5 1.0 0.25" name="y" side="side1" type="kerning">
+    <glyphs>
       y
+      yacute
+      ycircumflex
+      ydieresis
+      ydotaccent
+      ydotbelow
+      ygrave
+      yhookabove
+      ymacron
+      ytilde
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.0 0.25" name="z" side="side1" type="kerning">
+    <glyphs>
+      Dzcaron
+      dzcaron
+      dzcaron.alt
+      z
+      zacute
+      zcaron
+      zdotaccent
+      zdotbelow
     </glyphs>
   </group>
   <group color="1.0 0.0 0.0 0.25" name="A" side="side2" type="kerning">
@@ -397,6 +708,7 @@
       Dcroat
       Ddotbelow
       Dmacronbelow
+      Dzcaron
       E
       Eacute
       Ebreve
@@ -418,7 +730,6 @@
       Emacron
       Emacronacute
       Emacrongrave
-      Eng
       Eogonek
       Eth
       Etilde
@@ -455,19 +766,10 @@
       Lcommaaccent
       Ldot
       Ldotbelow
+      Lj
       Lmacronbelow
       Lslash
-      M
-      Mdotbelow
-      N
       NJ
-      Nacute
-      Ncaron
-      Ncommaaccent
-      Ndotaccent
-      Ndotbelow
-      Nmacronbelow
-      Ntilde
       P
       R
       Racute
@@ -485,6 +787,22 @@
       J
       Jacute
       Jcircumflex
+    </glyphs>
+  </group>
+  <group color="0.5 0.0 1.0 0.25" name="N" side="side2" type="kerning">
+    <glyphs>
+      Eng
+      M
+      Mdotbelow
+      N
+      Nacute
+      Ncaron
+      Ncommaaccent
+      Ndotaccent
+      Ndotbelow
+      Nj
+      Nmacronbelow
+      Ntilde
     </glyphs>
   </group>
   <group color="0.0 1.0 1.0 0.25" name="O" side="side2" type="kerning">
@@ -629,22 +947,106 @@
       Zdotbelow
     </glyphs>
   </group>
-  <group color="0.0 0.0 1.0 0.25" name="l" side="side2" type="kerning">
+  <group color="0.0 1.0 1.0 0.25" name="a" side="side2" type="kerning">
+    <glyphs>
+      a
+      aacute
+      abreve
+      abreveacute
+      abrevedotbelow
+      abrevegrave
+      abrevehookabove
+      abrevetilde
+      acircumflex
+      acircumflexacute
+      acircumflexdotbelow
+      acircumflexgrave
+      acircumflexhookabove
+      acircumflextilde
+      adblgrave
+      adieresis
+      adotbelow
+      ae
+      aeacute
+      agrave
+      ahookabove
+      ainvertedbreve
+      amacron
+      aogonek
+      aring
+      aringacute
+      atilde
+    </glyphs>
+  </group>
+  <group color="0.5 0.0 1.0 0.25" name="f" side="side2" type="kerning">
+    <glyphs>
+      f
+      f_f
+      f_f_i
+      f_f_l
+      f_f_l.alt
+      fi
+      fl
+      fl.alt
+      germandbls
+    </glyphs>
+  </group>
+  <group color="0.0 0.5 1.0 0.25" name="g" side="side2" type="kerning">
+    <glyphs>
+      g
+      gbreve
+      gcaron
+      gcircumflex
+      gcommaaccent
+      gdotaccent
+      gmacron
+    </glyphs>
+  </group>
+  <group color="1.0 1.0 0.0 0.25" name="j" side="side2" type="kerning">
+    <glyphs>
+      dotlessj
+      j
+      jacute
+      jcircumflex
+    </glyphs>
+  </group>
+  <group color="1.0 1.0 0.0 0.25" name="l" side="side2" type="kerning">
+    <glyphs>
+      b
+      h
+      hbar
+      hbrevebelow
+      hcircumflex
+      hdotbelow
+      k
+      kcommaaccent
+      l
+      lacute
+      lcaron
+      lcommaaccent
+      ldot
+      ldotbelow
+      lj
+      lmacronbelow
+      lslash
+    </glyphs>
+  </group>
+  <group color="0.0 0.5 1.0 0.25" name="l.alt" side="side2" type="kerning">
     <glyphs>
       b.alt
       h.alt
-      i
+      hbrevebelow.alt
+      hcircumflex.alt
+      hdotbelow.alt
       k.alt
+      kcommaaccent.alt
       l.alt
-    </glyphs>
-  </group>
-  <group color="0.5 0.0 1.0 0.25" name="l_flag" side="side2" type="kerning">
-    <glyphs>
-      b
-      f
-      h
-      k
-      l
+      lacute.alt
+      lcommaaccent.alt
+      ldot.alt
+      ldotbelow.alt
+      lj.alt
+      lmacronbelow.alt
     </glyphs>
   </group>
   <group color="0.0 1.0 1.0 0.25" name="leftquote" side="side2" type="kerning">
@@ -655,25 +1057,126 @@
   </group>
   <group color="0.0 1.0 0.0 0.25" name="n" side="side2" type="kerning">
     <glyphs>
+      dotlessi
+      eng
+      i
+      iacute
+      ibreve
+      icircumflex
+      idblgrave
+      idieresis
+      idieresisacute
+      idotaccent
+      idotbelow
+      igrave
+      ihookabove
+      iinvertedbreve
+      ij
+      ijacute
+      imacron
+      iogonek
+      itilde
+      kra
       m
+      mdotbelow
       n
+      nacute
+      ncaron
+      ncommaaccent
+      ndotaccent
+      ndotbelow
+      nj
+      nmacronbelow
+      ntilde
       r
-      u
-      x
-      z
+      racute
+      rcaron
+      rcommaaccent
+      rdblgrave
+      rdotbelow
+      rinvertedbreve
+      rmacronbelow
     </glyphs>
   </group>
-  <group color="0.0 1.0 1.0 0.25" name="o" side="side2" type="kerning">
+  <group color="1.0 0.5 0.0 0.25" name="o" side="side2" type="kerning">
     <glyphs>
-      a
       c
+      cacute
+      ccaron
+      ccedilla
+      ccedillaacute
+      ccircumflex
+      cdotaccent
       d
       d.alt
+      dcaron
+      dcroat
+      ddotbelow
+      ddotbelow.alt
+      dmacronbelow
+      dmacronbelow.alt
+      dzcaron
+      dzcaron.alt
       e
-      g
+      eacute
+      ebreve
+      ecaron
+      ecedillabreve
+      ecircumflex
+      ecircumflexacute
+      ecircumflexdotbelow
+      ecircumflexgrave
+      ecircumflexhookabove
+      ecircumflextilde
+      edblgrave
+      edieresis
+      edotaccent
+      edotbelow
+      egrave
+      ehookabove
+      einvertedbreve
+      emacron
+      emacronacute
+      emacrongrave
+      eogonek
+      eth
+      etilde
       o
+      oacute
+      obreve
+      ocircumflex
+      ocircumflexacute
+      ocircumflexdotbelow
+      ocircumflexgrave
+      ocircumflexhookabove
+      ocircumflextilde
+      odblgrave
+      odieresis
+      odieresismacron
+      odotaccentmacron
+      odotbelow
+      oe
+      ograve
+      ohookabove
+      ohorn
+      ohornacute
+      ohorndotbelow
+      ohorngrave
+      ohornhookabove
+      ohorntilde
+      ohungarumlaut
+      oinvertedbreve
+      omacron
+      omacronacute
+      omacrongrave
+      oogonek
+      oslash
+      oslashacute
+      otilde
+      otildeacute
+      otildedieresis
+      otildemacron
       q
-      s
     </glyphs>
   </group>
   <group color="0.0 1.0 0.0 0.25" name="period" side="side2" type="kerning">
@@ -695,13 +1198,99 @@
       quotesingle
     </glyphs>
   </group>
-  <group color="0.0 0.5 1.0 0.25" name="v" side="side2" type="kerning">
+  <group color="0.0 0.0 1.0 0.25" name="s" side="side2" type="kerning">
+    <glyphs>
+      s
+      sacute
+      sacutedotaccent
+      scaron
+      scarondotaccent
+      scedilla
+      scircumflex
+      scommaaccent
+      sdotaccent
+      sdotbelow
+      sdotbelowdotaccent
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.0 0.25" name="t" side="side2" type="kerning">
+    <glyphs>
+      t
+      tbar
+      tcaron
+      tcedilla
+      tcommaaccent
+      tdieresis
+      tdotbelow
+      tmacronbelow
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 0.5 0.25" name="u" side="side2" type="kerning">
+    <glyphs>
+      mu.math
+      u
+      uacute
+      ubreve
+      ucircumflex
+      udblgrave
+      udieresis
+      udieresiscaron
+      udotbelow
+      ugrave
+      uhoi
+      uhorn
+      uhornacute
+      uhorndotbelow
+      uhorngrave
+      uhornhookabove
+      uhorntilde
+      uhungarumlaut
+      uinvertedbreve
+      umacron
+      umacrondieresis
+      uogonek
+      uring
+      utilde
+      utildeacute
+    </glyphs>
+  </group>
+  <group color="1.0 0.0 1.0 0.25" name="v" side="side2" type="kerning">
     <glyphs>
       v
-      v.alt
       w
+      wacute
+      wcircumflex
+      wdieresis
+      wgrave
+    </glyphs>
+  </group>
+  <group color="0.0 0.0 1.0 0.25" name="v.alt" side="side2" type="kerning">
+    <glyphs>
+      v.alt
       w.alt
+      wacute.alt
+      wcircumflex.alt
+      wdieresis.alt
+      wgrave.alt
       y
+      yacute
+      ycircumflex
+      ydieresis
+      ydotaccent
+      ydotbelow
+      ygrave
+      yhookabove
+      ymacron
+      ytilde
+    </glyphs>
+  </group>
+  <group color="1.0 0.5 0.0 0.25" name="z" side="side2" type="kerning">
+    <glyphs>
+      z
+      zacute
+      zcaron
+      zdotaccent
+      zdotbelow
     </glyphs>
   </group>
 </xml>

@@ -16,12 +16,8 @@
     </dict>
     <key>f</key>
     <dict>
-      <key>j</key>
-      <integer>50</integer>
       <key>public.kern2.l</key>
       <integer>100</integer>
-      <key>public.kern2.v</key>
-      <integer>50</integer>
     </dict>
     <key>public.kern1.A</key>
     <dict>
@@ -85,20 +81,27 @@
       <key>public.kern2.l</key>
       <integer>75</integer>
     </dict>
+    <key>public.kern1.f</key>
+    <dict>
+      <key>public.kern2.l</key>
+      <integer>0</integer>
+      <key>public.kern2.v</key>
+      <integer>50</integer>
+    </dict>
     <key>public.kern1.l</key>
     <dict>
       <key>public.kern2.l</key>
       <integer>25</integer>
     </dict>
-    <key>q</key>
-    <dict>
-      <key>j</key>
-      <integer>125</integer>
-    </dict>
-    <key>r</key>
+    <key>public.kern1.r</key>
     <dict>
       <key>public.kern2.v</key>
       <integer>25</integer>
+    </dict>
+    <key>q</key>
+    <dict>
+      <key>public.kern2.j</key>
+      <integer>125</integer>
     </dict>
   </dict>
 </plist>
