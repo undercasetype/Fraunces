@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.7.27
+Fontbakery version: 0.7.29
 
 <details>
 <summary><b>[14] Family checks</b></summary>
@@ -10,8 +10,7 @@ Fontbakery version: 0.7.27
 * [com.google.fonts/check/fontbakery_version](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version)
 
 * ℹ **INFO** fontbakery (0.7.29)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.7.27
-  LATEST:    0.7.29
+  INSTALLED: 0.7.29 (latest)
 
 * 🍞 **PASS** Font Bakery is up-to-date
 
@@ -88,7 +87,7 @@ https://github.com/googlefonts/fontbakery/blob/master/prebuilt/workarounds
 
 </pre>
 
-* 🍞 **PASS** ftxvalidator is available at /Library/Apple/usr/bin/ftxvalidator
+* 🍞 **PASS** ftxvalidator is available at /usr/local/bin/ftxvalidator
 
 </details>
 <details>
@@ -216,28 +215,7 @@ field, using bits 0 and 5.
 <br>
 </details>
 <details>
-<summary><b>[161] Fraunces-Italic[SOFT,WONK,opsz,wght].ttf</b></summary>
-<details>
-<summary>🔥 <b>FAIL:</b> Ensure VFs do not contain opsz or ital axes. </summary>
-
-* [com.google.fonts/check/varfont/unsupported_axes](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/unsupported_axes)
-<pre>--- Rationale ---
-
-The &#x27;ital&#x27; axis is not supported yet in Google Chrome. The &#x27;opsz&#x27; axis also has
-patchy support.
-
-For the time being, we need to ensure that VFs do not contain either of these
-axes. Once browser support is better, we can deprecate this check.
-
-For more info regarding ital and opsz browser support, see:
-https://arrowtype.github.io/vf-slnt-test/
-
-
-</pre>
-
-* 🔥 **FAIL** The "opsz" axis is not yet well supported on Google Chrome. [code: unsupported-opsz]
-
-</details>
+<summary><b>[163] Fraunces-Italic[SOFT,WONK,opsz,wght].ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
 
@@ -247,6 +225,10 @@ https://arrowtype.github.io/vf-slnt-test/
 All ligatures in a font must have corresponding caret (text cursor) positions
 defined in the GDEF table, otherwhise, users may experience issues with caret
 rendering.
+
+If using GlyphsApp, ligature carets can be set directly on canvas by accessing
+the `Glyph -&gt; Set Anchors` menu option or by pressing the `Cmd+U` keyboard
+shortcut.
 
 
 </pre>
@@ -279,24 +261,18 @@ https://github.com/impallari/Raleway/issues/14).
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Checking with ftxvalidator.</summary>
+<summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names?</summary>
 
-* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
+* [com.google.fonts/check/whitespace_glyphnames](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames)
+<pre>--- Rationale ---
 
-* 🍞 **PASS** ftxvalidator passed this file
-* ⚠ **WARN** stderr output from ftxvalidator:
-b'dyld: warning, LC_RPATH @executable_path/../Frameworks in /Library/Frameworks/FontToolbox.framework/Versions/A/FontToolbox being ignored in restricted program because of @executable_path (Codesign main executable with Library Validation to allow @ paths)\n' [code: stderr]
+This check enforces adherence to recommended whitespace (codepoints 0020 and
+00A0) glyph names according to the Adobe Glyph List.
 
-</details>
-<details>
-<summary>⚠ <b>WARN:</b> Checking with ots-sanitize.</summary>
 
-* [com.google.fonts/check/ots](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ots)
+</pre>
 
-* ⚠ **WARN** ots-sanitize passed this file, however warnings were printed:
-
-WARNING: STAT: nameID out of range: 2
-
+* ⚠ **WARN** Glyph 0x0020 is called "uni0020": Change to "space" [code: not-recommended-0020]
 
 </details>
 <details>
@@ -307,12 +283,12 @@ WARNING: STAT: nameID out of range: 2
 
 The snippet of HTML in the DESCRIPTION.en_us.html file is added to the font
 family webpage on the Google Fonts website. For that reason, all hyperlinks in
-it must be properly working. 
+it must be properly working.
 
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: description
+* 💤 **SKIP** Unfulfilled Conditions: description_html
 
 </details>
 <details>
@@ -335,7 +311,7 @@ any other git-based version control service.
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: description
+* 💤 **SKIP** Unfulfilled Conditions: description_html
 
 </details>
 <details>
@@ -344,17 +320,19 @@ any other git-based version control service.
 * [com.google.fonts/check/description/valid_html](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/valid_html)
 <pre>--- Rationale ---
 
-When packaging families for being pushed to the `google/fonts` git repo, if
-there is no DESCRIPTION.en_us.html file, some older versions of the
-`add_font.py` tool insert a dummy description file which contains invalid html.
+Sometimes people write malformed HTML markup. This check should ensure the file
+is good.
 
-This file needs to either be replaced with an existing description file or
-edited by hand.
+Additionally, when packaging families for being pushed to the `google/fonts`
+git repo, if there is no DESCRIPTION.en_us.html file, some older versions of
+the `add_font.py` tool insert a dummy description file which contains invalid
+html. This file needs to either be replaced with an existing description file
+or edited by hand.
 
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: descfile
+* 💤 **SKIP** Unfulfilled Conditions: description
 
 </details>
 <details>
@@ -405,7 +383,7 @@ malformed.
 
 </pre>
 
-* 💤 **SKIP** Font family at '../fonts' lacks a METADATA.pb file.
+* 💤 **SKIP** Font family at '../fonts' lacks a METADATA.pb file. [code: file-not-found]
 
 </details>
 <details>
@@ -474,6 +452,28 @@ match exactly those declared on the METADATA.pb file.
 
 Also, to avoid confusion, we expect that font files (other than statics) are
 not placed on subdirectories.
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Ensure METADATA.pb category field is valid.</summary>
+
+* [com.google.fonts/check/metadata/category](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/category)
+<pre>--- Rationale ---
+
+There are only five acceptable values for the category field in a METADATA.pb
+file:
+- MONOSPACE
+- SANS_SERIF
+- SERIF
+- DISPLAY
+- HANDWRITING
+
+This check is meant to avoid typos in this field.
 
 
 </pre>
@@ -1059,6 +1059,21 @@ result in WARNs.
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Ensure indic fonts have the Indian Rupee Sign glyph. </summary>
+
+* [com.google.fonts/check/rupee](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/rupee)
+<pre>--- Rationale ---
+
+Per Bureau of Indian Standards every font supporting one of the official Indian
+languages needs to include Unicode Character “₹” (U+20B9) Indian Rupee Sign.
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: is_indic_font
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> Is the CFF subr/gsubr call depth > 10?</summary>
 
 * [com.adobe.fonts/check/cff_call_depth](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/cff.html#com.adobe.fonts/check/cff_call_depth)
@@ -1304,8 +1319,8 @@ of hinted versus unhinted font files.
 
 	|  | ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 412.7kb |
-	| Hinted Size | 412.3kb |
+	| Dehinted Size | 415.9kb |
+	| Hinted Size | 415.5kb |
 	| Increase | -428 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
@@ -1415,7 +1430,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [prep, GSUB, gasp, loca, GPOS, DSIG]
+* ℹ **INFO** This font contains the following optional tables [GPOS, prep, GSUB, gasp, loca, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -1726,20 +1741,12 @@ Even though the OpenType spec allows unitsPerEm to be any value between 16 and
 The spec suggests usage of powers of two in order to get some performance
 improvements on legacy renderers, so those values are acceptable.
 
-But value of 500 or 1000 are also acceptable, with the added benefit that it
+But values of 500 or 1000 are also acceptable, with the added benefit that it
 makes upm math easier for designers, while the performance hit of not using a
 power of two is most likely negligible nowadays.
 
-Another acceptable value is 2000. Since TT outlines are all integers (no
-floats), then instances in a VF suffer rounding compromises, and therefore a
-1000 UPM is too small because it forces too many such compromises.
-
-Therefore 2000 is a good &#x27;new VF standard&#x27;, because 2000 is a simple 2x
-conversion from existing fonts drawn on a 1000 UPM, and anyone who knows what
-10 units can do for 1000 UPM will know what 20 units does too.
-
-Additionally, values above 2048 would result in filesize increases with not
-much added benefit.
+Additionally, values above 2048 would likely result in unreasonable filesize
+increases.
 
 
 </pre>
@@ -2087,6 +2094,27 @@ should be checked in.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Ensure VFs do not contain slnt or ital axes. </summary>
+
+* [com.google.fonts/check/varfont/unsupported_axes](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/unsupported_axes)
+<pre>--- Rationale ---
+
+The &#x27;ital&#x27; axis is not supported yet in Google Chrome. The &#x27;opsz&#x27; axis also has
+patchy support.
+
+For the time being, we need to ensure that VFs do not contain either of these
+axes. Once browser support is better, we can deprecate this check.
+
+For more info regarding ital and opsz browser support, see:
+https://arrowtype.github.io/vf-slnt-test/
+
+
+</pre>
+
+* 🍞 **PASS** Looks good!
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table records must not have trailing spaces.</summary>
 
 * [com.google.fonts/check/name/trailing_spaces](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces)
@@ -2148,6 +2176,22 @@ take care of their own situation.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Checking with ftxvalidator.</summary>
+
+* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
+
+* 🍞 **PASS** ftxvalidator passed this file
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking with ots-sanitize.</summary>
+
+* [com.google.fonts/check/ots](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ots)
+
+* 🍞 **PASS** ots-sanitize passed this file
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Font contains .notdef as first glyph?</summary>
 
 * [com.google.fonts/check/mandatory_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs)
@@ -2174,14 +2218,6 @@ space glyph. This might have been relevant for applications on MacOS 9.
 * [com.google.fonts/check/whitespace_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs)
 
 * 🍞 **PASS** Font contains glyphs for whitespace characters.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Font has **proper** whitespace glyph names?</summary>
-
-* [com.google.fonts/check/whitespace_glyphnames](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames)
-
-* 🍞 **PASS** Font has **proper** whitespace glyph names.
 
 </details>
 <details>
@@ -2661,53 +2697,7 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 <br>
 </details>
 <details>
-<summary><b>[161] Fraunces[SOFT,WONK,opsz,wght].ttf</b></summary>
-<details>
-<summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
-
-* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
-<pre>--- Rationale ---
-
-We need to check names are not already used, and today the best place to check
-that is http://namecheck.fontdata.com
-
-
-</pre>
-
-* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
-		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
-
-		You can exclude this check with the command line option:
-		-x com.google.fonts/check/fontdata_namecheck
-
-		Or you can wait until the service is available again.
-		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
-
-		Original error message:
-		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Ensure VFs do not contain opsz or ital axes. </summary>
-
-* [com.google.fonts/check/varfont/unsupported_axes](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/unsupported_axes)
-<pre>--- Rationale ---
-
-The &#x27;ital&#x27; axis is not supported yet in Google Chrome. The &#x27;opsz&#x27; axis also has
-patchy support.
-
-For the time being, we need to ensure that VFs do not contain either of these
-axes. Once browser support is better, we can deprecate this check.
-
-For more info regarding ital and opsz browser support, see:
-https://arrowtype.github.io/vf-slnt-test/
-
-
-</pre>
-
-* 🔥 **FAIL** The "opsz" axis is not yet well supported on Google Chrome. [code: unsupported-opsz]
-
-</details>
+<summary><b>[163] Fraunces[SOFT,WONK,opsz,wght].ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature?</summary>
 
@@ -2717,6 +2707,10 @@ https://arrowtype.github.io/vf-slnt-test/
 All ligatures in a font must have corresponding caret (text cursor) positions
 defined in the GDEF table, otherwhise, users may experience issues with caret
 rendering.
+
+If using GlyphsApp, ligature carets can be set directly on canvas by accessing
+the `Glyph -&gt; Set Anchors` menu option or by pressing the `Cmd+U` keyboard
+shortcut.
 
 
 </pre>
@@ -2777,13 +2771,18 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Checking with ftxvalidator.</summary>
+<summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names?</summary>
 
-* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
+* [com.google.fonts/check/whitespace_glyphnames](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames)
+<pre>--- Rationale ---
 
-* 🍞 **PASS** ftxvalidator passed this file
-* ⚠ **WARN** stderr output from ftxvalidator:
-b'dyld: warning, LC_RPATH @executable_path/../Frameworks in /Library/Frameworks/FontToolbox.framework/Versions/A/FontToolbox being ignored in restricted program because of @executable_path (Codesign main executable with Library Validation to allow @ paths)\n' [code: stderr]
+This check enforces adherence to recommended whitespace (codepoints 0020 and
+00A0) glyph names according to the Adobe Glyph List.
+
+
+</pre>
+
+* ⚠ **WARN** Glyph 0x0020 is called "uni0020": Change to "space" [code: not-recommended-0020]
 
 </details>
 <details>
@@ -2813,12 +2812,12 @@ If a variable font has a &#x27;opsz&#x27; (Optical Size) axis, then the coordina
 
 The snippet of HTML in the DESCRIPTION.en_us.html file is added to the font
 family webpage on the Google Fonts website. For that reason, all hyperlinks in
-it must be properly working. 
+it must be properly working.
 
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: description
+* 💤 **SKIP** Unfulfilled Conditions: description_html
 
 </details>
 <details>
@@ -2841,7 +2840,7 @@ any other git-based version control service.
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: description
+* 💤 **SKIP** Unfulfilled Conditions: description_html
 
 </details>
 <details>
@@ -2850,17 +2849,19 @@ any other git-based version control service.
 * [com.google.fonts/check/description/valid_html](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/valid_html)
 <pre>--- Rationale ---
 
-When packaging families for being pushed to the `google/fonts` git repo, if
-there is no DESCRIPTION.en_us.html file, some older versions of the
-`add_font.py` tool insert a dummy description file which contains invalid html.
+Sometimes people write malformed HTML markup. This check should ensure the file
+is good.
 
-This file needs to either be replaced with an existing description file or
-edited by hand.
+Additionally, when packaging families for being pushed to the `google/fonts`
+git repo, if there is no DESCRIPTION.en_us.html file, some older versions of
+the `add_font.py` tool insert a dummy description file which contains invalid
+html. This file needs to either be replaced with an existing description file
+or edited by hand.
 
 
 </pre>
 
-* 💤 **SKIP** Unfulfilled Conditions: descfile
+* 💤 **SKIP** Unfulfilled Conditions: description
 
 </details>
 <details>
@@ -2911,7 +2912,7 @@ malformed.
 
 </pre>
 
-* 💤 **SKIP** Font family at '../fonts' lacks a METADATA.pb file.
+* 💤 **SKIP** Font family at '../fonts' lacks a METADATA.pb file. [code: file-not-found]
 
 </details>
 <details>
@@ -2980,6 +2981,28 @@ match exactly those declared on the METADATA.pb file.
 
 Also, to avoid confusion, we expect that font files (other than statics) are
 not placed on subdirectories.
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: family_metadata
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Ensure METADATA.pb category field is valid.</summary>
+
+* [com.google.fonts/check/metadata/category](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/category)
+<pre>--- Rationale ---
+
+There are only five acceptable values for the category field in a METADATA.pb
+file:
+- MONOSPACE
+- SANS_SERIF
+- SERIF
+- DISPLAY
+- HANDWRITING
+
+This check is meant to avoid typos in this field.
 
 
 </pre>
@@ -3565,6 +3588,21 @@ result in WARNs.
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Ensure indic fonts have the Indian Rupee Sign glyph. </summary>
+
+* [com.google.fonts/check/rupee](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/rupee)
+<pre>--- Rationale ---
+
+Per Bureau of Indian Standards every font supporting one of the official Indian
+languages needs to include Unicode Character “₹” (U+20B9) Indian Rupee Sign.
+
+
+</pre>
+
+* 💤 **SKIP** Unfulfilled Conditions: is_indic_font
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> Is the CFF subr/gsubr call depth > 10?</summary>
 
 * [com.adobe.fonts/check/cff_call_depth](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/cff.html#com.adobe.fonts/check/cff_call_depth)
@@ -3753,9 +3791,9 @@ of hinted versus unhinted font files.
 
 	|  | ../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 364.7kb |
-	| Hinted Size | 364.3kb |
-	| Increase | -448 bytes |
+	| Dehinted Size | 364.8kb |
+	| Hinted Size | 364.4kb |
+	| Increase | -444 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -3864,7 +3902,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [prep, GSUB, gasp, loca, GPOS, DSIG]
+* ℹ **INFO** This font contains the following optional tables [GPOS, prep, GSUB, gasp, loca, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -4175,20 +4213,12 @@ Even though the OpenType spec allows unitsPerEm to be any value between 16 and
 The spec suggests usage of powers of two in order to get some performance
 improvements on legacy renderers, so those values are acceptable.
 
-But value of 500 or 1000 are also acceptable, with the added benefit that it
+But values of 500 or 1000 are also acceptable, with the added benefit that it
 makes upm math easier for designers, while the performance hit of not using a
 power of two is most likely negligible nowadays.
 
-Another acceptable value is 2000. Since TT outlines are all integers (no
-floats), then instances in a VF suffer rounding compromises, and therefore a
-1000 UPM is too small because it forces too many such compromises.
-
-Therefore 2000 is a good &#x27;new VF standard&#x27;, because 2000 is a simple 2x
-conversion from existing fonts drawn on a 1000 UPM, and anyone who knows what
-10 units can do for 1000 UPM will know what 20 units does too.
-
-Additionally, values above 2048 would result in filesize increases with not
-much added benefit.
+Additionally, values above 2048 would likely result in unreasonable filesize
+increases.
 
 
 </pre>
@@ -4227,6 +4257,21 @@ characters.
 </pre>
 
 * 🍞 **PASS** All copyright notice name entries on the 'name' table are shorter than 500 characters.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Familyname must be unique according to namecheck.fontdata.com</summary>
+
+* [com.google.fonts/check/fontdata_namecheck](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck)
+<pre>--- Rationale ---
+
+We need to check names are not already used, and today the best place to check
+that is http://namecheck.fontdata.com
+
+
+</pre>
+
+* 🍞 **PASS** Font familyname seems to be unique.
 
 </details>
 <details>
@@ -4496,6 +4541,27 @@ should be checked in.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Ensure VFs do not contain slnt or ital axes. </summary>
+
+* [com.google.fonts/check/varfont/unsupported_axes](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/varfont/unsupported_axes)
+<pre>--- Rationale ---
+
+The &#x27;ital&#x27; axis is not supported yet in Google Chrome. The &#x27;opsz&#x27; axis also has
+patchy support.
+
+For the time being, we need to ensure that VFs do not contain either of these
+axes. Once browser support is better, we can deprecate this check.
+
+For more info regarding ital and opsz browser support, see:
+https://arrowtype.github.io/vf-slnt-test/
+
+
+</pre>
+
+* 🍞 **PASS** Looks good!
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Name table records must not have trailing spaces.</summary>
 
 * [com.google.fonts/check/name/trailing_spaces](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/name/trailing_spaces)
@@ -4557,6 +4623,14 @@ take care of their own situation.
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Checking with ftxvalidator.</summary>
+
+* [com.google.fonts/check/ftxvalidator](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ftxvalidator)
+
+* 🍞 **PASS** ftxvalidator passed this file
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Checking with ots-sanitize.</summary>
 
 * [com.google.fonts/check/ots](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/ots)
@@ -4591,14 +4665,6 @@ space glyph. This might have been relevant for applications on MacOS 9.
 * [com.google.fonts/check/whitespace_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs)
 
 * 🍞 **PASS** Font contains glyphs for whitespace characters.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Font has **proper** whitespace glyph names?</summary>
-
-* [com.google.fonts/check/whitespace_glyphnames](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames)
-
-* 🍞 **PASS** Font has **proper** whitespace glyph names.
 
 </details>
 <details>
@@ -5120,5 +5186,5 @@ On the &#x27;wdth&#x27; (Width) axis, the valid coordinate range is 1-1000
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 2 | 9 | 155 | 15 | 154 | 0 |
-| 0% | 1% | 3% | 46% | 4% | 46% | 0% |
+| 0 | 0 | 8 | 159 | 15 | 158 | 0 |
+| 0% | 0% | 2% | 47% | 4% | 46% | 0% |
