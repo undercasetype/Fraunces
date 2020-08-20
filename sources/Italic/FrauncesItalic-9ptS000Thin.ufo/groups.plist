@@ -83,7 +83,6 @@
     <array>
       <string>H</string>
       <string>I</string>
-      <string>M</string>
       <string>Hbar</string>
       <string>Hbrevebelow</string>
       <string>Hcircumflex</string>
@@ -102,7 +101,6 @@
       <string>Imacron</string>
       <string>Iogonek</string>
       <string>Itilde</string>
-      <string>Mdotbelow</string>
       <string>NJ</string>
     </array>
     <key>public.kern1.J</key>
@@ -129,6 +127,11 @@
       <string>Ldotbelow</string>
       <string>Lmacronbelow</string>
       <string>Lslash</string>
+    </array>
+    <key>public.kern1.M</key>
+    <array>
+      <string>M</string>
+      <string>Mdotbelow</string>
     </array>
     <key>public.kern1.N</key>
     <array>
@@ -361,6 +364,16 @@
       <string>gcommaaccent</string>
       <string>gdotaccent</string>
       <string>gmacron</string>
+    </array>
+    <key>public.kern1.guilsinglleft</key>
+    <array>
+      <string>guillemetleft</string>
+      <string>guilsinglleft</string>
+    </array>
+    <key>public.kern1.guilsinglright</key>
+    <array>
+      <string>guillemetright</string>
+      <string>guilsinglright</string>
     </array>
     <key>public.kern1.i</key>
     <array>
@@ -748,11 +761,14 @@
       <string>Jacute</string>
       <string>Jcircumflex</string>
     </array>
+    <key>public.kern2.M</key>
+    <array>
+      <string>M</string>
+      <string>Mdotbelow</string>
+    </array>
     <key>public.kern2.N</key>
     <array>
       <string>Eng</string>
-      <string>M</string>
-      <string>Mdotbelow</string>
       <string>N</string>
       <string>Nacute</string>
       <string>Ncaron</string>
@@ -949,6 +965,16 @@
       <string>gcommaaccent</string>
       <string>gdotaccent</string>
       <string>gmacron</string>
+    </array>
+    <key>public.kern2.guilsinglleft</key>
+    <array>
+      <string>guillemetleft</string>
+      <string>guilsinglleft</string>
+    </array>
+    <key>public.kern2.guilsinglright</key>
+    <array>
+      <string>guillemetright</string>
+      <string>guilsinglright</string>
     </array>
     <key>public.kern2.j</key>
     <array>
