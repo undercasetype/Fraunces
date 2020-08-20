@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oslash" format="2">
-  <advance width="1233"/>
+  <advance width="1206"/>
   <unicode hex="00F8"/>
   <anchor x="761" y="1000" name="center"/>
   <outline>
@@ -28,7 +28,7 @@
       <point x="60" y="-72"/>
       <point x="62" y="-96"/>
     </contour>
-    <component base="o" xOffset="6"/>
+    <component base="o"/>
   </outline>
   <lib>
     <dict>

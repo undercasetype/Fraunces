@@ -60,7 +60,9 @@
       <integer>1</integer>
     </dict>
     <key>com.commercialtype.futureproof.allowedSuffixes</key>
-    <array/>
+    <array>
+      <string>alt</string>
+    </array>
     <key>com.commercialtype.futureproof.avoidBreakingSections</key>
     <integer>0</integer>
     <key>com.commercialtype.futureproof.includeAltsInAlphabeticalOrder</key>
