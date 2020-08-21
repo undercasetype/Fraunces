@@ -1,3 +1,13 @@
+# Phaedra Charles 04-28-2020
+
+# Script to generate comparisons across multiple masters, showing rates of 
+# change in width for every glyph. Any glyph that falls outside of an average "meanTotals" 
+# is flagged as possibly expanding or contracting at an undesirable rate.
+
+# Script is executed by running "glyphReport()" function, with "filterSensitivity" a percentage of change.
+# Script can only compare a master against another master. Future version could include comparisons
+# across multiple masters.
+
 from vanilla.dialogs import *
 
 meanTotals = {}

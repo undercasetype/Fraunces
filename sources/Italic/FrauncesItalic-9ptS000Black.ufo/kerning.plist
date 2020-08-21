@@ -510,6 +510,10 @@
       <integer>-100</integer>
       <key>public.kern2.g</key>
       <integer>-100</integer>
+      <key>public.kern2.guilsinglleft</key>
+      <integer>0</integer>
+      <key>public.kern2.guilsinglright</key>
+      <integer>0</integer>
       <key>public.kern2.l</key>
       <integer>-50</integer>
       <key>public.kern2.l.alt</key>
@@ -582,6 +586,8 @@
       <integer>-100</integer>
       <key>public.kern2.g</key>
       <integer>-100</integer>
+      <key>public.kern2.guilsinglright</key>
+      <integer>0</integer>
       <key>public.kern2.l.alt</key>
       <integer>50</integer>
       <key>public.kern2.o</key>
@@ -615,6 +621,8 @@
       <integer>60</integer>
       <key>public.kern2.a</key>
       <integer>-100</integer>
+      <key>public.kern2.guilsinglright</key>
+      <integer>0</integer>
       <key>public.kern2.l.alt</key>
       <integer>100</integer>
       <key>public.kern2.n</key>
@@ -829,6 +837,20 @@
       <integer>70</integer>
       <key>x</key>
       <integer>-20</integer>
+    </dict>
+    <key>public.kern1.guilsinglleft</key>
+    <dict>
+      <key>public.kern2.T</key>
+      <integer>0</integer>
+      <key>public.kern2.V</key>
+      <integer>0</integer>
+      <key>public.kern2.Y</key>
+      <integer>0</integer>
+    </dict>
+    <key>public.kern1.guilsinglright</key>
+    <dict>
+      <key>public.kern2.T</key>
+      <integer>0</integer>
     </dict>
     <key>public.kern1.i</key>
     <dict>

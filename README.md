@@ -4,7 +4,7 @@
 
 Fraunces is a display, "Old Style" soft-serif typeface inspired by the mannerisms of early 20th century typefaces such as [Windsor](http://fontreviewjournal.com/windsor/), Souvenir, and the Cooper Series.
 
-This typeface family is still under development, and will be ready for initial release by early 2020.
+This typeface family is still under development, and will be coming soon to Google Fonts.
 
 ## Variable Axes
 
@@ -52,25 +52,4 @@ A binary axis that subsitutes `wonk` characters for more normalized characters, 
 
 From terminal, run the build script at `sources/build.sh`. Fonts output to `fonts/`
 
-To Do: More detailed explanation, dependencies.
-
-### Additional Production Scripts
-
-In 	`production/scripts/` are additional Python scripts used in the production of this font. 
-
-#### Interpolating Masters
-
-The script `production/scripts/ScaleandInterpolate.py` was used to generate the following masters:
-
-– 144pt S100 Light
-– 144pt S100 Black
-– 9pt S000 Light
-– 9pt S000 Black
-
-The recipes for those masters are to be found in `sources/ScaleAndInterpolate_Recipes.xlsx`. 
-
-To Do: More detailed explanation, screenshot examples of designspace, how script works. Tool for creating `wdth` axis?
-
-#### Mounting Accents
-
-GlyphConstruction was used in the mounting of accents. All GlyphConstruction files are located at `production/accents/`. 
+[@arrowtype's Recursive project](https://github.com/arrowtype/recursive) has a much more thorough breakdown of how to set up a virtual environment and install requirements.
