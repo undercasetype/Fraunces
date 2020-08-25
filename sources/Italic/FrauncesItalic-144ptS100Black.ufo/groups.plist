@@ -69,6 +69,12 @@
       <string>Etilde</string>
       <string>OE</string>
     </array>
+    <key>public.kern1.Euro</key>
+    <array>
+      <string>Euro</string>
+      <string>cedi</string>
+      <string>colonmonetary</string>
+    </array>
     <key>public.kern1.G</key>
     <array>
       <string>G</string>
@@ -365,6 +371,11 @@
       <string>gdotaccent</string>
       <string>gmacron</string>
     </array>
+    <key>public.kern1.greater</key>
+    <array>
+      <string>greater</string>
+      <string>greaterequal</string>
+    </array>
     <key>public.kern1.guilsinglleft</key>
     <array>
       <string>guillemetleft</string>
@@ -480,6 +491,28 @@
       <string>quotedblleft</string>
       <string>quoteleft</string>
     </array>
+    <key>public.kern1.less</key>
+    <array>
+      <string>less</string>
+      <string>lessequal</string>
+    </array>
+    <key>public.kern1.minus</key>
+    <array>
+      <string>divide</string>
+      <string>equal</string>
+      <string>minus</string>
+      <string>plus</string>
+      <string>notequal</string>
+      <string>logicalnot</string>
+      <string>plusminus</string>
+    </array>
+    <key>public.kern1.minute</key>
+    <array>
+      <string>minute</string>
+      <string>primedblmod</string>
+      <string>primemod</string>
+      <string>second</string>
+    </array>
     <key>public.kern1.n</key>
     <array>
       <string>h</string>
@@ -586,6 +619,11 @@
       <string>sdotbelow</string>
       <string>sdotbelowdotaccent</string>
     </array>
+    <key>public.kern1.sterling</key>
+    <array>
+      <string>lira</string>
+      <string>sterling</string>
+    </array>
     <key>public.kern1.t</key>
     <array>
       <string>t</string>
@@ -672,6 +710,13 @@
       <string>Aring</string>
       <string>Aringacute</string>
       <string>Atilde</string>
+    </array>
+    <key>public.kern2.Euro</key>
+    <array>
+      <string>Euro</string>
+      <string>cedi</string>
+      <string>colonmonetary</string>
+      <string>guarani</string>
     </array>
     <key>public.kern2.H</key>
     <array>
@@ -966,6 +1011,11 @@
       <string>gdotaccent</string>
       <string>gmacron</string>
     </array>
+    <key>public.kern2.greater</key>
+    <array>
+      <string>greater</string>
+      <string>greaterequal</string>
+    </array>
     <key>public.kern2.guilsinglleft</key>
     <array>
       <string>guillemetleft</string>
@@ -1024,6 +1074,28 @@
     <array>
       <string>quotedblleft</string>
       <string>quoteleft</string>
+    </array>
+    <key>public.kern2.less</key>
+    <array>
+      <string>less</string>
+      <string>lessequal</string>
+    </array>
+    <key>public.kern2.minus</key>
+    <array>
+      <string>divide</string>
+      <string>equal</string>
+      <string>minus</string>
+      <string>plus</string>
+      <string>notequal</string>
+      <string>logicalnot</string>
+      <string>plusminus</string>
+    </array>
+    <key>public.kern2.minute</key>
+    <array>
+      <string>minute</string>
+      <string>primedblmod</string>
+      <string>primemod</string>
+      <string>second</string>
     </array>
     <key>public.kern2.n</key>
     <array>
@@ -1177,6 +1249,11 @@
       <string>sdotaccent</string>
       <string>sdotbelow</string>
       <string>sdotbelowdotaccent</string>
+    </array>
+    <key>public.kern2.sterling</key>
+    <array>
+      <string>lira</string>
+      <string>sterling</string>
     </array>
     <key>public.kern2.t</key>
     <array>
