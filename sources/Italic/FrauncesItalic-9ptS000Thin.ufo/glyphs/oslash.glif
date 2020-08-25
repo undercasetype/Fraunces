@@ -1,34 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oslash" format="2">
-  <advance width="939"/>
+  <advance width="956"/>
   <unicode hex="00F8"/>
-  <anchor x="627" y="1000" name="center"/>
+  <anchor x="620" y="1000" name="center"/>
   <outline>
     <contour>
-      <point x="23" y="-66" type="curve" smooth="yes"/>
-      <point x="35" y="-71"/>
-      <point x="47" y="-69"/>
-      <point x="57" y="-57" type="curve" smooth="yes"/>
-      <point x="188" y="95" type="line"/>
-      <point x="201" y="108" type="line"/>
-      <point x="774" y="777" type="line"/>
-      <point x="786" y="790" type="line"/>
-      <point x="917" y="944" type="line" smooth="yes"/>
-      <point x="928" y="956"/>
-      <point x="931" y="969"/>
-      <point x="921" y="976" type="curve" smooth="yes"/>
-      <point x="912" y="980"/>
-      <point x="897" y="976"/>
-      <point x="884" y="962" type="curve" smooth="yes"/>
-      <point x="759" y="816" type="line"/>
-      <point x="743" y="798" type="line"/>
-      <point x="172" y="134" type="line"/>
-      <point x="160" y="120" type="line"/>
-      <point x="26" y="-36" type="line" smooth="yes"/>
-      <point x="15" y="-47"/>
-      <point x="15" y="-61"/>
+      <point x="16" y="-66" type="curve" smooth="yes"/>
+      <point x="28" y="-71"/>
+      <point x="40" y="-69"/>
+      <point x="50" y="-57" type="curve" smooth="yes"/>
+      <point x="181" y="95" type="line"/>
+      <point x="194" y="108" type="line"/>
+      <point x="767" y="777" type="line"/>
+      <point x="779" y="790" type="line"/>
+      <point x="910" y="944" type="line" smooth="yes"/>
+      <point x="921" y="956"/>
+      <point x="924" y="969"/>
+      <point x="914" y="976" type="curve" smooth="yes"/>
+      <point x="905" y="980"/>
+      <point x="890" y="976"/>
+      <point x="877" y="962" type="curve" smooth="yes"/>
+      <point x="752" y="816" type="line"/>
+      <point x="736" y="798" type="line"/>
+      <point x="165" y="134" type="line"/>
+      <point x="153" y="120" type="line"/>
+      <point x="19" y="-36" type="line" smooth="yes"/>
+      <point x="8" y="-47"/>
+      <point x="8" y="-61"/>
     </contour>
-    <component base="o" xOffset="7"/>
+    <component base="o"/>
   </outline>
   <lib>
     <dict>
