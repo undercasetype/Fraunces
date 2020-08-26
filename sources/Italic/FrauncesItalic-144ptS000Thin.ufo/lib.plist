@@ -2,6 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>com.commercialtype.futureproof.allowedSuffixes</key>
+    <array>
+      <string>alt</string>
+    </array>
+    <key>com.commercialtype.futureproof.avoidBreakingSections</key>
+    <integer>0</integer>
+    <key>com.commercialtype.futureproof.includeAltsInAlphabeticalOrder</key>
+    <false/>
+    <key>com.commercialtype.futureproof.italicAngle</key>
+    <real>0.0</real>
+    <key>com.commercialtype.futureproof.lineHeight</key>
+    <real>100.0</real>
+    <key>com.commercialtype.futureproof.pageMargins</key>
+    <array>
+      <real>50.0</real>
+      <real>50.0</real>
+      <real>100.0</real>
+      <real>100.0</real>
+    </array>
+    <key>com.commercialtype.futureproof.pageSize</key>
+    <string>screen</string>
+    <key>com.commercialtype.futureproof.pointSize</key>
+    <real>48.0</real>
+    <key>com.commercialtype.futureproof.showWarningsForCollisions</key>
+    <integer>0</integer>
+    <key>com.commercialtype.futureproof.showWarningsForHalfWidthKerning</key>
+    <integer>1</integer>
+    <key>com.commercialtype.futureproof.showWarningsForRedundantExceptions</key>
+    <integer>0</integer>
+    <key>com.commercialtype.futureproof.sortMethod</key>
+    <string>Alphabetic</string>
     <key>com.defcon.sortDescriptor</key>
     <array>
       <dict>
@@ -1974,6 +2005,7 @@
       <string>f_f_l.alt</string>
       <string>dzcaron.alt</string>
       <string>lj.alt</string>
+      <string>Dotlessi</string>
     </array>
     <key>public.postscriptNames</key>
     <dict/>

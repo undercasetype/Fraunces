@@ -47,8 +47,14 @@
       <integer>-20</integer>
       <key>public.kern2.Z</key>
       <integer>-40</integer>
+      <key>public.kern2.a</key>
+      <integer>-75</integer>
+      <key>public.kern2.g</key>
+      <integer>-50</integer>
+      <key>public.kern2.o</key>
+      <integer>-50</integer>
       <key>public.kern2.period</key>
-      <integer>-60</integer>
+      <integer>-100</integer>
     </dict>
     <key>Germandbls</key>
     <dict>
@@ -143,10 +149,6 @@
     <dict>
       <key>backslash</key>
       <integer>-50</integer>
-      <key>public.kern2.j</key>
-      <integer>-35</integer>
-      <key>public.kern2.l</key>
-      <integer>-20</integer>
       <key>public.kern2.period</key>
       <integer>-40</integer>
       <key>public.kern2.s</key>
@@ -305,8 +307,6 @@
       <integer>-30</integer>
       <key>public.kern2.l.alt</key>
       <integer>-20</integer>
-      <key>public.kern2.n</key>
-      <integer>-30</integer>
       <key>public.kern2.v.alt</key>
       <integer>-60</integer>
       <key>public.kern2.z</key>
@@ -556,7 +556,7 @@
       <key>public.kern2.rightquote</key>
       <integer>-60</integer>
       <key>public.kern2.v.alt</key>
-      <integer>-70</integer>
+      <integer>-30</integer>
       <key>registered</key>
       <integer>-40</integer>
       <key>trademark</key>
@@ -569,7 +569,7 @@
       <key>endash</key>
       <integer>-50</integer>
       <key>public.kern2.v.alt</key>
-      <integer>-40</integer>
+      <integer>-20</integer>
     </dict>
     <key>public.kern1.N</key>
     <dict>
@@ -580,7 +580,7 @@
       <key>public.kern2.period</key>
       <integer>-50</integer>
       <key>public.kern2.v.alt</key>
-      <integer>-50</integer>
+      <integer>-20</integer>
     </dict>
     <key>public.kern1.O</key>
     <dict>
@@ -647,7 +647,7 @@
       <key>public.kern2.period</key>
       <integer>-40</integer>
       <key>public.kern2.v.alt</key>
-      <integer>-70</integer>
+      <integer>-20</integer>
     </dict>
     <key>public.kern1.T</key>
     <dict>
@@ -706,7 +706,7 @@
       <key>public.kern2.v</key>
       <integer>-60</integer>
       <key>public.kern2.v.alt</key>
-      <integer>-90</integer>
+      <integer>-70</integer>
       <key>public.kern2.z</key>
       <integer>-70</integer>
       <key>slash</key>
@@ -744,6 +744,8 @@
       <integer>-50</integer>
       <key>public.kern2.l</key>
       <integer>-45</integer>
+      <key>public.kern2.l.alt</key>
+      <integer>50</integer>
       <key>public.kern2.n</key>
       <integer>-55</integer>
       <key>public.kern2.o</key>
@@ -781,6 +783,8 @@
       <integer>-60</integer>
       <key>public.kern2.A</key>
       <integer>-100</integer>
+      <key>public.kern2.T</key>
+      <integer>25</integer>
       <key>public.kern2.a</key>
       <integer>-100</integer>
       <key>public.kern2.g</key>
@@ -844,6 +848,8 @@
       <integer>-50</integer>
       <key>public.kern2.l</key>
       <integer>-40</integer>
+      <key>public.kern2.l.alt</key>
+      <integer>25</integer>
       <key>public.kern2.leftquote</key>
       <integer>40</integer>
       <key>public.kern2.n</key>
@@ -886,8 +892,6 @@
       <integer>-120</integer>
       <key>public.kern2.l.alt</key>
       <integer>-20</integer>
-      <key>public.kern2.n</key>
-      <integer>-20</integer>
       <key>public.kern2.v.alt</key>
       <integer>-30</integer>
     </dict>
@@ -914,8 +918,6 @@
       <integer>-35</integer>
       <key>backslash</key>
       <integer>-100</integer>
-      <key>p</key>
-      <integer>-30</integer>
       <key>public.kern2.H</key>
       <integer>-45</integer>
       <key>public.kern2.J</key>
@@ -930,22 +932,14 @@
       <integer>-85</integer>
       <key>public.kern2.Y</key>
       <integer>-110</integer>
-      <key>public.kern2.j</key>
-      <integer>-45</integer>
-      <key>public.kern2.l</key>
-      <integer>-30</integer>
       <key>public.kern2.l.alt</key>
       <integer>-50</integer>
-      <key>public.kern2.n</key>
-      <integer>-20</integer>
-      <key>public.kern2.s</key>
-      <integer>-30</integer>
       <key>public.kern2.v.alt</key>
       <integer>-30</integer>
       <key>public.kern2.z</key>
       <integer>-15</integer>
       <key>x</key>
-      <integer>-35</integer>
+      <integer>-10</integer>
     </dict>
     <key>public.kern1.f</key>
     <dict>
@@ -978,8 +972,6 @@
     <dict>
       <key>backslash</key>
       <integer>-120</integer>
-      <key>public.kern2.l.alt</key>
-      <integer>-20</integer>
       <key>thorn</key>
       <integer>35</integer>
     </dict>
@@ -1009,32 +1001,16 @@
     <dict>
       <key>backslash</key>
       <integer>-140</integer>
-      <key>p</key>
-      <integer>-40</integer>
-      <key>public.kern2.f</key>
-      <integer>40</integer>
-      <key>public.kern2.j</key>
-      <integer>-40</integer>
-      <key>public.kern2.l</key>
-      <integer>-20</integer>
       <key>public.kern2.l.alt</key>
       <integer>-40</integer>
-      <key>public.kern2.n</key>
-      <integer>-10</integer>
-      <key>public.kern2.o</key>
-      <integer>-20</integer>
       <key>public.kern2.rightquote</key>
       <integer>-50</integer>
-      <key>public.kern2.s</key>
-      <integer>-30</integer>
-      <key>public.kern2.t</key>
-      <integer>-20</integer>
       <key>public.kern2.u</key>
       <integer>-45</integer>
       <key>public.kern2.v</key>
       <integer>-35</integer>
       <key>x</key>
-      <integer>-55</integer>
+      <integer>-10</integer>
     </dict>
     <key>public.kern1.j</key>
     <dict>
@@ -1042,30 +1018,22 @@
       <integer>-50</integer>
       <key>public.kern2.a</key>
       <integer>-25</integer>
-      <key>public.kern2.n</key>
-      <integer>-10</integer>
       <key>public.kern2.period</key>
       <integer>-50</integer>
-      <key>public.kern2.v.alt</key>
-      <integer>-50</integer>
       <key>thorn</key>
-      <integer>50</integer>
+      <integer>25</integer>
     </dict>
     <key>public.kern1.k</key>
     <dict>
       <key>backslash</key>
       <integer>-50</integer>
       <key>public.kern2.a</key>
-      <integer>-10</integer>
+      <integer>-30</integer>
       <key>public.kern2.g</key>
       <integer>-10</integer>
       <key>public.kern2.j</key>
       <integer>-10</integer>
-      <key>public.kern2.l</key>
-      <integer>-30</integer>
       <key>public.kern2.leftquote</key>
-      <integer>-40</integer>
-      <key>public.kern2.v.alt</key>
       <integer>-40</integer>
     </dict>
     <key>public.kern1.l</key>
@@ -1079,8 +1047,6 @@
       <key>bracketright</key>
       <integer>60</integer>
       <key>parenright</key>
-      <integer>60</integer>
-      <key>public.kern2.f</key>
       <integer>60</integer>
       <key>public.kern2.leftquote</key>
       <integer>70</integer>
@@ -1116,6 +1082,8 @@
       <integer>-90</integer>
       <key>public.kern2.T</key>
       <integer>35</integer>
+      <key>public.kern2.l.alt</key>
+      <integer>25</integer>
       <key>questiondown</key>
       <integer>-110</integer>
     </dict>
@@ -1125,57 +1093,35 @@
       <integer>-60</integer>
       <key>backslash</key>
       <integer>-100</integer>
-      <key>public.kern2.a</key>
-      <integer>-20</integer>
-      <key>public.kern2.g</key>
-      <integer>-20</integer>
-      <key>public.kern2.j</key>
-      <integer>-35</integer>
-      <key>public.kern2.l</key>
-      <integer>-40</integer>
-      <key>public.kern2.l.alt</key>
-      <integer>-20</integer>
       <key>public.kern2.leftquote</key>
       <integer>-60</integer>
       <key>public.kern2.rightquote</key>
       <integer>-70</integer>
-      <key>public.kern2.t</key>
-      <integer>-20</integer>
       <key>public.kern2.u</key>
       <integer>-20</integer>
       <key>public.kern2.v</key>
-      <integer>-35</integer>
+      <integer>-20</integer>
       <key>public.kern2.v.alt</key>
-      <integer>-40</integer>
-      <key>x</key>
-      <integer>-35</integer>
+      <integer>-20</integer>
     </dict>
     <key>public.kern1.o</key>
     <dict>
       <key>backslash</key>
       <integer>-150</integer>
-      <key>public.kern2.l</key>
-      <integer>-40</integer>
       <key>public.kern2.l.alt</key>
-      <integer>-50</integer>
+      <integer>-20</integer>
       <key>public.kern2.leftquote</key>
-      <integer>-40</integer>
-      <key>public.kern2.n</key>
       <integer>-40</integer>
       <key>public.kern2.rightquote</key>
       <integer>-50</integer>
-      <key>public.kern2.u</key>
-      <integer>-30</integer>
       <key>public.kern2.v</key>
-      <integer>-40</integer>
-      <key>public.kern2.v.alt</key>
-      <integer>-40</integer>
+      <integer>-20</integer>
       <key>public.kern2.z</key>
       <integer>-10</integer>
       <key>slash</key>
       <integer>-35</integer>
       <key>x</key>
-      <integer>-50</integer>
+      <integer>-20</integer>
     </dict>
     <key>public.kern1.period</key>
     <dict>
@@ -1188,9 +1134,9 @@
       <key>public.kern2.Y</key>
       <integer>-70</integer>
       <key>public.kern2.leftquote</key>
-      <integer>-50</integer>
+      <integer>-75</integer>
       <key>public.kern2.rightquote</key>
-      <integer>-40</integer>
+      <integer>-75</integer>
       <key>public.kern2.v.alt</key>
       <integer>-50</integer>
       <key>seven</key>
@@ -1203,7 +1149,7 @@
       <key>public.kern2.a</key>
       <integer>-60</integer>
       <key>public.kern2.g</key>
-      <integer>-60</integer>
+      <integer>-30</integer>
       <key>public.kern2.l</key>
       <integer>-40</integer>
       <key>public.kern2.o</key>
@@ -1221,6 +1167,8 @@
       <integer>-35</integer>
       <key>public.kern2.A</key>
       <integer>-90</integer>
+      <key>public.kern2.l.alt</key>
+      <integer>50</integer>
       <key>questiondown</key>
       <integer>-110</integer>
     </dict>
@@ -1228,24 +1176,12 @@
     <dict>
       <key>backslash</key>
       <integer>-115</integer>
-      <key>p</key>
-      <integer>-20</integer>
       <key>public.kern2.g</key>
       <integer>-10</integer>
-      <key>public.kern2.j</key>
-      <integer>-30</integer>
-      <key>public.kern2.l</key>
-      <integer>-35</integer>
       <key>public.kern2.l.alt</key>
       <integer>-30</integer>
-      <key>public.kern2.n</key>
-      <integer>-40</integer>
-      <key>public.kern2.s</key>
-      <integer>-10</integer>
-      <key>public.kern2.t</key>
-      <integer>-30</integer>
       <key>public.kern2.u</key>
-      <integer>-30</integer>
+      <integer>-10</integer>
       <key>public.kern2.v.alt</key>
       <integer>-20</integer>
     </dict>
@@ -1254,19 +1190,15 @@
       <key>backslash</key>
       <integer>-90</integer>
       <key>p</key>
-      <integer>-50</integer>
+      <integer>-20</integer>
       <key>public.kern2.a</key>
-      <integer>-40</integer>
+      <integer>-30</integer>
       <key>public.kern2.l</key>
       <integer>-30</integer>
       <key>public.kern2.l.alt</key>
       <integer>-60</integer>
       <key>public.kern2.leftquote</key>
       <integer>-40</integer>
-      <key>public.kern2.n</key>
-      <integer>-35</integer>
-      <key>public.kern2.o</key>
-      <integer>-35</integer>
       <key>public.kern2.t</key>
       <integer>-35</integer>
       <key>public.kern2.v.alt</key>
@@ -1286,8 +1218,6 @@
       <integer>-50</integer>
       <key>public.kern2.leftquote</key>
       <integer>-40</integer>
-      <key>public.kern2.n</key>
-      <integer>-40</integer>
       <key>public.kern2.period</key>
       <integer>-40</integer>
       <key>public.kern2.rightquote</key>
@@ -1305,12 +1235,16 @@
     </dict>
     <key>public.kern1.v.alt</key>
     <dict>
+      <key>public.kern2.a</key>
+      <integer>-30</integer>
       <key>public.kern2.j</key>
       <integer>-10</integer>
       <key>public.kern2.l</key>
       <integer>-40</integer>
       <key>public.kern2.n</key>
       <integer>-20</integer>
+      <key>x</key>
+      <integer>-30</integer>
     </dict>
     <key>public.kern1.y</key>
     <dict>
@@ -1343,7 +1277,7 @@
       <key>public.kern2.j</key>
       <integer>50</integer>
       <key>public.kern2.u</key>
-      <integer>-20</integer>
+      <integer>-10</integer>
       <key>thorn</key>
       <integer>55</integer>
     </dict>
@@ -1436,21 +1370,21 @@
       <key>backslash</key>
       <integer>-120</integer>
       <key>p</key>
-      <integer>-40</integer>
+      <integer>-10</integer>
       <key>public.kern2.a</key>
       <integer>-40</integer>
       <key>public.kern2.g</key>
-      <integer>-35</integer>
+      <integer>-10</integer>
       <key>public.kern2.j</key>
-      <integer>-40</integer>
+      <integer>20</integer>
       <key>public.kern2.l</key>
-      <integer>-45</integer>
-      <key>public.kern2.o</key>
-      <integer>-40</integer>
+      <integer>-20</integer>
       <key>public.kern2.period</key>
       <integer>-40</integer>
       <key>public.kern2.u</key>
-      <integer>-35</integer>
+      <integer>-10</integer>
+      <key>public.kern2.v</key>
+      <integer>20</integer>
       <key>slash</key>
       <integer>-35</integer>
     </dict>

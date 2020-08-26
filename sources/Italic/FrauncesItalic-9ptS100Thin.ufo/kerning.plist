@@ -696,7 +696,7 @@
       <key>public.kern2.period</key>
       <integer>-95</integer>
       <key>public.kern2.rightquote</key>
-      <integer>60</integer>
+      <integer>100</integer>
       <key>public.kern2.s</key>
       <integer>-70</integer>
       <key>public.kern2.t</key>
@@ -744,6 +744,8 @@
       <integer>-50</integer>
       <key>public.kern2.l</key>
       <integer>-45</integer>
+      <key>public.kern2.l.alt</key>
+      <integer>30</integer>
       <key>public.kern2.n</key>
       <integer>-55</integer>
       <key>public.kern2.o</key>
@@ -844,6 +846,8 @@
       <integer>-50</integer>
       <key>public.kern2.l</key>
       <integer>-40</integer>
+      <key>public.kern2.l.alt</key>
+      <integer>20</integer>
       <key>public.kern2.leftquote</key>
       <integer>40</integer>
       <key>public.kern2.n</key>
@@ -1221,6 +1225,8 @@
       <integer>-35</integer>
       <key>public.kern2.A</key>
       <integer>-90</integer>
+      <key>public.kern2.Y</key>
+      <integer>50</integer>
       <key>questiondown</key>
       <integer>-110</integer>
     </dict>
