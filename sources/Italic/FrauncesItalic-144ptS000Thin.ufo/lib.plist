@@ -812,6 +812,13 @@
         <real>0.5</real>
         <real>0.25</real>
       </array>
+      <key>public.kern1.M</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern1.N</key>
       <array>
         <real>1.0</real>
@@ -907,6 +914,20 @@
       <array>
         <real>1.0</real>
         <real>0.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.guilsinglleft</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.guilsinglright</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
         <real>0.0</real>
         <real>0.25</real>
       </array>
@@ -1057,6 +1078,13 @@
         <real>0.5</real>
         <real>0.25</real>
       </array>
+      <key>public.kern2.M</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern2.N</key>
       <array>
         <real>0.5</real>
@@ -1132,6 +1160,20 @@
         <real>0.0</real>
         <real>0.5</real>
         <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.guilsinglleft</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.guilsinglright</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.j</key>

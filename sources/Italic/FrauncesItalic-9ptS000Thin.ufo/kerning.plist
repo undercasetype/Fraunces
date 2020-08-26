@@ -71,6 +71,10 @@
       <integer>-35</integer>
       <key>public.kern2.Z</key>
       <integer>-55</integer>
+      <key>public.kern2.a</key>
+      <integer>-30</integer>
+      <key>public.kern2.o</key>
+      <integer>-30</integer>
       <key>public.kern2.period</key>
       <integer>-40</integer>
       <key>slash</key>
@@ -210,6 +214,11 @@
       <key>public.kern2.Y</key>
       <integer>-40</integer>
     </dict>
+    <key>divide</key>
+    <dict>
+      <key>seven</key>
+      <integer>-40</integer>
+    </dict>
     <key>endash</key>
     <dict>
       <key>X</key>
@@ -231,24 +240,55 @@
       <key>public.kern2.Y</key>
       <integer>-50</integer>
     </dict>
+    <key>equal</key>
+    <dict>
+      <key>seven</key>
+      <integer>-40</integer>
+    </dict>
     <key>five</key>
     <dict>
-      <key>public.kern2.minus</key>
+      <key>divide</key>
+      <integer>-40</integer>
+      <key>equal</key>
+      <integer>-40</integer>
+      <key>logicalnot</key>
+      <integer>-40</integer>
+      <key>minus</key>
+      <integer>-40</integer>
+      <key>notequal</key>
+      <integer>-40</integer>
+      <key>plus</key>
+      <integer>-40</integer>
+      <key>plusminus</key>
       <integer>-40</integer>
     </dict>
     <key>four</key>
     <dict>
       <key>degree</key>
       <integer>-40</integer>
+      <key>divide</key>
+      <integer>-35</integer>
+      <key>equal</key>
+      <integer>-35</integer>
       <key>four</key>
       <integer>40</integer>
+      <key>less</key>
+      <integer>-40</integer>
+      <key>lessequal</key>
+      <integer>-40</integer>
+      <key>logicalnot</key>
+      <integer>-35</integer>
+      <key>minus</key>
+      <integer>-35</integer>
+      <key>notequal</key>
+      <integer>-35</integer>
       <key>ordfeminine</key>
       <integer>-45</integer>
       <key>ordmasculine</key>
       <integer>-50</integer>
-      <key>public.kern2.less</key>
-      <integer>-40</integer>
-      <key>public.kern2.minus</key>
+      <key>plus</key>
+      <integer>-35</integer>
+      <key>plusminus</key>
       <integer>-35</integer>
       <key>seven</key>
       <integer>-40</integer>
@@ -274,6 +314,20 @@
       <key>slash</key>
       <integer>-40</integer>
     </dict>
+    <key>greater</key>
+    <dict>
+      <key>one</key>
+      <integer>-40</integer>
+      <key>seven</key>
+      <integer>-50</integer>
+    </dict>
+    <key>greaterequal</key>
+    <dict>
+      <key>one</key>
+      <integer>-40</integer>
+      <key>seven</key>
+      <integer>-50</integer>
+    </dict>
     <key>hyphen</key>
     <dict>
       <key>X</key>
@@ -295,6 +349,16 @@
       <key>seven</key>
       <integer>-40</integer>
     </dict>
+    <key>logicalnot</key>
+    <dict>
+      <key>seven</key>
+      <integer>-40</integer>
+    </dict>
+    <key>minus</key>
+    <dict>
+      <key>seven</key>
+      <integer>-40</integer>
+    </dict>
     <key>nine</key>
     <dict>
       <key>seven</key>
@@ -306,6 +370,8 @@
     <dict>
       <key>public.kern2.A</key>
       <integer>-50</integer>
+      <key>seven</key>
+      <integer>-40</integer>
     </dict>
     <key>numbersign</key>
     <dict>
@@ -316,17 +382,35 @@
     <dict>
       <key>backslash</key>
       <integer>-40</integer>
+      <key>divide</key>
+      <integer>-50</integer>
+      <key>equal</key>
+      <integer>-50</integer>
+      <key>less</key>
+      <integer>-50</integer>
+      <key>lessequal</key>
+      <integer>-50</integer>
+      <key>logicalnot</key>
+      <integer>-50</integer>
+      <key>minus</key>
+      <integer>-50</integer>
+      <key>minute</key>
+      <integer>-50</integer>
       <key>notequal</key>
       <integer>-10</integer>
       <key>ordfeminine</key>
       <integer>-50</integer>
       <key>ordmasculine</key>
       <integer>-50</integer>
-      <key>public.kern2.less</key>
+      <key>plus</key>
       <integer>-50</integer>
-      <key>public.kern2.minus</key>
+      <key>plusminus</key>
       <integer>-50</integer>
-      <key>public.kern2.minute</key>
+      <key>primedblmod</key>
+      <integer>-50</integer>
+      <key>primemod</key>
+      <integer>-50</integer>
+      <key>second</key>
       <integer>-50</integer>
     </dict>
     <key>parenleft</key>
@@ -351,6 +435,16 @@
       <integer>-50</integer>
       <key>public.kern2.Y</key>
       <integer>-50</integer>
+    </dict>
+    <key>plus</key>
+    <dict>
+      <key>seven</key>
+      <integer>-40</integer>
+    </dict>
+    <key>plusminus</key>
+    <dict>
+      <key>seven</key>
+      <integer>-40</integer>
     </dict>
     <key>public.kern1.A</key>
     <dict>
@@ -889,13 +983,6 @@
       <key>thorn</key>
       <integer>35</integer>
     </dict>
-    <key>public.kern1.greater</key>
-    <dict>
-      <key>one</key>
-      <integer>-40</integer>
-      <key>seven</key>
-      <integer>-50</integer>
-    </dict>
     <key>public.kern1.guilsinglleft</key>
     <dict>
       <key>public.kern2.V</key>
@@ -1032,13 +1119,6 @@
       <key>questiondown</key>
       <integer>-110</integer>
     </dict>
-    <key>public.kern1.minus</key>
-    <dict>
-      <key>public.kern2.A</key>
-      <integer>0</integer>
-      <key>seven</key>
-      <integer>-40</integer>
-    </dict>
     <key>public.kern1.n</key>
     <dict>
       <key>asterisk</key>
@@ -1066,7 +1146,7 @@
       <key>public.kern2.v</key>
       <integer>-35</integer>
       <key>public.kern2.v.alt</key>
-      <integer>-60</integer>
+      <integer>-40</integer>
       <key>x</key>
       <integer>-35</integer>
     </dict>
@@ -1286,17 +1366,23 @@
       <integer>-50</integer>
       <key>hyphen</key>
       <integer>-40</integer>
+      <key>minute</key>
+      <integer>40</integer>
+      <key>primedblmod</key>
+      <integer>40</integer>
+      <key>primemod</key>
+      <integer>40</integer>
       <key>public.kern2.guilsinglleft</key>
       <integer>-50</integer>
       <key>public.kern2.guilsinglright</key>
       <integer>-40</integer>
       <key>public.kern2.leftquote</key>
       <integer>40</integer>
-      <key>public.kern2.minute</key>
-      <integer>40</integer>
       <key>public.kern2.period</key>
       <integer>-40</integer>
       <key>public.kern2.rightquote</key>
+      <integer>40</integer>
+      <key>second</key>
       <integer>40</integer>
     </dict>
     <key>slash</key>
