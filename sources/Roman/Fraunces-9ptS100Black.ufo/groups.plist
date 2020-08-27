@@ -575,9 +575,9 @@
     <array>
       <string>H</string>
       <string>I</string>
-      <string>J</string>
-      <string>M</string>
       <string>N</string>
+      <string>M</string>
+      <string>J</string>
       <string>Eng</string>
       <string>Hbar</string>
       <string>Hbrevebelow</string>
@@ -628,8 +628,8 @@
     </array>
     <key>public.kern1.O</key>
     <array>
-      <string>D</string>
       <string>O</string>
+      <string>D</string>
       <string>Q</string>
       <string>Dcaron</string>
       <string>Dcroat</string>
@@ -842,6 +842,7 @@
       <string>gcommaaccent</string>
       <string>gdotaccent</string>
       <string>gmacron</string>
+      <string>g.alt</string>
     </array>
     <key>public.kern1.i</key>
     <array>
@@ -1010,11 +1011,11 @@
     </array>
     <key>public.kern1.period</key>
     <array>
+      <string>quotedblbase</string>
+      <string>quotesinglbase</string>
       <string>comma</string>
       <string>ellipsis</string>
       <string>period</string>
-      <string>quotedblbase</string>
-      <string>quotesinglbase</string>
       <string>colon</string>
       <string>semicolon</string>
     </array>
@@ -1144,12 +1145,12 @@
       <string>F</string>
       <string>H</string>
       <string>I</string>
-      <string>K</string>
-      <string>L</string>
-      <string>M</string>
       <string>N</string>
       <string>P</string>
       <string>R</string>
+      <string>L</string>
+      <string>M</string>
+      <string>K</string>
       <string>DZcaron</string>
       <string>Dcaron</string>
       <string>Dcroat</string>
@@ -1418,6 +1419,7 @@
       <string>gcommaaccent</string>
       <string>gdotaccent</string>
       <string>gmacron</string>
+      <string>g.alt</string>
     </array>
     <key>public.kern2.j</key>
     <array>
@@ -1428,11 +1430,11 @@
     </array>
     <key>public.kern2.l</key>
     <array>
-      <string>b</string>
       <string>h</string>
-      <string>h.alt</string>
       <string>k</string>
       <string>l</string>
+      <string>b</string>
+      <string>h.alt</string>
       <string>hbar</string>
       <string>hbrevebelow</string>
       <string>hbrevebelow.alt</string>
@@ -1458,11 +1460,11 @@
     </array>
     <key>public.kern2.n</key>
     <array>
-      <string>m</string>
-      <string>m.alt</string>
-      <string>n</string>
-      <string>n.alt</string>
       <string>r</string>
+      <string>m</string>
+      <string>n</string>
+      <string>m.alt</string>
+      <string>n.alt</string>
       <string>dotlessi</string>
       <string>eng</string>
       <string>i</string>

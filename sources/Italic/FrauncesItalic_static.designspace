@@ -57,21 +57,6 @@
       <sub name="wdieresis" with="wdieresis.alt"/>
       <sub name="wgrave" with="wgrave.alt"/>
     </rule>
-    <rule name="dl">
-      <conditionset>
-        <condition name="Weight" minimum="500" maximum="900"/>
-        <condition name="soften" minimum="50" maximum="100"/>
-      </conditionset>
-      <sub name="d" with="d.alt"/>
-      <sub name="ddotbelow" with="ddotbelow.alt"/>
-      <sub name="dmacronbelow" with="dmacronbelow.alt"/>
-      <sub name="l" with="l.alt"/>
-      <sub name="lacute" with="lacute.alt"/>
-      <sub name="lcommaaccent" with="lcommaaccent.alt"/>
-      <sub name="ldot" with="ldot.alt"/>
-      <sub name="ldotbelow" with="ldotbelow.alt"/>
-      <sub name="lmacronbelow" with="lmacronbelow.alt"/>
-    </rule>
   </rules>
   <sources>
     <source filename="FrauncesItalic-144ptS000Black.ufo">

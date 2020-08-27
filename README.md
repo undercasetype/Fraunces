@@ -53,3 +53,7 @@ A binary axis that subsitutes `wonk` characters for more normalized characters, 
 From terminal, run the build script at `sources/build.sh`. Fonts output to `fonts/`
 
 [@arrowtype's Recursive project](https://github.com/arrowtype/recursive) has a much more thorough breakdown of how to set up a virtual environment and install requirements.
+
+## Production Notes
+
+If you are doing any work on this repo, please read the production notes [here](https://github.com/undercasetype/Fraunces/tree/master/sources).

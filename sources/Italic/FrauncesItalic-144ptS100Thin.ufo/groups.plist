@@ -788,10 +788,10 @@
     <array>
       <string>divide</string>
       <string>equal</string>
-      <string>minus</string>
-      <string>plus</string>
-      <string>notequal</string>
       <string>logicalnot</string>
+      <string>minus</string>
+      <string>notequal</string>
+      <string>plus</string>
       <string>plusminus</string>
     </array>
     <key>public.kern1.minute</key>
@@ -1165,6 +1165,7 @@
       <string>Otildedieresis</string>
       <string>Otildemacron</string>
       <string>Schwa</string>
+      <string>at</string>
     </array>
     <key>public.kern2.S</key>
     <array>
@@ -1276,6 +1277,21 @@
       <string>aring</string>
       <string>aringacute</string>
       <string>atilde</string>
+      <string>d</string>
+      <string>d.alt</string>
+      <string>dcaron</string>
+      <string>ddotbelow</string>
+      <string>ddotbelow.alt</string>
+      <string>dmacronbelow</string>
+      <string>dmacronbelow.alt</string>
+      <string>g</string>
+      <string>gbreve</string>
+      <string>gcaron</string>
+      <string>gcircumflex</string>
+      <string>gcommaaccent</string>
+      <string>gdotaccent</string>
+      <string>gmacron</string>
+      <string>q</string>
     </array>
     <key>public.kern2.f</key>
     <array>
@@ -1290,15 +1306,7 @@
       <string>fl.alt</string>
     </array>
     <key>public.kern2.g</key>
-    <array>
-      <string>g</string>
-      <string>gbreve</string>
-      <string>gcaron</string>
-      <string>gcircumflex</string>
-      <string>gcommaaccent</string>
-      <string>gdotaccent</string>
-      <string>gmacron</string>
-    </array>
+    <array/>
     <key>public.kern2.greater</key>
     <array>
       <string>greater</string>
@@ -1372,10 +1380,10 @@
     <array>
       <string>divide</string>
       <string>equal</string>
-      <string>minus</string>
-      <string>plus</string>
-      <string>notequal</string>
       <string>logicalnot</string>
+      <string>minus</string>
+      <string>notequal</string>
+      <string>plus</string>
       <string>plusminus</string>
     </array>
     <key>public.kern2.minute</key>
@@ -1430,20 +1438,15 @@
     <key>public.kern2.o</key>
     <array>
       <string>c</string>
-      <string>d</string>
       <string>e</string>
       <string>o</string>
-      <string>q</string>
       <string>cacute</string>
       <string>ccaron</string>
       <string>ccedilla</string>
       <string>ccedillaacute</string>
       <string>ccircumflex</string>
       <string>cdotaccent</string>
-      <string>dcaron</string>
       <string>dcroat</string>
-      <string>ddotbelow</string>
-      <string>dmacronbelow</string>
       <string>dzcaron</string>
       <string>eacute</string>
       <string>ebreve</string>
@@ -1503,9 +1506,6 @@
       <string>otildedieresis</string>
       <string>otildemacron</string>
       <string>dzcaron.alt</string>
-      <string>d.alt</string>
-      <string>ddotbelow.alt</string>
-      <string>dmacronbelow.alt</string>
     </array>
     <key>public.kern2.period</key>
     <array>
