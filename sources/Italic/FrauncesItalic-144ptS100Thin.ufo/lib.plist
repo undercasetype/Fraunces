@@ -59,6 +59,37 @@
       <key>skewOption</key>
       <integer>1</integer>
     </dict>
+    <key>com.commercialtype.futureproof.allowedSuffixes</key>
+    <array>
+      <string>alt</string>
+    </array>
+    <key>com.commercialtype.futureproof.avoidBreakingSections</key>
+    <integer>0</integer>
+    <key>com.commercialtype.futureproof.includeAltsInAlphabeticalOrder</key>
+    <false/>
+    <key>com.commercialtype.futureproof.italicAngle</key>
+    <real>0.0</real>
+    <key>com.commercialtype.futureproof.lineHeight</key>
+    <real>32.0</real>
+    <key>com.commercialtype.futureproof.pageMargins</key>
+    <array>
+      <real>36.0</real>
+      <real>36.0</real>
+      <real>50.0</real>
+      <real>36.0</real>
+    </array>
+    <key>com.commercialtype.futureproof.pageSize</key>
+    <string>LetterLandscape</string>
+    <key>com.commercialtype.futureproof.pointSize</key>
+    <real>14.0</real>
+    <key>com.commercialtype.futureproof.showWarningsForCollisions</key>
+    <integer>0</integer>
+    <key>com.commercialtype.futureproof.showWarningsForHalfWidthKerning</key>
+    <integer>1</integer>
+    <key>com.commercialtype.futureproof.showWarningsForRedundantExceptions</key>
+    <integer>0</integer>
+    <key>com.commercialtype.futureproof.sortMethod</key>
+    <string>Alphabetic</string>
     <key>com.defcon.sortDescriptor</key>
     <array>
       <dict>
@@ -139,6 +170,13 @@
       <key>public.kern1.E</key>
       <array>
         <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.Euro</key>
+      <array>
+        <real>0.5</real>
         <real>0.0</real>
         <real>1.0</real>
         <real>0.25</real>
@@ -283,6 +321,13 @@
         <real>0.0</real>
         <real>0.25</real>
       </array>
+      <key>public.kern1.greater</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern1.guilsinglleft</key>
       <array>
         <real>1.0</real>
@@ -339,6 +384,27 @@
         <real>0.0</real>
         <real>0.25</real>
       </array>
+      <key>public.kern1.less</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.minus</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.minute</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern1.n</key>
       <array>
         <real>0.0</real>
@@ -379,6 +445,13 @@
         <real>1.0</real>
         <real>0.5</real>
         <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern1.sterling</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.t</key>
@@ -428,6 +501,13 @@
         <real>1.0</real>
         <real>0.0</real>
         <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.Euro</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.H</key>
@@ -528,6 +608,13 @@
         <real>1.0</real>
         <real>0.25</real>
       </array>
+      <key>public.kern2.greater</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern2.guilsinglleft</key>
       <array>
         <real>1.0</real>
@@ -570,6 +657,27 @@
         <real>1.0</real>
         <real>0.25</real>
       </array>
+      <key>public.kern2.less</key>
+      <array>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.minus</key>
+      <array>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.minute</key>
+      <array>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
       <key>public.kern2.n</key>
       <array>
         <real>0.0</real>
@@ -602,6 +710,13 @@
       <array>
         <real>0.0</real>
         <real>0.0</real>
+        <real>1.0</real>
+        <real>0.25</real>
+      </array>
+      <key>public.kern2.sterling</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>1.0</real>
         <real>0.25</real>
       </array>
@@ -1340,6 +1455,7 @@
       <string>f_f_l.alt</string>
       <string>dzcaron.alt</string>
       <string>lj.alt</string>
+      <string>Dotlessi</string>
     </array>
     <key>public.postscriptNames</key>
     <dict/>
