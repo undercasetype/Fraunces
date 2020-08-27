@@ -35,10 +35,28 @@
       <key>trademark</key>
       <integer>-40</integer>
     </dict>
+    <key>C</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>70</integer>
+    </dict>
+    <key>E</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>100</integer>
+    </dict>
     <key>F</key>
     <dict>
       <key>X</key>
       <integer>-40</integer>
+      <key>ibreve</key>
+      <integer>50</integer>
+      <key>idblgrave</key>
+      <integer>75</integer>
+      <key>igrave</key>
+      <integer>100</integer>
+      <key>ihookabove</key>
+      <integer>50</integer>
       <key>public.kern2.A</key>
       <integer>-100</integer>
       <key>public.kern2.H</key>
@@ -51,6 +69,8 @@
       <integer>-75</integer>
       <key>public.kern2.g</key>
       <integer>-50</integer>
+      <key>public.kern2.n</key>
+      <integer>-30</integer>
       <key>public.kern2.o</key>
       <integer>-50</integer>
       <key>public.kern2.period</key>
@@ -101,6 +121,22 @@
       <key>public.kern2.v</key>
       <integer>40</integer>
     </dict>
+    <key>V</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>50</integer>
+      <key>igrave</key>
+      <integer>50</integer>
+      <key>itilde</key>
+      <integer>-30</integer>
+    </dict>
+    <key>W</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>50</integer>
+      <key>igrave</key>
+      <integer>50</integer>
+    </dict>
     <key>X</key>
     <dict>
       <key>endash</key>
@@ -119,6 +155,11 @@
       <integer>-45</integer>
       <key>public.kern2.v.alt</key>
       <integer>-80</integer>
+    </dict>
+    <key>Y</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>0</integer>
     </dict>
     <key>ampersand</key>
     <dict>
@@ -216,6 +257,25 @@
       <key>public.kern2.Y</key>
       <integer>-40</integer>
     </dict>
+    <key>d</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>50</integer>
+      <key>jcircumflex</key>
+      <integer>50</integer>
+    </dict>
+    <key>d.alt</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>50</integer>
+      <key>jcircumflex</key>
+      <integer>30</integer>
+    </dict>
+    <key>dcroat</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>50</integer>
+    </dict>
     <key>divide</key>
     <dict>
       <key>seven</key>
@@ -299,6 +359,8 @@
     <dict>
       <key>backslash</key>
       <integer>-60</integer>
+      <key>idblgrave</key>
+      <integer>25</integer>
       <key>p</key>
       <integer>-35</integer>
       <key>public.kern2.j</key>
@@ -349,10 +411,25 @@
       <key>seven</key>
       <integer>-40</integer>
     </dict>
+    <key>j</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>50</integer>
+    </dict>
+    <key>l</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>50</integer>
+    </dict>
     <key>logicalnot</key>
     <dict>
       <key>seven</key>
       <integer>-40</integer>
+    </dict>
+    <key>lslash</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>50</integer>
     </dict>
     <key>minus</key>
     <dict>
@@ -377,6 +454,11 @@
     <dict>
       <key>public.kern2.A</key>
       <integer>-50</integer>
+    </dict>
+    <key>ohorn</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>50</integer>
     </dict>
     <key>one</key>
     <dict>
@@ -1364,6 +1446,17 @@
       <integer>35</integer>
       <key>public.kern2.rightquote</key>
       <integer>40</integer>
+    </dict>
+    <key>uhorn</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>50</integer>
+      <key>idieresisacute</key>
+      <integer>50</integer>
+      <key>igrave</key>
+      <integer>50</integer>
+      <key>ihookabove</key>
+      <integer>25</integer>
     </dict>
     <key>x</key>
     <dict>
