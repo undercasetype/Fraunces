@@ -30,6 +30,56 @@
       <key>public.kern2.u</key>
       <integer>-50</integer>
     </dict>
+    <key>M</key>
+    <dict>
+      <key>public.kern2.v</key>
+      <integer>-50</integer>
+      <key>y</key>
+      <integer>-50</integer>
+      <key>yacute</key>
+      <integer>-50</integer>
+      <key>ycircumflex</key>
+      <integer>-50</integer>
+      <key>ydieresis</key>
+      <integer>-50</integer>
+      <key>ydotaccent</key>
+      <integer>-50</integer>
+      <key>ydotbelow</key>
+      <integer>-50</integer>
+      <key>ygrave</key>
+      <integer>-50</integer>
+      <key>yhookabove</key>
+      <integer>-50</integer>
+      <key>ymacron</key>
+      <integer>-50</integer>
+      <key>ytilde</key>
+      <integer>-50</integer>
+    </dict>
+    <key>Mdotbelow</key>
+    <dict>
+      <key>public.kern2.v</key>
+      <integer>-50</integer>
+      <key>y</key>
+      <integer>-50</integer>
+      <key>yacute</key>
+      <integer>-50</integer>
+      <key>ycircumflex</key>
+      <integer>-50</integer>
+      <key>ydieresis</key>
+      <integer>-50</integer>
+      <key>ydotaccent</key>
+      <integer>-50</integer>
+      <key>ydotbelow</key>
+      <integer>-50</integer>
+      <key>ygrave</key>
+      <integer>-50</integer>
+      <key>yhookabove</key>
+      <integer>-50</integer>
+      <key>ymacron</key>
+      <integer>-50</integer>
+      <key>ytilde</key>
+      <integer>-50</integer>
+    </dict>
     <key>P</key>
     <dict>
       <key>X</key>
@@ -77,6 +127,11 @@
     <dict>
       <key>public.kern2.A</key>
       <integer>-15</integer>
+    </dict>
+    <key>public.kern1.H</key>
+    <dict>
+      <key>public.kern2.v</key>
+      <integer>0</integer>
     </dict>
     <key>public.kern1.K</key>
     <dict>
@@ -134,65 +189,69 @@
     <key>public.kern1.T</key>
     <dict>
       <key>p</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
       <key>public.kern2.A</key>
       <integer>-75</integer>
       <key>public.kern2.a</key>
-      <integer>-50</integer>
+      <integer>-150</integer>
       <key>public.kern2.g</key>
-      <integer>-50</integer>
+      <integer>-150</integer>
       <key>public.kern2.j</key>
       <integer>-50</integer>
       <key>public.kern2.n</key>
-      <integer>-50</integer>
+      <integer>-75</integer>
       <key>public.kern2.o</key>
-      <integer>-50</integer>
+      <integer>-150</integer>
       <key>public.kern2.period</key>
       <integer>-50</integer>
       <key>public.kern2.s</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
       <key>public.kern2.u</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
+      <key>public.kern2.v</key>
+      <integer>-150</integer>
       <key>public.kern2.z</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
       <key>x</key>
       <integer>-50</integer>
     </dict>
     <key>public.kern1.U</key>
     <dict>
+      <key>public.kern2.A</key>
+      <integer>-75</integer>
       <key>public.kern2.g</key>
       <integer>-20</integer>
     </dict>
     <key>public.kern1.V</key>
     <dict>
       <key>p</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
       <key>public.kern2.A</key>
-      <integer>-75</integer>
+      <integer>-100</integer>
       <key>public.kern2.J</key>
       <integer>-20</integer>
       <key>public.kern2.a</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
       <key>public.kern2.g</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
       <key>public.kern2.j</key>
       <integer>-50</integer>
       <key>public.kern2.n</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
       <key>public.kern2.o</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
       <key>public.kern2.s</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
       <key>public.kern2.t</key>
       <integer>-50</integer>
       <key>public.kern2.u</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
       <key>public.kern2.v</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
       <key>public.kern2.z</key>
       <integer>-50</integer>
       <key>x</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
     </dict>
     <key>public.kern1.Y</key>
     <dict>

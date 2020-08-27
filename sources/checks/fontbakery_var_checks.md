@@ -1304,9 +1304,9 @@ of hinted versus unhinted font files.
 
 	|  | ../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 428.1kb |
-	| Hinted Size | 427.7kb |
-	| Increase | -424 bytes |
+	| Dehinted Size | 432.5kb |
+	| Hinted Size | 432.1kb |
+	| Increase | -432 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
 
@@ -1415,7 +1415,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [prep, gasp, GSUB, DSIG, loca, GPOS]
+* ℹ **INFO** This font contains the following optional tables [prep, GSUB, GPOS, loca, DSIG, gasp]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -3728,8 +3728,8 @@ of hinted versus unhinted font files.
 
 	|  | ../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf |
 	|:--- | ---:|
-	| Dehinted Size | 364.7kb |
-	| Hinted Size | 364.3kb |
+	| Dehinted Size | 362.9kb |
+	| Hinted Size | 362.4kb |
 	| Increase | -448 bytes |
 	| Change   | -0.1 % |
  [code: size-impact]
@@ -3839,7 +3839,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [prep, gasp, GSUB, DSIG, loca, GPOS]
+* ℹ **INFO** This font contains the following optional tables [prep, GSUB, GPOS, loca, DSIG, gasp]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>

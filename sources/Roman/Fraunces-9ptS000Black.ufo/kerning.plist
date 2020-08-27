@@ -56,6 +56,11 @@
       <key>public.kern2.v</key>
       <integer>-50</integer>
     </dict>
+    <key>four</key>
+    <dict>
+      <key>seven</key>
+      <integer>-50</integer>
+    </dict>
     <key>public.kern1.A</key>
     <dict>
       <key>public.kern2.T</key>
@@ -238,6 +243,8 @@
       <integer>-150</integer>
       <key>public.kern2.period</key>
       <integer>-150</integer>
+      <key>questiondown</key>
+      <integer>-150</integer>
     </dict>
     <key>public.kern1.n</key>
     <dict>
@@ -302,6 +309,8 @@
       <integer>-100</integer>
       <key>public.kern2.period</key>
       <integer>-150</integer>
+      <key>questiondown</key>
+      <integer>-150</integer>
     </dict>
     <key>public.kern1.s</key>
     <dict>
@@ -345,6 +354,17 @@
       <integer>-75</integer>
       <key>public.kern2.Y</key>
       <integer>-100</integer>
+    </dict>
+    <key>seven</key>
+    <dict>
+      <key>four</key>
+      <integer>-150</integer>
+      <key>nine</key>
+      <integer>-25</integer>
+      <key>six</key>
+      <integer>-25</integer>
+      <key>zero</key>
+      <integer>-50</integer>
     </dict>
     <key>x</key>
     <dict>
