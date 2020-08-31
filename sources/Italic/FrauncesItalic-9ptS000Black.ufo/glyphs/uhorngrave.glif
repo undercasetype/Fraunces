@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorngrave" format="2">
-  <advance width="1328"/>
+  <advance width="1333"/>
   <unicode hex="1EEB"/>
   <outline>
-    <component base="uhorn" xOffset="6"/>
-    <component base="gravecmb" xOffset="349"/>
+    <component base="uhorn"/>
+    <component base="gravecmb" xOffset="343"/>
   </outline>
   <lib>
     <dict>

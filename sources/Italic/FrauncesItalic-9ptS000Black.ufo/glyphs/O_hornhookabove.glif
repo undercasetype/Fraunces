@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ohornhookabove" format="2">
-  <advance width="1580"/>
+  <advance width="1574"/>
   <unicode hex="1EDE"/>
   <outline>
-    <component base="Ohorn"/>
-    <component base="hook.cap" xOffset="734" yOffset="481"/>
+    <component base="Ohorn" xOffset="-7"/>
+    <component base="hook.cap" xOffset="727" yOffset="481"/>
   </outline>
   <lib>
     <dict>
