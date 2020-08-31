@@ -39,6 +39,17 @@
       <key>public.kern2.A</key>
       <integer>-50</integer>
     </dict>
+    <key>T</key>
+    <dict>
+      <key>idblgrave</key>
+      <integer>0</integer>
+      <key>idieresis</key>
+      <integer>0</integer>
+      <key>idieresisacute</key>
+      <integer>0</integer>
+      <key>itilde</key>
+      <integer>0</integer>
+    </dict>
     <key>X</key>
     <dict>
       <key>public.kern2.rightquote</key>
@@ -55,6 +66,16 @@
     <dict>
       <key>public.kern2.Y</key>
       <integer>-50</integer>
+    </dict>
+    <key>dcaron</key>
+    <dict>
+      <key>i</key>
+      <integer>200</integer>
+    </dict>
+    <key>lcaron</key>
+    <dict>
+      <key>i</key>
+      <integer>200</integer>
     </dict>
     <key>public.kern1.A</key>
     <dict>
@@ -283,6 +304,15 @@
       <key>public.kern2.rightquote</key>
       <integer>-40</integer>
     </dict>
+    <key>public.kern1.l</key>
+    <dict>
+      <key>public.kern2.f</key>
+      <integer>200</integer>
+      <key>public.kern2.j</key>
+      <integer>200</integer>
+      <key>public.kern2.l</key>
+      <integer>300</integer>
+    </dict>
     <key>public.kern1.leftquote</key>
     <dict>
       <key>X</key>
@@ -337,7 +367,7 @@
       <key>public.kern2.leftquote</key>
       <integer>-105</integer>
       <key>public.kern2.v</key>
-      <integer>-10</integer>
+      <integer>-20</integer>
     </dict>
     <key>public.kern1.n.alt</key>
     <dict>
@@ -409,6 +439,10 @@
     <dict>
       <key>public.kern2.Y</key>
       <integer>-50</integer>
+      <key>public.kern2.f</key>
+      <integer>250</integer>
+      <key>public.kern2.l</key>
+      <integer>250</integer>
       <key>public.kern2.leftquote</key>
       <integer>-10</integer>
     </dict>
@@ -429,6 +463,22 @@
       <integer>-20</integer>
       <key>public.kern2.rightquote</key>
       <integer>-50</integer>
+    </dict>
+    <key>seven</key>
+    <dict>
+      <key>four</key>
+      <integer>-100</integer>
+      <key>six</key>
+      <integer>-25</integer>
+      <key>zero</key>
+      <integer>-25</integer>
+    </dict>
+    <key>tcaron</key>
+    <dict>
+      <key>i</key>
+      <integer>200</integer>
+      <key>j</key>
+      <integer>200</integer>
     </dict>
     <key>x</key>
     <dict>

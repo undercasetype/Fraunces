@@ -109,6 +109,16 @@
       <key>public.kern2.Z</key>
       <integer>-30</integer>
     </dict>
+    <key>four</key>
+    <dict>
+      <key>seven</key>
+      <integer>-50</integer>
+    </dict>
+    <key>nine</key>
+    <dict>
+      <key>seven</key>
+      <integer>-50</integer>
+    </dict>
     <key>public.kern1.A</key>
     <dict>
       <key>ampersand</key>
@@ -267,7 +277,7 @@
       <key>public.kern2.t</key>
       <integer>-50</integer>
       <key>public.kern2.u</key>
-      <integer>-50</integer>
+      <integer>-100</integer>
       <key>public.kern2.v</key>
       <integer>-100</integer>
       <key>public.kern2.z</key>
@@ -444,6 +454,8 @@
     </dict>
     <key>public.kern1.l</key>
     <dict>
+      <key>public.kern2.l</key>
+      <integer>100</integer>
       <key>public.kern2.rightquote</key>
       <integer>-30</integer>
     </dict>
@@ -631,6 +643,17 @@
       <key>public.kern2.leftquote</key>
       <integer>-20</integer>
       <key>public.kern2.rightquote</key>
+      <integer>-50</integer>
+    </dict>
+    <key>seven</key>
+    <dict>
+      <key>four</key>
+      <integer>-125</integer>
+      <key>nine</key>
+      <integer>-50</integer>
+      <key>two</key>
+      <integer>-25</integer>
+      <key>zero</key>
       <integer>-50</integer>
     </dict>
     <key>x</key>
