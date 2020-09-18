@@ -1415,7 +1415,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [DSIG, GPOS, loca, GSUB, gasp, prep]
+* ℹ **INFO** This font contains the following optional tables [gasp, GPOS, DSIG, prep, GSUB, loca]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -3839,7 +3839,7 @@ file. Etc.
 
 </pre>
 
-* ℹ **INFO** This font contains the following optional tables [DSIG, GPOS, loca, GSUB, gasp, prep]
+* ℹ **INFO** This font contains the following optional tables [gasp, GPOS, DSIG, prep, GSUB, loca]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
