@@ -50,9 +50,42 @@ A binary axis that subsitutes `wonk` characters for more normalized characters, 
 
 ## Building the Font
 
-From terminal, run the build script at `sources/build.sh`. Fonts output to `fonts/`
+From terminal, run the build script at `sources/build.sh`. Fonts output to `fonts/`.
 
-[@arrowtype's Recursive project](https://github.com/arrowtype/recursive) has a much more thorough breakdown of how to set up a virtual environment and install requirements.
+NOTE: The first time you build, you will need to set up a virtual environment and install dependencies:
+
+<details>
+<summary><b><!-------->Setting up the build environment<!--------></b> (Click to expand)</summary>
+
+### Set up the environment
+
+To build, set up the virtual environment
+
+```
+virtualenv -p python3 venv
+```
+
+Then activate it:
+
+```
+source venv/bin/activate
+```
+
+Then install requirements:
+
+```
+pip install -U -r requirements.txt
+```
+
+And finally, give the build script permission to run/execute:
+
+```
+chmod +x sources/build.sh
+```
+
+Now, you can run `sources/build.sh`!
+
+</details>
 
 ## Production Notes
 
