@@ -43,16 +43,21 @@ def return_filename_no_extension(filename):
 def return_familyname(font):
     try:
         familyName = ttFont["name"].getName(nameID=16,  platformID=3, platEncID=1, langID=0x409 )
+        print('familyName is')
+        print(str(familyName))
         return str(familyName)
     except:
+        print('familyName is')
         familyName = ttFont["name"].getName(nameID=1,  platformID=3, platEncID=1, langID=0x409 )
+        print(str(familyName))
         return str(familyName)
 
 def return_stylename(filename):
     stylename = filename_no_extension.split("-")[1]
-    # if an optical size particle is in the stylename, it will need a space afterward
-    # TODO maybe: use a better method to parse for a style name
     stylename = stylename.replace("pt", "pt ")
+
+    print('stylename is:')
+    print(stylename)
     return stylename
 
 def split_name(string):
@@ -144,6 +149,15 @@ else:
         ttFont["name"].removeNames(nameID=16)
     except:
         pass
+
+    print('nameID1: ',  nameID1)
+    print('nameID2: ',  nameID2)
+    print('nameID4: ',  nameID4)
+    print('nameID6: ',  nameID6)
+    print('nameID16: ', nameID16)
+    print('nameID17: ', nameID17)
+    print('nameID18: ', nameID18)
+    
 
     ttFont["name"].setName( string=nameID1,  nameID=1,  platformID=3, platEncID=1, langID=0x409 )
     ttFont["name"].setName( string=nameID2,  nameID=2,  platformID=3, platEncID=1, langID=0x409 )
