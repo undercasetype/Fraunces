@@ -39,29 +39,20 @@ def return_filename_no_extension(filename):
     filename_no_extension = os.path.basename(filename).split(".")[0]
     return filename_no_extension
 
-def return_familyname(filename):
-    name = return_filename_no_extension(filename).split("-")[0]
-    parts = []
-    i = 0
-    previous = None
-    for s in name:
-        if unicodedata.category(s) in ['Lu', 'Nd'] and not unicodedata.category(s) == previous:
-            previous = unicodedata.category(s)
-            part = name[:i]
-            if part:
-                parts.append(part)
-            name = name[i:]
-            i = 0
-        i += 1
-    parts.append(name)
-
-    parts[-2] += parts[-1]
-    del parts[-1]
-
-    return ' '.join(parts)
+# should work well if the designspace has correct naming
+def return_familyname(font):
+    try:
+        familyName = ttFont["name"].getName(nameID=16,  platformID=3, platEncID=1, langID=0x409 )
+        return str(familyName)
+    except:
+        familyName = ttFont["name"].getName(nameID=1,  platformID=3, platEncID=1, langID=0x409 )
+        return str(familyName)
 
 def return_stylename(filename):
     stylename = filename_no_extension.split("-")[1]
+    # if an optical size particle is in the stylename, it will need a space afterward
+    # TODO maybe: use a better method to parse for a style name
+    stylename = stylename.replace("pt", "pt ")
     return stylename
 
 def split_name(string):
@@ -127,7 +118,8 @@ if 'fvar' in ttFont:
 else:
 
     filename_no_extension = return_filename_no_extension(file)
-    familyname = return_familyname(file)
+    # familyname = return_familyname(file)
+    familyname = return_familyname(ttFont)
     temp_stylename = return_stylename(file)
 
     if temp_stylename != "Italic":
