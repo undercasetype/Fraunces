@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rdblgrave" format="2">
+  <advance width="1443"/>
+  <unicode hex="0210"/>
+  <outline>
+    <component base="R"/>
+    <component base="gravedouble.cap" xOffset="256" yOffset="514"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

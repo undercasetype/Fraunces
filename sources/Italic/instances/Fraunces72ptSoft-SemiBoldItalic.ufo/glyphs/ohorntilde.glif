@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorntilde" format="2">
+  <advance width="1033.42"/>
+  <unicode hex="1EE1"/>
+  <outline>
+    <component base="ohorn" xOffset="1.4000000000000001"/>
+    <component base="tildecmb" xOffset="262.39532374181704" yOffset="2.9333333333333336"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

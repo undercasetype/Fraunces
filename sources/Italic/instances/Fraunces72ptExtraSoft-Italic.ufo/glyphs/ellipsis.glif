@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ellipsis" format="2">
+  <advance width="1500.1333333333334"/>
+  <unicode hex="2026"/>
+  <outline>
+    <component base="period" xOffset="-1.7200000000000006"/>
+    <component base="period" xOffset="512.3333333333334"/>
+    <component base="period" xOffset="1000.9866666666667"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

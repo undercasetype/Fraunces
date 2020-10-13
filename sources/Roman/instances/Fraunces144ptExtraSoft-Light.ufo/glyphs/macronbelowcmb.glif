@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macronbelowcmb" format="2">
+  <advance width="543.4"/>
+  <unicode hex="0331"/>
+  <outline>
+    <contour>
+      <point x="38.0" y="-184.2" type="curve" smooth="yes"/>
+      <point x="38.0" y="-211.39999999999998"/>
+      <point x="52.4" y="-227.2"/>
+      <point x="79.0" y="-227.2" type="curve" smooth="yes"/>
+      <point x="464.2" y="-227.2" type="line" smooth="yes"/>
+      <point x="490.0" y="-227.2"/>
+      <point x="505.4" y="-211.39999999999998"/>
+      <point x="505.4" y="-184.0" type="curve" smooth="yes"/>
+      <point x="505.4" y="-156.6"/>
+      <point x="490.0" y="-141.8"/>
+      <point x="464.2" y="-141.8" type="curve" smooth="yes"/>
+      <point x="79.0" y="-141.8" type="line" smooth="yes"/>
+      <point x="52.4" y="-141.8"/>
+      <point x="38.0" y="-156.4"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9811,0.4634,0.5508,1</string>
+    </dict>
+  </lib>
+</glyph>

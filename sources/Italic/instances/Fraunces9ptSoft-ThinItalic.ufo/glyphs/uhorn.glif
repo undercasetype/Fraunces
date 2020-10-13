@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorn" format="2">
+  <advance width="1083.5"/>
+  <unicode hex="01B0"/>
+  <anchor x="677.5" y="1016.0" name="center"/>
+  <outline>
+    <contour>
+      <point x="1231.0" y="1101.5" type="curve" smooth="yes"/>
+      <point x="1242.0" y="1144.0"/>
+      <point x="1227.0" y="1166.0"/>
+      <point x="1198.0" y="1166.0" type="curve" smooth="yes"/>
+      <point x="1165.5" y="1166.0"/>
+      <point x="1139.5" y="1145.5"/>
+      <point x="1130.0" y="1109.5" type="curve" smooth="yes"/>
+      <point x="1115.0" y="1052.5" type="line" smooth="yes"/>
+      <point x="1089.5" y="956.5"/>
+      <point x="1035.0" y="922.0"/>
+      <point x="924.5" y="911.5" type="curve" smooth="yes"/>
+      <point x="910.0" y="910.0"/>
+      <point x="903.0" y="905.5"/>
+      <point x="903.0" y="896.0" type="curve" smooth="yes"/>
+      <point x="903.0" y="886.0"/>
+      <point x="907.0" y="881.0"/>
+      <point x="916.5" y="881.0" type="curve" smooth="yes"/>
+      <point x="1072.0" y="880.5"/>
+      <point x="1197.5" y="975.5"/>
+    </contour>
+    <component base="u"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
+</glyph>

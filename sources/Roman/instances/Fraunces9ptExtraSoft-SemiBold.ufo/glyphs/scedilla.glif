@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="scedilla" format="2">
+  <advance width="981.8"/>
+  <unicode hex="015F"/>
+  <outline>
+    <contour>
+      <point x="465.2" y="18.200000000000003" type="line"/>
+      <point x="388.0" y="-146.0" type="line" smooth="yes"/>
+      <point x="371.40000000000003" y="-182.0"/>
+      <point x="381.2" y="-210.4"/>
+      <point x="420.2" y="-210.4" type="curve" smooth="yes"/>
+      <point x="455.4" y="-210.4" type="line" smooth="yes"/>
+      <point x="509.40000000000003" y="-210.4"/>
+      <point x="536.2" y="-235.2"/>
+      <point x="536.2" y="-277.4" type="curve" smooth="yes"/>
+      <point x="536.2" y="-324.0"/>
+      <point x="509.59999999999997" y="-349.59999999999997"/>
+      <point x="463.40000000000003" y="-349.59999999999997" type="curve" smooth="yes"/>
+      <point x="424.0" y="-349.59999999999997"/>
+      <point x="391.0" y="-337.8"/>
+      <point x="369.8" y="-304.8" type="curve" smooth="yes"/>
+      <point x="355.2" y="-290.0"/>
+      <point x="339.2" y="-278.8"/>
+      <point x="316.59999999999997" y="-278.8" type="curve" smooth="yes"/>
+      <point x="289.8" y="-278.8"/>
+      <point x="269.8" y="-300.6"/>
+      <point x="269.8" y="-333.0" type="curve" smooth="yes"/>
+      <point x="269.8" y="-398.40000000000003"/>
+      <point x="355.4" y="-452.8"/>
+      <point x="482.0" y="-452.8" type="curve" smooth="yes"/>
+      <point x="629.2" y="-452.8"/>
+      <point x="715.4000000000001" y="-383.59999999999997"/>
+      <point x="715.4000000000001" y="-277.8" type="curve" smooth="yes"/>
+      <point x="715.4000000000001" y="-177.2"/>
+      <point x="641.6" y="-120.19999999999999"/>
+      <point x="518.6" y="-120.19999999999999" type="curve" smooth="yes"/>
+      <point x="475.6" y="-120.19999999999999"/>
+      <point x="445.20000000000005" y="-123.8"/>
+      <point x="417.79999999999995" y="-131.6" type="curve"/>
+      <point x="486.2" y="-149.0" type="line"/>
+      <point x="564.0" y="18.200000000000003" type="line"/>
+    </contour>
+    <component base="s"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

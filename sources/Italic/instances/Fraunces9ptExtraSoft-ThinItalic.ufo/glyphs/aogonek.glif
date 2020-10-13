@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aogonek" format="2">
+  <advance width="997"/>
+  <unicode hex="0105"/>
+  <outline>
+    <contour>
+      <point x="784" y="40" type="line"/>
+      <point x="587" y="-41"/>
+      <point x="466" y="-172"/>
+      <point x="466" y="-290" type="curve" smooth="yes"/>
+      <point x="466" y="-368"/>
+      <point x="519" y="-419"/>
+      <point x="607" y="-419" type="curve" smooth="yes"/>
+      <point x="695" y="-419"/>
+      <point x="768" y="-360"/>
+      <point x="784" y="-309" type="curve" smooth="yes"/>
+      <point x="789" y="-293"/>
+      <point x="781" y="-287"/>
+      <point x="773" y="-287" type="curve" smooth="yes"/>
+      <point x="763" y="-287"/>
+      <point x="757" y="-291"/>
+      <point x="747" y="-304" type="curve" smooth="yes"/>
+      <point x="715" y="-348"/>
+      <point x="664" y="-366"/>
+      <point x="620" y="-366" type="curve" smooth="yes"/>
+      <point x="573" y="-366"/>
+      <point x="538" y="-337"/>
+      <point x="538" y="-278" type="curve" smooth="yes"/>
+      <point x="538" y="-182"/>
+      <point x="634" y="-74"/>
+      <point x="795" y="6" type="curve"/>
+    </contour>
+    <component base="a"/>
+  </outline>
+</glyph>

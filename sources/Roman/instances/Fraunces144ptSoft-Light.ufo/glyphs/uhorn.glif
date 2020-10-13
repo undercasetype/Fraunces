@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorn" format="2">
+  <advance width="957.7"/>
+  <unicode hex="01B0"/>
+  <anchor x="467.20000000000005" y="982.1999999999999" name="center"/>
+  <outline>
+    <contour>
+      <point x="1039.1999999999998" y="1040.3" type="curve" smooth="yes"/>
+      <point x="1039.1999999999998" y="1084.6295597484277"/>
+      <point x="1019.2" y="1110.6"/>
+      <point x="986.1" y="1110.6" type="curve" smooth="yes"/>
+      <point x="951.6" y="1110.6"/>
+      <point x="931.4000000000001" y="1086.7210884353742"/>
+      <point x="931.4000000000001" y="1046.4" type="curve" smooth="yes"/>
+      <point x="931.4000000000001" y="994.9" type="line" smooth="yes"/>
+      <point x="931.4000000000001" y="914.5"/>
+      <point x="884.5761750286448" y="877.1321618456232"/>
+      <point x="784.5" y="868.5999999999999" type="curve" smooth="yes"/>
+      <point x="778.3325152831137" y="867.3730061132455"/>
+      <point x="773.3132269995751" y="863.381801201869"/>
+      <point x="773.9000000000001" y="855.8000000000001" type="curve" smooth="yes"/>
+      <point x="775.1" y="843.9666666666667"/>
+      <point x="780.1" y="839.0999999999999"/>
+      <point x="787.0" y="839.3000000000001" type="curve" smooth="yes"/>
+      <point x="945.9028379800169" y="839.2001643954277"/>
+      <point x="1039.1999999999998" y="924.0779442779442"/>
+    </contour>
+    <component base="u"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9811,0.4634,0.5508,1</string>
+    </dict>
+  </lib>
+</glyph>

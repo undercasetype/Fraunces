@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorn" format="2">
+  <advance width="961"/>
+  <unicode hex="01A1"/>
+  <anchor x="620" y="1000" name="center"/>
+  <outline>
+    <contour>
+      <point x="1042" y="1085" type="curve" smooth="yes"/>
+      <point x="1055" y="1135"/>
+      <point x="1040" y="1163"/>
+      <point x="1009" y="1163" type="curve" smooth="yes"/>
+      <point x="983" y="1163"/>
+      <point x="958" y="1142"/>
+      <point x="947" y="1103" type="curve" smooth="yes"/>
+      <point x="933" y="1052" type="line" smooth="yes"/>
+      <point x="900.9629782222281" y="935.293706380974"/>
+      <point x="773.6446638524392" y="879.3274637671959"/>
+      <point x="626" y="915" type="curve" smooth="yes"/>
+      <point x="619" y="917"/>
+      <point x="612" y="912"/>
+      <point x="611" y="906" type="curve" smooth="yes"/>
+      <point x="605" y="892"/>
+      <point x="611" y="890"/>
+      <point x="620" y="888" type="curve" smooth="yes"/>
+      <point x="811.8084350156635" y="847.2531303852736"/>
+      <point x="998.6369669337437" y="933.7111957466167"/>
+    </contour>
+    <component base="o"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>

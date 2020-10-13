@@ -1,0 +1,140 @@
+# Please edit this upstream configuration for the family accordingly.
+# This is a yaml formatted file.
+# An "#" (number sign) denotes a comment.
+# For more help see the docs at:
+# https://github.com/googlefonts/gf-docs/tree/master/METADATA
+
+# Full family name, with initial upper cases and spaces
+name: Fraunces
+
+# For the final PR:
+# repository_url: https://github.com/undercasetype/Fraunces
+# branch: master
+
+# For WIP mastering work:
+repository_url: local://~//type-repos/google-font-repos/Fraunces
+branch: mastering
+
+# Choose one of: {CATEGORIES}
+category: SERIF
+
+# Full name of the type designer(s) or foundry who designed the fonts.
+designer: "Undercase Type, Phaedra Charles, Flavia Zimbardi"
+
+# Dictionary mapping of SOURCE file names to TARGET file names. Where
+# SOURCE is the file path in the upstream repo and TARGET is the file
+# path in the google fonts family directory.
+
+files:
+  fonts/Fraunces[SOFT,WONK,opsz,wght].ttf: Fraunces[SOFT,WONK,opsz,wght].ttf
+  fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf: Fraunces-Italic[SOFT,WONK,opsz,wght].ttf
+  OFL.txt: OFL.txt
+  DESCRIPTION.en_us.html: DESCRIPTION.en_us.html
+  fonts/static/ttf/Fraunces144ptSharp-Black.ttf: static/Fraunces144ptSharp-Black.ttf
+  fonts/static/ttf/Fraunces144ptSharp-BlackItalic.ttf: static/Fraunces144ptSharp-BlackItalic.ttf
+  fonts/static/ttf/Fraunces144ptSharp-Bold.ttf: static/Fraunces144ptSharp-Bold.ttf
+  fonts/static/ttf/Fraunces144ptSharp-BoldItalic.ttf: static/Fraunces144ptSharp-BoldItalic.ttf
+  fonts/static/ttf/Fraunces144ptSharp-Italic.ttf: static/Fraunces144ptSharp-Italic.ttf
+  fonts/static/ttf/Fraunces144ptSharp-Light.ttf: static/Fraunces144ptSharp-Light.ttf
+  fonts/static/ttf/Fraunces144ptSharp-LightItalic.ttf: static/Fraunces144ptSharp-LightItalic.ttf
+  fonts/static/ttf/Fraunces144ptSharp-Regular.ttf: static/Fraunces144ptSharp-Regular.ttf
+  fonts/static/ttf/Fraunces144ptSharp-SemiBold.ttf: static/Fraunces144ptSharp-SemiBold.ttf
+  fonts/static/ttf/Fraunces144ptSharp-SemiBoldItalic.ttf: static/Fraunces144ptSharp-SemiBoldItalic.ttf
+  fonts/static/ttf/Fraunces144ptSharp-Thin.ttf: static/Fraunces144ptSharp-Thin.ttf
+  fonts/static/ttf/Fraunces144ptSharp-ThinItalic.ttf: static/Fraunces144ptSharp-ThinItalic.ttf
+  fonts/static/ttf/Fraunces144ptSoft-Black.ttf: static/Fraunces144ptSoft-Black.ttf
+  fonts/static/ttf/Fraunces144ptSoft-BlackItalic.ttf: static/Fraunces144ptSoft-BlackItalic.ttf
+  fonts/static/ttf/Fraunces144ptSoft-Bold.ttf: static/Fraunces144ptSoft-Bold.ttf
+  fonts/static/ttf/Fraunces144ptSoft-BoldItalic.ttf: static/Fraunces144ptSoft-BoldItalic.ttf
+  fonts/static/ttf/Fraunces144ptSoft-Italic.ttf: static/Fraunces144ptSoft-Italic.ttf
+  fonts/static/ttf/Fraunces144ptSoft-Light.ttf: static/Fraunces144ptSoft-Light.ttf
+  fonts/static/ttf/Fraunces144ptSoft-LightItalic.ttf: static/Fraunces144ptSoft-LightItalic.ttf
+  fonts/static/ttf/Fraunces144ptSoft-Regular.ttf: static/Fraunces144ptSoft-Regular.ttf
+  fonts/static/ttf/Fraunces144ptSoft-SemiBold.ttf: static/Fraunces144ptSoft-SemiBold.ttf
+  fonts/static/ttf/Fraunces144ptSoft-SemiBoldItalic.ttf: static/Fraunces144ptSoft-SemiBoldItalic.ttf
+  fonts/static/ttf/Fraunces144ptSoft-Thin.ttf: static/Fraunces144ptSoft-Thin.ttf
+  fonts/static/ttf/Fraunces144ptSoft-ThinItalic.ttf: static/Fraunces144ptSoft-ThinItalic.ttf
+  fonts/static/ttf/Fraunces144ptExtraSoft-Black.ttf: static/Fraunces144ptExtraSoft-Black.ttf
+  fonts/static/ttf/Fraunces144ptExtraSoft-BlackItalic.ttf: static/Fraunces144ptExtraSoft-BlackItalic.ttf
+  fonts/static/ttf/Fraunces144ptExtraSoft-Bold.ttf: static/Fraunces144ptExtraSoft-Bold.ttf
+  fonts/static/ttf/Fraunces144ptExtraSoft-BoldItalic.ttf: static/Fraunces144ptExtraSoft-BoldItalic.ttf
+  fonts/static/ttf/Fraunces144ptExtraSoft-Italic.ttf: static/Fraunces144ptExtraSoft-Italic.ttf
+  fonts/static/ttf/Fraunces144ptExtraSoft-Light.ttf: static/Fraunces144ptExtraSoft-Light.ttf
+  fonts/static/ttf/Fraunces144ptExtraSoft-LightItalic.ttf: static/Fraunces144ptExtraSoft-LightItalic.ttf
+  fonts/static/ttf/Fraunces144ptExtraSoft-Regular.ttf: static/Fraunces144ptExtraSoft-Regular.ttf
+  fonts/static/ttf/Fraunces144ptExtraSoft-SemiBold.ttf: static/Fraunces144ptExtraSoft-SemiBold.ttf
+  fonts/static/ttf/Fraunces144ptExtraSoft-SemiBoldItalic.ttf: static/Fraunces144ptExtraSoft-SemiBoldItalic.ttf
+  fonts/static/ttf/Fraunces144ptExtraSoft-Thin.ttf: static/Fraunces144ptExtraSoft-Thin.ttf
+  fonts/static/ttf/Fraunces144ptExtraSoft-ThinItalic.ttf: static/Fraunces144ptExtraSoft-ThinItalic.ttf
+  fonts/static/ttf/Fraunces72ptSharp-Black.ttf: static/Fraunces72ptSharp-Black.ttf
+  fonts/static/ttf/Fraunces72ptSharp-BlackItalic.ttf: static/Fraunces72ptSharp-BlackItalic.ttf
+  fonts/static/ttf/Fraunces72ptSharp-Bold.ttf: static/Fraunces72ptSharp-Bold.ttf
+  fonts/static/ttf/Fraunces72ptSharp-BoldItalic.ttf: static/Fraunces72ptSharp-BoldItalic.ttf
+  fonts/static/ttf/Fraunces72ptSharp-Italic.ttf: static/Fraunces72ptSharp-Italic.ttf
+  fonts/static/ttf/Fraunces72ptSharp-Light.ttf: static/Fraunces72ptSharp-Light.ttf
+  fonts/static/ttf/Fraunces72ptSharp-LightItalic.ttf: static/Fraunces72ptSharp-LightItalic.ttf
+  fonts/static/ttf/Fraunces72ptSharp-Regular.ttf: static/Fraunces72ptSharp-Regular.ttf
+  fonts/static/ttf/Fraunces72ptSharp-SemiBold.ttf: static/Fraunces72ptSharp-SemiBold.ttf
+  fonts/static/ttf/Fraunces72ptSharp-SemiBoldItalic.ttf: static/Fraunces72ptSharp-SemiBoldItalic.ttf
+  fonts/static/ttf/Fraunces72ptSharp-Thin.ttf: static/Fraunces72ptSharp-Thin.ttf
+  fonts/static/ttf/Fraunces72ptSharp-ThinItalic.ttf: static/Fraunces72ptSharp-ThinItalic.ttf
+  fonts/static/ttf/Fraunces72ptSoft-Black.ttf: static/Fraunces72ptSoft-Black.ttf
+  fonts/static/ttf/Fraunces72ptSoft-BlackItalic.ttf: static/Fraunces72ptSoft-BlackItalic.ttf
+  fonts/static/ttf/Fraunces72ptSoft-Bold.ttf: static/Fraunces72ptSoft-Bold.ttf
+  fonts/static/ttf/Fraunces72ptSoft-BoldItalic.ttf: static/Fraunces72ptSoft-BoldItalic.ttf
+  fonts/static/ttf/Fraunces72ptSoft-Italic.ttf: static/Fraunces72ptSoft-Italic.ttf
+  fonts/static/ttf/Fraunces72ptSoft-Light.ttf: static/Fraunces72ptSoft-Light.ttf
+  fonts/static/ttf/Fraunces72ptSoft-LightItalic.ttf: static/Fraunces72ptSoft-LightItalic.ttf
+  fonts/static/ttf/Fraunces72ptSoft-Regular.ttf: static/Fraunces72ptSoft-Regular.ttf
+  fonts/static/ttf/Fraunces72ptSoft-SemiBold.ttf: static/Fraunces72ptSoft-SemiBold.ttf
+  fonts/static/ttf/Fraunces72ptSoft-SemiBoldItalic.ttf: static/Fraunces72ptSoft-SemiBoldItalic.ttf
+  fonts/static/ttf/Fraunces72ptSoft-Thin.ttf: static/Fraunces72ptSoft-Thin.ttf
+  fonts/static/ttf/Fraunces72ptSoft-ThinItalic.ttf: static/Fraunces72ptSoft-ThinItalic.ttf
+  fonts/static/ttf/Fraunces72ptExtraSoft-Black.ttf: static/Fraunces72ptExtraSoft-Black.ttf
+  fonts/static/ttf/Fraunces72ptExtraSoft-BlackItalic.ttf: static/Fraunces72ptExtraSoft-BlackItalic.ttf
+  fonts/static/ttf/Fraunces72ptExtraSoft-Bold.ttf: static/Fraunces72ptExtraSoft-Bold.ttf
+  fonts/static/ttf/Fraunces72ptExtraSoft-BoldItalic.ttf: static/Fraunces72ptExtraSoft-BoldItalic.ttf
+  fonts/static/ttf/Fraunces72ptExtraSoft-Italic.ttf: static/Fraunces72ptExtraSoft-Italic.ttf
+  fonts/static/ttf/Fraunces72ptExtraSoft-Light.ttf: static/Fraunces72ptExtraSoft-Light.ttf
+  fonts/static/ttf/Fraunces72ptExtraSoft-LightItalic.ttf: static/Fraunces72ptExtraSoft-LightItalic.ttf
+  fonts/static/ttf/Fraunces72ptExtraSoft-Regular.ttf: static/Fraunces72ptExtraSoft-Regular.ttf
+  fonts/static/ttf/Fraunces72ptExtraSoft-SemiBold.ttf: static/Fraunces72ptExtraSoft-SemiBold.ttf
+  fonts/static/ttf/Fraunces72ptExtraSoft-SemiBoldItalic.ttf: static/Fraunces72ptExtraSoft-SemiBoldItalic.ttf
+  fonts/static/ttf/Fraunces72ptExtraSoft-Thin.ttf: static/Fraunces72ptExtraSoft-Thin.ttf
+  fonts/static/ttf/Fraunces72ptExtraSoft-ThinItalic.ttf: static/Fraunces72ptExtraSoft-ThinItalic.ttf
+  fonts/static/ttf/Fraunces9ptSharp-Black.ttf: static/Fraunces9ptSharp-Black.ttf
+  fonts/static/ttf/Fraunces9ptSharp-BlackItalic.ttf: static/Fraunces9ptSharp-BlackItalic.ttf
+  fonts/static/ttf/Fraunces9ptSharp-Bold.ttf: static/Fraunces9ptSharp-Bold.ttf
+  fonts/static/ttf/Fraunces9ptSharp-BoldItalic.ttf: static/Fraunces9ptSharp-BoldItalic.ttf
+  fonts/static/ttf/Fraunces9ptSharp-Italic.ttf: static/Fraunces9ptSharp-Italic.ttf
+  fonts/static/ttf/Fraunces9ptSharp-Light.ttf: static/Fraunces9ptSharp-Light.ttf
+  fonts/static/ttf/Fraunces9ptSharp-LightItalic.ttf: static/Fraunces9ptSharp-LightItalic.ttf
+  fonts/static/ttf/Fraunces9ptSharp-Regular.ttf: static/Fraunces9ptSharp-Regular.ttf
+  fonts/static/ttf/Fraunces9ptSharp-SemiBold.ttf: static/Fraunces9ptSharp-SemiBold.ttf
+  fonts/static/ttf/Fraunces9ptSharp-SemiBoldItalic.ttf: static/Fraunces9ptSharp-SemiBoldItalic.ttf
+  fonts/static/ttf/Fraunces9ptSharp-Thin.ttf: static/Fraunces9ptSharp-Thin.ttf
+  fonts/static/ttf/Fraunces9ptSharp-ThinItalic.ttf: static/Fraunces9ptSharp-ThinItalic.ttf
+  fonts/static/ttf/Fraunces9ptSoft-Black.ttf: static/Fraunces9ptSoft-Black.ttf
+  fonts/static/ttf/Fraunces9ptSoft-BlackItalic.ttf: static/Fraunces9ptSoft-BlackItalic.ttf
+  fonts/static/ttf/Fraunces9ptSoft-Bold.ttf: static/Fraunces9ptSoft-Bold.ttf
+  fonts/static/ttf/Fraunces9ptSoft-BoldItalic.ttf: static/Fraunces9ptSoft-BoldItalic.ttf
+  fonts/static/ttf/Fraunces9ptSoft-Italic.ttf: static/Fraunces9ptSoft-Italic.ttf
+  fonts/static/ttf/Fraunces9ptSoft-Light.ttf: static/Fraunces9ptSoft-Light.ttf
+  fonts/static/ttf/Fraunces9ptSoft-LightItalic.ttf: static/Fraunces9ptSoft-LightItalic.ttf
+  fonts/static/ttf/Fraunces9ptSoft-Regular.ttf: static/Fraunces9ptSoft-Regular.ttf
+  fonts/static/ttf/Fraunces9ptSoft-SemiBold.ttf: static/Fraunces9ptSoft-SemiBold.ttf
+  fonts/static/ttf/Fraunces9ptSoft-SemiBoldItalic.ttf: static/Fraunces9ptSoft-SemiBoldItalic.ttf
+  fonts/static/ttf/Fraunces9ptSoft-Thin.ttf: static/Fraunces9ptSoft-Thin.ttf
+  fonts/static/ttf/Fraunces9ptSoft-ThinItalic.ttf: static/Fraunces9ptSoft-ThinItalic.ttf
+  fonts/static/ttf/Fraunces9ptExtraSoft-Black.ttf: static/Fraunces9ptExtraSoft-Black.ttf
+  fonts/static/ttf/Fraunces9ptExtraSoft-BlackItalic.ttf: static/Fraunces9ptExtraSoft-BlackItalic.ttf
+  fonts/static/ttf/Fraunces9ptExtraSoft-Bold.ttf: static/Fraunces9ptExtraSoft-Bold.ttf
+  fonts/static/ttf/Fraunces9ptExtraSoft-BoldItalic.ttf: static/Fraunces9ptExtraSoft-BoldItalic.ttf
+  fonts/static/ttf/Fraunces9ptExtraSoft-Italic.ttf: static/Fraunces9ptExtraSoft-Italic.ttf
+  fonts/static/ttf/Fraunces9ptExtraSoft-Light.ttf: static/Fraunces9ptExtraSoft-Light.ttf
+  fonts/static/ttf/Fraunces9ptExtraSoft-LightItalic.ttf: static/Fraunces9ptExtraSoft-LightItalic.ttf
+  fonts/static/ttf/Fraunces9ptExtraSoft-Regular.ttf: static/Fraunces9ptExtraSoft-Regular.ttf
+  fonts/static/ttf/Fraunces9ptExtraSoft-SemiBold.ttf: static/Fraunces9ptExtraSoft-SemiBold.ttf
+  fonts/static/ttf/Fraunces9ptExtraSoft-SemiBoldItalic.ttf: static/Fraunces9ptExtraSoft-SemiBoldItalic.ttf
+  fonts/static/ttf/Fraunces9ptExtraSoft-Thin.ttf: static/Fraunces9ptExtraSoft-Thin.ttf
+  fonts/static/ttf/Fraunces9ptExtraSoft-ThinItalic.ttf: static/Fraunces9ptExtraSoft-ThinItalic.ttf

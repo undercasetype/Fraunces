@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexgrave.cap" format="2">
+  <advance width="668"/>
+  <anchor x="278" y="1037" name="center"/>
+  <outline>
+    <contour>
+      <point x="281" y="1224" type="line"/>
+      <point x="84" y="1070" type="line" smooth="yes"/>
+      <point x="73" y="1062"/>
+      <point x="65" y="1059"/>
+      <point x="56" y="1065" type="curve" smooth="yes"/>
+      <point x="49" y="1070"/>
+      <point x="48" y="1082"/>
+      <point x="57" y="1093" type="curve" smooth="yes"/>
+      <point x="241" y="1299" type="line" smooth="yes"/>
+      <point x="255" y="1314"/>
+      <point x="265" y="1322"/>
+      <point x="280" y="1322" type="curve" smooth="yes"/>
+      <point x="294" y="1322"/>
+      <point x="303" y="1314"/>
+      <point x="316" y="1299" type="curve" smooth="yes"/>
+      <point x="500" y="1093" type="line" smooth="yes"/>
+      <point x="509" y="1082"/>
+      <point x="508" y="1070"/>
+      <point x="501" y="1065" type="curve" smooth="yes"/>
+      <point x="492" y="1059"/>
+      <point x="484" y="1062"/>
+      <point x="473" y="1070" type="curve" smooth="yes"/>
+      <point x="276" y="1224" type="line"/>
+    </contour>
+    <contour>
+      <point x="515" y="1391" type="line" smooth="yes"/>
+      <point x="486" y="1442"/>
+      <point x="467" y="1472"/>
+      <point x="434" y="1469" type="curve" smooth="yes"/>
+      <point x="407" y="1465"/>
+      <point x="390" y="1444"/>
+      <point x="393" y="1420" type="curve" smooth="yes"/>
+      <point x="395" y="1394"/>
+      <point x="417" y="1370"/>
+      <point x="443" y="1343" type="curve" smooth="yes"/>
+      <point x="589" y="1196" type="line" smooth="yes"/>
+      <point x="595" y="1190"/>
+      <point x="604" y="1188"/>
+      <point x="612" y="1193" type="curve" smooth="yes"/>
+      <point x="621" y="1200"/>
+      <point x="618" y="1212"/>
+      <point x="612" y="1222" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.6667,0.2562,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sacutedotaccent.alt" format="2">
+  <advance width="687"/>
+  <outline>
+    <component base="s.alt"/>
+    <component base="acutecmb" xOffset="354"/>
+    <component base="dotaccentcmb" xOffset="266" yOffset="90"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.3529,0.6667,0.8039,1</string>
+    </dict>
+  </lib>
+</glyph>

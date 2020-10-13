@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uogonek" format="2">
+  <advance width="1183.6000000000001"/>
+  <unicode hex="0172"/>
+  <outline>
+    <contour>
+      <point x="665.6" y="10.799999999999997" type="line"/>
+      <point x="436.4" y="-62.4"/>
+      <point x="337.6" y="-176.8"/>
+      <point x="334.4" y="-280.6" type="curve" smooth="yes"/>
+      <point x="332.8" y="-352.59999999999997"/>
+      <point x="384.8" y="-392.8"/>
+      <point x="480.59999999999997" y="-392.8" type="curve" smooth="yes"/>
+      <point x="557.6" y="-392.8"/>
+      <point x="621.2" y="-351.6"/>
+      <point x="650.6" y="-311.2" type="curve" smooth="yes"/>
+      <point x="654.4" y="-306.0"/>
+      <point x="656.2" y="-301.59999999999997"/>
+      <point x="654.0" y="-300.2" type="curve" smooth="yes"/>
+      <point x="650.4" y="-298.8"/>
+      <point x="646.8000000000001" y="-300.79999999999995"/>
+      <point x="642.2" y="-305.59999999999997" type="curve" smooth="yes"/>
+      <point x="613.4" y="-342.2"/>
+      <point x="560.6" y="-371.8"/>
+      <point x="513.8" y="-371.8" type="curve" smooth="yes"/>
+      <point x="456.4" y="-371.8"/>
+      <point x="426.8" y="-337.6"/>
+      <point x="429.2" y="-275.79999999999995" type="curve" smooth="yes"/>
+      <point x="431.6" y="-176.0"/>
+      <point x="511.6" y="-61.2"/>
+      <point x="668.8000000000001" y="3.0" type="curve"/>
+    </contour>
+    <component base="U"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>

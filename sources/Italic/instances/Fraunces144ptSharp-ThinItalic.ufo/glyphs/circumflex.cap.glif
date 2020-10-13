@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflex.cap" format="2">
+  <advance width="439"/>
+  <anchor x="312" y="1062" name="center"/>
+  <outline>
+    <contour>
+      <point x="324" y="1119" type="line"/>
+      <point x="104" y="984" type="line" smooth="yes"/>
+      <point x="98" y="980"/>
+      <point x="93" y="977"/>
+      <point x="91" y="980" type="curve" smooth="yes"/>
+      <point x="89" y="982"/>
+      <point x="90" y="986"/>
+      <point x="97" y="992" type="curve" smooth="yes"/>
+      <point x="299" y="1170" type="line" smooth="yes"/>
+      <point x="317" y="1186"/>
+      <point x="328" y="1195"/>
+      <point x="342" y="1195" type="curve" smooth="yes"/>
+      <point x="356" y="1195"/>
+      <point x="363" y="1186"/>
+      <point x="373" y="1170" type="curve" smooth="yes"/>
+      <point x="487" y="992" type="line" smooth="yes"/>
+      <point x="490" y="986"/>
+      <point x="489" y="982"/>
+      <point x="487" y="980" type="curve" smooth="yes"/>
+      <point x="483" y="977"/>
+      <point x="480" y="980"/>
+      <point x="476" y="984" type="curve" smooth="yes"/>
+      <point x="322" y="1119" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0.6667,0.2562,1</string>
+    </dict>
+  </lib>
+</glyph>

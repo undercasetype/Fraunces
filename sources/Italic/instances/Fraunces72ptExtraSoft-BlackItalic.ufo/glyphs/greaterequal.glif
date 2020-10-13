@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greaterequal" format="2">
+  <advance width="1166.3333333333333"/>
+  <unicode hex="2265"/>
+  <outline>
+    <contour>
+      <point x="868.6" y="872.7333333333333" type="line"/>
+      <point x="856.6" y="825.6666666666666" type="line"/>
+      <point x="418.5333333333333" y="1104.6" type="line" smooth="yes"/>
+      <point x="358.8666666666667" y="1142.6666666666667"/>
+      <point x="344.3333333333333" y="1195.7333333333333"/>
+      <point x="354.8666666666667" y="1237.2666666666667" type="curve" smooth="yes"/>
+      <point x="371.4" y="1302.8666666666666"/>
+      <point x="415.5333333333333" y="1350.9333333333334"/>
+      <point x="488.2" y="1350.9333333333334" type="curve" smooth="yes"/>
+      <point x="548.3333333333334" y="1350.9333333333334"/>
+      <point x="593.9333333333333" y="1324.4"/>
+      <point x="670.1333333333333" y="1279.3333333333333" type="curve" smooth="yes"/>
+      <point x="1079.1333333333334" y="1029.4" type="line" smooth="yes"/>
+      <point x="1145.2666666666667" y="989.8666666666667"/>
+      <point x="1164.3333333333333" y="924.8"/>
+      <point x="1144.2666666666667" y="848.7333333333333" type="curve" smooth="yes"/>
+      <point x="1123.7333333333333" y="772.6666666666666"/>
+      <point x="1071.6" y="708.0666666666667"/>
+      <point x="984.4" y="668.5333333333333" type="curve" smooth="yes"/>
+      <point x="445.6" y="418.6" type="line" smooth="yes"/>
+      <point x="345.8666666666667" y="373.53333333333336"/>
+      <point x="287.2" y="346.53333333333336"/>
+      <point x="227.06666666666666" y="346.53333333333336" type="curve" smooth="yes"/>
+      <point x="154.4" y="346.53333333333336"/>
+      <point x="135.33333333333334" y="395.06666666666666"/>
+      <point x="153.4" y="460.6666666666667" type="curve" smooth="yes"/>
+      <point x="164.4" y="502.2"/>
+      <point x="206.0" y="555.2666666666667"/>
+      <point x="287.2" y="593.8" type="curve" smooth="yes"/>
+    </contour>
+    <component base="minus" xOffset="-142.33333333333334" yOffset="-557.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>

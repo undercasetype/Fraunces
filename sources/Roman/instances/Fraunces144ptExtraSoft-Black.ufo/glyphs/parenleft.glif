@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenleft" format="2">
+  <advance width="668"/>
+  <unicode hex="0028"/>
+  <outline>
+    <contour>
+      <point x="88" y="610" type="curve" smooth="yes"/>
+      <point x="88.0" y="173"/>
+      <point x="291" y="-145"/>
+      <point x="516" y="-227" type="curve" smooth="yes"/>
+      <point x="589" y="-253"/>
+      <point x="637" y="-244"/>
+      <point x="651" y="-200" type="curve" smooth="yes"/>
+      <point x="660" y="-172"/>
+      <point x="642" y="-142"/>
+      <point x="609" y="-103" type="curve" smooth="yes"/>
+      <point x="490" y="37"/>
+      <point x="415" y="305.0"/>
+      <point x="415" y="610" type="curve" smooth="yes"/>
+      <point x="415" y="920"/>
+      <point x="501" y="1190"/>
+      <point x="609" y="1323" type="curve" smooth="yes"/>
+      <point x="641" y="1362"/>
+      <point x="660" y="1393"/>
+      <point x="651" y="1420" type="curve" smooth="yes"/>
+      <point x="637" y="1464"/>
+      <point x="589" y="1474"/>
+      <point x="516" y="1448" type="curve" smooth="yes"/>
+      <point x="291" y="1367"/>
+      <point x="88.0" y="1048"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9811,0.4634,0.5508,1</string>
+    </dict>
+  </lib>
+</glyph>

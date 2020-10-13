@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Oslash" format="2">
+  <advance width="1524.3999999999999"/>
+  <unicode hex="00D8"/>
+  <anchor x="1035.2" y="1546.0" name="center"/>
+  <outline>
+    <contour>
+      <point x="121.79999999999998" y="-65.4" type="curve" smooth="yes"/>
+      <point x="135.20000000000002" y="-72.60000000000001"/>
+      <point x="150.2" y="-69.39999999999999"/>
+      <point x="163.0" y="-57.40000000000001" type="curve" smooth="yes"/>
+      <point x="1483.3999999999999" y="1447.6000000000001" type="line" smooth="yes"/>
+      <point x="1497.3999999999999" y="1460.8"/>
+      <point x="1496.3999999999999" y="1471.6000000000001"/>
+      <point x="1482.4" y="1479.6" type="curve" smooth="yes"/>
+      <point x="1469.2" y="1487.4"/>
+      <point x="1453.2" y="1484.1999999999998"/>
+      <point x="1440.8000000000002" y="1471.8" type="curve" smooth="yes"/>
+      <point x="120.80000000000001" y="-32.80000000000001" type="line" smooth="yes"/>
+      <point x="107.2" y="-46.400000000000006"/>
+      <point x="108.80000000000001" y="-58.60000000000001"/>
+    </contour>
+    <component base="O" xOffset="1.3999999999999995"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="logicalnot" format="2">
+  <advance width="1062.8"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="80.2" y="762.0" type="curve" smooth="yes"/>
+      <point x="80.2" y="698.0"/>
+      <point x="131.34716981132075" y="661.2"/>
+      <point x="188.6" y="661.2" type="curve" smooth="yes"/>
+      <point x="792.6" y="661.2" type="line"/>
+      <point x="768.6" y="689.2" type="line"/>
+      <point x="768.6" y="429.4" type="line" smooth="yes"/>
+      <point x="768.6" y="368.70442477876105"/>
+      <point x="806.2" y="315.2"/>
+      <point x="869.2" y="315.2" type="curve" smooth="yes"/>
+      <point x="930.8" y="315.2"/>
+      <point x="967.2" y="367.49549549549545"/>
+      <point x="967.2" y="427.4" type="curve" smooth="yes"/>
+      <point x="967.2" y="747.4" type="line" smooth="yes"/>
+      <point x="967.2" y="826.2"/>
+      <point x="920.0" y="867.6"/>
+      <point x="853.0" y="867.6" type="curve" smooth="yes"/>
+      <point x="190.6" y="867.6" type="line" smooth="yes"/>
+      <point x="131.4074074074074" y="867.6"/>
+      <point x="80.2" y="827.6"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9811,0.4634,0.5508,1</string>
+    </dict>
+  </lib>
+</glyph>

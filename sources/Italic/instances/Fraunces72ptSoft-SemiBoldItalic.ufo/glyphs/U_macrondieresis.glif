@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Umacrondieresis" format="2">
+  <advance width="1370.58"/>
+  <unicode hex="1E7A"/>
+  <outline>
+    <component base="U"/>
+    <component base="macron.cap" xOffset="638.3600000000001" yOffset="481.92"/>
+    <component base="dieresis.cap" xOffset="642.3866666666668" yOffset="749.4066666666666"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

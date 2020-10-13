@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash" format="2">
+  <advance width="1076.8"/>
+  <unicode hex="0141"/>
+  <outline>
+    <contour>
+      <point x="43.0" y="486.6" type="curve" smooth="yes"/>
+      <point x="55.4" y="463.8"/>
+      <point x="78.4" y="457.6"/>
+      <point x="100.4" y="471.2" type="curve" smooth="yes"/>
+      <point x="750.0" y="889.6" type="line" smooth="yes"/>
+      <point x="773.6" y="904.2"/>
+      <point x="784.2" y="927.8"/>
+      <point x="771.6" y="952.4" type="curve" smooth="yes"/>
+      <point x="760.6" y="973.6"/>
+      <point x="735.2" y="980.4"/>
+      <point x="710.8" y="965.6" type="curve" smooth="yes"/>
+      <point x="63.6" y="548.2" type="line" smooth="yes"/>
+      <point x="39.2" y="532.8"/>
+      <point x="31.4" y="508.2"/>
+    </contour>
+    <component base="L"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9811,0.4634,0.5508,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dong" format="2">
+  <advance width="1104.3866666666665"/>
+  <unicode hex="20AB"/>
+  <outline>
+    <contour>
+      <point x="152.36" y="-206.11999999999998" type="curve" smooth="yes"/>
+      <point x="152.36" y="-228.01333333333332"/>
+      <point x="163.82666666666668" y="-241.48"/>
+      <point x="185.30666666666664" y="-241.48" type="curve" smooth="yes"/>
+      <point x="970.76" y="-241.48" type="line" smooth="yes"/>
+      <point x="993.9466666666667" y="-241.48"/>
+      <point x="1009.5199999999999" y="-228.01333333333332"/>
+      <point x="1009.5199999999999" y="-205.32" type="curve" smooth="yes"/>
+      <point x="1009.5199999999999" y="-185.34666666666666"/>
+      <point x="993.9466666666667" y="-170.48000000000002"/>
+      <point x="970.76" y="-170.48000000000002" type="curve" smooth="yes"/>
+      <point x="188.21333333333334" y="-170.48000000000002" type="line" smooth="yes"/>
+      <point x="168.2266666666667" y="-170.48000000000002"/>
+      <point x="152.36" y="-186.14666666666668"/>
+    </contour>
+    <component base="dcroat" xOffset="5.72"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9811,0.4634,0.5508,1</string>
+    </dict>
+  </lib>
+</glyph>

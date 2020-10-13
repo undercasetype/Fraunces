@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="notequal" format="2">
+  <advance width="1015.7333333333333"/>
+  <unicode hex="2260"/>
+  <outline>
+    <contour>
+      <point x="245.46666666666664" y="70.46666666666667" type="curve" smooth="yes"/>
+      <point x="260.76190476190476" y="70.46666666666667"/>
+      <point x="273.7530078100539" y="82.33600453984326"/>
+      <point x="289.0" y="113.33333333333333" type="curve" smooth="yes"/>
+      <point x="845.1333333333333" y="1222.0666666666666" type="line" smooth="yes"/>
+      <point x="860.7333333333333" y="1253.8666666666668"/>
+      <point x="845.5641025641025" y="1278.0666666666666"/>
+      <point x="826.9333333333333" y="1278.0666666666666" type="curve" smooth="yes"/>
+      <point x="798.6516129032258" y="1278.0666666666666"/>
+      <point x="788.8666666666667" y="1260.4"/>
+      <point x="775.3333333333333" y="1232.6666666666665" type="curve" smooth="yes"/>
+      <point x="222.73333333333332" y="118.39999999999999" type="line" smooth="yes"/>
+      <point x="208.63683410393685" y="89.55926178757086"/>
+      <point x="224.19047619047618" y="70.46666666666667"/>
+    </contour>
+    <component base="equal" xOffset="-0.9333333333333333"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9811,0.4634,0.5508,1</string>
+    </dict>
+  </lib>
+</glyph>

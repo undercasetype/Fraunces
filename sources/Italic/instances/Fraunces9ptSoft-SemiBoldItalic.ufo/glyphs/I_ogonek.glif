@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iogonek" format="2">
+  <advance width="806.0"/>
+  <unicode hex="012E"/>
+  <outline>
+    <contour>
+      <point x="451.3" y="53.7" type="line"/>
+      <point x="151.1" y="-33.800000000000004"/>
+      <point x="11.899999999999999" y="-163.60000000000002"/>
+      <point x="11.899999999999999" y="-300.9" type="curve" smooth="yes"/>
+      <point x="11.899999999999999" y="-391.40000000000003"/>
+      <point x="73.0" y="-446.20000000000005"/>
+      <point x="196.6" y="-446.20000000000005" type="curve" smooth="yes"/>
+      <point x="314.50000000000006" y="-446.20000000000005"/>
+      <point x="414.09999999999997" y="-385.9"/>
+      <point x="456.6" y="-318.8" type="curve" smooth="yes"/>
+      <point x="482.0" y="-283.4"/>
+      <point x="470.5" y="-261.7"/>
+      <point x="453.7" y="-257.20000000000005" type="curve" smooth="yes"/>
+      <point x="436.70000000000005" y="-252.2"/>
+      <point x="422.5" y="-260.20000000000005"/>
+      <point x="402.79999999999995" y="-276.5" type="curve" smooth="yes"/>
+      <point x="370.5" y="-308.5"/>
+      <point x="333.7" y="-325.09999999999997"/>
+      <point x="297.9" y="-325.09999999999997" type="curve" smooth="yes"/>
+      <point x="258.7" y="-325.09999999999997"/>
+      <point x="232.7" y="-303.59999999999997"/>
+      <point x="232.7" y="-252.99999999999997" type="curve" smooth="yes"/>
+      <point x="232.70000000000002" y="-168.29999999999998"/>
+      <point x="316.9" y="-68.1"/>
+      <point x="464.20000000000005" y="3.2999999999999994" type="curve"/>
+    </contour>
+    <component base="I" xOffset="3.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>

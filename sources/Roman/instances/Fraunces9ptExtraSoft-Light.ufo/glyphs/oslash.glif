@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslash" format="2">
+  <advance width="1146.1999999999998"/>
+  <unicode hex="00F8"/>
+  <outline>
+    <contour>
+      <point x="132.59999999999997" y="-43.2" type="curve" smooth="yes"/>
+      <point x="150.0" y="-55.599999999999994"/>
+      <point x="167.79999999999998" y="-54.19999999999999"/>
+      <point x="182.79999999999998" y="-34.599999999999994" type="curve" smooth="yes"/>
+      <point x="319.4" y="132.8" type="line"/>
+      <point x="321.4" y="139.6" type="line"/>
+      <point x="876.2" y="747.8" type="line"/>
+      <point x="884.2" y="751.4000000000001" type="line"/>
+      <point x="1015.4" y="911.3999999999999" type="line" smooth="yes"/>
+      <point x="1030.0" y="929.4"/>
+      <point x="1030.4" y="951.0"/>
+      <point x="1013.4000000000001" y="964.6000000000001" type="curve" smooth="yes"/>
+      <point x="997.8000000000001" y="975.8000000000001"/>
+      <point x="976.4000000000001" y="972.8000000000001"/>
+      <point x="960.1999999999999" y="952.2" type="curve" smooth="yes"/>
+      <point x="833.4" y="800.8" type="line"/>
+      <point x="828.5999999999999" y="791.5999999999999" type="line"/>
+      <point x="276.4" y="182.79999999999998" type="line"/>
+      <point x="267.20000000000005" y="178.4" type="line"/>
+      <point x="130.39999999999998" y="9.200000000000003" type="line" smooth="yes"/>
+      <point x="115.59999999999998" y="-8.600000000000009"/>
+      <point x="118.19999999999999" y="-31.0"/>
+    </contour>
+    <component base="o"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9811,0.4634,0.5508,1</string>
+    </dict>
+  </lib>
+</glyph>

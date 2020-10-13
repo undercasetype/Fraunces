@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresis.cap" format="2">
+  <advance width="895.3"/>
+  <outline>
+    <contour>
+      <point x="223.8" y="1040.8999999999999" type="curve" smooth="yes"/>
+      <point x="328.59999999999997" y="1040.8999999999999"/>
+      <point x="392.90000000000003" y="1101.3000000000002"/>
+      <point x="392.90000000000003" y="1197.0" type="curve" smooth="yes"/>
+      <point x="392.90000000000003" y="1294.4"/>
+      <point x="328.59999999999997" y="1354.1999999999998"/>
+      <point x="223.8" y="1354.1999999999998" type="curve" smooth="yes"/>
+      <point x="119.29999999999998" y="1354.1999999999998"/>
+      <point x="53.7" y="1294.4"/>
+      <point x="53.7" y="1197.0" type="curve" smooth="yes"/>
+      <point x="53.7" y="1099.7"/>
+      <point x="119.29999999999998" y="1040.8999999999999"/>
+    </contour>
+    <contour>
+      <point x="670.0" y="1040.8999999999999" type="curve" smooth="yes"/>
+      <point x="777.2000000000002" y="1040.8999999999999"/>
+      <point x="841.6" y="1101.3000000000002"/>
+      <point x="841.6" y="1197.0" type="curve" smooth="yes"/>
+      <point x="841.6" y="1294.4"/>
+      <point x="777.2000000000002" y="1354.1999999999998"/>
+      <point x="670.0" y="1354.1999999999998" type="curve" smooth="yes"/>
+      <point x="565.9" y="1354.1999999999998"/>
+      <point x="500.0" y="1294.0"/>
+      <point x="500.0" y="1197.0" type="curve" smooth="yes"/>
+      <point x="500.0" y="1099.7"/>
+      <point x="565.9" y="1040.8999999999999"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9811,0.4634,0.5508,1</string>
+    </dict>
+  </lib>
+</glyph>

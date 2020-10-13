@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eth" format="2">
+  <advance width="1541.5"/>
+  <unicode hex="00D0"/>
+  <outline>
+    <contour>
+      <point x="103.89999999999999" y="707.0" type="curve" smooth="yes"/>
+      <point x="95.50000000000001" y="677.6"/>
+      <point x="107.9" y="659.9"/>
+      <point x="135.6" y="659.9" type="curve" smooth="yes"/>
+      <point x="805.9000000000001" y="659.9" type="line" smooth="yes"/>
+      <point x="834.8" y="659.9"/>
+      <point x="858.9" y="677.6"/>
+      <point x="867.3" y="707.0" type="curve" smooth="yes"/>
+      <point x="875.4" y="734.3000000000001"/>
+      <point x="862.8" y="753.1999999999999"/>
+      <point x="833.8" y="753.1999999999999" type="curve" smooth="yes"/>
+      <point x="164.5" y="753.1999999999999" type="line" smooth="yes"/>
+      <point x="137.39999999999998" y="753.1999999999999"/>
+      <point x="112.3" y="734.3"/>
+    </contour>
+    <component base="D" xOffset="2.0999999999999996"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorn" format="2">
+  <advance width="1154.1333333333334"/>
+  <unicode hex="01A1"/>
+  <outline>
+    <contour>
+      <point x="1192.0" y="1102.5333333333333" type="curve" smooth="yes"/>
+      <point x="1192.0" y="1182.6000000000001"/>
+      <point x="1151.7333333333333" y="1227.6666666666665"/>
+      <point x="1075.2666666666667" y="1227.6666666666665" type="curve" smooth="yes"/>
+      <point x="999.5333333333333" y="1227.6666666666665"/>
+      <point x="957.0666666666667" y="1177.8666666666668"/>
+      <point x="957.0666666666667" y="1090.8" type="curve" smooth="yes"/>
+      <point x="957.0666666666667" y="1043.4666666666665" type="line" smooth="yes"/>
+      <point x="957.0666666666667" y="955.1333333333333"/>
+      <point x="894.6" y="907.5333333333333"/>
+      <point x="716.0" y="940.0666666666667" type="curve" smooth="yes"/>
+      <point x="690.7333333333333" y="943.7333333333333"/>
+      <point x="675.4000000000001" y="931.6666666666666"/>
+      <point x="675.4000000000001" y="911.9333333333333" type="curve" smooth="yes"/>
+      <point x="675.4000000000001" y="896.4"/>
+      <point x="687.6" y="890.1333333333333"/>
+      <point x="711.7333333333333" y="885.4" type="curve" smooth="yes"/>
+      <point x="1017.3333333333335" y="822.8666666666667"/>
+      <point x="1192.0" y="940.0666666666666"/>
+    </contour>
+    <component base="o"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9811,0.4634,0.5508,1</string>
+    </dict>
+  </lib>
+</glyph>

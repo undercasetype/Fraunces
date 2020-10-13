@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam" format="2">
+  <advance width="584.6000000000001"/>
+  <unicode hex="0021"/>
+  <outline>
+    <contour>
+      <point x="570.2" y="1482.0" type="curve" smooth="yes"/>
+      <point x="505.3999999999999" y="1482.0"/>
+      <point x="468.00000000000006" y="1443.4"/>
+      <point x="453.09999999999997" y="1387.5" type="curve" smooth="yes"/>
+      <point x="448.5" y="1370.8"/>
+      <point x="442.59999999999997" y="1343.8999999999999"/>
+      <point x="438.50000000000006" y="1320.1000000000001" type="curve" smooth="yes"/>
+      <point x="268.3" y="505.1" type="line" smooth="yes"/>
+      <point x="262.0" y="466.8"/>
+      <point x="270.0" y="452.1"/>
+      <point x="295.3" y="452.1" type="curve" smooth="yes"/>
+      <point x="320.7" y="452.1"/>
+      <point x="337.09999999999997" y="467.59999999999997"/>
+      <point x="351.9" y="506.2" type="curve" smooth="yes"/>
+      <point x="614.3000000000001" y="1319.6000000000001" type="line" smooth="yes"/>
+      <point x="624.6999999999999" y="1345.1999999999998"/>
+      <point x="633.0" y="1373.9"/>
+      <point x="637.0" y="1389.6" type="curve" smooth="yes"/>
+      <point x="651.5" y="1443.0000000000002"/>
+      <point x="635.5000000000001" y="1482.0"/>
+    </contour>
+    <component base="period" xOffset="24.700000000000003" yOffset="1.6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,1</string>
+    </dict>
+  </lib>
+</glyph>

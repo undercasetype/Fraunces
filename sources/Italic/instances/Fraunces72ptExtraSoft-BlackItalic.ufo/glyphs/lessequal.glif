@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lessequal" format="2">
+  <advance width="1166.3333333333333"/>
+  <unicode hex="2264"/>
+  <outline>
+    <contour>
+      <point x="522.2666666666667" y="872.7333333333333" type="line"/>
+      <point x="960.3333333333334" y="593.8" type="line" smooth="yes"/>
+      <point x="1020.4666666666667" y="555.2666666666667"/>
+      <point x="1035.0" y="502.2"/>
+      <point x="1024.0" y="460.6666666666667" type="curve" smooth="yes"/>
+      <point x="1007.9333333333333" y="395.06666666666666"/>
+      <point x="963.3333333333334" y="347.0"/>
+      <point x="890.6666666666666" y="347.0" type="curve" smooth="yes"/>
+      <point x="830.5333333333333" y="347.0"/>
+      <point x="785.4" y="373.53333333333336"/>
+      <point x="708.7333333333333" y="418.6" type="curve" smooth="yes"/>
+      <point x="299.73333333333335" y="668.5333333333333" type="line" smooth="yes"/>
+      <point x="234.06666666666666" y="708.0666666666667"/>
+      <point x="214.53333333333333" y="773.1333333333333"/>
+      <point x="235.06666666666666" y="849.2" type="curve" smooth="yes"/>
+      <point x="255.13333333333333" y="925.2666666666667"/>
+      <point x="307.26666666666665" y="990.3333333333334"/>
+      <point x="394.46666666666664" y="1029.4" type="curve" smooth="yes"/>
+      <point x="933.2666666666667" y="1279.8" type="line" smooth="yes"/>
+      <point x="1033.0" y="1324.8666666666666"/>
+      <point x="1091.6666666666667" y="1351.4"/>
+      <point x="1151.8" y="1351.4" type="curve" smooth="yes"/>
+      <point x="1224.4666666666667" y="1351.4"/>
+      <point x="1243.5333333333333" y="1303.3333333333333"/>
+      <point x="1225.4666666666667" y="1237.2666666666667" type="curve" smooth="yes"/>
+      <point x="1214.9333333333334" y="1196.2"/>
+      <point x="1173.3333333333333" y="1142.6666666666667"/>
+      <point x="1091.6666666666667" y="1104.6" type="curve" smooth="yes"/>
+      <point x="510.73333333333335" y="825.6666666666666" type="line"/>
+    </contour>
+    <component base="minus" xOffset="-142.33333333333334" yOffset="-555.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>

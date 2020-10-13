@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash" format="2">
+  <advance width="588.8"/>
+  <unicode hex="0142"/>
+  <outline>
+    <contour>
+      <point x="51.4" y="544.0" type="curve" smooth="yes"/>
+      <point x="63.400000000000006" y="528.0"/>
+      <point x="81.39999999999999" y="525.8000000000001"/>
+      <point x="100.0" y="539.0" type="curve" smooth="yes"/>
+      <point x="303.40000000000003" y="685.2" type="line"/>
+      <point x="350.2" y="702.8000000000001" type="line"/>
+      <point x="582.0" y="870.6" type="line" smooth="yes"/>
+      <point x="598.8" y="883.8"/>
+      <point x="603.4" y="902.5999999999999"/>
+      <point x="590.6" y="920.0" type="curve" smooth="yes"/>
+      <point x="577.8000000000001" y="936.6"/>
+      <point x="557.8000000000001" y="938.2"/>
+      <point x="540.1999999999999" y="925.6" type="curve" smooth="yes"/>
+      <point x="330.6" y="773.4" type="line"/>
+      <point x="282.2" y="754.8" type="line"/>
+      <point x="59.199999999999996" y="594.2" type="line" smooth="yes"/>
+      <point x="42.4" y="581.8000000000001"/>
+      <point x="38.0" y="561.8"/>
+    </contour>
+    <component base="l" xOffset="3.9999999999999973"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9811,0.4634,0.5508,1</string>
+    </dict>
+  </lib>
+</glyph>

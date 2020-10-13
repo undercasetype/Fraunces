@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecmb" format="2">
+  <advance width="461.5"/>
+  <unicode hex="0300"/>
+  <anchor x="435.5" y="941.5" name="center"/>
+  <outline>
+    <contour>
+      <point x="449.7401583890512" y="1259.0" type="line" smooth="yes"/>
+      <point x="428.26587606160007" y="1350.0"/>
+      <point x="389.23131567049734" y="1400.0"/>
+      <point x="311.23131567049734" y="1400.0" type="curve" smooth="yes"/>
+      <point x="233.73131567049734" y="1400.0"/>
+      <point x="183.4727881398206" y="1338.0"/>
+      <point x="177.26596611527924" y="1283.5" type="curve" smooth="yes"/>
+      <point x="167.30918911757746" y="1197.0"/>
+      <point x="201.71444071650225" y="1149.0"/>
+      <point x="285.67139782156244" y="1094.0" type="curve" smooth="yes"/>
+      <point x="440.68024054011624" y="983.5" type="line" smooth="yes"/>
+      <point x="455.46973574466034" y="974.7308946753114"/>
+      <point x="472.3396564022783" y="975.2154572398725"/>
+      <point x="486.8095493322942" y="987.5" type="curve" smooth="yes"/>
+      <point x="500.83691685131674" y="999.8962485744742"/>
+      <point x="502.84164239427554" y="1016.7671584470108"/>
+      <point x="496.36125483842955" y="1033.5" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9811,0.4634,0.5508,1</string>
+    </dict>
+  </lib>
+</glyph>

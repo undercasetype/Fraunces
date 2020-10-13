@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caroncmb" format="2">
+  <advance width="611.5000000000001"/>
+  <unicode hex="030C"/>
+  <outline>
+    <contour>
+      <point x="356.40012525505244" y="1151.6" type="line"/>
+      <point x="313.90012525505244" y="1151.6" type="line"/>
+      <point x="579.9277744735067" y="1326.3" type="line" smooth="yes"/>
+      <point x="600.4271475131699" y="1339.1000000000001"/>
+      <point x="616.6035140181815" y="1340.7000000000003"/>
+      <point x="625.6325740769203" y="1331.5" type="curve" smooth="yes"/>
+      <point x="633.2990557656168" y="1324.0"/>
+      <point x="630.5519199947686" y="1307.8999999999999"/>
+      <point x="612.2474617422039" y="1291.2000000000003" type="curve" smooth="yes"/>
+      <point x="376.0391584581148" y="1076.4" type="line" smooth="yes"/>
+      <point x="349.8457832011771" y="1053.2"/>
+      <point x="331.5" y="1040.0"/>
+      <point x="307.00000000000006" y="1040.0" type="curve" smooth="yes"/>
+      <point x="282.1" y="1040.0"/>
+      <point x="269.6457832011771" y="1053.2"/>
+      <point x="255.23915845811476" y="1076.4" type="curve" smooth="yes"/>
+      <point x="129.7474617422039" y="1291.2000000000003" type="line" smooth="yes"/>
+      <point x="120.15191999476853" y="1307.9"/>
+      <point x="126.29905576561686" y="1324.0"/>
+      <point x="137.83257407692025" y="1331.5" type="curve" smooth="yes"/>
+      <point x="152.5035140181815" y="1340.7"/>
+      <point x="167.22714751317" y="1339.1"/>
+      <point x="180.62777447350663" y="1326.3" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.9811,0.4634,0.5508,1</string>
+    </dict>
+  </lib>
+</glyph>

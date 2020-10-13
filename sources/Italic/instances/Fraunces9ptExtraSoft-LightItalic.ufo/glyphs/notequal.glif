@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="notequal" format="2">
+  <advance width="1132.0"/>
+  <unicode hex="2260"/>
+  <outline>
+    <contour>
+      <point x="153.0" y="50.400000000000006" type="curve" smooth="yes"/>
+      <point x="174.94545454545454" y="50.400000000000006"/>
+      <point x="199.8143635050463" y="67.62427048376175"/>
+      <point x="234.8" y="112.0" type="curve" smooth="yes"/>
+      <point x="1098.6" y="1236.2" type="line" smooth="yes"/>
+      <point x="1134.0" y="1281.6"/>
+      <point x="1121.3999999999999" y="1315.8"/>
+      <point x="1092.8" y="1315.8" type="curve" smooth="yes"/>
+      <point x="1052.1410256410256" y="1315.8"/>
+      <point x="1030.4295250640682" y="1290.092776206494"/>
+      <point x="1000.4" y="1250.8000000000002" type="curve" smooth="yes"/>
+      <point x="139.20000000000002" y="118.99999999999999" type="line" smooth="yes"/>
+      <point x="108.20000000000002" y="78.60000000000001"/>
+      <point x="123.6" y="50.400000000000006"/>
+    </contour>
+    <component base="equal"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,0,0,1</string>
+    </dict>
+  </lib>
+</glyph>
