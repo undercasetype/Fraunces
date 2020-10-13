@@ -20,20 +20,20 @@
       <map input="700" output="740"/>
       <map input="900" output="900"/>
     </axis>
-    <axis tag="SOFT" name="soften" minimum="0" maximum="100" default="100"/>
-    <labelname xml:lang="en">Soften</labelname>
-    <axis tag="WONK" name="wonk" minimum="0" maximum="1" default="1"/>
-    <labelname xml:lang="en">Wonk</labelname>
+    <axis tag="SOFT" name="Softness" minimum="0" maximum="100" default="100"/>
+    <labelname xml:lang="en">Softness</labelname>
+    <axis tag="WONK" name="Wonky" minimum="0" maximum="1" default="1"/>
+    <labelname xml:lang="en">Wonkiness</labelname>
   </axes>
   <rules>
-    <rule name="wonk">
+    <rule name="Wonky">
       <conditionset>
         <condition name="Optical Size" minimum="9" maximum="18"/>
         <condition name="Weight" minimum="100" maximum="900"/>
-        <condition name="soften" minimum="0" maximum="100"/>
+        <condition name="Softness" minimum="0" maximum="100"/>
       </conditionset>
       <conditionset>
-        <condition name="wonk" minimum="0" maximum="0.490000"/>
+        <condition name="Wonky" minimum="0" maximum="0.490000"/>
       </conditionset>
       <sub name="ampersand" with="ampersand.alt"/>
       <sub name="h" with="h.alt"/>
@@ -68,64 +68,64 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
     </source>
     <source filename="Fraunces-9ptS000Black.ufo">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
     </source>
     <source filename="Fraunces-144ptS000Thin.ufo">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
     </source>
     <source filename="Fraunces-9ptS000Thin.ufo">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
     </source>
     <source filename="Fraunces-144ptS100Black.ufo">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
     </source>
     <source filename="Fraunces-9ptS100Black.ufo">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
     </source>
     <source filename="Fraunces-144ptS100Thin.ufo">
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
     </source>
     <source filename="Fraunces-9ptS100Thin.ufo">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
     </source>
   </sources>
@@ -134,8 +134,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -144,8 +144,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="260"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -154,8 +154,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="420"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -164,8 +164,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="580"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -174,8 +174,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="740"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -184,8 +184,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -194,8 +194,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -204,8 +204,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="260"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -214,8 +214,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="420"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -224,8 +224,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="580"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -234,8 +234,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="740"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -244,8 +244,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -254,8 +254,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -264,8 +264,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="260"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -274,8 +274,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="420"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -284,8 +284,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="580"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -294,8 +294,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="740"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -304,8 +304,8 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -314,8 +314,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -324,8 +324,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="260"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -334,8 +334,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="420"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -344,8 +344,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="580"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -354,8 +354,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="740"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -364,8 +364,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -374,8 +374,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -384,8 +384,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="260"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -394,8 +394,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="420"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -404,8 +404,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="580"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -414,8 +414,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="740"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -424,8 +424,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -434,8 +434,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -444,8 +444,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="260"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -454,8 +454,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="420"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -464,8 +464,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="580"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -474,8 +474,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="740"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -484,8 +484,8 @@
       <location>
         <dimension name="Optical Size" xvalue="72"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -494,8 +494,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -504,8 +504,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="260"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -514,8 +514,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="420"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -524,8 +524,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="580"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -534,8 +534,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="740"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -544,8 +544,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="soften" xvalue="0"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -554,8 +554,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -564,8 +564,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="260"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -574,8 +574,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="420"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -584,8 +584,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="580"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -594,8 +594,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="740"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -604,8 +604,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="soften" xvalue="50"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="50"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -614,8 +614,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -624,8 +624,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="260"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -634,8 +634,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="420"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -644,8 +644,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="580"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -654,8 +654,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="740"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -664,8 +664,8 @@
       <location>
         <dimension name="Optical Size" xvalue="144"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="soften" xvalue="100"/>
-        <dimension name="wonk" xvalue="1"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
       <info/>
@@ -681,7 +681,7 @@
         <array/>
         <key>ignore</key>
         <array>
-          <string>soften</string>
+          <string>Soften</string>
           <string>wonk</string>
         </array>
         <key>vertical</key>
@@ -694,7 +694,7 @@
       <dict>
         <key>Optical Size</key>
         <real>9.0</real>
-        <key>soften</key>
+        <key>Soften</key>
         <real>0.0</real>
         <key>Weight</key>
         <real>100.0</real>

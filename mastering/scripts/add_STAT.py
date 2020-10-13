@@ -47,13 +47,13 @@ def makeStyleSpace(designspace,path):
             700: "Bold",
             900: "Black"
         },
-        "soften":
+        "Softness":
         {
             0: "S000",
             50: "S050",
             100: "S100"
         },
-        "wonk":
+        "Wonky":
         {
             0:"0",
             1:"1"
@@ -90,12 +90,12 @@ def makeStyleSpace(designspace,path):
                     #                     "linked_value": 700,
                     #                     "flags": ["ElidableAxisValueName"]
                     #                     })
-        elif axis.name == "soften":
-            for value, name in styles["soften"].items():
-                v_range = get_range(sorted(styles["soften"].keys()), value)
+        elif axis.name == "Softness":
+            for value, name in styles["Softness"].items():
+                v_range = get_range(sorted(styles["Softness"].keys()), value)
                 locations.append({"name": name, "value": value, "range": v_range})
-        elif axis.name == "wonk":
-            for value, name in styles["wonk"].items():
+        elif axis.name == "Wonky":
+            for value, name in styles["Wonky"].items():
                 if value != 1:
                     locations.append({"name": name, "value": value})
                 else:
