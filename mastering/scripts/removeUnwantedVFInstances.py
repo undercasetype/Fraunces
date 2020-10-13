@@ -40,11 +40,12 @@ def forbidden_instance():
         ).toUnicode()
 
         if not name in allowed_stylenames:
-            return instance
+            return instance, name
 
 while forbidden_instance():
-    instance = forbidden_instance()
+    instance = forbidden_instance()[0]
+    name = forbidden_instance()[1]
     ttFont['fvar'].instances.remove(instance)
-    print('Deleted', instance)
+    print('Deleted', name)
 
 ttFont.save(file)
