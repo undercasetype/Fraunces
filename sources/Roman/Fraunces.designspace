@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.1">
   <axes>
-    <axis tag="opsz" name="Optical Size" minimum="9" maximum="144" default="144">
+    <axis tag="opsz" name="Optical Size" minimum="9" maximum="144" default="9">
       <map input="9" output="9"/>
       <map input="47" output="36"/>
       <map input="72" output="72"/>
@@ -612,7 +612,7 @@
     </instance>
     <instance name="Fraunces144ptExtraSoft-Thin" familyname="Fraunces" stylename="Thin" filename="instances/Fraunces144ptExtraSoft-Thin.ufo" postscriptfontname="Fraunces144ptExtraSoft-Thin" stylemapfamilyname="Fraunces 144pt ExtraSoft Thin" stylemapstylename="Regular">
       <location>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Softness" xvalue="100"/>
         <dimension name="Wonky" xvalue="1"/>
@@ -622,7 +622,7 @@
     </instance>
     <instance name="Fraunces144ptExtraSoft-Light" familyname="Fraunces" stylename="Light" filename="instances/Fraunces144ptExtraSoft-Light.ufo" postscriptfontname="Fraunces144ptExtraSoft-Light" stylemapfamilyname="Fraunces 144pt ExtraSoft Light" stylemapstylename="Regular">
       <location>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="260"/>
         <dimension name="Softness" xvalue="100"/>
         <dimension name="Wonky" xvalue="1"/>
@@ -632,7 +632,7 @@
     </instance>
     <instance name="Fraunces144ptExtraSoft-Regular" familyname="Fraunces" stylename="Regular" filename="instances/Fraunces144ptExtraSoft-Regular.ufo" postscriptfontname="Fraunces144ptExtraSoft-Regular" stylemapfamilyname="Fraunces 144pt ExtraSoft" stylemapstylename="Regular">
       <location>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="420"/>
         <dimension name="Softness" xvalue="100"/>
         <dimension name="Wonky" xvalue="1"/>
@@ -642,7 +642,7 @@
     </instance>
     <instance name="Fraunces144ptExtraSoft-SemiBold" familyname="Fraunces" stylename="SemiBold" filename="instances/Fraunces144ptExtraSoft-SemiBold.ufo" postscriptfontname="Fraunces144ptExtraSoft-SemiBold" stylemapfamilyname="Fraunces 144pt ExtraSoft SemiBold" stylemapstylename="Regular">
       <location>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="580"/>
         <dimension name="Softness" xvalue="100"/>
         <dimension name="Wonky" xvalue="1"/>
@@ -652,7 +652,7 @@
     </instance>
     <instance name="Fraunces144ptExtraSoft-Bold" familyname="Fraunces" stylename="Bold" filename="instances/Fraunces144ptExtraSoft-Bold.ufo" postscriptfontname="Fraunces144ptExtraSoft-Bold" stylemapfamilyname="Fraunces 144pt ExtraSoft" stylemapstylename="Bold">
       <location>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="740"/>
         <dimension name="Softness" xvalue="100"/>
         <dimension name="Wonky" xvalue="1"/>
@@ -662,7 +662,7 @@
     </instance>
     <instance name="Fraunces144ptExtraSoft-Black" familyname="Fraunces" stylename="Black" filename="instances/Fraunces144ptExtraSoft-Black.ufo" postscriptfontname="Fraunces144ptExtraSoft-Black" stylemapfamilyname="Fraunces 144pt ExtraSoft Black" stylemapstylename="Regular">
       <location>
-        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="900"/>
         <dimension name="Softness" xvalue="100"/>
         <dimension name="Wonky" xvalue="1"/>
