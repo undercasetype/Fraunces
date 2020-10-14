@@ -68,11 +68,11 @@ do
 	if [ -f "$vf.fix" ]; then mv "$vf.fix" $vf; fi
 done
 
-echo "Fix STAT"
-python mastering/scripts/add_STAT.py sources/Roman/Fraunces.designspace fonts/Fraunces[SOFT,WONK,opsz,wght].ttf
-python mastering/scripts/add_STAT.py sources/Italic/FrauncesItalic.designspace fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf
-rm -f sources/Roman/*.stylespace
-rm -f sources/Italic/*.stylespace
+# echo "Fix STAT"
+# python mastering/scripts/add_STAT.py sources/Roman/Fraunces.designspace fonts/Fraunces[SOFT,WONK,opsz,wght].ttf
+# python mastering/scripts/add_STAT.py sources/Italic/FrauncesItalic.designspace fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf
+# rm -f sources/Roman/*.stylespace
+# rm -f sources/Italic/*.stylespace
 
 rm -rf fonts/*gasp*
 
