@@ -27,18 +27,15 @@ do
 	if [ -f "$vf.fix" ]; then mv "$vf.fix" $vf; fi
 done
 
-# echo "Fix STAT"
-# python mastering/scripts/add_STAT.py sources/Roman/Fraunces.designspace fonts/Fraunces[SOFT,WONK,opsz,wght].ttf
-# python mastering/scripts/add_STAT.py sources/Italic/FrauncesItalic.designspace fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf
-# rm -f sources/Roman/*.stylespace
-# rm -f sources/Italic/*.stylespace
+echo "Add STAT table"
+python mastering/scripts/add_STAT-improved.py "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf"
+python mastering/scripts/add_STAT-improved.py "fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf"
 
 rm -rf fonts/*gasp*
 
-echo "Remove unwanted STAT instances"
+echo "Remove unwanted fvar instances"
 for vf in $vfs
 do
-	# remove unwanted instances
 	python mastering/scripts/removeUnwantedVFInstances.py $vf
 done
 

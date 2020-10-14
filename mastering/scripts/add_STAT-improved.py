@@ -52,8 +52,7 @@ AXES = [
         name="Italic",
         ordering=4,
         values=[
-            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0, name="Roman", flags=0x2),
-            dict(nominalValue=1, rangeMinValue=0.1, rangeMaxValue=1, name="Italic"),
+            dict(nominalValue=0, name="Roman", flags=0x2, linkedValue=1),
         ],
     ),
 ]
@@ -73,6 +72,19 @@ def update_fvar(ttfont):
 def main():
     filepath = sys.argv[1]
     tt = TTFont(filepath)
+
+    # remove & replace last item in AXES to work for italic font
+    if "Italic" in filepath:
+        AXES.pop()
+        AXES.append(dict(
+                tag="ital",
+                name="Italic",
+                ordering=4,
+                values=[
+                    dict(nominalValue=1, name="Italic"),
+                ],
+            ))
+
     buildStatTable(tt, AXES)
     update_fvar(tt)
     tt.save(filepath)
