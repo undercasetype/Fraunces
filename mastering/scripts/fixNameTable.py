@@ -1,3 +1,10 @@
+"""
+    Fix issues in name table that are results of generating fonts from UFOs in a designspace.
+
+    Examples:
+    - Set Name 2 to "Italic" in italic fonts
+"""
+
 import sys, re, unicodedata, os
 import fontTools.ttLib
 # from fontbakery.parse import style_parse
@@ -111,17 +118,45 @@ if 'fvar' in ttFont:
         if name.nameID == 17:
             name.string = style.typo_style_name
 
+    familyName = return_familyname(ttFont)
+
+    ttFont["name"].setName( string=familyName,  nameID=1,  platformID=3, platEncID=1, langID=0x409 )
+    ttFont["name"].setName( string=familyName,  nameID=1,  platformID=3, platEncID=1, langID=0x409 )
+
+
+    # TODO: check if fixing this in the UFOs solves the problem
     if '-Italic' in file:
         ttFont['head'].macStyle |= 1 << 1 # Set  bit 1
         ttFont['OS/2'].fsSelection |= 1 << 0 # Set bit 0 (Italic)
         ttFont['OS/2'].fsSelection = ttFont['OS/2'].fsSelection & ~(1<<5) # Unset bit 5 (Bold)
         ttFont['OS/2'].fsSelection = ttFont['OS/2'].fsSelection & ~(1<<6) # Unset bit 6 (Regular)
 
+        # # -------------------------------------------------------
+        # # remove "Italic" from the family name, add as style name
 
-    # TODO: remove "Italic" from the family name
+        # # get names
+        # currentNameID1 = ttFont["name"].getName(nameID=1, platformID=3, platEncID=1).toStr()
+        # currentNameID3 = ttFont["name"].getName(nameID=3, platformID=3, platEncID=1).toStr()
+        # currentNameID4 = ttFont["name"].getName(nameID=4, platformID=3, platEncID=1).toStr()
+        # currentNameID6 = ttFont["name"].getName(nameID=6, platformID=3, platEncID=1).toStr()
+        # currentNameID16 = ttFont["name"].getName(nameID=16, platformID=3, platEncID=1).toStr()
+
+        # # fix names
+        # nameID1  = currentNameID1.replace(" Italic","")
+        # nameID3  = currentNameID3.replace("Italic","") + "Italic"
+        # nameID4  = currentNameID4.replace(" Italic","") + " Italic"
+        # nameID6  = currentNameID6.replace("Italic","") + "Italic"
+        # nameID16 = currentNameID16.replace("Italic","")
+
+        # # set names
+        # ttFont["name"].setName( string=nameID1,  nameID=1,  platformID=3, platEncID=1, langID=0x409 )
+        # ttFont["name"].setName( string=nameID3,  nameID=3,  platformID=3, platEncID=1, langID=0x409 )
+        # ttFont["name"].setName( string=nameID4,  nameID=4,  platformID=3, platEncID=1, langID=0x409 )
+        # ttFont["name"].setName( string=nameID6,  nameID=6,  platformID=3, platEncID=1, langID=0x409 )
+        # ttFont["name"].setName( string=nameID16, nameID=16,  platformID=3, platEncID=1, langID=0x409 )
 
 
-# Static FOnt
+# Static Font
 else:
 
     filename_no_extension = return_filename_no_extension(file)
