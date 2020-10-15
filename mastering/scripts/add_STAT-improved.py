@@ -43,8 +43,8 @@ AXES = [
         name="Wonky",
         ordering=3,
         values=[
-            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0.5, name="Normal", flags=0x2),
-            dict(nominalValue=1, rangeMinValue=0.5, rangeMaxValue=1, name="Wonky"),
+            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=0.5, name="NonWonky"),
+            dict(nominalValue=1, rangeMinValue=0.5, rangeMaxValue=1, name="Wonky", flags=0x2),
         ],
     ),
     dict(

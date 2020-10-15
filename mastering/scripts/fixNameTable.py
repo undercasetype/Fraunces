@@ -53,17 +53,12 @@ def return_familyname(font):
     # If the font is RIBBI, name 16 doesn’t exist, and FontTools returns None (as a NoneType)
     if familyName == None:
         familyName = ttFont["name"].getName(nameID=1,  platformID=3, platEncID=1, langID=0x409 )
-    
-    print('familyName is')
-    print(str(familyName))
+
     return str(familyName)
 
 def return_stylename(filename):
     stylename = filename_no_extension.split("-")[1]
     stylename = stylename.replace("pt", "pt ")
-
-    print('stylename is:')
-    print(stylename)
     return stylename
 
 def split_name(string):
@@ -130,30 +125,6 @@ if 'fvar' in ttFont:
         ttFont['OS/2'].fsSelection |= 1 << 0 # Set bit 0 (Italic)
         ttFont['OS/2'].fsSelection = ttFont['OS/2'].fsSelection & ~(1<<5) # Unset bit 5 (Bold)
         ttFont['OS/2'].fsSelection = ttFont['OS/2'].fsSelection & ~(1<<6) # Unset bit 6 (Regular)
-
-        # # -------------------------------------------------------
-        # # remove "Italic" from the family name, add as style name
-
-        # # get names
-        # currentNameID1 = ttFont["name"].getName(nameID=1, platformID=3, platEncID=1).toStr()
-        # currentNameID3 = ttFont["name"].getName(nameID=3, platformID=3, platEncID=1).toStr()
-        # currentNameID4 = ttFont["name"].getName(nameID=4, platformID=3, platEncID=1).toStr()
-        # currentNameID6 = ttFont["name"].getName(nameID=6, platformID=3, platEncID=1).toStr()
-        # currentNameID16 = ttFont["name"].getName(nameID=16, platformID=3, platEncID=1).toStr()
-
-        # # fix names
-        # nameID1  = currentNameID1.replace(" Italic","")
-        # nameID3  = currentNameID3.replace("Italic","") + "Italic"
-        # nameID4  = currentNameID4.replace(" Italic","") + " Italic"
-        # nameID6  = currentNameID6.replace("Italic","") + "Italic"
-        # nameID16 = currentNameID16.replace("Italic","")
-
-        # # set names
-        # ttFont["name"].setName( string=nameID1,  nameID=1,  platformID=3, platEncID=1, langID=0x409 )
-        # ttFont["name"].setName( string=nameID3,  nameID=3,  platformID=3, platEncID=1, langID=0x409 )
-        # ttFont["name"].setName( string=nameID4,  nameID=4,  platformID=3, platEncID=1, langID=0x409 )
-        # ttFont["name"].setName( string=nameID6,  nameID=6,  platformID=3, platEncID=1, langID=0x409 )
-        # ttFont["name"].setName( string=nameID16, nameID=16,  platformID=3, platEncID=1, langID=0x409 )
 
 
 # Static Font
