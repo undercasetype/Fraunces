@@ -41,16 +41,15 @@ def return_filename_no_extension(filename):
 
 # should work well if the designspace has correct naming
 def return_familyname(font):
-    try:
-        familyName = ttFont["name"].getName(nameID=16,  platformID=3, platEncID=1, langID=0x409 )
-        print('familyName is')
-        print(str(familyName))
-        return str(familyName)
-    except:
-        print('familyName is')
+    familyName = ttFont["name"].getName(nameID=16,  platformID=3, platEncID=1, langID=0x409 )
+
+    # If the font is RIBBI, name 16 doesn’t exist, and FontTools returns None (as a NoneType)
+    if familyName == None:
         familyName = ttFont["name"].getName(nameID=1,  platformID=3, platEncID=1, langID=0x409 )
-        print(str(familyName))
-        return str(familyName)
+    
+    print('familyName is')
+    print(str(familyName))
+    return str(familyName)
 
 def return_stylename(filename):
     stylename = filename_no_extension.split("-")[1]
@@ -117,6 +116,9 @@ if 'fvar' in ttFont:
         ttFont['OS/2'].fsSelection |= 1 << 0 # Set bit 0 (Italic)
         ttFont['OS/2'].fsSelection = ttFont['OS/2'].fsSelection & ~(1<<5) # Unset bit 5 (Bold)
         ttFont['OS/2'].fsSelection = ttFont['OS/2'].fsSelection & ~(1<<6) # Unset bit 6 (Regular)
+
+
+    # TODO: remove "Italic" from the family name
 
 
 # Static FOnt
