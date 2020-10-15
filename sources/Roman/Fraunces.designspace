@@ -20,7 +20,7 @@
       <map input="700" output="740"/>
       <map input="900" output="900"/>
     </axis>
-    <axis tag="SOFT" name="Softness" minimum="0" maximum="100" default="100"/>
+    <axis tag="SOFT" name="Softness" minimum="0" maximum="100" default="0"/>
     <labelname xml:lang="en">Softness</labelname>
     <axis tag="WONK" name="Wonky" minimum="0" maximum="1" default="1"/>
     <labelname xml:lang="en">Wonkiness</labelname>
@@ -130,491 +130,11 @@
     </source>
   </sources>
   <instances>
-    <instance name="Fraunces9ptSharp-Thin" familyname="Fraunces" stylename="9pt Sharp Thin" filename="instances/Fraunces9ptSharp-Thin.ufo" postscriptfontname="Fraunces9ptSharp-Thin" stylemapfamilyname="Fraunces 9pt Sharp Thin" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="100"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9ptSharp-Light" familyname="Fraunces" stylename="9pt Sharp Light" filename="instances/Fraunces9ptSharp-Light.ufo" postscriptfontname="Fraunces9ptSharp-Light" stylemapfamilyname="Fraunces 9pt Sharp Light" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="260"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9ptSharp-Regular" familyname="Fraunces" stylename="9pt Sharp Regular" filename="instances/Fraunces9ptSharp-Regular.ufo" postscriptfontname="Fraunces9ptSharp-Regular" stylemapfamilyname="Fraunces 9pt Sharp" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="420"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9ptSharp-SemiBold" familyname="Fraunces" stylename="9pt Sharp SemiBold" filename="instances/Fraunces9ptSharp-SemiBold.ufo" postscriptfontname="Fraunces9ptSharp-SemiBold" stylemapfamilyname="Fraunces 9pt Sharp SemiBold" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="580"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9ptSharp-Bold" familyname="Fraunces" stylename="9pt Sharp Bold" filename="instances/Fraunces9ptSharp-Bold.ufo" postscriptfontname="Fraunces9ptSharp-Bold" stylemapfamilyname="Fraunces 9pt Sharp" stylemapstylename="Bold">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="740"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9ptSharp-Black" familyname="Fraunces" stylename="9pt Sharp Black" filename="instances/Fraunces9ptSharp-Black.ufo" postscriptfontname="Fraunces9ptSharp-Black" stylemapfamilyname="Fraunces 9pt Sharp Black" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="900"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9Soft-Thin" familyname="Fraunces" stylename="9pt Soft Thin" filename="instances/Fraunces9ptSoft-Thin.ufo" postscriptfontname="Fraunces9ptSoft-Thin" stylemapfamilyname="Fraunces 9pt Soft Thin" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="100"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9Soft-Light" familyname="Fraunces" stylename="9pt Soft Light" filename="instances/Fraunces9ptSoft-Light.ufo" postscriptfontname="Fraunces9ptSoft-Light" stylemapfamilyname="Fraunces 9pt Soft Light" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="260"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9Soft-Regular" familyname="Fraunces" stylename="9pt Soft Regular" filename="instances/Fraunces9ptSoft-Regular.ufo" postscriptfontname="Fraunces9ptSoft-Regular" stylemapfamilyname="Fraunces 9pt Soft" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="420"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9Soft-SemiBold" familyname="Fraunces" stylename="9pt Soft SemiBold" filename="instances/Fraunces9ptSoft-SemiBold.ufo" postscriptfontname="Fraunces9ptSoft-SemiBold" stylemapfamilyname="Fraunces 9pt Soft SemiBold" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="580"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9Soft-Bold" familyname="Fraunces" stylename="9pt Soft Bold" filename="instances/Fraunces9ptSoft-Bold.ufo" postscriptfontname="Fraunces9ptSoft-Bold" stylemapfamilyname="Fraunces 9pt Soft" stylemapstylename="Bold">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="740"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9Soft-Black" familyname="Fraunces" stylename="9pt Soft Black" filename="instances/Fraunces9ptSoft-Black.ufo" postscriptfontname="Fraunces9ptSoft-Black" stylemapfamilyname="Fraunces 9pt Soft Black" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="900"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9ptExtraSoft-Thin" familyname="Fraunces" stylename="9pt ExtraSoft Thin" filename="instances/Fraunces9ptExtraSoft-Thin.ufo" postscriptfontname="Fraunces9ptExtraSoft-Thin" stylemapfamilyname="Fraunces 9pt ExtraSoft Thin" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="100"/>
-        <dimension name="Softness" xvalue="100"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9ptExtraSoft-Light" familyname="Fraunces" stylename="9pt ExtraSoft Light" filename="instances/Fraunces9ptExtraSoft-Light.ufo" postscriptfontname="Fraunces9ptExtraSoft-Light" stylemapfamilyname="Fraunces 9pt ExtraSoft Light" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="260"/>
-        <dimension name="Softness" xvalue="100"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9ptExtraSoft-Regular" familyname="Fraunces" stylename="9pt ExtraSoft Regular" filename="instances/Fraunces9ptExtraSoft-Regular.ufo" postscriptfontname="Fraunces9ptExtraSoft-Regular" stylemapfamilyname="Fraunces 9pt ExtraSoft" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="420"/>
-        <dimension name="Softness" xvalue="100"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9ptExtraSoft-SemiBold" familyname="Fraunces" stylename="9pt ExtraSoft SemiBold" filename="instances/Fraunces9ptExtraSoft-SemiBold.ufo" postscriptfontname="Fraunces9ptExtraSoft-SemiBold" stylemapfamilyname="Fraunces 9pt ExtraSoft SemiBold" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="580"/>
-        <dimension name="Softness" xvalue="100"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9ptExtraSoft-Bold" familyname="Fraunces" stylename="9pt ExtraSoft Bold" filename="instances/Fraunces9ptExtraSoft-Bold.ufo" postscriptfontname="Fraunces9ptExtraSoft-Bold" stylemapfamilyname="Fraunces 9pt ExtraSoft" stylemapstylename="Bold">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="740"/>
-        <dimension name="Softness" xvalue="100"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces9ptExtraSoft-Black" familyname="Fraunces" stylename="9pt ExtraSoft Black" filename="instances/Fraunces9ptExtraSoft-Black.ufo" postscriptfontname="Fraunces9ptExtraSoft-Black" stylemapfamilyname="Fraunces 9pt ExtraSoft Black" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="9"/>
-        <dimension name="Weight" xvalue="900"/>
-        <dimension name="Softness" xvalue="100"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72ptSharp-Thin" familyname="Fraunces" stylename="72pt Sharp Thin" filename="instances/Fraunces72ptSharp-Thin.ufo" postscriptfontname="Fraunces72ptSharp-Thin" stylemapfamilyname="Fraunces 72pt Sharp Thin" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="100"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72ptSharp-Light" familyname="Fraunces" stylename="72pt Sharp Light" filename="instances/Fraunces72ptSharp-Light.ufo" postscriptfontname="Fraunces72ptSharp-Light" stylemapfamilyname="Fraunces 72pt Sharp Light" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="260"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72ptSharp-Regular" familyname="Fraunces" stylename="72pt Sharp Regular" filename="instances/Fraunces72ptSharp-Regular.ufo" postscriptfontname="Fraunces72ptSharp-Regular" stylemapfamilyname="Fraunces 72pt Sharp" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="420"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72ptSharp-SemiBold" familyname="Fraunces" stylename="72pt Sharp SemiBold" filename="instances/Fraunces72ptSharp-SemiBold.ufo" postscriptfontname="Fraunces72ptSharp-SemiBold" stylemapfamilyname="Fraunces 72pt Sharp SemiBold" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="580"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72ptSharp-Bold" familyname="Fraunces" stylename="72pt Sharp Bold" filename="instances/Fraunces72ptSharp-Bold.ufo" postscriptfontname="Fraunces72ptSharp-Bold" stylemapfamilyname="Fraunces 72pt Sharp" stylemapstylename="Bold">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="740"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72ptSharp-Black" familyname="Fraunces" stylename="72pt Sharp Black" filename="instances/Fraunces72ptSharp-Black.ufo" postscriptfontname="Fraunces72ptSharp-Black" stylemapfamilyname="Fraunces 72pt Sharp Black" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="900"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72Soft-Thin" familyname="Fraunces" stylename="72pt Soft Thin" filename="instances/Fraunces72ptSoft-Thin.ufo" postscriptfontname="Fraunces72ptSoft-Thin" stylemapfamilyname="Fraunces 72pt Soft Thin" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="100"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72Soft-Light" familyname="Fraunces" stylename="72pt Soft Light" filename="instances/Fraunces72ptSoft-Light.ufo" postscriptfontname="Fraunces72ptSoft-Light" stylemapfamilyname="Fraunces 72pt Soft Light" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="260"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72Soft-Regular" familyname="Fraunces" stylename="72pt Soft Regular" filename="instances/Fraunces72ptSoft-Regular.ufo" postscriptfontname="Fraunces72ptSoft-Regular" stylemapfamilyname="Fraunces 72pt Soft" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="420"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72Soft-SemiBold" familyname="Fraunces" stylename="72pt Soft SemiBold" filename="instances/Fraunces72ptSoft-SemiBold.ufo" postscriptfontname="Fraunces72ptSoft-SemiBold" stylemapfamilyname="Fraunces 72pt Soft SemiBold" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="580"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72Soft-Bold" familyname="Fraunces" stylename="72pt Soft Bold" filename="instances/Fraunces72ptSoft-Bold.ufo" postscriptfontname="Fraunces72ptSoft-Bold" stylemapfamilyname="Fraunces 72pt Soft" stylemapstylename="Bold">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="740"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72Soft-Black" familyname="Fraunces" stylename="72pt Soft Black" filename="instances/Fraunces72ptSoft-Black.ufo" postscriptfontname="Fraunces72ptSoft-Black" stylemapfamilyname="Fraunces 72pt Soft Black" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="900"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72ptExtraSoft-Thin" familyname="Fraunces" stylename="72pt ExtraSoft Thin" filename="instances/Fraunces72ptExtraSoft-Thin.ufo" postscriptfontname="Fraunces72ptExtraSoft-Thin" stylemapfamilyname="Fraunces 72pt ExtraSoft Thin" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="100"/>
-        <dimension name="Softness" xvalue="100"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72ptExtraSoft-Light" familyname="Fraunces" stylename="72pt ExtraSoft Light" filename="instances/Fraunces72ptExtraSoft-Light.ufo" postscriptfontname="Fraunces72ptExtraSoft-Light" stylemapfamilyname="Fraunces 72pt ExtraSoft Light" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="260"/>
-        <dimension name="Softness" xvalue="100"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72ptExtraSoft-Regular" familyname="Fraunces" stylename="72pt ExtraSoft Regular" filename="instances/Fraunces72ptExtraSoft-Regular.ufo" postscriptfontname="Fraunces72ptExtraSoft-Regular" stylemapfamilyname="Fraunces 72pt ExtraSoft" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="420"/>
-        <dimension name="Softness" xvalue="100"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72ptExtraSoft-SemiBold" familyname="Fraunces" stylename="72pt ExtraSoft SemiBold" filename="instances/Fraunces72ptExtraSoft-SemiBold.ufo" postscriptfontname="Fraunces72ptExtraSoft-SemiBold" stylemapfamilyname="Fraunces 72pt ExtraSoft SemiBold" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="580"/>
-        <dimension name="Softness" xvalue="100"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72ptExtraSoft-Bold" familyname="Fraunces" stylename="72pt ExtraSoft Bold" filename="instances/Fraunces72ptExtraSoft-Bold.ufo" postscriptfontname="Fraunces72ptExtraSoft-Bold" stylemapfamilyname="Fraunces 72pt ExtraSoft" stylemapstylename="Bold">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="740"/>
-        <dimension name="Softness" xvalue="100"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces72ptExtraSoft-Black" familyname="Fraunces" stylename="72pt ExtraSoft Black" filename="instances/Fraunces72ptExtraSoft-Black.ufo" postscriptfontname="Fraunces72ptExtraSoft-Black" stylemapfamilyname="Fraunces 72pt ExtraSoft Black" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="72"/>
-        <dimension name="Weight" xvalue="900"/>
-        <dimension name="Softness" xvalue="100"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces144ptSharp-Thin" familyname="Fraunces" stylename="144pt Sharp Thin" filename="instances/Fraunces144ptSharp-Thin.ufo" postscriptfontname="Fraunces144ptSharp-Thin" stylemapfamilyname="Fraunces 144pt Sharp Thin" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="144"/>
-        <dimension name="Weight" xvalue="100"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces144ptSharp-Light" familyname="Fraunces" stylename="144pt Sharp Light" filename="instances/Fraunces144ptSharp-Light.ufo" postscriptfontname="Fraunces144ptSharp-Light" stylemapfamilyname="Fraunces 144pt Sharp Light" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="144"/>
-        <dimension name="Weight" xvalue="260"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces144ptSharp-Regular" familyname="Fraunces" stylename="144pt Sharp Regular" filename="instances/Fraunces144ptSharp-Regular.ufo" postscriptfontname="Fraunces144ptSharp-Regular" stylemapfamilyname="Fraunces 144pt Sharp" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="144"/>
-        <dimension name="Weight" xvalue="420"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces144ptSharp-SemiBold" familyname="Fraunces" stylename="144pt Sharp SemiBold" filename="instances/Fraunces144ptSharp-SemiBold.ufo" postscriptfontname="Fraunces144ptSharp-SemiBold" stylemapfamilyname="Fraunces 144pt Sharp SemiBold" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="144"/>
-        <dimension name="Weight" xvalue="580"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces144ptSharp-Bold" familyname="Fraunces" stylename="144pt Sharp Bold" filename="instances/Fraunces144ptSharp-Bold.ufo" postscriptfontname="Fraunces144ptSharp-Bold" stylemapfamilyname="Fraunces 144pt Sharp" stylemapstylename="Bold">
-      <location>
-        <dimension name="Optical Size" xvalue="144"/>
-        <dimension name="Weight" xvalue="740"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces144ptSharp-Black" familyname="Fraunces" stylename="144pt Sharp Black" filename="instances/Fraunces144ptSharp-Black.ufo" postscriptfontname="Fraunces144ptSharp-Black" stylemapfamilyname="Fraunces 144pt Sharp Black" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="144"/>
-        <dimension name="Weight" xvalue="900"/>
-        <dimension name="Softness" xvalue="0"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces144Soft-Thin" familyname="Fraunces" stylename="144pt Soft Thin" filename="instances/Fraunces144ptSoft-Thin.ufo" postscriptfontname="Fraunces144ptSoft-Thin" stylemapfamilyname="Fraunces 144pt Soft Thin" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="144"/>
-        <dimension name="Weight" xvalue="100"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces144Soft-Light" familyname="Fraunces" stylename="144pt Soft Light" filename="instances/Fraunces144ptSoft-Light.ufo" postscriptfontname="Fraunces144ptSoft-Light" stylemapfamilyname="Fraunces 144pt Soft Light" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="144"/>
-        <dimension name="Weight" xvalue="260"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces144Soft-Regular" familyname="Fraunces" stylename="144pt Soft Regular" filename="instances/Fraunces144ptSoft-Regular.ufo" postscriptfontname="Fraunces144ptSoft-Regular" stylemapfamilyname="Fraunces 144pt Soft" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="144"/>
-        <dimension name="Weight" xvalue="420"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces144Soft-SemiBold" familyname="Fraunces" stylename="144pt Soft SemiBold" filename="instances/Fraunces144ptSoft-SemiBold.ufo" postscriptfontname="Fraunces144ptSoft-SemiBold" stylemapfamilyname="Fraunces 144pt Soft SemiBold" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="144"/>
-        <dimension name="Weight" xvalue="580"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces144Soft-Bold" familyname="Fraunces" stylename="144pt Soft Bold" filename="instances/Fraunces144ptSoft-Bold.ufo" postscriptfontname="Fraunces144ptSoft-Bold" stylemapfamilyname="Fraunces 144pt Soft" stylemapstylename="Bold">
-      <location>
-        <dimension name="Optical Size" xvalue="144"/>
-        <dimension name="Weight" xvalue="740"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
-    <instance name="Fraunces144Soft-Black" familyname="Fraunces" stylename="144pt Soft Black" filename="instances/Fraunces144ptSoft-Black.ufo" postscriptfontname="Fraunces144ptSoft-Black" stylemapfamilyname="Fraunces 144pt Soft Black" stylemapstylename="Regular">
-      <location>
-        <dimension name="Optical Size" xvalue="144"/>
-        <dimension name="Weight" xvalue="900"/>
-        <dimension name="Softness" xvalue="50"/>
-        <dimension name="Wonky" xvalue="1"/>
-      </location>
-      <kerning/>
-      <info/>
-    </instance>
     <instance name="Fraunces144ptExtraSoft-Thin" familyname="Fraunces" stylename="Thin" filename="instances/Fraunces144ptExtraSoft-Thin.ufo" postscriptfontname="Fraunces144ptExtraSoft-Thin" stylemapfamilyname="Fraunces 144pt ExtraSoft Thin" stylemapstylename="Regular">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Softness" xvalue="0"/>
         <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
@@ -624,7 +144,7 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="260"/>
-        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Softness" xvalue="0"/>
         <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
@@ -634,7 +154,7 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="420"/>
-        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Softness" xvalue="0"/>
         <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
@@ -644,7 +164,7 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="580"/>
-        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Softness" xvalue="0"/>
         <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
@@ -654,7 +174,7 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="740"/>
-        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Softness" xvalue="0"/>
         <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
@@ -664,7 +184,7 @@
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="900"/>
-        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Softness" xvalue="0"/>
         <dimension name="Wonky" xvalue="1"/>
       </location>
       <kerning/>
