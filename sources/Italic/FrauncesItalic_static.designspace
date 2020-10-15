@@ -24,7 +24,7 @@
     <axis tag="WONK" name="Wonky" minimum="0" maximum="1" default="1"/>
   </axes>
   <rules>
-    <rule name="Wonky">
+    <rule name="NonWonky">
       <conditionset>
         <condition name="Optical Size" minimum="9" maximum="18"/>
         <condition name="Weight" minimum="100" maximum="900"/>

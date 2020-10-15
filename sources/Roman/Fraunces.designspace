@@ -26,7 +26,7 @@
     <labelname xml:lang="en">Wonkiness</labelname>
   </axes>
   <rules>
-    <rule name="Wonky">
+    <rule name="NonWonky">
       <conditionset>
         <condition name="Optical Size" minimum="9" maximum="18"/>
         <condition name="Weight" minimum="100" maximum="900"/>
