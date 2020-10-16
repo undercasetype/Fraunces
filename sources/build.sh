@@ -6,8 +6,10 @@ set -e
 
 echo "Generating VFs"
 mkdir -p fonts
-fontmake -m sources/Roman/Fraunces.designspace -o variable --output-path fonts/Fraunces[SOFT,WONK,opsz,wght].ttf
-fontmake -m sources/Italic/FrauncesItalic.designspace -o variable --output-path fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf
+fontmake -m sources/Roman/Fraunces.designspace -o variable --no-production-names --output-path fonts/Fraunces[SOFT,WONK,opsz,wght].ttf
+fontmake -m sources/Italic/FrauncesItalic.designspace -o variable --no-production-names --output-path fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf
+
+
 
 vfs=$(ls fonts/*.ttf)
 echo vfs
@@ -71,6 +73,6 @@ rm -f fonts/static/ttf/*gasp.ttf
 echo "Done Generating"
 
 # echo "Checking VFs with FontBakery"
-# mkdir -p mastering/checks
-# fontbakery check-googlefonts fonts/Fraunces\[SOFT,WONK,opsz,wght\].ttf --ghmarkdown mastering/checks/Fraunces.checks.md
-# fontbakery check-googlefonts fonts/Fraunces-Italic\[SOFT,WONK,opsz,wght\].ttf --ghmarkdown mastering/checks/Fraunces-Italic.checks.md
+mkdir -p mastering/checks
+fontbakery check-googlefonts fonts/Fraunces\[SOFT,WONK,opsz,wght\].ttf --ghmarkdown mastering/checks/Fraunces.checks.md
+fontbakery check-googlefonts fonts/Fraunces-Italic\[SOFT,WONK,opsz,wght\].ttf --ghmarkdown mastering/checks/Fraunces-Italic.checks.md
