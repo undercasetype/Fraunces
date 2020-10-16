@@ -19,9 +19,9 @@ AXES = [
         name="Softness",
         ordering=1,
         values=[
-            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=25, name="Sharp"),
+            dict(nominalValue=0, rangeMinValue=0, rangeMaxValue=25, name="Sharp", flags=0x2),
             dict(nominalValue=50, rangeMinValue=25, rangeMaxValue=75, name="Soft"),
-            dict(nominalValue=100, rangeMinValue=75, rangeMaxValue=100, name="ExtraSoft"),
+            dict(nominalValue=100, rangeMinValue=75, rangeMaxValue=100, name="SuperSoft"),
         ],
     ),
     dict(

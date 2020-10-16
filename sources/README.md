@@ -12,10 +12,10 @@ The following software and scripts was used in the production of this typeface f
 
 The script `production/scripts/ScaleandInterpolate.py` was used to generate the following masters:
 
-– 144pt ExtraSoft Light
-– 144pt ExtraSoft Light Italic
-– 144pt ExtraSoft Black
-– 144pt ExtraSoft Black Italic
+– 144pt SuperSoft Light
+– 144pt SuperSoft Light Italic
+– 144pt SuperSoft Black
+– 144pt SuperSoft Black Italic
 – 9pt Sharp Light
 – 9pt Sharp Light Italic
 – 9pt Sharp Black

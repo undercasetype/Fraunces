@@ -51,7 +51,7 @@ def makeStyleSpace(designspace,path):
         {
             0: "Sharp",
             50: "Soft",
-            100: "ExtraSoft"
+            100: "SuperSoft"
         },
         "Wonky":
         {

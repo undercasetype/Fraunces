@@ -9,6 +9,10 @@ set -e
 ## -------------------------------------------------------------
 ## Statics
 
+echo "Cleaning out old static fonts"
+
+rm -rf fonts/static
+
 echo "Generating Static fonts"
 
 mkdir -p fonts/static/ttf
