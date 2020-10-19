@@ -7,24 +7,19 @@ set -e
 # python mastering/scripts/generate_static_fonts_designspace.py
 
 ## -------------------------------------------------------------
-## Statics
+## Static TTF
 
-echo "Cleaning out old static fonts"
+echo "Cleaning out old static TTF fonts"
 
-rm -rf fonts/static
+rm -rf fonts/static/ttf
 
-echo "Generating Static fonts"
+echo "Generating Static TTF fonts"
 
 mkdir -p fonts/static/ttf
-fontmake -m sources/Roman/Fraunces_static.designspace -i -o ttf --output-dir fonts/static/ttf/
-fontmake -m sources/Italic/FrauncesItalic_static.designspace -i -o ttf --output-dir fonts/static/ttf/
+fontmake -m sources/Roman/Fraunces_static.designspace -i -o ttf --no-production-names --output-dir fonts/static/ttf/
+fontmake -m sources/Italic/FrauncesItalic_static.designspace -i -o ttf --no-production-names --output-dir fonts/static/ttf/
 
-# mkdir -p fonts/static/otf
-# fontmake -m sources/Roman/Fraunces_static.designspace -i -o otf --output-dir fonts/static/otf/
-# fontmake -m sources/Italic/FrauncesItalic_static.designspace -i -o otf --output-dir fonts/static/otf/
-
-
-echo "Post processing"
+echo "Post processing TTFs"
 ttfs=$(ls fonts/static/ttf/*.ttf)
 for ttf in $ttfs
 do
@@ -40,4 +35,27 @@ do
     python mastering/scripts/fixNameTable.py $ttf
 done
 
-rm -f fonts/static/ttf/*gasp.ttf 
+# ## -------------------------------------------------------------
+# ## Static OTF
+
+# echo "Cleaning out old static OTF fonts"
+# rm -rf fonts/static/otf
+
+
+# echo "Generating Static OTF fonts"
+# mkdir -p fonts/static/otf
+# fontmake -m sources/Roman/Fraunces_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
+# fontmake -m sources/Italic/FrauncesItalic_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
+
+# echo "Post processing OTFs"
+# otfs=$(ls fonts/static/otf/*.otf)
+# for otf in $otfs
+# do
+#     gftools fix-dsig -f $otf;
+#     if [ -f "$otf.fix" ]; then mv "$otf.fix" $otf; fi
+#     gftools fix-nonhinting $otf $otf.fix
+#     mv  $otf.fix $otf                                    # TODO: add back hinting?
+#     python mastering/scripts/fixNameTable.py $otf
+# done
+
+# rm -f fonts/static/otf/*gasp.otf 
