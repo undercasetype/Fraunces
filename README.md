@@ -77,10 +77,10 @@ Then install requirements:
 pip install -U -r requirements.txt
 ```
 
-And finally, give the build script permission to run/execute:
+And finally, give the build scripts permission to run/execute:
 
 ```
-chmod +x sources/build.sh
+chmod +x sources/*.sh
 ```
 
 Now, you can run `sources/build.sh`!
