@@ -80,7 +80,7 @@ pip install -U -r requirements.txt
 And finally, give the build scripts permission to run/execute:
 
 ```
-chmod +x sources/*.sh
+chmod +x sources/*.sh && chmod +x mastering/make-github-release/**/*.sh
 ```
 
 Now, you can run `sources/build.sh`!

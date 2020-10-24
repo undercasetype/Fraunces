@@ -35,27 +35,27 @@ do
     python mastering/scripts/fixNameTable.py $ttf
 done
 
-# ## -------------------------------------------------------------
-# ## Static OTF
+## -------------------------------------------------------------
+## Static OTF
 
-# echo "Cleaning out old static OTF fonts"
-# rm -rf fonts/static/otf
+echo "Cleaning out old static OTF fonts"
+rm -rf fonts/static/otf
 
 
-# echo "Generating Static OTF fonts"
-# mkdir -p fonts/static/otf
-# fontmake -m sources/Roman/Fraunces_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
-# fontmake -m sources/Italic/FrauncesItalic_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
+echo "Generating Static OTF fonts"
+mkdir -p fonts/static/otf
+fontmake -m sources/Roman/Fraunces_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
+fontmake -m sources/Italic/FrauncesItalic_static.designspace -i -o otf --no-production-names --output-dir fonts/static/otf/
 
-# echo "Post processing OTFs"
-# otfs=$(ls fonts/static/otf/*.otf)
-# for otf in $otfs
-# do
-#     gftools fix-dsig -f $otf;
-#     if [ -f "$otf.fix" ]; then mv "$otf.fix" $otf; fi
-#     gftools fix-nonhinting $otf $otf.fix
-#     mv  $otf.fix $otf                                    # TODO: add back hinting?
-#     python mastering/scripts/fixNameTable.py $otf
-# done
+echo "Post processing OTFs"
+otfs=$(ls fonts/static/otf/*.otf)
+for otf in $otfs
+do
+    gftools fix-dsig -f $otf;
+    if [ -f "$otf.fix" ]; then mv "$otf.fix" $otf; fi
+    gftools fix-nonhinting $otf $otf.fix
+    mv  $otf.fix $otf                                    # TODO: add back hinting?
+    python mastering/scripts/fixNameTable.py $otf
+done
 
-# rm -f fonts/static/otf/*gasp.otf 
+rm -f fonts/static/otf/*gasp.otf 

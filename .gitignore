@@ -13,3 +13,6 @@ mastering/checks
 # fontmake-generated files
 sources/Roman/instances/*
 sources/Italic/instances/*
+
+# ignore release files
+UnderCaseType_Fraunces_*
