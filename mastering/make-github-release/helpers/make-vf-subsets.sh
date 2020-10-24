@@ -6,13 +6,11 @@
 
 fontPath=$1
 fontName=$2
-
 subsetDir="$(dirname $fontPath)/variable-subsets"
 
 echo $fontPath
 echo $fontName
 echo $subsetDir
-
 
 mkdir -p $subsetDir/fonts
 
@@ -27,16 +25,11 @@ vietnameseFile="$fontName--vietnamese.woff2"
 vietnameseUni="U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB"
 pyftsubset $fontPath --flavor="woff2" --output-file=$subsetDir/fonts/$vietnameseFile --layout-features='*' --unicodes=$vietnameseUni
 
-
-# TODO: get unicodes that are in font, but not in given unicode args, e.g. latin-basic and vietnamese
-
-latinExtUni=$(python mastering/make-github-release/helpers/print-remaining-unicodes-in-font.py "$fontPath" "$latinBasicUni,$vietnameseUni")
-
-
-echo "→ Subset for leftover unicodes"
+echo "→ Google Fonts Latin Extended"
 latinExtFile="$fontName--latin_ext.woff2"
+# unicodes ranges pulled from the latin-ext unicode ranges for Roboto (which is more extensive than Fraunces)
+latinExtUni="U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF"
 pyftsubset $fontPath --flavor="woff2" --output-file=$subsetDir/fonts/$latinExtFile --layout-features='*' --unicodes=$latinExtUni
-# pyftsubset $fontPath --flavor="woff2" --output-file=$subsetDir/fonts/$latinExtFile --layout-features='*' --unicodes-file="sources/mastering/data/latin-ext_unique-glyphs.nam" ### problem: how do we get the appropriate unicode values for the CSS?
 
 
 __CSS="\
@@ -70,7 +63,9 @@ __CSS="\
 
 # the string of characters is generated via sources/mastering/print-chars-from-font.py, then copied in
 
-chars=$(python3 mastering/make-github-release/helpers/print-chars-from-font.py "$fontPath")
+# chars=$(python3 mastering/make-github-release/helpers/print-chars-from-font.py "$fontPath")
+chars=$(python mastering/make-github-release/helpers/print-chars-from-uni_ranges-if_in_font.py "$fontPath" "$latinBasicUni,$vietnameseUni,$latinExtUni")
+
 __HTML="\
 <!DOCTYPE html>
 <html lang='en'>
