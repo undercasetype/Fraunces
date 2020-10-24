@@ -87,6 +87,38 @@ Now, you can run `sources/build.sh`!
 
 </details>
 
+### Build fonts
+
+Once you have set up the environment (see above), you can build fonts & prep releases!
+
+When building a new version, add a version number (in the format of `1.001`) to update the UFO versions & version the fonts correctly. If you aren’t sure what version you should be building, check the number of the latest release in https://github.com/undercasetype/Fraunces/releases, then increment by `.001`.
+
+If you leave out the version number, it will just build with the same version number that already exists in the UFO sources.
+
+```
+sources/build.sh 1.001
+```
+
+To build the static fonts:
+
+```
+sources/build-statics.sh
+```
+
+#### Make new releases
+
+To prepare a new release, use:
+
+```
+mastering/make-github-release/make-release.sh
+```
+
+It will copy files to a folder like `UnderCaseType_Fraunces_1.001` and output a zip like `UnderCaseType_Fraunces_1.001.zip`.
+
+You can drag-and-drop this zip into your release notes.
+
+NOTE: To edit the recommendations in the README.md included with releases, you can update `mastering/make-github-release/data/release-notes--all.md`, which is copied into release zips.
+
 ## Production Notes
 
 If you are doing any work on this repo, please read the production notes [here](https://github.com/undercasetype/Fraunces/tree/master/sources).
