@@ -16,7 +16,7 @@ done
 
 echo "----------------------------------------------------------------------------------"
 echo "Making woff2 fonts"
-mastering/make-github-release/helpers/make-woff2s.sh
+sources/build-scripts/make-woff2s.sh
 
 
 echo "----------------------------------------------------------------------------------"

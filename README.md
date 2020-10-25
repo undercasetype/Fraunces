@@ -91,18 +91,24 @@ Now, you can run `sources/build.sh`!
 
 Once you have set up the environment (see above), you can build fonts & prep releases!
 
-When building a new version, add a version number (in the format of `1.001`) to update the UFO versions & version the fonts correctly. If you aren’t sure what version you should be building, check the number of the latest release in https://github.com/undercasetype/Fraunces/releases, then increment by `.001`.
+When building a new version, add a version number (in the format of `1.001`) to update the UFO versions & version the fonts correctly. If you aren’t sure what version you should be building, check the number of the latest release in https://github.com/undercasetype/Fraunces/releases, then increment by `.001`. If you leave out the version number, it will just build with the same version number that already exists in the UFO sources.
 
-If you leave out the version number, it will just build with the same version number that already exists in the UFO sources.
+To build variable and static fonts, plus make woff2s, use `build-all.sh`. This takes awhile (most of the time is taken up by building TTF & OTF static fonts).
 
 ```bash
-sources/build.sh 1.001 # optional: place your desired version number as an argument
+sources/build-all.sh 1.001 # optional: place your desired version number as an argument
 ```
 
-To build the static fonts (these are secondary, so you can’t change the version numbers in this script):
+If you just want to build variable fonts, use `build.sh`:
 
 ```bash
-sources/build-statics.sh
+sources/build-scripts/build-vf.sh 1.001 # optional: place your desired version number as an argument
+```
+
+To build only the static fonts (these are secondary, so you can’t change the version numbers in this script), use `build-statics.sh`:
+
+```bash
+sources/build-scripts/build-statics.sh
 ```
 
 ## Production Notes

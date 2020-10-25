@@ -4,7 +4,7 @@ set -e
 if [ -z "$1" ]
 then
 	echo "No version number supplied. If you wish to update the version number in UFOs & built fonts, add one as a build argument:"
-	echo "sources/build.sh 1.001"
+	echo "sources/build-vf.sh 1.001"
 else
 	version=$1
 	python mastering/scripts/edit-ufo-info/set-ufo-version.py sources/Roman $version --save
@@ -82,7 +82,7 @@ rm -f fonts/static/ttf/*gasp.ttf
 
 echo "Done Generating"
 
-# echo "Checking VFs with FontBakery"
-mkdir -p mastering/checks
-fontbakery check-googlefonts fonts/Fraunces\[SOFT,WONK,opsz,wght\].ttf --ghmarkdown mastering/checks/Fraunces.checks.md
-fontbakery check-googlefonts fonts/Fraunces-Italic\[SOFT,WONK,opsz,wght\].ttf --ghmarkdown mastering/checks/Fraunces-Italic.checks.md
+# # echo "Checking VFs with FontBakery"
+# mkdir -p mastering/checks
+# fontbakery check-googlefonts fonts/Fraunces\[SOFT,WONK,opsz,wght\].ttf --ghmarkdown mastering/checks/Fraunces.checks.md
+# fontbakery check-googlefonts fonts/Fraunces-Italic\[SOFT,WONK,opsz,wght\].ttf --ghmarkdown mastering/checks/Fraunces-Italic.checks.md
