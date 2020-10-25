@@ -48,7 +48,7 @@ A binary axis that subsitutes `wonk` characters for more normalized characters, 
 
 ![alt text](documentation/explanations/wonk_axis.gif "Changes in Wonk")
 
-## Building the Font
+## Building the Fonts
 
 From terminal, run the build script at `sources/build.sh`. Fonts output to `fonts/`.
 
@@ -61,25 +61,25 @@ NOTE: The first time you build, you will need to set up a virtual environment an
 
 To build, set up the virtual environment
 
-```
+```bash
 virtualenv -p python3 venv
 ```
 
 Then activate it:
 
-```
+```bash
 source venv/bin/activate
 ```
 
 Then install requirements:
 
-```
+```bash
 pip install -U -r requirements.txt
 ```
 
 And finally, give the build scripts permission to run/execute:
 
-```
+```bash
 chmod +x sources/*.sh && chmod +x mastering/make-github-release/**/*.sh
 ```
 
@@ -95,30 +95,18 @@ When building a new version, add a version number (in the format of `1.001`) to 
 
 If you leave out the version number, it will just build with the same version number that already exists in the UFO sources.
 
-```
-sources/build.sh 1.001
+```bash
+sources/build.sh 1.001 # optional: place your desired version number as an argument
 ```
 
-To build the static fonts:
+To build the static fonts (these are secondary, so you can’t change the version numbers in this script):
 
-```
+```bash
 sources/build-statics.sh
 ```
-
-#### Make new releases
-
-To prepare a new release, use:
-
-```
-mastering/make-github-release/make-release.sh
-```
-
-It will copy files to a folder like `UnderCaseType_Fraunces_1.001` and output a zip like `UnderCaseType_Fraunces_1.001.zip`.
-
-You can drag-and-drop this zip into your release notes.
-
-NOTE: To edit the recommendations in the README.md included with releases, you can update `mastering/make-github-release/data/release-notes--all.md`, which is copied into release zips.
 
 ## Production Notes
 
 If you are doing any work on this repo, please read the production notes [here](https://github.com/undercasetype/Fraunces/tree/master/sources).
+
+If you are looking for notes on making GitHub Release packages, see [mastering/README.md](mastering/README.md).
