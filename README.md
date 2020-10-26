@@ -96,16 +96,16 @@ When building a new version, add a version number (in the format of `1.001`) to 
 To build variable and static fonts, plus make woff2s, use `build-all.sh`. This takes awhile (most of the time is taken up by building TTF & OTF static fonts).
 
 ```bash
-sources/build-all.sh 1.001 # optional: place your desired version number as an argument
+sources/build-all.sh 1.000 # optional: place your desired version number as an argument
 ```
 
 If you just want to build variable fonts, use `build.sh`:
 
 ```bash
-sources/build-scripts/build-vf.sh 1.001 # optional: place your desired version number as an argument
+sources/build-scripts/build-vf.sh 1.000 # optional: place your desired version number as an argument
 ```
 
-To build only the static fonts (these are secondary, so you can’t change the version numbers in this script), use `build-statics.sh`:
+To build only the static fonts (these are secondary to the variable fonts, so you can’t set the version numbers in this script), use `build-statics.sh`:
 
 ```bash
 sources/build-scripts/build-statics.sh

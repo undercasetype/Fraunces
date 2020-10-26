@@ -61,3 +61,13 @@ do
 done
 
 rm -f fonts/static/otf/*gasp.otf 
+
+## -------------------------------------------------------------
+## Improving version string detail
+
+echo "----------------------------------------------------------------------------------"
+echo "Adding the current commit hash to static font version strings"
+allStaticFonts=$(find fonts/static -type f -name "*.ttf"  -o -name "*.otf")
+for font in $allStaticFonts; do
+    font-v write --sha1 "$font"
+done

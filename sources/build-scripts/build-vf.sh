@@ -4,7 +4,7 @@ set -e
 if [ -z "$1" ]
 then
 	echo "No version number supplied. If you wish to update the version number in UFOs & built fonts, add one as a build argument:"
-	echo "sources/build-vf.sh 1.001"
+	echo "sources/build-vf.sh 1.000"
 else
 	version=$1
 	python mastering/scripts/edit-ufo-info/set-ufo-version.py sources/Roman $version --save
@@ -79,6 +79,14 @@ rm -f fonts/*.ttx
 rm -f fonts/static/ttf/*.ttx
 rm -f fonts/*gasp.ttf
 rm -f fonts/static/ttf/*gasp.ttf
+
+## -------------------------------------------------------------
+## Improving version string detail
+
+echo "----------------------------------------------------------------------------------"
+echo "Adding the current commit hash to variable font version strings"
+font-v write --sha1 "fonts/Fraunces[SOFT,WONK,opsz,wght].ttf"
+font-v write --sha1 "fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf"
 
 echo "Done Generating"
 
