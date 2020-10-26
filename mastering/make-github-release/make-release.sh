@@ -52,6 +52,7 @@ cp mastering/make-github-release/data/release-notes--all.md $releaseDir/README.m
 
 echo "----------------------------------------------------------------------------------"
 echo "Making zip for release"
+if [ -f $releaseDir.zip ]; then rm $releaseDir.zip; fi
 zip $releaseDir.zip -r $releaseDir -x .DS_*
 
 
