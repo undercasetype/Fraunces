@@ -35,6 +35,8 @@ do
     python mastering/scripts/fixNameTable.py $ttf
 done
 
+rm -f fonts/static/ttf/*gasp.ttf 
+
 ## -------------------------------------------------------------
 ## Static OTF
 
