@@ -50,7 +50,7 @@ A binary axis that subsitutes `wonk` characters for more normalized characters, 
 
 ## Building the Fonts
 
-From terminal, run the build script at `sources/build.sh`. Fonts output to `fonts/`.
+From terminal, run the build script at `sources/build-all.sh`. Fonts output to `fonts/`.
 
 NOTE: The first time you build, you will need to set up a virtual environment and install dependencies:
 
@@ -62,7 +62,7 @@ NOTE: The first time you build, you will need to set up a virtual environment an
 To build, set up the virtual environment
 
 ```bash
-virtualenv -p python3 venv
+python3 -m venv venv
 ```
 
 Then activate it:
@@ -77,10 +77,11 @@ Then install requirements:
 pip install -U -r requirements.txt
 ```
 
-And finally, give the build scripts permission to run/execute:
+And finally, give the build scripts permission to run/execute (you can copy & paste, then run both lines in the terminal at once):
 
 ```bash
-chmod +x sources/*.sh && chmod +x mastering/make-github-release/**/*.sh
+chmod +x sources/**/*.sh
+chmod +x mastering/make-github-release/**/*.sh
 ```
 
 Now, you can run `sources/build.sh`!
