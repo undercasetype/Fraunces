@@ -14,7 +14,7 @@ Axis | Tag | Range | Default | Description
 --- | --- | --- | --- | ---
 Optical Size | opsz | 9pt to 144pt | 144pt | Labeled 9pt, 72pt, and 144pt in instances.
 Weight | wght | 100 to 900 | 900 | Labeled Thin, Light, Regular, Semibold, Bold, and Black in instances.
-Softness | SOFT | 000 to 100 | 100 | Labeled S000, S050, and S100 in instances.
+Softness | SOFT | 000 to 100 | 100 | Labeled Sharp, Soft, and SuperSoft in instances.
 Wonky | WONK | 0 to 1 | 1 | Binary axis controls substitution of "wonky" characters. Automatically substitutes when opsz > 18. Not listed in instances.
 
 ### Axis Definitions
@@ -48,12 +48,72 @@ A binary axis that subsitutes `wonk` characters for more normalized characters, 
 
 ![alt text](documentation/explanations/wonk_axis.gif "Changes in Wonk")
 
-## Building the Font
+## Building the Fonts
 
-From terminal, run the build script at `sources/build.sh`. Fonts output to `fonts/`
+From terminal, run the build script at `sources/build-all.sh`. Fonts output to `fonts/`.
 
-[@arrowtype's Recursive project](https://github.com/arrowtype/recursive) has a much more thorough breakdown of how to set up a virtual environment and install requirements.
+NOTE: The first time you build, you will need to set up a virtual environment and install dependencies:
+
+<details>
+<summary><b><!-------->Setting up the build environment<!--------></b> (Click to expand)</summary>
+
+### Set up the environment
+
+To build, set up the virtual environment
+
+```bash
+python3 -m venv venv
+```
+
+Then activate it:
+
+```bash
+source venv/bin/activate
+```
+
+Then install requirements:
+
+```bash
+pip install -U -r requirements.txt
+```
+
+And finally, give the build scripts permission to run/execute (you can copy & paste, then run both lines in the terminal at once):
+
+```bash
+chmod +x sources/**/*.sh
+chmod +x mastering/make-github-release/**/*.sh
+```
+
+Now, you can run `sources/build.sh`!
+
+</details>
+
+### Build fonts
+
+Once you have set up the environment (see above), you can build fonts & prep releases!
+
+When building a new version, add a version number (in the format of `1.001`) to update the UFO versions & version the fonts correctly. If you aren’t sure what version you should be building, check the number of the latest release in https://github.com/undercasetype/Fraunces/releases, then increment by `.001`. If you leave out the version number, it will just build with the same version number that already exists in the UFO sources.
+
+To build variable and static fonts, plus make woff2s, use `build-all.sh`. This takes awhile (most of the time is taken up by building TTF & OTF static fonts).
+
+```bash
+sources/build-all.sh 1.000 # optional: place your desired version number as an argument
+```
+
+If you just want to build variable fonts, use `build.sh`:
+
+```bash
+sources/build-scripts/build-vf.sh 1.000 # optional: place your desired version number as an argument
+```
+
+To build only the static fonts (these are secondary to the variable fonts, so you can’t set the version numbers in this script), use `build-statics.sh`:
+
+```bash
+sources/build-scripts/build-statics.sh
+```
 
 ## Production Notes
 
 If you are doing any work on this repo, please read the production notes [here](https://github.com/undercasetype/Fraunces/tree/master/sources).
+
+If you are looking for notes on making GitHub Release packages, see [mastering/README.md](mastering/README.md).

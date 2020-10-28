@@ -1,3 +1,10 @@
+"""
+    Fix issues in name table that are results of generating fonts from UFOs in a designspace.
+
+    Examples:
+    - Set Name 2 to "Italic" in italic fonts
+"""
+
 import sys, re, unicodedata, os
 import fontTools.ttLib
 # from fontbakery.parse import style_parse
@@ -39,29 +46,19 @@ def return_filename_no_extension(filename):
     filename_no_extension = os.path.basename(filename).split(".")[0]
     return filename_no_extension
 
-def return_familyname(filename):
-    name = return_filename_no_extension(filename).split("-")[0]
-    parts = []
-    i = 0
-    previous = None
-    for s in name:
-        if unicodedata.category(s) in ['Lu', 'Nd'] and not unicodedata.category(s) == previous:
-            previous = unicodedata.category(s)
-            part = name[:i]
-            if part:
-                parts.append(part)
-            name = name[i:]
-            i = 0
-        i += 1
-    parts.append(name)
+# should work well if the designspace has correct naming
+def return_familyname(font):
+    familyName = ttFont["name"].getName(nameID=16,  platformID=3, platEncID=1, langID=0x409 )
 
-    parts[-2] += parts[-1]
-    del parts[-1]
+    # If the font is RIBBI, name 16 doesn’t exist, and FontTools returns None (as a NoneType)
+    if familyName == None:
+        familyName = ttFont["name"].getName(nameID=1,  platformID=3, platEncID=1, langID=0x409 )
 
-    return ' '.join(parts)
+    return str(familyName)
 
 def return_stylename(filename):
     stylename = filename_no_extension.split("-")[1]
+    stylename = stylename.replace("pt", "pt ")
     return stylename
 
 def split_name(string):
@@ -116,6 +113,13 @@ if 'fvar' in ttFont:
         if name.nameID == 17:
             name.string = style.typo_style_name
 
+    familyName = return_familyname(ttFont)
+
+    ttFont["name"].setName( string=familyName,  nameID=1,  platformID=3, platEncID=1, langID=0x409 )
+    ttFont["name"].setName( string=familyName,  nameID=1,  platformID=3, platEncID=1, langID=0x409 )
+
+
+    # TODO: check if fixing this in the UFOs solves the problem
     if '-Italic' in file:
         ttFont['head'].macStyle |= 1 << 1 # Set  bit 1
         ttFont['OS/2'].fsSelection |= 1 << 0 # Set bit 0 (Italic)
@@ -123,11 +127,12 @@ if 'fvar' in ttFont:
         ttFont['OS/2'].fsSelection = ttFont['OS/2'].fsSelection & ~(1<<6) # Unset bit 6 (Regular)
 
 
-# Static FOnt
+# Static Font
 else:
 
     filename_no_extension = return_filename_no_extension(file)
-    familyname = return_familyname(file)
+    # familyname = return_familyname(file)
+    familyname = return_familyname(ttFont)
     temp_stylename = return_stylename(file)
 
     if temp_stylename != "Italic":
@@ -152,6 +157,15 @@ else:
         ttFont["name"].removeNames(nameID=16)
     except:
         pass
+
+    print('nameID1: ',  nameID1)
+    print('nameID2: ',  nameID2)
+    print('nameID4: ',  nameID4)
+    print('nameID6: ',  nameID6)
+    print('nameID16: ', nameID16)
+    print('nameID17: ', nameID17)
+    print('nameID18: ', nameID18)
+    
 
     ttFont["name"].setName( string=nameID1,  nameID=1,  platformID=3, platEncID=1, langID=0x409 )
     ttFont["name"].setName( string=nameID2,  nameID=2,  platformID=3, platEncID=1, langID=0x409 )

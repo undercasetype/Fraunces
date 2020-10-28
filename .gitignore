@@ -7,3 +7,12 @@
 *.vfbak
 fonts/Fraunces[GOOF,WONK,opsz,wght].ttf
 fonts/Frances-Italic[GOOF,WONK,opsz,wght].ttf
+# mastering
+venv
+mastering/checks
+# fontmake-generated files
+sources/Roman/instances/*
+sources/Italic/instances/*
+
+# ignore release files
+UnderCaseType_Fraunces_*
