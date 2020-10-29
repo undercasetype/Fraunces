@@ -59,7 +59,28 @@ NOTE: The first time you build, you will need to set up a virtual environment an
 
 ### Set up the environment
 
-To build, set up the virtual environment
+**The basics**
+
+You will need to open a terminal to run the following commands.
+
+Clone the repo & navigate into it:
+
+```
+git clone https://github.com/undercasetype/Fraunces.git
+cd Fraunces
+```
+
+Check that you have Python 3:
+
+```
+which python3
+```
+
+It should return a path ending with `python3`, such as `/Library/Frameworks/Python.framework/Versions/3.7/bin/python3`. If it returns an error like `python3 not found`, you will need to [download Python 3](https://www.python.org/downloads/).
+
+**Setting up a virtual environment**
+
+To build, set up the virtual environment:
 
 ```bash
 python3 -m venv venv
@@ -71,20 +92,31 @@ Then activate it:
 source venv/bin/activate
 ```
 
-Then install requirements:
+Now, install requirements:
 
 ```bash
 pip install -U -r requirements.txt
 ```
 
-And finally, give the build scripts permission to run/execute (you can copy & paste, then run both lines in the terminal at once):
+Give the build scripts permission to run/execute (you can copy & paste, then run both lines in the terminal at once):
 
 ```bash
 chmod +x sources/**/*.sh
 chmod +x mastering/make-github-release/**/*.sh
 ```
 
-Now, you can run `sources/build.sh`!
+**Making woff2 files**
+
+Finally, you will also need to separately install [google/woff2](https://github.com/google/woff2) to enable the `woff2_compress` and `woff2_decompress` commands. Open a new terminal session, window, or tab to do this step.
+
+```bash
+# open a new terminal session first, then run
+git clone --recursive https://github.com/google/woff2.git
+cd woff2
+make clean all
+```
+
+You can now run the build!
 
 </details>
 
