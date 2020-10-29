@@ -1,6 +1,5 @@
 #!/bin/sh
 set -e
-source venv/bin/activate
 
 # A script to generate woff2 files for variable & static fonts
 # Required: woff2_compress (https://github.com/google/woff2)

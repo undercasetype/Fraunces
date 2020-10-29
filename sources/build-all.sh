@@ -1,7 +1,6 @@
 # !/bin/bash
 
 set -e
-source venv/bin/activate
 
 if [ -z "$1" ]
 then

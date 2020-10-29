@@ -83,6 +83,7 @@ It should return a path ending with `python3`, such as `/Library/Frameworks/Pyth
 To build, set up the virtual environment:
 
 ```bash
+cd ~
 python3 -m venv venv
 ```
 
@@ -95,6 +96,7 @@ source venv/bin/activate
 Now, install requirements:
 
 ```bash
+cd Fraunces
 pip install -U -r requirements.txt
 ```
 
@@ -116,7 +118,15 @@ cd woff2
 make clean all
 ```
 
-You can now run the build!
+To make sure woff2_compress is installed properly, enter the following inyour terminal window:
+
+```
+woff2_compress
+```
+
+If terminal cannot find the command, you may need to ensure binaries are in $PATH, [a description of which you can find here.](https://github.com/google/woff2/issues/131)
+
+Once woff2_compress is working in your terminal, you can now run the build!
 
 </details>
 
