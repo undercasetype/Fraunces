@@ -1,6 +1,5 @@
 # !/bin/bash
 set -e
-source venv/bin/activate
 
 echo "----------------------------------------------------------------------------------"
 echo "Getting font version of Roman variable font"
