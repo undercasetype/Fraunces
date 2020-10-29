@@ -1,5 +1,6 @@
 #!/bin/sh
 set -e
+source venv/bin/activate
 
 # Only use this when necesdsary, are currently not all instances are defined in the VF designspace files.
 # generate static designspace referencing csv and variable designspace file
