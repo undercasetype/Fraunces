@@ -2,7 +2,7 @@
 <glyph name="o" format="2">
   <advance width="1121"/>
   <unicode hex="006F"/>
-  <guideline x="2184.0" y="-60.0" angle="0" identifier="9vFioShFi3"/>
+  <guideline x="2184" y="-60" angle="0" identifier="9vFioShFi3"/>
   <outline>
     <contour>
       <point x="561" y="938" type="curve" smooth="yes"/>
@@ -36,7 +36,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.8431,0.8627,1,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

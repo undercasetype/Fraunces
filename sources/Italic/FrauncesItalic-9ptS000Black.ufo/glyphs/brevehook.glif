@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevehook" format="2">
   <advance width="732"/>
-  <anchor x="382.10461538461544" y="954" name="center"/>
+  <anchor x="382.105" y="954" name="center"/>
   <outline>
     <contour>
       <point x="360" y="1427" type="curve" smooth="yes"/>
@@ -66,7 +66,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0,0,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

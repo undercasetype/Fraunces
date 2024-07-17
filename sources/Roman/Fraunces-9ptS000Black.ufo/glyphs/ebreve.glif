@@ -2,14 +2,17 @@
 <glyph name="ebreve" format="2">
   <advance width="1120"/>
   <unicode hex="0115"/>
+  <anchor x="578" y="1048" name="center"/>
   <outline>
     <component base="e"/>
-    <component base="brevecmb" xOffset="212.012917113374"/>
+    <component base="brevecmb" xOffset="212.013"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

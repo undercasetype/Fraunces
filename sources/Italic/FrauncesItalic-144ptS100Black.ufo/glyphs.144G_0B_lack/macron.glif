@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macron" format="2">
   <advance width="808"/>
+  <unicode hex="00AF"/>
   <outline>
     <contour>
       <point x="0" y="-490" type="line"/>
@@ -9,4 +10,12 @@
       <point x="808" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.392,0.804,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

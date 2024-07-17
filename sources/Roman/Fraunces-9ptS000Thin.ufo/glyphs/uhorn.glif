@@ -2,7 +2,7 @@
 <glyph name="uhorn" format="2">
   <advance width="1132"/>
   <unicode hex="01B0"/>
-  <anchor x="529.0" y="1098.0" name="center"/>
+  <anchor x="529" y="1098" name="center"/>
   <outline>
     <contour>
       <point x="1144" y="1127" type="curve" smooth="yes"/>
@@ -29,8 +29,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
       <key>public.markColor</key>
-      <string>1,0,0,1</string>
+      <string>0.980,0.463,0.549,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

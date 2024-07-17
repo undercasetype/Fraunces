@@ -2,14 +2,17 @@
 <glyph name="Scaron" format="2">
   <advance width="1186"/>
   <unicode hex="0160"/>
+  <anchor x="608" y="1527" name="center"/>
   <outline>
     <component base="S"/>
-    <component base="caron.cap" xOffset="239.19271910004318" yOffset="499"/>
+    <component base="caron.cap" xOffset="239.193" yOffset="499"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

@@ -2,14 +2,17 @@
 <glyph name="scommaaccent" format="2">
   <advance width="690"/>
   <unicode hex="0219"/>
+  <anchor x="331" y="950" name="center"/>
   <outline>
     <component base="s"/>
-    <component base="commaaccentbelowcmb" xOffset="242.921875"/>
+    <component base="commaaccentbelowcmb" xOffset="242.922"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

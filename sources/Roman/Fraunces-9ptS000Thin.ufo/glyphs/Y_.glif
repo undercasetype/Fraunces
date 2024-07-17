@@ -2,7 +2,7 @@
 <glyph name="Y" format="2">
   <advance width="1331"/>
   <unicode hex="0059"/>
-  <anchor x="699.0" y="1420.0" name="center"/>
+  <anchor x="699" y="1420" name="center"/>
   <outline>
     <contour>
       <point x="706" y="467" type="line"/>
@@ -18,7 +18,7 @@
       <point x="1285" y="1400"/>
       <point x="1266" y="1400" type="curve" smooth="yes"/>
       <point x="942" y="1400" type="line" smooth="yes"/>
-      <point x="924.0" y="1400.0"/>
+      <point x="924" y="1400"/>
       <point x="914" y="1395"/>
       <point x="914" y="1384" type="curve" smooth="yes"/>
       <point x="914" y="1373"/>
@@ -39,7 +39,7 @@
       <point x="460" y="1373"/>
       <point x="460" y="1384" type="curve" smooth="yes"/>
       <point x="460" y="1395"/>
-      <point x="445.0" y="1400.0"/>
+      <point x="445" y="1400"/>
       <point x="425" y="1400" type="curve" smooth="yes"/>
       <point x="78" y="1400" type="line" smooth="yes"/>
       <point x="59" y="1400"/>
@@ -84,7 +84,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,0.5</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

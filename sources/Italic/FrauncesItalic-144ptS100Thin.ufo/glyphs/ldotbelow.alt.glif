@@ -1,8 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ldotbelow.alt" format="2">
   <advance width="403"/>
+  <anchor x="90" y="1593" name="center"/>
+  <anchor x="425" y="1098" name="right"/>
   <outline>
     <component base="l.alt"/>
     <component base="dotbelowcmb" xOffset="93"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.353,0.667,0.804,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

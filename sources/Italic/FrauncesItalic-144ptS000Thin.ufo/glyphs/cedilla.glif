@@ -1,13 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cedilla" format="2">
   <advance width="402"/>
+  <unicode hex="00B8"/>
   <outline>
     <component base="cedillacmb"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.3922,0.8039,1,1</string>
+      <string>0.392,0.804,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tmacronbelow" format="2">
   <advance width="630"/>
+  <unicode hex="1E6F"/>
   <outline>
     <contour>
       <point x="160" y="867" type="line" smooth="yes"/>
       <point x="204" y="863"/>
-      <point x="220.0" y="833.0"/>
+      <point x="220" y="833"/>
       <point x="220" y="793" type="curve" smooth="yes"/>
       <point x="220" y="178" type="line" smooth="yes"/>
       <point x="220" y="54"/>
@@ -32,13 +33,13 @@
       <point x="232" y="1098" type="curve" smooth="yes"/>
       <point x="209" y="976" type="line" smooth="yes"/>
       <point x="202" y="937"/>
-      <point x="180.0" y="926.0"/>
+      <point x="180" y="926"/>
       <point x="138" y="926" type="curve" smooth="yes"/>
       <point x="91" y="926" type="line" smooth="yes"/>
       <point x="72" y="926"/>
-      <point x="62.0" y="915.65"/>
+      <point x="62" y="915.65"/>
       <point x="62" y="903" type="curve" smooth="yes"/>
-      <point x="62.0" y="889.0"/>
+      <point x="62" y="889"/>
       <point x="72" y="876"/>
       <point x="90" y="874" type="curve" smooth="yes"/>
     </contour>
@@ -88,4 +89,12 @@
       <point x="630" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

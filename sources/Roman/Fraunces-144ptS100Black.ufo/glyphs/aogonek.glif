@@ -2,11 +2,12 @@
 <glyph name="aogonek" format="2">
   <advance width="1013"/>
   <unicode hex="0105"/>
+  <anchor x="512" y="988" name="center"/>
   <outline>
     <contour>
       <point x="836" y="59" type="line"/>
       <point x="567" y="1"/>
-      <point x="458.0" y="-107.12974683544306"/>
+      <point x="458" y="-107.13"/>
       <point x="458" y="-248" type="curve" smooth="yes"/>
       <point x="458" y="-367"/>
       <point x="536" y="-443"/>
@@ -26,7 +27,7 @@
       <point x="757" y="-255"/>
       <point x="735" y="-232"/>
       <point x="735" y="-185" type="curve" smooth="yes"/>
-      <point x="735.0" y="-118.4054054054054"/>
+      <point x="735" y="-118.405"/>
       <point x="776" y="-48"/>
       <point x="867" y="-9" type="curve"/>
     </contour>
@@ -34,8 +35,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
       <key>public.markColor</key>
-      <string>0.9811,0.4634,0.5508,1</string>
+      <string>0.392,0.804,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

@@ -5,14 +5,14 @@
   <outline>
     <contour>
       <point x="435" y="58" type="line"/>
-      <point x="60.41098561046846" y="-87.8399896023243"/>
-      <point x="-33.0" y="-189.91086350974928"/>
+      <point x="60.411" y="-87.84"/>
+      <point x="-33" y="-189.911"/>
       <point x="-33" y="-298" type="curve" smooth="yes"/>
-      <point x="-33.0" y="-383.96875"/>
-      <point x="40.053658536585374" y="-429.0"/>
+      <point x="-33" y="-383.969"/>
+      <point x="40.054" y="-429"/>
       <point x="175" y="-429" type="curve" smooth="yes"/>
-      <point x="283.60169491525426" y="-429.0"/>
-      <point x="368.5718099528829" y="-391.5928785267775"/>
+      <point x="283.602" y="-429"/>
+      <point x="368.572" y="-391.593"/>
       <point x="408" y="-337" type="curve" smooth="yes"/>
       <point x="415" y="-327"/>
       <point x="416" y="-321"/>
@@ -23,13 +23,23 @@
       <point x="366" y="-356"/>
       <point x="322" y="-384"/>
       <point x="280" y="-384" type="curve" smooth="yes"/>
-      <point x="241.0" y="-384.0"/>
-      <point x="213.0" y="-356.421568627451"/>
+      <point x="241" y="-384"/>
+      <point x="213" y="-356.422"/>
       <point x="213" y="-287" type="curve" smooth="yes"/>
-      <point x="213.0" y="-178.398773006135"/>
-      <point x="292.7859020245496" y="-17.093851167320707"/>
+      <point x="213" y="-178.399"/>
+      <point x="292.786" y="-17.094"/>
       <point x="439" y="47" type="curve"/>
     </contour>
     <component base="i"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

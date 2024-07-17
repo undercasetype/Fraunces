@@ -2,8 +2,17 @@
 <glyph name="Wcircumflex" format="2">
   <advance width="1590"/>
   <unicode hex="0174"/>
+  <anchor x="1119" y="1478" name="center"/>
   <outline>
     <component base="W"/>
-    <component base="circumflex.cap" xOffset="828.1828432487091" yOffset="495"/>
+    <component base="circumflex.cap" xOffset="828.183" yOffset="495"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

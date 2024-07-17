@@ -2,6 +2,7 @@
 <glyph name="hyphensoft" format="2">
   <advance width="660"/>
   <unicode hex="00AD"/>
+  <unicode hex="2010"/>
   <outline>
     <contour>
       <point x="0" y="-450.8" type="line"/>
@@ -10,4 +11,12 @@
       <point x="660" y="-450.8" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.980,0.463,0.549,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

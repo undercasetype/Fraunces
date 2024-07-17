@@ -1,8 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dzcaron.alt" format="2">
   <advance width="2486"/>
+  <anchor x="511" y="1022" name="center"/>
+  <anchor x="2087" y="998" name="center_1"/>
+  <anchor x="2073" y="1249" name="center_2"/>
   <outline>
     <component base="d.alt"/>
     <component base="zcaron" xOffset="1276"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

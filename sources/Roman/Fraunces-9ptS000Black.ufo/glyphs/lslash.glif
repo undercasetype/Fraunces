@@ -2,6 +2,8 @@
 <glyph name="lslash" format="2">
   <advance width="704"/>
   <unicode hex="0142"/>
+  <anchor x="364" y="1635" name="center"/>
+  <anchor x="696" y="703" name="right"/>
   <outline>
     <contour>
       <point x="19" y="572" type="curve" smooth="yes"/>
@@ -27,8 +29,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
       <key>public.markColor</key>
-      <string>1,0,0,1</string>
+      <string>0.980,0.463,0.549,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

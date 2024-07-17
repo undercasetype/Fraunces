@@ -2,8 +2,17 @@
 <glyph name="Oinvertedbreve" format="2">
   <advance width="1316"/>
   <unicode hex="020E"/>
+  <anchor x="987" y="1546" name="center"/>
   <outline>
     <component base="O"/>
     <component base="invertedbreve.cap" xOffset="690" yOffset="495"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

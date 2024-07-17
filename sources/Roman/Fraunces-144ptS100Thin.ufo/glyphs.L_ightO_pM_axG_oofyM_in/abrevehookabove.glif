@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevehookabove" format="2">
   <advance width="774"/>
+  <unicode hex="1EB3"/>
   <outline>
     <contour>
       <point x="114" y="688" type="curve" smooth="yes"/>
@@ -12,10 +13,10 @@
       <point x="188" y="682" type="curve" smooth="yes"/>
       <point x="188" y="726" type="line" smooth="yes"/>
       <point x="188" y="785"/>
-      <point x="247.0" y="864.0"/>
+      <point x="247" y="864"/>
       <point x="388" y="864" type="curve" smooth="yes"/>
-      <point x="520.1188118811881" y="864.0"/>
-      <point x="580.0" y="777.0"/>
+      <point x="520.119" y="864"/>
+      <point x="580" y="777"/>
       <point x="580" y="610" type="curve" smooth="yes"/>
       <point x="580" y="94" type="line" smooth="yes"/>
       <point x="581" y="93" type="line"/>
@@ -35,11 +36,11 @@
       <point x="634" y="20"/>
       <point x="634" y="90" type="curve" smooth="yes"/>
       <point x="634" y="646" type="line" smooth="yes"/>
-      <point x="634.0" y="784.0"/>
-      <point x="556.2142857142858" y="872.0"/>
+      <point x="634" y="784"/>
+      <point x="556.214" y="872"/>
       <point x="392" y="872" type="curve" smooth="yes"/>
-      <point x="215.0" y="872.0"/>
-      <point x="114.0" y="783.0"/>
+      <point x="215" y="872"/>
+      <point x="114" y="783"/>
     </contour>
     <contour>
       <point x="608" y="344" type="curve"/>
@@ -83,11 +84,11 @@
       <point x="441" y="1135"/>
       <point x="474" y="1193"/>
       <point x="474" y="1263" type="curve" smooth="yes"/>
-      <point x="474.0" y="1343.0"/>
-      <point x="443.0" y="1383.0"/>
+      <point x="474" y="1343"/>
+      <point x="443" y="1383"/>
       <point x="385" y="1383" type="curve" smooth="yes"/>
-      <point x="326.0" y="1383.0"/>
-      <point x="301.0" y="1342.0"/>
+      <point x="326" y="1383"/>
+      <point x="301" y="1342"/>
       <point x="301" y="1287" type="curve" smooth="yes"/>
       <point x="301" y="1264" type="line" smooth="yes"/>
       <point x="301" y="1237"/>
@@ -96,11 +97,11 @@
       <point x="245" y="1221"/>
       <point x="233" y="1241"/>
       <point x="233" y="1264" type="curve" smooth="yes"/>
-      <point x="233.0" y="1335.0"/>
-      <point x="302.0" y="1395.0"/>
+      <point x="233" y="1335"/>
+      <point x="302" y="1395"/>
       <point x="386" y="1395" type="curve" smooth="yes"/>
-      <point x="469.0" y="1395.0"/>
-      <point x="530.0" y="1346.0"/>
+      <point x="469" y="1395"/>
+      <point x="530" y="1346"/>
       <point x="530" y="1263" type="curve" smooth="yes"/>
       <point x="530" y="1180"/>
       <point x="470" y="1125"/>
@@ -110,8 +111,8 @@
     </contour>
     <contour>
       <point x="384" y="989" type="curve" smooth="yes"/>
-      <point x="302.0" y="989.0"/>
-      <point x="242.0" y="1029.0"/>
+      <point x="302" y="989"/>
+      <point x="242" y="1029"/>
       <point x="224" y="1141" type="curve" smooth="yes"/>
       <point x="222" y="1152"/>
       <point x="218" y="1154"/>
@@ -147,4 +148,12 @@
       <point x="774" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

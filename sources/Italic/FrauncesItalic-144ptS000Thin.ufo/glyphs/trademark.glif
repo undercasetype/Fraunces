@@ -2,7 +2,7 @@
 <glyph name="trademark" format="2">
   <advance width="1619"/>
   <unicode hex="2122"/>
-  <guideline x="1419.6000000000001" y="1347.6" angle="0" identifier="X2uzwlVdTN"/>
+  <guideline x="1419.6" y="1347.6" angle="0" identifier="X2uzwlVdTN"/>
   <outline>
     <contour>
       <point x="1146" y="747" type="line"/>
@@ -158,4 +158,12 @@
       <point x="436" y="1414"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

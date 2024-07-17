@@ -2,14 +2,18 @@
 <glyph name="Edblgrave" format="2">
   <advance width="1373"/>
   <unicode hex="0204"/>
+  <anchor x="906" y="1468" name="center_1"/>
+  <anchor x="906.0" y="1433.0" name="center_2"/>
   <outline>
     <component base="E"/>
-    <component base="gravedouble.cap" xOffset="294.02574002579786" yOffset="460"/>
+    <component base="gravedouble.cap" xOffset="294.026" yOffset="460"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

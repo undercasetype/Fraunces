@@ -2,8 +2,18 @@
 <glyph name="Lacute" format="2">
   <advance width="897"/>
   <unicode hex="0139"/>
+  <anchor x="593.02" y="1407" name="center"/>
+  <anchor x="863" y="1236" name="right"/>
   <outline>
     <component base="L"/>
-    <component base="acute.cap" xOffset="502.01955020980677" yOffset="495"/>
+    <component base="acute.cap" xOffset="502.02" yOffset="495"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

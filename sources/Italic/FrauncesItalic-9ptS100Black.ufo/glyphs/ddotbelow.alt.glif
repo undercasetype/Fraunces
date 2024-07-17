@@ -1,14 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ddotbelow.alt" format="2">
   <advance width="1276"/>
+  <anchor x="511" y="1022" name="center"/>
+  <anchor x="1397" y="1128" name="right"/>
   <outline>
     <component base="d.alt"/>
-    <component base="dotbelowcmb" xOffset="183.01348779360706"/>
+    <component base="dotbelowcmb" xOffset="183.013"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.3529,0.6667,0.8039,1</string>
+      <string>0.353,0.667,0.804,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

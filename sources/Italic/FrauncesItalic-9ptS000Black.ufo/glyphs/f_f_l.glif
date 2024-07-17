@@ -4,6 +4,7 @@
   <unicode hex="FB04"/>
   <anchor x="796" y="0" name="caret_1"/>
   <anchor x="1592" y="0" name="caret_2"/>
+  <anchor x="1809" y="1593" name="center"/>
   <outline>
     <component base="f"/>
     <component base="f" xOffset="796"/>
@@ -12,7 +13,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.800,1,0.400,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

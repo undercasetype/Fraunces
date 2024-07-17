@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nmacronbelow" format="2">
   <advance width="1124"/>
+  <unicode hex="1E49"/>
   <outline>
     <contour>
       <point x="462" y="906" type="line" smooth="yes"/>
@@ -119,4 +120,12 @@
       <point x="1124" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

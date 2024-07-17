@@ -42,14 +42,14 @@
       <point x="948" y="218"/>
       <point x="774" y="27"/>
       <point x="573" y="27" type="curve" smooth="yes"/>
-      <point x="344.4375" y="27.0"/>
-      <point x="208.8691084195432" y="171.91269427576447"/>
+      <point x="344.438" y="27"/>
+      <point x="208.869" y="171.913"/>
       <point x="255" y="476" type="curve" smooth="yes"/>
-      <point x="296.6654754061156" y="743.2025053218285"/>
-      <point x="449.0188679245283" y="963.0"/>
+      <point x="296.665" y="743.203"/>
+      <point x="449.019" y="963"/>
       <point x="619" y="963" type="curve" smooth="yes"/>
-      <point x="731.2295081967213" y="963.0"/>
-      <point x="783.999936171254" y="886.996266018364"/>
+      <point x="731.23" y="963"/>
+      <point x="784" y="886.996"/>
       <point x="782" y="770" type="curve" smooth="yes"/>
       <point x="781" y="744"/>
       <point x="771" y="709"/>
@@ -60,14 +60,14 @@
       <point x="822" y="695"/>
       <point x="841" y="724"/>
       <point x="842" y="768" type="curve" smooth="yes"/>
-      <point x="844.999870340152" y="903.9941220868911"/>
-      <point x="775.4888888888888" y="1006.0"/>
+      <point x="845" y="903.994"/>
+      <point x="775.489" y="1006"/>
       <point x="637" y="1006" type="curve" smooth="yes"/>
-      <point x="420.6385542168675" y="1006.0"/>
-      <point x="245.49857178604051" y="767.5501142246785"/>
+      <point x="420.639" y="1006"/>
+      <point x="245.499" y="767.55"/>
       <point x="199" y="484" type="curve" smooth="yes"/>
-      <point x="146.86393040558667" y="167.39186828119915"/>
-      <point x="311.4785276073619" y="-19.0"/>
+      <point x="146.864" y="167.392"/>
+      <point x="311.479" y="-19"/>
       <point x="555" y="-19" type="curve" smooth="yes"/>
       <point x="831" y="-19"/>
       <point x="1017" y="236"/>
@@ -85,7 +85,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,0.5</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

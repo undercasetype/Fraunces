@@ -2,8 +2,8 @@
 <glyph name="M" format="2">
   <advance width="1486"/>
   <unicode hex="004D"/>
-  <guideline x="1616.0" y="1064.0" angle="90" identifier="ASUIW0ay5B"/>
-  <guideline x="2352.0" y="2568.0" angle="0" identifier="bXeuTCwmGj"/>
+  <guideline x="1616" y="1064" angle="90" identifier="ASUIW0ay5B"/>
+  <guideline x="2352" y="2568" angle="0" identifier="bXeuTCwmGj"/>
   <anchor x="740" y="1484" name="center"/>
   <outline>
     <contour>
@@ -99,7 +99,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.8431,0.8627,1,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

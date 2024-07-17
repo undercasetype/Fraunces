@@ -2,15 +2,18 @@
 <glyph name="Ecedillabreve" format="2">
   <advance width="1271"/>
   <unicode hex="1E1C"/>
+  <anchor x="654" y="1474" name="center"/>
   <outline>
     <component base="E"/>
-    <component base="breve.cap" xOffset="334.37550353223924" yOffset="485"/>
-    <component base="cedillacmb" xOffset="398.5000000000582"/>
+    <component base="breve.cap" xOffset="334.375" yOffset="485"/>
+    <component base="cedillacmb" xOffset="398.5"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

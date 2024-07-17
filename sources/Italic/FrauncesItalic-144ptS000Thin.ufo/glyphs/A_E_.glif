@@ -2,7 +2,7 @@
 <glyph name="AE" format="2">
   <advance width="1673"/>
   <unicode hex="00C6"/>
-  <anchor x="1394.0" y="1582" name="center"/>
+  <anchor x="1394" y="1582" name="center"/>
   <outline>
     <contour>
       <point x="1188" y="1400" type="line"/>
@@ -128,4 +128,12 @@
       <point x="630" y="0" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

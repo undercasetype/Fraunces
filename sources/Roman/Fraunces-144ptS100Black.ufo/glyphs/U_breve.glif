@@ -2,14 +2,17 @@
 <glyph name="Ubreve" format="2">
   <advance width="1446"/>
   <unicode hex="016C"/>
+  <anchor x="793" y="1467" name="center"/>
   <outline>
     <component base="U"/>
-    <component base="breve.cap" xOffset="473.37550353223924" yOffset="485"/>
+    <component base="breve.cap" xOffset="473.375" yOffset="485"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

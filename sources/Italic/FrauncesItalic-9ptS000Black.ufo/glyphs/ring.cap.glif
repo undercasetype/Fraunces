@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ring.cap" format="2">
   <advance width="609"/>
-  <anchor x="340.5646017699115" y="943" name="center"/>
+  <anchor x="340.565" y="943" name="center"/>
   <outline>
     <contour>
       <point x="304" y="1017" type="curve" smooth="yes"/>
@@ -35,7 +35,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0,0,1</string>
+      <string>1,0.667,0.255,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

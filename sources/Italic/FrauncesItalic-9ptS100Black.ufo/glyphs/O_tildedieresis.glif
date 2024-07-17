@@ -2,15 +2,19 @@
 <glyph name="Otildedieresis" format="2">
   <advance width="1601"/>
   <unicode hex="1E4E"/>
+  <anchor x="1080" y="1546" name="center_1"/>
+  <anchor x="1136.0" y="1819.0" name="center_2"/>
   <outline>
     <component base="O"/>
-    <component base="tilde.cap" xOffset="638.3855685294839" yOffset="460"/>
-    <component base="dieresis.cap" xOffset="616.3073286052095" yOffset="870"/>
+    <component base="tilde.cap" xOffset="638.386" yOffset="460"/>
+    <component base="dieresis.cap" xOffset="616.307" yOffset="870"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

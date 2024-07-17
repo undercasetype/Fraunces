@@ -2,15 +2,19 @@
 <glyph name="ccedillaacute" format="2">
   <advance width="916"/>
   <unicode hex="1E09"/>
+  <anchor x="623" y="984" name="center_1"/>
+  <anchor x="583" y="847" name="center_2"/>
   <outline>
     <component base="c"/>
     <component base="acutecmb" xOffset="355"/>
-    <component base="cedillacmb" xOffset="291.87484888443214"/>
+    <component base="cedillacmb" xOffset="291.875"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

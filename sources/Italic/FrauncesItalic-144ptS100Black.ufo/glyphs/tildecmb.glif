@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tildecmb" format="2">
-  <advance width="643"/>
   <unicode hex="0303"/>
   <outline>
     <contour>
+      <point x="469" y="1084"/>
+      <point x="507" y="970"/>
       <point x="611" y="970" type="curve" smooth="yes"/>
       <point x="700" y="970"/>
       <point x="796" y="1056"/>
@@ -32,14 +33,16 @@
       <point x="357" y="1061"/>
       <point x="379" y="1084"/>
       <point x="409" y="1084" type="curve" smooth="yes"/>
-      <point x="469" y="1084"/>
-      <point x="507" y="970"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>643</integer>
       <key>public.markColor</key>
-      <string>0.9811,0.4634,0.5508,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

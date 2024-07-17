@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresiscmb" format="2">
-  <advance width="973"/>
   <unicode hex="0308"/>
-  <anchor x="545.483870967742" y="949" name="center"/>
+  <anchor x="545.484" y="949" name="center"/>
   <outline>
     <contour>
       <point x="251" y="1047" type="curve" smooth="yes"/>
@@ -35,8 +34,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>973</integer>
       <key>public.markColor</key>
-      <string>1,0,0,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

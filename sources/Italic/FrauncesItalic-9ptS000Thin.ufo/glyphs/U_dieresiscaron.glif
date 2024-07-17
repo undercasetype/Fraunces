@@ -2,9 +2,20 @@
 <glyph name="Udieresiscaron" format="2">
   <advance width="1369"/>
   <unicode hex="01D9"/>
+  <anchor x="981" y="1479" name="center_1"/>
+  <anchor x="986" y="1408" name="center_2"/>
+  <anchor x="1015" y="1733" name="center_3"/>
   <outline>
     <component base="U"/>
     <component base="dieresis.cap" xOffset="671" yOffset="459"/>
     <component base="caron.cap" xOffset="718" yOffset="671"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

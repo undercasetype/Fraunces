@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="turnedcommaabovecmb" format="2">
   <advance width="201"/>
+  <unicode hex="0315"/>
   <outline>
     <contour>
       <point x="149" y="1349" type="curve" smooth="yes"/>
@@ -25,7 +26,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.8431,0.8627,1,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

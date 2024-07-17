@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dong" format="2">
   <advance width="1305"/>
+  <unicode hex="20AB"/>
   <outline>
     <contour>
       <point x="12" y="-236" type="curve" smooth="yes"/>
@@ -20,4 +21,14 @@
     </contour>
     <component base="dcroat" xOffset="30"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.markColor</key>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

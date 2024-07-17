@@ -5,16 +5,16 @@
   <outline>
     <contour>
       <point x="49" y="569" type="curve" smooth="yes"/>
-      <point x="49.0" y="231.22682119205297"/>
-      <point x="287.0" y="-40.0"/>
-      <point x="708" y="-40.0" type="curve" smooth="yes"/>
-      <point x="1167.0" y="-40.0"/>
-      <point x="1440.0" y="268.99999999999994"/>
+      <point x="49" y="231.227"/>
+      <point x="287" y="-40"/>
+      <point x="708" y="-40" type="curve" smooth="yes"/>
+      <point x="1167" y="-40"/>
+      <point x="1440" y="269"/>
       <point x="1440" y="722" type="curve" smooth="yes"/>
-      <point x="1440.0" y="1147.0"/>
-      <point x="1144.0672268907563" y="1440.0"/>
+      <point x="1440" y="1147"/>
+      <point x="1144.067" y="1440"/>
       <point x="696" y="1440" type="curve" smooth="yes"/>
-      <point x="329.0" y="1440.0"/>
+      <point x="329" y="1440"/>
       <point x="99" y="1210"/>
       <point x="99" y="999" type="curve" smooth="yes"/>
       <point x="99" y="966"/>
@@ -23,17 +23,17 @@
       <point x="174" y="933"/>
       <point x="200" y="944"/>
       <point x="223" y="986" type="curve" smooth="yes"/>
-      <point x="299.0" y="1125.0"/>
-      <point x="420.0" y="1197.0"/>
+      <point x="299" y="1125"/>
+      <point x="420" y="1197"/>
       <point x="558" y="1197" type="curve" smooth="yes"/>
-      <point x="807.0939947780679" y="1197.0"/>
-      <point x="971.0" y="1007.5785953177258"/>
+      <point x="807.094" y="1197"/>
+      <point x="971" y="1007.579"/>
       <point x="971" y="588" type="curve" smooth="yes"/>
       <point x="971" y="232"/>
       <point x="874" y="106"/>
       <point x="760" y="106" type="curve" smooth="yes"/>
-      <point x="642.0" y="106.0"/>
-      <point x="541.0" y="240.56470588235294"/>
+      <point x="642" y="106"/>
+      <point x="541" y="240.565"/>
       <point x="541" y="536" type="curve" smooth="yes"/>
       <point x="541" y="589"/>
       <point x="565" y="611"/>
@@ -51,4 +51,12 @@
       <point x="1499" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

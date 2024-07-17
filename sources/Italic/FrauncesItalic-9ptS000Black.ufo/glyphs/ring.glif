@@ -2,13 +2,16 @@
 <glyph name="ring" format="2">
   <advance width="640"/>
   <unicode hex="02DA"/>
+  <anchor x="351.786" y="943.0" name="center"/>
   <outline>
     <component base="ringcmb"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.392,0.804,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

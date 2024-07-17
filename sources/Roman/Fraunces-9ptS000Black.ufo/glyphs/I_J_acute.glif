@@ -2,6 +2,9 @@
 <glyph name="IJacute" format="2">
   <advance width="2128"/>
   <unicode hex="E133"/>
+  <anchor x="462" y="1434" name="center"/>
+  <anchor x="1648" y="1463" name="center_1"/>
+  <anchor x="1648" y="1434" name="center_2"/>
   <outline>
     <component base="Iacute"/>
     <component base="Jacute" xOffset="924"/>
@@ -9,7 +12,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.800,1,0.400,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

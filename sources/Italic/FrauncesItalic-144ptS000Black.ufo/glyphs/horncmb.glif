@@ -1,33 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="horncmb" format="2">
-  <advance width="535"/>
+  <unicode hex="031B"/>
   <outline>
     <contour>
-      <point x="536.0507579241166" y="1062.0" type="curve" smooth="yes"/>
-      <point x="552.3436657385378" y="1125.0"/>
-      <point x="525.6538987753497" y="1161.0"/>
-      <point x="464.6538987753497" y="1161.0" type="curve" smooth="yes"/>
-      <point x="400.6538987753497" y="1161.0"/>
-      <point x="354.0161074793348" y="1116.0"/>
-      <point x="333.8439358995753" y="1038.0" type="curve" smooth="yes"/>
-      <point x="322.98199735662786" y="996.0" type="line" smooth="yes"/>
-      <point x="301.516737855089" y="913.0"/>
-      <point x="218.62032897471806" y="867.0"/>
-      <point x="65.89609167410651" y="899.0" type="curve" smooth="yes"/>
-      <point x="61.15470925846239" y="900.0"/>
-      <point x="58.378856505394765" y="897.0"/>
-      <point x="56.30991583054765" y="889.0" type="curve" smooth="yes"/>
-      <point x="54.499592740056414" y="882.0"/>
-      <point x="54.98235757134461" y="880.0"/>
-      <point x="60.723739986988676" y="879.0" type="curve" smooth="yes"/>
-      <point x="326.75839043177064" y="825.0"/>
-      <point x="502.1718543734951" y="931.0"/>
+      <point x="536.051" y="1062" type="curve" smooth="yes"/>
+      <point x="552.344" y="1125"/>
+      <point x="525.654" y="1161"/>
+      <point x="464.654" y="1161" type="curve" smooth="yes"/>
+      <point x="400.654" y="1161"/>
+      <point x="354.016" y="1116"/>
+      <point x="333.844" y="1038" type="curve" smooth="yes"/>
+      <point x="322.982" y="996" type="line" smooth="yes"/>
+      <point x="301.517" y="913"/>
+      <point x="218.62" y="867"/>
+      <point x="65.896" y="899" type="curve" smooth="yes"/>
+      <point x="61.155" y="900"/>
+      <point x="58.379" y="897"/>
+      <point x="56.31" y="889" type="curve" smooth="yes"/>
+      <point x="54.5" y="882"/>
+      <point x="54.982" y="880"/>
+      <point x="60.724" y="879" type="curve" smooth="yes"/>
+      <point x="326.758" y="825"/>
+      <point x="502.172" y="931"/>
     </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>535</integer>
       <key>public.markColor</key>
-      <string>0.8431,0.8627,1,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

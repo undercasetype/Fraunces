@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ydotaccent" format="2">
   <advance width="1422"/>
+  <anchor x="832" y="1460" name="center"/>
   <outline>
     <component base="Y"/>
     <component base="dotaccent.cap" xOffset="560" yOffset="454"/>
@@ -8,7 +9,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

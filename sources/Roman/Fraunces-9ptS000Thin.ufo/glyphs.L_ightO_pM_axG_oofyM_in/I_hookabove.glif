@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ihookabove" format="2">
   <advance width="518"/>
+  <unicode hex="1EC8"/>
   <outline>
     <contour>
       <point x="288" y="48" type="curve" smooth="yes"/>
@@ -60,12 +61,12 @@
       <point x="228.5" y="1468"/>
       <point x="233.5" y="1469" type="curve" smooth="yes"/>
       <point x="318.5" y="1485"/>
-      <point x="351.5" y="1533.0"/>
+      <point x="351.5" y="1533"/>
       <point x="351.5" y="1593" type="curve" smooth="yes"/>
-      <point x="351.5" y="1660.0"/>
-      <point x="320.5" y="1693.0"/>
+      <point x="351.5" y="1660"/>
+      <point x="320.5" y="1693"/>
       <point x="262.5" y="1693" type="curve" smooth="yes"/>
-      <point x="203.5" y="1693.0"/>
+      <point x="203.5" y="1693"/>
       <point x="178.5" y="1661"/>
       <point x="178.5" y="1617" type="curve" smooth="yes"/>
       <point x="178.5" y="1594" type="line" smooth="yes"/>
@@ -75,13 +76,13 @@
       <point x="122.5" y="1551"/>
       <point x="110.5" y="1571"/>
       <point x="110.5" y="1594" type="curve" smooth="yes"/>
-      <point x="110.5" y="1654.0"/>
-      <point x="179.5" y="1705.0"/>
+      <point x="110.5" y="1654"/>
+      <point x="179.5" y="1705"/>
       <point x="263.5" y="1705" type="curve" smooth="yes"/>
-      <point x="346.5" y="1705.0"/>
-      <point x="407.5" y="1663.0"/>
+      <point x="346.5" y="1705"/>
+      <point x="407.5" y="1663"/>
       <point x="407.5" y="1593" type="curve" smooth="yes"/>
-      <point x="407.5" y="1521.0"/>
+      <point x="407.5" y="1521"/>
       <point x="347.5" y="1475"/>
       <point x="233.5" y="1460" type="curve" smooth="yes"/>
       <point x="228.5" y="1459"/>
@@ -100,4 +101,12 @@
       <point x="518" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

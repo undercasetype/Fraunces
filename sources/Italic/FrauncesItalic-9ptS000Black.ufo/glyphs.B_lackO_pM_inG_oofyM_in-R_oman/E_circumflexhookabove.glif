@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflexhookabove" format="2">
   <advance width="1387"/>
+  <unicode hex="1EC2"/>
   <outline>
     <contour>
       <point x="790" y="1678" type="line"/>
@@ -73,4 +74,12 @@
       <point x="1387" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

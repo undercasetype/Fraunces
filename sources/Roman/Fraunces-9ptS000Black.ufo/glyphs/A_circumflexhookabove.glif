@@ -2,6 +2,8 @@
 <glyph name="Acircumflexhookabove" format="2">
   <advance width="1576"/>
   <unicode hex="1EA8"/>
+  <anchor x="803" y="1462" name="center_1"/>
+  <anchor x="782" y="1434" name="center_2"/>
   <outline>
     <component base="A"/>
     <component base="circumflexhook.cap" xOffset="380" yOffset="454"/>
@@ -9,7 +11,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

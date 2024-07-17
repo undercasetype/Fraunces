@@ -2,6 +2,9 @@
 <glyph name="Idieresisacute" format="2">
   <advance width="662"/>
   <unicode hex="1E2E"/>
+  <anchor x="622" y="1468" name="center_1"/>
+  <anchor x="622" y="1384" name="center_2"/>
+  <anchor x="622" y="1726" name="center_3"/>
   <outline>
     <component base="I"/>
     <component base="dieresis.cap" xOffset="307" yOffset="435"/>
@@ -10,7 +13,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

@@ -2,20 +2,58 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>color</key>
-    <string>0,1,0.25,0.7</string>
     <key>lib</key>
     <dict>
+      <key>com.schriftgestaltung.layerId</key>
+      <string>8CD3704A-F5D2-4CB2-BD91-94CE19D4190D</string>
+      <key>com.schriftgestaltung.layerOrderInGlyph.a</key>
+      <integer>15</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.c</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.d</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.d.alt</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.h</key>
+      <integer>15</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.h.alt</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.i</key>
+      <integer>15</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.j</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.k</key>
+      <integer>15</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.m</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.n</key>
+      <integer>15</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.primedblmod</key>
+      <integer>12</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.quotesingle</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.second</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.t</key>
+      <integer>15</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.u</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.v.alt</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.w.alt</key>
+      <integer>11</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.z</key>
+      <integer>13</integer>
       <key>com.typemytype.robofont.layerShow</key>
-      <false/>
+      <integer>0</integer>
       <key>com.typemytype.robofont.layerShowCoordinates</key>
-      <false/>
+      <integer>0</integer>
       <key>com.typemytype.robofont.layerShowFill</key>
-      <false/>
+      <integer>0</integer>
       <key>com.typemytype.robofont.layerShowPoints</key>
-      <false/>
+      <integer>0</integer>
       <key>com.typemytype.robofont.layerShowStroke</key>
-      <true/>
+      <integer>1</integer>
     </dict>
   </dict>
 </plist>

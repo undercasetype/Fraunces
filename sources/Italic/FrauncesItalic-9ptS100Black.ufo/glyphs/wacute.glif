@@ -2,14 +2,18 @@
 <glyph name="wacute" format="2">
   <advance width="2007"/>
   <unicode hex="1E83"/>
+  <anchor x="1355" y="1013" name="center_1"/>
+  <anchor x="1344.0" y="991.0" name="center_2"/>
   <outline>
     <component base="w"/>
-    <component base="acutecmb" xOffset="1219.2118451025017"/>
+    <component base="acutecmb" xOffset="1219.212"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

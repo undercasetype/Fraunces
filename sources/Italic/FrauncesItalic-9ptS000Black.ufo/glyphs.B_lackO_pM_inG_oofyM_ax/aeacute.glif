@@ -90,29 +90,29 @@
       <point x="1759" y="-490" type="line"/>
     </contour>
     <contour>
-      <point x="1128.676285149991" y="1332.0" type="curve" smooth="yes"/>
-      <point x="1017.8762111307358" y="1176.0" type="line" smooth="yes"/>
-      <point x="989.1582434334907" y="1136.0"/>
-      <point x="969.5120725059703" y="1100.0"/>
-      <point x="988.7415459254678" y="1071.0" type="curve" smooth="yes"/>
-      <point x="1005.7748669222586" y="1045.0"/>
-      <point x="1051.7748669222588" y="1045.0"/>
-      <point x="1094.5979523860187" y="1063.0" type="curve" smooth="yes"/>
-      <point x="1270.9620910107842" y="1139.0" type="line" smooth="yes"/>
-      <point x="1397.4313474020646" y="1193.0"/>
-      <point x="1458.2929086387585" y="1241.0"/>
-      <point x="1495.264742418111" y="1323.0" type="curve" smooth="yes"/>
-      <point x="1532.7724745823252" y="1407.0"/>
-      <point x="1503.3520035162637" y="1495.0"/>
-      <point x="1409.9071397875928" y="1512.0" type="curve" smooth="yes"/>
-      <point x="1300.2661236362155" y="1532.0"/>
-      <point x="1213.8301882417254" y="1452.0"/>
+      <point x="1128.676" y="1332" type="curve" smooth="yes"/>
+      <point x="1017.876" y="1176" type="line" smooth="yes"/>
+      <point x="989.158" y="1136"/>
+      <point x="969.512" y="1100"/>
+      <point x="988.742" y="1071" type="curve" smooth="yes"/>
+      <point x="1005.775" y="1045"/>
+      <point x="1051.775" y="1045"/>
+      <point x="1094.598" y="1063" type="curve" smooth="yes"/>
+      <point x="1270.962" y="1139" type="line" smooth="yes"/>
+      <point x="1397.431" y="1193"/>
+      <point x="1458.293" y="1241"/>
+      <point x="1495.265" y="1323" type="curve" smooth="yes"/>
+      <point x="1532.772" y="1407"/>
+      <point x="1503.352" y="1495"/>
+      <point x="1409.907" y="1512" type="curve" smooth="yes"/>
+      <point x="1300.266" y="1532"/>
+      <point x="1213.83" y="1452"/>
     </contour>
     <contour>
-      <point x="916.2118451025017" y="-490" type="line"/>
-      <point x="916.2118451025017" y="1510" type="line"/>
-      <point x="1475.2118451025017" y="1510" type="line"/>
-      <point x="1475.2118451025017" y="-490" type="line"/>
+      <point x="916.212" y="-490" type="line"/>
+      <point x="916.212" y="1510" type="line"/>
+      <point x="1475.212" y="1510" type="line"/>
+      <point x="1475.212" y="-490" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-490" type="line"/>
@@ -121,4 +121,12 @@
       <point x="1759" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

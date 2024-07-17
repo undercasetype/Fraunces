@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Scarondotaccent" format="2">
   <advance width="1104"/>
+  <anchor x="534" y="1547" name="center"/>
   <outline>
     <component base="S"/>
     <component base="caron.cap" xOffset="255.5" yOffset="451"/>
@@ -9,7 +10,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

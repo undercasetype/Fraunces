@@ -29,6 +29,8 @@
       <point x="339" y="1096" type="line"/>
     </contour>
     <contour>
+      <point x="513" y="1090"/>
+      <point x="510" y="1102"/>
       <point x="510" y="1112" type="curve" smooth="yes"/>
       <point x="512" y="1122"/>
       <point x="521" y="1132"/>
@@ -58,14 +60,14 @@
       <point x="718" y="1199"/>
       <point x="665" y="1129"/>
       <point x="555" y="1100" type="curve" smooth="yes"/>
-      <point x="513" y="1090"/>
-      <point x="510" y="1102"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0,0,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

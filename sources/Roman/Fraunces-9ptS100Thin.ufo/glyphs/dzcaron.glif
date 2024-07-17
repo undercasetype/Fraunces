@@ -2,6 +2,7 @@
 <glyph name="dzcaron" format="2">
   <advance width="2027"/>
   <unicode hex="01C6"/>
+  <anchor x="1612" y="1036" name="center"/>
   <outline>
     <component base="d"/>
     <component base="zcaron" xOffset="1145"/>
@@ -9,7 +10,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.8,1,0.4,1</string>
+      <string>0.800,1,0.400,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

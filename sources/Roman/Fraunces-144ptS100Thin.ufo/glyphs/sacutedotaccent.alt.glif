@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sacutedotaccent.alt" format="2">
   <advance width="687"/>
+  <anchor x="330" y="944" name="center_1"/>
+  <anchor x="410" y="931" name="center_2"/>
   <outline>
     <component base="s.alt"/>
     <component base="acutecmb" xOffset="354"/>
@@ -9,7 +11,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.353,0.667,0.804,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

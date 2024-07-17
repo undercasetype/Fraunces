@@ -2,8 +2,17 @@
 <glyph name="ubreve" format="2">
   <advance width="830"/>
   <unicode hex="016D"/>
+  <anchor x="560" y="1016" name="center"/>
   <outline>
     <component base="u"/>
-    <component base="brevecmb" xOffset="282.3117878361372"/>
+    <component base="brevecmb" xOffset="282.312"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

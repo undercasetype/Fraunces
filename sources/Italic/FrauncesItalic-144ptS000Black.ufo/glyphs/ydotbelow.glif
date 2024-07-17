@@ -2,14 +2,17 @@
 <glyph name="ydotbelow" format="2">
   <advance width="981"/>
   <unicode hex="1EF5"/>
+  <anchor x="649" y="1003" name="center"/>
   <outline>
     <component base="y"/>
-    <component base="dotbelowcmb" xOffset="461.4251941698094"/>
+    <component base="dotbelowcmb" xOffset="461.425"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

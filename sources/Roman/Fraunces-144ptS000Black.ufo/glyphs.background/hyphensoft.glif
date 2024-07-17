@@ -1,6 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphensoft" format="2">
   <advance width="763"/>
+  <unicode hex="00AD"/>
+  <unicode hex="2010"/>
   <outline>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.980,0.463,0.549,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

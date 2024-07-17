@@ -2,8 +2,18 @@
 <glyph name="atilde" format="2">
   <advance width="991"/>
   <unicode hex="00E3"/>
+  <anchor x="658" y="1010" name="center_1"/>
+  <anchor x="658" y="995" name="center_2"/>
   <outline>
     <component base="a"/>
     <component base="tildecmb" xOffset="336"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

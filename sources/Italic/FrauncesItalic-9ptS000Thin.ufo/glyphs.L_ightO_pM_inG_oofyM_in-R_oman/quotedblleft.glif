@@ -5,15 +5,23 @@
   <outline>
     <contour>
       <point x="611" y="3025" type="line"/>
-      <point x="611.0" y="1003.0797542271" type="line"/>
-      <point x="0.0" y="1003.0797542271" type="line"/>
+      <point x="611" y="1003.08" type="line"/>
+      <point x="0" y="1003.08" type="line"/>
       <point x="0" y="3025" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-466" type="line"/>
-      <point x="0" y="1555.9202457729" type="line"/>
-      <point x="616" y="1555.9202457729" type="line"/>
+      <point x="0" y="1555.92" type="line"/>
+      <point x="616" y="1555.92" type="line"/>
       <point x="616" y="-466" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

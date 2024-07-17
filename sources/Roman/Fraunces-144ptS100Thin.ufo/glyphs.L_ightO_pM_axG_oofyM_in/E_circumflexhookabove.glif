@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecircumflexhookabove" format="2">
   <advance width="1067"/>
+  <unicode hex="1EC2"/>
   <outline>
     <contour>
       <point x="256" y="704" type="line"/>
@@ -126,12 +127,12 @@
       <point x="750" y="1614"/>
       <point x="755" y="1615" type="curve" smooth="yes"/>
       <point x="840" y="1631"/>
-      <point x="873.0" y="1679.0"/>
+      <point x="873" y="1679"/>
       <point x="873" y="1739" type="curve" smooth="yes"/>
-      <point x="873.0" y="1806.0"/>
-      <point x="842.0" y="1839.0"/>
+      <point x="873" y="1806"/>
+      <point x="842" y="1839"/>
       <point x="784" y="1839" type="curve" smooth="yes"/>
-      <point x="725.0" y="1839.0"/>
+      <point x="725" y="1839"/>
       <point x="700" y="1807"/>
       <point x="700" y="1763" type="curve" smooth="yes"/>
       <point x="700" y="1740" type="line" smooth="yes"/>
@@ -141,13 +142,13 @@
       <point x="644" y="1697"/>
       <point x="632" y="1717"/>
       <point x="632" y="1740" type="curve" smooth="yes"/>
-      <point x="632.0" y="1800.0"/>
-      <point x="701.0" y="1851.0"/>
+      <point x="632" y="1800"/>
+      <point x="701" y="1851"/>
       <point x="785" y="1851" type="curve" smooth="yes"/>
-      <point x="868.0" y="1851.0"/>
-      <point x="929.0" y="1809.0"/>
+      <point x="868" y="1851"/>
+      <point x="929" y="1809"/>
       <point x="929" y="1739" type="curve" smooth="yes"/>
-      <point x="929.0" y="1667.0"/>
+      <point x="929" y="1667"/>
       <point x="869" y="1621"/>
       <point x="755" y="1606" type="curve" smooth="yes"/>
       <point x="750" y="1605"/>
@@ -166,4 +167,12 @@
       <point x="1067" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

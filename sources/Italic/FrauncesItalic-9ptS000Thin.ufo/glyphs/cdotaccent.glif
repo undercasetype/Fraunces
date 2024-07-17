@@ -2,8 +2,18 @@
 <glyph name="cdotaccent" format="2">
   <advance width="818"/>
   <unicode hex="010B"/>
+  <anchor x="579" y="1026" name="center_1"/>
+  <anchor x="577" y="958" name="center_2"/>
   <outline>
     <component base="c"/>
     <component base="dotaccentcmb" xOffset="450"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

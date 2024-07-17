@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dmacronbelow" format="2">
   <advance width="1112"/>
+  <unicode hex="1E0F"/>
   <outline>
     <contour>
       <point x="997" y="1306" type="line" smooth="yes"/>
@@ -67,10 +68,10 @@
       <point x="748" y="252" type="curve"/>
     </contour>
     <contour>
-      <point x="-10.0" y="-450.8" type="line"/>
-      <point x="-10.0" y="1389.2" type="line"/>
-      <point x="1102.0" y="1389.2" type="line"/>
-      <point x="1102.0" y="-450.8" type="line"/>
+      <point x="-10" y="-450.8" type="line"/>
+      <point x="-10" y="1389.2" type="line"/>
+      <point x="1102" y="1389.2" type="line"/>
+      <point x="1102" y="-450.8" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-450.8" type="line"/>
@@ -79,4 +80,12 @@
       <point x="1112" y="-450.8" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

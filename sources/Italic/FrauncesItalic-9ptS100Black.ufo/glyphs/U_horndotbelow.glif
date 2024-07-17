@@ -2,14 +2,17 @@
 <glyph name="Uhorndotbelow" format="2">
   <advance width="1535"/>
   <unicode hex="1EF0"/>
+  <anchor x="1086" y="1479" name="center"/>
   <outline>
     <component base="Uhorn"/>
-    <component base="dotbelowcmb" xOffset="308.01348779360706" yOffset="-10"/>
+    <component base="dotbelowcmb" xOffset="308.013" yOffset="-10"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

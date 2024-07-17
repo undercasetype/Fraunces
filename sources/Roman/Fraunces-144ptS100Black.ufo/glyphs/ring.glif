@@ -3,12 +3,14 @@
   <advance width="518"/>
   <unicode hex="02DA"/>
   <outline>
-    <component base="ringcmb"/>
+    <component base="ringcomb"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.9811,0.4634,0.5508,1</string>
+      <string>0.392,0.804,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

@@ -2,12 +2,12 @@
 <glyph name="l" format="2">
   <advance width="550"/>
   <unicode hex="006C"/>
-  <anchor x="449" y="966" name="right"/>
   <anchor x="289" y="1545" name="center"/>
+  <anchor x="449" y="966" name="right"/>
   <outline>
     <contour>
       <point x="325" y="1412" type="line" smooth="yes"/>
-      <point x="325.0" y="1438.0"/>
+      <point x="325" y="1438"/>
       <point x="311" y="1452"/>
       <point x="287" y="1452" type="curve" smooth="yes"/>
       <point x="275" y="1452"/>
@@ -22,7 +22,7 @@
       <point x="119" y="1348" type="curve" smooth="yes"/>
       <point x="213" y="1348" type="line" smooth="yes"/>
       <point x="241" y="1348"/>
-      <point x="255.0" y="1332.0"/>
+      <point x="255" y="1332"/>
       <point x="255" y="1300" type="curve" smooth="yes"/>
       <point x="255" y="122" type="line" smooth="yes"/>
       <point x="255" y="89"/>
@@ -51,7 +51,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.8431,0.8627,1,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

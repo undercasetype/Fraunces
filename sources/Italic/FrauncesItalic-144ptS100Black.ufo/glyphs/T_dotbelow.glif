@@ -2,6 +2,7 @@
 <glyph name="Tdotbelow" format="2">
   <advance width="1272"/>
   <unicode hex="1E6C"/>
+  <anchor x="472" y="1546" name="center"/>
   <outline>
     <component base="T"/>
     <component base="dotbelowcmb" xOffset="426"/>
@@ -9,7 +10,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

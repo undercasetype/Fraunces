@@ -2,8 +2,17 @@
 <glyph name="rinvertedbreve" format="2">
   <advance width="636"/>
   <unicode hex="0213"/>
+  <anchor x="464" y="945" name="center"/>
   <outline>
     <component base="r"/>
-    <component base="invertedbrevecmb" xOffset="186.68821216392098"/>
+    <component base="invertedbrevecmb" xOffset="186.688"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>
