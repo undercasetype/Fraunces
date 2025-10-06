@@ -6,16 +6,19 @@ autohintOTF: false
 sources:
   - Italic/FrauncesItalic.designspace
   - Roman/Fraunces.designspace
+
+# STAT names abbreviated to avoid problems in MS Word for Windows
+# See Font Bakery name/family_and_style_max_length
 stat:
   Fraunces[SOFT,WONK,opsz,wght].ttf:
     - name: Optical size
       tag: opsz
       values:
-        - name: 9pt
+        - name: 9
           value: 9
-        - name: 72pt
+        - name: 72
           value: 72
-        - name: 144pt
+        - name: 144
           value: 144
     - name: Softness
       tag: SOFT
@@ -24,29 +27,29 @@ stat:
           value: 0
         - name: Soft
           value: 50
-        - name: SuperSoft
+        - name: SprSft
           value: 100
     - name: Weight
       tag: wght
       values:
         - name: Thin
           value: 100
-        - name: Light
+        - name: Lght
           value: 300
         - name: Regular
           value: 400
           linkedValue: 700
           flags: 2
-        - name: SemiBold
+        - name: SmBd
           value: 600
         - name: Bold
           value: 700
-        - name: Black
+        - name: Blck
           value: 900
     - name: Wonky
       tag: WONK
       values:
-        - name: NonWonky
+        - name: NnWonk
           value: 0
         - name: Wonky
           value: 1
@@ -62,11 +65,11 @@ stat:
     - name: Optical size
       tag: opsz
       values:
-        - name: 9pt
+        - name: 9
           value: 9
-        - name: 72pt
+        - name: 72
           value: 72
-        - name: 144pt
+        - name: 144
           value: 144
     - name: Softness
       tag: SOFT
@@ -75,29 +78,29 @@ stat:
           value: 0
         - name: Soft
           value: 50
-        - name: SuperSoft
+        - name: SprSft
           value: 100
     - name: Weight
       tag: wght
       values:
         - name: Thin
           value: 100
-        - name: Light
+        - name: Lght
           value: 300
         - name: Regular
           value: 400
           linkedValue: 700
           flags: 2
-        - name: SemiBold
+        - name: SmBd
           value: 600
         - name: Bold
           value: 700
-        - name: Black
+        - name: Blck
           value: 900
     - name: Wonky
       tag: WONK
       values:
-        - name: NonWonky
+        - name: NnWonk
           value: 0
         - name: Wonky
           value: 1
