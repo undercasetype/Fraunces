@@ -2,11 +2,9 @@
 <glyph name="A" format="2">
   <advance width="1219"/>
   <unicode hex="0041"/>
-  <anchor x="958" y="1532.0" name="center"/>
+  <anchor x="958" y="1532" name="center"/>
   <outline>
     <contour>
-      <point x="163" y="77"/>
-      <point x="159" y="114"/>
       <point x="193" y="166" type="curve" smooth="yes"/>
       <point x="751" y="1034" type="line" smooth="yes"/>
       <point x="835" y="1164"/>
@@ -19,7 +17,7 @@
       <point x="899" y="100"/>
       <point x="874" y="77"/>
       <point x="833" y="68" type="curve" smooth="yes"/>
-      <point x="755" y="50" type="line" smooth="yes"/>
+      <point x="755" y="50" type="line"/>
       <point x="741" y="46"/>
       <point x="729" y="36"/>
       <point x="729" y="24" type="curve" smooth="yes"/>
@@ -32,7 +30,7 @@
       <point x="1115" y="26" type="curve" smooth="yes"/>
       <point x="1115" y="40"/>
       <point x="1105" y="50"/>
-      <point x="1085" y="52" type="curve" smooth="yes"/>
+      <point x="1085" y="52" type="curve"/>
       <point x="1021" y="62"/>
       <point x="979" y="82"/>
       <point x="979" y="136" type="curve" smooth="yes"/>
@@ -69,6 +67,8 @@
       <point x="307" y="57"/>
       <point x="283" y="60" type="curve" smooth="yes"/>
       <point x="206" y="71" type="line" smooth="yes"/>
+      <point x="163" y="77"/>
+      <point x="159" y="114"/>
     </contour>
     <contour>
       <point x="355" y="498" type="line"/>
