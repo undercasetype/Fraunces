@@ -115,6 +115,16 @@ make checks
 
 (Or just go to [the FontSpector website](https://fonttools.github.io/fontspector/)) and check fonts there.)
 
+#### Bump font version
+
+Before you build, you might want to bump the major or minor font versions with [bumpfontversion](https://pypi.org/project/bumpfontversion/). 
+
+For example, to bump the minor version of all UFOs:
+
+```
+bumpfontversion --part minor sources/*/*.ufo
+```
+
 ## Production Notes
 
 If you are doing any work on this repo, please read the production notes [here](https://github.com/undercasetype/Fraunces/tree/master/sources).
