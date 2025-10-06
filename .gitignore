@@ -16,3 +16,10 @@ sources/Italic/instances/*
 
 # ignore release files
 UnderCaseType_Fraunces_*
+
+# ignore gftools builder logs
+build.ninja
+.ninja_log
+
+# build temporary files
+instance_ufos
