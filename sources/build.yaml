@@ -1,0 +1,109 @@
+buildVariable: true
+buildStatic: true
+includeSourceFixes: true # runs some metadata fixes for Google Fonts compatibility
+autohintTTF: true
+autohintOTF: true
+sources:
+  - Italic/FrauncesItalic.designspace
+  - Roman/Fraunces.designspace
+stat:
+  Fraunces[SOFT,WONK,opsz,wght].ttf:
+    - name: Optical size
+      tag: opsz
+      values:
+        - name: 9pt
+          value: 9
+        - name: 72pt
+          value: 72
+        - name: 144pt
+          value: 144
+    - name: Softness
+      tag: SOFT
+      values:
+        - name: Sharp
+          value: 0
+        - name: Soft
+          value: 50
+        - name: SuperSoft
+          value: 100
+    - name: Weight
+      tag: wght
+      values:
+        - name: Thin
+          value: 100
+        - name: Light
+          value: 300
+        - name: Regular
+          value: 400
+          linkedValue: 700
+          flags: 2
+        - name: SemiBold
+          value: 600
+        - name: Bold
+          value: 700
+        - name: Black
+          value: 900
+    - name: Wonky
+      tag: WONK
+      values:
+        - name: NonWonky
+          value: 0
+        - name: Wonky
+          value: 1
+          flags: 2
+    - name: Italic
+      tag: ital
+      values:
+        - name: Roman
+          value: 0
+          linkedValue: 1
+          flags: 2
+  FrauncesItalic[SOFT,WONK,opsz,wght].ttf:
+    - name: Optical size
+      tag: opsz
+      values:
+        - name: 9pt
+          value: 9
+        - name: 72pt
+          value: 72
+        - name: 144pt
+          value: 144
+    - name: Softness
+      tag: SOFT
+      values:
+        - name: Sharp
+          value: 0
+        - name: Soft
+          value: 50
+        - name: SuperSoft
+          value: 100
+    - name: Weight
+      tag: wght
+      values:
+        - name: Thin
+          value: 100
+        - name: Light
+          value: 300
+        - name: Regular
+          value: 400
+          linkedValue: 700
+          flags: 2
+        - name: SemiBold
+          value: 600
+        - name: Bold
+          value: 700
+        - name: Black
+          value: 900
+    - name: Wonky
+      tag: WONK
+      values:
+        - name: NonWonky
+          value: 0
+        - name: Wonky
+          value: 1
+          flags: 2
+    - name: Italic
+      tag: ital
+      values:
+        - name: Italic
+          value: 1

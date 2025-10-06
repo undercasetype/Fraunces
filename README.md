@@ -10,12 +10,12 @@ This typeface family is still under development, and will be coming soon to Goog
 
 Fraunces has the following axes:
 
-Axis | Tag | Range | Default | Description
---- | --- | --- | --- | ---
-Optical Size | opsz | 9pt to 144pt | 144pt | Labeled 9pt, 72pt, and 144pt in instances.
-Weight | wght | 100 to 900 | 900 | Labeled Thin, Light, Regular, Semibold, Bold, and Black in instances.
-Softness | SOFT | 000 to 100 | 100 | Labeled Sharp, Soft, and SuperSoft in instances.
-Wonky | WONK | 0 to 1 | 1 | Binary axis controls substitution of "wonky" characters. Automatically substitutes when opsz > 18. Not listed in instances.
+| Axis         | Tag  | Range        | Default | Description                                                                                                                 |
+| ------------ | ---- | ------------ | ------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Optical Size | opsz | 9pt to 144pt | 144pt   | Labeled 9pt, 72pt, and 144pt in instances.                                                                                  |
+| Weight       | wght | 100 to 900   | 900     | Labeled Thin, Light, Regular, Semibold, Bold, and Black in instances.                                                       |
+| Softness     | SOFT | 000 to 100   | 100     | Labeled Sharp, Soft, and SuperSoft in instances.                                                                            |
+| Wonky        | WONK | 0 to 1       | 1       | Binary axis controls substitution of "wonky" characters. Automatically substitutes when opsz > 18. Not listed in instances. |
 
 ### Axis Definitions
 
@@ -80,7 +80,7 @@ It should return a path ending with `python3`, such as `/Library/Frameworks/Pyth
 
 **Setting up a virtual environment**
 
-To build, set up the virtual environment:
+To build, navigate to the Fraunces folder in a terminal (e.g. `cd Fraunces`), then set up the virtual environment:
 
 ```bash
 cd ~
@@ -96,63 +96,24 @@ source venv/bin/activate
 Now, install requirements:
 
 ```bash
-cd Fraunces
 pip install -U -r requirements.txt
 ```
-
-Give the build scripts permission to run/execute (you can copy & paste, then run both lines in the terminal at once):
-
-```bash
-chmod +x sources/**/*.sh
-chmod +x mastering/make-github-release/**/*.sh
-```
-
-**Making woff2 files**
-
-Finally, you will also need to separately install [google/woff2](https://github.com/google/woff2) to enable the `woff2_compress` and `woff2_decompress` commands. Open a new terminal session, window, or tab to do this step.
-
-```bash
-# open a new terminal session first, then run
-git clone --recursive https://github.com/google/woff2.git
-cd woff2
-make clean all
-```
-
-To make sure woff2_compress is installed properly, enter the following inyour terminal window:
-
-```
-woff2_compress
-```
-
-If terminal cannot find the command, you may need to ensure binaries are in $PATH, [a description of which you can find here.](https://github.com/google/woff2/issues/131)
-
-Once woff2_compress is working in your terminal, you can now run the build!
-
-</details>
 
 ### Build fonts
 
 Once you have set up the environment (see above), you can build fonts & prep releases!
 
-When building a new version, add a version number (in the format of `1.001`) to update the UFO versions & version the fonts correctly. If you aren’t sure what version you should be building, check the number of the latest release in https://github.com/undercasetype/Fraunces/releases, then increment by `.001`. If you leave out the version number, it will just build with the same version number that already exists in the UFO sources.
-
-To build variable and static fonts, plus make woff2s, use `build-all.sh`. This takes awhile (most of the time is taken up by building TTF & OTF static fonts).
-
-```bash
-sources/build-all.sh 1.000 # optional: place your desired version number as an argument
+```
+make build
 ```
 
-If you just want to build variable fonts, use `build.sh`:
+To run Font Bakery checks, run the following:
 
-```bash
-sources/build-scripts/build-vf.sh 1.000 # optional: place your desired version number as an argument
+```
+make checks
 ```
 
-To build only the static fonts (these are secondary to the variable fonts, so you can’t set the version numbers in this script), use `build-statics.sh`:
-
-```bash
-sources/build-scripts/build-statics.sh
-```
+(Or just go to [the FontSpector website](https://fonttools.github.io/fontspector/)) and check fonts there.)
 
 ## Production Notes
 
