@@ -2,7 +2,7 @@ buildVariable: true
 buildStatic: true
 includeSourceFixes: true # runs some metadata fixes for Google Fonts compatibility
 autohintTTF: true
-autohintOTF: true
+autohintOTF: false
 sources:
   - Italic/FrauncesItalic.designspace
   - Roman/Fraunces.designspace
