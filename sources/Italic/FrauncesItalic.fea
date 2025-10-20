@@ -15,7 +15,8 @@ languagesystem latn NLD;
 @LC = [ a b c d e f g h i j k l m n o p q r s t u v w x y z ];
 
 @UC_accents = [acute.cap hungarumlaut.cap grave.cap gravedouble.cap circumflex.cap caron.cap breve.cap invertedbreve.cap tilde.cap macron.cap dieresis.cap dotaccent.cap ring.cap hook.cap circumflexacute.cap circumflexgrave.cap circumflextilde.cap circumflexhook.cap breveacute.cap brevegrave.cap brevetilde.cap brevehook.cap];
-@lc_accents = [acute     hungarumlaut     grave     gravedouble     circumflex     caron     breve     invertedbreve     tilde     macron     dieresis     dotaccent     ring     hook     circumflexacute     circumflexgrave     circumflextilde     circumflexhook     breveacute     brevegrave     brevetilde     brevehook    ];
+@lc_accents = [acute     hungarumlaut     grave     gravedoublecmb  circumflex     caron     breve     invertedbrevecmb  tilde     macron     dieresis     dotaccent     ring     hookcmb  circumflexacute     circumflexgrave     circumflextilde     circumflexhook     breveacute     brevegrave     brevetilde     brevehook    ];
+
 
 
 @alts_on = [ ampersand.alt b.alt d.alt ddotbelow.alt dmacronbelow.alt h.alt hbrevebelow.alt hcircumflex.alt hdotbelow.alt k.alt kcommaaccent.alt l.alt lacute.alt lcommaaccent.alt ldot.alt ldotbelow.alt lmacronbelow.alt v.alt w.alt wacute.alt wcircumflex.alt wdieresis.alt wgrave.alt fl.alt f_f_l.alt dzcaron.alt lj.alt];
