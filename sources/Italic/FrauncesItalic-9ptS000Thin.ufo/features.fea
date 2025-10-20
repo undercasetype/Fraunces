@@ -1,37 +1,94 @@
-# Script and language coverage
+languagesystem DFLT dflt;
 
- languagesystem DFLT dflt;
- languagesystem latn dflt;
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+languagesystem latn NLD;
 
- @UC = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ];
- @LC = [ a b c d e f g h i j k l m n o p q r s t u v w x y z ];
+@UC = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ];
+@LC = [ a b c d e f g h i j k l m n o p q r s t u v w x y z ];
 
 @alts_on = [ ampersand.alt b.alt d.alt ddotbelow.alt dmacronbelow.alt h.alt hbrevebelow.alt hcircumflex.alt hdotbelow.alt k.alt kcommaaccent.alt l.alt lacute.alt lcommaaccent.alt ldot.alt ldotbelow.alt lmacronbelow.alt v.alt w.alt wacute.alt wcircumflex.alt wdieresis.alt wgrave.alt ];
 @alts_off = [ ampersand b d ddotbelow dmacronbelow h hbrevebelow hcircumflex hdotbelow k kcommaaccent l lacute lcommaaccent ldot ldotbelow lmacronbelow v w wacute wcircumflex wdieresis wgrave ];
 
- feature case {
-    sub @LC by @UC ;
- } case;
+feature locl {
+   script latn;
+   language AZE;
+   lookup locl_latn_0 {
+      sub i by idotaccent;
+   } locl_latn_0;
+   language CRT;
+   lookup locl_latn_0;
+   language KAZ;
+   lookup locl_latn_0;
+   language TAT;
+   lookup locl_latn_0;
+   language TRK;
+   lookup locl_latn_0;
 
- feature ss01 {
+   script latn;
+   language ROM;
+   lookup locl_latn_1 {
+      sub Scedilla by Scommaaccent;
+      sub scedilla by scommaaccent;
+      sub Tcedilla by Tcommaaccent;
+      sub tcedilla by tcommaaccent;
+   } locl_latn_1;
+   language MOL;
+   lookup locl_latn_1;
+
+   script latn;
+   language CAT;
+   lookup locl_latn_2 {
+      sub  l' periodcentered' l by ldot;
+      sub  L' periodcentered' L by Ldot;
+   } locl_latn_2;
+
+   script latn;
+   language NLD;
+   lookup locl_latn_3 {
+      sub iacute j' by jacute;
+      sub Iacute J' by Jacute;
+   } locl_latn_3;
+
+} locl;
+
+feature case {
+   sub @LC by @UC ;
+} case;
+
+feature ss01 {
    featureNames {
       name "Alts on";
       name 1 "Alts on";
    };
-    sub @alts_off by @alts_on ;
- } ss01 ;
+   sub @alts_off by @alts_on ;
+} ss01 ;
  
- feature liga { 
-      sub f f i by f_f_i;  
-      sub f f l by f_f_l; 
-      sub f f by f_f;
-      sub f i by fi; 
-      sub f l by fl; 
+feature liga { 
+   sub f f i by f_f_i;  
+   sub f f l by f_f_l; 
+   sub f f by f_f;
+   sub f i by fi; 
+   sub f l by fl; 
 } liga;
 
+feature aalt {
+   feature case;
+   feature ss01;
+   feature locl;
+} aalt;
+
 table name {
-	nameid 25 "FrauncesItalic";
+   nameid 25 "FrauncesItalic";
 } name;
+
 
 
 
