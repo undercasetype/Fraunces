@@ -14,6 +14,9 @@ languagesystem latn NLD;
 @UC = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ];
 @LC = [ a b c d e f g h i j k l m n o p q r s t u v w x y z ];
 
+@UC_accents = [acute.cap hungarumlaut.cap grave.cap gravedouble.cap circumflex.cap caron.cap breve.cap invertedbreve.cap tilde.cap macron.cap dieresis.cap dotaccent.cap ring.cap hook.cap circumflexacute.cap circumflexgrave.cap circumflextilde.cap circumflexhook.cap breveacute.cap brevegrave.cap brevetilde.cap brevehook.cap];
+@lc_accents = [acute     hungarumlaut     grave     gravedouble     circumflex     caron     breve     invertedbreve     tilde     macron     dieresis     dotaccent     ring     hook     circumflexacute     circumflexgrave     circumflextilde     circumflexhook     breveacute     brevegrave     brevetilde     brevehook    ];
+
 @alts_on = [ ampersand.alt h.alt hbrevebelow.alt hcircumflex.alt hdotbelow.alt m.alt mdotbelow.alt n.alt nacute.alt ncaron.alt ncommaaccent.alt ndotaccent.alt ndotbelow.alt nmacronbelow.alt ntilde.alt s.alt sacute.alt sacutedotaccent.alt scaron.alt scarondotaccent.alt scedilla.alt scircumflex.alt scommaaccent.alt sdotaccent.alt sdotbelow.alt sdotbelowdotaccent.alt ];
 @alts_off = [ ampersand h hbrevebelow hcircumflex hdotbelow m mdotbelow n nacute ncaron ncommaaccent ndotaccent ndotbelow nmacronbelow ntilde s sacute sacutedotaccent scaron scarondotaccent scedilla scircumflex scommaaccent sdotaccent sdotbelow sdotbelowdotaccent ];
 
@@ -61,6 +64,7 @@ feature locl {
 
 feature case {
    sub @LC by @UC ;
+   sub @lc_accents by @UC_accents;
 } case;
 
 feature ss01 {

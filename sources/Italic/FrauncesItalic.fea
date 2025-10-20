@@ -14,8 +14,12 @@ languagesystem latn NLD;
 @UC = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z ];
 @LC = [ a b c d e f g h i j k l m n o p q r s t u v w x y z ];
 
-@alts_on = [ ampersand.alt b.alt d.alt ddotbelow.alt dmacronbelow.alt h.alt hbrevebelow.alt hcircumflex.alt hdotbelow.alt k.alt kcommaaccent.alt l.alt lacute.alt lcommaaccent.alt ldot.alt ldotbelow.alt lmacronbelow.alt v.alt w.alt wacute.alt wcircumflex.alt wdieresis.alt wgrave.alt ];
-@alts_off = [ ampersand b d ddotbelow dmacronbelow h hbrevebelow hcircumflex hdotbelow k kcommaaccent l lacute lcommaaccent ldot ldotbelow lmacronbelow v w wacute wcircumflex wdieresis wgrave ];
+@UC_accents = [acute.cap hungarumlaut.cap grave.cap gravedouble.cap circumflex.cap caron.cap breve.cap invertedbreve.cap tilde.cap macron.cap dieresis.cap dotaccent.cap ring.cap hook.cap circumflexacute.cap circumflexgrave.cap circumflextilde.cap circumflexhook.cap breveacute.cap brevegrave.cap brevetilde.cap brevehook.cap];
+@lc_accents = [acute     hungarumlaut     grave     gravedouble     circumflex     caron     breve     invertedbreve     tilde     macron     dieresis     dotaccent     ring     hook     circumflexacute     circumflexgrave     circumflextilde     circumflexhook     breveacute     brevegrave     brevetilde     brevehook    ];
+
+
+@alts_on = [ ampersand.alt b.alt d.alt ddotbelow.alt dmacronbelow.alt h.alt hbrevebelow.alt hcircumflex.alt hdotbelow.alt k.alt kcommaaccent.alt l.alt lacute.alt lcommaaccent.alt ldot.alt ldotbelow.alt lmacronbelow.alt v.alt w.alt wacute.alt wcircumflex.alt wdieresis.alt wgrave.alt fl.alt f_f_l.alt dzcaron.alt lj.alt];
+@alts_off = [ ampersand b d ddotbelow dmacronbelow h hbrevebelow hcircumflex hdotbelow k kcommaaccent l lacute lcommaaccent ldot ldotbelow lmacronbelow v w wacute wcircumflex wdieresis wgrave fl f_f_l dzcaron lj];
 
 feature locl {
    script latn;
@@ -61,15 +65,10 @@ feature locl {
 
 feature case {
    sub @LC by @UC ;
+   sub @lc_accents by @UC_accents;
 } case;
 
-feature ss01 {
-   featureNames {
-      name "Alts on";
-      name 1 "Alts on";
-   };
-   sub @alts_off by @alts_on ;
-} ss01 ;
+
  
 feature liga { 
    sub f f i by f_f_i;  
@@ -78,6 +77,14 @@ feature liga {
    sub f i by fi; 
    sub f l by fl; 
 } liga;
+
+feature ss01 {
+   featureNames {
+      name "Alts on";
+      name 1 "Alts on";
+   };
+   sub @alts_off by @alts_on ;
+} ss01 ;
 
 feature aalt {
    feature case;
