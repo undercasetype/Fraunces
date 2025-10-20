@@ -1,0 +1,25 @@
+buildVariable: false
+buildStatic: true
+includeSourceFixes: true # runs some metadata fixes for Google Fonts compatibility
+autohintTTF: true
+autohintOTF: false
+outputDir: "fonts"
+sources:
+  - sources/Italic/Fraunces-Italic-Static.designspace
+  - sources/Roman/Fraunces-Static.designspace
+recipeProvider: googlefonts
+recipe:
+  fonts/variable/Fraunces[SOFT,WONK,opsz,wght].ttf:
+    - source: sources/Roman/Fraunces.designspace
+    - args: --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      operation: buildVariable
+    - args: "fix-nonhinting $in $out"
+      exe: "gftools"
+      operation: exec
+  fonts/variable/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf:
+    - source: sources/Italic/Fraunces-Italic.designspace
+    - args: --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      operation: buildVariable
+    - args: "fix-nonhinting $in $out"
+      exe: "gftools"
+      operation: exec

@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------
 # Configuration filepath
 
-CONFIG=sources/build.yaml
+CONFIG=build.yaml
 
 # ---------------------------------------------------------------
 # Commands
@@ -15,6 +15,8 @@ all: build checks
 build:
 	rm -rf sources/Roman/instance_ufos
 	rm -rf sources/Italic/instance_ufos
+	rm -f .ninja_log
+	rm -f build.ninja
 	gftools builder $(CONFIG)
 	pip freeze > requirements.freeze.txt
 
