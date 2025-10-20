@@ -13,6 +13,7 @@ all: build checks
 
 .PHONY: build
 build:
+	rm -rf fonts
 	rm -rf sources/Roman/instance_ufos
 	rm -rf sources/Italic/instance_ufos
 	rm -f .ninja_log
