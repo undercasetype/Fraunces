@@ -1,7 +1,6 @@
 buildVariable: false
 buildStatic: true
 buildWebfont: true
-includeSourceFixes: true # runs some metadata fixes for Google Fonts compatibility
 autohintTTF: true
 autohintOTF: false
 outputDir: "fonts"
@@ -24,3 +23,19 @@ recipe:
     - args: "fix-nonhinting $in $out"
       exe: "gftools"
       operation: exec
+  fonts/webfonts/variable/Fraunces[SOFT,WONK,opsz,wght].woff2:
+    - source: sources/Roman/Fraunces.designspace
+    - args: --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      operation: buildVariable
+    - args: "fix-nonhinting $in $out"
+      exe: "gftools"
+      operation: exec
+    - operation: compress
+  fonts/webfonts/variable/Fraunces-Italic[SOFT,WONK,opsz,wght].woff2:
+    - source: sources/Italic/Fraunces-Italic.designspace
+    - args: --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      operation: buildVariable
+    - args: "fix-nonhinting $in $out"
+      exe: "gftools"
+      operation: exec
+    - operation: compress
