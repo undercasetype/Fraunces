@@ -2,18 +2,14 @@
 <glyph name="ldotbelow" format="2">
   <advance width="403"/>
   <unicode hex="1E37"/>
-  <anchor x="90" y="1593" name="center"/>
-  <anchor x="425" y="1098" name="right"/>
   <outline>
     <component base="l"/>
-    <component base="dotbelowcmb" xOffset="88.693"/>
+    <component base="dotbelowcmb" xOffset="88.69326616936456"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

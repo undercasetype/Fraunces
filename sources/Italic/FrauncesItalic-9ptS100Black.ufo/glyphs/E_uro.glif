@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Euro" format="2">
   <advance width="1493"/>
-  <unicode hex="20AC"/>
   <outline>
     <contour>
       <point x="1335" y="283" type="curve" smooth="yes"/>
@@ -78,12 +77,4 @@
       <point x="53" y="613"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,1,0.502</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

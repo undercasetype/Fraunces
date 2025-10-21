@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ldot.alt" format="2">
   <advance width="1009"/>
-  <anchor x="217" y="1593" name="center_1"/>
-  <anchor x="900.611" y="453.0" name="center_2"/>
   <outline>
     <component base="l.alt"/>
     <component base="dotaccentcmb" xOffset="584" yOffset="-505"/>
@@ -10,9 +8,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.353,0.667,0.804,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="grave.cap" format="2">
   <advance width="564"/>
-  <anchor x="429.381" y="991" name="center"/>
+  <anchor x="429.38095238095235" y="991" name="center"/>
   <outline>
     <contour>
       <point x="448" y="1289" type="line" smooth="yes"/>
@@ -26,9 +26,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0.667,0.255,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>

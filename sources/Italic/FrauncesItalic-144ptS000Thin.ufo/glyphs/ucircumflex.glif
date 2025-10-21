@@ -2,8 +2,6 @@
 <glyph name="ucircumflex" format="2">
   <advance width="832"/>
   <unicode hex="00FB"/>
-  <anchor x="560" y="1016" name="center_1"/>
-  <anchor x="560" y="1062" name="center_2"/>
   <outline>
     <component base="u"/>
     <component base="circumflexcmb" xOffset="236"/>
@@ -11,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

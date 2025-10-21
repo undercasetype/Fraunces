@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="multiply" format="2">
   <advance width="802"/>
-  <unicode hex="00D7"/>
   <outline>
     <contour>
       <point x="102" y="326" type="curve" smooth="yes"/>
@@ -36,12 +35,4 @@
       <point x="698" y="325"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,1,0.502</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

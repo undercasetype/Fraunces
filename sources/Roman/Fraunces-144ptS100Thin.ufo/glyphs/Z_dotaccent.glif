@@ -2,7 +2,6 @@
 <glyph name="Zdotaccent" format="2">
   <advance width="1069"/>
   <unicode hex="017B"/>
-  <anchor x="587" y="1507" name="center"/>
   <outline>
     <component base="Z"/>
     <component base="dotaccent.cap" xOffset="478" yOffset="480"/>
@@ -10,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

@@ -3,6 +3,14 @@
 <plist version="1.0">
   <array>
     <array>
+      <string>foreground</string>
+      <string>glyphs</string>
+    </array>
+    <array>
+      <string>background</string>
+      <string>glyphs.background</string>
+    </array>
+    <array>
       <string>144G0Black</string>
       <string>glyphs.144G_0B_lack</string>
     </array>
@@ -11,16 +19,12 @@
       <string>glyphs.9G_100B_lack</string>
     </array>
     <array>
-      <string>background</string>
-      <string>glyphs.background</string>
-    </array>
-    <array>
       <string>interpolation</string>
       <string>glyphs.interpolation</string>
     </array>
     <array>
-      <string>foreground</string>
-      <string>glyphs</string>
+      <string>144G100Black</string>
+      <string>glyphs.144G_100B_lack</string>
     </array>
   </array>
 </plist>

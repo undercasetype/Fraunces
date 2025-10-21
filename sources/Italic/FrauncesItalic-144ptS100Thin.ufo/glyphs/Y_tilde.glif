@@ -2,17 +2,8 @@
 <glyph name="Ytilde" format="2">
   <advance width="944"/>
   <unicode hex="1EF8"/>
-  <anchor x="790" y="1498" name="center"/>
   <outline>
     <component base="Y"/>
     <component base="tilde.cap" xOffset="457" yOffset="495"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

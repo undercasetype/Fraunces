@@ -1,8 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="horncmb" format="2">
+  <advance width="697"/>
   <unicode hex="031B"/>
   <outline>
     <contour>
+      <point x="446" y="817"/>
+      <point x="647" y="920"/>
       <point x="647" y="1137" type="curve" smooth="yes"/>
       <point x="647" y="1245"/>
       <point x="601" y="1306"/>
@@ -20,18 +23,12 @@
       <point x="50" y="892"/>
       <point x="69" y="870"/>
       <point x="119" y="863" type="curve" smooth="yes"/>
-      <point x="446" y="817"/>
-      <point x="647" y="920"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>697</integer>
       <key>public.markColor</key>
-      <string>0.843,0.863,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.8431,0.8627,1,1</string>
     </dict>
   </lib>
 </glyph>

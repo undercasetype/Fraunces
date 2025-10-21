@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dollar" format="2">
   <advance width="1265"/>
-  <unicode hex="0024"/>
   <outline>
     <contour>
       <point x="504" y="4" type="curve" smooth="yes"/>
@@ -86,12 +85,4 @@
       <point x="685" y="645" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,1,0.502</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

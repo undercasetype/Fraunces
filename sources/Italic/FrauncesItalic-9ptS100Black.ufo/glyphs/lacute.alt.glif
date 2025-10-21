@@ -1,19 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lacute.alt" format="2">
   <advance width="730"/>
-  <anchor x="217" y="1593" name="center_1"/>
-  <anchor x="537.0" y="1456.0" name="center_2"/>
-  <anchor x="783" y="1098" name="right"/>
   <outline>
     <component base="l.alt"/>
-    <component base="acute.cap" xOffset="426.556" yOffset="465"/>
+    <component base="acute.cap" xOffset="426.55555555554747" yOffset="465"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.353,0.667,0.804,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.3529,0.6667,0.8039,1</string>
     </dict>
   </lib>
 </glyph>

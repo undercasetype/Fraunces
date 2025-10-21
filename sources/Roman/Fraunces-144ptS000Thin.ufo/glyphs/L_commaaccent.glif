@@ -2,18 +2,14 @@
 <glyph name="Lcommaaccent" format="2">
   <advance width="988"/>
   <unicode hex="013B"/>
-  <anchor x="545" y="1478" name="center"/>
-  <anchor x="861" y="1476" name="right"/>
   <outline>
     <component base="L"/>
-    <component base="commaaccentbelowcmb" xOffset="433.688"/>
+    <component base="commaaccentbelowcmb" xOffset="433.6875"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

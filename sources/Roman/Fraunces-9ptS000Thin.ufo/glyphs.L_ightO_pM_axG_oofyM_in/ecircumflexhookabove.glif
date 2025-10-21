@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ecircumflexhookabove" format="2">
   <advance width="751"/>
-  <unicode hex="1EC3"/>
   <outline>
     <contour>
       <point x="707" y="548" type="curve" smooth="yes"/>
@@ -61,9 +60,9 @@
       <point x="210" y="923" type="curve" smooth="yes"/>
       <point x="368" y="1141" type="line" smooth="yes"/>
       <point x="380" y="1158"/>
-      <point x="391" y="1166"/>
+      <point x="391.0" y="1166.0"/>
       <point x="405" y="1166" type="curve" smooth="yes"/>
-      <point x="419" y="1166"/>
+      <point x="419.0" y="1166.0"/>
       <point x="430" y="1158"/>
       <point x="442" y="1141" type="curve" smooth="yes"/>
       <point x="600" y="923" type="line" smooth="yes"/>
@@ -83,11 +82,11 @@
       <point x="676" y="1122"/>
       <point x="709" y="1180"/>
       <point x="709" y="1250" type="curve" smooth="yes"/>
-      <point x="709" y="1330"/>
-      <point x="678" y="1370"/>
+      <point x="709.0" y="1330.0"/>
+      <point x="678.0" y="1370.0"/>
       <point x="620" y="1370" type="curve" smooth="yes"/>
-      <point x="561" y="1370"/>
-      <point x="536" y="1329"/>
+      <point x="561.0" y="1370.0"/>
+      <point x="536.0" y="1329.0"/>
       <point x="536" y="1274" type="curve" smooth="yes"/>
       <point x="536" y="1251" type="line" smooth="yes"/>
       <point x="536" y="1224"/>
@@ -96,11 +95,11 @@
       <point x="480" y="1208"/>
       <point x="468" y="1228"/>
       <point x="468" y="1251" type="curve" smooth="yes"/>
-      <point x="468" y="1322"/>
-      <point x="537" y="1382"/>
+      <point x="468.0" y="1322.0"/>
+      <point x="537.0" y="1382.0"/>
       <point x="621" y="1382" type="curve" smooth="yes"/>
-      <point x="704" y="1382"/>
-      <point x="765" y="1333"/>
+      <point x="704.0" y="1382.0"/>
+      <point x="765.0" y="1333.0"/>
       <point x="765" y="1250" type="curve" smooth="yes"/>
       <point x="765" y="1167"/>
       <point x="705" y="1112"/>
@@ -121,12 +120,4 @@
       <point x="751" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

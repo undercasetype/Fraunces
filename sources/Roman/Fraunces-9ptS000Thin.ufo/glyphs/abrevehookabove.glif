@@ -2,17 +2,14 @@
 <glyph name="abrevehookabove" format="2">
   <advance width="1013"/>
   <unicode hex="1EB3"/>
-  <anchor x="503" y="1032" name="center"/>
   <outline>
     <component base="a"/>
-    <component base="brevehook" xOffset="239.452"/>
+    <component base="brevehook" xOffset="239.45196399022825"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

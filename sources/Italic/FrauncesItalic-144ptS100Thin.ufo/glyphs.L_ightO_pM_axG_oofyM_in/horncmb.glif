@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="horncmb" format="2">
-  <unicode hex="031B"/>
+  <advance width="455"/>
   <outline>
     <contour>
       <point x="405" y="1046" type="curve" smooth="yes"/>
@@ -30,14 +30,4 @@
       <point x="455" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>455</integer>
-      <key>public.markColor</key>
-      <string>0.843,0.863,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

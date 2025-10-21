@@ -6,22 +6,22 @@
     <contour>
       <point x="56" y="687" type="curve" smooth="yes"/>
       <point x="56" y="643"/>
-      <point x="74" y="615"/>
+      <point x="74.0" y="615.0"/>
       <point x="107" y="615" type="curve" smooth="yes"/>
       <point x="408" y="615" type="line"/>
       <point x="399" y="759" type="line"/>
       <point x="110" y="759" type="line" smooth="yes"/>
-      <point x="80" y="759"/>
+      <point x="80.0" y="759.0"/>
       <point x="56" y="728"/>
     </contour>
     <contour>
       <point x="939" y="635" type="line"/>
       <point x="1448" y="635" type="line" smooth="yes"/>
-      <point x="1478" y="635"/>
+      <point x="1478.0" y="635.0"/>
       <point x="1502" y="666"/>
       <point x="1502" y="707" type="curve" smooth="yes"/>
       <point x="1502" y="751"/>
-      <point x="1484" y="779"/>
+      <point x="1484.0" y="779.0"/>
       <point x="1451" y="779" type="curve" smooth="yes"/>
       <point x="930" y="779" type="line"/>
     </contour>
@@ -119,12 +119,4 @@
       <point x="1032" y="1067" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.980,0.463,0.549,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

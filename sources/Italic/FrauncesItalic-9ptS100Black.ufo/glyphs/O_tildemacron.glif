@@ -2,19 +2,15 @@
 <glyph name="Otildemacron" format="2">
   <advance width="1601"/>
   <unicode hex="022C"/>
-  <anchor x="1080" y="1546" name="center_1"/>
-  <anchor x="1136.0" y="1825.0" name="center_2"/>
   <outline>
     <component base="O"/>
-    <component base="tilde.cap" xOffset="638.386" yOffset="460"/>
-    <component base="macron.cap" xOffset="703.32" yOffset="830"/>
+    <component base="tilde.cap" xOffset="638.3855685294839" yOffset="460"/>
+    <component base="macron.cap" xOffset="703.3196850393433" yOffset="830"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

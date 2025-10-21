@@ -2,7 +2,6 @@
 <glyph name="Eth" format="2">
   <advance width="1429"/>
   <unicode hex="00D0"/>
-  <anchor x="962" y="1485" name="center"/>
   <outline>
     <contour>
       <point x="109" y="712" type="curve" smooth="yes"/>
@@ -24,12 +23,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>PC</string>
       <key>public.markColor</key>
-      <string>0,0,1,0.502</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>

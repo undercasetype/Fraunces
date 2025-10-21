@@ -2,20 +2,15 @@
 <glyph name="Idieresisacute" format="2">
   <advance width="903"/>
   <unicode hex="1E2E"/>
-  <anchor x="733" y="1468" name="center_1"/>
-  <anchor x="733.0" y="1409.0" name="center_2"/>
-  <anchor x="733.0" y="1821.0" name="center_3"/>
   <outline>
     <component base="I"/>
-    <component base="dieresis.cap" xOffset="213.307" yOffset="460"/>
-    <component base="acute.cap" xOffset="622.556" yOffset="830"/>
+    <component base="dieresis.cap" xOffset="213.30732860520948" yOffset="460"/>
+    <component base="acute.cap" xOffset="622.5555555555475" yOffset="830"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

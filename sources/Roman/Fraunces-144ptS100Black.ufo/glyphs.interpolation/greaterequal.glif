@@ -35,16 +35,16 @@
       <point x="710" y="870" type="line"/>
     </contour>
     <contour>
-      <point x="1049" y="1981.8" type="line"/>
-      <point x="1049" y="141.8" type="line"/>
-      <point x="37" y="141.8" type="line"/>
-      <point x="37" y="1981.8" type="line"/>
+      <point x="1049.0" y="1981.8" type="line"/>
+      <point x="1049.0" y="141.79999999999995" type="line"/>
+      <point x="37.0" y="141.79999999999995" type="line"/>
+      <point x="37.0" y="1981.8" type="line"/>
     </contour>
     <contour>
-      <point x="22" y="-287.8" type="line"/>
-      <point x="22" y="1552.2" type="line"/>
-      <point x="1034" y="1552.2" type="line"/>
-      <point x="1034" y="-287.8" type="line"/>
+      <point x="22.0" y="-287.8" type="line"/>
+      <point x="22.0" y="1552.2" type="line"/>
+      <point x="1034.0" y="1552.2" type="line"/>
+      <point x="1034.0" y="-287.8" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-450.8" type="line"/>
@@ -53,12 +53,4 @@
       <point x="1105" y="-450.8" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.992,0.553,0.616,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

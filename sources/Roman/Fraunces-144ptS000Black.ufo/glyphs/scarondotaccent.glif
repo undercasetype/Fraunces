@@ -1,18 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scarondotaccent" format="2">
   <advance width="842"/>
-  <anchor x="402" y="1019" name="center"/>
   <outline>
     <component base="s"/>
-    <component base="caroncmb" xOffset="32.807"/>
+    <component base="caroncmb" xOffset="32.80728090001503"/>
     <component base="dotaccentcmb" xOffset="178.5" yOffset="346"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

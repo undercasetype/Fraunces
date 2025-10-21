@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ncommaaccent" format="2">
   <advance width="1464"/>
-  <unicode hex="0145"/>
   <outline>
     <contour>
       <point x="530" y="98" type="curve" smooth="yes"/>
@@ -87,10 +86,10 @@
       <point x="530" y="37"/>
     </contour>
     <contour>
-      <point x="-15" y="-450.8" type="line"/>
-      <point x="-15" y="1389.2" type="line"/>
-      <point x="1449" y="1389.2" type="line"/>
-      <point x="1449" y="-450.8" type="line"/>
+      <point x="-15.0" y="-450.8" type="line"/>
+      <point x="-15.0" y="1389.2" type="line"/>
+      <point x="1449.0" y="1389.2" type="line"/>
+      <point x="1449.0" y="-450.8" type="line"/>
     </contour>
     <contour>
       <point x="688" y="-316" type="curve" smooth="yes"/>
@@ -120,10 +119,10 @@
       <point x="607" y="-316"/>
     </contour>
     <contour>
-      <point x="534" y="-450.8" type="line"/>
-      <point x="534" y="1389.2" type="line"/>
-      <point x="921" y="1389.2" type="line"/>
-      <point x="921" y="-450.8" type="line"/>
+      <point x="534.0" y="-450.8" type="line"/>
+      <point x="534.0" y="1389.2" type="line"/>
+      <point x="921.0" y="1389.2" type="line"/>
+      <point x="921.0" y="-450.8" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-450.8" type="line"/>
@@ -132,12 +131,4 @@
       <point x="1464" y="-450.8" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

@@ -2,19 +2,8 @@
 <glyph name="ijacute" format="2">
   <advance width="1131"/>
   <unicode hex="E132"/>
-  <anchor x="296.5" y="877.0" name="center"/>
-  <anchor x="845" y="1125" name="center_1"/>
-  <anchor x="825" y="877" name="center_2"/>
   <outline>
     <component base="iacute"/>
     <component base="jacute" xOffset="576"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.800,1,0.400,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

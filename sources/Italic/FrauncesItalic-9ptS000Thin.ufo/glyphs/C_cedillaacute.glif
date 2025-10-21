@@ -2,19 +2,9 @@
 <glyph name="Ccedillaacute" format="2">
   <advance width="1249"/>
   <unicode hex="1E08"/>
-  <anchor x="912" y="1510" name="center_1"/>
-  <anchor x="921" y="1460" name="center_2"/>
   <outline>
     <component base="C"/>
     <component base="acute.cap" xOffset="824" yOffset="469"/>
     <component base="cedillacmb" xOffset="299"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

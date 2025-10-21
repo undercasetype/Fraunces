@@ -2,18 +2,8 @@
 <glyph name="icircumflex" format="2">
   <advance width="551"/>
   <unicode hex="00EE"/>
-  <anchor x="405" y="1000" name="center_1"/>
-  <anchor x="417.8" y="1062.0" name="center_2"/>
   <outline>
     <component base="dotlessi"/>
     <component base="circumflexcmb" xScale="0.8" xOffset="177"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

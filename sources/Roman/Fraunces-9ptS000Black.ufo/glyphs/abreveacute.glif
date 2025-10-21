@@ -2,8 +2,6 @@
 <glyph name="abreveacute" format="2">
   <advance width="1203"/>
   <unicode hex="1EAF"/>
-  <anchor x="604" y="1060" name="center_1"/>
-  <anchor x="604" y="917" name="center_2"/>
   <outline>
     <component base="a"/>
     <component base="breveacute" xOffset="247"/>
@@ -11,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

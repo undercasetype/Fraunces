@@ -5,6 +5,8 @@
   <anchor x="988" y="1510" name="center"/>
   <outline>
     <contour>
+      <point x="1331" y="401"/>
+      <point x="1300" y="461"/>
       <point x="1258" y="478" type="curve" smooth="yes"/>
       <point x="1207" y="499"/>
       <point x="1162" y="471"/>
@@ -47,16 +49,12 @@
       <point x="946" y="-30"/>
       <point x="1176" y="114"/>
       <point x="1267" y="282" type="curve" smooth="yes"/>
-      <point x="1331" y="401"/>
-      <point x="1300" y="461"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.843,0.863,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.8431,0.8627,1,1</string>
     </dict>
   </lib>
 </glyph>

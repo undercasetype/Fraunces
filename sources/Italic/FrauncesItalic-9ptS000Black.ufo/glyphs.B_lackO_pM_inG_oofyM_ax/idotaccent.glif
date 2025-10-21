@@ -49,24 +49,24 @@
       <point x="748" y="-490" type="line"/>
     </contour>
     <contour>
-      <point x="490.389" y="1044" type="curve" smooth="yes"/>
-      <point x="635.389" y="1044"/>
-      <point x="736.146" y="1114"/>
-      <point x="768.032" y="1233" type="curve" smooth="yes"/>
-      <point x="799.114" y="1349"/>
-      <point x="735.87" y="1419"/>
-      <point x="590.87" y="1419" type="curve" smooth="yes"/>
-      <point x="447.87" y="1419"/>
-      <point x="344.114" y="1349"/>
-      <point x="313.032" y="1233" type="curve" smooth="yes"/>
-      <point x="280.61" y="1112"/>
-      <point x="347.389" y="1044"/>
+      <point x="490.3892617449746" y="1044.0" type="curve" smooth="yes"/>
+      <point x="635.3892617449746" y="1044.0"/>
+      <point x="736.1457052151532" y="1114.0"/>
+      <point x="768.0316591144569" y="1233.0" type="curve" smooth="yes"/>
+      <point x="799.113765436467" y="1349.0"/>
+      <point x="735.8702089066458" y="1419.0"/>
+      <point x="590.8702089066458" y="1419.0" type="curve" smooth="yes"/>
+      <point x="447.8702089066457" y="1419.0"/>
+      <point x="344.1137654364671" y="1349.0"/>
+      <point x="313.03165911445683" y="1233.0" type="curve" smooth="yes"/>
+      <point x="280.60980683029095" y="1112.0"/>
+      <point x="347.38926174497465" y="1044.0"/>
     </contour>
     <contour>
-      <point x="212.389" y="-490" type="line"/>
-      <point x="212.389" y="1510" type="line"/>
-      <point x="767.389" y="1510" type="line"/>
-      <point x="767.389" y="-490" type="line"/>
+      <point x="212.38926174497465" y="-490" type="line"/>
+      <point x="212.38926174497465" y="1510" type="line"/>
+      <point x="767.3892617449746" y="1510" type="line"/>
+      <point x="767.3892617449746" y="-490" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-490" type="line"/>
@@ -75,12 +75,4 @@
       <point x="748" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

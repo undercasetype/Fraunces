@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="twosuperior" format="2">
   <advance width="679"/>
-  <unicode hex="00B2"/>
   <outline>
     <contour>
       <point x="160" y="823" type="line"/>
@@ -69,12 +68,4 @@
       <point x="100" y="829"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,1,0.502</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

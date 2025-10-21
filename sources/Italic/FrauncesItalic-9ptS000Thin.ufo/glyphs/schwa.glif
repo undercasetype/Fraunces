@@ -2,16 +2,13 @@
 <glyph name="schwa" format="2">
   <advance width="846"/>
   <unicode hex="0259"/>
-  <anchor x="300.0" y="-128.0" name="center"/>
   <outline>
-    <component base="e" xScale="-1.0" yScale="-1.0" xOffset="870" yOffset="907"/>
+    <component base="e" xScale="-1" yScale="-1" xOffset="870" yOffset="907"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,0.502</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

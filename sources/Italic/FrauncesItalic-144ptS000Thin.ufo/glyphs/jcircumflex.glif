@@ -2,18 +2,14 @@
 <glyph name="jcircumflex" format="2">
   <advance width="335"/>
   <unicode hex="0135"/>
-  <anchor x="285" y="980" name="center_1"/>
-  <anchor x="298.51212092121654" y="1064.1379667338047" name="center_2"/>
   <outline>
     <component base="dotlessj"/>
-    <component base="circumflexcmb" xScale="0.7480177803913662" xyScale="-0.057179019039973765" yxScale="0.07641653490999425" yScale="0.999683586537435" xOffset="-25.0" yOffset="21.0"/>
+    <component base="circumflexcmb" xScale="0.75" xyScale="-0.057182882816738535" yxScale="0.08715574274765817" yScale="0.9961946980917455" xOffset="-25" yOffset="21"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="Ncaron" format="2">
   <advance width="1578"/>
   <unicode hex="0147"/>
-  <anchor x="766" y="1572" name="center"/>
   <outline>
     <component base="N"/>
     <component base="caron.cap" xOffset="487.5" yOffset="446"/>
@@ -10,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

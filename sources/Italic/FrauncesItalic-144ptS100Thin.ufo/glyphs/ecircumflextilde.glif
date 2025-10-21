@@ -2,17 +2,8 @@
 <glyph name="ecircumflextilde" format="2">
   <advance width="686"/>
   <unicode hex="1EC5"/>
-  <anchor x="471" y="1035" name="center"/>
   <outline>
     <component base="e"/>
     <component base="circumflextilde" xOffset="182" yOffset="12"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

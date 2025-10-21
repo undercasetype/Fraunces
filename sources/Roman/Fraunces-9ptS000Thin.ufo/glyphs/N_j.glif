@@ -2,7 +2,6 @@
 <glyph name="Nj" format="2">
   <advance width="2108"/>
   <unicode hex="01CB"/>
-  <anchor x="766" y="1572" name="center"/>
   <outline>
     <component base="N"/>
     <component base="j" xOffset="1568"/>
@@ -10,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.800,1,0.400,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

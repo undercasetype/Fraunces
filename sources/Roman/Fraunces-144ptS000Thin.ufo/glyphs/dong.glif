@@ -5,30 +5,20 @@
   <outline>
     <contour>
       <point x="106" y="-175" type="curve" smooth="yes"/>
-      <point x="106" y="-178"/>
+      <point x="106.0" y="-178.0"/>
       <point x="108" y="-180"/>
       <point x="111" y="-180" type="curve" smooth="yes"/>
       <point x="866" y="-180" type="line" smooth="yes"/>
-      <point x="869" y="-180"/>
-      <point x="871" y="-178"/>
+      <point x="869.0" y="-180.0"/>
+      <point x="871.0" y="-178.0"/>
       <point x="871" y="-175" type="curve" smooth="yes"/>
-      <point x="871" y="-172"/>
-      <point x="869" y="-170"/>
+      <point x="871.0" y="-172.0"/>
+      <point x="869.0" y="-170.0"/>
       <point x="866" y="-170" type="curve" smooth="yes"/>
       <point x="111" y="-170" type="line" smooth="yes"/>
       <point x="108" y="-170"/>
-      <point x="106" y="-172"/>
+      <point x="106.0" y="-172.0"/>
     </contour>
     <component base="dcroat"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>PC</string>
-      <key>public.markColor</key>
-      <string>0.980,0.463,0.549,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

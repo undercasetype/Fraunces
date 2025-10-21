@@ -2,7 +2,6 @@
 <glyph name="Wdieresis" format="2">
   <advance width="1976"/>
   <unicode hex="1E84"/>
-  <anchor x="1103" y="1524" name="center"/>
   <outline>
     <component base="W"/>
     <component base="dieresis.cap" xOffset="680" yOffset="494"/>
@@ -10,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

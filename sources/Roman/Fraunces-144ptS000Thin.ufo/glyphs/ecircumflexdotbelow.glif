@@ -2,7 +2,6 @@
 <glyph name="ecircumflexdotbelow" format="2">
   <advance width="751"/>
   <unicode hex="1EC7"/>
-  <anchor x="408" y="976" name="center"/>
   <outline>
     <component base="e"/>
     <component base="circumflexcmb" xOffset="159"/>
@@ -11,9 +10,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,18 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="wdieresis.alt" format="2">
   <advance width="1335"/>
-  <anchor x="780" y="1013" name="center_1"/>
-  <anchor x="792" y="949" name="center_2"/>
   <outline>
     <component base="w.alt"/>
     <component base="dieresiscmb" xOffset="472"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.353,0.667,0.804,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="Udieresiscaron" format="2">
   <advance width="1461"/>
   <unicode hex="01D9"/>
-  <anchor x="741" y="1460" name="center"/>
   <outline>
     <component base="U"/>
     <component base="dieresis.cap" xOffset="451" yOffset="446"/>
@@ -11,9 +10,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

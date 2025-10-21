@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="IJacute" format="2">
   <advance width="2128"/>
-  <unicode hex="E133"/>
   <outline>
     <contour>
       <point x="694" y="314" type="curve" smooth="yes"/>
@@ -180,12 +179,4 @@
       <point x="2128" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.800,1,0.400,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

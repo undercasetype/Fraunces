@@ -2,8 +2,6 @@
 <glyph name="lcaron" format="2">
   <advance width="550"/>
   <unicode hex="013E"/>
-  <anchor x="289" y="1545" name="center"/>
-  <anchor x="534" y="704" name="right"/>
   <outline>
     <component base="l"/>
     <component base="turnedcommaabovecmb" xOffset="406"/>
@@ -11,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

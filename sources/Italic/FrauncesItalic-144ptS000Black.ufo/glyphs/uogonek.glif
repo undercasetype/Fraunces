@@ -2,7 +2,6 @@
 <glyph name="uogonek" format="2">
   <advance width="1157"/>
   <unicode hex="0173"/>
-  <anchor x="702" y="1016" name="center"/>
   <outline>
     <contour>
       <point x="936" y="53" type="line"/>
@@ -33,14 +32,4 @@
     </contour>
     <component base="u"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>PC</string>
-      <key>public.markColor</key>
-      <string>1,1,0,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

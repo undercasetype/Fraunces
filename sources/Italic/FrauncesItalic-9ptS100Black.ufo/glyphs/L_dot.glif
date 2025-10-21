@@ -2,19 +2,14 @@
 <glyph name="Ldot" format="2">
   <advance width="1277"/>
   <unicode hex="013F"/>
-  <anchor x="319" y="1502" name="center_1"/>
-  <anchor x="1189.385" y="558.0" name="center_2"/>
-  <anchor x="978.926" y="1236.0" name="right"/>
   <outline>
     <component base="L"/>
-    <component base="dotaccent.cap" xOffset="886.334" yOffset="-400"/>
+    <component base="dotaccent.cap" xOffset="886.3342584743141" yOffset="-400"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

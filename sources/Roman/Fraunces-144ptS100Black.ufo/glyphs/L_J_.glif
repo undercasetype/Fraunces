@@ -2,9 +2,6 @@
 <glyph name="LJ" format="2">
   <advance width="2300"/>
   <unicode hex="01C7"/>
-  <anchor x="416" y="1479" name="center_1"/>
-  <anchor x="1867" y="1466" name="center_2"/>
-  <anchor x="813" y="1236" name="right"/>
   <outline>
     <component base="L"/>
     <component base="J" xOffset="1210"/>
@@ -12,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.800,1,0.400,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

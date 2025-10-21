@@ -1,17 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="grave" format="2">
   <advance width="559"/>
-  <unicode hex="0060"/>
-  <anchor x="447" y="982" name="center"/>
+  <anchor x="447.0" y="982" name="center"/>
   <outline>
     <component base="gravecmb"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.392,0.804,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.3922,0.8039,1,1</string>
     </dict>
   </lib>
 </glyph>

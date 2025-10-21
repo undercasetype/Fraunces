@@ -43,7 +43,7 @@
       <point x="547" y="1185"/>
       <point x="581" y="1185" type="curve" smooth="yes"/>
       <point x="666" y="1185"/>
-      <point x="732" y="1015"/>
+      <point x="732.0" y="1015.0"/>
       <point x="863" y="1015" type="curve" smooth="yes"/>
       <point x="965" y="1015"/>
       <point x="1037" y="1094"/>
@@ -105,7 +105,7 @@
       <point x="1372" y="1185"/>
       <point x="1406" y="1185" type="curve" smooth="yes"/>
       <point x="1491" y="1185"/>
-      <point x="1557" y="1015"/>
+      <point x="1557.0" y="1015.0"/>
       <point x="1688" y="1015" type="curve" smooth="yes"/>
       <point x="1790" y="1015"/>
       <point x="1862" y="1094"/>
@@ -152,20 +152,20 @@
       <point x="2126" y="330"/>
       <point x="2160" y="418" type="curve" smooth="yes"/>
       <point x="2259" y="676" type="line" smooth="yes"/>
-      <point x="2319.722" y="834.244"/>
-      <point x="2177" y="955"/>
+      <point x="2319.721608858056" y="834.2441927816003"/>
+      <point x="2177.0" y="955.0"/>
       <point x="2177" y="1048" type="curve" smooth="yes"/>
       <point x="2177" y="1093"/>
       <point x="2204" y="1124"/>
       <point x="2250" y="1124" type="curve" smooth="yes"/>
-      <point x="2315" y="1124"/>
-      <point x="2388" y="1076"/>
+      <point x="2315.0" y="1124.0"/>
+      <point x="2388.0" y="1076.0"/>
       <point x="2466" y="1076" type="curve" smooth="yes"/>
       <point x="2568" y="1076"/>
       <point x="2633" y="1137"/>
       <point x="2633" y="1255" type="curve" smooth="yes"/>
-      <point x="2633" y="1352"/>
-      <point x="2558.152" y="1440"/>
+      <point x="2633.0" y="1352.0"/>
+      <point x="2558.151898734177" y="1440.0"/>
     </contour>
     <contour>
       <point x="1650" y="-490" type="line"/>
@@ -180,12 +180,4 @@
       <point x="2382" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.800,1,0.400,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nmacronbelow.alt" format="2">
   <advance width="898"/>
-  <anchor x="479" y="944" name="center"/>
   <outline>
     <component base="n.alt"/>
     <component base="macronbelowcmb" xOffset="222"/>
@@ -9,9 +8,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.353,0.667,0.804,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.3529,0.6667,0.8039,1</string>
     </dict>
   </lib>
 </glyph>

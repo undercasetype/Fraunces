@@ -2,7 +2,7 @@
 <glyph name="Uhorn" format="2">
   <advance width="1274"/>
   <unicode hex="01AF"/>
-  <anchor x="659" y="1458" name="center"/>
+  <anchor x="659" y="1458.0" name="center"/>
   <outline>
     <contour>
       <point x="1072" y="576" type="line" smooth="yes"/>
@@ -84,12 +84,4 @@
       <point x="1035" y="1330" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.980,0.463,0.549,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

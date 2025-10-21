@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gravecmb" format="2">
+  <advance width="459"/>
   <unicode hex="0300"/>
-  <anchor x="301" y="830" name="center"/>
+  <anchor x="301.0" y="830" name="center"/>
   <outline>
     <contour>
       <point x="358" y="1236" type="line" smooth="yes"/>
@@ -25,12 +26,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>459</integer>
       <key>public.markColor</key>
-      <string>0.843,0.863,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.9811,0.4634,0.5508,1</string>
     </dict>
   </lib>
 </glyph>

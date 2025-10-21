@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guarani" format="2">
   <advance width="1069"/>
-  <unicode hex="20B2"/>
   <outline>
     <contour>
       <point x="745" y="-17"/>
@@ -46,12 +45,4 @@
       <point x="535" y="-17" type="curve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,1,0.502</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

@@ -2,17 +2,14 @@
 <glyph name="ntilde" format="2">
   <advance width="1162"/>
   <unicode hex="00F1"/>
-  <anchor x="719" y="946" name="center"/>
   <outline>
     <component base="n"/>
-    <component base="tildecmb" xOffset="354.621"/>
+    <component base="tildecmb" xOffset="354.62118650309276"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

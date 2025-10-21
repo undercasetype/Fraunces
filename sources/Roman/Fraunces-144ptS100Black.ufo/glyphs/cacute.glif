@@ -2,8 +2,6 @@
 <glyph name="cacute" format="2">
   <advance width="930"/>
   <unicode hex="0107"/>
-  <anchor x="499" y="976" name="center_1"/>
-  <anchor x="499" y="877" name="center_2"/>
   <outline>
     <component base="c"/>
     <component base="acutecmb" xOffset="376"/>
@@ -11,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

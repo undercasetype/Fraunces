@@ -3,9 +3,9 @@
 <plist version="1.0">
   <dict>
     <key>ascender</key>
-    <integer>1555</integer>
+    <real>1555.9202457729</real>
     <key>capHeight</key>
-    <integer>1400</integer>
+    <real>1400.0</real>
     <key>copyright</key>
     <string>Copyright 2020 The Fraunces Project Authors (github.com/undercasetype/Fraunces)</string>
     <key>descender</key>
@@ -15,26 +15,38 @@
     <key>guidelines</key>
     <array>
       <dict>
+        <key>angle</key>
+        <integer>0</integer>
         <key>identifier</key>
         <string>2ZqKGQBLdz</string>
         <key>name</key>
         <string>ascender</string>
+        <key>x</key>
+        <integer>0</integer>
         <key>y</key>
         <integer>1452</integer>
       </dict>
       <dict>
+        <key>angle</key>
+        <integer>0</integer>
         <key>identifier</key>
         <string>1FtCn5FjZy</string>
         <key>name</key>
         <string>overshoot</string>
+        <key>x</key>
+        <integer>0</integer>
         <key>y</key>
         <integer>-20</integer>
       </dict>
       <dict>
+        <key>angle</key>
+        <integer>0</integer>
         <key>identifier</key>
         <string>We62D2rhLW</string>
         <key>name</key>
         <string>overshoot</string>
+        <key>x</key>
+        <integer>0</integer>
         <key>y</key>
         <integer>-490</integer>
       </dict>
@@ -49,18 +61,26 @@
         <integer>940</integer>
       </dict>
       <dict>
+        <key>angle</key>
+        <integer>0</integer>
         <key>identifier</key>
         <string>r1OeWNhax3</string>
         <key>name</key>
         <string>overshoot</string>
+        <key>x</key>
+        <integer>0</integer>
         <key>y</key>
         <integer>1428</integer>
       </dict>
       <dict>
+        <key>angle</key>
+        <integer>0</integer>
         <key>identifier</key>
         <string>Jq5dRtNJBU</string>
         <key>name</key>
         <string>cap overshoot</string>
+        <key>x</key>
+        <integer>0</integer>
         <key>y</key>
         <integer>-34</integer>
       </dict>
@@ -113,10 +133,6 @@
         <integer>240</integer>
       </dict>
     </array>
-    <key>italicAngle</key>
-    <integer>0</integer>
-    <key>openTypeHeadCreated</key>
-    <string>2024/07/09 09:47:22</string>
     <key>openTypeHheaAscender</key>
     <integer>1956</integer>
     <key>openTypeHheaDescender</key>
@@ -145,18 +161,22 @@
     <integer>2340</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>609</integer>
-    <key>openTypeVheaVertTypoAscender</key>
-    <integer>1000</integer>
-    <key>openTypeVheaVertTypoDescender</key>
-    <integer>-1000</integer>
-    <key>openTypeVheaVertTypoLineGap</key>
-    <integer>2000</integer>
+    <key>postscriptBlueValues</key>
+    <array/>
+    <key>postscriptFamilyBlues</key>
+    <array/>
+    <key>postscriptFamilyOtherBlues</key>
+    <array/>
+    <key>postscriptOtherBlues</key>
+    <array/>
+    <key>postscriptStemSnapH</key>
+    <array/>
+    <key>postscriptStemSnapV</key>
+    <array/>
     <key>postscriptUnderlinePosition</key>
     <integer>-300</integer>
     <key>postscriptUnderlineThickness</key>
     <integer>50</integer>
-    <key>styleMapStyleName</key>
-    <string>regular</string>
     <key>styleName</key>
     <string>9pt Thin</string>
     <key>unitsPerEm</key>
