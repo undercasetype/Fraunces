@@ -2,14 +2,18 @@
 <glyph name="Emacron" format="2">
   <advance width="1373"/>
   <unicode hex="0112"/>
+  <anchor x="906" y="1468" name="center_1"/>
+  <anchor x="906.0" y="1455.0" name="center_2"/>
   <outline>
     <component base="E"/>
-    <component base="macron.cap" xOffset="473.3196850393433" yOffset="460"/>
+    <component base="macron.cap" xOffset="473.32" yOffset="460"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

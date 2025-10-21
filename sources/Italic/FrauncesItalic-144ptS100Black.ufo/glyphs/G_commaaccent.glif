@@ -2,14 +2,17 @@
 <glyph name="Gcommaaccent" format="2">
   <advance width="1414"/>
   <unicode hex="0122"/>
+  <anchor x="967" y="1566" name="center"/>
   <outline>
     <component base="G"/>
-    <component base="commaaccentbelowcmb" xOffset="608.8346194727663"/>
+    <component base="commaaccentbelowcmb" xOffset="608.835"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

@@ -2,6 +2,8 @@
 <glyph name="Eogonek" format="2">
   <advance width="1050"/>
   <unicode hex="0118"/>
+  <anchor x="840" y="1468" name="center"/>
+  <anchor x="817" y="-235" name="right"/>
   <outline>
     <component base="E"/>
     <component base="ogonek" xOffset="651"/>
@@ -9,7 +11,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.3922,0.8039,1,1</string>
+      <string>0.392,0.804,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

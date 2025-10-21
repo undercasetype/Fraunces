@@ -60,23 +60,23 @@
       <point x="582" y="-490" type="line"/>
     </contour>
     <contour>
-      <point x="549.273907950822" y="1633.0" type="line" smooth="yes"/>
-      <point x="523.2497160531766" y="1669.0"/>
-      <point x="505.9842601185697" y="1692.0"/>
-      <point x="478.73762010435377" y="1687.0" type="curve" smooth="yes"/>
-      <point x="455.7403080929811" y="1683.0"/>
-      <point x="442.2524040418038" y="1665.0"/>
-      <point x="441.01382799346976" y="1648.0" type="curve" smooth="yes"/>
-      <point x="439.78062792239024" y="1623.0"/>
-      <point x="460.54205187405614" y="1606.0"/>
-      <point x="489.30616381434936" y="1585.0" type="curve" smooth="yes"/>
-      <point x="644.6307554987563" y="1474.0" type="line" smooth="yes"/>
-      <point x="647.13209949307" y="1472.0"/>
-      <point x="651.6334434873836" y="1470.0"/>
-      <point x="654.3814274959132" y="1473.0" type="curve" smooth="yes"/>
-      <point x="657.1294115044427" y="1476.0"/>
-      <point x="656.1267235158155" y="1480.0"/>
-      <point x="653.874707524345" y="1483.0" type="curve" smooth="yes"/>
+      <point x="549.274" y="1633" type="line" smooth="yes"/>
+      <point x="523.25" y="1669"/>
+      <point x="505.984" y="1692"/>
+      <point x="478.738" y="1687" type="curve" smooth="yes"/>
+      <point x="455.74" y="1683"/>
+      <point x="442.252" y="1665"/>
+      <point x="441.014" y="1648" type="curve" smooth="yes"/>
+      <point x="439.781" y="1623"/>
+      <point x="460.542" y="1606"/>
+      <point x="489.306" y="1585" type="curve" smooth="yes"/>
+      <point x="644.631" y="1474" type="line" smooth="yes"/>
+      <point x="647.132" y="1472"/>
+      <point x="651.633" y="1470"/>
+      <point x="654.381" y="1473" type="curve" smooth="yes"/>
+      <point x="657.129" y="1476"/>
+      <point x="656.127" y="1480"/>
+      <point x="653.875" y="1483" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="346" y="5" type="line"/>
@@ -91,4 +91,12 @@
       <point x="582" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

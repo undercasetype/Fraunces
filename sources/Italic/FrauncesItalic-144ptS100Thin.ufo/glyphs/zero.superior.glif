@@ -5,37 +5,39 @@
   <outline>
     <contour>
       <point x="630" y="1409" type="curve" smooth="yes"/>
-      <point x="466.95072463768116" y="1409.0"/>
-      <point x="337.981122820969" y="1284.9278225507637"/>
+      <point x="466.951" y="1409"/>
+      <point x="337.981" y="1284.928"/>
       <point x="287" y="1090" type="curve" smooth="yes"/>
-      <point x="222.05778408006637" y="845.2178015325578"/>
-      <point x="275.1632653061224" y="716.0"/>
+      <point x="222.058" y="845.218"/>
+      <point x="275.163" y="716"/>
       <point x="432" y="716" type="curve" smooth="yes"/>
-      <point x="567.7731343283582" y="716.0"/>
-      <point x="707.034572320572" y="831.1279782393106"/>
+      <point x="567.773" y="716"/>
+      <point x="707.035" y="831.128"/>
       <point x="764" y="1042" type="curve" smooth="yes"/>
-      <point x="826.9077139102144" y="1275.6572230950824"/>
-      <point x="765.956204379562" y="1409.0"/>
+      <point x="826.908" y="1275.657"/>
+      <point x="765.956" y="1409"/>
     </contour>
     <contour>
       <point x="711" y="1057" type="curve" smooth="yes"/>
-      <point x="650.9401764647724" y="830.7746646839763"/>
-      <point x="542.5037593984962" y="760.0"/>
+      <point x="650.94" y="830.775"/>
+      <point x="542.504" y="760"/>
       <point x="441" y="760" type="curve" smooth="yes"/>
-      <point x="330.5833333333333" y="760.0"/>
-      <point x="279.8364325473098" y="845.3698630920951"/>
+      <point x="330.583" y="760"/>
+      <point x="279.836" y="845.37"/>
       <point x="341" y="1081" type="curve" smooth="yes"/>
-      <point x="392.0515137575261" y="1271.1919139986267"/>
-      <point x="489.6511627906977" y="1366.0"/>
+      <point x="392.052" y="1271.192"/>
+      <point x="489.651" y="1366"/>
       <point x="613" y="1366" type="curve" smooth="yes"/>
-      <point x="719.4807692307692" y="1366.0"/>
-      <point x="769.1581573596735" y="1281.610814630463"/>
+      <point x="719.481" y="1366"/>
+      <point x="769.158" y="1281.611"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,0.5</string>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

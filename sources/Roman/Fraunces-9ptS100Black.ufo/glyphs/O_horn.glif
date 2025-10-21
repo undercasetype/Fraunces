@@ -4,9 +4,7 @@
   <unicode hex="01A0"/>
   <outline>
     <contour>
-      <point x="1392" y="1181"/>
-      <point x="1637" y="1343.0"/>
-      <point x="1637" y="1595.0" type="curve" smooth="yes"/>
+      <point x="1637" y="1595" type="curve" smooth="yes"/>
       <point x="1637" y="1719"/>
       <point x="1584" y="1790"/>
       <point x="1472" y="1790" type="curve" smooth="yes"/>
@@ -19,11 +17,23 @@
       <point x="1018" y="1415" type="curve" smooth="yes"/>
       <point x="952" y="1428"/>
       <point x="912" y="1392"/>
-      <point x="912" y="1343.0" type="curve" smooth="yes"/>
+      <point x="912" y="1343" type="curve" smooth="yes"/>
       <point x="912" y="1307"/>
       <point x="944" y="1292"/>
       <point x="1005" y="1277" type="curve" smooth="yes"/>
+      <point x="1392" y="1181"/>
+      <point x="1637" y="1343"/>
     </contour>
     <component base="O"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.markColor</key>
+      <string>0.980,0.463,0.549,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

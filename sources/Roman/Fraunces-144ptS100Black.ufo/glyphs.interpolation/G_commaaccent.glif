@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gcommaaccent" format="2">
   <advance width="1449"/>
+  <unicode hex="0122"/>
   <outline>
     <contour>
       <point x="664" y="-331" type="curve" smooth="yes"/>
@@ -30,10 +31,10 @@
       <point x="583" y="-331"/>
     </contour>
     <contour>
-      <point x="510.0" y="-465.8" type="line"/>
-      <point x="510.0" y="1374.2" type="line"/>
-      <point x="897.0" y="1374.2" type="line"/>
-      <point x="897.0" y="-465.8" type="line"/>
+      <point x="510" y="-465.8" type="line"/>
+      <point x="510" y="1374.2" type="line"/>
+      <point x="897" y="1374.2" type="line"/>
+      <point x="897" y="-465.8" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-450.8" type="line"/>
@@ -42,4 +43,12 @@
       <point x="1449" y="-450.8" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -1,8 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hcircumflex.alt" format="2">
   <advance width="1069"/>
+  <anchor x="437" y="980" name="center_1"/>
+  <anchor x="771" y="1566" name="center_2"/>
   <outline>
     <component base="h.alt"/>
     <component base="circumflex.cap" xOffset="474" yOffset="504"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.353,0.667,0.804,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

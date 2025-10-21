@@ -1,14 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dmacronbelow.alt" format="2">
   <advance width="1074"/>
+  <anchor x="454" y="1022" name="center"/>
   <outline>
     <component base="d.alt"/>
-    <component base="macronbelowcmb" xOffset="261.7646657059813" yOffset="-64"/>
+    <component base="macronbelowcmb" xOffset="261.765" yOffset="-64"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.353,0.667,0.804,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

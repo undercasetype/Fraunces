@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eth" format="2">
   <advance width="1050"/>
+  <unicode hex="00F0"/>
   <outline>
     <contour>
       <point x="588" y="926" type="curve" smooth="yes"/>
@@ -18,17 +19,25 @@
     </contour>
     <contour>
       <point x="406" y="17" type="curve" smooth="yes"/>
-      <point x="369.0" y="17.0"/>
-      <point x="345.0" y="37.0"/>
+      <point x="369" y="17"/>
+      <point x="345" y="37"/>
       <point x="346" y="123" type="curve" smooth="yes"/>
       <point x="351" y="385"/>
       <point x="495" y="889"/>
       <point x="601" y="889" type="curve" smooth="yes"/>
-      <point x="637.0" y="889.0"/>
-      <point x="662.0" y="869.0"/>
+      <point x="637" y="889"/>
+      <point x="662" y="869"/>
       <point x="661" y="783" type="curve" smooth="yes"/>
       <point x="656" y="521"/>
       <point x="510" y="17"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

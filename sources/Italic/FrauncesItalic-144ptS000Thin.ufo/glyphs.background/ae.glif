@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ae" format="2">
   <advance width="1168"/>
+  <unicode hex="00E6"/>
   <outline>
     <contour>
       <point x="622" y="428" type="curve"/>
@@ -83,4 +84,12 @@
       <point x="65" y="98"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

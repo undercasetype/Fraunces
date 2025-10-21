@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dcroat" format="2">
   <advance width="1275"/>
+  <unicode hex="0111"/>
   <outline>
     <contour>
       <point x="1347" y="1301" type="line" smooth="yes"/>
@@ -76,4 +77,12 @@
       <point x="637" y="1172"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

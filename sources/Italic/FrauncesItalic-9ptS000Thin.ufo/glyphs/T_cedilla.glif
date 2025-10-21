@@ -2,8 +2,17 @@
 <glyph name="Tcedilla" format="2">
   <advance width="1072"/>
   <unicode hex="0162"/>
+  <anchor x="376" y="1516" name="center"/>
   <outline>
     <component base="T"/>
     <component base="cedillacmb" xOffset="93"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

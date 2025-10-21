@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nmacronbelow" format="2">
   <advance width="1333"/>
+  <unicode hex="1E49"/>
   <outline>
     <contour>
       <point x="77" y="628" type="curve" smooth="yes"/>
@@ -78,26 +79,26 @@
       <point x="1333" y="-490" type="line"/>
     </contour>
     <contour>
-      <point x="195.79795510439234" y="-264.0" type="curve" smooth="yes"/>
-      <point x="175.433816479627" y="-340.0"/>
-      <point x="205.17995039751986" y="-382.0"/>
-      <point x="270.17995039751986" y="-382.0" type="curve" smooth="yes"/>
-      <point x="806.1799503975199" y="-382.0" type="line" smooth="yes"/>
-      <point x="871.1799503975199" y="-382.0"/>
-      <point x="923.1658672871959" y="-341.0"/>
-      <point x="944.0659042968234" y="-263.0" type="curve" smooth="yes"/>
-      <point x="964.6979921140199" y="-186.0"/>
-      <point x="934.9518581961271" y="-144.0"/>
-      <point x="869.9518581961271" y="-144.0" type="curve" smooth="yes"/>
-      <point x="333.9518581961271" y="-144.0" type="line" smooth="yes"/>
-      <point x="268.9518581961271" y="-144.0"/>
-      <point x="216.96594130645104" y="-185.0"/>
+      <point x="195.798" y="-264" type="curve" smooth="yes"/>
+      <point x="175.434" y="-340"/>
+      <point x="205.18" y="-382"/>
+      <point x="270.18" y="-382" type="curve" smooth="yes"/>
+      <point x="806.18" y="-382" type="line" smooth="yes"/>
+      <point x="871.18" y="-382"/>
+      <point x="923.166" y="-341"/>
+      <point x="944.066" y="-263" type="curve" smooth="yes"/>
+      <point x="964.698" y="-186"/>
+      <point x="934.952" y="-144"/>
+      <point x="869.952" y="-144" type="curve" smooth="yes"/>
+      <point x="333.952" y="-144" type="line" smooth="yes"/>
+      <point x="268.952" y="-144"/>
+      <point x="216.966" y="-185"/>
     </contour>
     <contour>
-      <point x="114.17995039751986" y="-500" type="line"/>
-      <point x="114.17995039751986" y="1500" type="line"/>
-      <point x="962.1799503975199" y="1500" type="line"/>
-      <point x="962.1799503975199" y="-500" type="line"/>
+      <point x="114.18" y="-500" type="line"/>
+      <point x="114.18" y="1500" type="line"/>
+      <point x="962.18" y="1500" type="line"/>
+      <point x="962.18" y="-500" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-490" type="line"/>
@@ -106,4 +107,12 @@
       <point x="1333" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

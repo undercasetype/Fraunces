@@ -2,8 +2,16 @@
 <glyph name="fl.alt" format="2">
   <advance width="815"/>
   <anchor x="412" y="0" name="caret_1"/>
+  <anchor x="502" y="1593" name="center"/>
+  <anchor x="837" y="1098" name="right"/>
   <outline>
     <component base="f"/>
     <component base="l.alt" xOffset="412"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

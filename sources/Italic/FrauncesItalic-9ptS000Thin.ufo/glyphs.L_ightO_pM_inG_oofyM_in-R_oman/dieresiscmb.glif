@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresiscmb" format="2">
-  <advance width="566"/>
   <unicode hex="0308"/>
   <outline>
     <contour>
@@ -33,9 +32,19 @@
     </contour>
     <contour>
       <point x="0" y="-466" type="line"/>
-      <point x="0" y="1555.9202457729" type="line"/>
-      <point x="566" y="1555.9202457729" type="line"/>
+      <point x="0" y="1555.92" type="line"/>
+      <point x="566" y="1555.92" type="line"/>
       <point x="566" y="-466" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>566</integer>
+      <key>public.markColor</key>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

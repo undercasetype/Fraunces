@@ -1,8 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hdotbelow.alt" format="2">
   <advance width="828"/>
+  <anchor x="318" y="980" name="center"/>
   <outline>
     <component base="h.alt"/>
-    <component base="dotbelowcmb" xOffset="301.28440027423267"/>
+    <component base="dotbelowcmb" xOffset="301.284"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.353,0.667,0.804,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

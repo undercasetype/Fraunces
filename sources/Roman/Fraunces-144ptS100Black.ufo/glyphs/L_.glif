@@ -2,8 +2,8 @@
 <glyph name="L" format="2">
   <advance width="1210"/>
   <unicode hex="004C"/>
-  <anchor x="813" y="1236" name="right"/>
   <anchor x="416" y="1479" name="center"/>
+  <anchor x="813" y="1236" name="right"/>
   <outline>
     <contour>
       <point x="699" y="1197" type="line" smooth="yes"/>
@@ -66,7 +66,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

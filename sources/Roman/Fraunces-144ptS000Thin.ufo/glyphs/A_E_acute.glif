@@ -2,6 +2,8 @@
 <glyph name="AEacute" format="2">
   <advance width="1638"/>
   <unicode hex="01FC"/>
+  <anchor x="1093" y="1592" name="center_1"/>
+  <anchor x="1093" y="1392" name="center_2"/>
   <outline>
     <component base="AE"/>
     <component base="acute.cap" xOffset="1023" yOffset="480"/>
@@ -9,7 +11,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

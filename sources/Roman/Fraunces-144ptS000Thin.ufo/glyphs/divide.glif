@@ -3,8 +3,16 @@
   <advance width="910"/>
   <unicode hex="00F7"/>
   <outline>
-    <component base="period" xScale="0.8464500000000001" yScale="0.8464500000000001" xOffset="355.54212499999994" yOffset="1005"/>
+    <component base="period" xScale="0.8465" yScale="0.8465" xOffset="355.542" yOffset="1005.0"/>
     <component base="minus"/>
-    <component base="period" xScale="0.8464500000000001" yScale="0.8464500000000001" xOffset="356" yOffset="312"/>
+    <component base="period" xScale="0.8465" yScale="0.8465" xOffset="356" yOffset="312"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.992,0.553,0.616,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

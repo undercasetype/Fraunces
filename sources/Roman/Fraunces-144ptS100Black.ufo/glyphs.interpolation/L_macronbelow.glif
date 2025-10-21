@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lmacronbelow" format="2">
   <advance width="1239"/>
+  <unicode hex="1E3A"/>
   <outline>
     <contour>
       <point x="694" y="1197" type="line" smooth="yes"/>
@@ -60,10 +61,10 @@
       <point x="664" y="1180" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="-15.0" y="-450.8" type="line"/>
-      <point x="-15.0" y="1389.2" type="line"/>
-      <point x="1224.0" y="1389.2" type="line"/>
-      <point x="1224.0" y="-450.8" type="line"/>
+      <point x="-15" y="-450.8" type="line"/>
+      <point x="-15" y="1389.2" type="line"/>
+      <point x="1224" y="1389.2" type="line"/>
+      <point x="1224" y="-450.8" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-450.8" type="line"/>
@@ -72,4 +73,12 @@
       <point x="1239" y="-450.8" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

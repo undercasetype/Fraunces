@@ -2,9 +2,19 @@
 <glyph name="omacronacute" format="2">
   <advance width="759"/>
   <unicode hex="1E53"/>
+  <anchor x="526" y="1000" name="center_1"/>
+  <anchor x="496" y="1054" name="center_2"/>
   <outline>
     <component base="o"/>
     <component base="macroncmb" xOffset="194"/>
     <component base="acute.cap" xOffset="405" yOffset="142"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

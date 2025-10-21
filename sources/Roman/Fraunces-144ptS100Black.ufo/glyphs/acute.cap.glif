@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acute.cap" format="2">
   <advance width="496"/>
-  <anchor x="126.0" y="895" name="center"/>
+  <anchor x="126" y="895" name="center"/>
   <outline>
     <contour>
       <point x="126" y="1233" type="curve" smooth="yes"/>
@@ -26,7 +26,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.9811,0.4634,0.5508,1</string>
+      <string>1,0.667,0.255,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

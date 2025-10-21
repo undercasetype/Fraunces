@@ -19,18 +19,22 @@
       <point x="764" y="909"/>
       <point x="727" y="891"/>
       <point x="720" y="851" type="curve" smooth="yes"/>
-      <point x="711.4898731717421" y="802.7759479732055"/>
-      <point x="739.7552447552448" y="756.0"/>
+      <point x="711.49" y="802.776"/>
+      <point x="739.755" y="756"/>
       <point x="833" y="756" type="curve" smooth="yes"/>
-      <point x="1020.8710601719198" y="756.0"/>
-      <point x="1175.5326292002212" y="843.1593075684648"/>
+      <point x="1020.871" y="756"/>
+      <point x="1175.533" y="843.159"/>
     </contour>
     <component base="o" xOffset="-10"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
       <key>public.markColor</key>
-      <string>0,0,1,1</string>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

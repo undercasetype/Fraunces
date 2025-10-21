@@ -2,6 +2,8 @@
 <glyph name="Utildeacute" format="2">
   <advance width="1249"/>
   <unicode hex="1E78"/>
+  <anchor x="659" y="1458" name="center_1"/>
+  <anchor x="659" y="1633" name="center_2"/>
   <outline>
     <component base="U"/>
     <component base="tilde.cap" xOffset="393.5" yOffset="480"/>
@@ -10,7 +12,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

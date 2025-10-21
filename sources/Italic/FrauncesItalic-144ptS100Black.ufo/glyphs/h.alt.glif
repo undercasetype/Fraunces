@@ -66,15 +66,17 @@
       <point x="196" y="1388"/>
       <point x="316" y="1470"/>
       <point x="463" y="1470" type="curve" smooth="yes"/>
-      <point x="643.6470588235294" y="1470.0"/>
-      <point x="681.0684527055383" y="1341.9123943275736"/>
+      <point x="643.647" y="1470"/>
+      <point x="681.068" y="1341.912"/>
       <point x="629" y="1155" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

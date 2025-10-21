@@ -2,6 +2,7 @@
 <glyph name="Tbar" format="2">
   <advance width="1358"/>
   <unicode hex="0166"/>
+  <anchor x="532" y="1516" name="center"/>
   <outline>
     <contour>
       <point x="340" y="673" type="curve" smooth="yes"/>
@@ -21,4 +22,14 @@
     </contour>
     <component base="T"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.markColor</key>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

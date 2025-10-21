@@ -2,14 +2,17 @@
 <glyph name="scircumflex" format="2">
   <advance width="862"/>
   <unicode hex="015D"/>
+  <anchor x="402" y="1019" name="center"/>
   <outline>
     <component base="s"/>
-    <component base="circumflexcmb" xOffset="47.74686626478797"/>
+    <component base="circumflexcmb" xOffset="47.747"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

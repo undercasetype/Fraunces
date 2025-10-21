@@ -1,8 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kcommaaccent.alt" format="2">
   <advance width="1003"/>
+  <anchor x="400" y="980" name="center"/>
   <outline>
     <component base="k.alt"/>
     <component base="commaaccentbelowcmb" xOffset="222"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.353,0.667,0.804,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

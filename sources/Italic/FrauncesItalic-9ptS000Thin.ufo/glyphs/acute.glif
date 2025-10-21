@@ -2,14 +2,16 @@
 <glyph name="acute" format="2">
   <advance width="376"/>
   <unicode hex="00B4"/>
-  <anchor x="41.65271966527196" y="968" name="center"/>
+  <anchor x="41.653" y="968" name="center"/>
   <outline>
-    <component base="acutecmb" xOffset="-267.9067972854"/>
+    <component base="acutecmb" xOffset="-267.907"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.392,0.804,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

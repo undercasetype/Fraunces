@@ -2,6 +2,8 @@
 <glyph name="Ecircumflexacute" format="2">
   <advance width="1365"/>
   <unicode hex="1EBE"/>
+  <anchor x="906" y="1468" name="center_1"/>
+  <anchor x="923" y="1541" name="center_2"/>
   <outline>
     <component base="E"/>
     <component base="circumflexacute.cap" xOffset="468" yOffset="479"/>
@@ -9,7 +11,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

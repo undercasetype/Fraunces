@@ -2,20 +2,128 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>color</key>
-    <string>0.0001,0.0018,0.9982,1</string>
     <key>lib</key>
     <dict>
+      <key>com.schriftgestaltung.layerId</key>
+      <string>7F1F2C7B-5D3F-4D2C-A9D4-1D8F3CB7A8C0</string>
+      <key>com.schriftgestaltung.layerOrderInGlyph.A</key>
+      <integer>20</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.C</key>
+      <integer>16</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.E</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.G</key>
+      <integer>19</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.H</key>
+      <integer>19</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.K</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.L</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.O</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.Oogonek</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.Oslash</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.Q</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.R</key>
+      <integer>16</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.W</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.X</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.Y</key>
+      <integer>15</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.Z</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.acute</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.acute.cap</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.b</key>
+      <integer>19</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.braceleft</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.breve</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.brevetilde</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.circumflex</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.circumflexhook.cap</key>
+      <integer>16</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.circumflextilde</key>
+      <integer>16</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.circumflextilde.cap</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.comma</key>
+      <integer>16</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.d</key>
+      <integer>20</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.endash</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.eogonek</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.g</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.guilsinglleft</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.hookcmb</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.hungarumlaut</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.i</key>
+      <integer>19</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.k</key>
+      <integer>19</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.l</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.m</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.n</key>
+      <integer>19</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.n.alt</key>
+      <integer>20</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.o</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ogonek</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ohorn</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.oogonek</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.p</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.q</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.question</key>
+      <integer>16</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ring</key>
+      <integer>17</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.s.alt</key>
+      <integer>19</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.tilde</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.v</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.x</key>
+      <integer>18</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.y</key>
+      <integer>20</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.z</key>
+      <integer>17</integer>
       <key>com.typemytype.robofont.layerShow</key>
-      <true/>
+      <integer>1</integer>
       <key>com.typemytype.robofont.layerShowCoordinates</key>
-      <false/>
+      <integer>0</integer>
       <key>com.typemytype.robofont.layerShowFill</key>
-      <false/>
+      <integer>0</integer>
       <key>com.typemytype.robofont.layerShowPoints</key>
-      <true/>
+      <integer>1</integer>
       <key>com.typemytype.robofont.layerShowStroke</key>
-      <true/>
+      <integer>1</integer>
     </dict>
   </dict>
 </plist>

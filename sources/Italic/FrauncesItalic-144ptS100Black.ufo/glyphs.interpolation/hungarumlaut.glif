@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hungarumlaut" format="2">
   <advance width="733"/>
+  <unicode hex="02DD"/>
   <outline>
     <contour>
       <point x="70" y="1213" type="curve" smooth="yes"/>
@@ -41,10 +42,10 @@
       <point x="441" y="1326"/>
     </contour>
     <contour>
-      <point x="0.0" y="-450.8" type="line"/>
-      <point x="0.0" y="1389.2" type="line"/>
-      <point x="733.0" y="1389.2" type="line"/>
-      <point x="733.0" y="-450.8" type="line"/>
+      <point x="0" y="-450.8" type="line"/>
+      <point x="0" y="1389.2" type="line"/>
+      <point x="733" y="1389.2" type="line"/>
+      <point x="733" y="-450.8" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-450.8" type="line"/>
@@ -53,4 +54,12 @@
       <point x="733" y="-450.8" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.392,0.804,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

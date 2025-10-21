@@ -4,12 +4,14 @@
   <unicode hex="0060"/>
   <anchor x="273" y="912" name="center"/>
   <outline>
-    <component base="gravecmb" xOffset="1.03041075879"/>
+    <component base="gravecmb" xOffset="1.03"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.392,0.804,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

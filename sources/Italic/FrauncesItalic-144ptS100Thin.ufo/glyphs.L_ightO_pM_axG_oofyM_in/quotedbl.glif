@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedbl" format="2">
   <advance width="353"/>
+  <unicode hex="0022"/>
   <outline>
     <contour>
       <point x="289" y="1366" type="curve" smooth="yes"/>
@@ -75,4 +76,12 @@
       <point x="353" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

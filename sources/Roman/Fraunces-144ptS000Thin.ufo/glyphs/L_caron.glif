@@ -2,14 +2,18 @@
 <glyph name="Lcaron" format="2">
   <advance width="988"/>
   <unicode hex="013D"/>
+  <anchor x="545" y="1478" name="center"/>
+  <anchor x="861" y="1476" name="right"/>
   <outline>
     <component base="L"/>
-    <component base="turnedcommaabovecmb" xOffset="461.1111111111111" yOffset="-30"/>
+    <component base="turnedcommaabovecmb" xOffset="461.111" yOffset="-30"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

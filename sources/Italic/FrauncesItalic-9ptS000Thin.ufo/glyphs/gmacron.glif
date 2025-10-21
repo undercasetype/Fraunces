@@ -2,8 +2,18 @@
 <glyph name="gmacron" format="2">
   <advance width="943"/>
   <unicode hex="1E21"/>
+  <anchor x="664" y="1010" name="center_1"/>
+  <anchor x="660" y="995" name="center_2"/>
   <outline>
     <component base="g"/>
     <component base="macroncmb" xOffset="343"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

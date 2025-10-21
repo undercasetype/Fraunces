@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cedilla" format="2">
   <advance width="381"/>
+  <unicode hex="00B8"/>
   <outline>
     <contour>
       <point x="538" y="30" type="curve" smooth="yes"/>
@@ -62,4 +63,12 @@
       <point x="459" y="-165" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.392,0.804,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -2,8 +2,17 @@
 <glyph name="rcommaaccent" format="2">
   <advance width="818"/>
   <unicode hex="0157"/>
+  <anchor x="564" y="945" name="center"/>
   <outline>
     <component base="r"/>
     <component base="commaaccentbelowcmb" xOffset="-29"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

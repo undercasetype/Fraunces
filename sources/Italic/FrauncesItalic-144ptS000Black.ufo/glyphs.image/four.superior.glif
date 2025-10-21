@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.superior" format="2">
   <advance width="1241"/>
+  <unicode hex="2074"/>
   <outline>
     <contour>
       <point x="291" y="1360" type="line" smooth="yes"/>
@@ -48,4 +49,12 @@
       <point x="351" y="1360" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -2,8 +2,15 @@
 <glyph name="lj.alt" format="2">
   <advance width="1103"/>
   <anchor x="563" y="0" name="caret_1"/>
+  <anchor x="532" y="1098" name="right"/>
   <outline>
     <component base="l.alt"/>
     <component base="j" xOffset="549"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -2,8 +2,18 @@
 <glyph name="Ldot" format="2">
   <advance width="1022"/>
   <unicode hex="013F"/>
+  <anchor x="960" y="606" name="center"/>
+  <anchor x="898" y="1236" name="right"/>
   <outline>
     <component base="L"/>
     <component base="dotaccent.cap" xOffset="828" yOffset="-352"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

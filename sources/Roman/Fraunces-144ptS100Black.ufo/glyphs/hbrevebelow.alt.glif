@@ -1,14 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hbrevebelow.alt" format="2">
   <advance width="1142"/>
+  <anchor x="574" y="1052" name="center"/>
   <outline>
     <component base="h.alt"/>
-    <component base="belowbrevecmb" xOffset="263.88513774459716"/>
+    <component base="belowbrevecmb" xOffset="263.885"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.353,0.667,0.804,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

@@ -2,6 +2,9 @@
 <glyph name="Emacrongrave" format="2">
   <advance width="1365"/>
   <unicode hex="1E14"/>
+  <anchor x="906" y="1468" name="center_1"/>
+  <anchor x="943.6800000000001" y="1474.0" name="center_2"/>
+  <anchor x="926.381" y="1802.0" name="center_3"/>
   <outline>
     <component base="E"/>
     <component base="macron.cap" xOffset="511" yOffset="479"/>
@@ -10,7 +13,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

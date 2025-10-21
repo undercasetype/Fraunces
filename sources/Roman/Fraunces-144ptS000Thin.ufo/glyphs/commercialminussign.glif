@@ -29,7 +29,17 @@
       <point x="95" y="12"/>
       <point x="413" y="683"/>
     </contour>
-    <component base="period" xScale="0.8910000000000001" yScale="0.8910000000000001" xOffset="490" yOffset="37"/>
-    <component base="period" xScale="0.8910000000000001" yScale="0.8910000000000001" xOffset="129" yOffset="1273"/>
+    <component base="period" xScale="0.891" yScale="0.891" xOffset="490" yOffset="37"/>
+    <component base="period" xScale="0.891" yScale="0.891" xOffset="129" yOffset="1273"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PCC</string>
+      <key>public.markColor</key>
+      <string>0.980,0.463,0.549,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcmb" format="2">
-  <advance width="438"/>
+  <unicode hex="0302"/>
   <anchor x="324" y="1062" name="center"/>
   <outline>
     <contour>
@@ -31,8 +31,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>438</integer>
       <key>public.markColor</key>
-      <string>0.8431,0.8627,1,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

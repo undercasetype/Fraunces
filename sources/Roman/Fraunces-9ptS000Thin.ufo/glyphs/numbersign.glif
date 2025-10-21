@@ -30,56 +30,56 @@
       <point x="452" y="547"/>
     </contour>
     <contour>
-      <point x="672.0" y="948.0" type="curve"/>
-      <point x="567.0" y="948.0"/>
-      <point x="319.0" y="958.0"/>
-      <point x="190.0" y="958.0" type="curve"/>
-      <point x="160.0" y="958.0"/>
-      <point x="138.0" y="946"/>
-      <point x="138.0" y="925.0" type="curve" smooth="yes"/>
-      <point x="138.0" y="904"/>
-      <point x="160.0" y="892.0"/>
-      <point x="190.0" y="892.0" type="curve"/>
-      <point x="299" y="892.0"/>
-      <point x="559" y="904.0"/>
-      <point x="672.0" y="904.0" type="curve"/>
-      <point x="785.0" y="904.0"/>
-      <point x="1045.0" y="892.0"/>
-      <point x="1154.0" y="892.0" type="curve"/>
-      <point x="1184.0" y="892.0"/>
-      <point x="1206.0" y="904"/>
-      <point x="1206.0" y="925.0" type="curve" smooth="yes"/>
-      <point x="1206.0" y="946"/>
-      <point x="1184.0" y="958.0"/>
-      <point x="1154.0" y="958.0" type="curve"/>
-      <point x="1025.0" y="958.0"/>
-      <point x="778.0" y="948.0"/>
+      <point x="672" y="948" type="curve"/>
+      <point x="567" y="948"/>
+      <point x="319" y="958"/>
+      <point x="190" y="958" type="curve"/>
+      <point x="160" y="958"/>
+      <point x="138" y="946"/>
+      <point x="138" y="925" type="curve" smooth="yes"/>
+      <point x="138" y="904"/>
+      <point x="160" y="892"/>
+      <point x="190" y="892" type="curve"/>
+      <point x="299" y="892"/>
+      <point x="559" y="904"/>
+      <point x="672" y="904" type="curve"/>
+      <point x="785" y="904"/>
+      <point x="1045" y="892"/>
+      <point x="1154" y="892" type="curve"/>
+      <point x="1184" y="892"/>
+      <point x="1206" y="904"/>
+      <point x="1206" y="925" type="curve" smooth="yes"/>
+      <point x="1206" y="946"/>
+      <point x="1184" y="958"/>
+      <point x="1154" y="958" type="curve"/>
+      <point x="1025" y="958"/>
+      <point x="778" y="948"/>
     </contour>
     <contour>
-      <point x="584.0" y="470.0" type="curve"/>
-      <point x="697.0" y="470.0"/>
-      <point x="957.0" y="458.0"/>
-      <point x="1066.0" y="458.0" type="curve"/>
-      <point x="1096.0" y="458.0"/>
-      <point x="1118.0" y="470"/>
-      <point x="1118.0" y="491.0" type="curve" smooth="yes"/>
-      <point x="1118.0" y="512"/>
-      <point x="1096.0" y="524.0"/>
-      <point x="1066.0" y="524.0" type="curve"/>
-      <point x="937.0" y="524.0"/>
-      <point x="690.0" y="514.0"/>
-      <point x="584.0" y="514.0" type="curve"/>
-      <point x="479.0" y="514.0"/>
-      <point x="231.0" y="524.0"/>
-      <point x="102.0" y="524.0" type="curve"/>
-      <point x="72.0" y="524.0"/>
-      <point x="50.0" y="512"/>
-      <point x="50.0" y="491.0" type="curve" smooth="yes"/>
-      <point x="50.0" y="470"/>
-      <point x="72.0" y="458.0"/>
-      <point x="102.0" y="458.0" type="curve"/>
-      <point x="211" y="458.0"/>
-      <point x="471" y="470.0"/>
+      <point x="584" y="470" type="curve"/>
+      <point x="697" y="470"/>
+      <point x="957" y="458"/>
+      <point x="1066" y="458" type="curve"/>
+      <point x="1096" y="458"/>
+      <point x="1118" y="470"/>
+      <point x="1118" y="491" type="curve" smooth="yes"/>
+      <point x="1118" y="512"/>
+      <point x="1096" y="524"/>
+      <point x="1066" y="524" type="curve"/>
+      <point x="937" y="524"/>
+      <point x="690" y="514"/>
+      <point x="584" y="514" type="curve"/>
+      <point x="479" y="514"/>
+      <point x="231" y="524"/>
+      <point x="102" y="524" type="curve"/>
+      <point x="72" y="524"/>
+      <point x="50" y="512"/>
+      <point x="50" y="491" type="curve" smooth="yes"/>
+      <point x="50" y="470"/>
+      <point x="72" y="458"/>
+      <point x="102" y="458" type="curve"/>
+      <point x="211" y="458"/>
+      <point x="471" y="470"/>
     </contour>
     <contour>
       <point x="641" y="37" type="curve"/>
@@ -111,7 +111,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,0.5</string>
+      <string>0.992,0.553,0.616,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

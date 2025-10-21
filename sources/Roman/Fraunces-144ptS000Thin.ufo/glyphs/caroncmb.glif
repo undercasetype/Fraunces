@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="caroncmb" format="2">
-  <advance width="498"/>
   <unicode hex="030C"/>
   <outline>
     <contour>
-      <point x="250" y="1004" type="line"/>
-      <point x="248" y="1004" type="line"/>
+      <point x="262" y="993" type="line"/>
+      <point x="236" y="993" type="line"/>
       <point x="435" y="1179" type="line" smooth="yes"/>
       <point x="440" y="1183"/>
       <point x="444" y="1186"/>
@@ -31,8 +30,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>498</integer>
       <key>public.markColor</key>
-      <string>0.8431,0.8627,1,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

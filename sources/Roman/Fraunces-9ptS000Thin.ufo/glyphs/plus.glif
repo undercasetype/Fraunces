@@ -4,12 +4,14 @@
   <unicode hex="002B"/>
   <outline>
     <component base="minus"/>
-    <component base="minus" xScale="0" xyScale="1" yxScale="-1.01" yScale="0" xOffset="1227.15" yOffset="162"/>
+    <component base="minus" xScale="0" xyScale="1" yxScale="-1.01" yScale="0.0" xOffset="1227.15" yOffset="162.0"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.992,0.553,0.616,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

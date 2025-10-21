@@ -3,12 +3,14 @@
   <advance width="802"/>
   <unicode hex="00BF"/>
   <outline>
-    <component base="question" xScale="-1" yScale="-1" xOffset="847" yOffset="1156"/>
+    <component base="question" xScale="-1.0" yScale="-1.0" xOffset="847" yOffset="1156"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,0.5</string>
+      <string>0.980,0.463,0.549,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

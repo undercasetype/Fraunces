@@ -2,29 +2,34 @@
 <glyph name="Eth" format="2">
   <advance width="1305"/>
   <unicode hex="00D0"/>
+  <anchor x="665" y="1575" name="center"/>
   <outline>
     <contour>
       <point x="88" y="700" type="curve" smooth="yes"/>
-      <point x="88.0" y="685.4285714285714"/>
-      <point x="95.0" y="676"/>
+      <point x="88" y="685.429"/>
+      <point x="95" y="676"/>
       <point x="112" y="676" type="curve" smooth="yes"/>
       <point x="692" y="676" type="line" smooth="yes"/>
-      <point x="710.0" y="676"/>
-      <point x="717.0" y="685.4285714285714"/>
+      <point x="710" y="676"/>
+      <point x="717" y="685.429"/>
       <point x="717" y="700" type="curve" smooth="yes"/>
-      <point x="717.0" y="715.1111111111111"/>
-      <point x="710.0" y="724"/>
+      <point x="717" y="715.111"/>
+      <point x="710" y="724"/>
       <point x="692" y="724" type="curve" smooth="yes"/>
       <point x="112" y="724" type="line" smooth="yes"/>
-      <point x="95.0" y="724"/>
-      <point x="88.0" y="715.1111111111111"/>
+      <point x="95" y="724"/>
+      <point x="88" y="715.111"/>
     </contour>
     <component base="D"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
       <key>public.markColor</key>
-      <string>0.9811,0.4634,0.5508,1</string>
+      <string>0.980,0.463,0.549,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

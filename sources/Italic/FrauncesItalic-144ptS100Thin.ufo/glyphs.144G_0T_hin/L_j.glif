@@ -93,7 +93,7 @@
       <point x="855" y="-291"/>
       <point x="845" y="-340" type="curve" smooth="yes"/>
       <point x="831" y="-408"/>
-      <point x="791.0" y="-441.0"/>
+      <point x="791" y="-441"/>
       <point x="751" y="-441" type="curve" smooth="yes"/>
       <point x="716" y="-441"/>
       <point x="682" y="-417"/>
@@ -135,4 +135,12 @@
       <point x="1209" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.800,1,0.400,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

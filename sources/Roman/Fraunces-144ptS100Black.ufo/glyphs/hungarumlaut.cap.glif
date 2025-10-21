@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hungarumlaut.cap" format="2">
   <advance width="808"/>
-  <anchor x="285.0" y="941" name="center"/>
+  <anchor x="285" y="941" name="center"/>
   <outline>
     <contour>
       <point x="90" y="1222" type="curve" smooth="yes"/>
@@ -45,7 +45,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.9811,0.4634,0.5508,1</string>
+      <string>1,0.667,0.255,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

@@ -2,12 +2,12 @@
 <glyph name="R" format="2">
   <advance width="1508"/>
   <unicode hex="0052"/>
-  <anchor x="738.0" y="1476.0" name="center"/>
+  <anchor x="738" y="1476" name="center"/>
   <outline>
     <contour>
       <point x="1367" y="908" type="curve" smooth="yes"/>
-      <point x="1367.0" y="1191.508910891089"/>
-      <point x="1130.0" y="1400"/>
+      <point x="1367" y="1191.509"/>
+      <point x="1130" y="1400"/>
       <point x="682" y="1400" type="curve" smooth="yes"/>
       <point x="157" y="1400" type="line" smooth="yes"/>
       <point x="87" y="1400"/>
@@ -44,11 +44,11 @@
       <point x="621" y="306" type="curve" smooth="yes"/>
       <point x="621" y="1206" type="line"/>
       <point x="657" y="1206" type="line" smooth="yes"/>
-      <point x="820.0" y="1206"/>
-      <point x="930.0" y="1082.4625407166125"/>
+      <point x="820" y="1206"/>
+      <point x="930" y="1082.463"/>
       <point x="930" y="912" type="curve" smooth="yes"/>
-      <point x="930.0" y="763.4953271028037"/>
-      <point x="846.0" y="685.0"/>
+      <point x="930" y="763.495"/>
+      <point x="846" y="685"/>
       <point x="690" y="685" type="curve" smooth="yes"/>
       <point x="620" y="685"/>
       <point x="568" y="692"/>
@@ -57,11 +57,11 @@
       <point x="569" y="517"/>
       <point x="663" y="489"/>
       <point x="764" y="489" type="curve" smooth="yes"/>
-      <point x="925.0" y="489.0"/>
-      <point x="956.0724798252494" y="519.1861328622333"/>
+      <point x="925" y="489"/>
+      <point x="956.072" y="519.186"/>
       <point x="1076" y="540" type="curve" smooth="yes"/>
-      <point x="1251.238882273559" y="573.0450463715854"/>
-      <point x="1367.0" y="730.7380281690141"/>
+      <point x="1251.239" y="573.045"/>
+      <point x="1367" y="730.738"/>
     </contour>
     <contour>
       <point x="758" y="587" type="line"/>
@@ -92,7 +92,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

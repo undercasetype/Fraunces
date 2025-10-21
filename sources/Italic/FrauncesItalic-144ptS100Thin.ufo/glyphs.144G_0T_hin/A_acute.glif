@@ -82,23 +82,23 @@
       <point x="996" y="-490" type="line"/>
     </contour>
     <contour>
-      <point x="1054.273907950822" y="1633.0" type="curve" smooth="yes"/>
-      <point x="874.874707524345" y="1483.0" type="line" smooth="yes"/>
-      <point x="871.1267235158155" y="1480.0"/>
-      <point x="868.1294115044427" y="1476.0"/>
-      <point x="869.3814274959132" y="1473.0" type="curve" smooth="yes"/>
-      <point x="870.6334434873836" y="1470.0"/>
-      <point x="876.13209949307" y="1472.0"/>
-      <point x="879.6307554987563" y="1474.0" type="curve" smooth="yes"/>
-      <point x="1090.3061638143492" y="1585.0" type="line" smooth="yes"/>
-      <point x="1129.5420518740561" y="1606.0"/>
-      <point x="1158.7806279223903" y="1623.0"/>
-      <point x="1170.0138279934697" y="1648.0" type="curve" smooth="yes"/>
-      <point x="1177.2524040418039" y="1665.0"/>
-      <point x="1172.740308092981" y="1683.0"/>
-      <point x="1151.7376201043537" y="1687.0" type="curve" smooth="yes"/>
-      <point x="1126.9842601185696" y="1692.0"/>
-      <point x="1098.2497160531766" y="1669.0"/>
+      <point x="1054.274" y="1633" type="curve" smooth="yes"/>
+      <point x="874.875" y="1483" type="line" smooth="yes"/>
+      <point x="871.127" y="1480"/>
+      <point x="868.129" y="1476"/>
+      <point x="869.381" y="1473" type="curve" smooth="yes"/>
+      <point x="870.633" y="1470"/>
+      <point x="876.132" y="1472"/>
+      <point x="879.631" y="1474" type="curve" smooth="yes"/>
+      <point x="1090.306" y="1585" type="line" smooth="yes"/>
+      <point x="1129.542" y="1606"/>
+      <point x="1158.781" y="1623"/>
+      <point x="1170.014" y="1648" type="curve" smooth="yes"/>
+      <point x="1177.252" y="1665"/>
+      <point x="1172.74" y="1683"/>
+      <point x="1151.738" y="1687" type="curve" smooth="yes"/>
+      <point x="1126.984" y="1692"/>
+      <point x="1098.25" y="1669"/>
     </contour>
     <contour>
       <point x="818" y="5" type="line"/>
@@ -113,4 +113,12 @@
       <point x="996" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

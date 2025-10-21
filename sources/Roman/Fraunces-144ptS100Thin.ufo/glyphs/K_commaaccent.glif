@@ -2,6 +2,7 @@
 <glyph name="Kcommaaccent" format="2">
   <advance width="1190"/>
   <unicode hex="0136"/>
+  <anchor x="636" y="1460" name="center"/>
   <outline>
     <component base="K"/>
     <component base="commaaccentbelowcmb" xOffset="518"/>
@@ -9,7 +10,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

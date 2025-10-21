@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ijacute" format="2">
   <advance width="1369"/>
+  <unicode hex="E132"/>
   <outline>
     <contour>
       <point x="569" y="928" type="line" smooth="yes"/>
@@ -82,10 +83,10 @@
       <point x="690" y="-490" type="line"/>
     </contour>
     <contour>
-      <point x="677.8285495625801" y="-490" type="line"/>
-      <point x="677.8285495625801" y="1510" type="line"/>
-      <point x="1367.82854956258" y="1510" type="line"/>
-      <point x="1367.82854956258" y="-490" type="line"/>
+      <point x="677.829" y="-490" type="line"/>
+      <point x="677.829" y="1510" type="line"/>
+      <point x="1367.829" y="1510" type="line"/>
+      <point x="1367.829" y="-490" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-490" type="line"/>
@@ -94,4 +95,12 @@
       <point x="1369" y="-490" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.800,1,0.400,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

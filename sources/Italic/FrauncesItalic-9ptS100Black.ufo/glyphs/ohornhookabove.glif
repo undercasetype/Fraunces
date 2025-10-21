@@ -2,14 +2,18 @@
 <glyph name="ohornhookabove" format="2">
   <advance width="1247"/>
   <unicode hex="1EDF"/>
+  <anchor x="761" y="1000" name="center_1"/>
+  <anchor x="751.0" y="957.0" name="center_2"/>
   <outline>
     <component base="ohorn"/>
-    <component base="hookcmb" xOffset="387.0499139414751"/>
+    <component base="hookcmb" xOffset="387.05"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

@@ -6,8 +6,8 @@
     <contour>
       <point x="1013" y="143" type="curve" smooth="yes"/>
       <point x="285" y="1249" type="line" smooth="yes"/>
-      <point x="250.24044262503412" y="1301.8077890888906"/>
-      <point x="261.2527854968781" y="1336.7815981871097"/>
+      <point x="250.24" y="1301.808"/>
+      <point x="261.253" y="1336.782"/>
       <point x="319" y="1344" type="curve" smooth="yes"/>
       <point x="399" y="1354" type="line" smooth="yes"/>
       <point x="421" y="1357"/>
@@ -23,15 +23,15 @@
       <point x="34" y="1369"/>
       <point x="40" y="1362"/>
       <point x="85" y="1353" type="curve" smooth="yes"/>
-      <point x="157.61619038934873" y="1340.1853781665855"/>
+      <point x="157.616" y="1340.185"/>
       <point x="177" y="1317"/>
       <point x="238" y="1224" type="curve" smooth="yes"/>
       <point x="969" y="109" type="line" smooth="yes"/>
       <point x="995" y="69"/>
-      <point x="987.0" y="60.0"/>
+      <point x="987" y="60"/>
       <point x="894" y="51" type="curve" smooth="yes"/>
       <point x="828" y="45"/>
-      <point x="816.0" y="35.0625"/>
+      <point x="816" y="35.062"/>
       <point x="816" y="21" type="curve" smooth="yes"/>
       <point x="816" y="7"/>
       <point x="825" y="0"/>
@@ -43,14 +43,14 @@
       <point x="1207" y="38"/>
       <point x="1193" y="44"/>
       <point x="1167" y="47" type="curve" smooth="yes"/>
-      <point x="1083.0569059350407" y="56.12424935488689"/>
-      <point x="1062.301939779439" y="68.098976104314"/>
+      <point x="1083.057" y="56.124"/>
+      <point x="1062.302" y="68.099"/>
     </contour>
     <contour>
       <point x="624" y="698" type="line"/>
       <point x="970" y="1208" type="line" smooth="yes"/>
-      <point x="1038.510269553124" y="1308.9833452950672"/>
-      <point x="1056.624674449878" y="1336.9374457416463"/>
+      <point x="1038.51" y="1308.983"/>
+      <point x="1056.625" y="1336.937"/>
       <point x="1111" y="1346" type="curve" smooth="yes"/>
       <point x="1173" y="1356"/>
       <point x="1184" y="1364"/>
@@ -74,8 +74,8 @@
     <contour>
       <point x="590" y="742" type="line"/>
       <point x="182" y="130" type="line" smooth="yes"/>
-      <point x="149.45800090400832" y="81.18700135601249"/>
-      <point x="108.34306696525707" y="58.531162431443214"/>
+      <point x="149.458" y="81.187"/>
+      <point x="108.343" y="58.531"/>
       <point x="73" y="54" type="curve" smooth="yes"/>
       <point x="29" y="48"/>
       <point x="20" y="34"/>
@@ -91,8 +91,8 @@
       <point x="402" y="44"/>
       <point x="379" y="46" type="curve" smooth="yes"/>
       <point x="310" y="53" type="line" smooth="yes"/>
-      <point x="205.8325468038414" y="63.567712643088555"/>
-      <point x="200.24219873655755" y="77.47225766586357"/>
+      <point x="205.833" y="63.568"/>
+      <point x="200.242" y="77.472"/>
       <point x="237" y="133" type="curve" smooth="yes"/>
       <point x="613" y="701" type="line"/>
     </contour>
@@ -100,7 +100,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.991,0.5545,0.6171,1</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

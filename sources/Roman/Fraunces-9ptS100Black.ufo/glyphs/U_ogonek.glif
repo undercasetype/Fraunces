@@ -2,14 +2,15 @@
 <glyph name="Uogonek" format="2">
   <advance width="1591"/>
   <unicode hex="0172"/>
+  <anchor x="900" y="1460" name="center"/>
   <outline>
     <contour>
       <point x="1067" y="80" type="line"/>
-      <point x="758.7393488565742" y="-5.0719329454259565"/>
-      <point x="635.0" y="-108.37142857142857"/>
+      <point x="758.739" y="-5.072"/>
+      <point x="635" y="-108.371"/>
       <point x="635" y="-267" type="curve" smooth="yes"/>
-      <point x="635.0" y="-396.8373205741627"/>
-      <point x="725.0" y="-479.0"/>
+      <point x="635" y="-396.837"/>
+      <point x="725" y="-479"/>
       <point x="896" y="-479" type="curve" smooth="yes"/>
       <point x="1041" y="-479"/>
       <point x="1147" y="-410"/>
@@ -23,19 +24,23 @@
       <point x="1063" y="-269"/>
       <point x="1042" y="-280"/>
       <point x="1014" y="-280" type="curve" smooth="yes"/>
-      <point x="974.0" y="-280.0"/>
-      <point x="946.0" y="-253.0"/>
+      <point x="974" y="-280"/>
+      <point x="946" y="-253"/>
       <point x="946" y="-199" type="curve" smooth="yes"/>
-      <point x="946.0" y="-121.13397129186603"/>
-      <point x="993.414648587217" y="-58.34906276909071"/>
+      <point x="946" y="-121.134"/>
+      <point x="993.415" y="-58.349"/>
       <point x="1103" y="7" type="curve"/>
     </contour>
     <component base="U"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
       <key>public.markColor</key>
-      <string>0.3922,0.8039,1,1</string>
+      <string>0.392,0.804,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="T" format="2">
   <advance width="942"/>
   <unicode hex="0054"/>
-  <anchor x="377.0" y="1516" name="center"/>
+  <anchor x="377" y="1516" name="center"/>
   <outline>
     <contour>
       <point x="484" y="1415" type="curve" smooth="yes"/>
@@ -76,7 +76,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,0.5</string>
+      <string>0.843,0.863,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

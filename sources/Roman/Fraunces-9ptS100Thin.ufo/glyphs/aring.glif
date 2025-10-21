@@ -2,14 +2,17 @@
 <glyph name="aring" format="2">
   <advance width="1013"/>
   <unicode hex="00E5"/>
+  <anchor x="503" y="1032" name="center"/>
   <outline>
     <component base="a"/>
-    <component base="ringcmb" xOffset="286.5"/>
+    <component base="ringcomb" xOffset="286.5"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

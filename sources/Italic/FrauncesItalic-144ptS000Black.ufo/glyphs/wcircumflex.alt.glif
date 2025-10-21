@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="wcircumflex.alt" format="2">
   <advance width="1491"/>
+  <anchor x="938" y="1013" name="center_1"/>
+  <anchor x="938" y="1062" name="center_2"/>
   <outline>
     <component base="w.alt"/>
     <component base="circumflexcmb" xOffset="518"/>
@@ -8,7 +10,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.3529,0.6667,0.8039,1</string>
+      <string>0.353,0.667,0.804,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

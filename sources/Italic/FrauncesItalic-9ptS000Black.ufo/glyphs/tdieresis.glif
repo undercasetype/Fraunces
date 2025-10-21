@@ -2,6 +2,8 @@
 <glyph name="tdieresis" format="2">
   <advance width="868"/>
   <unicode hex="1E97"/>
+  <anchor x="275" y="1130" name="center_1"/>
+  <anchor x="642.484" y="1114.0" name="center_2"/>
   <outline>
     <component base="t"/>
     <component base="dieresiscmb" xOffset="97" yOffset="165"/>
@@ -9,7 +11,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

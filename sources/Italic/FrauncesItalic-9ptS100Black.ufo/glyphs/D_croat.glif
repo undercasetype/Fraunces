@@ -2,7 +2,16 @@
 <glyph name="Dcroat" format="2">
   <advance width="1610"/>
   <unicode hex="0110"/>
+  <anchor x="1063" y="1485" name="center"/>
   <outline>
     <component base="Eth"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

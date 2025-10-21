@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="peso" format="2">
   <advance width="1611"/>
+  <unicode hex="20B1"/>
   <outline>
     <contour>
       <point x="1527" y="884" type="curve" smooth="yes"/>
@@ -105,4 +106,12 @@
       <point x="137" y="812"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

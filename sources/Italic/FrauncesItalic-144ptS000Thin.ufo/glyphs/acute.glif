@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acute" format="2">
   <advance width="357"/>
+  <unicode hex="00B4"/>
   <anchor x="308" y="968" name="center"/>
   <outline>
     <component base="acutecmb" xOffset="39"/>
@@ -8,7 +9,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.3922,0.8039,1,1</string>
+      <string>0.392,0.804,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

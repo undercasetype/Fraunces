@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotesinglbase" format="2">
   <advance width="231"/>
+  <unicode hex="201A"/>
   <outline>
     <contour>
       <point x="67" y="0" type="curve" smooth="yes"/>
@@ -30,4 +31,12 @@
       <point x="32" y="0"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>1,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

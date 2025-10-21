@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scedilla.alt" format="2">
   <advance width="1065"/>
+  <anchor x="535" y="1115" name="center"/>
   <outline>
     <contour>
       <point x="483" y="14" type="line"/>
@@ -43,8 +44,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.353,0.667,0.804,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

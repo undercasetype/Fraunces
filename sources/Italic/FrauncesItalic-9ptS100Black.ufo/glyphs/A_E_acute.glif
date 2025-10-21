@@ -2,14 +2,18 @@
 <glyph name="AEacute" format="2">
   <advance width="2102"/>
   <unicode hex="01FC"/>
+  <anchor x="1520" y="1582" name="center_1"/>
+  <anchor x="1519.212" y="1451.0" name="center_2"/>
   <outline>
     <component base="AE"/>
-    <component base="acute.cap" xOffset="1408.7683438156237" yOffset="460"/>
+    <component base="acute.cap" xOffset="1408.768" yOffset="460"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

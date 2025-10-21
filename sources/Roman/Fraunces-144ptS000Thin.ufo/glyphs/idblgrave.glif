@@ -2,14 +2,17 @@
 <glyph name="idblgrave" format="2">
   <advance width="369"/>
   <unicode hex="0209"/>
+  <anchor x="186.879" y="938.0" name="center"/>
   <outline>
     <component base="dotlessi"/>
-    <component base="gravedoublecmb" xScale="0.7290000000000001" xOffset="-69"/>
+    <component base="gravedoublecmb" xScale="0.729" xOffset="-69"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.4,0.8,0.9989,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

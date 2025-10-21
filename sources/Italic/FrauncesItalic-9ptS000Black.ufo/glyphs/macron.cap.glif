@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macron.cap" format="2">
   <advance width="802"/>
-  <anchor x="432.68031496062997" y="995" name="center"/>
+  <anchor x="432.68" y="995" name="center"/>
   <outline>
     <contour>
       <point x="81" y="1177" type="curve" smooth="yes"/>
@@ -23,7 +23,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0,0,1</string>
+      <string>1,0.667,0.255,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

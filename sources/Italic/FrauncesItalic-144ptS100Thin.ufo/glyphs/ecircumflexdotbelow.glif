@@ -2,9 +2,18 @@
 <glyph name="ecircumflexdotbelow" format="2">
   <advance width="686"/>
   <unicode hex="1EC7"/>
+  <anchor x="471" y="1035" name="center"/>
   <outline>
     <component base="e"/>
-    <component base="circumflexcmb" xOffset="179.68332458974328"/>
-    <component base="dotbelowcmb" xOffset="254.28440027427632"/>
+    <component base="circumflexcmb" xOffset="179.683"/>
+    <component base="dotbelowcmb" xOffset="254.284"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
+    </dict>
+  </lib>
 </glyph>

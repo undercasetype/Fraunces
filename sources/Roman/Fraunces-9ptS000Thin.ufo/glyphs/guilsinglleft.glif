@@ -5,7 +5,7 @@
   <outline>
     <contour>
       <point x="108" y="463" type="curve" smooth="yes"/>
-      <point x="108.0" y="445.0"/>
+      <point x="108" y="445"/>
       <point x="114" y="437"/>
       <point x="162" y="401" type="curve" smooth="yes"/>
       <point x="294" y="301"/>
@@ -40,7 +40,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0,1,0.5</string>
+      <string>0.992,0.553,0.616,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

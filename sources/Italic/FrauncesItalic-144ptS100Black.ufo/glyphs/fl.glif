@@ -3,6 +3,7 @@
   <advance width="1283"/>
   <unicode hex="FB02"/>
   <anchor x="706" y="0" name="caret_1"/>
+  <anchor x="881" y="1593" name="center"/>
   <outline>
     <component base="f"/>
     <component base="l" xOffset="706"/>
@@ -10,7 +11,9 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.800,1,0.400,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

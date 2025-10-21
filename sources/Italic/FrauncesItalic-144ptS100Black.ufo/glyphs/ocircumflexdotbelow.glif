@@ -2,15 +2,19 @@
 <glyph name="ocircumflexdotbelow" format="2">
   <advance width="1051"/>
   <unicode hex="1ED9"/>
+  <anchor x="631" y="1016" name="center_1"/>
+  <anchor x="631" y="916" name="center_2"/>
   <outline>
     <component base="o"/>
     <component base="circumflexcmb" xOffset="119"/>
-    <component base="dotbelowcmb" xOffset="295.28229487918907"/>
+    <component base="dotbelowcmb" xOffset="295.282"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,1,0,1</string>
+      <string>0.400,0.800,1,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>

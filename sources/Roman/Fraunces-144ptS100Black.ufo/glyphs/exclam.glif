@@ -5,8 +5,8 @@
   <outline>
     <contour>
       <point x="306" y="1465" type="curve" smooth="yes"/>
-      <point x="136" y="1465.0"/>
-      <point x="59.0" y="1389.0"/>
+      <point x="136" y="1465"/>
+      <point x="59" y="1389"/>
       <point x="59" y="1260" type="curve" smooth="yes"/>
       <point x="59" y="1227"/>
       <point x="66" y="1177"/>
@@ -22,15 +22,19 @@
       <point x="546" y="1177"/>
       <point x="553" y="1227"/>
       <point x="553" y="1260" type="curve" smooth="yes"/>
-      <point x="553.0" y="1389.0"/>
-      <point x="475" y="1465.0"/>
+      <point x="553" y="1389"/>
+      <point x="475" y="1465"/>
     </contour>
     <component base="period" xOffset="14"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
       <key>public.markColor</key>
-      <string>0.9811,0.4634,0.5508,1</string>
+      <string>0.992,0.553,0.616,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1956</integer>
     </dict>
   </lib>
 </glyph>
