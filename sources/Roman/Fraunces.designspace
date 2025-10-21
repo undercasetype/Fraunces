@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.1">
+<designspace format="5.0">
   <axes>
     <axis tag="opsz" name="Optical Size" minimum="9" maximum="144" default="9">
       <map input="9" output="9"/>
@@ -11,6 +11,18 @@
       <map input="115" output="142"/>
       <map input="131" output="143"/>
       <map input="144" output="144"/>
+      <labels>
+          <label uservalue="9" name="9pt" elidable="true" />
+          <label uservalue="72" name="72pt" />
+          <label uservalue="144" name="144pt" />
+      </labels>
+    </axis>
+    <axis tag="SOFT" name="Softness" minimum="0" maximum="100" default="0">
+      <labels>
+        <label uservalue="0" name="Sharp" elidable="true"/>
+        <label uservalue="50" name="Soft" />
+        <label uservalue="100" name="SuperSoft" />
+      </labels>
     </axis>
     <axis tag="wght" name="Weight" minimum="100" maximum="900" default="900">
       <map input="100" output="100"/>
@@ -19,11 +31,26 @@
       <map input="600" output="580"/>
       <map input="700" output="740"/>
       <map input="900" output="900"/>
+      <labels>
+          <label uservalue="100" name="Thin" />
+          <label uservalue="300" name="Light" />
+          <label uservalue="400" name="Regular" linkeduservalue="700"/>
+          <label uservalue="600" name="SemiBold" />
+          <label uservalue="700" name="Bold" />
+          <label uservalue="900" name="Black" />
+      </labels>
     </axis>
-    <axis tag="SOFT" name="Softness" minimum="0" maximum="100" default="0"/>
-    <labelname xml:lang="en">Softness</labelname>
-    <axis tag="WONK" name="Wonky" minimum="0" maximum="1" default="1"/>
-    <labelname xml:lang="en">Wonkiness</labelname>
+    <axis tag="WONK" name="Wonky" minimum="0" maximum="1" default="1">
+      <labels>
+        <label uservalue="0" name="NonWonky"/>
+        <label uservalue="1" name="Wonky" elidable="true" />
+      </labels>
+    </axis>
+    <axis tag="ital" name="Italic" values="0" default="0">
+      <labels>
+        <label uservalue="0" name="Roman" elidable="true" linkeduservalue="1"/>
+      </labels>
+    </axis>
   </axes>
   <rules>
     <rule name="NonWonky">
@@ -130,7 +157,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Fraunces-Thin" familyname="Fraunces" stylename="Thin" filename="instances/Fraunces-Thin.ufo" postscriptfontname="Fraunces-Thin" stylemapfamilyname="Fraunces Thin" stylemapstylename="Regular">
+    <instance name="Fraunces-Thin" familyname="Fraunces" stylename="Thin" filename="instances/Fraunces-Thin.ufo" postscriptfontname="Fraunces-9ptThin" stylemapfamilyname="Fraunces Thin" stylemapstylename="regular">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="100"/>
@@ -140,7 +167,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces-Light" familyname="Fraunces" stylename="Light" filename="instances/Fraunces-Light.ufo" postscriptfontname="Fraunces-Light" stylemapfamilyname="Fraunces Light" stylemapstylename="Regular">
+    <instance name="Fraunces-Light" familyname="Fraunces" stylename="Light" filename="instances/Fraunces-Light.ufo" postscriptfontname="Fraunces-9ptLight" stylemapfamilyname="Fraunces Light" stylemapstylename="regular">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="260"/>
@@ -150,7 +177,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces-Regular" familyname="Fraunces" stylename="Regular" filename="instances/Fraunces-Regular.ufo" postscriptfontname="Fraunces-Regular" stylemapfamilyname="Fraunces" stylemapstylename="Regular">
+    <instance name="Fraunces-Regular" familyname="Fraunces" stylename="Regular" filename="instances/Fraunces-Regular.ufo" postscriptfontname="Fraunces-9ptRegular" stylemapfamilyname="Fraunces" stylemapstylename="regular">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="420"/>
@@ -160,7 +187,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces-SemiBold" familyname="Fraunces" stylename="SemiBold" filename="instances/Fraunces-SemiBold.ufo" postscriptfontname="Fraunces-SemiBold" stylemapfamilyname="Fraunces SemiBold" stylemapstylename="Regular">
+    <instance name="Fraunces-SemiBold" familyname="Fraunces" stylename="SemiBold" filename="instances/Fraunces-SemiBold.ufo" postscriptfontname="Fraunces-9ptSemiBold" stylemapfamilyname="Fraunces SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="580"/>
@@ -170,7 +197,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces-Bold" familyname="Fraunces" stylename="Bold" filename="instances/Fraunces-Bold.ufo" postscriptfontname="Fraunces-Bold" stylemapfamilyname="Fraunces" stylemapstylename="Bold">
+    <instance name="Fraunces-Bold" familyname="Fraunces" stylename="Bold" filename="instances/Fraunces-Bold.ufo" postscriptfontname="Fraunces-9ptBold" stylemapfamilyname="Fraunces" stylemapstylename="bold">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="740"/>
@@ -180,7 +207,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Fraunces-Black" familyname="Fraunces" stylename="Black" filename="instances/Fraunces-Black.ufo" postscriptfontname="Fraunces-Black" stylemapfamilyname="Fraunces Black" stylemapstylename="Regular">
+    <instance name="Fraunces-Black" familyname="Fraunces" stylename="Black" filename="instances/Fraunces-Black.ufo" postscriptfontname="Fraunces-9ptBlack" stylemapfamilyname="Fraunces Black" stylemapstylename="regular">
       <location>
         <dimension name="Optical Size" xvalue="9"/>
         <dimension name="Weight" xvalue="900"/>
@@ -191,43 +218,4 @@
       <info/>
     </instance>
   </instances>
-  <lib>
-    <dict>
-      <key>com.letterror.mathModelPref</key>
-      <string>previewVarLib</string>
-      <key>com.letterror.skateboard.interactionSources</key>
-      <dict>
-        <key>horizontal</key>
-        <array/>
-        <key>ignore</key>
-        <array>
-          <string>Soften</string>
-          <string>wonk</string>
-        </array>
-        <key>vertical</key>
-        <array>
-          <string>Optical Size</string>
-          <string>Weight</string>
-        </array>
-      </dict>
-      <key>com.letterror.skateboard.previewLocation</key>
-      <dict>
-        <key>Optical Size</key>
-        <real>9.0</real>
-        <key>Soften</key>
-        <real>0.0</real>
-        <key>Weight</key>
-        <real>100.0</real>
-        <key>wonk</key>
-        <real>0.5</real>
-      </dict>
-      <key>com.letterror.skateboard.previewText</key>
-      <string>SKATEBOARD</string>
-      <key>org.statmake.additionalLocations</key>
-      <dict>
-        <key>Italic</key>
-        <integer>0</integer>
-      </dict>
-    </dict>
-  </lib>
 </designspace>

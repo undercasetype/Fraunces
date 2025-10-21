@@ -21,37 +21,37 @@
           <key>scaleV</key>
           <real>0.92</real>
           <key>tracking</key>
-          <real>0.0</real>
+          <integer>0</integer>
         </dict>
         <key>other</key>
         <dict>
           <key>interpH</key>
-          <real>1.0</real>
+          <integer>1</integer>
           <key>interpV</key>
-          <real>0.9500000000000001</real>
+          <real>0.95</real>
           <key>problem</key>
           <false/>
           <key>scaleH</key>
           <real>0.93</real>
           <key>scaleV</key>
-          <real>1.0</real>
+          <integer>1</integer>
           <key>tracking</key>
-          <real>-30.0</real>
+          <integer>-30</integer>
         </dict>
         <key>uc</key>
         <dict>
           <key>interpH</key>
-          <real>1.0</real>
+          <integer>1</integer>
           <key>interpV</key>
-          <real>0.9500000000000001</real>
+          <real>0.95</real>
           <key>problem</key>
           <false/>
           <key>scaleH</key>
           <real>0.93</real>
           <key>scaleV</key>
-          <real>1.0</real>
+          <integer>1</integer>
           <key>tracking</key>
-          <real>-30.0</real>
+          <integer>-30</integer>
         </dict>
       </dict>
       <key>otherOption</key>
@@ -68,20 +68,20 @@
     <key>com.commercialtype.futureproof.includeAltsInAlphabeticalOrder</key>
     <false/>
     <key>com.commercialtype.futureproof.italicAngle</key>
-    <real>0.0</real>
+    <integer>0</integer>
     <key>com.commercialtype.futureproof.lineHeight</key>
-    <real>40.0</real>
+    <integer>40</integer>
     <key>com.commercialtype.futureproof.pageMargins</key>
     <array>
-      <real>36.0</real>
-      <real>36.0</real>
-      <real>36.0</real>
-      <real>36.0</real>
+      <integer>36</integer>
+      <integer>36</integer>
+      <integer>36</integer>
+      <integer>36</integer>
     </array>
     <key>com.commercialtype.futureproof.pageSize</key>
     <string>LetterLandscape</string>
     <key>com.commercialtype.futureproof.pointSize</key>
-    <real>18.0</real>
+    <integer>18</integer>
     <key>com.commercialtype.futureproof.showWarningsForCollisions</key>
     <integer>0</integer>
     <key>com.commercialtype.futureproof.showWarningsForHalfWidthKerning</key>
@@ -118,17 +118,17 @@
     <key>com.typemytype.robofont.fontIdentifier</key>
     <string>8-U3X4O3ltpVTIkiTumqOS4lx4r_reTsLSIodwctLfs</string>
     <key>com.typemytype.robofont.guideline.magnetic.ApiKn86dRN</key>
-    <real>5.0</real>
+    <integer>5</integer>
     <key>com.typemytype.robofont.guideline.magnetic.bUJP21HJ1b</key>
-    <real>5.0</real>
+    <integer>5</integer>
     <key>com.typemytype.robofont.guideline.magnetic.cweV8jEv3t</key>
-    <real>5.0</real>
+    <integer>5</integer>
     <key>com.typemytype.robofont.guideline.magnetic.hTX9uskm1B</key>
-    <real>5.0</real>
+    <integer>5</integer>
     <key>com.typemytype.robofont.guideline.magnetic.rzZFGFTIXu</key>
-    <real>5.0</real>
+    <integer>5</integer>
     <key>com.typemytype.robofont.guideline.magnetic.yy5Q1dYhHw</key>
-    <real>5.0</real>
+    <integer>5</integer>
     <key>com.typemytype.robofont.guideline.showMeasurements.ApiKn86dRN</key>
     <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.bUJP21HJ1b</key>
@@ -147,428 +147,426 @@
     <string>curve</string>
     <key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
     <integer>1</integer>
-    <key>com.typemytype.robofont.smartSets.uniqueKey</key>
-    <string>5254661584</string>
     <key>com.typesupply.metricsMachine4.groupColors</key>
     <dict>
       <key>public.kern1.A</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.C</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.E</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.H</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.K</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.L</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.O</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.R</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.S</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.T</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.U</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.V</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.Y</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.Z</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.a</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.c</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.f</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.g</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.i</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.j</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.k</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.l</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.leftquote</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.n</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.n.alt</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.o</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.period</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.r</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.rightquote</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.s</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.t</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.u</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.v</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern1.z</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.A</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.E</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.H</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.J</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.O</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.S</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.T</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.U</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.V</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.Y</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.Z</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.a</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.f</key>
       <array>
         <real>0.5</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.g</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.j</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.l</key>
       <array>
-        <real>1.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.leftquote</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.n</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.o</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.period</key>
       <array>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.rightquote</key>
       <array>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.5</real>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.s</key>
       <array>
-        <real>0.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.t</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.u</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.v</key>
       <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
+        <integer>1</integer>
+        <integer>0</integer>
+        <integer>1</integer>
         <real>0.25</real>
       </array>
       <key>public.kern2.z</key>
       <array>
-        <real>1.0</real>
+        <integer>1</integer>
         <real>0.5</real>
-        <real>0.0</real>
+        <integer>0</integer>
         <real>0.25</real>
       </array>
     </dict>

@@ -15,5 +15,9 @@
  } case;
 
  feature ss01 {
+   featureNames {
+      name "Alts on";
+      name 1 "Alts on";
+   };
     sub @alts_off by @alts_on ;
  } ss01 ;

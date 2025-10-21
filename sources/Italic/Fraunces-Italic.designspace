@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="opsz" name="Optical Size" minimum="9" maximum="144" default="9">
+      <map input="9" output="9"/>
+      <map input="47" output="36"/>
+      <map input="72" output="72"/>
+      <map input="79" output="100"/>
+      <map input="86" output="130"/>
+      <map input="101" output="138"/>
+      <map input="115" output="142"/>
+      <map input="131" output="143"/>
+      <map input="144" output="144"/>
+      <labels>
+          <label uservalue="9" name="9pt" elidable="true" />
+          <label uservalue="72" name="72pt" />
+          <label uservalue="144" name="144pt" />
+      </labels>
+    </axis>
+    <axis tag="SOFT" name="Softness" minimum="0" maximum="100" default="0">
+      <labels>
+        <label uservalue="0" name="Sharp" elidable="true" />
+        <label uservalue="50" name="Soft" />
+        <label uservalue="100" name="SuperSoft" />
+      </labels>
+    </axis>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="900">
+      <map input="100" output="100"/>
+      <map input="300" output="260"/>
+      <map input="400" output="420"/>
+      <map input="600" output="580"/>
+      <map input="700" output="740"/>
+      <map input="900" output="900"/>
+      <labels>
+          <label uservalue="100" name="Thin" />
+          <label uservalue="300" name="Light" />
+          <label uservalue="400" name="Regular" elidable="true" linkeduservalue="700"/>
+          <label uservalue="600" name="SemiBold" />
+          <label uservalue="700" name="Bold" />
+          <label uservalue="900" name="Black" />
+      </labels>
+    </axis>
+    <axis tag="WONK" name="Wonky" minimum="0" maximum="1" default="1">
+      <labels>
+        <label uservalue="0" name="NonWonky"/>
+        <label uservalue="1" name="Wonky" elidable="true" />
+      </labels>
+    </axis>
+    <axis tag="ital" name="Italic" values="1" default="1">
+      <labels>
+        <label uservalue="1" name="Italic" />
+      </labels>
+    </axis>
+  </axes>
+  <rules>
+    <rule name="NonWonky">
+      <conditionset>
+        <condition name="Optical Size" minimum="9" maximum="18"/>
+        <condition name="Weight" minimum="100" maximum="900"/>
+        <condition name="Softness" minimum="0" maximum="100"/>
+      </conditionset>
+      <conditionset>
+        <condition name="Wonky" minimum="0" maximum="0.490000"/>
+      </conditionset>
+      <sub name="ampersand" with="ampersand.alt"/>
+      <sub name="b" with="b.alt"/>
+      <sub name="d" with="d.alt"/>
+      <sub name="ddotbelow" with="ddotbelow.alt"/>
+      <sub name="dmacronbelow" with="dmacronbelow.alt"/>
+      <sub name="h" with="h.alt"/>
+      <sub name="hbrevebelow" with="hbrevebelow.alt"/>
+      <sub name="hcircumflex" with="hcircumflex.alt"/>
+      <sub name="hdotbelow" with="hdotbelow.alt"/>
+      <sub name="k" with="k.alt"/>
+      <sub name="kcommaaccent" with="kcommaaccent.alt"/>
+      <sub name="l" with="l.alt"/>
+      <sub name="lacute" with="lacute.alt"/>
+      <sub name="lcommaaccent" with="lcommaaccent.alt"/>
+      <sub name="ldot" with="ldot.alt"/>
+      <sub name="ldotbelow" with="ldotbelow.alt"/>
+      <sub name="lmacronbelow" with="lmacronbelow.alt"/>
+      <sub name="v" with="v.alt"/>
+      <sub name="w" with="w.alt"/>
+      <sub name="wacute" with="wacute.alt"/>
+      <sub name="wcircumflex" with="wcircumflex.alt"/>
+      <sub name="wdieresis" with="wdieresis.alt"/>
+      <sub name="wgrave" with="wgrave.alt"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="FrauncesItalic-144ptS000Black.ufo">
+      <location>
+        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="FrauncesItalic-9ptS000Black.ufo">
+      <location>
+        <dimension name="Optical Size" xvalue="9"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="FrauncesItalic-144ptS000Thin.ufo">
+      <location>
+        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="FrauncesItalic-9ptS000Thin.ufo">
+      <location>
+        <dimension name="Optical Size" xvalue="9"/>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="FrauncesItalic-144ptS100Black.ufo">
+      <location>
+        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="FrauncesItalic-9ptS100Black.ufo">
+      <location>
+        <dimension name="Optical Size" xvalue="9"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="FrauncesItalic-144ptS100Thin.ufo">
+      <location>
+        <dimension name="Optical Size" xvalue="144"/>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="FrauncesItalic-9ptS100Thin.ufo">
+      <location>
+        <dimension name="Optical Size" xvalue="9"/>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Softness" xvalue="100"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Fraunces-ThinItalic" familyname="Fraunces" stylename="Thin Italic" filename="instances/Fraunces-ThinItalic.ufo" postscriptfontname="Fraunces-9ptThinItalic" stylemapfamilyname="Fraunces Thin" stylemapstylename="italic">
+      <location>
+        <dimension name="Optical Size" xvalue="9"/>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Fraunces-LightItalic" familyname="Fraunces" stylename="Light Italic" filename="instances/Fraunces-LightItalic.ufo" postscriptfontname="Fraunces-9ptLightItalic" stylemapfamilyname="Fraunces Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Optical Size" xvalue="9"/>
+        <dimension name="Weight" xvalue="260"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Fraunces-Italic" familyname="Fraunces" stylename="Italic" filename="instances/Fraunces-Italic.ufo" postscriptfontname="Fraunces-9ptRegularItalic" stylemapfamilyname="Fraunces" stylemapstylename="italic">
+      <location>
+        <dimension name="Optical Size" xvalue="9"/>
+        <dimension name="Weight" xvalue="420"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Fraunces-SemiBoldItalic" familyname="Fraunces" stylename="SemiBold Italic" filename="instances/Fraunces-SemiBoldItalic.ufo" postscriptfontname="Fraunces-9ptSemiBoldItalic" stylemapfamilyname="Fraunces SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Optical Size" xvalue="9"/>
+        <dimension name="Weight" xvalue="580"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Fraunces-BoldItalic" familyname="Fraunces" stylename="Bold Italic" filename="instances/Fraunces-BoldItalic.ufo" postscriptfontname="Fraunces-9ptBoldItalic" stylemapfamilyname="Fraunces" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Optical Size" xvalue="9"/>
+        <dimension name="Weight" xvalue="740"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Fraunces-BlackItalic" familyname="Fraunces" stylename="Black Italic" filename="instances/Fraunces-BlackItalic.ufo" postscriptfontname="Fraunces-9ptBlackItalic" stylemapfamilyname="Fraunces Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Optical Size" xvalue="9"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Softness" xvalue="0"/>
+        <dimension name="Wonky" xvalue="1"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>org.statmake.additionalLocations</key>
+      <dict>
+        <key>Italic</key>
+        <integer>1</integer>
+      </dict>
+    </dict>
+  </lib>
+</designspace>
