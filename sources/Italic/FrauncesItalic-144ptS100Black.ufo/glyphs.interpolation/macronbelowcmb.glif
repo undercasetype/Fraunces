@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macronbelowcmb" format="2">
-  <unicode hex="0331"/>
+  <advance width="714"/>
   <outline>
     <contour>
       <point x="33" y="-233" type="curve" smooth="yes"/>
@@ -25,14 +25,4 @@
       <point x="714" y="-450.8" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>714</integer>
-      <key>public.markColor</key>
-      <string>0.843,0.863,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

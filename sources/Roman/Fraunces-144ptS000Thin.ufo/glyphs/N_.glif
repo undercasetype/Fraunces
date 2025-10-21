@@ -2,8 +2,8 @@
 <glyph name="N" format="2">
   <advance width="1318"/>
   <unicode hex="004E"/>
-  <guideline x="2312" y="2716" angle="0" identifier="ajeSs5uLRU"/>
-  <anchor x="659" y="1490" name="center"/>
+  <guideline x="2312.0" y="2716.0" angle="0" identifier="ajeSs5uLRU"/>
+  <anchor x="659.0" y="1490.0" name="center"/>
   <outline>
     <contour>
       <point x="464" y="4" type="curve" smooth="yes"/>
@@ -92,9 +92,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.843,0.863,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.8431,0.8627,1,1</string>
     </dict>
   </lib>
 </glyph>

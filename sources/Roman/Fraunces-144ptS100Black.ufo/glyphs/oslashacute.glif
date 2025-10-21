@@ -2,7 +2,6 @@
 <glyph name="oslashacute" format="2">
   <advance width="1047"/>
   <unicode hex="01FF"/>
-  <anchor x="523" y="877" name="center"/>
   <outline>
     <component base="oslash"/>
     <component base="acutecmb" xOffset="400"/>
@@ -10,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

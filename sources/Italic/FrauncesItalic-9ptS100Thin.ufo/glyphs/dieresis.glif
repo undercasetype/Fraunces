@@ -1,17 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresis" format="2">
   <advance width="580"/>
-  <unicode hex="00A8"/>
-  <anchor x="38.10700000000003" y="949" name="center"/>
   <outline>
-    <component base="dieresiscmb" xOffset="-281.893"/>
+    <component base="dieresiscmb" xOffset="-281.89316694792046"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.392,0.804,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.3922,0.8039,1,1</string>
     </dict>
   </lib>
 </glyph>

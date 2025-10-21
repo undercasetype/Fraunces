@@ -2,7 +2,6 @@
 <glyph name="Igrave" format="2">
   <advance width="924"/>
   <unicode hex="00CC"/>
-  <anchor x="462" y="1434" name="center"/>
   <outline>
     <component base="I"/>
     <component base="grave.cap" xOffset="117" yOffset="454"/>
@@ -10,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

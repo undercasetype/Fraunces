@@ -2,7 +2,6 @@
 <glyph name="uhorntilde" format="2">
   <advance width="1410"/>
   <unicode hex="1EEF"/>
-  <anchor x="651" y="1108" name="center"/>
   <outline>
     <component base="uhorn"/>
     <component base="tildecmb" xOffset="331.5"/>
@@ -10,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

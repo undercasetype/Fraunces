@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="breve.cap" format="2">
   <advance width="716"/>
-  <anchor x="382.105" y="954" name="center"/>
+  <anchor x="382.10461538461544" y="954" name="center"/>
   <outline>
     <contour>
       <point x="415" y="1236" type="curve" smooth="yes"/>
@@ -33,9 +33,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>1,0.667,0.255,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>

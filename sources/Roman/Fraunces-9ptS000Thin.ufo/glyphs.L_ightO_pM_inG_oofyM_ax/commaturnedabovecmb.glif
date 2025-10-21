@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaturnedabovecmb" format="2">
+  <advance width="257"/>
   <unicode hex="0312"/>
   <outline>
     <contour>
@@ -36,14 +37,4 @@
       <point x="257" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>257</integer>
-      <key>public.markColor</key>
-      <string>0.843,0.863,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

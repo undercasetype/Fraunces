@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ring" format="2">
   <advance width="375"/>
-  <unicode hex="02DA"/>
   <outline>
     <contour>
       <point x="188" y="920" type="curve" smooth="yes"/>
@@ -44,12 +43,4 @@
       <point x="375" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.392,0.804,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

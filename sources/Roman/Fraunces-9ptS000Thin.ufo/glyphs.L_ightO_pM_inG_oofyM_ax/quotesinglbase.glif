@@ -6,8 +6,8 @@
     <contour>
       <point x="180" y="1" type="curve" smooth="yes"/>
       <point x="200" y="1" type="line" smooth="yes"/>
-      <point x="224" y="1"/>
-      <point x="231" y="-11"/>
+      <point x="224.0" y="1.0"/>
+      <point x="231.0" y="-11.0"/>
       <point x="231" y="-46" type="curve" smooth="yes"/>
       <point x="231" y="-116"/>
       <point x="188" y="-180"/>
@@ -43,12 +43,4 @@
       <point x="376" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.980,0.463,0.549,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

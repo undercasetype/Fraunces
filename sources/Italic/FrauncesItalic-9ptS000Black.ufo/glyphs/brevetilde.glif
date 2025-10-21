@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevetilde" format="2">
   <advance width="732"/>
-  <anchor x="382.105" y="954" name="center"/>
+  <anchor x="382.10461538461544" y="954" name="center"/>
   <outline>
     <contour>
       <point x="424" y="1271" type="curve" smooth="yes"/>
@@ -30,8 +30,6 @@
       <point x="513" y="1271"/>
     </contour>
     <contour>
-      <point x="431" y="1544"/>
-      <point x="490" y="1445"/>
       <point x="601" y="1445" type="curve" smooth="yes"/>
       <point x="700" y="1445"/>
       <point x="790" y="1522"/>
@@ -60,14 +58,14 @@
       <point x="313" y="1529"/>
       <point x="335" y="1544"/>
       <point x="360" y="1544" type="curve" smooth="yes"/>
+      <point x="431" y="1544"/>
+      <point x="490" y="1445"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.843,0.863,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>

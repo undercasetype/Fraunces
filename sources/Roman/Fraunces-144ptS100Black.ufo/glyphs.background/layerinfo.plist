@@ -2,96 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>color</key>
+    <string>0.9843,0.3294,0.1725,1</string>
     <key>lib</key>
     <dict>
-      <key>com.schriftgestaltung.layerId</key>
-      <string>9D593815-5555-48C2-9051-B148E15D0C8C</string>
-      <key>com.schriftgestaltung.layerOrderInGlyph.A</key>
-      <integer>16</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.K</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.O</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.Q</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.S</key>
-      <integer>16</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.Sacutedotaccent</key>
-      <integer>12</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.b</key>
-      <integer>15</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.c</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.colonmonetary</key>
-      <integer>12</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.d</key>
-      <integer>16</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.e</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.f</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.g</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.h</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.h.alt</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.i</key>
-      <integer>15</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.k</key>
-      <integer>15</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.l</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.lira</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.m</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.m.alt</key>
-      <integer>15</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.n</key>
-      <integer>15</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.n.alt</key>
-      <integer>16</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.nine</key>
-      <integer>15</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.o</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.p</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.q</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.r</key>
-      <integer>12</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.s</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.s.alt</key>
-      <integer>15</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.sacutedotaccent.alt</key>
-      <integer>11</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.t</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.u</key>
-      <integer>15</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.v</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.w</key>
-      <integer>16</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.x</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.y</key>
-      <integer>16</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.ydotbelow</key>
-      <integer>11</integer>
       <key>com.typemytype.robofont.layerShow</key>
-      <integer>1</integer>
+      <true/>
       <key>com.typemytype.robofont.layerShowCoordinates</key>
-      <integer>0</integer>
+      <false/>
       <key>com.typemytype.robofont.layerShowFill</key>
-      <integer>0</integer>
+      <false/>
       <key>com.typemytype.robofont.layerShowPoints</key>
-      <integer>0</integer>
+      <false/>
       <key>com.typemytype.robofont.layerShowStroke</key>
-      <integer>1</integer>
+      <true/>
     </dict>
   </dict>
 </plist>

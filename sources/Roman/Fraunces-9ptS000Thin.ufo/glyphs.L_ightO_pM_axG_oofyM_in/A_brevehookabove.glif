@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Abrevehookabove" format="2">
   <advance width="1105"/>
-  <unicode hex="1EB2"/>
   <outline>
     <contour>
       <point x="273" y="544" type="line"/>
@@ -84,7 +83,7 @@
     </contour>
     <contour>
       <point x="551" y="1519" type="curve" smooth="yes"/>
-      <point x="469" y="1519"/>
+      <point x="469.0" y="1519.0"/>
       <point x="407" y="1554"/>
       <point x="391" y="1654" type="curve" smooth="yes"/>
       <point x="389" y="1665"/>
@@ -94,9 +93,9 @@
       <point x="373" y="1663"/>
       <point x="374" y="1652" type="curve" smooth="yes"/>
       <point x="384" y="1539"/>
-      <point x="437" y="1460"/>
+      <point x="437.0" y="1460.0"/>
       <point x="551" y="1460" type="curve" smooth="yes"/>
-      <point x="665" y="1460"/>
+      <point x="665.0" y="1460.0"/>
       <point x="718" y="1539"/>
       <point x="728" y="1652" type="curve" smooth="yes"/>
       <point x="729" y="1663"/>
@@ -106,7 +105,7 @@
       <point x="713" y="1665"/>
       <point x="711" y="1654" type="curve" smooth="yes"/>
       <point x="695" y="1554"/>
-      <point x="633" y="1519"/>
+      <point x="633.0" y="1519.0"/>
     </contour>
     <contour>
       <point x="517" y="1627" type="curve" smooth="yes"/>
@@ -114,12 +113,12 @@
       <point x="519" y="1631"/>
       <point x="524" y="1632" type="curve" smooth="yes"/>
       <point x="609" y="1648"/>
-      <point x="642" y="1696"/>
+      <point x="642.0" y="1696.0"/>
       <point x="642" y="1756" type="curve" smooth="yes"/>
-      <point x="642" y="1823"/>
-      <point x="611" y="1856"/>
+      <point x="642.0" y="1823.0"/>
+      <point x="611.0" y="1856.0"/>
       <point x="553" y="1856" type="curve" smooth="yes"/>
-      <point x="494" y="1856"/>
+      <point x="494.0" y="1856.0"/>
       <point x="469" y="1824"/>
       <point x="469" y="1780" type="curve" smooth="yes"/>
       <point x="469" y="1757" type="line" smooth="yes"/>
@@ -129,13 +128,13 @@
       <point x="413" y="1714"/>
       <point x="401" y="1734"/>
       <point x="401" y="1757" type="curve" smooth="yes"/>
-      <point x="401" y="1817"/>
-      <point x="470" y="1868"/>
+      <point x="401.0" y="1817.0"/>
+      <point x="470.0" y="1868.0"/>
       <point x="554" y="1868" type="curve" smooth="yes"/>
-      <point x="637" y="1868"/>
-      <point x="698" y="1826"/>
+      <point x="637.0" y="1868.0"/>
+      <point x="698.0" y="1826.0"/>
       <point x="698" y="1756" type="curve" smooth="yes"/>
-      <point x="698" y="1684"/>
+      <point x="698.0" y="1684.0"/>
       <point x="638" y="1638"/>
       <point x="524" y="1623" type="curve" smooth="yes"/>
       <point x="519" y="1622"/>
@@ -154,12 +153,4 @@
       <point x="1105" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

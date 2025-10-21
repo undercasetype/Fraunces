@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hbrevebelow.alt" format="2">
   <advance width="1167"/>
-  <anchor x="602" y="1106" name="center"/>
   <outline>
     <component base="h.alt"/>
     <component base="belowbrevecmb" xOffset="344"/>
@@ -9,9 +8,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.353,0.667,0.804,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.3529,0.6667,0.8039,1</string>
     </dict>
   </lib>
 </glyph>

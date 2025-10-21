@@ -2,18 +2,9 @@
 <glyph name="Odotaccentmacron" format="2">
   <advance width="1316"/>
   <unicode hex="0230"/>
-  <anchor x="987" y="1546" name="center"/>
   <outline>
     <component base="O"/>
-    <component base="dotaccent.cap" xOffset="834.856" yOffset="500"/>
-    <component base="macron.cap" xOffset="712.5" yOffset="656"/>
+    <component base="dotaccent.cap" xOffset="834.8556625351775" yOffset="500"/>
+    <component base="macron.cap" xOffset="712.4999999999709" yOffset="656"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

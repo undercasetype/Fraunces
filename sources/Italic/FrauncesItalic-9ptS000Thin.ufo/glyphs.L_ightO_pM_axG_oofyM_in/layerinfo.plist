@@ -2,22 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>lib</key>
-    <dict>
-      <key>com.schriftgestaltung.layerId</key>
-      <string>680ED9BD-1FE3-4192-879F-C8FC891BA588</string>
-      <key>com.schriftgestaltung.layerOrderInGlyph.minute</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.primedblmod</key>
-      <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.primemod</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.quotedbl</key>
-      <integer>15</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.quotesingle</key>
-      <integer>16</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.second</key>
-      <integer>15</integer>
-    </dict>
+    <key>color</key>
+    <string>0,0.25,1,0.7</string>
   </dict>
 </plist>

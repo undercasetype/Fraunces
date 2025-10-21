@@ -2,17 +2,14 @@
 <glyph name="Hbrevebelow" format="2">
   <advance width="1506"/>
   <unicode hex="1E2A"/>
-  <anchor x="1037" y="1498" name="center"/>
   <outline>
     <component base="H"/>
-    <component base="belowbrevecmb" xOffset="323.506"/>
+    <component base="belowbrevecmb" xOffset="323.50573847212945"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

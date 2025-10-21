@@ -2,7 +2,7 @@
 <glyph name="U" format="2">
   <advance width="1446"/>
   <unicode hex="0055"/>
-  <anchor x="793" y="1467" name="center"/>
+  <anchor x="793" y="1467.0" name="center"/>
   <outline>
     <contour>
       <point x="1093" y="635" type="line" smooth="yes"/>
@@ -80,9 +80,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.843,0.863,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0,0,1,0.5</string>
     </dict>
   </lib>
 </glyph>

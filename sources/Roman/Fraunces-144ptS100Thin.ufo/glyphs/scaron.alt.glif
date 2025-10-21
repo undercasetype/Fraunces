@@ -1,17 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="scaron.alt" format="2">
   <advance width="687"/>
-  <anchor x="330" y="944" name="center"/>
   <outline>
     <component base="s.alt"/>
-    <component base="caroncmb" xOffset="80.689"/>
+    <component base="caroncmb" xOffset="80.68947472213767"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.353,0.667,0.804,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

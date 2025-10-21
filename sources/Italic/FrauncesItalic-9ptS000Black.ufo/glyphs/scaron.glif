@@ -2,8 +2,6 @@
 <glyph name="scaron" format="2">
   <advance width="1056"/>
   <unicode hex="0161"/>
-  <anchor x="707" y="1004" name="center_1"/>
-  <anchor x="691" y="1249" name="center_2"/>
   <outline>
     <component base="s"/>
     <component base="caroncmb" xOffset="238"/>
@@ -11,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

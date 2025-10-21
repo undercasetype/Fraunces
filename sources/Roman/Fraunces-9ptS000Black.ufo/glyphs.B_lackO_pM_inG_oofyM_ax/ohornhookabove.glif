@@ -1,27 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohornhookabove" format="2">
   <advance width="1247"/>
-  <unicode hex="1EDF"/>
   <outline>
     <contour>
-      <point x="1090.432" y="787.129"/>
-      <point x="1302" y="919.923"/>
+      <point x="1090.432295980489" y="787.1287925536801"/>
+      <point x="1302.0" y="919.9225352112676"/>
       <point x="1302" y="1137" type="curve" smooth="yes"/>
-      <point x="1302" y="1245"/>
-      <point x="1256" y="1306"/>
+      <point x="1302.0" y="1245.0"/>
+      <point x="1256.0" y="1306.0"/>
       <point x="1159" y="1306" type="curve" smooth="yes"/>
       <point x="1067" y="1306"/>
       <point x="1014" y="1249"/>
       <point x="1014" y="1149" type="curve" smooth="yes"/>
       <point x="1014" y="1093" type="line" smooth="yes"/>
-      <point x="1014" y="997"/>
+      <point x="1014.0" y="997.0"/>
       <point x="967" y="950"/>
       <point x="767" y="982" type="curve" smooth="yes"/>
       <point x="710" y="991"/>
-      <point x="675" y="961.642"/>
+      <point x="675.0" y="961.6417910447761"/>
       <point x="675" y="920" type="curve" smooth="yes"/>
-      <point x="675" y="888.742"/>
-      <point x="703.358" y="874.919"/>
+      <point x="675.0" y="888.741935483871"/>
+      <point x="703.3581681309863" y="874.9189053288333"/>
       <point x="756" y="863" type="curve" smooth="yes"/>
     </contour>
     <contour>
@@ -110,12 +109,4 @@
       <point x="1247" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

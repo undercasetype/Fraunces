@@ -1,17 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccent" format="2">
   <advance width="241"/>
-  <unicode hex="02D9"/>
-  <anchor x="-154.89299999999997" y="958" name="center"/>
   <outline>
-    <component base="dotaccentcmb" xOffset="-281.893"/>
+    <component base="dotaccentcmb" xOffset="-281.89316694792046"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.392,0.804,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.3922,0.8039,1,1</string>
     </dict>
   </lib>
 </glyph>

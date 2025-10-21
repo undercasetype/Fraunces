@@ -2,70 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>color</key>
+    <string>0.6,0.8,0.8,1</string>
     <key>lib</key>
     <dict>
-      <key>com.schriftgestaltung.layerId</key>
-      <string>27A01671-1A69-4BBC-AD4C-46DA494FA39C</string>
-      <key>com.schriftgestaltung.layerOrderInGlyph.Aringacute</key>
-      <integer>8</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.a</key>
-      <integer>10</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.ae</key>
-      <integer>9</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.b</key>
-      <integer>9</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.b.alt</key>
-      <integer>10</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.brokenbar</key>
-      <integer>8</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.d</key>
-      <integer>9</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.d.alt</key>
-      <integer>10</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.f</key>
-      <integer>9</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.g</key>
-      <integer>9</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.h</key>
-      <integer>10</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.h.alt</key>
-      <integer>9</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.i</key>
-      <integer>10</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.j</key>
-      <integer>9</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.k</key>
-      <integer>10</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.k.alt</key>
-      <integer>9</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.l</key>
-      <integer>9</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.l.alt</key>
-      <integer>9</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.ldot.alt</key>
-      <integer>8</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.m</key>
-      <integer>9</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.n</key>
-      <integer>10</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.o</key>
-      <integer>10</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.q</key>
-      <integer>9</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.r</key>
-      <integer>10</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.s</key>
-      <integer>10</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.t</key>
-      <integer>10</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.u</key>
-      <integer>9</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.v.alt</key>
-      <integer>10</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.w</key>
-      <integer>10</integer>
       <key>com.typemytype.robofont.layerShow</key>
-      <integer>1</integer>
+      <true/>
     </dict>
   </dict>
 </plist>

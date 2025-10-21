@@ -2,16 +2,13 @@
 <glyph name="macron" format="2">
   <advance width="709"/>
   <unicode hex="00AF"/>
-  <anchor x="512" y="924" name="center"/>
   <outline>
     <component base="macroncmb"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.392,0.804,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.9811,0.4634,0.5508,1</string>
     </dict>
   </lib>
 </glyph>

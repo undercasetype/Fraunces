@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acircumflexhookabove" format="2">
   <advance width="1012"/>
-  <unicode hex="1EA9"/>
   <outline>
     <contour>
       <point x="585" y="1157" type="line"/>
@@ -62,10 +61,10 @@
       <point x="721" y="1191"/>
     </contour>
     <contour>
-      <point x="161" y="-450.8" type="line"/>
-      <point x="161" y="1389.2" type="line"/>
-      <point x="825" y="1389.2" type="line"/>
-      <point x="825" y="-450.8" type="line"/>
+      <point x="161.0" y="-450.8" type="line"/>
+      <point x="161.0" y="1389.2" type="line"/>
+      <point x="825.0" y="1389.2" type="line"/>
+      <point x="825.0" y="-450.8" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-450.8" type="line"/>
@@ -74,12 +73,4 @@
       <point x="1012" y="-450.8" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

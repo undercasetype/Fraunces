@@ -2,20 +2,15 @@
 <glyph name="sacutedotaccent" format="2">
   <advance width="1066"/>
   <unicode hex="1E65"/>
-  <anchor x="707" y="1004" name="center_1"/>
-  <anchor x="887.0" y="991.0" name="center_2"/>
-  <anchor x="587.0" y="958.0" name="center_3"/>
   <outline>
     <component base="s"/>
-    <component base="acutecmb" xOffset="762.212"/>
-    <component base="dotaccentcmb" xOffset="270.389"/>
+    <component base="acutecmb" xOffset="762.2118451025017"/>
+    <component base="dotaccentcmb" xOffset="270.38926174497465"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

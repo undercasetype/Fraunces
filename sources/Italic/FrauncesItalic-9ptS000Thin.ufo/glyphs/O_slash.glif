@@ -2,7 +2,7 @@
 <glyph name="Oslash" format="2">
   <advance width="1512"/>
   <unicode hex="00D8"/>
-  <anchor x="1025" y="1546" name="center"/>
+  <anchor x="1025" y="1546.0" name="center"/>
   <outline>
     <contour>
       <point x="118" y="-47" type="curve" smooth="yes"/>
@@ -24,12 +24,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>PC</string>
       <key>public.markColor</key>
-      <string>0,0,1,0.502</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>

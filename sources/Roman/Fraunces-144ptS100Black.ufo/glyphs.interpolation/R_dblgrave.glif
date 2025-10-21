@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Rdblgrave" format="2">
   <advance width="1517"/>
-  <unicode hex="0210"/>
   <outline>
     <contour>
       <point x="1380" y="913" type="curve" smooth="yes"/>
@@ -88,10 +87,10 @@
       <point x="1163" y="608" type="line"/>
     </contour>
     <contour>
-      <point x="-15" y="-450.8" type="line"/>
-      <point x="-15" y="1389.2" type="line"/>
-      <point x="1502" y="1389.2" type="line"/>
-      <point x="1502" y="-450.8" type="line"/>
+      <point x="-15.0" y="-450.8" type="line"/>
+      <point x="-15.0" y="1389.2" type="line"/>
+      <point x="1502.0" y="1389.2" type="line"/>
+      <point x="1502.0" y="-450.8" type="line"/>
     </contour>
     <contour>
       <point x="578" y="1757" type="line" smooth="yes"/>
@@ -132,10 +131,10 @@
       <point x="1002" y="1611" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="234" y="3.2" type="line"/>
-      <point x="234" y="1843.2" type="line"/>
-      <point x="1045" y="1843.2" type="line"/>
-      <point x="1045" y="3.2" type="line"/>
+      <point x="234.0" y="3.1999999999999886" type="line"/>
+      <point x="234.0" y="1843.2" type="line"/>
+      <point x="1045.0" y="1843.2" type="line"/>
+      <point x="1045.0" y="3.1999999999999886" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-450.8" type="line"/>
@@ -144,12 +143,4 @@
       <point x="1517" y="-450.8" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

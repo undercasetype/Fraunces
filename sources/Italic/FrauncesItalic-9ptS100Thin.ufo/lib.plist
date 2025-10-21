@@ -9,22 +9,22 @@
     <key>com.commercialtype.futureproof.avoidBreakingSections</key>
     <integer>0</integer>
     <key>com.commercialtype.futureproof.includeAltsInAlphabeticalOrder</key>
-    <integer>0</integer>
+    <false/>
     <key>com.commercialtype.futureproof.italicAngle</key>
-    <integer>0</integer>
+    <real>0.0</real>
     <key>com.commercialtype.futureproof.lineHeight</key>
-    <integer>32</integer>
+    <real>32.0</real>
     <key>com.commercialtype.futureproof.pageMargins</key>
     <array>
-      <integer>36</integer>
-      <integer>36</integer>
-      <integer>36</integer>
-      <integer>36</integer>
+      <real>36.0</real>
+      <real>36.0</real>
+      <real>36.0</real>
+      <real>36.0</real>
     </array>
     <key>com.commercialtype.futureproof.pageSize</key>
     <string>LetterLandscape</string>
     <key>com.commercialtype.futureproof.pointSize</key>
-    <integer>12</integer>
+    <real>12.0</real>
     <key>com.commercialtype.futureproof.showWarningsForCollisions</key>
     <integer>0</integer>
     <key>com.commercialtype.futureproof.showWarningsForHalfWidthKerning</key>
@@ -737,167 +737,42 @@
         <string>glyphList</string>
       </dict>
     </array>
-    <key>com.github.googlei18n.ufo2ft.featureWriters</key>
-    <array>
-      <dict>
-        <key>class</key>
-        <string>KernFeatureWriter</string>
-      </dict>
-      <dict>
-        <key>class</key>
-        <string>ContextualMarkFeatureWriter</string>
-        <key>module</key>
-        <string>glyphsLib.featureWriters.markFeatureWriter</string>
-      </dict>
-      <dict>
-        <key>class</key>
-        <string>GdefFeatureWriter</string>
-      </dict>
-      <dict>
-        <key>class</key>
-        <string>CursFeatureWriter</string>
-      </dict>
-    </array>
-    <key>com.github.googlei18n.ufo2ft.filters</key>
-    <array>
-      <dict>
-        <key>name</key>
-        <string>eraseOpenCorners</string>
-        <key>namespace</key>
-        <string>glyphsLib.filters</string>
-        <key>pre</key>
-        <true/>
-      </dict>
-    </array>
-    <key>com.schriftgestaltung.appVersion</key>
-    <string>3249</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
-    <dict>
-      <key>SOFT</key>
-      <dict>
-        <key>0</key>
-        <integer>0</integer>
-        <key>100</key>
-        <integer>100</integer>
-      </dict>
-      <key>WONK</key>
-      <dict>
-        <key>0</key>
-        <integer>0</integer>
-        <key>1</key>
-        <integer>1</integer>
-      </dict>
-      <key>opsz</key>
-      <dict>
-        <key>100</key>
-        <integer>79</integer>
-        <key>130</key>
-        <integer>86</integer>
-        <key>138</key>
-        <integer>101</integer>
-        <key>142</key>
-        <integer>115</integer>
-        <key>143</key>
-        <integer>131</integer>
-        <key>144</key>
-        <integer>144</integer>
-        <key>36</key>
-        <integer>47</integer>
-        <key>72</key>
-        <integer>72</integer>
-        <key>9</key>
-        <integer>9</integer>
-      </dict>
-      <key>wght</key>
-      <dict>
-        <key>100</key>
-        <integer>100</integer>
-        <key>260</key>
-        <integer>300</integer>
-        <key>420</key>
-        <integer>400</integer>
-        <key>580</key>
-        <integer>600</integer>
-        <key>740</key>
-        <integer>700</integer>
-        <key>900</key>
-        <integer>900</integer>
-      </dict>
-    </dict>
-    <key>com.schriftgestaltung.customParameter.GSFont.Write lastChange</key>
-    <integer>0</integer>
-    <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
-    <true/>
-    <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
-    <integer>1</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
-    <integer>100</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>
-    <integer>1</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue2</key>
-    <integer>0</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
-    <integer>0</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
-    <string></string>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <integer>9</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
-    <integer>100</integer>
-    <key>com.schriftgestaltung.customValue</key>
-    <integer>100</integer>
-    <key>com.schriftgestaltung.customValue1</key>
-    <integer>1</integer>
-    <key>com.schriftgestaltung.fontMasterID</key>
-    <string>94D9DBCF-4765-4138-BB6B-318B5F983BBA</string>
-    <key>com.schriftgestaltung.fontMasterOrder</key>
-    <integer>4</integer>
-    <key>com.schriftgestaltung.keyboardIncrement</key>
-    <integer>1</integer>
-    <key>com.schriftgestaltung.weight</key>
-    <string>Regular</string>
-    <key>com.schriftgestaltung.weightValue</key>
-    <integer>9</integer>
-    <key>com.schriftgestaltung.width</key>
-    <string>Regular</string>
-    <key>com.schriftgestaltung.widthValue</key>
-    <integer>100</integer>
     <key>com.typemytype.glyphBuilder.lastSavedFileName</key>
     <string>ItalicLightOpMin_alts</string>
     <key>com.typemytype.robofont.compileSettings.autohint</key>
-    <integer>1</integer>
+    <true/>
     <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
-    <integer>0</integer>
+    <false/>
     <key>com.typemytype.robofont.compileSettings.createDummyDSIG</key>
-    <integer>1</integer>
+    <true/>
     <key>com.typemytype.robofont.compileSettings.decompose</key>
-    <integer>0</integer>
+    <false/>
     <key>com.typemytype.robofont.compileSettings.generateFormat</key>
     <integer>0</integer>
     <key>com.typemytype.robofont.compileSettings.releaseMode</key>
-    <integer>0</integer>
+    <false/>
     <key>com.typemytype.robofont.fontIdentifier</key>
     <string>dUudPAENtultVhwE7SUXgbmyKsT7SXgBlPorK_zSLnw</string>
     <key>com.typemytype.robofont.guideline.magnetic.0o3scNItkU</key>
-    <integer>5</integer>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.cv32eevh5k</key>
-    <integer>5</integer>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.drjsb4u9NT</key>
-    <integer>5</integer>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.mU7IoT7KIm</key>
-    <integer>5</integer>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.magnetic.nxLGtne7hd</key>
-    <integer>5</integer>
+    <real>5.0</real>
     <key>com.typemytype.robofont.guideline.showMeasurements.0o3scNItkU</key>
-    <integer>0</integer>
+    <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.cv32eevh5k</key>
-    <integer>0</integer>
+    <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.drjsb4u9NT</key>
-    <integer>0</integer>
+    <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.mU7IoT7KIm</key>
-    <integer>0</integer>
+    <false/>
     <key>com.typemytype.robofont.guideline.showMeasurements.nxLGtne7hd</key>
-    <integer>0</integer>
+    <false/>
     <key>com.typemytype.robofont.italicSlantOffset</key>
     <integer>0</integer>
     <key>com.typemytype.robofont.segmentType</key>
@@ -910,520 +785,520 @@
     <dict>
       <key>public.kern1.A</key>
       <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.C</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.E</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.G</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.H</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.J</key>
       <array>
         <real>0.5</real>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.K</key>
       <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.L</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.M</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.N</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.O</key>
       <array>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.5</real>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.R</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.S</key>
       <array>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.5</real>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.T</key>
       <array>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.5</real>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.U</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.V</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.Y</key>
       <array>
         <real>0.5</real>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.Z</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.a</key>
       <array>
         <real>0.5</real>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.c</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.e</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.f</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.g</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.guilsinglleft</key>
       <array>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.5</real>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.guilsinglright</key>
       <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.i</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.j</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.k</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.l</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.l.alt</key>
       <array>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.5</real>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.leftquote</key>
       <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.n</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.o</key>
       <array>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.5</real>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.period</key>
       <array>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.5</real>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.r</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.rightquote</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.s</key>
       <array>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.5</real>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.t</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.u</key>
       <array>
         <real>0.5</real>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.v</key>
       <array>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.5</real>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.v.alt</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.y</key>
       <array>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.5</real>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern1.z</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.A</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.H</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.J</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.M</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.N</key>
       <array>
         <real>0.5</real>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.O</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.S</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.T</key>
       <array>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.5</real>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.U</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.V</key>
       <array>
         <real>0.5</real>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.Y</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.Z</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.a</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.f</key>
       <array>
         <real>0.5</real>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.g</key>
       <array>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.5</real>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.guilsinglleft</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.guilsinglright</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.j</key>
       <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.l</key>
       <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.l.alt</key>
       <array>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.5</real>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.leftquote</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.n</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.o</key>
       <array>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.5</real>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.period</key>
       <array>
-        <integer>0</integer>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.rightquote</key>
       <array>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.5</real>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.s</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.t</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.u</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
+        <real>1.0</real>
+        <real>0.0</real>
         <real>0.5</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.v</key>
       <array>
-        <integer>1</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.v.alt</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>1.0</real>
         <real>0.25</real>
       </array>
       <key>public.kern2.z</key>
       <array>
-        <integer>1</integer>
+        <real>1.0</real>
         <real>0.5</real>
-        <integer>0</integer>
+        <real>0.0</real>
         <real>0.25</real>
       </array>
     </dict>
@@ -2126,544 +2001,10 @@
       <string>f_f_l.alt</string>
       <string>dzcaron.alt</string>
       <string>lj.alt</string>
-      <string>ringcomb</string>
     </array>
     <key>public.postscriptNames</key>
-    <dict>
-      <key>Abreveacute</key>
-      <string>uni1EAE</string>
-      <key>Abrevedotbelow</key>
-      <string>uni1EB6</string>
-      <key>Abrevegrave</key>
-      <string>uni1EB0</string>
-      <key>Abrevehookabove</key>
-      <string>uni1EB2</string>
-      <key>Abrevetilde</key>
-      <string>uni1EB4</string>
-      <key>Acircumflexacute</key>
-      <string>uni1EA4</string>
-      <key>Acircumflexdotbelow</key>
-      <string>uni1EAC</string>
-      <key>Acircumflexgrave</key>
-      <string>uni1EA6</string>
-      <key>Acircumflexhookabove</key>
-      <string>uni1EA8</string>
-      <key>Acircumflextilde</key>
-      <string>uni1EAA</string>
-      <key>Adblgrave</key>
-      <string>uni0200</string>
-      <key>Adotbelow</key>
-      <string>uni1EA0</string>
-      <key>Ahookabove</key>
-      <string>uni1EA2</string>
-      <key>Ainvertedbreve</key>
-      <string>uni0202</string>
-      <key>Ccedillaacute</key>
-      <string>uni1E08</string>
-      <key>DZcaron</key>
-      <string>uni01C4</string>
-      <key>Ddotbelow</key>
-      <string>uni1E0C</string>
-      <key>Dmacronbelow</key>
-      <string>uni1E0E</string>
-      <key>Dzcaron</key>
-      <string>uni01C5</string>
-      <key>Ecedillabreve</key>
-      <string>uni1E1C</string>
-      <key>Ecircumflexacute</key>
-      <string>uni1EBE</string>
-      <key>Ecircumflexdotbelow</key>
-      <string>uni1EC6</string>
-      <key>Ecircumflexgrave</key>
-      <string>uni1EC0</string>
-      <key>Ecircumflexhookabove</key>
-      <string>uni1EC2</string>
-      <key>Ecircumflextilde</key>
-      <string>uni1EC4</string>
-      <key>Edblgrave</key>
-      <string>uni0204</string>
-      <key>Edotbelow</key>
-      <string>uni1EB8</string>
-      <key>Ehookabove</key>
-      <string>uni1EBA</string>
-      <key>Einvertedbreve</key>
-      <string>uni0206</string>
-      <key>Emacronacute</key>
-      <string>uni1E16</string>
-      <key>Emacrongrave</key>
-      <string>uni1E14</string>
-      <key>Etilde</key>
-      <string>uni1EBC</string>
-      <key>Gcommaaccent</key>
-      <string>uni0122</string>
-      <key>Germandbls</key>
-      <string>uni1E9E</string>
-      <key>Gmacron</key>
-      <string>uni1E20</string>
-      <key>Hbrevebelow</key>
-      <string>uni1E2A</string>
-      <key>Hdotbelow</key>
-      <string>uni1E24</string>
-      <key>Idblgrave</key>
-      <string>uni0208</string>
-      <key>Idieresisacute</key>
-      <string>uni1E2E</string>
-      <key>Idotbelow</key>
-      <string>uni1ECA</string>
-      <key>Ihookabove</key>
-      <string>uni1EC8</string>
-      <key>Iinvertedbreve</key>
-      <string>uni020A</string>
-      <key>Jacute</key>
-      <string>uni004A0301</string>
-      <key>Kcommaaccent</key>
-      <string>uni0136</string>
-      <key>LJ</key>
-      <string>uni01C7</string>
-      <key>Lcommaaccent</key>
-      <string>uni013B</string>
-      <key>Ldotbelow</key>
-      <string>uni1E36</string>
-      <key>Lj</key>
-      <string>uni01C8</string>
-      <key>Lmacronbelow</key>
-      <string>uni1E3A</string>
-      <key>Mdotbelow</key>
-      <string>uni1E42</string>
-      <key>NJ</key>
-      <string>uni01CA</string>
-      <key>Ncommaaccent</key>
-      <string>uni0145</string>
-      <key>Ndotaccent</key>
-      <string>uni1E44</string>
-      <key>Ndotbelow</key>
-      <string>uni1E46</string>
-      <key>Nj</key>
-      <string>uni01CB</string>
-      <key>Nmacronbelow</key>
-      <string>uni1E48</string>
-      <key>Ocircumflexacute</key>
-      <string>uni1ED0</string>
-      <key>Ocircumflexdotbelow</key>
-      <string>uni1ED8</string>
-      <key>Ocircumflexgrave</key>
-      <string>uni1ED2</string>
-      <key>Ocircumflexhookabove</key>
-      <string>uni1ED4</string>
-      <key>Ocircumflextilde</key>
-      <string>uni1ED6</string>
-      <key>Odblgrave</key>
-      <string>uni020C</string>
-      <key>Odieresismacron</key>
-      <string>uni022A</string>
-      <key>Odotaccentmacron</key>
-      <string>uni0230</string>
-      <key>Odotbelow</key>
-      <string>uni1ECC</string>
-      <key>Ohookabove</key>
-      <string>uni1ECE</string>
-      <key>Ohornacute</key>
-      <string>uni1EDA</string>
-      <key>Ohorndotbelow</key>
-      <string>uni1EE2</string>
-      <key>Ohorngrave</key>
-      <string>uni1EDC</string>
-      <key>Ohornhookabove</key>
-      <string>uni1EDE</string>
-      <key>Ohorntilde</key>
-      <string>uni1EE0</string>
-      <key>Oinvertedbreve</key>
-      <string>uni020E</string>
-      <key>Omacronacute</key>
-      <string>uni1E52</string>
-      <key>Omacrongrave</key>
-      <string>uni1E50</string>
-      <key>Oogonek</key>
-      <string>uni01EA</string>
-      <key>Otildeacute</key>
-      <string>uni1E4C</string>
-      <key>Otildedieresis</key>
-      <string>uni1E4E</string>
-      <key>Otildemacron</key>
-      <string>uni022C</string>
-      <key>Rcommaaccent</key>
-      <string>uni0156</string>
-      <key>Rdblgrave</key>
-      <string>uni0210</string>
-      <key>Rdotbelow</key>
-      <string>uni1E5A</string>
-      <key>Rinvertedbreve</key>
-      <string>uni0212</string>
-      <key>Rmacronbelow</key>
-      <string>uni1E5E</string>
-      <key>Sacutedotaccent</key>
-      <string>uni1E64</string>
-      <key>Scarondotaccent</key>
-      <string>uni1E66</string>
-      <key>Schwa</key>
-      <string>uni018F</string>
-      <key>Scommaaccent</key>
-      <string>uni0218</string>
-      <key>Sdotaccent</key>
-      <string>uni1E60</string>
-      <key>Sdotbelow</key>
-      <string>uni1E62</string>
-      <key>Sdotbelowdotaccent</key>
-      <string>uni1E68</string>
-      <key>Tcedilla</key>
-      <string>uni0162</string>
-      <key>Tcommaaccent</key>
-      <string>uni021A</string>
-      <key>Tdotbelow</key>
-      <string>uni1E6C</string>
-      <key>Tmacronbelow</key>
-      <string>uni1E6E</string>
-      <key>Udblgrave</key>
-      <string>uni0214</string>
-      <key>Udieresiscaron</key>
-      <string>uni01D9</string>
-      <key>Udotbelow</key>
-      <string>uni1EE4</string>
-      <key>Uhornacute</key>
-      <string>uni1EE8</string>
-      <key>Uhorndotbelow</key>
-      <string>uni1EF0</string>
-      <key>Uhorngrave</key>
-      <string>uni1EEA</string>
-      <key>Uhornhookabove</key>
-      <string>uni1EEC</string>
-      <key>Uhorntilde</key>
-      <string>uni1EEE</string>
-      <key>Uinvertedbreve</key>
-      <string>uni0216</string>
-      <key>Umacrondieresis</key>
-      <string>uni1E7A</string>
-      <key>Utildeacute</key>
-      <string>uni1E78</string>
-      <key>Ydotaccent</key>
-      <string>uni1E8E</string>
-      <key>Ydotbelow</key>
-      <string>uni1EF4</string>
-      <key>Yhookabove</key>
-      <string>uni1EF6</string>
-      <key>Ymacron</key>
-      <string>uni0232</string>
-      <key>Ytilde</key>
-      <string>uni1EF8</string>
-      <key>Zdotbelow</key>
-      <string>uni1E92</string>
-      <key>abreveacute</key>
-      <string>uni1EAF</string>
-      <key>abrevedotbelow</key>
-      <string>uni1EB7</string>
-      <key>abrevegrave</key>
-      <string>uni1EB1</string>
-      <key>abrevehookabove</key>
-      <string>uni1EB3</string>
-      <key>abrevetilde</key>
-      <string>uni1EB5</string>
-      <key>acircumflexacute</key>
-      <string>uni1EA5</string>
-      <key>acircumflexdotbelow</key>
-      <string>uni1EAD</string>
-      <key>acircumflexgrave</key>
-      <string>uni1EA7</string>
-      <key>acircumflexhookabove</key>
-      <string>uni1EA9</string>
-      <key>acircumflextilde</key>
-      <string>uni1EAB</string>
-      <key>adblgrave</key>
-      <string>uni0201</string>
-      <key>adotbelow</key>
-      <string>uni1EA1</string>
-      <key>ahookabove</key>
-      <string>uni1EA3</string>
-      <key>ainvertedbreve</key>
-      <string>uni0203</string>
-      <key>apostrophemod</key>
-      <string>uni02BC</string>
-      <key>brevecmb</key>
-      <string>uni0306</string>
-      <key>bulletoperator</key>
-      <string>uni2219</string>
-      <key>caroncmb</key>
-      <string>uni030C</string>
-      <key>ccedillaacute</key>
-      <string>uni1E09</string>
-      <key>cedi</key>
-      <string>uni20B5</string>
-      <key>cedillacmb</key>
-      <string>uni0327</string>
-      <key>circumflexcmb</key>
-      <string>uni0302</string>
-      <key>commaturnedabovecmb</key>
-      <string>uni0312</string>
-      <key>ddotbelow</key>
-      <string>uni1E0D</string>
-      <key>ddotbelow.alt</key>
-      <string>uni1E0D.alt</string>
-      <key>dieresisbelowcmb</key>
-      <string>uni0324</string>
-      <key>dieresiscmb</key>
-      <string>uni0308</string>
-      <key>divisionslash</key>
-      <string>uni2215</string>
-      <key>dmacronbelow</key>
-      <string>uni1E0F</string>
-      <key>dmacronbelow.alt</key>
-      <string>uni1E0F.alt</string>
-      <key>dotaccentcmb</key>
-      <string>uni0307</string>
-      <key>dotlessj</key>
-      <string>uni0237</string>
-      <key>dzcaron</key>
-      <string>uni01C6</string>
-      <key>dzcaron.alt</key>
-      <string>uni01C6.alt</string>
-      <key>ecedillabreve</key>
-      <string>uni1E1D</string>
-      <key>ecircumflexacute</key>
-      <string>uni1EBF</string>
-      <key>ecircumflexdotbelow</key>
-      <string>uni1EC7</string>
-      <key>ecircumflexgrave</key>
-      <string>uni1EC1</string>
-      <key>ecircumflexhookabove</key>
-      <string>uni1EC3</string>
-      <key>ecircumflextilde</key>
-      <string>uni1EC5</string>
-      <key>edblgrave</key>
-      <string>uni0205</string>
-      <key>edotbelow</key>
-      <string>uni1EB9</string>
-      <key>ehookabove</key>
-      <string>uni1EBB</string>
-      <key>einvertedbreve</key>
-      <string>uni0207</string>
-      <key>emacronacute</key>
-      <string>uni1E17</string>
-      <key>emacrongrave</key>
-      <string>uni1E15</string>
-      <key>etilde</key>
-      <string>uni1EBD</string>
-      <key>gcommaaccent</key>
-      <string>uni0123</string>
-      <key>gmacron</key>
-      <string>uni1E21</string>
-      <key>guarani</key>
-      <string>uni20B2</string>
-      <key>guillemetleft</key>
-      <string>guillemotleft</string>
-      <key>guillemetright</key>
-      <string>guillemotright</string>
-      <key>hbrevebelow</key>
-      <string>uni1E2B</string>
-      <key>hbrevebelow.alt</key>
-      <string>uni1E2B.alt</string>
-      <key>hdotbelow</key>
-      <string>uni1E25</string>
-      <key>hdotbelow.alt</key>
-      <string>uni1E25.alt</string>
-      <key>hook.cap</key>
-      <string>u1FA9D.cap</string>
-      <key>horncmb</key>
-      <string>uni031B</string>
-      <key>hungarumlautcmb</key>
-      <string>uni030B</string>
-      <key>idblgrave</key>
-      <string>uni0209</string>
-      <key>idieresisacute</key>
-      <string>uni1E2F</string>
-      <key>idotaccent</key>
-      <string>i.loclTRK</string>
-      <key>idotbelow</key>
-      <string>uni1ECB</string>
-      <key>ihookabove</key>
-      <string>uni1EC9</string>
-      <key>iinvertedbreve</key>
-      <string>uni020B</string>
-      <key>jacute</key>
-      <string>uni006A0301</string>
-      <key>kcommaaccent</key>
-      <string>uni0137</string>
-      <key>kcommaaccent.alt</key>
-      <string>uni0137.alt</string>
-      <key>kip</key>
-      <string>uni20AD</string>
-      <key>lcommaaccent</key>
-      <string>uni013C</string>
-      <key>lcommaaccent.alt</key>
-      <string>uni013C.alt</string>
-      <key>ldotbelow</key>
-      <string>uni1E37</string>
-      <key>ldotbelow.alt</key>
-      <string>uni1E37.alt</string>
-      <key>lj</key>
-      <string>uni01C9</string>
-      <key>lj.alt</key>
-      <string>uni01C9.alt</string>
-      <key>lmacronbelow</key>
-      <string>uni1E3B</string>
-      <key>lmacronbelow.alt</key>
-      <string>uni1E3B.alt</string>
-      <key>macronbelowcmb</key>
-      <string>uni0331</string>
-      <key>macroncmb</key>
-      <string>uni0304</string>
-      <key>manat</key>
-      <string>uni20BC</string>
-      <key>mdotbelow</key>
-      <string>uni1E43</string>
-      <key>mu.math</key>
-      <string>uni03BC.math</string>
-      <key>naira</key>
-      <string>uni20A6</string>
-      <key>nbspace</key>
-      <string>uni00A0</string>
-      <key>ncommaaccent</key>
-      <string>uni0146</string>
-      <key>ndotaccent</key>
-      <string>uni1E45</string>
-      <key>ndotbelow</key>
-      <string>uni1E47</string>
-      <key>nj</key>
-      <string>uni01CC</string>
-      <key>nmacronbelow</key>
-      <string>uni1E49</string>
-      <key>numero</key>
-      <string>uni2116</string>
-      <key>ocircumflexacute</key>
-      <string>uni1ED1</string>
-      <key>ocircumflexdotbelow</key>
-      <string>uni1ED9</string>
-      <key>ocircumflexgrave</key>
-      <string>uni1ED3</string>
-      <key>ocircumflexhookabove</key>
-      <string>uni1ED5</string>
-      <key>ocircumflextilde</key>
-      <string>uni1ED7</string>
-      <key>odblgrave</key>
-      <string>uni020D</string>
-      <key>odieresismacron</key>
-      <string>uni022B</string>
-      <key>odotaccentmacron</key>
-      <string>uni0231</string>
-      <key>odotbelow</key>
-      <string>uni1ECD</string>
-      <key>ogonekcmb</key>
-      <string>uni0328</string>
-      <key>ohookabove</key>
-      <string>uni1ECF</string>
-      <key>ohornacute</key>
-      <string>uni1EDB</string>
-      <key>ohorndotbelow</key>
-      <string>uni1EE3</string>
-      <key>ohorngrave</key>
-      <string>uni1EDD</string>
-      <key>ohornhookabove</key>
-      <string>uni1EDF</string>
-      <key>ohorntilde</key>
-      <string>uni1EE1</string>
-      <key>oinvertedbreve</key>
-      <string>uni020F</string>
-      <key>omacronacute</key>
-      <string>uni1E53</string>
-      <key>omacrongrave</key>
-      <string>uni1E51</string>
-      <key>onesuperior</key>
-      <string>uni00B9</string>
-      <key>oogonek</key>
-      <string>uni01EB</string>
-      <key>otildeacute</key>
-      <string>uni1E4D</string>
-      <key>otildedieresis</key>
-      <string>uni1E4F</string>
-      <key>otildemacron</key>
-      <string>uni022D</string>
-      <key>peso</key>
-      <string>uni20B1</string>
-      <key>primemod</key>
-      <string>uni02B9</string>
-      <key>rcommaaccent</key>
-      <string>uni0157</string>
-      <key>rdblgrave</key>
-      <string>uni0211</string>
-      <key>rdotbelow</key>
-      <string>uni1E5B</string>
-      <key>ringcmb</key>
-      <string>uni030A</string>
-      <key>ringcomb</key>
-      <string>uni030A</string>
-      <key>rinvertedbreve</key>
-      <string>uni0213</string>
-      <key>rmacronbelow</key>
-      <string>uni1E5F</string>
-      <key>ruble</key>
-      <string>uni20BD</string>
-      <key>sacutedotaccent</key>
-      <string>uni1E65</string>
-      <key>scarondotaccent</key>
-      <string>uni1E67</string>
-      <key>schwa</key>
-      <string>uni0259</string>
-      <key>scommaaccent</key>
-      <string>uni0219</string>
-      <key>sdotaccent</key>
-      <string>uni1E61</string>
-      <key>sdotbelow</key>
-      <string>uni1E63</string>
-      <key>sdotbelowdotaccent</key>
-      <string>uni1E69</string>
-      <key>tcedilla</key>
-      <string>uni0163</string>
-      <key>tcommaaccent</key>
-      <string>uni021B</string>
-      <key>tdieresis</key>
-      <string>uni1E97</string>
-      <key>tdotbelow</key>
-      <string>uni1E6D</string>
-      <key>threesuperior</key>
-      <string>uni00B3</string>
-      <key>tmacronbelow</key>
-      <string>uni1E6F</string>
-      <key>twosuperior</key>
-      <string>uni00B2</string>
-      <key>udblgrave</key>
-      <string>uni0215</string>
-      <key>udieresiscaron</key>
-      <string>uni01DA</string>
-      <key>udotbelow</key>
-      <string>uni1EE5</string>
-      <key>uhornacute</key>
-      <string>uni1EE9</string>
-      <key>uhorndotbelow</key>
-      <string>uni1EF1</string>
-      <key>uhorngrave</key>
-      <string>uni1EEB</string>
-      <key>uhornhookabove</key>
-      <string>uni1EED</string>
-      <key>uhorntilde</key>
-      <string>uni1EEF</string>
-      <key>uinvertedbreve</key>
-      <string>uni0217</string>
-      <key>umacrondieresis</key>
-      <string>uni1E7B</string>
-      <key>utildeacute</key>
-      <string>uni1E79</string>
-      <key>won</key>
-      <string>uni20A9</string>
-      <key>ydotaccent</key>
-      <string>uni1E8F</string>
-      <key>ydotbelow</key>
-      <string>uni1EF5</string>
-      <key>yhookabove</key>
-      <string>uni1EF7</string>
-      <key>ymacron</key>
-      <string>uni0233</string>
-      <key>ytilde</key>
-      <string>uni1EF9</string>
-      <key>zdotbelow</key>
-      <string>uni1E93</string>
-    </dict>
+    <dict/>
+    <key>public.skipExportGlyphs</key>
+    <array/>
   </dict>
 </plist>

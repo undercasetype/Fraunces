@@ -4,11 +4,11 @@
   <unicode hex="00D1"/>
   <outline>
     <contour>
-      <point x="665" y="1587"/>
-      <point x="743" y="1484"/>
+      <point x="665.0" y="1587.0"/>
+      <point x="743.0" y="1484.0"/>
       <point x="865" y="1484" type="curve" smooth="yes"/>
-      <point x="1000" y="1484"/>
-      <point x="1045" y="1580.441"/>
+      <point x="1000.0" y="1484.0"/>
+      <point x="1045.0" y="1580.4407894736842"/>
       <point x="1045" y="1758" type="curve" smooth="yes"/>
       <point x="1045" y="1766"/>
       <point x="1042" y="1770"/>
@@ -16,14 +16,14 @@
       <point x="1030" y="1770"/>
       <point x="1027" y="1766"/>
       <point x="1027" y="1758" type="curve" smooth="yes"/>
-      <point x="1025.484" y="1693.551"/>
-      <point x="1002" y="1664"/>
+      <point x="1025.4835605364324" y="1693.5513227983763"/>
+      <point x="1002.0" y="1664.0"/>
       <point x="952" y="1664" type="curve" smooth="yes"/>
-      <point x="879" y="1664"/>
-      <point x="801" y="1767"/>
+      <point x="879.0" y="1664.0"/>
+      <point x="801.0" y="1767.0"/>
       <point x="679" y="1767" type="curve" smooth="yes"/>
-      <point x="544" y="1767"/>
-      <point x="499" y="1670.207"/>
+      <point x="544.0" y="1767.0"/>
+      <point x="499.0" y="1670.2072368421054"/>
       <point x="499" y="1492" type="curve" smooth="yes"/>
       <point x="499" y="1484"/>
       <point x="502" y="1480"/>
@@ -31,8 +31,8 @@
       <point x="514" y="1480"/>
       <point x="517" y="1484"/>
       <point x="517" y="1492" type="curve" smooth="yes"/>
-      <point x="518.533" y="1557.134"/>
-      <point x="542" y="1587"/>
+      <point x="518.5325612895547" y="1557.1338548060726"/>
+      <point x="542.0" y="1587.0"/>
       <point x="592" y="1587" type="curve" smooth="yes"/>
     </contour>
     <contour>
@@ -48,12 +48,4 @@
       <point x="1364" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

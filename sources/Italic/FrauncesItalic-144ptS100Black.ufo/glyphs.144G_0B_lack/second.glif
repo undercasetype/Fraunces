@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="second" format="2">
   <advance width="674"/>
-  <unicode hex="2033"/>
   <outline>
     <contour>
       <point x="58" y="910" type="curve" smooth="yes"/>
@@ -54,12 +53,4 @@
       <point x="674" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,1,0.502</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

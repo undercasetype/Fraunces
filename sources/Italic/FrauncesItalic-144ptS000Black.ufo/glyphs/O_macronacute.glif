@@ -2,9 +2,6 @@
 <glyph name="Omacronacute" format="2">
   <advance width="1455"/>
   <unicode hex="1E52"/>
-  <anchor x="1014" y="1546" name="center_1"/>
-  <anchor x="1014" y="1514" name="center_2"/>
-  <anchor x="954" y="1767" name="center_3"/>
   <outline>
     <component base="O"/>
     <component base="macron.cap" xOffset="690" yOffset="519"/>
@@ -13,9 +10,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

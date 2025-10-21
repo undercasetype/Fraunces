@@ -2,17 +2,8 @@
 <glyph name="rmacronbelow" format="2">
   <advance width="636"/>
   <unicode hex="1E5F"/>
-  <anchor x="464" y="945" name="center"/>
   <outline>
     <component base="r"/>
-    <component base="macronbelowcmb" xOffset="-62.957"/>
+    <component base="macronbelowcmb" xOffset="-62.95694483912666"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

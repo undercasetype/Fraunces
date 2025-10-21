@@ -2,18 +2,8 @@
 <glyph name="uring" format="2">
   <advance width="1079"/>
   <unicode hex="016F"/>
-  <anchor x="669" y="1016" name="center_1"/>
-  <anchor x="666" y="943" name="center_2"/>
   <outline>
     <component base="u"/>
     <component base="ringcmb" xOffset="423"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

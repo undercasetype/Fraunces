@@ -2,19 +2,15 @@
 <glyph name="abrevedotbelow" format="2">
   <advance width="1105"/>
   <unicode hex="1EB7"/>
-  <anchor x="735" y="1010" name="center_1"/>
-  <anchor x="735" y="870" name="center_2"/>
   <outline>
     <component base="a"/>
     <component base="brevecmb" xOffset="273"/>
-    <component base="dotbelowcmb" xOffset="389.282"/>
+    <component base="dotbelowcmb" xOffset="389.28229487918907"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

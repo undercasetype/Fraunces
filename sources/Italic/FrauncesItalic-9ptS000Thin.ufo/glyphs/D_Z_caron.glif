@@ -2,19 +2,8 @@
 <glyph name="DZcaron" format="2">
   <advance width="2546"/>
   <unicode hex="01C4"/>
-  <anchor x="962" y="1485" name="center"/>
-  <anchor x="2314" y="1504" name="center_1"/>
-  <anchor x="2317" y="1521" name="center_2"/>
   <outline>
     <component base="D"/>
     <component base="Zcaron" xOffset="1429"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.800,1,0.400,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

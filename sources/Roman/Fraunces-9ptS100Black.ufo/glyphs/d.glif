@@ -6,7 +6,7 @@
     <contour>
       <point x="777" y="212" type="line"/>
       <point x="777" y="166" type="line" smooth="yes"/>
-      <point x="777" y="78"/>
+      <point x="777.0" y="78.0"/>
       <point x="863" y="0"/>
       <point x="959" y="0" type="curve" smooth="yes"/>
       <point x="1179" y="0" type="line" smooth="yes"/>
@@ -72,9 +72,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.843,0.863,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.8431,0.8627,1,1</string>
     </dict>
   </lib>
 </glyph>

@@ -2,8 +2,6 @@
 <glyph name="ihookabove" format="2">
   <advance width="623"/>
   <unicode hex="1EC9"/>
-  <anchor x="387" y="1013" name="center_1"/>
-  <anchor x="297" y="888" name="center_2"/>
   <outline>
     <component base="dotlessi"/>
     <component base="hookcmb" xOffset="-58"/>
@@ -11,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

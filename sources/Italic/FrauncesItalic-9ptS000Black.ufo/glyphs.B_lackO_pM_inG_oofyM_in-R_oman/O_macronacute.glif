@@ -5,31 +5,31 @@
   <outline>
     <contour>
       <point x="806" y="1440" type="curve"/>
-      <point x="349.432" y="1440"/>
-      <point x="68" y="1118"/>
+      <point x="349.4320987654321" y="1440.0"/>
+      <point x="68.0" y="1118.0"/>
       <point x="68" y="709" type="curve"/>
-      <point x="68" y="259"/>
-      <point x="352" y="-40"/>
+      <point x="68.0" y="259.0"/>
+      <point x="352.0" y="-40.0"/>
       <point x="817" y="-40" type="curve"/>
-      <point x="1274" y="-40"/>
-      <point x="1555" y="282"/>
+      <point x="1274.0" y="-40.0"/>
+      <point x="1555.0" y="282.0"/>
       <point x="1555" y="691" type="curve"/>
-      <point x="1555" y="1141"/>
-      <point x="1271.408" y="1440"/>
+      <point x="1555.0" y="1141.0"/>
+      <point x="1271.4076517150397" y="1440.0"/>
     </contour>
     <contour>
       <point x="1078" y="417" type="curve"/>
-      <point x="1078" y="209.72"/>
-      <point x="1023" y="101"/>
+      <point x="1078.0" y="209.7202572347267"/>
+      <point x="1023.0" y="101.0"/>
       <point x="914" y="101" type="curve" smooth="yes"/>
-      <point x="745" y="101"/>
-      <point x="549" y="537.515"/>
+      <point x="745.0" y="101.0"/>
+      <point x="549.0" y="537.515254237288"/>
       <point x="549" y="983" type="curve"/>
-      <point x="549" y="1190.28"/>
-      <point x="605" y="1299"/>
+      <point x="549.0" y="1190.2797427652733"/>
+      <point x="605.0" y="1299.0"/>
       <point x="713" y="1299" type="curve" smooth="yes"/>
-      <point x="882" y="1299"/>
-      <point x="1078" y="862.526"/>
+      <point x="882.0" y="1299.0"/>
+      <point x="1078.0" y="862.5256556442417"/>
     </contour>
     <contour>
       <point x="7" y="-490" type="line"/>
@@ -66,12 +66,4 @@
       <point x="1590" y="-490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

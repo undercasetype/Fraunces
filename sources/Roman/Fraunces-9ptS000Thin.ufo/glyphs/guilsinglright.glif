@@ -3,14 +3,12 @@
   <advance width="608"/>
   <unicode hex="203A"/>
   <outline>
-    <component base="guilsinglleft" xScale="-1.0" yScale="-1.0" xOffset="608" yOffset="926"/>
+    <component base="guilsinglleft" xScale="-1" yScale="-1" xOffset="608" yOffset="926"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.980,0.463,0.549,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0,0,1,0.5</string>
     </dict>
   </lib>
 </glyph>

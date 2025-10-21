@@ -2,17 +2,14 @@
 <glyph name="Ccaron" format="2">
   <advance width="1179"/>
   <unicode hex="010C"/>
-  <anchor x="695" y="1550" name="center"/>
   <outline>
     <component base="C"/>
-    <component base="caron.cap" xOffset="442.716" yOffset="490"/>
+    <component base="caron.cap" xOffset="442.7160406123148" yOffset="490"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

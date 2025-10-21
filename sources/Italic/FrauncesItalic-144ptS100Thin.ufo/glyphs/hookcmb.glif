@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hookcmb" format="2">
+  <advance width="347"/>
   <outline>
     <contour>
-      <point x="166" y="920"/>
-      <point x="162" y="931"/>
       <point x="163" y="942" type="curve" smooth="yes"/>
       <point x="165" y="951"/>
       <point x="172" y="960"/>
@@ -33,16 +32,14 @@
       <point x="376" y="1033"/>
       <point x="324" y="961"/>
       <point x="208" y="931" type="curve" smooth="yes"/>
+      <point x="166" y="920"/>
+      <point x="162" y="931"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>347</integer>
       <key>public.markColor</key>
-      <string>0.843,0.863,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>

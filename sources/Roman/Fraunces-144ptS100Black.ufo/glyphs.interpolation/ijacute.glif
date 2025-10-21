@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ijacute" format="2">
   <advance width="1193"/>
-  <unicode hex="E132"/>
   <outline>
     <contour>
       <point x="471" y="833" type="line" smooth="yes"/>
@@ -46,10 +45,10 @@
       <point x="471" y="266" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="-20" y="-450.8" type="line"/>
-      <point x="-20" y="1389.2" type="line"/>
-      <point x="566" y="1389.2" type="line"/>
-      <point x="566" y="-450.8" type="line"/>
+      <point x="-20.0" y="-450.8" type="line"/>
+      <point x="-20.0" y="1389.2" type="line"/>
+      <point x="566.0" y="1389.2" type="line"/>
+      <point x="566.0" y="-450.8" type="line"/>
     </contour>
     <contour>
       <point x="266" y="1227" type="curve" smooth="yes"/>
@@ -71,16 +70,16 @@
       <point x="312" y="1340"/>
     </contour>
     <contour>
-      <point x="162" y="-450.8" type="line"/>
-      <point x="162" y="1389.2" type="line"/>
-      <point x="627" y="1389.2" type="line"/>
-      <point x="627" y="-450.8" type="line"/>
+      <point x="162.0" y="-450.8" type="line"/>
+      <point x="162.0" y="1389.2" type="line"/>
+      <point x="627.0" y="1389.2" type="line"/>
+      <point x="627.0" y="-450.8" type="line"/>
     </contour>
     <contour>
-      <point x="-10" y="-450.8" type="line"/>
-      <point x="-10" y="1389.2" type="line"/>
-      <point x="576" y="1389.2" type="line"/>
-      <point x="576" y="-450.8" type="line"/>
+      <point x="-10.0" y="-450.8" type="line"/>
+      <point x="-10.0" y="1389.2" type="line"/>
+      <point x="576.0" y="1389.2" type="line"/>
+      <point x="576.0" y="-450.8" type="line"/>
     </contour>
     <contour>
       <point x="1077" y="272" type="curve" smooth="yes"/>
@@ -129,16 +128,16 @@
       <point x="1077" y="156"/>
     </contour>
     <contour>
-      <point x="586" y="-450.8" type="line"/>
-      <point x="586" y="1389.2" type="line"/>
-      <point x="1173" y="1389.2" type="line"/>
-      <point x="1173" y="-450.8" type="line"/>
+      <point x="586.0" y="-450.8" type="line"/>
+      <point x="586.0" y="1389.2" type="line"/>
+      <point x="1173.0" y="1389.2" type="line"/>
+      <point x="1173.0" y="-450.8" type="line"/>
     </contour>
     <contour>
-      <point x="596" y="-450.8" type="line"/>
-      <point x="596" y="1389.2" type="line"/>
-      <point x="1183" y="1389.2" type="line"/>
-      <point x="1183" y="-450.8" type="line"/>
+      <point x="596.0" y="-450.8" type="line"/>
+      <point x="596.0" y="1389.2" type="line"/>
+      <point x="1183.0" y="1389.2" type="line"/>
+      <point x="1183.0" y="-450.8" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-450.8" type="line"/>
@@ -147,12 +146,4 @@
       <point x="1193" y="-450.8" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.800,1,0.400,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

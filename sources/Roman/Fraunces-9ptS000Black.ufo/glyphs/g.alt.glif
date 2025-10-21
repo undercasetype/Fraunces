@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="g.alt" format="2">
   <advance width="1232"/>
-  <anchor x="604" y="1060" name="center"/>
+  <anchor x="604" y="1060.0" name="center"/>
   <outline>
     <contour>
       <point x="779" y="132" type="curve" smooth="yes"/>
@@ -94,9 +94,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.843,0.863,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,0,0,1</string>
     </dict>
   </lib>
 </glyph>

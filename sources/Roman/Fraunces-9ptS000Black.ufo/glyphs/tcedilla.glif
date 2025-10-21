@@ -2,18 +2,14 @@
 <glyph name="tcedilla" format="2">
   <advance width="884"/>
   <unicode hex="0163"/>
-  <anchor x="464" y="1363" name="center"/>
-  <anchor x="574" y="1367" name="right"/>
   <outline>
     <component base="t"/>
-    <component base="cedillacmb" xOffset="165.566"/>
+    <component base="cedillacmb" xOffset="165.56597664323635"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

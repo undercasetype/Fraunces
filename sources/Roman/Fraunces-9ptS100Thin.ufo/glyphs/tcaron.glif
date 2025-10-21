@@ -2,8 +2,6 @@
 <glyph name="tcaron" format="2">
   <advance width="630"/>
   <unicode hex="0165"/>
-  <anchor x="340" y="1209" name="center"/>
-  <anchor x="390" y="1209" name="right"/>
   <outline>
     <component base="t"/>
     <component base="turnedcommaabovecmb" xOffset="340" yOffset="-100"/>
@@ -11,9 +9,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0.4,0.8,0.9989,1</string>
     </dict>
   </lib>
 </glyph>

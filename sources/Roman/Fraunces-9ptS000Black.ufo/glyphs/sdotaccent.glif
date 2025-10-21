@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sdotaccent" format="2">
   <advance width="1070"/>
-  <anchor x="543" y="1115" name="center"/>
   <outline>
     <component base="s"/>
     <component base="dotaccentcmb" xOffset="268"/>
@@ -9,9 +8,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

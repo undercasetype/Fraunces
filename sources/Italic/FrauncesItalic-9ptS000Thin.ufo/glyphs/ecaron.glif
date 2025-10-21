@@ -2,18 +2,8 @@
 <glyph name="ecaron" format="2">
   <advance width="875"/>
   <unicode hex="011B"/>
-  <anchor x="570" y="1035" name="center_1"/>
-  <anchor x="566.192" y="1249.0" name="center_2"/>
   <outline>
     <component base="e"/>
     <component base="caroncmb" xOffset="250"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>

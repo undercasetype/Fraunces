@@ -2,17 +2,14 @@
 <glyph name="Rcaron" format="2">
   <advance width="1118"/>
   <unicode hex="0158"/>
-  <anchor x="578" y="1476" name="center"/>
   <outline>
     <component base="R"/>
-    <component base="caron.cap" xOffset="325.716" yOffset="480"/>
+    <component base="caron.cap" xOffset="325.7160406123148" yOffset="480"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.400,0.800,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>1,1,0,1</string>
     </dict>
   </lib>
 </glyph>

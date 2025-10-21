@@ -2,64 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>color</key>
+    <string>0.0641,0.5018,0.502,1</string>
     <key>lib</key>
     <dict>
-      <key>com.schriftgestaltung.layerId</key>
-      <string>F221E00D-7A3D-4917-A7DA-3493C4D24482</string>
-      <key>com.schriftgestaltung.layerOrderInGlyph.Eth</key>
-      <integer>21</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.Lslash</key>
-      <integer>19</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.Oogonek</key>
-      <integer>23</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.Oslash</key>
-      <integer>19</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.acute</key>
-      <integer>21</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.braceleft</key>
-      <integer>24</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.breve</key>
-      <integer>23</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.cedilla</key>
-      <integer>22</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.circumflex</key>
-      <integer>23</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.comma</key>
-      <integer>21</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.endash</key>
-      <integer>22</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.eogonek</key>
-      <integer>23</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.eth</key>
-      <integer>22</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.germandbls</key>
-      <integer>22</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.hookcmb</key>
-      <integer>23</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.lslash</key>
-      <integer>17</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.macron</key>
-      <integer>22</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.n</key>
-      <integer>25</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.oogonek</key>
-      <integer>23</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.oslash</key>
-      <integer>19</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.ring</key>
-      <integer>22</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.tilde</key>
-      <integer>23</integer>
       <key>com.typemytype.robofont.layerShow</key>
-      <integer>1</integer>
+      <true/>
       <key>com.typemytype.robofont.layerShowCoordinates</key>
-      <integer>0</integer>
+      <false/>
       <key>com.typemytype.robofont.layerShowFill</key>
-      <integer>0</integer>
+      <false/>
       <key>com.typemytype.robofont.layerShowPoints</key>
-      <integer>1</integer>
+      <true/>
       <key>com.typemytype.robofont.layerShowStroke</key>
-      <integer>1</integer>
+      <true/>
     </dict>
   </dict>
 </plist>

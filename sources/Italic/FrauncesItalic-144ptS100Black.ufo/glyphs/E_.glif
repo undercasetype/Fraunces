@@ -2,7 +2,7 @@
 <glyph name="E" format="2">
   <advance width="1247"/>
   <unicode hex="0045"/>
-  <anchor x="831" y="1468" name="center"/>
+  <anchor x="831" y="1468.0" name="center"/>
   <outline>
     <contour>
       <point x="473" y="806" type="line"/>
@@ -98,9 +98,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.843,0.863,1,1</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
+      <string>0,0,1,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="naira" format="2">
   <advance width="1670"/>
-  <unicode hex="20A6"/>
   <outline>
     <contour>
       <point x="632" y="102" type="curve" smooth="yes"/>
@@ -87,12 +86,4 @@
       <point x="632" y="39"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0,1,0.502</string>
-      <key>public.verticalOrigin</key>
-      <integer>1956</integer>
-    </dict>
-  </lib>
 </glyph>
